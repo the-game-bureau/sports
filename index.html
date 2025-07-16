@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Scores</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .sidebar {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .sidebar h2 {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 5px;
+            display: block;
+        }
+        .sidebar ul li a:hover {
+            color: #000;
+            background-color: #f0f0f0;
+        }
+        .main {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .main h1 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .scores-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .score-card {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 4px solid #333;
+        }
+        .score-card h3 {
+            font-size: 1em;
+            margin: 0 0 8px;
+            font-weight: bold;
+        }
+        .score-card p {
+            margin: 4px 0;
+            font-size: 0.9em;
+        }
+        .update-time {
+            font-size: 0.7em;
+            color: #666;
+            text-align: right;
+            margin-top: 5px;
+        }
+        .live .score-card {
+            border-left-color: #ff4444;
+        }
+        .refresh-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            max-width: 200px;
+        }
+        .refresh-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sports</h2>
+            <ul>
+                <li><a href="#">American Football</a></li>
+                <li><a href="#">Basketball</a></li>
+                <li><a href="#">Soccer</a></li>
+                <li><a href="#">Baseball</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>American Football Scores</h1>
+            <div class="section">
+                <h2>Live Games</h2>
+                <div class="scores-grid" id="live-scores">
+                    <div class="score-card live">
+                        <h3>Philadelphia Eagles vs Kansas City Chiefs</h3>
+                        <p>Eagles: 24</p>
+                        <p>Chiefs: 21</p>
+                        <div class="update-time">Updated: 11:24 AM CDT</div>
+                    </div>
+                    <div class="score-card live">
+                        <h3>Green Bay Packers vs Chicago Bears</h3>
+                        <p>Packers: 17</p>
+                        <p>Bears: 14</p>
+                        <div class="update-time">Updated: 11:24 AM CDT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Past Games</h2>
+                <div class="scores-grid" id="past-scores">
+                    <div class="score-card">
+                        <h3>Seattle Seahawks vs San Francisco 49ers</h3>
+                        <p>Seahawks: 10</p>
+                        <p>49ers: 13</p>
+                        <div class="update-time">Final: 10:45 AM CDT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Future Games</h2>
+                <div class="scores-grid" id="future-scores">
+                    <div class="score-card">
+                        <h3>Dallas Cowboys vs New York Giants</h3>
+                        <p>Scheduled: 1:00 PM CDT</p>
+                        <div class="update-time">Next: July 16, 2025</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>New England Patriots vs Miami Dolphins</h3>
+                        <p>Scheduled: 4:25 PM CDT</p>
+                        <div class="update-time">Next: July 16, 2025</div>
+                    </div>
+                </div>
+            </div>
+            <button class="refresh-button" onclick="updateScores()">Refresh</button>
+        </div>
+    </div>
+
+    <script>
+        function updateScores() {
+            const liveScores = document.getElementById('live-scores');
+            const pastScores = document.getElementById('past-scores');
+            const futureScores = document.getElementById('future-scores');
+            const liveData = [
+                { teams: "Philadelphia Eagles vs Kansas City Chiefs", scores: [24, 21], time: "11:24 AM CDT" },
+                { teams: "Green Bay Packers vs Chicago Bears", scores: [17, 14], time: "11:24 AM CDT" }
+            ];
+            const pastData = [
+                { teams: "Seattle Seahawks vs San Francisco 49ers", scores: [10, 13], time: "10:45 AM CDT" }
+            ];
+            const futureData = [
+                { teams: "Dallas Cowboys vs New York Giants", time: "1:00 PM CDT" },
+                { teams: "New England Patriots vs Miami Dolphins", time: "4:25 PM CDT" }
+            ];
+
+            liveScores.innerHTML = liveData.map(score => `
+                <div class="score-card live">
+                    <h3>${score.teams}</h3>
+                    <p>${score.teams.split(' vs ')[0]}: ${score.scores[0]}</p>
+                    <p>${score.teams.split(' vs ')[1]}: ${score.scores[1]}</p>
+                    <div class="update-time">Updated: ${score.time}</div>
+                </div>
+            `).join('');
+            pastScores.innerHTML = pastData.map(score => `
+                <div class="score-card">
+                    <h3>${score.teams}</h3>
+                    <p>${score.teams.split(' vs ')[0]}: ${score.scores[0]}</p>
+                    <p>${score.teams.split(' vs ')[1]}: ${score.scores[1]}</p>
+                    <div class="update-time">Final: ${score.time}</div>
+                </div>
+            `).join('');
+            futureScores.innerHTML = futureData.map(score => `
+                <div class="score-card">
+                    <h3>${score.teams}</h3>
+                    <p>Scheduled: ${score.time}</p>
+                    <div class="update-time">Next: July 16, 2025</div>
+                </div>
+            `).join('');
+        }
+
+        // Update every 2 minutes for mobile data efficiency
+        setInterval(updateScores, 120000);
+        updateScores();
+    </script>
+</body>
+</html>
