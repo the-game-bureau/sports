@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feed Status Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      padding: 40px;
+    }
+
+    .feed-status {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .feed-indicator {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: #fff8dc;
+      border: 1px solid #ffc107;
+      font-size: 0.75rem;
+      line-height: 1.2;
+      width: 140px;
+      height: 56px;
+      flex-shrink: 0;
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #999;
+    }
+
+    .feed-label {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+      max-width: 100px;
+    }
+
+    .feed-name {
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .feed-desc {
+      font-size: 0.65rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Feed Indicators</h1>
+  <div class="feed-status">
+    <div class="feed-indicator">
+      <div class="status-dot"></div>
+      <div class="feed-label">
+        <div class="feed-name">TheSportsDB</div>
+        <div class="feed-desc">Global Sports</div>
+      </div>
+    </div>
+    <div class="feed-indicator">
+      <div class="status-dot"></div>
+      <div class="feed-label">
+        <div class="feed-name">ESPN API</div>
+        <div class="feed-desc">U.S. Leagues</div>
+      </div>
+    </div>
+    <div class="feed-indicator">
+      <div class="status-dot"></div>
+      <div class="feed-label">
+        <div class="feed-name">PlainTextSports</div>
+        <div class="feed-desc">Live Scoreboard</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
