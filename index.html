@@ -213,7 +213,7 @@
         </div>
         
         <div id="scheduleContainer">
-            <div class="loading">Select a sport and date to view schedule</div>
+            <div class="loading">Loading next 10 upcoming games...</div>
         </div>
     </div>
 
@@ -252,17 +252,38 @@
                 this.loadButton.disabled = true;
                 
                 try {
-                    const formattedDate = date.replace(/-/g, '');
-                    const url = `https://site.api.espn.com/apis/site/v2/sports/${sport.includes('college') ? 'basketball' : sport}/scoreboard?dates=${formattedDate}`;
+                    // Get upcoming games across multiple days
+                    const allGames = [];
+                    const startDate = new Date(date);
                     
-                    const response = await fetch(url);
-                    
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
+                    // Check up to 30 days ahead to find 10 upcoming games
+                    for (let i = 0; i < 30 && allGames.length < 10; i++) {
+                        const currentDate = new Date(startDate);
+                        currentDate.setDate(startDate.getDate() + i);
+                        
+                        const formattedDate = currentDate.toISOString().split('T')[0].replace(/-/g, '');
+                        const url = `https://site.api.espn.com/apis/site/v2/sports/${sport.includes('college') ? 'basketball' : sport}/scoreboard?dates=${formattedDate}`;
+                        
+                        const response = await fetch(url);
+                        
+                        if (response.ok) {
+                            const data = await response.json();
+                            const events = data.events || [];
+                            
+                            // Filter for upcoming games (not completed)
+                            const upcomingGames = events.filter(event => {
+                                const status = event.competitions[0].status.type.state;
+                                return status === 'pre' || status === 'in';
+                            });
+                            
+                            allGames.push(...upcomingGames);
+                        }
                     }
                     
-                    const data = await response.json();
-                    this.renderSchedule(data);
+                    // Take only the first 10 games
+                    const upcomingGames = allGames.slice(0, 10);
+                    
+                    this.renderSchedule({ events: upcomingGames });
                     
                 } catch (error) {
                     console.error('Error fetching schedule:', error);
@@ -284,7 +305,7 @@
                 const events = data.events || [];
                 
                 if (events.length === 0) {
-                    this.container.innerHTML = '<div class="no-games">No games scheduled for this date</div>';
+                    this.container.innerHTML = '<div class="no-games">No upcoming games found</div>';
                     return;
                 }
                 
@@ -295,9 +316,15 @@
                     const homeTeam = competitors.find(c => c.homeAway === 'home');
                     const awayTeam = competitors.find(c => c.homeAway === 'away');
                     
-                    const gameTime = new Date(event.date).toLocaleTimeString([], {
+                    const gameDate = new Date(event.date);
+                    const gameTime = gameDate.toLocaleTimeString([], {
                         hour: '2-digit',
                         minute: '2-digit'
+                    });
+                    
+                    const gameDateStr = gameDate.toLocaleDateString([], {
+                        month: 'short',
+                        day: 'numeric'
                     });
                     
                     const status = competition.status.type.description;
@@ -312,7 +339,7 @@
                             </div>
                             
                             <div class="game-info">
-                                <div class="game-time">${gameTime}</div>
+                                <div class="game-time">${gameDateStr} ${gameTime}</div>
                                 <div class="game-status">${status}</div>
                             </div>
                             
