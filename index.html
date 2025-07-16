@@ -134,13 +134,13 @@
                         <h3>Philadelphia Eagles vs Kansas City Chiefs</h3>
                         <p>Eagles: 24</p>
                         <p>Chiefs: 21</p>
-                        <div class="update-time">Updated: 11:24 AM CDT</div>
+                        <div class="update-time">Updated: 12:27 PM CDT</div>
                     </div>
                     <div class="score-card live">
                         <h3>Green Bay Packers vs Chicago Bears</h3>
                         <p>Packers: 17</p>
                         <p>Bears: 14</p>
-                        <div class="update-time">Updated: 11:24 AM CDT</div>
+                        <div class="update-time">Updated: 12:27 PM CDT</div>
                     </div>
                 </div>
             </div>
@@ -159,14 +159,24 @@
                 <h2>Future Games</h2>
                 <div class="scores-grid" id="future-scores">
                     <div class="score-card">
-                        <h3>Dallas Cowboys vs New York Giants</h3>
-                        <p>Scheduled: 1:00 PM CDT</p>
-                        <div class="update-time">Next: July 16, 2025</div>
+                        <h3>Cowboys @ Eagles</h3>
+                        <p>Scheduled: 8:20 PM ET</p>
+                        <div class="update-time">Next: Sep 4, 2025</div>
                     </div>
                     <div class="score-card">
-                        <h3>New England Patriots vs Miami Dolphins</h3>
-                        <p>Scheduled: 4:25 PM CDT</p>
-                        <div class="update-time">Next: July 16, 2025</div>
+                        <h3>Chargers @ Chiefs</h3>
+                        <p>Scheduled: 8:00 PM ET</p>
+                        <div class="update-time">Next: Sep 5, 2025</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Jets @ Steelers</h3>
+                        <p>Scheduled: 1:00 PM ET</p>
+                        <div class="update-time">Next: Sep 7, 2025</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Falcons @ Buccaneers</h3>
+                        <p>Scheduled: 1:00 PM ET</p>
+                        <div class="update-time">Next: Sep 7, 2025</div>
                     </div>
                 </div>
             </div>
@@ -180,15 +190,17 @@
             const pastScores = document.getElementById('past-scores');
             const futureScores = document.getElementById('future-scores');
             const liveData = [
-                { teams: "Philadelphia Eagles vs Kansas City Chiefs", scores: [24, 21], time: "11:24 AM CDT" },
-                { teams: "Green Bay Packers vs Chicago Bears", scores: [17, 14], time: "11:24 AM CDT" }
+                { teams: "Philadelphia Eagles vs Kansas City Chiefs", scores: [24, 21], time: "12:27 PM CDT" },
+                { teams: "Green Bay Packers vs Chicago Bears", scores: [17, 14], time: "12:27 PM CDT" }
             ];
             const pastData = [
                 { teams: "Seattle Seahawks vs San Francisco 49ers", scores: [10, 13], time: "10:45 AM CDT" }
             ];
             const futureData = [
-                { teams: "Dallas Cowboys vs New York Giants", time: "1:00 PM CDT" },
-                { teams: "New England Patriots vs Miami Dolphins", time: "4:25 PM CDT" }
+                { teams: "Cowboys @ Eagles", time: "8:20 PM ET", date: "Sep 4, 2025" },
+                { teams: "Chargers @ Chiefs", time: "8:00 PM ET", date: "Sep 5, 2025" },
+                { teams: "Jets @ Steelers", time: "1:00 PM ET", date: "Sep 7, 2025" },
+                { teams: "Falcons @ Buccaneers", time: "1:00 PM ET", date: "Sep 7, 2025" }
             ];
 
             liveScores.innerHTML = liveData.map(score => `
@@ -211,7 +223,7 @@
                 <div class="score-card">
                     <h3>${score.teams}</h3>
                     <p>Scheduled: ${score.time}</p>
-                    <div class="update-time">Next: July 16, 2025</div>
+                    <div class="update-time">Next: ${score.date}</div>
                 </div>
             `).join('');
         }
