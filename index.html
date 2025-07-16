@@ -155,13 +155,13 @@
                         <h3>Philadelphia Eagles vs Kansas City Chiefs</h3>
                         <p>Eagles: 24</p>
                         <p>Chiefs: 21</p>
-                        <div class="update-time">Updated: 12:31 PM CDT</div>
+                        <div class="update-time">Updated: 12:29 PM CDT</div>
                     </div>
                     <div class="score-card live">
                         <h3>Green Bay Packers vs Chicago Bears</h3>
                         <p>Packers: 17</p>
                         <p>Bears: 14</p>
-                        <div class="update-time">Updated: 12:31 PM CDT</div>
+                        <div class="update-time">Updated: 12:29 PM CDT</div>
                     </div>
                 </div>
             </div>
@@ -210,104 +210,38 @@
     </div>
 
     <script>
-        // Function to fetch ESPN RSS feed (using a proxy due to CORS)
-        async function fetchRSS() {
-            try {
-                const proxy = 'https://cors-anywhere.herokuapp.com/';
-                const url = proxy + 'https://www.espn.com/espn/rss/ncf/news';
-                const response = await fetch(url);
-                const text = await response.text();
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(text, 'text/xml');
-                const items = Array.from(xmlDoc.getElementsByTagName('item')).map(item => ({
-                    title: item.getElementsByTagName('title')[0].textContent,
-                    link: item.getElementsByTagName('link')[0].textContent,
-                    pubDate: item.getElementsByTagName('pubDate')[0].textContent,
-                    content: item.getElementsByTagName('description')[0].textContent
-                }));
-                return { items };
-            } catch (error) {
-                console.error('Error fetching RSS:', error);
-                // Fallback mock data
-                return {
-                    items: [
-                        {
-                            title: "Top 25 College Football Preview for 2025",
-                            link: "https://www.espn.com/college-football/story/_/id/123456/preview-2025",
-                            pubDate: "2025-07-15 08:00:00",
-                            content: "A look at the top teams heading into the new season..."
-                        },
-                        {
-                            title: "Recruiting Updates: SEC Dominance Continues",
-                            link: "https://www.espn.com/college-football/story/_/id/123457/recruiting-sec",
-                            pubDate: "2025-07-16 10:30:00",
-                            content: "Latest commits shake up the rankings..."
-                        }
-                    ]
-                };
-            }
+        // Mock RSS parser function (replace with actual RSS parsing logic)
+        function parseRSS() {
+            // Simulated data from ESPN College Football RSS feed
+            return [
+                {
+                    title: "Top 25 College Football Preview for 2025",
+                    link: "https://www.espn.com/college-football/story/_/id/123456/preview-2025",
+                    pubDate: "2025-07-15 08:00:00",
+                    content: "A look at the top teams heading into the new season..."
+                },
+                {
+                    title: "Recruiting Updates: SEC Dominance Continues",
+                    link: "https://www.espn.com/college-football/story/_/id/123457/recruiting-sec",
+                    pubDate: "2025-07-16 10:30:00",
+                    content: "Latest commits shake up the rankings..."
+                }
+            ];
         }
 
-        // Function to update all sections
-        async function updateScores() {
+        function updateScores() {
             const liveScores = document.getElementById('live-scores');
             const pastScores = document.getElementById('past-scores');
             const futureScores = document.getElementById('future-scores');
             const newsFeed = document.getElementById('news-feed');
 
             const liveData = [
-                { teams: "Philadelphia Eagles vs Kansas City Chiefs", scores: [24, 21], time: "12:31 PM CDT" },
-                { teams: "Green Bay Packers vs Chicago Bears", scores: [17, 14], time: "12:31 PM CDT" }
+                { teams: "Philadelphia Eagles vs Kansas City Chiefs", scores: [24, 21], time: "12:29 PM CDT" },
+                { teams: "Green Bay Packers vs Chicago Bears", scores: [17, 14], time: "12:29 PM CDT" }
             ];
             const pastData = [
                 { teams: "Seattle Seahawks vs San Francisco 49ers", scores: [10, 13], time: "10:45 AM CDT" }
             ];
             const futureData = [
                 { teams: "Cowboys @ Eagles", time: "8:20 PM ET", date: "Sep 4, 2025" },
-                { teams: "Chargers @ Chiefs", time: "8:00 PM ET", date: "Sep 5, 2025" },
-                { teams: "Jets @ Steelers", time: "1:00 PM ET", date: "Sep 7, 2025" },
-                { teams: "Falcons @ Buccaneers", time: "1:00 PM ET", date: "Sep 7, 2025" }
-            ];
-
-            liveScores.innerHTML = liveData.map(score => `
-                <div class="score-card live">
-                    <h3>${score.teams}</h3>
-                    <p>${score.teams.split(' vs ')[0]}: ${score.scores[0]}</p>
-                    <p>${score.teams.split(' vs ')[1]}: ${score.scores[1]}</p>
-                    <div class="update-time">Updated: ${score.time}</div>
-                </div>
-            `).join('');
-            pastScores.innerHTML = pastData.map(score => `
-                <div class="score-card">
-                    <h3>${score.teams}</h3>
-                    <p>${score.teams.split(' vs ')[0]}: ${score.scores[0]}</p>
-                    <p>${score.teams.split(' vs ')[1]}: ${score.scores[1]}</p>
-                    <div class="update-time">Final: ${score.time}</div>
-                </div>
-            `).join('');
-            futureScores.innerHTML = futureData.map(score => `
-                <div class="score-card">
-                    <h3>${score.teams}</h3>
-                    <p>Scheduled: ${score.time}</p>
-                    <div class="update-time">Next: ${score.date}</div>
-                </div>
-            `).join('');
-
-            // Fetch and display news
-            const rssData = await fetchRSS();
-            newsFeed.innerHTML = rssData.items.map(item => `
-                <div class="news-item">
-                    <h3>${item.title}</h3>
-                    <p>${item.content.substring(0, 100)}...</p>
-                    <a href="${item.link}" target="_blank">Read more on ESPN</a>
-                    <div class="update-time">Published: ${new Date(item.pubDate).toLocaleString()}</div>
-                </div>
-            `).join('');
-        }
-
-        // Initial load and auto-refresh every 2 minutes
-        updateScores();
-        setInterval(updateScores, 120000);
-    </script>
-</body>
-</html>
+                { teams: "Chargers @
