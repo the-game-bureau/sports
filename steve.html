@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Coach Steve's Sports Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+            padding-bottom: 60px;
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 3px solid #444;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #4CAF50, #2196F3, #FF6B6B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 3s ease infinite;
+        }
+        
+        @keyframes gradient {
+            0%, 100% { filter: hue-rotate(0deg); }
+            50% { filter: hue-rotate(30deg); }
+        }
+        
+        .date {
+            font-size: 18px;
+            color: #999;
+            font-weight: 300;
+        }
+        
+        /* Main Container */
+        .sports-container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        /* Sport Section */
+        .sport-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+            border-radius: 16px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+        
+        .sport-header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            background: rgba(255,255,255,0.03);
+            border-bottom: 2px solid #333;
+        }
+        
+        .sport-icon {
+            font-size: 36px;
+            margin-right: 15px;
+            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
+        }
+        
+        /* Team Section */
+        .team-section {
+            border-bottom: 1px solid #333;
+        }
+        
+        .team-section:last-child {
+            border-bottom: none;
+        }
+        
+        .team-header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            background: rgba(255,255,255,0.02);
+        }
+        
+        .team-logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            border-radius: 8px;
+            object-fit: contain;
+            background: white;
+            padding: 2px;
+        }
+        
+        .team-info {
+            flex: 1;
+        }
+        
+        .team-name {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .team-record {
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .season-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: auto;
+        }
+        
+        .status-regular { background: #4CAF50; color: #000; }
+        .status-preseason { background: #FFA726; color: #000; }
+        .status-postseason { background: #2196F3; color: #fff; }
+        .status-offseason { background: #666; color: #fff; }
+        
+        /* Team Content */
+        .team-content {
+            padding: 0 20px 20px;
+        }
+        
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .action-button {
+            flex: 1;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        
+        .action-button:hover {
+            background: #333;
+            border-color: #555;
+            transform: translateY(-1px);
+        }
+        
+        /* Games Box */
+        .games-box {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+        }
+        
+        .section-header {
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .game-button {
+            width: 100%;
+            background: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            color: inherit;
+            font: inherit;
+        }
+        
+        .game-button:hover {
+            background: #333;
+            border-color: #444;
+            transform: translateX(2px);
+        }
+        
+        .game-button.live {
+            border-color: #4CAF50;
+            background: rgba(76, 175, 80, 0.1);
+        }
+        
+        .game-button.next-game {
+            border-color: #2196F3;
+            background: rgba(33, 150, 243, 0.05);
+        }
+        
+        .game-score-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .team-score-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+        }
+        
+        .team-score-item.winner {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .score-value {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .game-meta {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .live-indicator {
+            display: inline-block;
+            background: #4CAF50;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* News Section */
+        .news-section {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 15px;
+            border: 1px solid #333;
+        }
+        
+        .news-button {
+            width: 100%;
+            background: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            color: inherit;
+            font: inherit;
+        }
+        
+        .news-button:hover {
+            background: #333;
+            border-color: #444;
+            transform: translateX(2px);
+        }
+        
+        .news-headline {
+            font-weight: 600;
+            color: #4CAF50;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        .news-desc {
+            font-size: 13px;
+            color: #ccc;
+            line-height: 1.5;
+        }
+        
+        .news-meta {
+            font-size: 11px;
+            color: #888;
+            margin-top: 5px;
+        }
+        
+        .news-sources {
+            text-align: center;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #333;
+            font-size: 12px;
+        }
+        
+        .news-sources a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        
+        .news-sources a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Loading & Error States */
+        .loading {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+            font-size: 14px;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #333;
+            border-radius: 50%;
+            border-top-color: #4CAF50;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .error {
+            color: #ff6b6b;
+            padding: 12px;
+            background: #2a2a2a;
+            border-radius: 8px;
+            font-size: 14px;
+            border: 1px solid #ff6b6b33;
+        }
+        
+        /* Footer */
+        .footer-controls {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #1a1a1a;
+            border-top: 1px solid #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .refresh-btn {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+        }
+        
+        .auto-refresh-indicator {
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .timestamp {
+            text-align: center;
+            color: #666;
+            font-size: 11px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Coach Steve's Sports Report</h1>
+        <div class="date" id="currentDate"></div>
+    </div>
+    
+    <div class="sports-container" id="sports-container">
+        <!-- Content will be dynamically generated -->
+    </div>
+    
+    <div class="footer-controls">
+        <button class="refresh-btn" onclick="loadAllData()">🔄 Refresh All</button>
+        <div class="auto-refresh-indicator">
+            Auto-refresh: <span id="refresh-timer">5:00</span>
+        </div>
+    </div>
+    
+    <script>
+        // Configuration
+        const teams = {
+            football: {
+                name: 'Football',
+                icon: '🏈',
+                teams: [
+                    {
+                        id: 'saints',
+                        name: 'New Orleans Saints',
+                        logo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
+                        api: {
+                            team: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18',
+                            news: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=3',
+                            roster: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster'
+                        },
+                        type: 'nfl',
+                        links: {
+                            roster: 'https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints',
+                            coaches: 'https://www.neworleanssaints.com/team/coaches-roster'
+                        },
+                        newsSources: [
+                            { name: 'NOLA.com', url: 'https://www.nola.com/sports/saints/' },
+                            { name: 'The Advocate', url: 'https://www.theadvocate.com/new_orleans/sports/saints/' },
+                            { name: 'Saints.com', url: 'https://www.neworleanssaints.com/' }
+                        ]
+                    },
+                    {
+                        id: 'tulane-football',
+                        name: 'Tulane Green Wave Football',
+                        logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
+                        api: {
+                            team: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655',
+                            news: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=3',
+                            roster: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/roster'
+                        },
+                        type: 'college',
+                        links: {
+                            roster: 'https://tulanegreenwave.com/sports/football/roster',
+                            coaches: 'https://tulanegreenwave.com/sports/football/coaches'
+                        },
+                        newsSources: [
+                            { name: 'NOLA.com', url: 'https://www.nola.com/sports/tulane/' },
+                            { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/football' }
+                        ]
+                    }
+                ]
+            },
+            baseball: {
+                name: 'Baseball',
+                icon: '⚾',
+                teams: [
+                    {
+                        id: 'yankees',
+                        name: 'New York Yankees',
+                        logo: 'https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png',
+                        api: {
+                            team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10',
+                            news: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=3',
+                            roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/roster'
+                        },
+                        type: 'mlb',
+                        links: {
+                            roster: 'https://www.mlb.com/yankees/roster',
+                            coaches: 'https://www.mlb.com/yankees/roster/coaches'
+                        },
+                        newsSources: [
+                            { name: 'Yankees.com', url: 'https://www.mlb.com/yankees' },
+                            { name: 'ESPN', url: 'https://www.espn.com/mlb/team/_/name/nyy' }
+                        ]
+                    },
+                    {
+                        id: 'tulane-baseball',
+                        name: 'Tulane Green Wave Baseball',
+                        logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
+                        api: {
+                            team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655',
+                            roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655/roster'
+                        },
+                        type: 'college',
+                        links: {
+                            roster: 'https://tulanegreenwave.com/sports/baseball/roster',
+                            coaches: 'https://tulanegreenwave.com/sports/baseball/coaches'
+                        },
+                        newsSources: [
+                            { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/baseball' }
+                        ]
+                    }
+                ]
+            }
+        };
+        
+        // Utility Functions
+        function setCurrentDate() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('currentDate').textContent = now.toLocaleDateString('en-US', options);
+        }
+        
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffTime = date - now;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (diffDays === 0) return 'Today';
+            if (diffDays === 1) return 'Tomorrow';
+            if (diffDays === -1) return 'Yesterday';
+            
+            return date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit'
+            });
+        }
+        
+        function formatRelativeTime(dateString) {
+            if (!dateString) return '';
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffMs = now - date;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMs / 3600000);
+            const diffDays = Math.floor(diffMs / 86400000);
+            
+            if (diffMins < 1) return 'Just now';
+            if (diffMins < 60) return `${diffMins}m ago`;
+            if (diffHours < 24) return `${diffHours}h ago`;
+            if (diffDays < 7) return `${diffDays}d ago`;
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+        
+        function getSeasonStatus(sport, type) {
+            const now = new Date();
+            const month = now.getMonth() + 1;
+            const day = now.getDate();
+            
+            // Simplified season detection
+            if (sport === 'baseball') {
+                if (month >= 3 && month <= 10) return 'regular';
+                if (month === 2 || month === 11) return 'preseason';
+                return 'offseason';
+            } else if (sport === 'football') {
+                if (type === 'nfl') {
+                    if (month >= 9 || month <= 2) return 'regular';
+                    if (month === 8) return 'preseason';
+                    return 'offseason';
+                } else {
+                    if (month >= 8 || month <= 1) return 'regular';
+                    return 'offseason';
+                }
+            }
+            return 'offseason';
+        }
+        
+        // API Functions
+        async function fetchTeamData(team, sport) {
+            try {
+                const [teamResponse] = await Promise.all([
+                    fetch(team.api.team)
+                ]);
+                
+                const teamData = await teamResponse.json();
+                
+                let newsData = null;
+                if (team.api.news) {
+                    try {
+                        const newsResponse = await fetch(team.api.news);
+                        newsData = await newsResponse.json();
+                    } catch (e) {
+                        console.log('News fetch failed for', team.name);
+                    }
+                }
+                
+                return { teamData, newsData };
+            } catch (error) {
+                console.error('Error fetching data for', team.name, error);
+                return { teamData: null, newsData: null };
+            }
+        }
+        
+        // UI Functions
+        function createTeamHTML(team, sport, data) {
+            const seasonStatus = getSeasonStatus(sport, team.type);
+            const statusClass = `status-${seasonStatus}`;
+            const statusText = seasonStatus.charAt(0).toUpperCase() + seasonStatus.slice(1).replace('season', ' Season');
+            
+            let record = '';
+            if (data.teamData?.team?.record?.items?.[0]?.summary) {
+                record = data.teamData.team.record.items[0].summary;
+            }
+            
+            return `
+                <div class="team-section">
+                    <div class="team-header">
+                        <img src="${team.logo}" alt="${team.name}" class="team-logo">
+                        <div class="team-info">
+                            <div class="team-name">${team.name}</div>
+                            <div class="team-record">${record}</div>
+                        </div>
+                        <div class="season-status ${statusClass}">${statusText}</div>
+                    </div>
+                    <div class="team-content">
+                        <div class="action-buttons">
+                            <button class="action-button" onclick="handleRoster('${team.id}', '${team.links?.roster || '#'}')">📋 Roster</button>
+                            <button class="action-button" onclick="handleCoaches('${team.id}', '${team.links?.coaches || '#'}')">👥 Coaches</button>
+                            <button class="action-button" onclick="handleSchedule('${team.id}')">📅 Full Schedule</button>
+                        </div>
+                        <div id="${team.id}-content">
+                            <div class="loading"><div class="spinner"></div> Loading games...</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function createGamesHTML(team, data) {
+            let html = '<div class="games-box">';
+            html += '<div class="section-header">📅 GAMES</div>';
+            
+            if (data.teamData?.team?.nextEvent?.length > 0) {
+                const events = data.teamData.team.nextEvent;
+                const liveGames = [];
+                const upcomingGames = [];
+                const pastGames = [];
+                
+                events.forEach(event => {
+                    if (event.competitions?.[0]) {
+                        const competition = event.competitions[0];
+                        const status = competition.status;
+                        
+                        if (status.type.state === 'in') {
+                            liveGames.push(event);
+                        } else if (status.type.completed) {
+                            pastGames.push(event);
+                        } else {
+                            upcomingGames.push(event);
+                        }
+                    }
+                });
+                
+                // Sort games
+                upcomingGames.sort((a, b) => new Date(a.date) - new Date(b.date));
+                pastGames.sort((a, b) => new Date(b.date) - new Date(a.date));
+                
+                // Display games
+                if (liveGames.length > 0) {
+                    liveGames.forEach(game => {
+                        html += createGameButton(game, 'live');
+                    });
+                }
+                
+                if (upcomingGames.length > 0) {
+                    html += createGameButton(upcomingGames[0], 'next-game');
+                    upcomingGames.slice(1, 3).forEach(game => {
+                        html += createGameButton(game, 'upcoming');
+                    });
+                }
+                
+                if (pastGames.length > 0 && pastGames.length <= 2) {
+                    pastGames.forEach(game => {
+                        html += createGameButton(game, 'past');
+                    });
+                } else if (pastGames.length > 2) {
+                    pastGames.slice(0, 2).forEach(game => {
+                        html += createGameButton(game, 'past');
+                    });
+                }
+            } else {
+                html += '<div style="text-align: center; color: #666; padding: 20px;">No games scheduled</div>';
+            }
+            
+            html += '</div>';
+            
+            // News section
+            if (data.newsData?.articles?.length > 0) {
+                html += '<div class="news-section">';
+                html += '<div class="section-header">📰 LATEST NEWS</div>';
+                
+                data.newsData.articles.slice(0, 3).forEach(article => {
+                    const url = article.links?.web?.href || '#';
+                    html += `
+                        <button class="news-button" onclick="handleNewsClick('${encodeURIComponent(url)}')">
+                            <div class="news-headline">${article.headline}</div>
+                            ${article.description ? `<div class="news-desc">${article.description.substring(0, 100)}...</div>` : ''}
+                            <div class="news-meta">ESPN • ${formatRelativeTime(article.published || article.date)}</div>
+                        </button>
+                    `;
+                });
+                
+                if (team.newsSources) {
+                    html += '<div class="news-sources">';
+                    html += 'More from: ';
+                    team.newsSources.forEach((source, index) => {
+                        if (index > 0) html += ' • ';
+                        html += `<a href="${source.url}" target="_blank">${source.name}</a>`;
+                    });
+                    html += '</div>';
+                }
+                
+                html += '</div>';
+            }
+            
+            html += '<div class="timestamp">Last updated: ' + new Date().toLocaleTimeString() + '</div>';
+            
+            return html;
+        }
+        
+        function createGameButton(game, type) {
+            let html = `<button class="game-button ${type}" onclick="handleGameClick()">`;
+            
+            if (game.competitions?.[0]) {
+                const competition = game.competitions[0];
+                const competitors = competition.competitors;
+                const status = competition.status;
+                
+                if (status.type.completed || status.type.state === 'in') {
+                    html += '<div class="game-score-display">';
+                    competitors.forEach(comp => {
+                        const isWinner = comp.winner;
+                        html += `<div class="team-score-item ${isWinner ? 'winner' : ''}">`;
+                        html += `<span>${comp.team.abbreviation}</span>`;
+                        html += `<span class="score-value">${comp.score || 0}</span>`;
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                    
+                    if (status.type.state === 'in') {
+                        html += `<div class="game-meta">`;
+                        html += `<span class="live-indicator">LIVE</span> `;
+                        html += `${status.type.detail || ''}`;
+                        html += '</div>';
+                    } else {
+                        html += `<div class="game-meta">${formatDate(game.date)}</div>`;
+                    }
+                } else {
+                    html += `<div class="game-score-display">`;
+                    html += `<div style="font-weight: 600;">${game.name}</div>`;
+                    html += '</div>';
+                    html += `<div class="game-meta">${formatDate(game.date)}</div>`;
+                }
+            }
+            
+            html += '</button>';
+            return html;
+        }
+        
+        // Event Handlers
+        function handleGameClick() {
+            console.log('Game clicked');
+        }
+        
+        function handleNewsClick(url) {
+            if (url && url !== '#') {
+                window.open(decodeURIComponent(url), '_blank');
+            }
+        }
+        
+        function handleRoster(teamId, url) {
+            if (url && url !== '#') {
+                window.open(url, '_blank');
+            } else {
+                console.log('Roster clicked for', teamId);
+            }
+        }
+        
+        function handleCoaches(teamId, url) {
+            if (url && url !== '#') {
+                window.open(url, '_blank');
+            } else {
+                console.log('Coaches clicked for', teamId);
+            }
+        }
+        
+        function handleSchedule(teamId) {
+            // Build schedule URL based on team
+            let scheduleUrl = '#';
+            
+            switch(teamId) {
+                case 'saints':
+                    scheduleUrl = 'https://www.espn.com/nfl/team/schedule/_/name/no';
+                    break;
+                case 'tulane-football':
+                    scheduleUrl = 'https://tulanegreenwave.com/sports/football/schedule';
+                    break;
+                case 'yankees':
+                    scheduleUrl = 'https://www.mlb.com/yankees/schedule';
+                    break;
+                case 'tulane-baseball':
+                    scheduleUrl = 'https://tulanegreenwave.com/sports/baseball/schedule';
+                    break;
+            }
+            
+            if (scheduleUrl !== '#') {
+                window.open(scheduleUrl, '_blank');
+            } else {
+                console.log('Schedule clicked for', teamId);
+            }
+        }
+        
+        // Main Functions
+        async function loadAllData() {
+            const container = document.getElementById('sports-container');
+            let html = '';
+            
+            for (const [sportKey, sportData] of Object.entries(teams)) {
+                html += `
+                    <div class="sport-section">
+                        <div class="sport-header">
+                            <span class="sport-icon">${sportData.icon}</span>
+                            <span>${sportData.name}</span>
+                        </div>
+                `;
+                
+                for (const team of sportData.teams) {
+                    const data = await fetchTeamData(team, sportKey);
+                    html += createTeamHTML(team, sportKey, data);
+                }
+                
+                html += '</div>';
+            }
+            
+            container.innerHTML = html;
+            
+            // Load game data for each team
+            for (const [sportKey, sportData] of Object.entries(teams)) {
+                for (const team of sportData.teams) {
+                    const data = await fetchTeamData(team, sportKey);
+                    const contentElement = document.getElementById(`${team.id}-content`);
+                    if (contentElement) {
+                        contentElement.innerHTML = createGamesHTML(team, data);
+                    }
+                }
+            }
+        }
+        
+        // Auto-refresh setup
+        let refreshInterval;
+        let countdownInterval;
+        let timeRemaining = 300;
+        
+        function updateCountdown() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            document.getElementById('refresh-timer').textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            
+            if (timeRemaining <= 0) {
+                timeRemaining = 300;
+                loadAllData();
+            } else {
+                timeRemaining--;
+            }
+        }
+        
+        function startAutoRefresh() {
+            clearInterval(refreshInterval);
+            clearInterval(countdownInterval);
+            
+            refreshInterval = setInterval(() => {
+                loadAllData();
+                timeRemaining = 300;
+            }, 300000);
+            
+            countdownInterval = setInterval(updateCountdown, 1000);
+        }
+        
+        // Initialize
+        setCurrentDate();
+        loadAllData();
+        startAutoRefresh();
+    </script>
+</body>
+</html>
