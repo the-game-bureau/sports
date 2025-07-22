@@ -861,7 +861,7 @@
             // News section
             if (data.newsData?.articles?.length > 0) {
                 html += '<div class="news-section">';
-                html += '<div class="section-header">📰 LATEST NEWS</div>';
+                html += `<div class="section-header">📰 LATEST ${team.name.toUpperCase()} NEWS</div>`;
                 
                 data.newsData.articles.slice(0, 3).forEach(article => {
                     const url = article.links?.web?.href || '#';
