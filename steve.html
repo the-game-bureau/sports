@@ -93,9 +93,9 @@
             margin: 0 auto;
         }
         
-        /* Sport Section */
-        .sport-section {
-            background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+        /* Team Section */
+        .team-section {
+            background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
             border-radius: 16px;
             margin-bottom: 30px;
             overflow: hidden;
@@ -103,36 +103,34 @@
             border: 1px solid #333;
         }
         
-        .sport-header {
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            background: rgba(255,255,255,0.03);
-            border-bottom: 2px solid #333;
-        }
-        
-        .sport-icon {
-            font-size: 36px;
-            margin-right: 15px;
-            filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
-        }
-        
-        /* Team Section */
-        .team-section {
-            border-bottom: 1px solid #333;
-        }
-        
-        .team-section:last-child {
-            border-bottom: none;
-        }
-        
         .team-header {
             padding: 20px;
             display: flex;
             align-items: center;
             background: rgba(255,255,255,0.02);
+            border-bottom: 2px solid #333;
+        }
+        
+        /* Team-specific colors */
+        .team-header.tulane {
+            background: linear-gradient(135deg, #006747 0%, #004d35 100%);
+            border-bottom: 2px solid #006747;
+        }
+        
+        .team-header.saints {
+            background: linear-gradient(135deg, #D3BC8D 0%, #9F8A5B 100%);
+            border-bottom: 2px solid #D3BC8D;
+            color: #000;
+        }
+        
+        .team-header.yankees {
+            background: linear-gradient(135deg, #132448 0%, #0F1B36 100%);
+            border-bottom: 2px solid #132448;
+        }
+        
+        .team-header.iup {
+            background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
+            border-bottom: 2px solid #8B0000;
         }
         
         .team-logo {
@@ -160,23 +158,11 @@
             color: #888;
         }
         
-        .season-status {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-left: auto;
-        }
-        
-        .status-regular { background: #4CAF50; color: #000; }
-        .status-preseason { background: #FFA726; color: #000; }
-        .status-postseason { background: #2196F3; color: #fff; }
-        .status-offseason { background: #666; color: #fff; }
+
         
         /* Team Content */
         .team-content {
-            padding: 0 20px 20px;
+            padding: 15px 20px 20px;
         }
         
         /* Action Buttons */
@@ -204,6 +190,47 @@
             background: #333;
             border-color: #555;
             transform: translateY(-1px);
+        }
+        
+        /* Team-specific jersey colors */
+        .tulane .action-button.roster-btn {
+            background: linear-gradient(135deg, #006747, #004d35);
+            border-color: #006747;
+            color: white;
+        }
+        
+        .tulane .action-button.roster-btn:hover {
+            background: linear-gradient(135deg, #008055, #006747);
+        }
+        
+        .saints .action-button.roster-btn {
+            background: linear-gradient(135deg, #D3BC8D, #9F8A5B);
+            border-color: #D3BC8D;
+            color: #000;
+        }
+        
+        .saints .action-button.roster-btn:hover {
+            background: linear-gradient(135deg, #E0D1A5, #D3BC8D);
+        }
+        
+        .yankees .action-button.roster-btn {
+            background: linear-gradient(135deg, #132448, #0F1B36);
+            border-color: #132448;
+            color: white;
+        }
+        
+        .yankees .action-button.roster-btn:hover {
+            background: linear-gradient(135deg, #1A2D5A, #132448);
+        }
+        
+        .iup .action-button.roster-btn {
+            background: linear-gradient(135deg, #8B0000, #660000);
+            border-color: #8B0000;
+            color: white;
+        }
+        
+        .iup .action-button.roster-btn:hover {
+            background: linear-gradient(135deg, #A00000, #8B0000);
         }
         
         /* Games Box */
@@ -321,12 +348,29 @@
             text-align: left;
             color: inherit;
             font: inherit;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
         }
         
         .news-button:hover {
             background: #333;
             border-color: #444;
             transform: translateX(2px);
+        }
+        
+        .news-thumbnail {
+            width: 80px;
+            height: 60px;
+            border-radius: 4px;
+            object-fit: cover;
+            flex-shrink: 0;
+            background: #444;
+        }
+        
+        .news-content {
+            flex: 1;
+            min-width: 0;
         }
         
         .news-headline {
@@ -467,100 +511,114 @@
     
     <script>
         // Configuration
-        const teams = {
-            football: {
-                name: 'Football',
-                icon: '🏈',
-                teams: [
-                    {
-                        id: 'tulane-football',
-                        name: 'Tulane Green Wave Football',
-                        logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
-                        api: {
-                            team: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655',
-                            news: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=3',
-                            roster: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/roster',
-                            schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/schedule'
-                        },
-                        type: 'college',
-                        links: {
-                            roster: 'https://tulanegreenwave.com/sports/football/roster',
-                            coaches: 'https://tulanegreenwave.com/sports/football/coaches',
-                            officialSchedule: 'https://tulanegreenwave.com/sports/football/schedule/'
-                        },
-                        newsSources: [
-                            { name: 'NOLA.com', url: 'https://www.nola.com/sports/tulane/' },
-                            { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/football' }
-                        ]
-                    },
-                    {
-                        id: 'saints',
-                        name: 'New Orleans Saints',
-                        logo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
-                        api: {
-                            team: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18',
-                            news: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=3',
-                            roster: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster',
-                            schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule'
-                        },
-                        type: 'nfl',
-                        links: {
-                            roster: 'https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints',
-                            coaches: 'https://www.neworleanssaints.com/team/coaches-roster',
-                            athleticSchedule: 'https://www.nytimes.com/athletic/nfl/team/saints/schedule/'
-                        },
-                        newsSources: [
-                            { name: 'NOLA.com', url: 'https://www.nola.com/sports/saints/' },
-                            { name: 'The Advocate', url: 'https://www.theadvocate.com/new_orleans/sports/saints/' },
-                            { name: 'Saints.com', url: 'https://www.neworleanssaints.com/' },
-                            { name: 'The Athletic', url: 'https://www.nytimes.com/athletic/nfl/team/saints/' }
-                        ]
-                    }
+        const teams = [
+            {
+                id: 'tulane-football',
+                name: 'Tulane Green Wave Football',
+                logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
+                sport: 'football',
+                api: {
+                    team: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655',
+                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=3',
+                    roster: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/roster',
+                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/schedule'
+                },
+                type: 'college',
+                links: {
+                    roster: 'https://tulanegreenwave.com/sports/football/roster',
+                    coaches: 'https://tulanegreenwave.com/sports/football/coaches',
+                    officialSchedule: 'https://tulanegreenwave.com/sports/football/schedule/'
+                },
+                newsSources: [
+                    { name: 'NOLA.com', url: 'https://www.nola.com/sports/tulane/' },
+                    { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/football' }
                 ]
             },
-            baseball: {
-                name: 'Baseball',
-                icon: '⚾',
-                teams: [
-                    {
-                        id: 'tulane-baseball',
-                        name: 'Tulane Green Wave Baseball',
-                        logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
-                        api: {
-                            team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655',
-                            roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655/roster'
-                        },
-                        type: 'college',
-                        links: {
-                            roster: 'https://tulanegreenwave.com/sports/baseball/roster',
-                            coaches: 'https://tulanegreenwave.com/sports/baseball/coaches'
-                        },
-                        newsSources: [
-                            { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/baseball' }
-                        ]
-                    },
-                    {
-                        id: 'yankees',
-                        name: 'New York Yankees',
-                        logo: 'https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png',
-                        api: {
-                            team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10',
-                            news: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=3',
-                            roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/roster'
-                        },
-                        type: 'mlb',
-                        links: {
-                            roster: 'https://www.mlb.com/yankees/roster',
-                            coaches: 'https://www.mlb.com/yankees/roster/coaches'
-                        },
-                        newsSources: [
-                            { name: 'Yankees.com', url: 'https://www.mlb.com/yankees' },
-                            { name: 'ESPN', url: 'https://www.espn.com/mlb/team/_/name/nyy' }
-                        ]
-                    }
+            {
+                id: 'saints',
+                name: 'New Orleans Saints Football',
+                logo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
+                sport: 'football',
+                api: {
+                    team: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18',
+                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=3',
+                    roster: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster',
+                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule'
+                },
+                type: 'nfl',
+                links: {
+                    roster: 'https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints',
+                    coaches: 'https://www.neworleanssaints.com/team/coaches-roster',
+                    athleticSchedule: 'https://www.nytimes.com/athletic/nfl/team/saints/schedule/'
+                },
+                newsSources: [
+                    { name: 'NOLA.com', url: 'https://www.nola.com/sports/saints/' },
+                    { name: 'The Advocate', url: 'https://www.theadvocate.com/new_orleans/sports/saints/' },
+                    { name: 'Saints.com', url: 'https://www.neworleanssaints.com/' },
+                    { name: 'The Athletic', url: 'https://www.nytimes.com/athletic/nfl/team/saints/' }
+                ]
+            },
+            {
+                id: 'iup-volleyball',
+                name: 'Indiana University of Pennsylvania Volleyball',
+                logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/IUP_Crimson_Hawks_logo.svg/1024px-IUP_Crimson_Hawks_logo.svg.png',
+                sport: 'volleyball',
+                api: {
+                    team: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313',
+                    news: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/news?team=313&limit=3',
+                    roster: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/roster',
+                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/schedule'
+                },
+                type: 'college',
+                links: {
+                    roster: 'https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name',
+                    coaches: 'https://iupathletics.com/sports/womens-volleyball/coaches',
+                    officialSchedule: 'https://iupathletics.com/sports/womens-volleyball/schedule'
+                },
+                newsSources: [
+                    { name: 'IUP Athletics', url: 'https://iupathletics.com/sports/womens-volleyball' },
+                    { name: 'Indiana Gazette', url: 'https://www.indianagazette.com/sports/' }
+                ]
+            },
+            {
+                id: 'tulane-baseball',
+                name: 'Tulane Green Wave Baseball',
+                logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
+                sport: 'baseball',
+                api: {
+                    team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655',
+                    roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/college-baseball/teams/2655/roster'
+                },
+                type: 'college',
+                links: {
+                    roster: 'https://tulanegreenwave.com/sports/baseball/roster',
+                    coaches: 'https://tulanegreenwave.com/sports/baseball/coaches'
+                },
+                newsSources: [
+                    { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/baseball' }
+                ]
+            },
+            {
+                id: 'yankees',
+                name: 'New York Yankees',
+                logo: 'https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png',
+                sport: 'baseball',
+                api: {
+                    team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10',
+                    news: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=3',
+                    roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/roster'
+                },
+                type: 'mlb',
+                links: {
+                    roster: 'https://www.mlb.com/yankees/roster',
+                    coaches: 'https://www.mlb.com/yankees/roster/coaches'
+                },
+                newsSources: [
+                    { name: 'Yankees.com', url: 'https://www.mlb.com/yankees' },
+                    { name: 'ESPN', url: 'https://www.espn.com/mlb/team/_/name/nyy' }
                 ]
             }
-        };
+        ];
         
         // Utility Functions
         function setCurrentDate() {
@@ -622,12 +680,16 @@
                     if (month >= 8 || month <= 1) return 'regular';
                     return 'offseason';
                 }
+            } else if (sport === 'volleyball') {
+                if (month >= 8 && month <= 12) return 'regular';
+                if (month === 1) return 'postseason';
+                return 'offseason';
             }
             return 'offseason';
         }
         
         // API Functions
-        async function fetchTeamData(team, sport) {
+        async function fetchTeamData(team) {
             try {
                 const requests = [fetch(team.api.team)];
                 
@@ -662,10 +724,18 @@
         }
         
         // UI Functions
-        function createTeamHTML(team, sport, data) {
-            const seasonStatus = getSeasonStatus(sport, team.type);
-            const statusClass = `status-${seasonStatus}`;
-            const statusText = seasonStatus.charAt(0).toUpperCase() + seasonStatus.slice(1).replace('season', ' Season');
+        function createTeamHTML(team, data) {
+            // Determine team color class
+            let teamColorClass = '';
+            if (team.id.includes('tulane')) {
+                teamColorClass = 'tulane';
+            } else if (team.id === 'saints') {
+                teamColorClass = 'saints';
+            } else if (team.id === 'yankees') {
+                teamColorClass = 'yankees';
+            } else if (team.id === 'iup-volleyball') {
+                teamColorClass = 'iup';
+            }
             
             let record = '';
             let nextGameInfo = null;
@@ -711,18 +781,15 @@
             
             return `
                 <div class="team-section">
-                    <div class="team-header">
+                    <div class="team-header ${teamColorClass}">
                         <img src="${team.logo}" alt="${team.name}" class="team-logo">
                         <div class="team-info">
                             <div class="team-name">${team.name}</div>
-                            <div class="team-record">${record}</div>
-                            ${nextGameInfo ? `<div class="next-game-preview">Next: ${nextGameInfo.name} - ${nextGameInfo.date}</div>` : ''}
                         </div>
-                        <div class="season-status ${statusClass}">${statusText}</div>
                     </div>
                     <div class="team-content">
-                        <div class="action-buttons">
-                            <button class="action-button" onclick="handleRoster('${team.id}', '${team.links?.roster || '#'}')">📋 Roster</button>
+                        <div class="action-buttons ${teamColorClass}">
+                            <button class="action-button roster-btn" onclick="handleRoster('${team.id}', '${team.links?.roster || '#'}')">👕 Roster</button>
                             <button class="action-button" onclick="handleCoaches('${team.id}', '${team.links?.coaches || '#'}')">👥 Coaches</button>
                             <button class="action-button" onclick="handleSchedule('${team.id}')">📅 Full Schedule</button>
                         </div>
@@ -865,11 +932,16 @@
                 
                 data.newsData.articles.slice(0, 3).forEach(article => {
                     const url = article.links?.web?.href || '#';
+                    const thumbnail = article.images?.[0]?.url || '';
+                    
                     html += `
                         <button class="news-button" onclick="handleNewsClick('${encodeURIComponent(url)}')">
-                            <div class="news-headline">${article.headline}</div>
-                            ${article.description ? `<div class="news-desc">${article.description.substring(0, 100)}...</div>` : ''}
-                            <div class="news-meta">ESPN • ${formatRelativeTime(article.published || article.date)}</div>
+                            ${thumbnail ? `<img src="${thumbnail}" alt="Article thumbnail" class="news-thumbnail">` : ''}
+                            <div class="news-content">
+                                <div class="news-headline">${article.headline}</div>
+                                ${article.description ? `<div class="news-desc">${article.description.substring(0, 100)}...</div>` : ''}
+                                <div class="news-meta">ESPN • ${formatRelativeTime(article.published || article.date)}</div>
+                            </div>
                         </button>
                     `;
                 });
@@ -975,6 +1047,9 @@
                 case 'tulane-baseball':
                     scheduleUrl = 'https://tulanegreenwave.com/sports/baseball/schedule';
                     break;
+                case 'iup-volleyball':
+                    scheduleUrl = 'https://iupathletics.com/sports/womens-volleyball/schedule';
+                    break;
             }
             
             if (scheduleUrl !== '#') {
@@ -989,33 +1064,20 @@
             const container = document.getElementById('sports-container');
             let html = '';
             
-            for (const [sportKey, sportData] of Object.entries(teams)) {
-                html += `
-                    <div class="sport-section">
-                        <div class="sport-header">
-                            <span class="sport-icon">${sportData.icon}</span>
-                            <span>${sportData.name}</span>
-                        </div>
-                `;
-                
-                for (const team of sportData.teams) {
-                    const data = await fetchTeamData(team, sportKey);
-                    html += createTeamHTML(team, sportKey, data);
-                }
-                
-                html += '</div>';
+            // Load all teams directly (no sport grouping)
+            for (const team of teams) {
+                const data = await fetchTeamData(team);
+                html += createTeamHTML(team, data);
             }
             
             container.innerHTML = html;
             
             // Load game data for each team
-            for (const [sportKey, sportData] of Object.entries(teams)) {
-                for (const team of sportData.teams) {
-                    const data = await fetchTeamData(team, sportKey);
-                    const contentElement = document.getElementById(`${team.id}-content`);
-                    if (contentElement) {
-                        contentElement.innerHTML = createGamesHTML(team, data);
-                    }
+            for (const team of teams) {
+                const data = await fetchTeamData(team);
+                const contentElement = document.getElementById(`${team.id}-content`);
+                if (contentElement) {
+                    contentElement.innerHTML = createGamesHTML(team, data);
                 }
             }
         }
