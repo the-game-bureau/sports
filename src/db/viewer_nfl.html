@@ -162,7 +162,7 @@
             line-height: 1.2;
         }
         
-        /* Action Buttons - now 2 buttons instead of 3 */
+        /* Action Buttons */
         .actions {
             padding: 16px 20px 20px;
             display: flex;
@@ -191,44 +191,6 @@
         
         .btn:active {
             transform: scale(0.96);
-        }
-        
-        /* Full Schedule Button */
-        .full-schedule-btn-container {
-            margin-top: 16px;
-            text-align: center;
-        }
-        
-        .full-schedule-btn {
-            background: rgba(255,255,255,0.2);
-            color: inherit;
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 20px;
-            padding: 8px 16px;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-        
-        .full-schedule-btn:hover {
-            background: rgba(255,255,255,0.3);
-            transform: translateY(-1px);
-        }
-        
-        .full-schedule-btn:active {
-            transform: scale(0.96);
-        }
-        
-        .saints .full-schedule-btn {
-            background: rgba(0,0,0,0.15);
-            border-color: rgba(0,0,0,0.2);
-        }
-        
-        .saints .full-schedule-btn:hover {
-            background: rgba(0,0,0,0.25);
         }
         
         .tulane .btn {
@@ -271,8 +233,8 @@
             box-shadow: 0 4px 12px rgba(139,0,0,0.25);
         }
         
-        /* Schedule Embed and Schedule */
-        .schedule-embed-card {
+        /* Next Game and Schedule */
+        .next-game-card {
             margin: 0 20px 20px;
             padding: 20px;
             border-radius: 16px;
@@ -280,6 +242,117 @@
             overflow: hidden;
         }
         
+        .next-game-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+        
+        .next-game-card > * {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .tulane .next-game-card::before { 
+            background: linear-gradient(135deg, #006747 0%, #004d35 100%);
+        }
+        .saints .next-game-card::before { 
+            background: linear-gradient(135deg, #D3BC8D 0%, #B8A373 100%);
+        }
+        .yankees .next-game-card::before { 
+            background: linear-gradient(135deg, #132448 0%, #0f1d38 100%);
+        }
+        .iup .next-game-card::before { 
+            background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
+        }
+        
+        .tulane .next-game-card { color: white; }
+        .saints .next-game-card { color: #2c1810; }
+        .yankees .next-game-card { color: white; }
+        .iup .next-game-card { color: white; }
+        
+        .next-game-title {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin-bottom: 12px;
+            opacity: 0.8;
+        }
+        
+        .next-game-matchup {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+        
+        .next-game-details {
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            opacity: 0.9;
+        }
+        
+        .countdown {
+            margin-top: 12px;
+            padding: 8px 12px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        .saints .countdown {
+            background: rgba(0,0,0,0.1);
+        }
+        
+        /* More Games Button */
+        .more-games-btn-container {
+            margin-top: 16px;
+            text-align: center;
+        }
+        
+        .more-games-btn {
+            background: rgba(255,255,255,0.2);
+            color: inherit;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        .more-games-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-1px);
+        }
+        
+        .more-games-btn:active {
+            transform: scale(0.96);
+        }
+        
+        .saints .more-games-btn {
+            background: rgba(0,0,0,0.15);
+            border-color: rgba(0,0,0,0.2);
+        }
+        
+        .saints .more-games-btn:hover {
+            background: rgba(0,0,0,0.25);
+        }
+        
+        /* Schedule Components */
         .schedule-container {
             margin-top: 16px;
             max-height: 350px;
@@ -360,59 +433,6 @@
             padding: 20px;
         }
         
-        /* Schedule Embed */
-        .schedule-embed {
-            margin-top: 16px;
-        }
-        
-        .schedule-embed iframe {
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255,255,255,0.2);
-            background: rgba(255,255,255,0.9);
-        }
-        
-        .schedule-embed-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 1;
-        }
-        
-        .schedule-embed-card > * {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .tulane .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #006747 0%, #004d35 100%);
-        }
-        .saints .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #D3BC8D 0%, #B8A373 100%);
-        }
-        .yankees .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #132448 0%, #0f1d38 100%);
-        }
-        .iup .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
-        }
-        
-        .tulane .schedule-embed-card { color: white; }
-        .saints .schedule-embed-card { color: #2c1810; }
-        .yankees .schedule-embed-card { color: white; }
-        .iup .schedule-embed-card { color: white; }
-        
-        .schedule-embed-title {
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: -0.01em;
-            margin-bottom: 12px;
-            opacity: 0.8;
-        }
-        
         /* PDF Embed */
         .pdf-embed {
             margin-top: 16px;
@@ -457,7 +477,7 @@
         }
         
         .news-item:nth-child(even) {
-            background: rgba(185,225,205,0.9);
+            background: rgba(248,249,250,0.9);
         }
         
         .news-item:hover {
@@ -506,19 +526,102 @@
             font-weight: 500;
         }
         
-        .news-sources {
-            margin-top: 16px;
-            padding-top: 16px;
-            border-top: 1px solid rgba(0,0,0,0.05);
-            text-align: center;
+        .news-meta.old {
+            color: #f59e0b;
         }
         
-        .news-sources a {
+        /* News Sources Footer */
+        .news-sources-footer {
+            margin-top: 16px;
+            padding: 12px 16px;
+            background: rgba(0,0,0,0.03);
+            border-radius: 12px;
+            border-top: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .news-sources-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #86868b;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .news-sources-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .news-source-link {
             color: #007aff;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 500;
-            margin: 0 8px;
+            padding: 4px 8px;
+            background: rgba(0,122,255,0.1);
+            border-radius: 12px;
+            transition: all 0.2s ease;
+        }
+        
+        .news-source-link:hover {
+            background: rgba(0,122,255,0.2);
+            transform: translateY(-1px);
+        }
+        
+        .news-source-link:active {
+            transform: scale(0.95);
+        }
+        
+        /* Alert styles for news issues */
+        .news-alert {
+            text-align: center;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+        
+        .news-alert.warning {
+            background: rgba(255,193,7,0.1);
+            color: #856404;
+            border: 1px solid rgba(255,193,7,0.2);
+        }
+        
+        .news-alert.info {
+            background: rgba(13,110,253,0.1);
+            color: #0c4a6e;
+            border: 1px solid rgba(13,110,253,0.2);
+        }
+        
+        .offseason-note {
+            text-align: center;
+            margin-top: 16px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .tulane .offseason-note {
+            background: rgba(0,103,71,0.1);
+            color: #006747;
+        }
+        
+        .saints .offseason-note {
+            background: rgba(211,188,141,0.1);
+            color: #8b7355;
+        }
+        
+        .yankees .offseason-note {
+            background: rgba(19,36,72,0.1);
+            color: #132448;
+        }
+        
+        .iup .offseason-note {
+            background: rgba(139,0,0,0.1);
+            color: #8B0000;
         }
         
         /* Footer */
@@ -638,11 +741,13 @@
                 sport: 'football',
                 api: {
                     team: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=3',
+                    news: [
+                        'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=10',
+                        'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/news'
+                    ],
                     roster: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/roster',
                     schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/schedule',
-                    officialScheduleUrl: 'https://tulanegreenwave.com/sports/football/schedule',
-                    embedScheduleUrl: 'https://tulanegreenwave.com/services/schedule_txt.ashx?schedule=4566'
+                    officialScheduleUrl: 'https://tulanegreenwave.com/sports/football/schedule'
                 },
                 type: 'college',
                 nextGame: null,
@@ -653,19 +758,21 @@
                 },
                 newsSources: [
                     { name: 'NOLA.com', url: 'https://www.nola.com/sports/tulane/' },
-                    { name: 'Tulane', url: 'https://tulanegreenwave.com/sports/football' },
-                    { name: 'Facebook', url: 'https://www.facebook.com/GreenWaveFootball' },
+                    { name: 'Tulane Athletics', url: 'https://tulanegreenwave.com/sports/football' },
+                    { name: 'Green Wave Football', url: 'https://www.facebook.com/GreenWaveFootball' },
                     { name: 'Google News', url: 'https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJtTjJSak1SSUNaVzRvQUFQAQ?ceid=US:en&oc=3' }
                 ]
             },
             {
                 id: 'saints',
-                name: 'New Orleans Saints Football',
+                name: 'New Orleans Saints',
                 logo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
                 sport: 'football',
                 api: {
                     team: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=3',
+                    news: [
+                        'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=10'
+                    ],
                     roster: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster',
                     schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule'
                 },
@@ -684,12 +791,14 @@
             },
             {
                 id: 'yankees',
-                name: 'New York Yankees Baseball',
+                name: 'New York Yankees',
                 logo: 'https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png',
                 sport: 'baseball',
                 api: {
                     team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=3',
+                    news: [
+                        'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=10'
+                    ],
                     roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/roster',
                     schedule: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/schedule'
                 },
@@ -711,7 +820,9 @@
                 sport: 'volleyball',
                 api: {
                     team: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/news?team=313&limit=3',
+                    news: [
+                        'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/news?team=313&limit=10'
+                    ],
                     roster: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/roster',
                     schedule: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/schedule',
                     officialScheduleUrl: 'https://iupathletics.com/sports/womens-volleyball/schedule'
@@ -775,7 +886,16 @@
             if (diffMins < 60) return `${diffMins}m ago`;
             if (diffHours < 24) return `${diffHours}h ago`;
             if (diffDays < 7) return `${diffDays}d ago`;
+            if (diffDays < 30) return `${Math.floor(diffDays/7)}w ago`;
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+        
+        function isNewsOld(dateString, daysThreshold = 30) {
+            if (!dateString) return false;
+            const date = new Date(dateString);
+            const now = new Date();
+            const diffDays = (now - date) / (1000 * 60 * 60 * 24);
+            return diffDays > daysThreshold;
         }
         
         function getTimeUntilGame(gameDate) {
@@ -889,6 +1009,82 @@
             }
         }
         
+        // Enhanced news fetching with multiple source attempts
+        async function fetchEnhancedNews(team) {
+            const newsUrls = team.api.news || [];
+            
+            for (const newsUrl of newsUrls) {
+                try {
+                    const response = await fetch(newsUrl);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.articles && data.articles.length > 0) {
+                            console.log(`Successfully fetched ${data.articles.length} articles from ESPN for ${team.name}`);
+                            return data;
+                        }
+                    }
+                } catch (error) {
+                    console.log(`Failed to fetch news from ${newsUrl}:`, error);
+                    continue;
+                }
+            }
+            
+            console.log(`No news found from ESPN APIs for ${team.name}, using fallback`);
+            return getFallbackNews(team);
+        }
+        
+        // Fallback news when APIs fail
+        function getFallbackNews(team) {
+            const now = new Date();
+            const sportEmoji = getSportEmoji(team.sport);
+            
+            let seasonContext = '';
+            let fallbackArticles = [];
+            
+            if (team.sport === 'football' && team.type === 'college') {
+                seasonContext = 'Spring Practice & Recruiting';
+                fallbackArticles = [
+                    {
+                        headline: `${team.name} Spring Practice Updates`,
+                        description: `Coach continues preparation for the 2025 season with spring workouts and team development.`,
+                        published: now.toISOString(),
+                        links: { web: { href: team.links?.officialSchedule || team.newsSources?.[0]?.url || '#' } }
+                    },
+                    {
+                        headline: `2025 Season Outlook`,
+                        description: `Preview of upcoming season, key players to watch, and schedule highlights.`,
+                        published: now.toISOString(),
+                        links: { web: { href: team.newsSources?.[1]?.url || team.newsSources?.[0]?.url || '#' } }
+                    }
+                ];
+            } else if (team.sport === 'football' && team.type === 'nfl') {
+                seasonContext = 'Offseason Moves & Draft Prep';
+                fallbackArticles = [
+                    {
+                        headline: `${team.name} Offseason Updates`,
+                        description: `Latest roster moves, coaching changes, and preparation for the upcoming season.`,
+                        published: now.toISOString(),
+                        links: { web: { href: team.newsSources?.[0]?.url || '#' } }
+                    }
+                ];
+            } else {
+                fallbackArticles = [
+                    {
+                        headline: `${team.name} Latest Updates`,
+                        description: `Check official sources for the most recent team news and announcements.`,
+                        published: now.toISOString(),
+                        links: { web: { href: team.newsSources?.[0]?.url || '#' } }
+                    }
+                ];
+            }
+            
+            return {
+                articles: fallbackArticles,
+                isFallback: true,
+                seasonContext: seasonContext
+            };
+        }
+        
         // API Functions
         async function fetchTeamData(team) {
             try {
@@ -925,22 +1121,17 @@
                     }
                 }
                 
-                let newsData = null;
-                if (team.api.news) {
-                    try {
-                        const newsResponse = await fetch(team.api.news);
-                        if (newsResponse.ok) {
-                            newsData = await newsResponse.json();
-                        }
-                    } catch (e) {
-                        console.log('News fetch failed for', team.name);
-                    }
-                }
+                // Use enhanced news fetching
+                const newsData = await fetchEnhancedNews(team);
                 
                 return { teamData, newsData, scheduleData };
             } catch (error) {
                 console.error('Error fetching data for', team.name, error);
-                return { teamData: null, newsData: null, scheduleData: null };
+                return { 
+                    teamData: null, 
+                    newsData: getFallbackNews(team), 
+                    scheduleData: null 
+                };
             }
         }
         
@@ -962,39 +1153,13 @@
             }
         }
         
-        function createScheduleEmbedContent(team, nextGame, scheduleData) {
+        function createNextGameContent(team, nextGame, scheduleData) {
             const sportEmoji = getSportEmoji(team.sport);
-            
-            // Special case for Tulane - embed the schedule
-            if (team.id === 'tulane-football') {
-                return `
-                    <div class="schedule-embed-title">${sportEmoji} FOOTBALL SCHEDULE</div>
-                    <div class="schedule-embed">
-                        <iframe 
-                            src="${team.api.embedScheduleUrl}" 
-                            width="100%" 
-                            height="400" 
-                            style="border-radius: 8px; background: rgba(255,255,255,0.95); border: 1px solid rgba(255,255,255,0.2);">
-                            <p>Your browser does not support iframes. 
-                               <a href="${team.api.embedScheduleUrl}" target="_blank">
-                                   View Tulane Football Schedule
-                               </a>
-                            </p>
-                        </iframe>
-                        <div style="text-align: center; margin-top: 8px; font-size: 12px; opacity: 0.8;">
-                            <a href="${team.api.embedScheduleUrl}" target="_blank" 
-                               style="color: inherit; text-decoration: none;">
-                                📅 View Schedule Data →
-                            </a>
-                        </div>
-                    </div>
-                `;
-            }
             
             // Special case for Saints - embed PDF
             if (team.id === 'saints') {
                 return `
-                    <div class="schedule-embed-title">${sportEmoji} TEAM INFORMATION</div>
+                    <div class="next-game-title">${sportEmoji} TEAM INFORMATION</div>
                     <div class="pdf-embed">
                         <iframe 
                             src="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" 
@@ -1028,7 +1193,7 @@
             
             if (!gameInfo) {
                 return `
-                    <div class="schedule-embed-title">${sportEmoji} NEXT GAME</div>
+                    <div class="next-game-title">${sportEmoji} NEXT GAME</div>
                     <div class="next-game-matchup">No upcoming games</div>
                     <div class="next-game-details">Season may be in offseason</div>
                 `;
@@ -1066,7 +1231,7 @@
             const vsAt = isHome ? 'vs' : 'at';
             
             return `
-                <div class="schedule-embed-title">${sportEmoji} NEXT GAME</div>
+                <div class="next-game-title">${sportEmoji} NEXT GAME</div>
                 <div class="next-game-matchup">${vsAt} ${opponent}</div>
                 <div class="next-game-details">${time}</div>
                 <div class="next-game-details">📍 ${location}</div>
@@ -1078,13 +1243,13 @@
         function createIUPScheduleDisplay(scheduleData) {
             const sportEmoji = getSportEmoji('volleyball');
             let html = `
-                <div class="schedule-embed-title">${sportEmoji} FULL SCHEDULE</div>
+                <div class="next-game-title">${sportEmoji} FULL SCHEDULE</div>
                 <div class="schedule-container">
             `;
             
             if (!scheduleData?.events || scheduleData.events.length === 0) {
                 return `
-                    <div class="schedule-embed-title">${sportEmoji} FULL SCHEDULE</div>
+                    <div class="next-game-title">${sportEmoji} FULL SCHEDULE</div>
                     <div class="schedule-loading">
                         <div style="text-align: center; padding: 20px;">
                             <div class="spinner" style="display: inline-block;"></div>
@@ -1219,11 +1384,11 @@
                         <button class="btn" onclick="handleCoaches('${team.id}', '${team.links?.coaches || '#'}')">📣 Coaches</button>
                     </div>
                     
-                    <div class="schedule-embed-card ${teamColorClass}">
-                        ${createScheduleEmbedContent(team, nextGame, data.scheduleData)}
-                        <div class="full-schedule-btn-container">
-                            <button class="full-schedule-btn ${teamColorClass}" onclick="handleSchedule('${team.id}')">
-                                📅 FULL SCHEDULE
+                    <div class="next-game-card ${teamColorClass}">
+                        ${createNextGameContent(team, nextGame, data.scheduleData)}
+                        <div class="more-games-btn-container">
+                            <button class="more-games-btn ${teamColorClass}" onclick="handleSchedule('${team.id}')">
+                                📅 More Games
                             </button>
                         </div>
                     </div>
@@ -1240,17 +1405,56 @@
             `;
         }
         
-        function createNewsHTML(team, data) {
+        function createEnhancedNewsHTML(team, data) {
+            const teamColorClass = getTeamColorClass(team);
             let html = '';
             
-            // Always show both ESPN news AND news source links
-            let hasESPNNews = data.newsData?.articles?.length > 0;
+            // Check if we have ESPN news and if it's recent
+            let hasESPNNews = data.newsData?.articles?.length > 0 && !data.newsData?.isFallback;
+            let hasRecentNews = false;
+            let oldNewsCount = 0;
             
             if (hasESPNNews) {
-                html += `<div class="news-title">Latest ${team.name} News</div>`;                
-                data.newsData.articles.slice(0, 2).forEach(article => {
+                const thirtyDaysAgo = new Date();
+                thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+                
+                data.newsData.articles.forEach(article => {
+                    const articleDate = new Date(article.published || article.date);
+                    if (articleDate > thirtyDaysAgo) {
+                        hasRecentNews = true;
+                    } else {
+                        oldNewsCount++;
+                    }
+                });
+            }
+            
+            // Show alerts for news issues
+            if (data.newsData?.isFallback) {
+                html += `
+                    <div class="news-alert warning">
+                        <div style="margin-bottom: 8px;">⚠️ ESPN news temporarily unavailable</div>
+                        <div style="font-size: 12px;">Using ${data.newsData.seasonContext || 'general updates'} • Check official sources below</div>
+                    </div>
+                `;
+            } else if (hasESPNNews && !hasRecentNews) {
+                html += `
+                    <div class="news-alert info">
+                        <div style="margin-bottom: 8px;">📅 Limited recent coverage (${oldNewsCount} articles over 30 days old)</div>
+                        <div style="font-size: 12px;">Check official sources below for latest updates</div>
+                    </div>
+                `;
+            }
+            
+            // Show ESPN news if available
+            if (hasESPNNews || data.newsData?.isFallback) {
+                html += '<div class="news-title">Latest News</div>';
+                
+                const articlesToShow = data.newsData.articles.slice(0, 3);
+                articlesToShow.forEach(article => {
                     const url = article.links?.web?.href || '#';
                     const thumbnail = article.images?.[0]?.url || '';
+                    const isOld = isNewsOld(article.published || article.date);
+                    const relativeTime = formatRelativeTime(article.published || article.date);
                     
                     html += `
                         <div class="news-item" onclick="handleNewsClick('${encodeURIComponent(url)}')">
@@ -1258,181 +1462,153 @@
                             <div class="news-content">
                                 <div class="news-headline">${article.headline}</div>
                                 ${article.description ? `<div class="news-desc">${article.description.substring(0, 100)}...</div>` : ''}
-                                <div class="news-meta">ESPN • ${formatRelativeTime(article.published || article.date)}</div>
+                                <div class="news-meta ${isOld ? 'old' : ''}">${data.newsData?.isFallback ? 'Latest Update' : 'ESPN'} • ${relativeTime}</div>
                             </div>
                         </div>
                     `;
                 });
             }
             
-            // Replace the existing news sources section in createNewsHTML function
+            // Create enhanced news sources footer
             if (team.newsSources && team.newsSources.length > 0) {
-                const sportEmoji = getSportEmoji(team.sport);
+                html += `
+                    <div class="news-sources-footer">
+                        <div class="news-sources-title">Official Sources</div>
+                        <div class="news-sources-links">
+                `;
+                
+                team.newsSources.forEach((source) => {
+                    html += `<a href="${source.url}" target="_blank" class="news-source-link">${source.name}</a>`;
+                });
                 
                 html += `
-                    <div class="news-sources">
-                        ${team.newsSources.map(source => 
-                            `<a href="${source.url}" target="_blank">${source.name}</a>`
-                        ).join(` ${sportEmoji} `)}
+                        </div>
                     </div>
                 `;
-                            
-                            team.newsSources.forEach((source) => {
-                                // Create unique news items for each source
-                                let sourceDescription = '';
-                                switch(source.name) {
-                                    case 'NOLA.com':
-                                        sourceDescription = 'Latest local coverage and breaking news';
-                                        break;
-                                    case 'Tulane':
-                                        sourceDescription = 'Official team news and updates';
-                                        break;
-                                    case 'Saints.com':
-                                        sourceDescription = 'Official team news and analysis';
-                                        break;
-                                    case 'The Athletic':
-                                        sourceDescription = 'Premium sports journalism and insights';
-                                        break;
-                                    case 'Yankees.com':
-                                        sourceDescription = 'Official team news and roster updates';
-                                        break;
-                                    case 'ESPN':
-                                        sourceDescription = 'National coverage and analysis';
-                                        break;
-                                    case 'IUP Athletics':
-                                        sourceDescription = 'Official team news and schedules';
-                                        break;
-                                    case 'Facebook':
-                                        sourceDescription = 'Official Facebook page with fan updates';
-                                        break;
-                                    case 'Indiana Gazette':
-                                        sourceDescription = 'Local sports coverage and updates';
-                                        break;
-                                    default:
-                                        sourceDescription = `Latest ${team.name} news and updates`;
-                                }
-                                
-                                html += `
-                                    <div class="news-item" onclick="handleNewsClick('${encodeURIComponent(source.url)}')">
-                                        <div class="news-content">
-                                            <div class="news-headline">${source.name} - ${team.name}</div>
-                                            <div class="news-desc">${sourceDescription}</div>
-                                            <div class="news-meta">${source.name} • Tap to read latest</div>
-                                        </div>
-                                    </div>
-                                `;
-                            });
-                        }
-                        
-                        if (!hasESPNNews && (!team.newsSources || team.newsSources.length === 0)) {
-                            html += '<div style="text-align: center; color: #86868b; font-size: 12px; padding: 16px;">No news sources available</div>';
-                        }
-                        
-                        html += '<div class="timestamp">Last updated: ' + new Date().toLocaleTimeString() + '</div>';
-                        
-                        return html;
-                    }
-                    
-                    // Event Handlers
-                    function handleNewsClick(url) {
-                        if (url && url !== '#') {
-                            window.open(decodeURIComponent(url), '_blank');
-                        }
-                    }
-                    
-                    function handleRoster(teamId, url) {
-                        if (url && url !== '#') {
-                            window.open(url, '_blank');
-                        }
-                    }
-                    
-                    function handleCoaches(teamId, url) {
-                        if (url && url !== '#') {
-                            window.open(url, '_blank');
-                        }
-                    }
-                    
-                    function handleSchedule(teamId) {
-                        let scheduleUrl = '#';
-                        
-                        switch(teamId) {
-                            case 'saints':
-                                scheduleUrl = 'https://www.espn.com/nfl/team/schedule/_/name/no';
-                                break;
-                            case 'tulane-football':
-                                scheduleUrl = 'https://tulanegreenwave.com/sports/football/schedule';
-                                break;
-                            case 'yankees':
-                                scheduleUrl = 'https://www.mlb.com/yankees/schedule';
-                                break;
-                            case 'iup-volleyball':
-                                scheduleUrl = 'https://iupathletics.com/sports/womens-volleyball/schedule';
-                                break;
-                        }
-                        
-                        if (scheduleUrl !== '#') {
-                            window.open(scheduleUrl, '_blank');
-                        }
-                    }
-                    
-                    // Main Functions
-                    async function loadAllData() {
-                        const container = document.getElementById('container');
-                        let html = '';
-                        
-                        for (const team of teams) {
-                            const data = await fetchTeamData(team);
-                            html += createTeamHTML(team, data);
-                        }
-                        
-                        container.innerHTML = html;
-                        
-                        for (const team of teams) {
-                            const data = await fetchTeamData(team);
-                            const contentElement = document.getElementById(`${team.id}-content`);
-                            if (contentElement) {
-                                contentElement.innerHTML = createNewsHTML(team, data);
-                            }
-                        }
-                    }
-                    
-                    // Auto-refresh setup
-                    let refreshInterval;
-                    let countdownInterval;
-                    let timeRemaining = 300;
-                    
-                    function updateCountdown() {
-                        const minutes = Math.floor(timeRemaining / 60);
-                        const seconds = timeRemaining % 60;
-                        const timerElement = document.getElementById('refresh-timer');
-                        if (timerElement) {
-                            timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-                        }
-                        
-                        if (timeRemaining <= 0) {
-                            timeRemaining = 300;
-                            loadAllData();
-                        } else {
-                            timeRemaining--;
-                        }
-                    }
-                    
-                    function startAutoRefresh() {
-                        clearInterval(refreshInterval);
-                        clearInterval(countdownInterval);
-                        
-                        refreshInterval = setInterval(() => {
-                            loadAllData();
-                            timeRemaining = 300;
-                        }, 300000);
-                        
-                        countdownInterval = setInterval(updateCountdown, 1000);
-                    }
-                    
-                    // Initialize
-                    setCurrentDate();
-                    loadAllData();
-                    startAutoRefresh();
-                </script>
-            </body>
-            </html>
+            }
+            
+            // Add sport-specific offseason note
+            if (team.sport === 'football') {
+                const note = team.type === 'college' ? 
+                    '🏈 College Football: August - January<br>Spring practice & recruiting season' :
+                    '🏈 NFL Season: September - February<br>Offseason training & draft preparation';
+                
+                html += `
+                    <div class="offseason-note ${teamColorClass}">
+                        ${note}
+                    </div>
+                `;
+            } else if (team.sport === 'volleyball') {
+                html += `
+                    <div class="offseason-note ${teamColorClass}">
+                        🏐 Volleyball Season: August - December<br>Spring training & recruitment period
+                    </div>
+                `;
+            }
+            
+            html += '<div class="timestamp">Last updated: ' + new Date().toLocaleTimeString() + '</div>';
+            
+            return html;
+        }
+        
+        // Event Handlers
+        function handleNewsClick(url) {
+            if (url && url !== '#') {
+                window.open(decodeURIComponent(url), '_blank');
+            }
+        }
+        
+        function handleRoster(teamId, url) {
+            if (url && url !== '#') {
+                window.open(url, '_blank');
+            }
+        }
+        
+        function handleCoaches(teamId, url) {
+            if (url && url !== '#') {
+                window.open(url, '_blank');
+            }
+        }
+        
+        function handleSchedule(teamId) {
+            let scheduleUrl = '#';
+            
+            switch(teamId) {
+                case 'saints':
+                    scheduleUrl = 'https://www.espn.com/nfl/team/schedule/_/name/no';
+                    break;
+                case 'tulane-football':
+                    scheduleUrl = 'https://tulanegreenwave.com/sports/football/schedule';
+                    break;
+                case 'yankees':
+                    scheduleUrl = 'https://www.mlb.com/yankees/schedule';
+                    break;
+                case 'iup-volleyball':
+                    scheduleUrl = 'https://iupathletics.com/sports/womens-volleyball/schedule';
+                    break;
+            }
+            
+            if (scheduleUrl !== '#') {
+                window.open(scheduleUrl, '_blank');
+            }
+        }
+        
+        // Main Functions
+        async function loadAllData() {
+            const container = document.getElementById('container');
+            container.innerHTML = ''; // Clear existing content
+            
+            // Load each team's data and render
+            for (const team of teams) {
+                console.log(`Loading data for ${team.name}...`);
+                const data = await fetchTeamData(team);
+                container.innerHTML += teamHtml;
+                
+                // Load news content immediately after rendering team
+                const contentElement = document.getElementById(`${team.id}-content`);
+                if (contentElement) {
+                    contentElement.innerHTML = createEnhancedNewsHTML(team, data);
+                }
+            }
+        }
+        
+        // Auto-refresh setup
+        let refreshInterval;
+        let countdownInterval;
+        let timeRemaining = 300; // 5 minutes
+        
+        function updateCountdown() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            const timerElement = document.getElementById('refresh-timer');
+            if (timerElement) {
+                timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            }
+            
+            if (timeRemaining <= 0) {
+                timeRemaining = 300;
+                loadAllData();
+            } else {
+                timeRemaining--;
+            }
+        }
+        
+        function startAutoRefresh() {
+            clearInterval(refreshInterval);
+            clearInterval(countdownInterval);
+            
+            refreshInterval = setInterval(() => {
+                loadAllData();
+                timeRemaining = 300;
+            }, 300000); // 5 minutes
+            
+            countdownInterval = setInterval(updateCountdown, 1000);
+        }
+        
+        // Initialize
+        setCurrentDate();
+        loadAllData();
+        startAutoRefresh();
+    </script>
+</body>
+</html>

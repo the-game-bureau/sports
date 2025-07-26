@@ -1,0 +1,237 @@
+# Sports Report Mobile App Creation Prompt
+
+**IMPORTANT: Work slowly and methodically. Take your time to understand each requirement before proceeding. Think through each step carefully and implement one section at a time.**
+
+## Overview
+Create a mobile-first sports reporting web application that displays team information, schedules, and news in a clean, modern interface.
+
+## Step 1: Create the XML Data Structure
+
+First, create a separate XML file that contains all team data. The XML should be well-structured and include:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sports_data>
+  <pages>
+    <page id="coach-steve">
+      <title>Coach Steve's Sports Report</title>
+      <teams>
+        <team id="tulane-football" sport="football" level="college" color="#00703C">
+          <name>Tulane Green Wave Football</name>
+          <roster_url>https://tulanegreenwave.com/sports/football/roster</roster_url>
+          <coaches_url>https://tulanegreenwave.com/sports/football/coaches</coaches_url>
+          <schedule_url>https://tulanegreenwave.com/sports/football/schedule</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=Tulane+Green+Wave+football</news_feed>
+          <venue_type>outdoor</venue_type>
+          <additional_news_sources>
+            <source name="ESPN Tulane" url="https://www.espn.com/college-football/team/_/id/2655" />
+            <source name="The Advocate Sports" url="https://www.theadvocate.com/sports/tulane/" />
+            <source name="Tulane Athletics" url="https://tulanegreenwave.com/sports/football/news" />
+          </additional_news_sources>
+        </team>
+        
+        <team id="saints-football" sport="football" level="professional" color="#D3BC8D">
+          <name>New Orleans Saints Football</name>
+          <roster_url>https://www.neworleanssaints.com/team/players-roster/</roster_url>
+          <coaches_url>https://www.neworleanssaints.com/team/coaches/</coaches_url>
+          <schedule_url>https://www.neworleanssaints.com/schedule/</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=New+Orleans+Saints+football</news_feed>
+          <facebook_url>https://www.facebook.com/NewOrleansSaints</facebook_url>
+          <venue_type>indoor</venue_type>
+          <additional_news_sources>
+            <source name="ESPN Saints" url="https://www.espn.com/nfl/team/_/name/no" />
+            <source name="Saints Wire" url="https://saintswire.usatoday.com/" />
+            <source name="NOLA.com Saints" url="https://www.nola.com/sports/saints/" />
+          </additional_news_sources>
+        </team>
+        
+        <team id="tulane-baseball" sport="baseball" level="college" color="#00703C">
+          <name>Tulane Green Wave Baseball</name>
+          <roster_url>https://tulanegreenwave.com/sports/baseball/roster</roster_url>
+          <coaches_url>https://tulanegreenwave.com/sports/baseball/coaches</coaches_url>
+          <schedule_url>https://tulanegreenwave.com/sports/baseball/schedule</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=Tulane+Green+Wave+baseball</news_feed>
+          <venue_type>outdoor</venue_type>
+          <additional_news_sources>
+            <source name="D1Baseball Tulane" url="https://d1baseball.com/team/tulane" />
+            <source name="Tulane Baseball News" url="https://tulanegreenwave.com/sports/baseball/news" />
+            <source name="Baseball America" url="https://www.baseballamerica.com/college/tulane/" />
+          </additional_news_sources>
+        </team>
+        
+        <team id="ny-yankees" sport="baseball" level="professional" color="#132448">
+          <name>New York Yankees Baseball</name>
+          <roster_url>https://www.mlb.com/yankees/roster</roster_url>
+          <coaches_url>https://www.mlb.com/yankees/team/coaches</coaches_url>
+          <schedule_url>https://www.mlb.com/yankees/schedule</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=New+York+Yankees+baseball</news_feed>
+          <facebook_url>https://www.facebook.com/Yankees</facebook_url>
+          <venue_type>outdoor</venue_type>
+          <additional_news_sources>
+            <source name="ESPN Yankees" url="https://www.espn.com/mlb/team/_/name/nyy" />
+            <source name="Yankees.com News" url="https://www.mlb.com/yankees/news" />
+            <source name="Pinstripe Alley" url="https://www.pinstripealley.com/" />
+          </additional_news_sources>
+        </team>
+        
+        <team id="chicago-cubs" sport="baseball" level="professional" color="#0E3386">
+          <name>Chicago Cubs Baseball</name>
+          <roster_url>https://www.mlb.com/cubs/roster</roster_url>
+          <coaches_url>https://www.mlb.com/cubs/team/coaches</coaches_url>
+          <schedule_url>https://www.mlb.com/cubs/schedule</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=Chicago+Cubs+baseball</news_feed>
+          <facebook_url>https://www.facebook.com/Cubs</facebook_url>
+          <venue_type>outdoor</venue_type>
+          <additional_news_sources>
+            <source name="ESPN Cubs" url="https://www.espn.com/mlb/team/_/name/chc" />
+            <source name="Cubs.com News" url="https://www.mlb.com/cubs/news" />
+            <source name="Bleacher Nation" url="https://www.bleachernation.com/" />
+          </additional_news_sources>
+        </team>
+        
+        <team id="iup-volleyball" sport="volleyball" level="college" color="#722F37">
+          <name>Indiana University of Pennsylvania Volleyball</name>
+          <roster_url>https://iupcrimsonhawks.com/sports/womens-volleyball/roster</roster_url>
+          <coaches_url>https://iupcrimsonhawks.com/sports/womens-volleyball/coaches</coaches_url>
+          <schedule_url>https://iupcrimsonhawks.com/sports/womens-volleyball/schedule</schedule_url>
+          <news_feed>https://news.google.com/rss/search?q=IUP+volleyball</news_feed>
+          <venue_type>indoor</venue_type>
+          <additional_news_sources>
+            <source name="IUP Athletics" url="https://iupcrimsonhawks.com/sports/womens-volleyball/news" />
+            <source name="NCAA Volleyball" url="https://www.ncaa.com/sports/volleyball-women/d2" />
+            <source name="PSAC Sports" url="https://psacsports.org/sports/wvball" />
+          </additional_news_sources>
+        </team>
+      </teams>
+    </page>
+  </pages>
+</sports_data>
+```
+
+## Step 2: HTML Structure Requirements
+
+**Take your time with each section. Build incrementally.**
+
+### HTML Document Setup
+- Create a complete HTML5 document with proper meta tags
+- Include viewport meta tag for mobile responsiveness
+- Set up proper PWA manifest for mobile app experience
+- Include appropriate title and meta descriptions
+
+### CSS Styling Requirements
+- Use CSS Grid or Flexbox for responsive layouts
+- Implement mobile-first design principles
+- Create smooth animations and transitions
+- Use modern CSS features (CSS custom properties, etc.)
+- Ensure accessibility with proper contrast ratios
+- Implement pull-to-refresh visual feedback
+
+### Key UI Components
+
+**Build these one at a time, testing each before moving to the next:**
+
+1. **Header Section**
+   - Display page title dynamically from XML
+   - Show current date
+   - Sticky positioning for mobile scrolling
+
+2. **Team Cards**
+   - Color-coded headers using team colors from XML
+   - Sport icons (⚾ for baseball, 🏈 for football, 🏐 for volleyball)
+   - Game status indicator ("Does [Team] have a game today? YES/NO")
+   - Action buttons (Roster, Coaches, Facebook when available)
+   - Expandable content sections
+
+3. **Schedule Section**
+   - Display upcoming games
+   - Show weather info for outdoor venues
+   - Highlight today's games with countdown timers
+
+4. **News Section**
+   - Mock news articles with thumbnails
+   - Alternating row styling
+   - Links to additional news sources
+   - Responsive image handling
+
+5. **Navigation Footer**
+   - Links to major sports news sites
+   - Clean, organized layout
+
+## Step 3: JavaScript Functionality
+
+**Implement features methodically, one function at a time:**
+
+### Core Functions Required:
+1. **XML Data Loading**
+   - Parse XML data structure
+   - Extract team information
+   - Handle multiple pages/configurations
+
+2. **Dynamic Content Generation**
+   - Create team cards from data
+   - Generate mock schedules
+   - Create mock news articles
+   - Update timestamps
+
+3. **Interactive Features**
+   - Pull-to-refresh functionality
+   - Game countdown timers
+   - Responsive touch interactions
+   - Error handling and offline support
+
+4. **Mobile App Features**
+   - Service worker registration
+   - Offline functionality
+   - App-like navigation
+   - Touch-friendly interactions
+
+## Step 4: Mobile App Optimization
+
+### PWA Features:
+- Web app manifest for install prompts
+- Service worker for offline caching
+- Touch-optimized interactions
+- Mobile viewport optimization
+
+### Performance Considerations:
+- Lazy loading of images
+- Efficient DOM manipulation
+- Minimal JavaScript payload
+- Fast initial page load
+
+## Implementation Guidelines
+
+**CRITICAL: Work slowly and methodically:**
+
+1. **Start with the XML structure** - ensure it's clean and well-formed
+2. **Build the HTML skeleton** - create the basic structure first
+3. **Add CSS styling progressively** - mobile-first, then enhance
+4. **Implement JavaScript features one by one** - test each function
+5. **Add interactivity gradually** - ensure each feature works before adding the next
+6. **Test on mobile devices** - verify touch interactions and responsiveness
+
+## Quality Standards
+
+- All code should be production-ready
+- Proper error handling throughout
+- Accessible design (ARIA labels, keyboard navigation)
+- Clean, readable code with comments
+- Cross-browser compatibility
+- Fast loading times
+- Smooth animations and transitions
+
+## Final Testing Checklist
+
+Before considering the app complete:
+- [ ] XML parses correctly and loads all team data
+- [ ] All team cards display properly with correct colors and icons
+- [ ] Pull-to-refresh works smoothly
+- [ ] Game countdown timers update correctly
+- [ ] All links open in new tabs appropriately
+- [ ] App works offline after initial load
+- [ ] Touch interactions feel responsive
+- [ ] Design looks good on various mobile screen sizes
+- [ ] No JavaScript errors in console
+- [ ] Loading states display properly
+
+**Remember: Take your time with each step. Quality over speed. Test each component thoroughly before moving to the next.**

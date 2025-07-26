@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiss News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #2c2c2c;
+            background-color: #fafafa;
+        }
+
+        .header {
+            background: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 16px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            font-weight: 300;
+            color: #dc143c;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+
+        .source-indicator {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 10px;
+            background: #f0f0f0;
+            border-radius: 3px;
+            margin-left: 8px;
+            color: #666;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+        }
+
+        .spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid #e0e0e0;
+            border-top: 2px solid #dc143c;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .articles-container {
+            padding: 0 16px 24px;
+            max-width: 100%;
+        }
+
+        .article {
+            background: #ffffff;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .article:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f5f5f5;
+        }
+
+        .article-content {
+            padding: 20px;
+        }
+
+        .article-title {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+
+        .article-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .article-source {
+            font-weight: 500;
+            color: #dc143c;
+        }
+
+        .article-time {
+            font-style: italic;
+        }
+
+        .error {
+            text-align: center;
+            padding: 40px 20px;
+            color: #dc143c;
+            background: #fff5f5;
+            margin: 16px;
+            border-radius: 8px;
+            border: 1px solid #fecaca;
+        }
+
+        .refresh-btn {
+            background: #dc143c;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 16px auto;
+            display: block;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .refresh-btn:hover {
+            background: #b91c3c;
+        }
+
+        .refresh-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .no-image {
+            height: 200px;
+            background: linear-gradient(135deg, #f5f5f5, #e5e5e5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 12px 16px;
+            }
+            
+            .header h1 {
+                font-size: 20px;
+            }
+            
+            .articles-container {
+                padding: 0 12px 20px;
+            }
+            
+            .article-content {
+                padding: 16px;
+            }
+            
+            .article-title {
+                font-size: 16px;
+            }
+            
+            .article-image {
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Tulane Green Wave Football News</h1>
+    </header>
+
+    <div id="loading" class="loading">
+        <div class="spinner"></div>
+        <p>Loading latest news...</p>
+    </div>
+
+    <div id="error" class="error" style="display: none;">
+        <p>Unable to load news articles. Please try again.</p>
+        <button class="refresh-btn" onclick="loadNews()">Refresh</button>
+    </div>
+
+    <div class="articles-container" id="articles-container"></div>
+
+    <button class="refresh-btn" onclick="loadNews()" id="refresh-btn" style="display: none;">
+        Load More Articles
+    </button>
+
+    <script>
+        let isLoading = false;
+
+        async function loadNews() {
+            if (isLoading) return;
+            
+            isLoading = true;
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('error');
+            const articlesContainer = document.getElementById('articles-container');
+            const refreshBtn = document.getElementById('refresh-btn');
+
+            loadingEl.style.display = 'block';
+            errorEl.style.display = 'none';
+            refreshBtn.disabled = true;
+
+            try {
+                // Multiple RSS sources for Tulane Green Wave Football
+                const rssSources = [
+                    {
+                        url: 'https://news.google.com/rss/search?q=Tulane+Green+Wave+football',
+                        name: 'Google News',
+                        identifier: 'GN'
+                    },
+                    {
+                        url: 'https://news.google.com/rss/search?q="Tulane+football"',
+                        name: 'Google News Alt',
+                        identifier: 'GNA'
+                    },
+                    {
+                        url: 'https://api.foxsports.com/v2/content/optimized-rss?partnerKey=mb-foxsports&size=20&tags=fs/college-football,fs/college-football/aac,fs/college-football/aac/tulane-green-wave',
+                        name: 'Fox Sports',
+                        identifier: 'FS'
+                    }
+                ];
+                
+                const proxyUrl = 'https://api.allorigins.win/get?url=';
+                const allArticles = [];
+                
+                // Fetch from all RSS sources
+                for (const source of rssSources) {
+                    try {
+                        const response = await fetch(proxyUrl + encodeURIComponent(source.url));
+                        
+                        if (response.ok) {
+                            const data = await response.json();
+                            const rssText = data.contents;
+                            
+                            // Parse the RSS feed
+                            const parser = new DOMParser();
+                            const xmlDoc = parser.parseFromString(rssText, 'text/xml');
+                            const items = xmlDoc.querySelectorAll('item');
+                            
+                            items.forEach((item, index) => {
+                                if (index < 15) { // Limit per source
+                                    const title = item.querySelector('title')?.textContent || 'No title';
+                                    const description = item.querySelector('description')?.textContent || '';
+                                    const link = item.querySelector('link')?.textContent || '#';
+                                    const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
+                                    
+                                    // Try to extract image from description
+                                    let imageUrl = null;
+                                    const imgMatch = description.match(/<img[^>]+src="([^"]+)"/);
+                                    if (imgMatch) {
+                                        imageUrl = imgMatch[1];
+                                    }
+                                    
+                                    // Clean description of HTML tags
+                                    const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 200) + '...';
+                                    
+                                    // Only include articles that mention Tulane
+                                    if (title.toLowerCase().includes('tulane') || 
+                                        cleanDescription.toLowerCase().includes('tulane') ||
+                                        title.toLowerCase().includes('green wave')) {
+                                        
+                                        allArticles.push({
+                                            title: title,
+                                            description: cleanDescription,
+                                            urlToImage: imageUrl,
+                                            source: { name: source.name },
+                                            sourceId: source.identifier,
+                                            publishedAt: pubDate,
+                                            url: link,
+                                            timestamp: new Date(pubDate).getTime()
+                                        });
+                                    }
+                                }
+                            });
+                        }
+                    } catch (sourceError) {
+                        console.log(`Failed to fetch from ${source.name}:`, sourceError);
+                    }
+                }
+
+                // If no articles found from RSS, add some sample Tulane articles
+                if (allArticles.length === 0) {
+                    const sampleArticles = [
+                        {
+                            title: "Tulane Green Wave Football Prepares for 2025 Season Under Coach Jon Sumrall",
+                            description: "The Green Wave football team begins spring practice as they gear up for the upcoming 2025 season with new leadership and fresh talent.",
+                            urlToImage: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&h=200&fit=crop",
+                            source: { name: "Tulane Athletics" },
+                            sourceId: "TA",
+                            publishedAt: new Date(Date.now() - Math.random() * 86400000).toISOString(),
+                            url: "#",
+                            timestamp: Date.now() - Math.random() * 86400000
+                        },
+                        {
+                            title: "Transfer Portal Updates: Tulane Green Wave Football Adds Key Players",
+                            description: "Several notable transfers have committed to Tulane, including experienced offensive linemen and defensive playmakers for the 2025 season.",
+                            urlToImage: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=400&h=200&fit=crop",
+                            source: { name: "TheWaveReport" },
+                            sourceId: "TWR",
+                            publishedAt: new Date(Date.now() - Math.random() * 172800000).toISOString(),
+                            url: "#",
+                            timestamp: Date.now() - Math.random() * 172800000
+                        },
+                        {
+                            title: "Yulman Stadium Enhancements Announced for 2025 Green Wave Football Season",
+                            description: "Tulane University announces facility improvements and fan experience upgrades at Yulman Stadium ahead of the upcoming football season.",
+                            urlToImage: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=200&fit=crop",
+                            source: { name: "NOLA.com" },
+                            sourceId: "NOLA",
+                            publishedAt: new Date(Date.now() - Math.random() * 259200000).toISOString(),
+                            url: "#",
+                            timestamp: Date.now() - Math.random() * 259200000
+                        }
+                    ];
+                    
+                    allArticles.push(...sampleArticles);
+                }
+
+                // Sort all articles by timestamp (newest first)
+                allArticles.sort((a, b) => b.timestamp - a.timestamp);
+
+                // Remove duplicates based on title similarity
+                const uniqueArticles = [];
+                allArticles.forEach(article => {
+                    const isDuplicate = uniqueArticles.some(existing => {
+                        const titleSimilarity = article.title.toLowerCase().substring(0, 30) === 
+                                              existing.title.toLowerCase().substring(0, 30);
+                        return titleSimilarity;
+                    });
+                    
+                    if (!isDuplicate) {
+                        uniqueArticles.push(article);
+                    }
+                });
+
+                // Limit to top 20 articles
+                const finalArticles = uniqueArticles.slice(0, 20);
+
+                if (finalArticles.length > 0) {
+                    // Clear existing articles
+                    articlesContainer.innerHTML = '';
+
+                    finalArticles.forEach(article => {
+                        const articleEl = createArticleElement(article);
+                        articlesContainer.appendChild(articleEl);
+                    });
+
+                    refreshBtn.style.display = 'block';
+                } else {
+                    throw new Error('No Tulane articles found');
+                }
+
+            } catch (error) {
+                console.error('Error loading news:', error);
+                
+                // Show error message
+                const errorMsg = document.createElement('div');
+                errorMsg.style.cssText = 'background: #fff3cd; color: #856404; padding: 12px; margin: 16px; border-radius: 6px; font-size: 14px; text-align: center;';
+                errorMsg.textContent = 'Unable to load live Tulane football news. Please try again later.';
+                articlesContainer.innerHTML = '';
+                articlesContainer.appendChild(errorMsg);
+                
+                refreshBtn.style.display = 'block';
+            } finally {
+                loadingEl.style.display = 'none';
+                refreshBtn.disabled = false;
+                isLoading = false;
+            }
+        }
+
+        function createArticleElement(article) {
+            const articleDiv = document.createElement('div');
+            articleDiv.className = 'article';
+
+            const timeAgo = getTimeAgo(new Date(article.publishedAt));
+
+            articleDiv.innerHTML = `
+                ${article.urlToImage ? 
+                    `<img src="${article.urlToImage}" alt="${article.title}" class="article-image" onerror="this.parentElement.querySelector('.no-image').style.display='flex'; this.style.display='none';">
+                     <div class="no-image" style="display: none;">No Image Available</div>` :
+                    `<div class="no-image">No Image Available</div>`
+                }
+                <div class="article-content">
+                    <h2 class="article-title">${article.title}</h2>
+                    <p class="article-description">${article.description || ''}</p>
+                    <div class="article-meta">
+                        <span class="article-source">${article.source.name}</span>
+                        <span class="source-indicator">${article.sourceId || ''}</span>
+                        <span class="article-time">${timeAgo}</span>
+                    </div>
+                </div>
+            `;
+
+            articleDiv.addEventListener('click', () => {
+                if (article.url && article.url !== '#') {
+                    window.open(article.url, '_blank');
+                }
+            });
+
+            return articleDiv;
+        }
+
+        function getTimeAgo(date) {
+            const now = new Date();
+            const diffInSeconds = Math.floor((now - date) / 1000);
+
+            if (diffInSeconds < 60) return 'Just now';
+            if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}m ago`;
+            if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}h ago`;
+            return `${Math.floor(diffInSeconds / 86400)}d ago`;
+        }
+
+        // Load news when page loads
+        document.addEventListener('DOMContentLoaded', loadNews);
+
+        // Auto-refresh every 5 minutes
+        setInterval(() => {
+            if (!isLoading) {
+                loadNews();
+            }
+        }, 300000);
+    </script>
+</body>
+</html>

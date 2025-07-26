@@ -1,0 +1,1994 @@
+{
+  "metadata": {
+    "season": 2025,
+    "total_teams": 32,
+    "generated_date": "2025-07-24T23:13:56.975154",
+    "source": "ESPN API"
+  },
+  "teams": [
+    {
+      "id": "22",
+      "guid": "",
+      "uid": "s:20~l:28~t:22",
+      "name": "Cardinals",
+      "display_name": "Arizona Cardinals",
+      "short_display_name": "Cardinals",
+      "nickname": "Cardinals",
+      "location": "Arizona",
+      "abbreviation": "ARI",
+      "color": "a40227",
+      "alternate_color": "ffffff",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ari.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "1",
+      "guid": "",
+      "uid": "s:20~l:28~t:1",
+      "name": "Falcons",
+      "display_name": "Atlanta Falcons",
+      "short_display_name": "Falcons",
+      "nickname": "Falcons",
+      "location": "Atlanta",
+      "abbreviation": "ATL",
+      "color": "a71930",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/atl.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/atl.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "33",
+      "guid": "",
+      "uid": "s:20~l:28~t:33",
+      "name": "Ravens",
+      "display_name": "Baltimore Ravens",
+      "short_display_name": "Ravens",
+      "nickname": "Ravens",
+      "location": "Baltimore",
+      "abbreviation": "BAL",
+      "color": "29126f",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/bal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/bal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "2",
+      "guid": "",
+      "uid": "s:20~l:28~t:2",
+      "name": "Bills",
+      "display_name": "Buffalo Bills",
+      "short_display_name": "Bills",
+      "nickname": "Bills",
+      "location": "Buffalo",
+      "abbreviation": "BUF",
+      "color": "00338d",
+      "alternate_color": "d50a0a",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "29",
+      "guid": "",
+      "uid": "s:20~l:28~t:29",
+      "name": "Panthers",
+      "display_name": "Carolina Panthers",
+      "short_display_name": "Panthers",
+      "nickname": "Panthers",
+      "location": "Carolina",
+      "abbreviation": "CAR",
+      "color": "0085ca",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/car.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "3",
+      "guid": "",
+      "uid": "s:20~l:28~t:3",
+      "name": "Bears",
+      "display_name": "Chicago Bears",
+      "short_display_name": "Bears",
+      "nickname": "Bears",
+      "location": "Chicago",
+      "abbreviation": "CHI",
+      "color": "0b1c3a",
+      "alternate_color": "e64100",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/chi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "4",
+      "guid": "",
+      "uid": "s:20~l:28~t:4",
+      "name": "Bengals",
+      "display_name": "Cincinnati Bengals",
+      "short_display_name": "Bengals",
+      "nickname": "Bengals",
+      "location": "Cincinnati",
+      "abbreviation": "CIN",
+      "color": "fb4f14",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cin.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cin.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "5",
+      "guid": "",
+      "uid": "s:20~l:28~t:5",
+      "name": "Browns",
+      "display_name": "Cleveland Browns",
+      "short_display_name": "Browns",
+      "nickname": "Browns",
+      "location": "Cleveland",
+      "abbreviation": "CLE",
+      "color": "472a08",
+      "alternate_color": "ff3c00",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/cle.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "6",
+      "guid": "",
+      "uid": "s:20~l:28~t:6",
+      "name": "Cowboys",
+      "display_name": "Dallas Cowboys",
+      "short_display_name": "Cowboys",
+      "nickname": "Cowboys",
+      "location": "Dallas",
+      "abbreviation": "DAL",
+      "color": "002a5c",
+      "alternate_color": "b0b7bc",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "7",
+      "guid": "",
+      "uid": "s:20~l:28~t:7",
+      "name": "Broncos",
+      "display_name": "Denver Broncos",
+      "short_display_name": "Broncos",
+      "nickname": "Broncos",
+      "location": "Denver",
+      "abbreviation": "DEN",
+      "color": "0a2343",
+      "alternate_color": "fc4c02",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "8",
+      "guid": "",
+      "uid": "s:20~l:28~t:8",
+      "name": "Lions",
+      "display_name": "Detroit Lions",
+      "short_display_name": "Lions",
+      "nickname": "Lions",
+      "location": "Detroit",
+      "abbreviation": "DET",
+      "color": "0076b6",
+      "alternate_color": "bbbbbb",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/det.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/det.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "9",
+      "guid": "",
+      "uid": "s:20~l:28~t:9",
+      "name": "Packers",
+      "display_name": "Green Bay Packers",
+      "short_display_name": "Packers",
+      "nickname": "Packers",
+      "location": "Green Bay",
+      "abbreviation": "GB",
+      "color": "204e32",
+      "alternate_color": "ffb612",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/gb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/gb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "34",
+      "guid": "",
+      "uid": "s:20~l:28~t:34",
+      "name": "Texans",
+      "display_name": "Houston Texans",
+      "short_display_name": "Texans",
+      "nickname": "Texans",
+      "location": "Houston",
+      "abbreviation": "HOU",
+      "color": "00143f",
+      "alternate_color": "c41230",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/hou.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/hou.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "11",
+      "guid": "",
+      "uid": "s:20~l:28~t:11",
+      "name": "Colts",
+      "display_name": "Indianapolis Colts",
+      "short_display_name": "Colts",
+      "nickname": "Colts",
+      "location": "Indianapolis",
+      "abbreviation": "IND",
+      "color": "003b75",
+      "alternate_color": "ffffff",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ind.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ind.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "30",
+      "guid": "",
+      "uid": "s:20~l:28~t:30",
+      "name": "Jaguars",
+      "display_name": "Jacksonville Jaguars",
+      "short_display_name": "Jaguars",
+      "nickname": "Jaguars",
+      "location": "Jacksonville",
+      "abbreviation": "JAX",
+      "color": "007487",
+      "alternate_color": "d7a22a",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/jax.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/jax.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "12",
+      "guid": "",
+      "uid": "s:20~l:28~t:12",
+      "name": "Chiefs",
+      "display_name": "Kansas City Chiefs",
+      "short_display_name": "Chiefs",
+      "nickname": "Chiefs",
+      "location": "Kansas City",
+      "abbreviation": "KC",
+      "color": "e31837",
+      "alternate_color": "ffb612",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/kc.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "13",
+      "guid": "",
+      "uid": "s:20~l:28~t:13",
+      "name": "Raiders",
+      "display_name": "Las Vegas Raiders",
+      "short_display_name": "Raiders",
+      "nickname": "Raiders",
+      "location": "Las Vegas",
+      "abbreviation": "LV",
+      "color": "000000",
+      "alternate_color": "a5acaf",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lv.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lv.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "24",
+      "guid": "",
+      "uid": "s:20~l:28~t:24",
+      "name": "Chargers",
+      "display_name": "Los Angeles Chargers",
+      "short_display_name": "Chargers",
+      "nickname": "Chargers",
+      "location": "Los Angeles",
+      "abbreviation": "LAC",
+      "color": "0080c6",
+      "alternate_color": "ffc20e",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lac.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "14",
+      "guid": "",
+      "uid": "s:20~l:28~t:14",
+      "name": "Rams",
+      "display_name": "Los Angeles Rams",
+      "short_display_name": "Rams",
+      "nickname": "Rams",
+      "location": "Los Angeles",
+      "abbreviation": "LAR",
+      "color": "003594",
+      "alternate_color": "ffd100",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lar.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "15",
+      "guid": "",
+      "uid": "s:20~l:28~t:15",
+      "name": "Dolphins",
+      "display_name": "Miami Dolphins",
+      "short_display_name": "Dolphins",
+      "nickname": "Dolphins",
+      "location": "Miami",
+      "abbreviation": "MIA",
+      "color": "008e97",
+      "alternate_color": "fc4c02",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/mia.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/mia.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "16",
+      "guid": "",
+      "uid": "s:20~l:28~t:16",
+      "name": "Vikings",
+      "display_name": "Minnesota Vikings",
+      "short_display_name": "Vikings",
+      "nickname": "Vikings",
+      "location": "Minnesota",
+      "abbreviation": "MIN",
+      "color": "4f2683",
+      "alternate_color": "ffc62f",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/min.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/min.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "17",
+      "guid": "",
+      "uid": "s:20~l:28~t:17",
+      "name": "Patriots",
+      "display_name": "New England Patriots",
+      "short_display_name": "Patriots",
+      "nickname": "Patriots",
+      "location": "New England",
+      "abbreviation": "NE",
+      "color": "002a5c",
+      "alternate_color": "c60c30",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ne.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ne.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "18",
+      "guid": "",
+      "uid": "s:20~l:28~t:18",
+      "name": "Saints",
+      "display_name": "New Orleans Saints",
+      "short_display_name": "Saints",
+      "nickname": "Saints",
+      "location": "New Orleans",
+      "abbreviation": "NO",
+      "color": "d3bc8d",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/no.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/no.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "19",
+      "guid": "",
+      "uid": "s:20~l:28~t:19",
+      "name": "Giants",
+      "display_name": "New York Giants",
+      "short_display_name": "Giants",
+      "nickname": "Giants",
+      "location": "New York",
+      "abbreviation": "NYG",
+      "color": "003c7f",
+      "alternate_color": "c9243f",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyg.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyg.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "20",
+      "guid": "",
+      "uid": "s:20~l:28~t:20",
+      "name": "Jets",
+      "display_name": "New York Jets",
+      "short_display_name": "Jets",
+      "nickname": "Jets",
+      "location": "New York",
+      "abbreviation": "NYJ",
+      "color": "115740",
+      "alternate_color": "ffffff",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/nyj.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/nyj.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "21",
+      "guid": "",
+      "uid": "s:20~l:28~t:21",
+      "name": "Eagles",
+      "display_name": "Philadelphia Eagles",
+      "short_display_name": "Eagles",
+      "nickname": "Eagles",
+      "location": "Philadelphia",
+      "abbreviation": "PHI",
+      "color": "06424d",
+      "alternate_color": "000000",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/phi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/phi.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "23",
+      "guid": "",
+      "uid": "s:20~l:28~t:23",
+      "name": "Steelers",
+      "display_name": "Pittsburgh Steelers",
+      "short_display_name": "Steelers",
+      "nickname": "Steelers",
+      "location": "Pittsburgh",
+      "abbreviation": "PIT",
+      "color": "000000",
+      "alternate_color": "ffb612",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "25",
+      "guid": "",
+      "uid": "s:20~l:28~t:25",
+      "name": "49ers",
+      "display_name": "San Francisco 49ers",
+      "short_display_name": "49ers",
+      "nickname": "49ers",
+      "location": "San Francisco",
+      "abbreviation": "SF",
+      "color": "aa0000",
+      "alternate_color": "b3995d",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "26",
+      "guid": "",
+      "uid": "s:20~l:28~t:26",
+      "name": "Seahawks",
+      "display_name": "Seattle Seahawks",
+      "short_display_name": "Seahawks",
+      "nickname": "Seahawks",
+      "location": "Seattle",
+      "abbreviation": "SEA",
+      "color": "002a5c",
+      "alternate_color": "69be28",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "27",
+      "guid": "",
+      "uid": "s:20~l:28~t:27",
+      "name": "Buccaneers",
+      "display_name": "Tampa Bay Buccaneers",
+      "short_display_name": "Buccaneers",
+      "nickname": "Buccaneers",
+      "location": "Tampa Bay",
+      "abbreviation": "TB",
+      "color": "bd1c36",
+      "alternate_color": "3e3a35",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/tb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/tb.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "10",
+      "guid": "",
+      "uid": "s:20~l:28~t:10",
+      "name": "Titans",
+      "display_name": "Tennessee Titans",
+      "short_display_name": "Titans",
+      "nickname": "Titans",
+      "location": "Tennessee",
+      "abbreviation": "TEN",
+      "color": "4b92db",
+      "alternate_color": "002a5c",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/ten.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ten.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    },
+    {
+      "id": "28",
+      "guid": "",
+      "uid": "s:20~l:28~t:28",
+      "name": "Commanders",
+      "display_name": "Washington Commanders",
+      "short_display_name": "Commanders",
+      "nickname": "Commanders",
+      "location": "Washington",
+      "abbreviation": "WSH",
+      "color": "5a1414",
+      "alternate_color": "ffb612",
+      "is_active": true,
+      "is_all_star": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/wsh.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard"
+          ],
+          "width": 500,
+          "height": 500
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/wsh.png",
+          "alt": "",
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ],
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "record": {},
+      "venue": {},
+      "conference": "",
+      "division": ""
+    }
+  ]
+}

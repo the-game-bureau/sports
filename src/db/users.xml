@@ -1,0 +1,53 @@
+<pages>
+  <page id="coach-steve">
+    <title>Coach Steve's Sports Report</title>
+    <teams>
+      <team id="tulane-football" sport="football" level="college" color="#00703C" venue_type="outdoor">
+        <name>Tulane Green Wave Football</name>
+        <roster_url>https://tulanegreenwave.com/sports/football/roster</roster_url>
+        <coaches_url>https://tulanegreenwave.com/sports/football/coaches</coaches_url>
+        <schedule_url>https://tulanegreenwave.com/sports/football/schedule</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=Tulane+Green+Wave+football</news_feed>
+      </team>
+      <team id="new-orleans-saints" sport="football" level="professional" color="#D3BC8D" venue_type="indoor">
+        <name>New Orleans Saints Football</name>
+        <roster_url>https://www.neworleanssaints.com/team/players-roster/</roster_url>
+        <coaches_url>https://www.neworleanssaints.com/team/coaches-roster/</coaches_url>
+        <schedule_url>https://www.neworleanssaints.com/schedule/</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=New+Orleans+Saints+football</news_feed>
+        <facebook_url>https://www.facebook.com/neworleanssaints/</facebook_url>
+      </team>
+      <team id="tulane-baseball" sport="baseball" level="college" color="#00703C" venue_type="outdoor">
+        <name>Tulane Green Wave Baseball</name>
+        <roster_url>https://tulanegreenwave.com/sports/baseball/roster</roster_url>
+        <coaches_url>https://tulanegreenwave.com/sports/baseball/coaches</coaches_url>
+        <schedule_url>https://tulanegreenwave.com/sports/baseball/schedule</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=Tulane+Green+Wave+baseball</news_feed>
+      </team>
+      <team id="ny-yankees" sport="baseball" level="professional" color="#132448" venue_type="outdoor">
+        <name>New York Yankees Baseball</name>
+        <roster_url>https://www.mlb.com/yankees/roster</roster_url>
+        <coaches_url>https://www.mlb.com/yankees/team/coaches</coaches_url>
+        <schedule_url>https://www.mlb.com/yankees/schedule</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=New+York+Yankees+Baseball</news_feed>
+        <facebook_url>https://www.facebook.com/Yankees</facebook_url>
+      </team>
+      <team id="chicago-cubs" sport="baseball" level="professional" color="#0E3386" venue_type="outdoor">
+        <name>Chicago Cubs Baseball</name>
+        <roster_url>https://www.mlb.com/cubs/roster</roster_url>
+        <coaches_url>https://www.mlb.com/cubs/team/coaches</coaches_url>
+        <schedule_url>https://www.mlb.com/cubs/schedule</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=Chicago+Cubs+Baseball</news_feed>
+        <facebook_url>https://www.facebook.com/Cubs</facebook_url>
+      </team>
+      <team id="iup-volleyball" sport="volleyball" level="college" color="#7A0019" venue_type="indoor">
+        <name>Indiana University of Pennsylvania Volleyball</name>
+        <roster_url>https://iupathletics.com/sports/womens-volleyball/roster</roster_url>
+        <coaches_url>https://iupathletics.com/sports/womens-volleyball/coaches</coaches_url>
+        <schedule_url>https://iupathletics.com/sports/womens-volleyball/schedule</schedule_url>
+        <news_feed>https://news.google.com/rss/search?q=IUP+Volleyball</news_feed>
+        <facebook_url>https://www.facebook.com/IUPCrimsonHawks</facebook_url>
+      </team>
+    </teams>
+  </page>
+</pages>
