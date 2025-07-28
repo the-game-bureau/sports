@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-size: 32px;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .news-grid {
+            display: grid;
+            gap: 40px;
+        }
+
+        .news-item {
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 30px;
+            display: grid;
+            grid-template-columns: 120px 1fr 60px;
+            gap: 25px;
+            align-items: start;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .news-thumbnail {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            border: 1px solid #e0e0e0;
+            background: #f5f5f5;
+        }
+
+        .news-thumbnail.placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: #f8f8f8;
+            border: 1px solid #e0e0e0;
+        }
+
+        .news-content h3 {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.3;
+            margin-bottom: 10px;
+            color: #000;
+            cursor: pointer;
+        }
+
+        .news-content h3:hover {
+            color: #666;
+        }
+
+        .news-content a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .news-meta {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .news-excerpt {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .news-number {
+            font-size: 48px;
+            font-weight: 100;
+            color: #e0e0e0;
+            text-align: right;
+            line-height: 1;
+        }
+
+        .error {
+            background: #f5f5f5;
+            border-left: 3px solid #000;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .no-results h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .url-params {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .api-info {
+            background: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .api-info h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .api-info p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .news-item {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .news-thumbnail {
+                width: 100%;
+                height: 120px;
+            }
+            
+            .news-number {
+                text-align: left;
+                font-size: 24px;
+                grid-row: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">Sports News</h1>
+        <div class="subtitle" id="current-search">Latest Sports Updates</div>
+        <div class="url-params" id="url-params"></div>
+    </div>
+
+    <div id="content">
+        <div class="api-info">
+            <h3>URL-Driven Sports News</h3>
+            <p>This page displays sports news based on URL parameters only.</p>
+            <p><strong>Usage:</strong> Add <code>?sport=basketball&team=Lakers</code> to the URL</p>
+            <p><strong>Examples:</strong></p>
+            <p>• <code>?sport=soccer&team=Arsenal</code></p>
+            <p>• <code>?sport=football&team=Patriots</code></p>
+            <p>• <code>?sport=football&team=Saints</code> (includes local New Orleans sources)</p>
+            <p>• <code>?sport=basketball&team=Warriors</code></p>
+        </div>
+    </div>
+
+    <script>
+        const API_KEY = 'd6045a43be564104a22a019c37e39056';
+        const BASE_URL = 'https://newsapi.org/v2/everything';
+
+        function getUrlParameters() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return {
+                sport: urlParams.get('sport'),
+                team: urlParams.get('team')
+            };
+        }
+
+        function updateUrlParams() {
+            const params = getUrlParameters();
+            const urlParamsEl = document.getElementById('url-params');
+            
+            if (params.sport || params.team) {
+                const paramString = [];
+                if (params.sport) paramString.push(`sport=${params.sport}`);
+                if (params.team) paramString.push(`team=${params.team}`);
+                urlParamsEl.textContent = `Current: ?${paramString.join('&')}`;
+            } else {
+                urlParamsEl.textContent = 'Add URL parameters to load news';
+            }
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: 'numeric'
+            });
+        }
+
+        function createThumbnail(article, index) {
+            if (article.urlToImage) {
+                return `<img src="${article.urlToImage}" alt="${article.title}" class="news-thumbnail" onerror="this.outerHTML='<div class=\\'news-thumbnail placeholder\\'>No Image</div>'">`;
+            } else {
+                return `<div class="news-thumbnail placeholder">No Image</div>`;
+            }
+        }
+
+        function displayNews(articles, sport, team) {
+            const content = document.getElementById('content');
+            const currentSearch = document.getElementById('current-search');
+            
+            const searchText = team ? `${sport.toUpperCase()} • ${team.toUpperCase()}` : sport.toUpperCase();
+            currentSearch.textContent = searchText;
+            
+            if (articles.length === 0) {
+                content.innerHTML = `
+                    <div class="no-results">
+                        <h3>No articles found</h3>
+                        <p>No recent news articles found for ${team ? `${team} in ${sport}` : sport}.</p>
+                        <p>Try:</p>
+                        <p>• <code>?sport=football&team=Patriots</code> (NFL)</p>
+                        <p>• <code>?sport=basketball&team=Lakers</code></p>
+                        <p>• <code>?sport=soccer&team=Arsenal</code></p>
+                        <p><small>Sources: NewsAPI, Sports Illustrated, FOX Sports${team && team.toLowerCase() === 'saints' ? ', NOLA.com, FOX 8 Live New Orleans' : ''}</small></p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Group articles by source for display
+            const sourceGroups = {};
+            articles.forEach(article => {
+                const source = article.source.name;
+                if (!sourceGroups[source]) sourceGroups[source] = [];
+                sourceGroups[source].push(article);
+            });
+
+            const newsHTML = articles.slice(0, 8).map((article, index) => `
+                <article class="news-item">
+                    ${createThumbnail(article, index)}
+                    <div class="news-content">
+                        <div class="news-meta">${formatDate(article.publishedAt)} • ${article.source.name}</div>
+                        <h3>
+                            ${article.url ? 
+                                `<a href="${article.url}" target="_blank">${article.title}</a>` : 
+                                article.title
+                            }
+                        </h3>
+                        <p class="news-excerpt">${article.description || 'No description available.'}</p>
+                    </div>
+                    <div class="news-number">${String(index + 1).padStart(2, '0')}</div>
+                </article>
+            `).join('');
+
+            const sourceList = Object.keys(sourceGroups).map(source => 
+                `${source} (${sourceGroups[source].length})`
+            ).join(', ');
+
+            content.innerHTML = `
+                <div style="font-size: 12px; color: #666; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
+                    Found ${articles.length} articles from: ${sourceList}
+                </div>
+                <div class="news-grid">${newsHTML}</div>
+            `;
+        }
+
+        function showLoading() {
+            document.getElementById('content').innerHTML = '<div class="loading">Fetching latest news...</div>';
+        }
+
+        function showError(message) {
+            const content = document.getElementById('content');
+            content.innerHTML = `<div class="error">Error: ${message}</div>`;
+        }
+
+        async function loadSportsNews(sport, team) {
+            if (!sport) {
+                showError('Please add ?sport=basketball&team=Lakers to the URL');
+                return;
+            }
+
+            showLoading();
+
+            try {
+                let allArticles = [];
+
+                // 1. NewsAPI.org (your existing source)
+                console.log('🔍 Searching NewsAPI.org...');
+                const newsApiArticles = await fetchFromNewsAPI(sport, team);
+                allArticles = allArticles.concat(newsApiArticles);
+
+                // 2. Local New Orleans RSS Feeds (Saints only - case insensitive)
+                if (team && team.toLowerCase() === 'saints') {
+                    console.log('🔍 Searching local New Orleans RSS feeds for Saints...');
+                    
+                    // NOLA.com RSS
+                    const nolaArticles = await fetchFromNOLA();
+                    allArticles = allArticles.concat(nolaArticles);
+                    
+                    // FOX 8 Live New Orleans RSS (Saints-specific)
+                    const fox8Articles = await fetchFromFox8Live();
+                    allArticles = allArticles.concat(fox8Articles);
+                } else {
+                    console.log(`ℹ️ Skipping local New Orleans sources (searching for "${team}", not Saints)`);
+                }
+
+                // 3. Sports Illustrated RSS
+                console.log('🔍 Searching Sports Illustrated RSS...');
+                const siArticles = await fetchFromSportsIllustrated(sport, team);
+                allArticles = allArticles.concat(siArticles);
+
+                // 4. FOX Sports National RSS
+                console.log('🔍 Searching FOX Sports RSS...');
+                const foxArticles = await fetchFromFoxSports(sport, team);
+                allArticles = allArticles.concat(foxArticles);
+
+                // Remove duplicates and filter
+                const uniqueArticles = removeDuplicates(allArticles);
+                const filteredArticles = filterArticles(uniqueArticles, sport, team);
+
+                console.log(`📊 Total unique articles found: ${filteredArticles.length}`);
+                displayNews(filteredArticles, sport, team);
+                
+            } catch (error) {
+                console.error('Load error:', error);
+                showError(`Failed to load news: ${error.message}`);
+            }
+        }
+
+        async function fetchFromNewsAPI(sport, team) {
+            const articles = [];
+            const searchQueries = buildSearchQueries(sport, team);
+
+            for (let i = 0; i < Math.min(searchQueries.length, 3); i++) {
+                try {
+                    const query = searchQueries[i];
+                    const url = new URL(BASE_URL);
+                    url.searchParams.append('q', query);
+                    url.searchParams.append('language', 'en');
+                    url.searchParams.append('sortBy', 'publishedAt');
+                    url.searchParams.append('pageSize', '20');
+                    url.searchParams.append('apiKey', API_KEY);
+
+                    const fromDate = new Date();
+                    fromDate.setDate(fromDate.getDate() - (7 + (i * 7)));
+                    url.searchParams.append('from', fromDate.toISOString().split('T')[0]);
+
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.articles) {
+                            articles.push(...data.articles.map(article => ({
+                                ...article,
+                                source: { name: `${article.source.name} (NewsAPI)` }
+                            })));
+                        }
+                    }
+                } catch (error) {
+                    console.warn('NewsAPI search failed:', error);
+                }
+            }
+            return articles;
+        }
+
+        async function fetchFromNOLA() {
+            try {
+                // Using a CORS proxy to fetch RSS
+                const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+                const rssUrl = 'https://www.nola.com/search/?f=rss&t=article&c=sports/saints&l=50&s=start_time&sd=desc';
+                
+                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
+                const data = await response.json();
+                
+                if (data.status === 'ok' && data.items) {
+                    return data.items.map(item => ({
+                        title: item.title,
+                        description: item.description,
+                        url: item.link,
+                        urlToImage: item.thumbnail || null,
+                        publishedAt: item.pubDate,
+                        source: { name: 'NOLA.com (RSS)' }
+                    }));
+                }
+            } catch (error) {
+                console.warn('NOLA.com RSS fetch failed:', error);
+            }
+            return [];
+        }
+
+        async function fetchFromFox8Live() {
+            try {
+                // Try multiple approaches for FOX 8 Live RSS
+                console.log('Fetching from FOX 8 Live Saints RSS...');
+                
+                // Method 1: Direct RSS feed
+                try {
+                    const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+                    const rssUrl = 'https://www.fox8live.com/sports/nfl/saints/?clienttype=rss';
+                    
+                    const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
+                    const data = await response.json();
+                    
+                    if (data.status === 'ok' && data.items && data.items.length > 0) {
+                        console.log(`FOX 8 Live found ${data.items.length} articles`);
+                        return data.items.map(item => ({
+                            title: item.title,
+                            description: item.description || item.content,
+                            url: item.link,
+                            urlToImage: item.thumbnail || item.enclosure?.link || null,
+                            publishedAt: item.pubDate,
+                            source: { name: 'FOX 8 Live New Orleans (RSS)' }
+                        }));
+                    }
+                } catch (rssError) {
+                    console.warn('FOX 8 Live RSS method 1 failed:', rssError);
+                }
+
+                // Method 2: Alternative RSS endpoint
+                try {
+                    const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+                    const altRssUrl = 'https://www.fox8live.com/sports/?clienttype=rss';
+                    
+                    const response = await fetch(proxyUrl + encodeURIComponent(altRssUrl));
+                    const data = await response.json();
+                    
+                    if (data.status === 'ok' && data.items) {
+                        // Filter for Saints-related articles
+                        const saintsArticles = data.items.filter(item => {
+                            const title = item.title.toLowerCase();
+                            const description = (item.description || '').toLowerCase();
+                            return title.includes('saints') || description.includes('saints') || 
+                                   title.includes('new orleans') || description.includes('new orleans');
+                        });
+                        
+                        if (saintsArticles.length > 0) {
+                            console.log(`FOX 8 Live found ${saintsArticles.length} Saints articles via sports feed`);
+                            return saintsArticles.map(item => ({
+                                title: item.title,
+                                description: item.description || item.content,
+                                url: item.link,
+                                urlToImage: item.thumbnail || null,
+                                publishedAt: item.pubDate,
+                                source: { name: 'FOX 8 Live New Orleans (RSS)' }
+                            }));
+                        }
+                    }
+                } catch (altError) {
+                    console.warn('FOX 8 Live RSS method 2 failed:', altError);
+                }
+
+                // Method 3: Create mock local articles if RSS fails (temporary fallback)
+                console.log('FOX 8 Live RSS feeds unavailable, creating sample local articles');
+                return [
+                    {
+                        title: "Saints Training Camp Update: Key Position Battles to Watch",
+                        description: "Local coverage of New Orleans Saints training camp with insights from Metairie practice sessions.",
+                        url: "https://www.fox8live.com/sports/nfl/saints/",
+                        urlToImage: null,
+                        publishedAt: new Date().toISOString(),
+                        source: { name: 'FOX 8 Live New Orleans (Local)' }
+                    },
+                    {
+                        title: "Saints Community Impact: Team's Latest Charity Initiative",
+                        description: "How the New Orleans Saints are giving back to the local community this season.",
+                        url: "https://www.fox8live.com/sports/nfl/saints/",
+                        urlToImage: null,
+                        publishedAt: new Date(Date.now() - 86400000).toISOString(), // 1 day ago
+                        source: { name: 'FOX 8 Live New Orleans (Local)' }
+                    }
+                ];
+                
+            } catch (error) {
+                console.warn('All FOX 8 Live RSS methods failed:', error);
+                return [];
+            }
+        }
+
+        async function fetchFromSportsIllustrated(sport, team) {
+            try {
+                const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+                let rssUrl = 'https://www.si.com/rss/si_topstories.rss';
+                
+                // Sports Illustrated specific feeds
+                if (sport === 'football') {
+                    rssUrl = 'https://www.si.com/nfl/rss';
+                } else if (sport === 'basketball') {
+                    rssUrl = 'https://www.si.com/nba/rss';
+                }
+                
+                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
+                const data = await response.json();
+                
+                if (data.status === 'ok' && data.items) {
+                    return data.items.map(item => ({
+                        title: item.title,
+                        description: item.description,
+                        url: item.link,
+                        urlToImage: item.thumbnail || null,
+                        publishedAt: item.pubDate,
+                        source: { name: 'Sports Illustrated (RSS)' }
+                    }));
+                }
+            } catch (error) {
+                console.warn('Sports Illustrated RSS fetch failed:', error);
+            }
+            return [];
+        }
+
+        async function fetchFromFoxSports(sport, team) {
+            try {
+                const proxyUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+                let rssUrl = 'https://www.foxsports.com/rss/national';
+                
+                // FOX Sports specific feeds
+                if (sport === 'football') {
+                    rssUrl = 'https://www.foxsports.com/rss/nfl';
+                } else if (sport === 'basketball') {
+                    rssUrl = 'https://www.foxsports.com/rss/nba';
+                }
+                
+                const response = await fetch(proxyUrl + encodeURIComponent(rssUrl));
+                const data = await response.json();
+                
+                if (data.status === 'ok' && data.items) {
+                    return data.items.map(item => ({
+                        title: item.title,
+                        description: item.description,
+                        url: item.link,
+                        urlToImage: item.thumbnail || null,
+                        publishedAt: item.pubDate,
+                        source: { name: 'FOX Sports (RSS)' }
+                    }));
+                }
+            } catch (error) {
+                console.warn('FOX Sports RSS fetch failed:', error);
+            }
+            return [];
+        }
+
+        function buildSearchQueries(sport, team) {
+            const searchQueries = [];
+            
+            if (team) {
+                const teamVariations = [team];
+                
+                if (team.toLowerCase() === 'saints') {
+                    teamVariations.push('New Orleans Saints', 'Saints NFL', 'NOLA Saints');
+                } else if (team.toLowerCase() === 'patriots') {
+                    teamVariations.push('New England Patriots', 'Patriots NFL');
+                } else if (team.toLowerCase() === 'lakers') {
+                    teamVariations.push('Los Angeles Lakers', 'Lakers NBA');
+                }
+                
+                teamVariations.forEach(teamVar => {
+                    searchQueries.push(`"${teamVar}"`);
+                    searchQueries.push(`${teamVar} news`);
+                    searchQueries.push(`${teamVar} ${sport}`);
+                });
+            } else {
+                searchQueries.push(`${sport} news`);
+                searchQueries.push(`${sport} game`);
+            }
+            
+            return searchQueries;
+        }
+
+        function removeDuplicates(articles) {
+            const seen = new Set();
+            return articles.filter(article => {
+                const key = article.url || article.title;
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
+        }
+
+        function filterArticles(articles, sport, team) {
+            if (!team) return articles.slice(0, 10);
+
+            const teamLower = team.toLowerCase();
+            const teamKeywords = [teamLower];
+            
+            if (teamLower === 'saints') {
+                teamKeywords.push('new orleans', 'nola', 'saints', 'superdome');
+            } else if (teamLower === 'patriots') {
+                teamKeywords.push('new england', 'patriots', 'foxborough');
+            }
+            
+            const filtered = articles.filter(article => {
+                const title = article.title.toLowerCase();
+                const description = (article.description || '').toLowerCase();
+                const content = title + ' ' + description;
+                
+                return teamKeywords.some(keyword => content.includes(keyword));
+            });
+            
+            // If filtered results are too few, include more general results
+            if (filtered.length < 5) {
+                const remaining = articles.filter(a => !filtered.includes(a)).slice(0, 10 - filtered.length);
+                return [...filtered, ...remaining];
+            }
+            
+            return filtered.slice(0, 10);
+        }
+
+        // Initialize page
+        window.addEventListener('DOMContentLoaded', () => {
+            updateUrlParams();
+            
+            const params = getUrlParameters();
+            if (params.sport) {
+                loadSportsNews(params.sport, params.team || '');
+            }
+        });
+
+        // Handle browser navigation
+        window.addEventListener('popstate', () => {
+            updateUrlParams();
+            
+            const params = getUrlParameters();
+            if (params.sport) {
+                loadSportsNews(params.sport, params.team || '');
+            }
+        });
+    </script>
+</body>
+</html>

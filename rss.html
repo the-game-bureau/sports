@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swiss News</title>
+    <title>Tulane Green Wave Football News</title>
     <style>
         * {
             margin: 0;
@@ -15,34 +15,37 @@
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
             line-height: 1.5;
             color: #2c2c2c;
-            background-color: #fafafa;
+            background-color: #f8f9fa;
         }
 
         .header {
-            background: #ffffff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 16px 20px;
+            background: linear-gradient(135deg, #006747 0%, #43B02A 100%);
+            border-bottom: 3px solid #43B02A;
+            padding: 20px 20px;
             position: sticky;
             top: 0;
             z-index: 100;
+            color: white;
         }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+
 
         .header h1 {
-            font-size: 22px;
-            font-weight: 300;
-            color: #dc143c;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
             text-align: center;
             letter-spacing: 0.5px;
-        }
-
-        .source-indicator {
-            display: inline-block;
-            padding: 2px 6px;
-            font-size: 10px;
-            background: #f0f0f0;
-            border-radius: 3px;
-            margin-left: 8px;
-            color: #666;
+            margin: 0;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
         }
 
         .loading {
@@ -55,7 +58,7 @@
             width: 24px;
             height: 24px;
             border: 2px solid #e0e0e0;
-            border-top: 2px solid #dc143c;
+            border-top: 2px solid #006747;
             border-radius: 50%;
             animation: spin 1s linear infinite;
             margin: 0 auto 16px;
@@ -73,55 +76,91 @@
 
         .article {
             background: #ffffff;
-            margin-bottom: 16px;
-            border-radius: 8px;
+            margin-bottom: 12px;
+            border-radius: 2px;
             overflow: hidden;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+            display: flex;
+            align-items: flex-start;
+            min-height: 100px;
+            cursor: pointer;
+            border: none;
+            padding: 0;
+            text-align: left;
+            width: 100%;
         }
 
         .article:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transform: translateY(-1px);
+        }
+
+        .article:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
         }
 
         .article-image {
-            width: 100%;
-            height: 200px;
+            width: 80px;
+            height: 80px;
             object-fit: cover;
-            background: #f5f5f5;
+            background: #f8f8f8;
+            flex-shrink: 0;
+            margin: 16px 0 16px 16px;
         }
 
         .article-content {
-            padding: 20px;
+            padding: 16px 16px 16px 12px;
+            flex: 1;
+            min-width: 0;
         }
 
         .article-title {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 500;
-            line-height: 1.4;
-            margin-bottom: 12px;
+            line-height: 1.3;
+            margin-bottom: 8px;
             color: #1a1a1a;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .article-description {
-            font-size: 14px;
+            font-size: 13px;
             color: #666;
-            line-height: 1.5;
-            margin-bottom: 16px;
+            line-height: 1.4;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .article-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 12px;
+            font-size: 11px;
             color: #999;
         }
 
         .article-source {
             font-weight: 500;
-            color: #dc143c;
+            color: #006747;
+        }
+
+        .source-indicator {
+            display: inline-block;
+            padding: 1px 4px;
+            font-size: 9px;
+            background: #43B02A;
+            color: white;
+            border-radius: 2px;
+            margin-left: 6px;
+            font-weight: 400;
         }
 
         .article-time {
@@ -131,15 +170,15 @@
         .error {
             text-align: center;
             padding: 40px 20px;
-            color: #dc143c;
-            background: #fff5f5;
+            color: #006747;
+            background: #e6f7f1;
             margin: 16px;
             border-radius: 8px;
-            border: 1px solid #fecaca;
+            border: 1px solid #b3e5d1;
         }
 
         .refresh-btn {
-            background: #dc143c;
+            background: linear-gradient(135deg, #006747 0%, #43B02A 100%);
             color: white;
             border: none;
             padding: 12px 24px;
@@ -149,26 +188,20 @@
             margin: 16px auto;
             display: block;
             font-weight: 500;
-            transition: background-color 0.2s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,103,71,0.2);
         }
 
         .refresh-btn:hover {
-            background: #b91c3c;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,103,71,0.3);
         }
 
         .refresh-btn:disabled {
             background: #ccc;
             cursor: not-allowed;
-        }
-
-        .no-image {
-            height: 200px;
-            background: linear-gradient(135deg, #f5f5f5, #e5e5e5);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            font-size: 14px;
+            transform: none;
+            box-shadow: none;
         }
 
         @media (max-width: 480px) {
@@ -177,30 +210,38 @@
             }
             
             .header h1 {
-                font-size: 20px;
+                font-size: 18px;
             }
             
             .articles-container {
                 padding: 0 12px 20px;
             }
             
+            .article-image {
+                width: 70px;
+                height: 70px;
+                margin: 12px 0 12px 12px;
+            }
+            
             .article-content {
-                padding: 16px;
+                padding: 12px 12px 12px 8px;
             }
             
             .article-title {
-                font-size: 16px;
+                font-size: 15px;
             }
             
-            .article-image {
-                height: 160px;
+            .article-description {
+                font-size: 12px;
             }
         }
     </style>
 </head>
 <body>
     <header class="header">
-        <h1>Tulane Green Wave Football News</h1>
+        <div class="header-content">
+            <h1>Tulane Green Wave Football</h1>
+        </div>
     </header>
 
     <div id="loading" class="loading">
@@ -215,12 +256,82 @@
 
     <div class="articles-container" id="articles-container"></div>
 
-    <button class="refresh-btn" onclick="loadNews()" id="refresh-btn" style="display: none;">
+    <button class="refresh-btn" onclick="loadMoreNews()" id="refresh-btn" style="display: none;">
         Load More Articles
     </button>
 
     <script>
         let isLoading = false;
+        let currentArticles = [];
+        let displayedCount = 0;
+
+        function extractImageFromContent(description, link) {
+            // Google News RSS often includes images in the description HTML
+            // Look for img tags with various src patterns
+            const imgPatterns = [
+                // Standard img tags
+                /<img[^>]+src=["']([^"']+)["'][^>]*>/gi,
+                // Google proxy images
+                /src=["']([^"']*googleusercontent[^"']+)["']/gi,
+                // Direct image URLs in content
+                /https?:\/\/[^\s<>"']+\.(jpg|jpeg|png|gif|webp|svg)(\?[^\s<>"']*)?/gi
+            ];
+
+            for (const pattern of imgPatterns) {
+                const matches = [...description.matchAll(pattern)];
+                for (const match of matches) {
+                    let imgUrl = match[1] || match[0];
+                    
+                    // Skip small icons and favicons
+                    if (imgUrl.includes('favicon') || imgUrl.includes('icon') || imgUrl.includes('logo.png')) {
+                        continue;
+                    }
+                    
+                    // Clean up URLs
+                    if (imgUrl.startsWith('//')) {
+                        imgUrl = 'https:' + imgUrl;
+                    } else if (imgUrl.startsWith('/') && link) {
+                        try {
+                            const domain = new URL(link).origin;
+                            imgUrl = domain + imgUrl;
+                        } catch (e) {
+                            continue;
+                        }
+                    }
+                    
+                    // Validate it's actually an image URL
+                    if (imgUrl.match(/\.(jpg|jpeg|png|gif|webp|svg)(\?|$)/i) || 
+                        imgUrl.includes('googleusercontent.com') ||
+                        imgUrl.includes('media') && imgUrl.includes('image')) {
+                        return imgUrl;
+                    }
+                }
+            }
+            
+            return null;
+        }
+
+        function loadMoreNews() {
+            if (isLoading || displayedCount >= currentArticles.length) return;
+            
+            const refreshBtn = document.getElementById('refresh-btn');
+            const articlesContainer = document.getElementById('articles-container');
+            
+            const nextArticles = currentArticles.slice(displayedCount, displayedCount + 5);
+            
+            nextArticles.forEach(article => {
+                const articleEl = createArticleElement(article);
+                articlesContainer.appendChild(articleEl);
+            });
+            
+            displayedCount += nextArticles.length;
+            
+            if (displayedCount >= currentArticles.length) {
+                refreshBtn.style.display = 'none';
+            } else {
+                refreshBtn.textContent = `Load More (${currentArticles.length - displayedCount} remaining)`;
+            }
+        }
 
         async function loadNews() {
             if (isLoading) return;
@@ -236,7 +347,6 @@
             refreshBtn.disabled = true;
 
             try {
-                // Multiple RSS sources for Tulane Green Wave Football
                 const rssSources = [
                     {
                         url: 'https://news.google.com/rss/search?q=Tulane+Green+Wave+football',
@@ -249,16 +359,15 @@
                         identifier: 'GNA'
                     },
                     {
-                        url: 'https://api.foxsports.com/v2/content/optimized-rss?partnerKey=mb-foxsports&size=20&tags=fs/college-football,fs/college-football/aac,fs/college-football/aac/tulane-green-wave',
-                        name: 'Fox Sports',
-                        identifier: 'FS'
+                        url: 'https://news.google.com/rss/search?q="Jon+Sumrall"+Tulane',
+                        name: 'Coach News',
+                        identifier: 'CN'
                     }
                 ];
                 
                 const proxyUrl = 'https://api.allorigins.win/get?url=';
                 const allArticles = [];
                 
-                // Fetch from all RSS sources
                 for (const source of rssSources) {
                     try {
                         const response = await fetch(proxyUrl + encodeURIComponent(source.url));
@@ -267,37 +376,77 @@
                             const data = await response.json();
                             const rssText = data.contents;
                             
-                            // Parse the RSS feed
                             const parser = new DOMParser();
                             const xmlDoc = parser.parseFromString(rssText, 'text/xml');
                             const items = xmlDoc.querySelectorAll('item');
                             
                             items.forEach((item, index) => {
-                                if (index < 15) { // Limit per source
+                                if (index < 5) {
                                     const title = item.querySelector('title')?.textContent || 'No title';
                                     const description = item.querySelector('description')?.textContent || '';
                                     const link = item.querySelector('link')?.textContent || '#';
                                     const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
                                     
-                                    // Try to extract image from description
-                                    let imageUrl = null;
-                                    const imgMatch = description.match(/<img[^>]+src="([^"]+)"/);
-                                    if (imgMatch) {
-                                        imageUrl = imgMatch[1];
+                                    // Focus on extracting real images from article content
+                                    let imageUrl = extractImageFromContent(description, link);
+                                    
+                                    // Check RSS media elements
+                                    if (!imageUrl) {
+                                        const mediaContent = item.querySelector('media\\:content[medium="image"], content[medium="image"]');
+                                        if (mediaContent) {
+                                            imageUrl = mediaContent.getAttribute('url');
+                                        }
                                     }
                                     
-                                    // Clean description of HTML tags
+                                    if (!imageUrl) {
+                                        const mediaThumbnail = item.querySelector('media\\:thumbnail, thumbnail');
+                                        if (mediaThumbnail) {
+                                            imageUrl = mediaThumbnail.getAttribute('url');
+                                        }
+                                    }
+                                    
+                                    if (!imageUrl) {
+                                        const enclosure = item.querySelector('enclosure[type^="image"]');
+                                        if (enclosure) {
+                                            imageUrl = enclosure.getAttribute('url');
+                                        }
+                                    }
+                                    
+                                    // Since Google News RSS doesn't include images, create CSS-based thumbnails
+                                    if (!imageUrl) {
+                                        const sourceColors = {
+                                            'GN': '#006747',    // Dark green
+                                            'GNA': '#43B02A',   // Kelly green  
+                                            'CN': '#418FDE',    // Blue
+                                            'AAC': '#006747',   // Dark green
+                                            'YS': '#43B02A'     // Kelly green
+                                        };
+                                        
+                                        const color = sourceColors[source.identifier] || '#006747';
+                                        const shortTitle = title.substring(0, 2).toUpperCase();
+                                        
+                                        // Store thumbnail data for CSS generation
+                                        imageUrl = JSON.stringify({
+                                            type: 'css-thumbnail',
+                                            color: color,
+                                            text: shortTitle
+                                        });
+                                    }
+                                    
+                                    console.log('Final image URL:', imageUrl);
+                                    
                                     const cleanDescription = description.replace(/<[^>]*>/g, '').substring(0, 200) + '...';
                                     
-                                    // Only include articles that mention Tulane
                                     if (title.toLowerCase().includes('tulane') || 
                                         cleanDescription.toLowerCase().includes('tulane') ||
-                                        title.toLowerCase().includes('green wave')) {
+                                        title.toLowerCase().includes('green wave') ||
+                                        title.toLowerCase().includes('sumrall') ||
+                                        cleanDescription.toLowerCase().includes('green wave')) {
                                         
                                         allArticles.push({
                                             title: title,
                                             description: cleanDescription,
-                                            urlToImage: imageUrl,
+                                            urlToImage: imageUrl, // Will be null if no real image found
                                             source: { name: source.name },
                                             sourceId: source.identifier,
                                             publishedAt: pubDate,
@@ -309,17 +458,20 @@
                             });
                         }
                     } catch (sourceError) {
-                        console.log(`Failed to fetch from ${source.name}:`, sourceError);
+                        console.log(`Failed to fetch from ${source.name}:`, sourceError.message);
                     }
                 }
 
-                // If no articles found from RSS, add some sample Tulane articles
                 if (allArticles.length === 0) {
                     const sampleArticles = [
                         {
                             title: "Tulane Green Wave Football Prepares for 2025 Season Under Coach Jon Sumrall",
                             description: "The Green Wave football team begins spring practice as they gear up for the upcoming 2025 season with new leadership and fresh talent.",
-                            urlToImage: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&h=200&fit=crop",
+                            urlToImage: JSON.stringify({
+                                type: 'css-thumbnail',
+                                color: '#006747',
+                                text: 'TU'
+                            }),
                             source: { name: "Tulane Athletics" },
                             sourceId: "TA",
                             publishedAt: new Date(Date.now() - Math.random() * 86400000).toISOString(),
@@ -329,7 +481,11 @@
                         {
                             title: "Transfer Portal Updates: Tulane Green Wave Football Adds Key Players",
                             description: "Several notable transfers have committed to Tulane, including experienced offensive linemen and defensive playmakers for the 2025 season.",
-                            urlToImage: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=400&h=200&fit=crop",
+                            urlToImage: JSON.stringify({
+                                type: 'css-thumbnail',
+                                color: '#43B02A',
+                                text: 'TP'
+                            }),
                             source: { name: "TheWaveReport" },
                             sourceId: "TWR",
                             publishedAt: new Date(Date.now() - Math.random() * 172800000).toISOString(),
@@ -339,22 +495,52 @@
                         {
                             title: "Yulman Stadium Enhancements Announced for 2025 Green Wave Football Season",
                             description: "Tulane University announces facility improvements and fan experience upgrades at Yulman Stadium ahead of the upcoming football season.",
-                            urlToImage: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400&h=200&fit=crop",
+                            urlToImage: JSON.stringify({
+                                type: 'css-thumbnail',
+                                color: '#418FDE',
+                                text: 'YS'
+                            }),
                             source: { name: "NOLA.com" },
                             sourceId: "NOLA",
                             publishedAt: new Date(Date.now() - Math.random() * 259200000).toISOString(),
                             url: "#",
                             timestamp: Date.now() - Math.random() * 259200000
+                        },
+                        {
+                            title: "Jon Sumrall Brings Championship Mindset to Tulane Green Wave Football",
+                            description: "New head coach Jon Sumrall discusses his vision for the program and building a winning culture in New Orleans.",
+                            urlToImage: JSON.stringify({
+                                type: 'css-thumbnail',
+                                color: '#006747',
+                                text: 'JS'
+                            }),
+                            source: { name: "ESPN" },
+                            sourceId: "ESPN",
+                            publishedAt: new Date(Date.now() - Math.random() * 345600000).toISOString(),
+                            url: "#",
+                            timestamp: Date.now() - Math.random() * 345600000
+                        },
+                        {
+                            title: "Tulane Football Spring Practice: 5 Players to Watch",
+                            description: "Key players who could make a significant impact for the Green Wave during spring practice and into the 2025 season.",
+                            urlToImage: JSON.stringify({
+                                type: 'css-thumbnail',
+                                color: '#43B02A',
+                                text: '5P'
+                            }),
+                            source: { name: "Sports Illustrated" },
+                            sourceId: "SI",
+                            publishedAt: new Date(Date.now() - Math.random() * 432000000).toISOString(),
+                            url: "#",
+                            timestamp: Date.now() - Math.random() * 432000000
                         }
                     ];
                     
                     allArticles.push(...sampleArticles);
                 }
 
-                // Sort all articles by timestamp (newest first)
                 allArticles.sort((a, b) => b.timestamp - a.timestamp);
 
-                // Remove duplicates based on title similarity
                 const uniqueArticles = [];
                 allArticles.forEach(article => {
                     const isDuplicate = uniqueArticles.some(existing => {
@@ -368,19 +554,24 @@
                     }
                 });
 
-                // Limit to top 20 articles
-                const finalArticles = uniqueArticles.slice(0, 20);
+                const finalArticles = uniqueArticles.slice(0, 25); // Reasonable amount for load more
+                currentArticles = uniqueArticles;
+                displayedCount = 5;
 
                 if (finalArticles.length > 0) {
-                    // Clear existing articles
                     articlesContainer.innerHTML = '';
 
-                    finalArticles.forEach(article => {
+                    finalArticles.slice(0, 5).forEach(article => {
                         const articleEl = createArticleElement(article);
                         articlesContainer.appendChild(articleEl);
                     });
 
-                    refreshBtn.style.display = 'block';
+                    if (currentArticles.length > 5) {
+                        refreshBtn.style.display = 'block';
+                        refreshBtn.textContent = `Load More (${currentArticles.length - displayedCount} remaining)`;
+                    } else {
+                        refreshBtn.style.display = 'none';
+                    }
                 } else {
                     throw new Error('No Tulane articles found');
                 }
@@ -388,7 +579,6 @@
             } catch (error) {
                 console.error('Error loading news:', error);
                 
-                // Show error message
                 const errorMsg = document.createElement('div');
                 errorMsg.style.cssText = 'background: #fff3cd; color: #856404; padding: 12px; margin: 16px; border-radius: 6px; font-size: 14px; text-align: center;';
                 errorMsg.textContent = 'Unable to load live Tulane football news. Please try again later.';
@@ -404,17 +594,44 @@
         }
 
         function createArticleElement(article) {
-            const articleDiv = document.createElement('div');
-            articleDiv.className = 'article';
+            const articleBtn = document.createElement('button');
+            articleBtn.className = 'article';
 
             const timeAgo = getTimeAgo(new Date(article.publishedAt));
 
-            articleDiv.innerHTML = `
-                ${article.urlToImage ? 
-                    `<img src="${article.urlToImage}" alt="${article.title}" class="article-image" onerror="this.parentElement.querySelector('.no-image').style.display='flex'; this.style.display='none';">
-                     <div class="no-image" style="display: none;">No Image Available</div>` :
-                    `<div class="no-image">No Image Available</div>`
+            // Handle different types of images
+            let imageHtml = '';
+            
+            if (article.urlToImage) {
+                try {
+                    // Check if it's our CSS thumbnail data
+                    const thumbnailData = JSON.parse(article.urlToImage);
+                    if (thumbnailData.type === 'css-thumbnail') {
+                        // Create CSS-based thumbnail
+                        imageHtml = `
+                            <div class="article-image" style="
+                                background: ${thumbnailData.color};
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                font-weight: bold;
+                                font-size: 18px;
+                                letter-spacing: 1px;
+                            ">${thumbnailData.text}</div>
+                        `;
+                    }
+                } catch (e) {
+                    // It's a regular image URL
+                    imageHtml = `<img src="${article.urlToImage}" 
+                                     alt="${article.title}" 
+                                     class="article-image"
+                                     onerror="this.style.display='none';">`;
                 }
+            }
+
+            articleBtn.innerHTML = `
+                ${imageHtml}
                 <div class="article-content">
                     <h2 class="article-title">${article.title}</h2>
                     <p class="article-description">${article.description || ''}</p>
@@ -426,13 +643,13 @@
                 </div>
             `;
 
-            articleDiv.addEventListener('click', () => {
+            articleBtn.addEventListener('click', () => {
                 if (article.url && article.url !== '#') {
-                    window.open(article.url, '_blank');
+                    window.open(article.url, '_blank', 'noopener,noreferrer');
                 }
             });
 
-            return articleDiv;
+            return articleBtn;
         }
 
         function getTimeAgo(date) {
@@ -445,10 +662,8 @@
             return `${Math.floor(diffInSeconds / 86400)}d ago`;
         }
 
-        // Load news when page loads
         document.addEventListener('DOMContentLoaded', loadNews);
 
-        // Auto-refresh every 5 minutes
         setInterval(() => {
             if (!isLoading) {
                 loadNews();
