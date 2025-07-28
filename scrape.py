@@ -1,88 +1,128 @@
-from selenium import webdriver
-from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
+import http.client
+import os
+import json
 
-# URL of the Tulane 2025 football schedule
-url = "https://fbschedules.com/2025-tulane-football-schedule/"
+def scrape_tulane_football_news():
+    """
+    Scrapes Tulane Green Wave football news and data from SportAPI7
+    """
+    try:
+        # Create HTTPS connection
+        conn = http.client.HTTPSConnection("sportapi7.p.rapidapi.com")
+        
+        # Headers for API request
+        headers = {
+            'x-rapidapi-key': os.getenv('RAPIDAPI_KEY', "0e72ee213amshe68ca7ce87a72c6p1fc079jsna9a45b742de5"),
+            'x-rapidapi-host': "sportapi7.p.rapidapi.com"
+        }
+        
+        # Try multiple endpoints for Tulane football data
+        endpoints = [
+            "/api/v1/sport/american-football/team/tulane/news",
+            "/api/v1/sport/american-football/team/tulane/matches",
+            "/api/v1/sport/american-football/team/tulane",
+            "/api/v1/sport/american-football/teams?search=tulane"
+        ]
+        
+        for endpoint in endpoints:
+            print(f"\n=== Trying endpoint: {endpoint} ===")
+            try:
+                # Make GET request
+                conn.request("GET", endpoint, headers=headers)
+                
+                # Get response
+                res = conn.getresponse()
+                
+                # Check if request was successful
+                if res.status == 200:
+                    data = res.read()
+                    decoded_data = data.decode("utf-8")
+                    
+                    # Try to parse as JSON for better formatting
+                    try:
+                        json_data = json.loads(decoded_data)
+                        print(f"✓ Success! Data from {endpoint}:")
+                        print(json.dumps(json_data, indent=2))
+                        print("\n" + "="*50)
+                    except json.JSONDecodeError:
+                        print(f"✓ Success! Raw data from {endpoint}:")
+                        print(decoded_data)
+                        print("\n" + "="*50)
+                else:
+                    print(f"✗ Error: HTTP {res.status} - {res.reason}")
+                    
+            except Exception as e:
+                print(f"✗ Error with endpoint {endpoint}: {e}")
+            
+            # Create new connection for next request
+            conn.close()
+            conn = http.client.HTTPSConnection("sportapi7.p.rapidapi.com")
+            
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        # Close connection
+        if 'conn' in locals():
+            conn.close()
 
-# HTML template with escaped curly braces in CSS
-html_template = """<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025 Tulane Football Schedule</title>
-    <style>
-        body {{
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }}
-        table {{
-            border-collapse: collapse;
-            width: 80%;
-            margin: 20px auto;
-        }}
-        th, td {{
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }}
-        th {{
-            background-color: #f2f2f2;
-        }}
-        h1 {{
-            color: #0C2340;
-        }}
-    </style>
-</head>
-<body>
-    <h1>2025 Tulane Football Schedule</h1>
-    {table_content}
-</body>
-</html>
-"""
+def search_tulane_football():
+    """
+    Alternative function to search for Tulane football using different approaches
+    """
+    try:
+        conn = http.client.HTTPSConnection("sportapi7.p.rapidapi.com")
+        
+        headers = {
+            'x-rapidapi-key': os.getenv('RAPIDAPI_KEY', "0e72ee213amshe68ca7ce87a72c6p1fc079jsna9a45b742de5"),
+            'x-rapidapi-host': "sportapi7.p.rapidapi.com"
+        }
+        
+        # Search endpoints
+        search_endpoints = [
+            "/api/v1/search?query=tulane+football",
+            "/api/v1/search?query=tulane+green+wave",
+            "/api/v1/sport/american-football/leagues",
+            "/api/v1/sport/american-football"
+        ]
+        
+        for endpoint in search_endpoints:
+            print(f"\n=== Searching: {endpoint} ===")
+            try:
+                conn.request("GET", endpoint, headers=headers)
+                res = conn.getresponse()
+                
+                if res.status == 200:
+                    data = res.read()
+                    decoded_data = data.decode("utf-8")
+                    
+                    try:
+                        json_data = json.loads(decoded_data)
+                        print(f"✓ Found data:")
+                        print(json.dumps(json_data, indent=2))
+                    except json.JSONDecodeError:
+                        print(f"✓ Raw data:")
+                        print(decoded_data)
+                else:
+                    print(f"✗ Error: HTTP {res.status}")
+                    
+            except Exception as e:
+                print(f"✗ Error: {e}")
+            
+            conn.close()
+            conn = http.client.HTTPSConnection("sportapi7.p.rapidapi.com")
+            
+    except Exception as e:
+        print(f"Search error: {e}")
+    finally:
+        if 'conn' in locals():
+            conn.close()
 
-try:
-    # Set up headless Chrome
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    driver = webdriver.Chrome(options=chrome_options)
-
-    # Fetch the webpage
-    driver.get(url)
-    # Wait for page to load (adjust if needed)
-    driver.implicitly_wait(10)
-
-    # Parse the HTML with BeautifulSoup
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    driver.quit()
-
-    # Find the schedule table with specific class
-    schedule_table = soup.find('table', class_='fbs-table')
-
-    if schedule_table:
-        # Convert the table to string, preserving its HTML structure
-        table_html = str(schedule_table)
-        # Insert the table into the HTML template
-        html_content = html_template.format(table_content=table_html)
-    else:
-        # Fallback if no table is found
-        html_content = html_template.format(table_content="<p>Error: Schedule table not found. Check 'debug_page.html' for details.</p>")
-        # Log the HTML for debugging
-        with open("debug_page.html", "w", encoding="utf-8") as debug_file:
-            debug_file.write(soup.prettify())
-        print("Debug HTML saved as 'debug_page.html' for inspection.")
-
-except Exception as e:
-    # Handle any errors
-    html_content = html_template.format(table_content=f"<p>Error: Unable to fetch schedule. ({str(e)})</p>")
-    print(f"Error occurred: {str(e)}")
-
-# Save the HTML content to a file
-with open("tulane_schedule_2025.html", "w", encoding="utf-8") as file:
-    file.write(html_content)
-
-print("Web page generated as 'tulane_schedule_2025.html'. Open it in a browser to view the schedule.")
-print("If the table is not displayed, check 'debug_page.html' to inspect the page content.")
+if __name__ == "__main__":
+    print("🏈 TULANE GREEN WAVE FOOTBALL NEWS SCRAPER 🏈")
+    print("=" * 50)
+    
+    print("\n1. Trying direct team endpoints...")
+    scrape_tulane_football_news()
+    
+    print("\n2. Trying search endpoints...")
+    search_tulane_football()
