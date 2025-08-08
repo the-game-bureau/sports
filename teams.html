@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teams — Report Builder</title>
+  <style>
+    /* Swiss / International Typographic Style-inspired */
+    :root {
+      --bg: #ffffff;
+      --ink: #111111;
+      --muted: #6b7280; /* gray-500 */
+      --accent: #e10600; /* Swiss red */
+      --card: #f6f7f8;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    }
+
+    /* Top bar */
+    header {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 20px; }
+    h1 {
+      margin: 0 0 8px 0;
+      font-weight: 800; letter-spacing: -0.02em; text-transform: uppercase;
+      font-size: clamp(26px, 4vw, 40px);
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em;
+    }
+
+    /* Form block */
+    form { margin: 24px 0 40px; }
+    .row { display: grid; grid-template-columns: 180px 1fr 160px; gap: 12px; align-items: center; }
+    label[for="reportName"] { font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+    input[type="text"], input[type="search"] {
+      width: 100%; padding: 12px 14px; border: 2px solid #000; border-radius: 0;
+      outline: none; font-size: 16px; background: #fff;
+    }
+    input[type="text"]:focus, input[type="search"]:focus { border-color: var(--accent); }
+    button[type="submit"] {
+      appearance: none; border: none; cursor: pointer; border-radius: 0;
+      background: var(--accent); color: #fff; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 14px 16px; font-size: 14px; box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+    }
+
+    /* Controls */
+    .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 12px 0 0; }
+    .chip { border: 1.5px solid #000; padding: 6px 10px; text-transform: uppercase; font-size: 12px; cursor: pointer; background: #fff; }
+    .chip[aria-pressed="true"] { background: var(--ink); color: #fff; }
+
+    /* Grid list */
+    .grid { margin: 8px 0 60px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 14px;
+      min-height: 86px;
+      display: grid; grid-template-columns: 28px 1fr; gap: 12px; align-items: start;
+    }
+    .meta { display: grid; gap: 2px; }
+    .team-name { font-weight: 700; letter-spacing: -0.01em; }
+    .team-sub { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* Checkbox styling (keep accessible, minimal Swiss) */
+    input[type="checkbox"] {
+      width: 20px; height: 20px; margin: 0; accent-color: var(--accent);
+    }
+
+    /* Footer note */
+    footer { border-top: 1px solid var(--border); }
+    footer .wrap { padding: 18px 20px; color: var(--muted); font-size: 12px; }
+
+    /* Small screens */
+    @media (max-width: 640px) {
+      .row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Teams</h1>
+      <div class="sub">Swiss-style report builder</div>
+      <form id="teamsForm" action="index.html" method="GET">
+        <div class="row">
+          <label for="reportName">Report Name</label>
+          <input id="reportName" name="report_name" type="text" placeholder="e.g., Week 1 Selections" required />
+          <button type="submit">Submit</button>
+        </div>
+        <div class="controls" aria-label="Filters & bulk actions">
+          <input id="q" name="q" type="search" placeholder="Filter teams… (name, league, conference, state)" autocomplete="off" />
+          <button class="chip" type="button" id="toggleAll" aria-pressed="false">Select All</button>
+          <button class="chip" type="button" data-filter="NCAA">NCAA</button>
+          <button class="chip" type="button" data-filter="NFL">NFL</button>
+          <button class="chip" type="button" data-filter="SEC">SEC</button>
+          <button class="chip" type="button" data-filter="AC">AC</button>
+          <button class="chip" type="button" data-filter="Big Sky">Big Sky</button>
+        </div>
+        <div id="errors" role="alert" style="color:#b91c1c; margin-top:8px; display:none;"></div>
+        <div id="grid" class="grid" aria-live="polite"></div>
+      </form>
+    </div>
+  </header>
+
+  <footer>
+    <div class="wrap">Data source: teams.xml. Your selections submit to <strong>index.html</strong> via querystring.</div>
+  </footer>
+
+  <script>
+    const grid = document.getElementById('grid');
+    const errors = document.getElementById('errors');
+    const form = document.getElementById('teamsForm');
+    const searchInput = document.getElementById('q');
+    const toggleAllBtn = document.getElementById('toggleAll');
+
+    let TEAMS = [];
+
+    async function loadXML() {
+      try {
+        const res = await fetch('teams.xml', { cache: 'no-store' });
+        if (!res.ok) throw new Error('Failed to load teams.xml');
+        const text = await res.text();
+        const xml = new window.DOMParser().parseFromString(text, 'application/xml');
+        const nodes = Array.from(xml.querySelectorAll('team'));
+        TEAMS = nodes.map((n, i) => {
+          const pick = (sel) => (n.querySelector(sel) ? n.querySelector(sel).textContent.trim() : '');
+          return {
+            id: `t_${i}`,
+            league: pick('league') || 'NCAA',
+            name: pick('name'),
+            school: pick('school'),
+            nickname: pick('nickname'),
+            city: pick('city'),
+            state: pick('state'),
+            conference: pick('conference'),
+            conference_short: pick('conference_short'),
+            subdivision: pick('subdivision'),
+            url: pick('url'),
+          };
+        });
+        render(TEAMS);
+      } catch (err) {
+        errors.style.display = 'block';
+        errors.textContent = 'Could not load teams.xml — place teams.html next to teams.xml and reload.';
+      }
+    }
+
+    function card(team) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'card';
+
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.name = 'teams';
+      cb.value = team.name; // submit team name
+      cb.id = team.id;
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+
+      const title = document.createElement('label');
+      title.className = 'team-name';
+      title.setAttribute('for', team.id);
+      title.textContent = team.name || '(Unnamed)';
+
+      const sub = document.createElement('div');
+      sub.className = 'team-sub';
+      const bits = [team.league, team.conference_short || team.conference, team.state].filter(Boolean);
+      sub.textContent = bits.join(' • ');
+
+      meta.appendChild(title);
+      meta.appendChild(sub);
+      wrapper.appendChild(cb);
+      wrapper.appendChild(meta);
+
+      // Hidden context fields (grouped with index for clarity)
+      const hidden = (name, value) => {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = `${name}[${team.id}]`;
+        input.value = value || '';
+        return input;
+      };
+      wrapper.appendChild(hidden('league', team.league));
+      wrapper.appendChild(hidden('conference', team.conference));
+      wrapper.appendChild(hidden('state', team.state));
+      wrapper.appendChild(hidden('school', team.school));
+      wrapper.appendChild(hidden('nickname', team.nickname));
+
+      // Data attributes for filtering
+      wrapper.dataset.league = team.league;
+      wrapper.dataset.conf = team.conference_short || team.conference || '';
+      wrapper.dataset.state = team.state || '';
+      wrapper.dataset.name = `${team.name} ${team.school} ${team.nickname}`.toLowerCase();
+
+      return wrapper;
+    }
+
+    function render(list) {
+      grid.innerHTML = '';
+      const frag = document.createDocumentFragment();
+      list.forEach(t => frag.appendChild(card(t)));
+      grid.appendChild(frag);
+    }
+
+    // Filter logic
+    function applyFilter() {
+      const q = (searchInput.value || '').toLowerCase();
+      Array.from(grid.children).forEach(card => {
+        const hay = [card.dataset.name, card.dataset.league, card.dataset.conf, card.dataset.state].join(' ').toLowerCase();
+        card.style.display = hay.includes(q) ? '' : 'none';
+      });
+    }
+
+    searchInput.addEventListener('input', applyFilter);
+
+    // Chip filters
+    document.querySelectorAll('.chip[data-filter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const v = btn.getAttribute('data-filter');
+        const pressed = btn.getAttribute('aria-pressed') === 'true';
+        // toggle pressed
+        btn.setAttribute('aria-pressed', pressed ? 'false' : 'true');
+        // reset others
+        document.querySelectorAll('.chip[data-filter]').forEach(b => { if (b !== btn) b.setAttribute('aria-pressed', 'false'); });
+        // apply
+        Array.from(grid.children).forEach(card => {
+          if (!v || pressed) { card.style.display = ''; return; }
+          const match = (card.dataset.league === v) || (card.dataset.conf === v);
+          card.style.display = match ? '' : 'none';
+        });
+      });
+    });
+
+    // Select all toggle
+    toggleAllBtn.addEventListener('click', () => {
+      const pressed = toggleAllBtn.getAttribute('aria-pressed') === 'true';
+      const next = !pressed;
+      toggleAllBtn.setAttribute('aria-pressed', String(next));
+      toggleAllBtn.textContent = next ? 'Clear All' : 'Select All';
+
+      const visibleCards = Array.from(grid.children).filter(c => c.style.display !== 'none');
+      visibleCards.forEach(c => {
+        const cb = c.querySelector('input[type="checkbox"]');
+        if (cb) cb.checked = next;
+      });
+    });
+
+    // Ensure at least one team OR allow empty? We'll allow empty, server can decide.
+    form.addEventListener('submit', () => {
+      // nothing special; checkboxes + report_name will submit to index.html
+    });
+
+    loadXML();
+  </script>
+</body>
+</html>

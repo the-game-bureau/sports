@@ -367,9 +367,24 @@ def get_cfb_schedule_xml():
             url = f"http://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?seasontype=2&week={week}&year={year}"
 
             try:
+<<<<<<< HEAD:schedule.py
                 response = requests.get(url, timeout=20)
                 response.raise_for_status()
                 data = response.json()
+=======
+                gid = str(game.get("id") or "")
+                date_str = iso_to_local_string(game.get("date"))
+                competitions = game.get("competitions") or []
+                if not competitions:
+                    continue
+                comp = competitions[0]
+                competitors = comp.get("competitors") or []
+                if len(competitors) < 2:
+                    continue
+                # ...existing code...
+            except Exception as e:
+                print(f"Error processing game: {e}")
+>>>>>>> d0cd7d90b2c9a8f0473c053778d89edba00f4079:archive/schedule.py
 
                 if 'events' in data and data['events']:
                     all_games.extend(data['events'])
@@ -577,6 +592,7 @@ def create_xml(games, year, conf_index: dict):
         conf_elem.set("name", conf)
         conf_elem.set("teams", str(count))
 
+<<<<<<< HEAD:schedule.py
     # Pretty print and save
     rough_string = ET.tostring(root, 'unicode')
     reparsed = minidom.parseString(rough_string)
@@ -594,3 +610,9 @@ if __name__ == "__main__":
     # debug_api_structure()
 
     get_cfb_schedule_xml()
+=======
+                    division = div_index.get(tid, "Unknown")
+                # ...existing code...
+            except Exception as e:
+                print(f"Error processing NFL game: {e}")
+>>>>>>> d0cd7d90b2c9a8f0473c053778d89edba00f4079:archive/schedule.py

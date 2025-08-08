@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='utf-8'?>
+<teams>
+  <meta>
+    <generated_by>maker.py</generated_by>
+    <source_fbs>https://en.wikipedia.org/wiki/List_of_NCAA_Division_I_FBS_football_programs</source_fbs>
+    <source_fcs>https://en.wikipedia.org/wiki/List_of_NCAA_Division_I_FCS_football_programs</source_fcs>
+    <source_ac>https://en.wikipedia.org/wiki/2025_American_Conference_football_season</source_ac>
+    <source_sec>https://en.wikipedia.org/wiki/2025_Southeastern_Conference_football_season</source_sec>
+    <source_nfl>https://www.nfl.com/teams</source_nfl>
+    <generated_at>2025-08-08T14:34:40</generated_at>
+  </meta>
+  <team>
+    <league>NCAA</league>
+    <name>Alabama Crimson Tide</name>
+    <school>Alabama</school>
+    <nickname>Crimson Tide</nickname>
+    <city>Tuscaloosa</city>
+    <state>AL</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Alabama</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Arkansas Razorbacks</name>
+    <school>Arkansas</school>
+    <nickname>Razorbacks</nickname>
+    <city>Fayetteville</city>
+    <state>AR</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Arkansas</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Army Black Knights</name>
+    <school>Army</school>
+    <nickname>Black Knights</nickname>
+    <city>West Point</city>
+    <state>NY</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/United_States_Military_Academy</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Auburn Tigers</name>
+    <school>Auburn</school>
+    <nickname>Tigers</nickname>
+    <city>Auburn</city>
+    <state>AL</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Auburn_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Charlotte 49ers</name>
+    <school>Charlotte</school>
+    <nickname>49ers</nickname>
+    <city>Charlotte</city>
+    <state>NC</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>East Carolina Pirates</name>
+    <school>East Carolina</school>
+    <nickname>Pirates</nickname>
+    <city>Greenville</city>
+    <state>NC</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/East_Carolina_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Florida Atlantic Owls</name>
+    <school>Florida Atlantic</school>
+    <nickname>Owls</nickname>
+    <city>Boca Raton</city>
+    <state>FL</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/Florida_Atlantic_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Florida Gators</name>
+    <school>Florida</school>
+    <nickname>Gators</nickname>
+    <city>Gainesville</city>
+    <state>FL</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Florida</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Georgia Bulldogs</name>
+    <school>Georgia</school>
+    <nickname>Bulldogs</nickname>
+    <city>Athens</city>
+    <state>GA</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Georgia</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Kentucky Wildcats</name>
+    <school>Kentucky</school>
+    <nickname>Wildcats</nickname>
+    <city>Lexington</city>
+    <state>KY</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Kentucky</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>LSU Tigers</name>
+    <school>LSU</school>
+    <nickname>Tigers</nickname>
+    <city>Baton Rouge</city>
+    <state>LA</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Louisiana_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Memphis Tigers</name>
+    <school>Memphis</school>
+    <nickname>Tigers</nickname>
+    <city>Memphis</city>
+    <state>TN</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_Memphis</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Mississippi State Bulldogs</name>
+    <school>Mississippi State</school>
+    <nickname>Bulldogs</nickname>
+    <city>Starkville</city>
+    <state>MS</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Mississippi_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Missouri Tigers</name>
+    <school>Missouri</school>
+    <nickname>Tigers</nickname>
+    <city>Columbia</city>
+    <state>MO</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Missouri</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Navy Midshipmen</name>
+    <school>Navy</school>
+    <nickname>Midshipmen</nickname>
+    <city>Annapolis</city>
+    <state>MD</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/United_States_Naval_Academy</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>North Texas Mean Green</name>
+    <school>North Texas</school>
+    <nickname>Mean Green</nickname>
+    <city>Denton</city>
+    <state>TX</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>1957</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_North_Texas</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Oklahoma Sooners</name>
+    <school>Oklahoma</school>
+    <nickname>Sooners</nickname>
+    <city>Norman</city>
+    <state>OK</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Oklahoma</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Ole Miss Rebels</name>
+    <school>Ole Miss</school>
+    <nickname>Rebels</nickname>
+    <city>Oxford</city>
+    <state>MS</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Mississippi</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Rice Owls</name>
+    <school>Rice</school>
+    <nickname>Owls</nickname>
+    <city>Houston</city>
+    <state>TX</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Rice_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>South Carolina Gamecocks</name>
+    <school>South Carolina</school>
+    <nickname>Gamecocks</nickname>
+    <city>Columbia</city>
+    <state>SC</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_South_Carolina</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>South Florida Bulls</name>
+    <school>South Florida</school>
+    <nickname>Bulls</nickname>
+    <city>Tampa</city>
+    <state>FL</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_South_Florida</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Temple Owls</name>
+    <school>Temple</school>
+    <nickname>Owls</nickname>
+    <city>Philadelphia</city>
+    <state>PA</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/Temple_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Tennessee Volunteers</name>
+    <school>Tennessee</school>
+    <nickname>Volunteers</nickname>
+    <city>Knoxville</city>
+    <state>TN</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Tennessee</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Texas Longhorns</name>
+    <school>Texas</school>
+    <nickname>Longhorns</nickname>
+    <city>Austin</city>
+    <state>TX</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Texas_at_Austin</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Texas A&amp;M Aggies</name>
+    <school>Texas A&amp;M</school>
+    <nickname>Aggies</nickname>
+    <city>College Station</city>
+    <state>TX</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Texas_A%26M_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Tulane Green Wave</name>
+    <school>Tulane</school>
+    <nickname>Green Wave</nickname>
+    <city>New Orleans</city>
+    <state>LA</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Tulane_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Tulsa Golden Hurricane</name>
+    <school>Tulsa</school>
+    <nickname>Golden Hurricane</nickname>
+    <city>Tulsa</city>
+    <state>OK</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Tulsa</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>UAB Blazers</name>
+    <school>UAB</school>
+    <nickname>Blazers</nickname>
+    <city>Birmingham</city>
+    <state>AL</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>1996</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_Alabama_at_Birmingham</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>UTSA Roadrunners</name>
+    <school>UTSA</school>
+    <nickname>Roadrunners</nickname>
+    <city>San Antonio</city>
+    <state>TX</state>
+    <conference>American Conference</conference>
+    <conference_short>AC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference>–</joined_conference>
+    <url>https://en.wikipedia.org/wiki/University_of_Texas_at_San_Antonio</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Vanderbilt Commodores</name>
+    <school>Vanderbilt</school>
+    <nickname>Commodores</nickname>
+    <city>Nashville</city>
+    <state>TN</state>
+    <conference>Southeastern Conference</conference>
+    <conference_short>SEC</conference_short>
+    <subdivision>FBS</subdivision>
+    <stadium />
+    <first_season />
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Vanderbilt_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>California Polytechnic State University Cal Poly</name>
+    <school>California Polytechnic State University</school>
+    <nickname>Cal Poly</nickname>
+    <city>San Luis Obispo</city>
+    <state>California</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1994</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/California_Polytechnic_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Eastern Washington University Eastern Washington</name>
+    <school>Eastern Washington University</school>
+    <nickname>Eastern Washington</nickname>
+    <city>Cheney</city>
+    <state>Washington</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1984</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Eastern_Washington_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>University of Idaho Idaho</name>
+    <school>University of Idaho</school>
+    <nickname>Idaho</nickname>
+    <city>Moscow</city>
+    <state>Idaho</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978; 2018</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Idaho</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Idaho State University Idaho State</name>
+    <school>Idaho State University</school>
+    <nickname>Idaho State</nickname>
+    <city>Pocatello</city>
+    <state>Idaho</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Idaho_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>University of Montana Montana</name>
+    <school>University of Montana</school>
+    <nickname>Montana</nickname>
+    <city>Missoula</city>
+    <state>Montana</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Montana</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Montana State University Montana State</name>
+    <school>Montana State University</school>
+    <nickname>Montana State</nickname>
+    <city>Bozeman</city>
+    <state>Montana</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Montana_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Northern Arizona University Northern Arizona</name>
+    <school>Northern Arizona University</school>
+    <nickname>Northern Arizona</nickname>
+    <city>Flagstaff</city>
+    <state>Arizona</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Northern_Arizona_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>University of Northern Colorado Northern Colorado</name>
+    <school>University of Northern Colorado</school>
+    <nickname>Northern Colorado</nickname>
+    <city>Greeley</city>
+    <state>Colorado</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>2007</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_Northern_Colorado</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Portland State University Portland State</name>
+    <school>Portland State University</school>
+    <nickname>Portland State</nickname>
+    <city>Portland</city>
+    <state>Oregon</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978; 1998</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Portland_State_University</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>California State University, Sacramento Sacramento State</name>
+    <school>California State University, Sacramento</school>
+    <nickname>Sacramento State</nickname>
+    <city>Sacramento</city>
+    <state>California</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1993</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/California_State_University,_Sacramento</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>University of California, Davis UC Davis</name>
+    <school>University of California, Davis</school>
+    <nickname>UC Davis</nickname>
+    <city>Davis</city>
+    <state>California</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>2007</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/University_of_California,_Davis</url>
+  </team>
+  <team>
+    <league>NCAA</league>
+    <name>Weber State University Weber State</name>
+    <school>Weber State University</school>
+    <nickname>Weber State</nickname>
+    <city>Ogden</city>
+    <state>Utah</state>
+    <conference>Big Sky Conference</conference>
+    <conference_short>Big Sky</conference_short>
+    <subdivision>FCS</subdivision>
+    <stadium />
+    <first_season>1978</first_season>
+    <joined_conference />
+    <url>https://en.wikipedia.org/wiki/Weber_State_University</url>
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Arizona Cardinals</name>
+    <url>https://www.nfl.com/teams/arizona-cardinals/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/u9fltoslqdsyao8cpm0k</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Atlanta Falcons</name>
+    <url>https://www.nfl.com/teams/atlanta-falcons/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/d8m7hzpsbrl6pnqht8op</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Carolina Panthers</name>
+    <url>https://www.nfl.com/teams/carolina-panthers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ervfzgrqdpnc7lh5gqwq</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Chicago Bears</name>
+    <url>https://www.nfl.com/teams/chicago-bears/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ijrplti0kmzsyoaikhv1</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Dallas Cowboys</name>
+    <url>https://www.nfl.com/teams/dallas-cowboys/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ieid8hoygzdlmzo0tnf6</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Detroit Lions</name>
+    <url>https://www.nfl.com/teams/detroit-lions/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ocvxwnapdvwevupe4tpr</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Green Bay Packers</name>
+    <url>https://www.nfl.com/teams/green-bay-packers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/gppfvr7n8gljgjaqux2x</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Los Angeles Rams</name>
+    <url>https://www.nfl.com/teams/los-angeles-rams/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ayvwcmluj2ohkdlbiegi</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Minnesota Vikings</name>
+    <url>https://www.nfl.com/teams/minnesota-vikings/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/teguylrnqqmfcwxvcmmz</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>New Orleans Saints</name>
+    <url>https://www.nfl.com/teams/new-orleans-saints/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/grhjkahghjkk17v43hdx</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>New York Giants</name>
+    <url>https://www.nfl.com/teams/new-york-giants/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/t6mhdmgizi6qhndh8b9p</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Philadelphia Eagles</name>
+    <url>https://www.nfl.com/teams/philadelphia-eagles/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/puhrqgj71gobgdkdo6uq</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>San Francisco 49ers</name>
+    <url>https://www.nfl.com/teams/san-francisco-49ers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/dxibuyxbk0b9ua5ih9hn</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Seattle Seahawks</name>
+    <url>https://www.nfl.com/teams/seattle-seahawks/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/gcytzwpjdzbpwnwxincg</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Tampa Bay Buccaneers</name>
+    <url>https://www.nfl.com/teams/tampa-bay-buccaneers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/v8uqiualryypwqgvwcih</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Washington Commanders</name>
+    <url>https://www.nfl.com/teams/washington-commanders/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/xymxwrxtyj9fhaemhdyd</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Baltimore Ravens</name>
+    <url>https://www.nfl.com/teams/baltimore-ravens/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ucsdijmddsqcj1i9tddd</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Buffalo Bills</name>
+    <url>https://www.nfl.com/teams/buffalo-bills/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/giphcy6ie9mxbnldntsf</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Cincinnati Bengals</name>
+    <url>https://www.nfl.com/teams/cincinnati-bengals/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/okxpteoliyayufypqalq</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Cleveland Browns</name>
+    <url>https://www.nfl.com/teams/cleveland-browns/</url>
+    <logo>https://static.www.nfl.com/image/upload/f_auto/league/bedyixmmjhszfcx5wv2l</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Denver Broncos</name>
+    <url>https://www.nfl.com/teams/denver-broncos/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/t0p7m5cjdjy18rnzzqbx</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Houston Texans</name>
+    <url>https://www.nfl.com/teams/houston-texans</url>
+    <logo>https://static.www.nfl.com/image/upload/f_auto/league/u6camnphqvjc6mku6u3c</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Indianapolis Colts</name>
+    <url>https://www.nfl.com/teams/indianapolis-colts</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ketwqeuschqzjsllbid5</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Jacksonville Jaguars</name>
+    <url>https://www.nfl.com/teams/jacksonville-jaguars/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/qycbib6ivrm9dqaexryk</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Kansas City Chiefs</name>
+    <url>https://www.nfl.com/teams/kansas-city-chiefs/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/ujshjqvmnxce8m4obmvs</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Las Vegas Raiders</name>
+    <url>https://www.nfl.com/teams/las-vegas-raiders/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/gzcojbzcyjgubgyb6xf2</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Los Angeles Chargers</name>
+    <url>https://www.nfl.com/teams/los-angeles-chargers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/dhfidtn8jrumakbogeu4</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Miami Dolphins</name>
+    <url>https://www.nfl.com/teams/miami-dolphins/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/lits6p8ycthy9to70bnt</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>New England Patriots</name>
+    <url>https://www.nfl.com/teams/new-england-patriots/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/moyfxx3dq5pio4aiftnc</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>New York Jets</name>
+    <url>https://www.nfl.com/teams/new-york-jets/</url>
+    <logo>https://static.www.nfl.com/image/upload/f_auto/league/vdqo4iiufmdrimkaxslj</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Pittsburgh Steelers</name>
+    <url>https://www.nfl.com/teams/pittsburgh-steelers/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/xujg9t3t4u5nmjgr54wx</logo>
+    <background />
+  </team>
+  <team>
+    <league>NFL</league>
+    <name>Tennessee Titans</name>
+    <url>https://www.nfl.com/teams/tennessee-titans/</url>
+    <logo>https://static.www.nfl.com/image/private/f_auto/league/pln44vuzugjgipyidsre</logo>
+    <background />
+  </team>
+</teams>

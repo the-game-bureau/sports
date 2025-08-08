@@ -1,0 +1,3714 @@
+<?xml version='1.0' encoding='utf-8'?>
+<games>
+  <meta>
+    <generated_by>games.py</generated_by>
+    <source>https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard</source>
+    <season>2025</season>
+    <generated_at>2025-08-08T14:58:29</generated_at>
+  </meta>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-05T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772510</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772510</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-06T00:00Z</date>
+    <time>00:00Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772714</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772714</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772830</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772830</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772829</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772829</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772719</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772719</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772720</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772720</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772718</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772718</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772721</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772721</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Giants</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772827</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772827</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772828</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772828</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Tennessee Titans</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772832</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772832</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T20:05Z</date>
+    <time>20:05Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772831</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772831</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Detroit Lions</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772722</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772722</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-07T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Houston Texans</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772723</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772723</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-08T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772918</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772918</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>1</week>
+    <date>2025-09-09T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772810</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772810</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-12T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Washington Commanders</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772936</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772936</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772725</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772725</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Giants</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772834</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772834</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772835</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772835</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772724</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772724</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New England Patriots</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772728</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772728</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>San Francisco 49ers</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772833</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772833</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Buffalo Bills</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772727</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772727</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772836</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772836</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772726</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772726</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Denver Broncos</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772729</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772729</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Carolina Panthers</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772730</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772730</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-14T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772837</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772837</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-15T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Atlanta Falcons</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772919</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772919</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-15T23:00Z</date>
+    <time>23:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772715</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772715</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>2</week>
+    <date>2025-09-16T02:00Z</date>
+    <time>02:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772811</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772811</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-19T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Miami Dolphins</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772937</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772937</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Green Bay Packers</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772842</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772842</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772733</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772733</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772731</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772731</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772732</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772732</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772839</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772839</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Jets</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772840</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772840</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772841</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772841</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Atlanta Falcons</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772838</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772838</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Houston Texans</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772734</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772734</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Denver Broncos</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772735</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772735</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T20:05Z</date>
+    <time>20:05Z</time>
+    <away>New Orleans Saints</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772736</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772736</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772844</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772844</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-21T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Arizona Cardinals</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772843</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772843</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-22T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772920</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772920</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>3</week>
+    <date>2025-09-23T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Detroit Lions</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772812</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772812</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-26T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772938</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772938</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T13:30Z</date>
+    <time>13:30Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772632</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772632</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Washington Commanders</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772739</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772739</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772740</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772740</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772846</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772846</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772847</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772847</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772737</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772737</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772845</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772845</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Tennessee Titans</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772738</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772738</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772849</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772849</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772848</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772848</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772741</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772741</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-28T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Chicago Bears</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772742</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772742</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-29T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Green Bay Packers</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772921</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772921</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-29T23:15Z</date>
+    <time>23:15Z</time>
+    <away>New York Jets</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772813</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772813</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>4</week>
+    <date>2025-09-30T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772716</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772716</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-03T00:15Z</date>
+    <time>00:15Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772939</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772939</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T13:30Z</date>
+    <time>13:30Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772633</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772633</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772851</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772851</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Giants</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772744</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772744</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Dallas Cowboys</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772850</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772850</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Denver Broncos</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772745</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772745</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772852</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772852</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Houston Texans</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772743</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772743</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Tennessee Titans</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772747</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772747</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772746</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772746</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Detroit Lions</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772854</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772854</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-05T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Washington Commanders</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772853</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772853</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-06T00:20Z</date>
+    <time>00:20Z</time>
+    <away>New England Patriots</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772922</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772922</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>5</week>
+    <date>2025-10-07T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772814</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772814</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-10T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772940</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772940</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T13:30Z</date>
+    <time>13:30Z</time>
+    <away>Denver Broncos</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772634</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772634</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772856</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772856</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772750</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772750</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772748</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772748</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772749</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772749</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772858</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772858</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772857</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772857</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772855</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772855</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Tennessee Titans</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772859</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772859</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772752</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772752</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-12T20:25Z</date>
+    <time>20:25Z</time>
+    <away>New England Patriots</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772751</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772751</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-13T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Detroit Lions</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772923</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772923</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-13T23:15Z</date>
+    <time>23:15Z</time>
+    <away>Buffalo Bills</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772815</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772815</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>6</week>
+    <date>2025-10-14T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Chicago Bears</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772717</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772717</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-17T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772941</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772941</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T13:30Z</date>
+    <time>13:30Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772635</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772635</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772861</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772861</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772754</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772754</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New England Patriots</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772755</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772755</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772753</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772753</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772862</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772862</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772860</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772860</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T20:05Z</date>
+    <time>20:05Z</time>
+    <away>New York Giants</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772757</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772757</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772756</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772756</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Washington Commanders</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772864</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772864</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-19T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Green Bay Packers</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772863</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772863</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-20T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Atlanta Falcons</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772924</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772924</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-20T23:00Z</date>
+    <time>23:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772816</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772816</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>7</week>
+    <date>2025-10-21T02:00Z</date>
+    <time>02:00Z</time>
+    <away>Houston Texans</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772826</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772826</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-24T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772942</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772942</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772760</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772760</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Jets</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772758</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772758</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772868</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772868</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>New York Giants</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772867</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772867</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Buffalo Bills</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772865</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772865</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772759</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772759</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T17:00Z</date>
+    <time>17:00Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772866</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772866</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T20:05Z</date>
+    <time>20:05Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772869</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772869</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772762</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772762</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-26T20:25Z</date>
+    <time>20:25Z</time>
+    <away>Tennessee Titans</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772761</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772761</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-27T00:20Z</date>
+    <time>00:20Z</time>
+    <away>Green Bay Packers</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772925</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772925</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>8</week>
+    <date>2025-10-28T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Washington Commanders</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772817</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772817</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-10-31T00:15Z</date>
+    <time>00:15Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772943</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772943</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772765</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772765</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772871</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772871</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772872</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772872</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772764</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772764</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Atlanta Falcons</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772763</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772763</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>San Francisco 49ers</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772767</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772767</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772766</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772766</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Denver Broncos</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772870</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772870</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772873</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772873</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T21:05Z</date>
+    <time>21:05Z</time>
+    <away>New Orleans Saints</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772874</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772874</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-02T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772768</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772768</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-03T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772926</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772926</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>9</week>
+    <date>2025-11-04T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772818</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772818</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-07T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772944</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772944</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T14:30Z</date>
+    <time>14:30Z</time>
+    <away>Atlanta Falcons</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772636</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772636</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New York Giants</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772875</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772875</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Buffalo Bills</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772771</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772771</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772876</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772876</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772769</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772769</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New England Patriots</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772772</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772772</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772877</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772877</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772770</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772770</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772773</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772773</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Los Angeles Rams</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772879</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772879</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-09T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Detroit Lions</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772878</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772878</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-10T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772927</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772927</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>10</week>
+    <date>2025-11-11T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772630</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772630</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-14T01:15Z</date>
+    <time>01:15Z</time>
+    <away>New York Jets</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772945</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772945</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T14:30Z</date>
+    <time>14:30Z</time>
+    <away>Washington Commanders</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772631</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772631</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772882</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772882</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772776</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772776</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Houston Texans</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772881</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772881</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772880</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772880</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Green Bay Packers</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772883</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772883</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772774</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772774</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772775</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772775</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772884</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772884</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T21:05Z</date>
+    <time>21:05Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772885</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772885</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772777</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772777</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-16T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772778</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772778</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-17T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Detroit Lions</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772928</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772928</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>11</week>
+    <date>2025-11-18T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772819</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772819</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-21T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Buffalo Bills</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772946</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772946</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772780</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772780</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New England Patriots</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772781</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772781</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New York Giants</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772888</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772888</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772887</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772887</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772886</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772886</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772779</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772779</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New York Jets</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772782</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772782</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Cleveland Browns</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772784</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772784</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772783</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772783</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772890</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772890</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-23T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Atlanta Falcons</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772889</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772889</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-24T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772929</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772929</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>12</week>
+    <date>2025-11-25T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Carolina Panthers</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772820</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772820</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-27T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Green Bay Packers</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772891</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772891</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-27T21:30Z</date>
+    <time>21:30Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772694</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772694</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-28T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772930</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772930</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-28T20:00Z</date>
+    <time>20:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772621</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772621</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772785</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772785</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772786</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772786</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Houston Texans</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772787</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772787</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772892</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772892</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Atlanta Falcons</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772893</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772893</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772895</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772895</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772894</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772894</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772896</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772896</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Buffalo Bills</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772789</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772789</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-11-30T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772788</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772788</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-12-01T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Denver Broncos</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772931</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772931</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>13</week>
+    <date>2025-12-02T01:15Z</date>
+    <time>01:15Z</time>
+    <away>New York Giants</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772821</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772821</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-05T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772947</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772947</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772900</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772900</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Tennessee Titans</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772898</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772898</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Chicago Bears</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772897</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772897</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Washington Commanders</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772899</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772899</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772790</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772790</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772792</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772792</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772793</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772793</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772791</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772791</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Denver Broncos</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772794</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772794</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772902</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772902</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-07T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772901</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772901</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-08T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Houston Texans</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772932</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772932</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>14</week>
+    <date>2025-12-09T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772822</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772822</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-12T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Atlanta Falcons</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772948</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772948</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772904</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772904</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772796</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772796</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772798</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772798</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Buffalo Bills</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772795</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772795</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Washington Commanders</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772905</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772905</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772906</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772906</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New York Jets</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772797</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772797</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772903</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772903</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Green Bay Packers</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772800</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772800</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Detroit Lions</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772909</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772909</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Carolina Panthers</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772908</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772908</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Tennessee Titans</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772907</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772907</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-14T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772799</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772799</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-15T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Minnesota Vikings</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772933</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772933</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>15</week>
+    <date>2025-12-16T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Miami Dolphins</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772823</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772823</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-19T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Seattle Seahawks</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772949</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772949</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-20T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Green Bay Packers</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772613</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772613</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-20T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772612</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772612</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Buffalo Bills</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772802</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772802</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Dallas Cowboys</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772910</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772910</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772803</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772803</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New York Jets</away>
+    <home>New Orleans Saints</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772801</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772801</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Minnesota Vikings</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772911</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772911</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772912</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772912</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New England Patriots</away>
+    <home>Baltimore Ravens</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772804</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772804</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772913</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772913</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T21:05Z</date>
+    <time>21:05Z</time>
+    <away>Atlanta Falcons</away>
+    <home>Arizona Cardinals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772914</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772914</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Detroit Lions</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772806</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772806</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-21T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Las Vegas Raiders</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772805</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772805</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-22T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Cincinnati Bengals</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772934</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772934</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>16</week>
+    <date>2025-12-23T01:15Z</date>
+    <time>01:15Z</time>
+    <away>San Francisco 49ers</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772824</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772824</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-25T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Dallas Cowboys</away>
+    <home>Washington Commanders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772710</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772710</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-25T21:30Z</date>
+    <time>21:30Z</time>
+    <away>Detroit Lions</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772711</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772711</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-26T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Denver Broncos</away>
+    <home>Kansas City Chiefs</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772622</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772622</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-27T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772954</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772954</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-27T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Green Bay Packers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772953</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772953</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-27T05:00Z</date>
+    <time>05:00Z</time>
+    <away>New York Giants</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772950</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772950</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-27T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Houston Texans</away>
+    <home>Los Angeles Chargers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772951</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772951</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-27T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>Carolina Panthers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772952</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772952</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Pittsburgh Steelers</away>
+    <home>Cleveland Browns</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772807</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772807</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Tennessee Titans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772809</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772809</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Jacksonville Jaguars</away>
+    <home>Indianapolis Colts</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772915</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772915</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T18:00Z</date>
+    <time>18:00Z</time>
+    <away>Tampa Bay Buccaneers</away>
+    <home>Miami Dolphins</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772916</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772916</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T18:00Z</date>
+    <time>18:00Z</time>
+    <away>New England Patriots</away>
+    <home>New York Jets</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772808</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772808</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-28T21:25Z</date>
+    <time>21:25Z</time>
+    <away>Philadelphia Eagles</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772917</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772917</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-29T01:20Z</date>
+    <time>01:20Z</time>
+    <away>Chicago Bears</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772935</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772935</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>17</week>
+    <date>2025-12-30T01:15Z</date>
+    <time>01:15Z</time>
+    <away>Los Angeles Rams</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772825</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772825</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>New Orleans Saints</away>
+    <home>Atlanta Falcons</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772966</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772966</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>New York Jets</away>
+    <home>Buffalo Bills</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772967</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772967</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Detroit Lions</away>
+    <home>Chicago Bears</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772965</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772965</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Cleveland Browns</away>
+    <home>Cincinnati Bengals</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772964</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772964</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Los Angeles Chargers</away>
+    <home>Denver Broncos</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772956</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772956</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Kansas City Chiefs</away>
+    <home>Las Vegas Raiders</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772957</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772957</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Arizona Cardinals</away>
+    <home>Los Angeles Rams</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772955</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772955</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Green Bay Packers</away>
+    <home>Minnesota Vikings</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772968</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772968</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Miami Dolphins</away>
+    <home>New England Patriots</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772958</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772958</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Dallas Cowboys</away>
+    <home>New York Giants</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772963</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772963</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Washington Commanders</away>
+    <home>Philadelphia Eagles</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772959</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772959</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Baltimore Ravens</away>
+    <home>Pittsburgh Steelers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772960</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772960</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Seattle Seahawks</away>
+    <home>San Francisco 49ers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772961</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772961</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Carolina Panthers</away>
+    <home>Tampa Bay Buccaneers</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772969</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772969</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Tennessee Titans</away>
+    <home>Jacksonville Jaguars</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772970</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772970</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>REG</season_type>
+    <week>18</week>
+    <date>2026-01-04T05:00Z</date>
+    <time>05:00Z</time>
+    <away>Indianapolis Colts</away>
+    <home>Houston Texans</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772962</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772962</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-10T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772976</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772976</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-10T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772977</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772977</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-11T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772978</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772978</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-11T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772979</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772979</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-11T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772980</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772980</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>1</week>
+    <date>2026-01-13T01:15Z</date>
+    <time>01:15Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772981</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772981</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>2</week>
+    <date>2026-01-17T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772982</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772982</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>2</week>
+    <date>2026-01-17T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772983</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772983</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>2</week>
+    <date>2026-01-18T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772984</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772984</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>2</week>
+    <date>2026-01-18T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772985</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772985</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>3</week>
+    <date>2026-01-25T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772986</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772986</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>3</week>
+    <date>2026-01-25T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772987</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772987</espn_gamecast_url>
+  </game>
+  <game>
+    <season_type>POST</season_type>
+    <week>5</week>
+    <date>2026-02-08T05:00Z</date>
+    <time>05:00Z</time>
+    <away>TBD</away>
+    <home>TBD</home>
+    <pts_away>0</pts_away>
+    <pts_home>0</pts_home>
+    <overtime />
+    <espn_event_id>401772988</espn_event_id>
+    <espn_gamecast_url>https://www.espn.com/nfl/game/_/gameId/401772988</espn_gamecast_url>
+  </game>
+</games>

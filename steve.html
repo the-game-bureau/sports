@@ -1,1438 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+SCHEDULE DATA SOURCES FOR UPDATES:
+- Tulane Football: https://tulanegreenwave.com/sports/football/schedule/2025 or SI.com for game times
+- Saints: https://www.neworleanssaints.com/schedule/ or Ticketmaster Saints page  
+- IUP Volleyball: https://iupathletics.com/sports/womens-volleyball/schedule
+- Yankees: https://sports.yahoo.com/mlb/teams/ny-yankees/schedule/ (most reliable for current games)
+- Tulane Baseball: https://tulanegreenwave.com/sports/baseball/schedule/2025
+
+CURRENT SCHEDULE STATUS (as of Aug 8, 2025):
+- Tulane Football: Next game vs Northwestern, Aug 30, 11:00 AM
+- Saints: Next game @ Chargers, Aug 10, 3:05 PM (PRESEASON)  
+- IUP Volleyball: Season starts Sep 5 at Ashland Invitational
+- Yankees: Current series vs Astros (check Yahoo Sports for exact next game)
+- Tulane Baseball: Offseason until Feb 2025
+
+NOTE: ALL TIMES DISPLAYED IN CENTRAL TIME (New Orleans local time)
+Convert from ET: subtract 1 hour | Convert from PT: add 2 hours
+
+INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
+- Check official team sites, ESPN, or broadcast schedules
+- Format: "Channel • Time" in game details
+-->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Coach Steve's Sports Report</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png">
-    
-    <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png">
-    
-    <!-- PWA Support -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Coach Steve">
-    <meta name="theme-color" content="#f8f9fa">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Steve's Sports Report by Kevin Kolb</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
-            background: #f8f9fa;
-            color: #1d1d1f;
-            line-height: 1.4;
-            font-size: 16px;
-            font-weight: 400;
-            letter-spacing: -0.02em;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            line-height: 1.6;
         }
-        
-        /* Header */
-        .header {
-            background: rgba(255,255,255,0.8);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
-            padding: 16px 20px;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        
-        .header h1 {
-            font-size: 20px;
-            font-weight: 700;
-            color: #1d1d1f;
-            letter-spacing: -0.03em;
-            margin-bottom: 4px;
-        }
-        
-        .date {
-            font-size: 14px;
-            color: #86868b;
-            font-weight: 500;
-        }
-        
-        /* Main Container */
+
         .container {
-            padding: 20px 16px 100px;
-            max-width: 100%;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 20px;
         }
-        
-        /* Team Card */
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        .teams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
         .team-card {
-            background: rgba(255,255,255,0.7);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-radius: 20px;
-            margin-bottom: 20px;
+            background: white;
+            border-radius: 0;
             overflow: hidden;
-            border: 1px solid rgba(255,255,255,0.2);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            position: relative;
         }
-        
-        /* Team Color Borders */
-        .team-card.tulane {
-            border: 2px solid #006747;
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.15);
         }
-        
-        .team-card.saints {
-            border: 2px solid #D3BC8D;
-        }
-        
-        .team-card.yankees {
-            border: 2px solid #132448;
-        }
-        
-        .team-card.iup {
-            border: 2px solid #8B0000;
-        }
-        
-        /* Team Header */
+
         .team-header {
-            padding: 24px 20px;
+            padding: 0;
+            text-align: center;
             position: relative;
             overflow: hidden;
+            background: var(--team-color);
+            color: white;
         }
-        
-        .team-header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 1;
+
+        .team-sport-row {
+            background: #000000; /* Black background for sport row */
+            padding: 8px; /* Reduced padding */
+            text-align: center;
         }
-        
-        .team-header > * {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .team-header.tulane::before { 
-            background: linear-gradient(135deg, #006747 0%, #004d35 100%);
-        }
-        .team-header.saints::before { 
-            background: linear-gradient(135deg, #D3BC8D 0%, #B8A373 100%);
-        }
-        .team-header.yankees::before { 
-            background: linear-gradient(135deg, #132448 0%, #0f1d38 100%);
-        }
-        .team-header.iup::before { 
-            background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
-        }
-        
-        .team-header.tulane { color: white; }
-        .team-header.saints { color: #2c1810; }
-        .team-header.yankees { color: white; }
-        .team-header.iup { color: white; }
-        
-        .team-info {
-            display: flex;
-            align-items: center;
-        }
-        
-        .team-logo {
-            width: 52px;
-            height: 52px;
-            border-radius: 12px;
-            background: rgba(255,255,255,0.95);
-            padding: 6px;
-            margin-right: 16px;
-            object-fit: contain;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        
-        .team-name {
-            font-size: 22px;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            line-height: 1.2;
-        }
-        
-        /* Action Buttons - now 2 buttons instead of 3 */
-        .actions {
-            padding: 16px 20px 20px;
-            display: flex;
-            gap: 12px;
-        }
-        
-        .btn {
-            flex: 1;
-            padding: 12px 8px;
-            border: none;
-            border-radius: 25px;
-            font-size: 14px;
+
+        .team-sport {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.85);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
             font-weight: 600;
-            letter-spacing: -0.01em;
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            min-height: 44px;
+            margin: 0;
+        }
+
+        .team-banner {
+            display: grid;
+            grid-template-columns: min-content 1fr; /* Default: logo cell and name cell */
+            min-height: 80px;
+        }
+
+        /* Specific grid for IUP Volleyball to include Peyton's image cell */
+        .iup-volleyball .team-banner {
+            grid-template-columns: min-content 1fr min-content; /* Logo, name, Peyton's image */
+        }
+
+        .team-logo-cell {
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
-            overflow: hidden;
+            background: var(--team-color);
+            padding: 8px;
         }
-        
-        .btn:active {
-            transform: scale(0.96);
-        }
-        
-        /* Full Schedule Button */
-        .full-schedule-btn-container {
-            margin-top: 16px;
-            text-align: center;
-        }
-        
-        .full-schedule-btn {
-            background: rgba(255,255,255,0.2);
-            color: inherit;
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 20px;
-            padding: 8px 16px;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-        
-        .full-schedule-btn:hover {
-            background: rgba(255,255,255,0.3);
-            transform: translateY(-1px);
-        }
-        
-        .full-schedule-btn:active {
-            transform: scale(0.96);
-        }
-        
-        .saints .full-schedule-btn {
-            background: rgba(0,0,0,0.15);
-            border-color: rgba(0,0,0,0.2);
-        }
-        
-        .saints .full-schedule-btn:hover {
-            background: rgba(0,0,0,0.25);
-        }
-        
-        .tulane .btn {
-            background: rgba(0,103,71,0.9);
-            color: white;
-            box-shadow: 0 2px 8px rgba(0,103,71,0.2);
-        }
-        .tulane .btn:hover {
-            background: rgba(0,103,71,1);
-            box-shadow: 0 4px 12px rgba(0,103,71,0.25);
-        }
-        
-        .saints .btn {
-            background: rgba(211,188,141,0.9);
-            color: #2c1810;
-            box-shadow: 0 2px 8px rgba(211,188,141,0.25);
-        }
-        .saints .btn:hover {
-            background: rgba(211,188,141,1);
-            box-shadow: 0 4px 12px rgba(211,188,141,0.3);
-        }
-        
-        .yankees .btn {
-            background: rgba(19,36,72,0.9);
-            color: white;
-            box-shadow: 0 2px 8px rgba(19,36,72,0.2);
-        }
-        .yankees .btn:hover {
-            background: rgba(19,36,72,1);
-            box-shadow: 0 4px 12px rgba(19,36,72,0.25);
-        }
-        
-        .iup .btn {
-            background: rgba(139,0,0,0.9);
-            color: white;
-            box-shadow: 0 2px 8px rgba(139,0,0,0.2);
-        }
-        .iup .btn:hover {
-            background: rgba(139,0,0,1);
-            box-shadow: 0 4px 12px rgba(139,0,0,0.25);
-        }
-        
-        /* Schedule Embed and Schedule */
-        .schedule-embed-card {
-            margin: 0 20px 20px;
-            padding: 20px;
-            border-radius: 16px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .schedule-container {
-            margin-top: 16px;
-            max-height: 350px;
-            overflow-y: auto;
-            padding-right: 8px;
-        }
-        
-        .schedule-container::-webkit-scrollbar {
-            width: 4px;
-        }
-        
-        .schedule-container::-webkit-scrollbar-track {
-            background: rgba(255,255,255,0.1);
-            border-radius: 2px;
-        }
-        
-        .schedule-container::-webkit-scrollbar-thumb {
-            background: rgba(255,255,255,0.3);
-            border-radius: 2px;
-        }
-        
-        .schedule-game {
-            background: rgba(255,255,255,0.1);
-            border-radius: 8px;
-            padding: 12px;
-            margin-bottom: 8px;
+
+        .team-info-cell {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px; /* Reduced padding */
+            background: var(--team-color);
+            text-align: center; /* Center team name */
+        }
+
+        .team-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center team name */
+            gap: 8px;
+        }
+
+        .team-name {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: white;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            letter-spacing: -0.01em;
+        }
+
+        .team-logo {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0;
+            background: transparent;
+            padding: 8px;
+            transition: transform 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .team-logo:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.25);
+        }
+
+        .peyton-image-cell {
+            display: flex;
             align-items: center;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            justify-content: center;
+            background: var(--team-color);
+            padding: 0; /* No padding for Peyton's image cell */
         }
-        
-        .schedule-game.past {
-            opacity: 0.7;
+
+        .peyton-image {
+            width: 76px; /* Matches logo cell width: 60px image + 8px padding on each side */
+            height: 76px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0;
         }
-        
-        .schedule-game.future {
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-        
-        .schedule-date {
-            font-size: 12px;
-            font-weight: 600;
-            opacity: 0.8;
-            min-width: 60px;
-        }
-        
-        .schedule-matchup {
-            font-size: 14px;
-            font-weight: 600;
-            flex: 1;
-            margin: 0 12px;
-        }
-        
-        .schedule-details {
-            text-align: right;
-            font-size: 12px;
-        }
-        
-        .schedule-time, .schedule-score {
-            font-weight: 500;
-            margin-bottom: 2px;
-        }
-        
-        .schedule-score {
-            color: rgba(255,255,255,0.9);
-            font-weight: 600;
-        }
-        
-        .schedule-location {
-            opacity: 0.7;
-            font-size: 11px;
-        }
-        
-        .schedule-loading {
-            text-align: center;
-            padding: 20px;
-        }
-        
-        /* Schedule Embed */
-        .schedule-embed {
-            margin-top: 16px;
-        }
-        
-        .schedule-embed iframe {
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255,255,255,0.2);
+
+        .next-game {
+            margin-top: 15px;
+            padding: 15px;
             background: rgba(255,255,255,0.9);
-        }
-        
-        .schedule-embed-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 1;
-        }
-        
-        .schedule-embed-card > * {
+            border-radius: 0;
             position: relative;
             z-index: 2;
         }
-        
-        .tulane .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #006747 0%, #004d35 100%);
-        }
-        .saints .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #D3BC8D 0%, #B8A373 100%);
-        }
-        .yankees .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #132448 0%, #0f1d38 100%);
-        }
-        .iup .schedule-embed-card::before { 
-            background: linear-gradient(135deg, #8B0000 0%, #660000 100%);
-        }
-        
-        .tulane .schedule-embed-card { color: white; }
-        .saints .schedule-embed-card { color: #2c1810; }
-        .yankees .schedule-embed-card { color: white; }
-        .iup .schedule-embed-card { color: white; }
-        
-        .schedule-embed-title {
-            font-size: 14px;
+
+        .next-game-label {
+            font-size: 0.75rem;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
             font-weight: 600;
-            letter-spacing: -0.01em;
-            margin-bottom: 12px;
-            opacity: 0.8;
+            margin-bottom: 5px;
         }
-        
-        /* PDF Embed */
-        .pdf-embed {
-            margin-top: 16px;
-        }
-        
-        .pdf-embed iframe {
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-        
-        /* News */
-        .news {
-            padding: 0 20px 20px;
-        }
-        
-        .news-title {
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 16px;
-            color: #1d1d1f;
-        }
-        
-        .news-item {
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            border: 1px solid rgba(255,255,255,0.2);
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: flex;
-            gap: 12px;
-            align-items: flex-start;
-        }
-        
-        /* Alternating Background Colors */
-        .news-item:nth-child(odd) {
-            background: rgba(255,255,255,0.9);
-        }
-        
-        .news-item:nth-child(even) {
-            background: rgba(185,225,205,0.9);
-        }
-        
-        .news-item:hover {
-            background: rgba(255,255,255,1);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        
-        .news-item:active {
-            transform: scale(0.98);
-        }
-        
-        .news-thumbnail {
-            width: 80px;
-            height: 60px;
-            border-radius: 8px;
-            object-fit: cover;
-            flex-shrink: 0;
-            background: #f0f0f0;
-        }
-        
-        .news-content {
-            flex: 1;
-            min-width: 0;
-        }
-        
-        .news-headline {
-            font-size: 16px;
+
+        .opponent {
+            font-size: 1.1rem;
             font-weight: 600;
-            letter-spacing: -0.01em;
-            color: #1d1d1f;
-            margin-bottom: 6px;
-            line-height: 1.3;
+            color: var(--team-color);
+            margin-bottom: 3px;
         }
-        
-        .news-desc {
-            font-size: 14px;
-            color: #86868b;
+
+        .game-details {
+            font-size: 0.85rem;
+            color: #666;
             line-height: 1.4;
-            margin-bottom: 8px;
         }
-        
-        .news-meta {
-            font-size: 12px;
-            color: #86868b;
+
+        .game-time {
             font-weight: 500;
+            color: var(--team-color);
         }
-        
-        .news-sources {
-            margin-top: 16px;
-            padding-top: 16px;
-            border-top: 1px solid rgba(0,0,0,0.05);
+
+        .team-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            padding: 20px 30px 30px;
+        }
+
+        .action-btn {
+            padding: 12px 20px;
+            border: 2px solid var(--team-color); /* Primary color for button borders */
+            background: var(--team-secondary-color); /* Secondary color for fill */
+            color: white; /* White text for contrast */
+            text-decoration: none;
+            border-radius: 0;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .action-btn:hover {
+            background: transparent; /* Transparent background on hover */
+            color: var(--team-color); /* Primary color for text on hover */
+            transform: scale(1.02);
+        }
+
+        .action-btn.primary {
+            background: var(--team-secondary-color); /* Secondary color for fill, same as other buttons */
+            color: white;
+            border: 2px solid var(--team-color); /* Primary color for border */
+        }
+
+        .action-btn.primary:hover {
+            background: transparent;
+            color: var(--team-color); /* Primary color on hover */
+        }
+
+        /* Team Colors with Primary and Secondary for Future Additions */
+        /* Add new teams here with --team-color (primary) and --team-secondary-color (secondary) */
+        .tulane-football { 
+            --team-color: #00693E; /* Primary: Tulane Green */
+            --team-secondary-color: #87CEEB; /* Secondary: Sky Blue */
+        }
+        .saints { 
+            --team-color: #D3BC8D; /* Primary: Saints Gold */
+            --team-secondary-color: #000000; /* Secondary: Saints Black */
+        }
+        .iup-volleyball { 
+            --team-color: #722F37; /* Primary: IUP Crimson */
+            --team-secondary-color: #C1A875; /* Secondary: IUP Gold */
+        }
+        .yankees { 
+            --team-color: #132448; /* Primary: Yankees Navy */
+            --team-secondary-color: #C4CED4; /* Secondary: Yankees Silver */
+        }
+        .tulane-baseball { 
+            --team-color: #00693E; /* Primary: Tulane Green */
+            --team-secondary-color: #87CEEB; /* Secondary: Sky Blue */
+        }
+
+        .live-indicator {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #e74c3c;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 0;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .quick-links {
+            background: white;
+            border-radius: 0;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+
+        .quick-links h3 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 20px;
             text-align: center;
         }
-        
-        .news-sources a {
-            color: #007aff;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            margin: 0 8px;
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
         }
-        
-        /* Footer */
-        .footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(255,255,255,0.8);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-top: 1px solid rgba(0,0,0,0.05);
-            padding: 12px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .refresh-btn {
-            background: #007aff;
-            color: white;
+
+        .quick-link {
+            padding: 15px 20px;
+            background: #f8f9fa;
             border: none;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
+            border-radius: 0;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            text-align: center;
             transition: all 0.2s ease;
         }
-        
-        .refresh-btn:active {
-            transform: scale(0.96);
+
+        .quick-link:hover {
+            background: #e9ecef;
+            transform: scale(1.02);
         }
-        
-        .refresh-timer {
-            font-size: 12px;
-            color: #86868b;
-            font-weight: 500;
-        }
-        
-        .timestamp {
-            text-align: center;
-            color: #86868b;
-            font-size: 12px;
-            font-weight: 500;
-            margin-top: 16px;
-        }
-        
-        /* Loading */
-        .loading {
-            text-align: center;
-            color: #86868b;
-            padding: 20px;
-            font-size: 14px;
-            font-weight: 500;
-        }
-        
-        .spinner {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid #f3f4f6;
-            border-radius: 50%;
-            border-top-color: #007aff;
-            animation: spin 1s ease-in-out infinite;
-            margin-right: 8px;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
-        /* Responsive */
-        @media (min-width: 375px) {
+
+        @media (max-width: 768px) {
             .container {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-        }
-        
-        @media (min-width: 768px) {
-            .container {
-                max-width: 768px;
-                margin: 0 auto;
-                padding-left: 40px;
-                padding-right: 40px;
+                padding: 15px;
             }
             
-            .team-card {
-                margin-bottom: 24px;
+            .teams-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .team-actions {
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                padding: 15px 20px 25px;
+            }
+            
+            .action-btn {
+                padding: 10px 15px;
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-actions {
+                grid-template-columns: 1fr;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Coach Steve's Sports Report</h1>
-        <div class="date" id="currentDate"></div>
-    </div>
-    
-    <div class="container" id="container">
-        <!-- Content will be dynamically generated -->
-    </div>
-    
-    <div class="footer">
-        <button class="refresh-btn" onclick="loadAllData()">Refresh</button>
-        <div class="refresh-timer" id="refresh-timer">5:00</div>
-    </div>
-    
-    <script>
-        // Configuration
-        const teams = [
-            {
-                id: 'tulane-football',
-                name: 'Tulane Green Wave Football',
-                logo: 'https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
-                sport: 'football',
-                api: {
-                    team: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/news?team=2655&limit=3',
-                    roster: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/roster',
-                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/2655/schedule',
-                    officialScheduleUrl: 'https://tulanegreenwave.com/sports/football/schedule',
-                    embedScheduleUrl: 'https://tulanegreenwave.com/services/schedule_txt.ashx?schedule=4566'
-                },
-                type: 'college',
-                nextGame: null,
-                links: {
-                    roster: 'https://tulanegreenwave.com/sports/football/roster',
-                    coaches: 'https://tulanegreenwave.com/sports/football/roster#sidearm-roster-coaches',
-                    officialSchedule: 'https://tulanegreenwave.com/sports/football/schedule/'
-                },
-                newsSources: [
-                    { name: 'NOLA.com', url: 'https://www.nola.com/sports/tulane/' },
-                    { name: 'Tulane', url: 'https://tulanegreenwave.com/sports/football' },
-                    { name: 'Facebook', url: 'https://www.facebook.com/GreenWaveFootball' },
-                    { name: 'Google News', url: 'https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJtTjJSak1SSUNaVzRvQUFQAQ?ceid=US:en&oc=3' }
-                ]
-            },
-            {
-                id: 'saints',
-                name: 'New Orleans Saints Football',
-                logo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
-                sport: 'football',
-                api: {
-                    team: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=18&limit=3',
-                    roster: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster',
-                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule'
-                },
-                type: 'nfl',
-                nextGame: null,
-                links: {
-                    roster: 'https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints',
-                    coaches: 'https://www.neworleanssaints.com/team/coaches-roster',
-                    athleticSchedule: 'https://www.nytimes.com/athletic/nfl/team/saints/schedule/'
-                },
-                newsSources: [
-                    { name: 'NOLA.com', url: 'https://www.nola.com/sports/saints/' },
-                    { name: 'Saints.com', url: 'https://www.neworleanssaints.com/' },
-                    { name: 'The Athletic', url: 'https://www.nytimes.com/athletic/nfl/team/saints/' }
-                ]
-            },
-            {
-                id: 'yankees',
-                name: 'New York Yankees Baseball',
-                logo: 'https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png',
-                sport: 'baseball',
-                api: {
-                    team: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/news?team=10&limit=3',
-                    roster: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/roster',
-                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/teams/10/schedule'
-                },
-                type: 'mlb',
-                nextGame: null,
-                links: {
-                    roster: 'https://www.mlb.com/yankees/roster',
-                    coaches: 'https://www.mlb.com/yankees/roster/coaches'
-                },
-                newsSources: [
-                    { name: 'Yankees.com', url: 'https://www.mlb.com/yankees' },
-                    { name: 'ESPN', url: 'https://www.espn.com/mlb/team/_/name/nyy' }
-                ]
-            },
-            {
-                id: 'iup-volleyball',
-                name: 'IUP Volleyball',
-                logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/IUP_Crimson_Hawks_logo.svg/1024px-IUP_Crimson_Hawks_logo.svg.png',
-                sport: 'volleyball',
-                api: {
-                    team: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313',
-                    news: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/news?team=313&limit=3',
-                    roster: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/roster',
-                    schedule: 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams/313/schedule',
-                    officialScheduleUrl: 'https://iupathletics.com/sports/womens-volleyball/schedule'
-                },
-                type: 'college',
-                nextGame: null,
-                links: {
-                    roster: 'https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name',
-                    coaches: 'https://iupathletics.com/sports/womens-volleyball/coaches',
-                    officialSchedule: 'https://iupathletics.com/sports/womens-volleyball/schedule'
-                },
-                newsSources: [
-                    { name: 'IUP Athletics', url: 'https://iupathletics.com/sports/womens-volleyball' }
-                ]
-            }
-        ];
-        
-        // Utility Functions
-        function setCurrentDate() {
-            const now = new Date();
-            const options = { 
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            };
-            document.getElementById('currentDate').textContent = now.toLocaleDateString('en-US', options);
-        }
-        
-        function formatDate(dateString) {
-            const date = new Date(dateString);
-            const now = new Date();
-            const diffTime = date - now;
-            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-            
-            if (diffDays === 0) return 'Today';
-            if (diffDays === 1) return 'Tomorrow';
-            if (diffDays === -1) return 'Yesterday';
-            
-            const options = { 
-                weekday: 'short',
-                month: 'short', 
-                day: 'numeric',
-                hour: 'numeric',
-                minute: '2-digit'
-            };
-            
-            return date.toLocaleDateString('en-US', options);
-        }
-        
-        function formatRelativeTime(dateString) {
-            if (!dateString) return '';
-            const date = new Date(dateString);
-            const now = new Date();
-            const diffMs = now - date;
-            const diffMins = Math.floor(diffMs / 60000);
-            const diffHours = Math.floor(diffMs / 3600000);
-            const diffDays = Math.floor(diffMs / 86400000);
-            
-            if (diffMins < 1) return 'Just now';
-            if (diffMins < 60) return `${diffMins}m ago`;
-            if (diffHours < 24) return `${diffHours}h ago`;
-            if (diffDays < 7) return `${diffDays}d ago`;
-            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        }
-        
-        function getTimeUntilGame(gameDate) {
-            const now = new Date();
-            const game = new Date(gameDate);
-            const diffMs = game - now;
-            
-            if (diffMs <= 0) return 'Game time!';
-            
-            const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            
-            if (days > 0) {
-                return `${days} day${days > 1 ? 's' : ''}, ${hours} hour${hours !== 1 ? 's' : ''}`;
-            } else if (hours > 0) {
-                return `${hours} hour${hours !== 1 ? 's' : ''}`;
-            } else {
-                const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
-                return `${minutes} minute${minutes !== 1 ? 's' : ''}`;
-            }
-        }
-        
-        function findNextGame(events) {
-            if (!events || events.length === 0) return null;
-            
-            const now = new Date();
-            let nextGame = null;
-            
-            for (const event of events) {
-                const eventDate = new Date(event.date);
-                const competition = event.competitions?.[0];
-                
-                if (competition && eventDate > now) {
-                    const status = competition.status;
-                    
-                    if (status.type.state === 'pre') {
-                        if (!nextGame || eventDate < new Date(nextGame.date)) {
-                            nextGame = event;
-                        }
-                    }
-                }
-            }
-            
-            return nextGame;
-        }
-        
-        // Enhanced function to fetch schedule from official sites when ESPN fails
-        async function fetchOfficialSchedule(team) {
-            if (!team.api.officialScheduleUrl) return null;
-            
-            try {
-                const response = await fetch(team.api.officialScheduleUrl);
-                if (!response.ok) return null;
-                
-                const html = await response.text();
-                
-                if (team.id === 'iup-volleyball') {
-                    return parseIUPVolleyballSchedule(html);
-                }
-                
-                return null;
-            } catch (error) {
-                console.error('Error fetching official schedule for', team.name, error);
-                return null;
-            }
-        }
-        
-        function parseIUPVolleyballSchedule(html) {
-            try {
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-                
-                const gameElements = doc.querySelectorAll('[class*="game"], [class*="event"], [class*="contest"]');
-                const now = new Date();
-                
-                for (const element of gameElements) {
-                    const text = element.textContent || '';
-                    
-                    const dateMatch = text.match(/(\d{1,2}\/\d{1,2}\/\d{4})|(\w+\s+\d{1,2},?\s+\d{4})/);
-                    const timeMatch = text.match(/(\d{1,2}:\d{2}\s*[AP]M)/i);
-                    
-                    if (dateMatch) {
-                        let gameDate;
-                        try {
-                            gameDate = new Date(dateMatch[0]);
-                            if (gameDate > now) {
-                                const opponentMatch = text.match(/(vs\.?\s+|@\s+|at\s+)([A-Za-z\s]+)/i);
-                                const opponent = opponentMatch ? opponentMatch[2].trim() : 'TBD';
-                                const time = timeMatch ? timeMatch[0] : 'TBD';
-                                const isHome = text.toLowerCase().includes('vs') || !text.toLowerCase().includes('@');
-                                
-                                return {
-                                    opponent: opponent,
-                                    date: gameDate.toISOString(),
-                                    time: time,
-                                    location: isHome ? 'Kovalchick Convention Center, Indiana, PA' : 'Away',
-                                    tv: 'Live Stream',
-                                    isHome: isHome
-                                };
-                            }
-                        } catch (e) {
-                            continue;
-                        }
-                    }
-                }
-                
-                return null;
-            } catch (error) {
-                console.error('Error parsing IUP schedule:', error);
-                return null;
-            }
-        }
-        
-        // API Functions
-        async function fetchTeamData(team) {
-            try {
-                const requests = [fetch(team.api.team)];
-                
-                if (team.api.schedule) {
-                    requests.push(fetch(team.api.schedule));
-                }
-                
-                const responses = await Promise.all(requests);
-                const teamData = await responses[0].json();
-                
-                let scheduleData = null;
-                if (responses[1]) {
-                    scheduleData = await responses[1].json();
-                }
-                
-                if ((!scheduleData?.events?.length || scheduleData.events.length === 0) && team.api.officialScheduleUrl) {
-                    const officialGame = await fetchOfficialSchedule(team);
-                    if (officialGame) {
-                        scheduleData = {
-                            events: [{
-                                date: officialGame.date,
-                                competitions: [{
-                                    competitors: [
-                                        { team: { displayName: officialGame.opponent } }
-                                    ],
-                                    venue: { fullName: officialGame.location },
-                                    broadcasts: [{ names: [officialGame.tv] }],
-                                    status: { type: { state: 'pre' } }
-                                }]
-                            }]
-                        };
-                    }
-                }
-                
-                let newsData = null;
-                if (team.api.news) {
-                    try {
-                        const newsResponse = await fetch(team.api.news);
-                        if (newsResponse.ok) {
-                            newsData = await newsResponse.json();
-                        }
-                    } catch (e) {
-                        console.log('News fetch failed for', team.name);
-                    }
-                }
-                
-                return { teamData, newsData, scheduleData };
-            } catch (error) {
-                console.error('Error fetching data for', team.name, error);
-                return { teamData: null, newsData: null, scheduleData: null };
-            }
-        }
-        
-        // UI Functions
-        function getTeamColorClass(team) {
-            if (team.id.includes('tulane')) return 'tulane';
-            if (team.id === 'saints') return 'saints';
-            if (team.id === 'yankees') return 'yankees';
-            if (team.id === 'iup-volleyball') return 'iup';
-            return '';
-        }
-        
-        function getSportEmoji(sport) {
-            switch(sport) {
-                case 'football': return '🏈';
-                case 'baseball': return '⚾';
-                case 'volleyball': return '🏐';
-                default: return '🎯';
-            }
-        }
-        
-        function createScheduleEmbedContent(team, nextGame, scheduleData) {
-            const sportEmoji = getSportEmoji(team.sport);
-            
-            // Special case for Tulane - embed the schedule
-            if (team.id === 'tulane-football') {
-                return `
-                    <div class="schedule-embed-title">${sportEmoji} FOOTBALL SCHEDULE</div>
-                    <div class="schedule-embed">
-                        <iframe 
-                            src="${team.api.embedScheduleUrl}" 
-                            width="100%" 
-                            height="400" 
-                            style="border-radius: 8px; background: rgba(255,255,255,0.95); border: 1px solid rgba(255,255,255,0.2);">
-                            <p>Your browser does not support iframes. 
-                               <a href="${team.api.embedScheduleUrl}" target="_blank">
-                                   View Tulane Football Schedule
-                               </a>
-                            </p>
-                        </iframe>
-                        <div style="text-align: center; margin-top: 8px; font-size: 12px; opacity: 0.8;">
-                            <a href="${team.api.embedScheduleUrl}" target="_blank" 
-                               style="color: inherit; text-decoration: none;">
-                                📅 View Schedule Data →
-                            </a>
-                        </div>
+    <div class="container">
+        <div class="header">
+            <h1>Coach Steve's Sports Report</h1>
+            <p>by Kevin Kolb</p>
+        </div>
+
+        <div class="teams-grid">
+            <!-- Tulane Green Wave Football -->
+            <div class="team-card tulane-football">
+                <div class="team-header">
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Football</div>
                     </div>
-                `;
-            }
-            
-            // Special case for Saints - embed PDF
-            if (team.id === 'saints') {
-                return `
-                    <div class="schedule-embed-title">${sportEmoji} TEAM INFORMATION</div>
-                    <div class="pdf-embed">
-                        <iframe 
-                            src="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" 
-                            width="100%" 
-                            height="400" 
-                            type="application/pdf"
-                            style="border-radius: 8px; background: white;">
-                            <p>Your browser does not support PDFs. 
-                               <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" target="_blank">
-                                   Download the Saints Document
-                               </a>
-                            </p>
-                        </iframe>
-                        <div style="text-align: center; margin-top: 8px; font-size: 12px; opacity: 0.8;">
-                            <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" target="_blank" 
-                               style="color: inherit; text-decoration: none;">
-                                📄 Download Saints Document →
-                            </a>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
                         </div>
-                    </div>
-                `;
-            }
-            
-            // Special case for IUP Volleyball - show full schedule
-            if (team.id === 'iup-volleyball') {
-                return createIUPScheduleDisplay(scheduleData);
-            }
-            
-            // Regular next game display for other teams
-            const gameInfo = nextGame || team.nextGame;
-            
-            if (!gameInfo) {
-                return `
-                    <div class="schedule-embed-title">${sportEmoji} NEXT GAME</div>
-                    <div class="next-game-matchup">No upcoming games</div>
-                    <div class="next-game-details">Season may be in offseason</div>
-                `;
-            }
-            
-            let opponent, date, time, location, tv, isHome;
-            
-            if (nextGame) {
-                const competition = nextGame.competitions?.[0];
-                const competitors = competition?.competitors || [];
-                
-                const opponentCompetitor = competitors.find(comp => 
-                    comp.team.id !== team.api.team.split('/').pop()
-                );
-                opponent = opponentCompetitor?.team?.displayName || 'TBD';
-                
-                date = nextGame.date;
-                location = competition?.venue?.fullName || 'TBD';
-                tv = competition?.broadcasts?.[0]?.names?.[0] || 'TBD';
-                
-                const homeCompetitor = competitors.find(comp => comp.homeAway === 'home');
-                isHome = homeCompetitor?.team?.id === team.api.team.split('/').pop();
-                
-                time = formatDate(date);
-            } else {
-                opponent = gameInfo.opponent;
-                date = gameInfo.date;
-                time = gameInfo.time;
-                location = gameInfo.location;
-                tv = gameInfo.tv;
-                isHome = gameInfo.isHome;
-            }
-            
-            const countdown = getTimeUntilGame(date);
-            const vsAt = isHome ? 'vs' : 'at';
-            
-            return `
-                <div class="schedule-embed-title">${sportEmoji} NEXT GAME</div>
-                <div class="next-game-matchup">${vsAt} ${opponent}</div>
-                <div class="next-game-details">${time}</div>
-                <div class="next-game-details">📍 ${location}</div>
-                <div class="next-game-details">📺 ${tv}</div>
-                <div class="countdown">${countdown}</div>
-            `;
-        }
-        
-        function createIUPScheduleDisplay(scheduleData) {
-            const sportEmoji = getSportEmoji('volleyball');
-            let html = `
-                <div class="schedule-embed-title">${sportEmoji} FULL SCHEDULE</div>
-                <div class="schedule-container">
-            `;
-            
-            if (!scheduleData?.events || scheduleData.events.length === 0) {
-                return `
-                    <div class="schedule-embed-title">${sportEmoji} FULL SCHEDULE</div>
-                    <div class="schedule-loading">
-                        <div style="text-align: center; padding: 20px;">
-                            <div class="spinner" style="display: inline-block;"></div>
-                            <div style="margin-top: 8px;">Loading schedule...</div>
-                        </div>
-                        <div style="text-align: center; margin-top: 12px;">
-                            <a href="https://iupathletics.com/sports/womens-volleyball/schedule" target="_blank" 
-                               style="color: inherit; text-decoration: none; font-size: 14px;">
-                                📅 View on IUP Athletics →
-                            </a>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            const now = new Date();
-            const events = scheduleData.events
-                .map(event => {
-                    const competition = event.competitions?.[0];
-                    if (!competition) return null;
-                    
-                    const competitors = competition.competitors || [];
-                    const opponentCompetitor = competitors.find(comp => 
-                        comp.team.id !== '313' // IUP team ID
-                    );
-                    
-                    const homeCompetitor = competitors.find(comp => comp.homeAway === 'home');
-                    const isHome = homeCompetitor?.team?.id === '313';
-                    
-                    const gameDate = new Date(event.date);
-                    const status = competition.status;
-                    
-                    return {
-                        date: gameDate,
-                        opponent: opponentCompetitor?.team?.displayName || 'TBD',
-                        isHome: isHome,
-                        location: competition.venue?.fullName || (isHome ? 'Kovalchick Center' : 'Away'),
-                        status: status.type.state,
-                        completed: status.type.completed,
-                        score: status.type.completed ? getScoreString(competition) : null,
-                        isPast: gameDate < now,
-                        isFuture: gameDate > now
-                    };
-                })
-                .filter(event => event !== null)
-                .sort((a, b) => a.date - b.date);
-            
-            // Show recent past games and upcoming games
-            const recentPast = events.filter(e => e.isPast).slice(-3);
-            const upcoming = events.filter(e => e.isFuture).slice(0, 5);
-            const displayEvents = [...recentPast, ...upcoming];
-            
-            if (displayEvents.length === 0) {
-                html += '<div style="text-align: center; color: rgba(255,255,255,0.7); padding: 20px;">No games found</div>';
-            } else {
-                displayEvents.forEach(event => {
-                    const dateStr = event.date.toLocaleDateString('en-US', { 
-                        month: 'short', 
-                        day: 'numeric',
-                        weekday: 'short'
-                    });
-                    const timeStr = event.date.toLocaleTimeString('en-US', { 
-                        hour: 'numeric', 
-                        minute: '2-digit' 
-                    });
-                    
-                    const vsAt = event.isHome ? 'vs' : 'at';
-                    const statusClass = event.isPast ? 'past' : 'future';
-                    
-                    html += `
-                        <div class="schedule-game ${statusClass}">
-                            <div class="schedule-date">${dateStr}</div>
-                            <div class="schedule-matchup">${vsAt} ${event.opponent}</div>
-                            <div class="schedule-details">
-                                ${event.isPast && event.score ? 
-                                    `<div class="schedule-score">${event.score}</div>` : 
-                                    `<div class="schedule-time">${timeStr}</div>`
-                                }
-                                <div class="schedule-location">${event.location}</div>
-                            </div>
-                        </div>
-                    `;
-                });
-            }
-            
-            html += `
-                </div>
-                <div style="text-align: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.2);">
-                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" target="_blank" 
-                       style="color: inherit; text-decoration: none; font-size: 14px; opacity: 0.8;">
-                        📅 View Full Schedule on IUP Athletics →
-                    </a>
-                </div>
-            `;
-            
-            return html;
-        }
-        
-        function getScoreString(competition) {
-            const competitors = competition.competitors || [];
-            if (competitors.length !== 2) return 'Final';
-            
-            const home = competitors.find(c => c.homeAway === 'home');
-            const away = competitors.find(c => c.homeAway === 'away');
-            
-            if (!home || !away) return 'Final';
-            
-            return `${away.score || 0} - ${home.score || 0}`;
-        }
-        
-        function createTeamHTML(team, data) {
-            const teamColorClass = getTeamColorClass(team);
-            
-            let nextGame = null;
-            if (data.scheduleData?.events?.length > 0) {
-                nextGame = findNextGame(data.scheduleData.events);
-            } else if (data.teamData?.team?.nextEvent?.length > 0) {
-                nextGame = findNextGame(data.teamData.team.nextEvent);
-            }
-            
-            return `
-                <div class="team-card ${teamColorClass}">
-                    <div class="team-header ${teamColorClass}">
-                        <div class="team-info">
-                            <img src="${team.logo}" alt="${team.name}" class="team-logo">
-                            <div class="team-name">${team.name}</div>
-                        </div>
-                    </div>
-                    
-                    <div class="actions ${teamColorClass}">
-                        <button class="btn" onclick="handleRoster('${team.id}', '${team.links?.roster || '#'}')">👕 Roster</button>
-                        <button class="btn" onclick="handleCoaches('${team.id}', '${team.links?.coaches || '#'}')">📣 Coaches</button>
-                    </div>
-                    
-                    <div class="schedule-embed-card ${teamColorClass}">
-                        ${createScheduleEmbedContent(team, nextGame, data.scheduleData)}
-                        <div class="full-schedule-btn-container">
-                            <button class="full-schedule-btn ${teamColorClass}" onclick="handleSchedule('${team.id}')">
-                                📅 FULL SCHEDULE
-                            </button>
-                        </div>
-                    </div>
-                    
-                    <div class="news">
-                        <div id="${team.id}-content">
-                            <div class="loading">
-                                <div class="spinner"></div>
-                                Loading news...
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">Tulane Green Wave</div>
                             </div>
                         </div>
                     </div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game</div>
+                        <div class="opponent">vs Northwestern Wildcats</div>
+                        <div class="game-details">
+                            Saturday, Aug 30 • <span class="game-time">11:00 AM</span><br>
+                            ESPNU • Yulman Stadium • New Orleans, LA
+                        </div>
+                    </div>
                 </div>
-            `;
-        }
-        
-        function createNewsHTML(team, data) {
-            let html = '';
-            
-            // Always show both ESPN news AND news source links
-            let hasESPNNews = data.newsData?.articles?.length > 0;
-            
-            if (hasESPNNews) {
-                html += `<div class="news-title">Latest ${team.name} News</div>`;                
-                data.newsData.articles.slice(0, 2).forEach(article => {
-                    const url = article.links?.web?.href || '#';
-                    const thumbnail = article.images?.[0]?.url || '';
-                    
-                    html += `
-                        <div class="news-item" onclick="handleNewsClick('${encodeURIComponent(url)}')">
-                            ${thumbnail ? `<img src="${thumbnail}" alt="Article thumbnail" class="news-thumbnail">` : ''}
-                            <div class="news-content">
-                                <div class="news-headline">${article.headline}</div>
-                                ${article.description ? `<div class="news-desc">${article.description.substring(0, 100)}...</div>` : ''}
-                                <div class="news-meta">ESPN • ${formatRelativeTime(article.published || article.date)}</div>
+                <div class="team-actions">
+                    <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Results</a>
+                    <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster</a>
+                    <a href="https://tulanegreenwave.com/sports/football/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- New Orleans Saints -->
+            <div class="team-card saints">
+                <div class="team-header">
+                    <div class="team-sport-row">
+                        <div class="team-sport">NFL Football</div>
+                    </div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">New Orleans Saints</div>
                             </div>
                         </div>
-                    `;
-                });
-            }
-            
-            // Replace the existing news sources section in createNewsHTML function
-            if (team.newsSources && team.newsSources.length > 0) {
-                const sportEmoji = getSportEmoji(team.sport);
-                
-                html += `
-                    <div class="news-sources">
-                        ${team.newsSources.map(source => 
-                            `<a href="${source.url}" target="_blank">${source.name}</a>`
-                        ).join(` ${sportEmoji} `)}
                     </div>
-                `;
-                            
-                            team.newsSources.forEach((source) => {
-                                // Create unique news items for each source
-                                let sourceDescription = '';
-                                switch(source.name) {
-                                    case 'NOLA.com':
-                                        sourceDescription = 'Latest local coverage and breaking news';
-                                        break;
-                                    case 'Tulane':
-                                        sourceDescription = 'Official team news and updates';
-                                        break;
-                                    case 'Saints.com':
-                                        sourceDescription = 'Official team news and analysis';
-                                        break;
-                                    case 'The Athletic':
-                                        sourceDescription = 'Premium sports journalism and insights';
-                                        break;
-                                    case 'Yankees.com':
-                                        sourceDescription = 'Official team news and roster updates';
-                                        break;
-                                    case 'ESPN':
-                                        sourceDescription = 'National coverage and analysis';
-                                        break;
-                                    case 'IUP Athletics':
-                                        sourceDescription = 'Official team news and schedules';
-                                        break;
-                                    case 'Facebook':
-                                        sourceDescription = 'Official Facebook page with fan updates';
-                                        break;
-                                    case 'Indiana Gazette':
-                                        sourceDescription = 'Local sports coverage and updates';
-                                        break;
-                                    default:
-                                        sourceDescription = `Latest ${team.name} news and updates`;
-                                }
-                                
-                                html += `
-                                    <div class="news-item" onclick="handleNewsClick('${encodeURIComponent(source.url)}')">
-                                        <div class="news-content">
-                                            <div class="news-headline">${source.name} - ${team.name}</div>
-                                            <div class="news-desc">${sourceDescription}</div>
-                                            <div class="news-meta">${source.name} • Tap to read latest</div>
-                                        </div>
-                                    </div>
-                                `;
-                            });
-                        }
-                        
-                        if (!hasESPNNews && (!team.newsSources || team.newsSources.length === 0)) {
-                            html += '<div style="text-align: center; color: #86868b; font-size: 12px; padding: 16px;">No news sources available</div>';
-                        }
-                        
-                        html += '<div class="timestamp">Last updated: ' + new Date().toLocaleTimeString() + '</div>';
-                        
-                        return html;
-                    }
-                    
-                    // Event Handlers
-                    function handleNewsClick(url) {
-                        if (url && url !== '#') {
-                            window.open(decodeURIComponent(url), '_blank');
-                        }
-                    }
-                    
-                    function handleRoster(teamId, url) {
-                        if (url && url !== '#') {
-                            window.open(url, '_blank');
-                        }
-                    }
-                    
-                    function handleCoaches(teamId, url) {
-                        if (url && url !== '#') {
-                            window.open(url, '_blank');
-                        }
-                    }
-                    
-                    function handleSchedule(teamId) {
-                        let scheduleUrl = '#';
-                        
-                        switch(teamId) {
-                            case 'saints':
-                                scheduleUrl = 'https://www.espn.com/nfl/team/schedule/_/name/no';
-                                break;
-                            case 'tulane-football':
-                                scheduleUrl = 'https://tulanegreenwave.com/sports/football/schedule';
-                                break;
-                            case 'yankees':
-                                scheduleUrl = 'https://www.mlb.com/yankees/schedule';
-                                break;
-                            case 'iup-volleyball':
-                                scheduleUrl = 'https://iupathletics.com/sports/womens-volleyball/schedule';
-                                break;
-                        }
-                        
-                        if (scheduleUrl !== '#') {
-                            window.open(scheduleUrl, '_blank');
-                        }
-                    }
-                    
-                    // Main Functions
-                    async function loadAllData() {
-                        const container = document.getElementById('container');
-                        let html = '';
-                        
-                        for (const team of teams) {
-                            const data = await fetchTeamData(team);
-                            html += createTeamHTML(team, data);
-                        }
-                        
-                        container.innerHTML = html;
-                        
-                        for (const team of teams) {
-                            const data = await fetchTeamData(team);
-                            const contentElement = document.getElementById(`${team.id}-content`);
-                            if (contentElement) {
-                                contentElement.innerHTML = createNewsHTML(team, data);
-                            }
-                        }
-                    }
-                    
-                    // Auto-refresh setup
-                    let refreshInterval;
-                    let countdownInterval;
-                    let timeRemaining = 300;
-                    
-                    function updateCountdown() {
-                        const minutes = Math.floor(timeRemaining / 60);
-                        const seconds = timeRemaining % 60;
-                        const timerElement = document.getElementById('refresh-timer');
-                        if (timerElement) {
-                            timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-                        }
-                        
-                        if (timeRemaining <= 0) {
-                            timeRemaining = 300;
-                            loadAllData();
-                        } else {
-                            timeRemaining--;
-                        }
-                    }
-                    
-                    function startAutoRefresh() {
-                        clearInterval(refreshInterval);
-                        clearInterval(countdownInterval);
-                        
-                        refreshInterval = setInterval(() => {
-                            loadAllData();
-                            timeRemaining = 300;
-                        }, 300000);
-                        
-                        countdownInterval = setInterval(updateCountdown, 1000);
-                    }
-                    
-                    // Initialize
-                    setCurrentDate();
-                    loadAllData();
-                    startAutoRefresh();
-                </script>
-            </body>
-            </html>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game (Preseason)</div>
+                        <div class="opponent">@ Los Angeles Chargers</div>
+                        <div class="game-details">
+                            Sunday, Aug 10 • <span class="game-time">2:05 PM</span><br>
+                            FOX 8 • SoFi Stadium • Los Angeles, CA
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
+                    <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
+                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
+                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
+                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- IUP Volleyball -->
+            <div class="team-card iup-volleyball">
+                <div class="team-header">
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Volleyball</div>
+                    </div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">IUP Crimson Hawks</div>
+                            </div>
+                        </div>
+                        <div class="peyton-image-cell">
+                            <img src="images/peyton.webp" alt="Peyton's Image" class="peyton-image">
+                        </div>
+                    </div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Match</div>
+                        <div class="opponent">Ashland Invitational</div>
+                        <div class="game-details">
+                            Friday, Sep 5 • <span class="game-time">1:00 PM</span><br>
+                            ESPN+ • vs Daemen • Ashland, OH
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball" class="action-btn">Results</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- New York Yankees -->
+            <div class="team-card yankees">
+                <div class="team-header">
+                    <div class="team-sport-row">
+                        <div class="team-sport">MLB Baseball</div>
+                    </div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">New York Yankees</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game</div>
+                        <div class="opponent">vs Houston Astros</div>
+                        <div class="game-details">
+                            Friday, Aug 8 • <span class="game-time">6:05 PM</span><br>
+                            YES Network • Yankee Stadium • Bronx, NY
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://www.mlb.com/yankees/stats" class="action-btn">Results</a>
+                    <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
+                    <a href="https://www.mlb.com/yankees/team/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- Tulane Green Wave Baseball -->
+            <div class="team-card tulane-baseball">
+                <div class="team-header">
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Baseball</div>
+                    </div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/tulane.svg" alt="Tulane Baseball Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">Tulane Green Wave</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-game">
+                        <div class="next-game-label">Season Status</div>
+                        <div class="opponent">OFFSEASON</div>
+                        <div class="game-details">
+                            Season resumes February 2026
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://tulanegreenwave.com/sports/baseball/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/stats" class="action-btn">Results</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/roster" class="action-btn">Roster</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
