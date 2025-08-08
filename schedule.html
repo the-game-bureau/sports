@@ -98,63 +98,23 @@
 
         .filter-section {
             margin-bottom: 25px;
-            border: 1px solid #e0e0e0;
-            border-radius: 4px;
-            overflow: hidden;
         }
 
-        .conference-header {
+        .conference-title {
             font-size: 12px;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 1px;
+            margin-bottom: 12px;
             color: #000;
-            background: #f8f8f8;
-            padding: 15px 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #e0e0e0;
-            transition: background-color 0.2s ease;
-            user-select: none;
-        }
-
-        .conference-header:hover {
-            background: #f0f0f0;
-        }
-
-        .conference-title {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .expand-icon {
-            font-size: 14px;
-            transition: transform 0.2s ease;
-            color: #666;
-        }
-
-        .filter-section.collapsed .expand-icon {
-            transform: rotate(-90deg);
-        }
-
-        .conference-content {
-            max-height: 1000px;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-
-        .filter-section.collapsed .conference-content {
-            max-height: 0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
         }
 
         .team-filters {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
             gap: 8px;
-            padding: 20px;
         }
 
         .team-checkbox {
@@ -369,15 +329,14 @@
 <body>
     <div class="container">
         <header>
-            <h1 id="page-title">College Football</h1>
-            <div class="season-info">Personalized team information</div>
+            <h1>College Football</h1>
+            <div class="season-info">2025 Season Schedule</div>
         </header>
 
         <div class="filters">
             <div class="controls">
                 <button class="btn" onclick="selectAllTeams()">Select All</button>
                 <button class="btn secondary" onclick="clearAllTeams()">Clear All</button>
-                <button class="btn secondary" onclick="toggleAllConferences()">Expand/Collapse All</button>
                 <button class="btn secondary" onclick="loadSchedule()">Reload</button>
             </div>
             
@@ -396,18 +355,6 @@
     <script>
         let scheduleData = null;
         let teamData = new Map(); // Store team details by name
-        let allConferencesExpanded = true;
-
-        // Update page title from URL title parameter or use default
-        function updatePageTitle() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const urlTitle = urlParams.get('title');
-            
-            if (urlTitle) {
-                document.title = urlTitle;
-                document.getElementById('page-title').textContent = urlTitle;
-            }
-        }
 
         async function loadSchedule() {
             try {
@@ -551,16 +498,10 @@
             let html = '';
             sortedConferences.forEach(conf => {
                 const teams = conferences.get(conf);
-                const confId = conf.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
-                
                 html += `
-                    <div class="filter-section" id="conf-${confId}">
-                        <div class="conference-header" onclick="toggleConference('${confId}')">
-                            <div class="conference-title">${conf} (${teams.length})</div>
-                            <div class="expand-icon">▼</div>
-                        </div>
-                        <div class="conference-content">
-                            <div class="team-filters">
+                    <div class="filter-section">
+                        <div class="conference-title">${conf} (${teams.length})</div>
+                        <div class="team-filters">
                 `;
                 
                 teams.forEach(team => {
@@ -582,7 +523,6 @@
                 });
                 
                 html += `
-                            </div>
                         </div>
                     </div>
                 `;
@@ -603,24 +543,6 @@
                         handleTeamToggle({ target: checkbox });
                     }
                 });
-            });
-        }
-
-        function toggleConference(confId) {
-            const section = document.getElementById(`conf-${confId}`);
-            section.classList.toggle('collapsed');
-        }
-
-        function toggleAllConferences() {
-            const sections = document.querySelectorAll('.filter-section');
-            allConferencesExpanded = !allConferencesExpanded;
-            
-            sections.forEach(section => {
-                if (allConferencesExpanded) {
-                    section.classList.remove('collapsed');
-                } else {
-                    section.classList.add('collapsed');
-                }
             });
         }
 
@@ -721,7 +643,7 @@
             }
             
             const teamsArray = Array.from(selectedTeams);
-            const params = new URLSearchParams(window.location.search);
+            const params = new URLSearchParams();
             params.set('teams', teamsArray.join(','));
             
             const newUrl = `${window.location.pathname}?${params.toString()}`;
@@ -767,10 +689,7 @@
         }
 
         // Load on page ready
-        document.addEventListener('DOMContentLoaded', () => {
-            updatePageTitle();
-            loadSchedule();
-        });
+        document.addEventListener('DOMContentLoaded', loadSchedule);
     </script>
 </body>
 </html>
