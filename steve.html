@@ -99,15 +99,30 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             color: white;
         }
 
-        .team-header::before {
-            display: none;
+        .team-sport-row {
+            background: #000000; /* Black background for sport row */
+            padding: 8px; /* Reduced padding */
+            text-align: center;
+        }
+
+        .team-sport {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.85);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 600;
+            margin: 0;
         }
 
         .team-banner {
-            padding: 0;
             display: grid;
-            grid-template-columns: 120px 1fr;
-            min-height: 120px;
+            grid-template-columns: min-content 1fr; /* Default: logo cell and name cell */
+            min-height: 80px;
+        }
+
+        /* Specific grid for IUP Volleyball to include Peyton's image cell */
+        .iup-volleyball .team-banner {
+            grid-template-columns: min-content 1fr min-content; /* Logo, name, Peyton's image */
         }
 
         .team-logo-cell {
@@ -115,20 +130,22 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             align-items: center;
             justify-content: center;
             background: var(--team-color);
+            padding: 8px;
         }
 
         .team-info-cell {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 30px;
+            padding: 15px; /* Reduced padding */
             background: var(--team-color);
+            text-align: center; /* Center team name */
         }
 
         .team-info {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center; /* Center team name */
             gap: 8px;
         }
 
@@ -159,15 +176,20 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             background: rgba(255,255,255,0.25);
         }
 
-        .team-sport {
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.85);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            font-weight: 400;
-            position: relative;
-            z-index: 2;
-            margin: 0;
+        .peyton-image-cell {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--team-color);
+            padding: 0; /* No padding for Peyton's image cell */
+        }
+
+        .peyton-image {
+            width: 76px; /* Matches logo cell width: 60px image + 8px padding on each side */
+            height: 76px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0;
         }
 
         .next-game {
@@ -215,9 +237,9 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
 
         .action-btn {
             padding: 12px 20px;
-            border: 2px solid var(--team-color);
-            background: white;
-            color: var(--team-color);
+            border: 2px solid var(--team-color); /* Primary color for button borders */
+            background: var(--team-secondary-color); /* Secondary color for fill */
+            color: white; /* White text for contrast */
             text-decoration: none;
             border-radius: 0;
             font-weight: 500;
@@ -229,27 +251,44 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
         }
 
         .action-btn:hover {
-            background: var(--team-color);
-            color: white;
+            background: transparent; /* Transparent background on hover */
+            color: var(--team-color); /* Primary color for text on hover */
             transform: scale(1.02);
         }
 
         .action-btn.primary {
-            background: var(--team-color);
+            background: var(--team-secondary-color); /* Secondary color for fill, same as other buttons */
             color: white;
+            border: 2px solid var(--team-color); /* Primary color for border */
         }
 
         .action-btn.primary:hover {
             background: transparent;
-            color: var(--team-color);
+            color: var(--team-color); /* Primary color on hover */
         }
 
-        /* Team Colors */
-        .tulane-football { --team-color: #00693E; }
-        .saints { --team-color: #D3BC8D; }
-        .iup-volleyball { --team-color: #722F37; }
-        .yankees { --team-color: #132448; }
-        .tulane-baseball { --team-color: #00693E; }
+        /* Team Colors with Primary and Secondary for Future Additions */
+        /* Add new teams here with --team-color (primary) and --team-secondary-color (secondary) */
+        .tulane-football { 
+            --team-color: #00693E; /* Primary: Tulane Green */
+            --team-secondary-color: #87CEEB; /* Secondary: Sky Blue */
+        }
+        .saints { 
+            --team-color: #D3BC8D; /* Primary: Saints Gold */
+            --team-secondary-color: #000000; /* Secondary: Saints Black */
+        }
+        .iup-volleyball { 
+            --team-color: #722F37; /* Primary: IUP Crimson */
+            --team-secondary-color: #C1A875; /* Secondary: IUP Gold */
+        }
+        .yankees { 
+            --team-color: #132448; /* Primary: Yankees Navy */
+            --team-secondary-color: #C4CED4; /* Secondary: Yankees Silver */
+        }
+        .tulane-baseball { 
+            --team-color: #00693E; /* Primary: Tulane Green */
+            --team-secondary-color: #87CEEB; /* Secondary: Sky Blue */
+        }
 
         .live-indicator {
             position: absolute;
@@ -354,11 +393,19 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             <!-- Tulane Green Wave Football -->
             <div class="team-card tulane-football">
                 <div class="team-header">
-                    <div class="team-name">
-                        <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
-                        Tulane Green Wave
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Football</div>
                     </div>
-                    <div class="team-sport">Football</div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">Tulane Green Wave</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="next-game">
                         <div class="next-game-label">Next Game</div>
                         <div class="opponent">vs Northwestern Wildcats</div>
@@ -373,18 +420,26 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
                     <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Results</a>
                     <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster</a>
                     <a href="https://tulanegreenwave.com/sports/football/coaches" class="action-btn">Coaches</a>
-                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">News</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
                 </div>
             </div>
 
             <!-- New Orleans Saints -->
             <div class="team-card saints">
                 <div class="team-header">
-                    <div class="team-name">
-                        <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
-                        New Orleans Saints
+                    <div class="team-sport-row">
+                        <div class="team-sport">NFL Football</div>
                     </div>
-                    <div class="team-sport">NFL Football</div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">New Orleans Saints</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="next-game">
                         <div class="next-game-label">Next Game (Preseason)</div>
                         <div class="opponent">@ Los Angeles Chargers</div>
@@ -406,11 +461,22 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             <!-- IUP Volleyball -->
             <div class="team-card iup-volleyball">
                 <div class="team-header">
-                    <div class="team-name">
-                        <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
-                        IUP Crimson Hawks
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Volleyball</div>
                     </div>
-                    <div class="team-sport">Volleyball</div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">IUP Crimson Hawks</div>
+                            </div>
+                        </div>
+                        <div class="peyton-image-cell">
+                            <img src="images/peyton.webp" alt="Peyton's Image" class="peyton-image">
+                        </div>
+                    </div>
                     <div class="next-game">
                         <div class="next-game-label">Next Match</div>
                         <div class="opponent">Ashland Invitational</div>
@@ -432,11 +498,19 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             <!-- New York Yankees -->
             <div class="team-card yankees">
                 <div class="team-header">
-                    <div class="team-name">
-                        <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
-                        New York Yankees
+                    <div class="team-sport-row">
+                        <div class="team-sport">MLB Baseball</div>
                     </div>
-                    <div class="team-sport">MLB Baseball</div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">New York Yankees</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="next-game">
                         <div class="next-game-label">Next Game</div>
                         <div class="opponent">vs Houston Astros</div>
@@ -458,11 +532,19 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
             <!-- Tulane Green Wave Baseball -->
             <div class="team-card tulane-baseball">
                 <div class="team-header">
-                    <div class="team-name">
-                        <img src="images/tulane.svg" alt="Tulane Baseball Logo" class="team-logo">
-                        Tulane Green Wave
+                    <div class="team-sport-row">
+                        <div class="team-sport">College Baseball</div>
                     </div>
-                    <div class="team-sport">Baseball</div>
+                    <div class="team-banner">
+                        <div class="team-logo-cell">
+                            <img src="images/tulane.svg" alt="Tulane Baseball Logo" class="team-logo">
+                        </div>
+                        <div class="team-info-cell">
+                            <div class="team-info">
+                                <div class="team-name">Tulane Green Wave</div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="next-game">
                         <div class="next-game-label">Season Status</div>
                         <div class="opponent">OFFSEASON</div>
@@ -476,7 +558,7 @@ INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
                     <a href="https://tulanegreenwave.com/sports/baseball/stats" class="action-btn">Results</a>
                     <a href="https://tulanegreenwave.com/sports/baseball/roster" class="action-btn">Roster</a>
                     <a href="https://tulanegreenwave.com/sports/baseball/coaches" class="action-btn">Coaches</a>
-                    <a href="https://tulanegreenwave.com/sports/baseball" class="action-btn">News</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
                 </div>
             </div>
         </div>
