@@ -168,6 +168,9 @@ def build_cfb_section(root, year=2025, max_weeks=15):
                 competitors = comp.get("competitors") or []
                 if len(competitors) < 2:
                     continue
+                # ...existing code...
+            except Exception as e:
+                print(f"Error processing game: {e}")
 
                 # Build team blocks with conference
                 teams_elem = ET.Element("teams")
@@ -346,4 +349,7 @@ def build_nfl_section(root, year=2025, seasontype=2, max_weeks=18):
                         if logos:
                             logo = logos[0].get("href") or ""
 
-                    division = div_index.ge_
+                    division = div_index.get(tid, "Unknown")
+                # ...existing code...
+            except Exception as e:
+                print(f"Error processing NFL game: {e}")
