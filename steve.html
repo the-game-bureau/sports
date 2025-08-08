@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+SCHEDULE DATA SOURCES FOR UPDATES:
+- Tulane Football: https://tulanegreenwave.com/sports/football/schedule/2025 or SI.com for game times
+- Saints: https://www.neworleanssaints.com/schedule/ or Ticketmaster Saints page  
+- IUP Volleyball: https://iupathletics.com/sports/womens-volleyball/schedule
+- Yankees: https://sports.yahoo.com/mlb/teams/ny-yankees/schedule/ (most reliable for current games)
+- Tulane Baseball: https://tulanegreenwave.com/sports/baseball/schedule/2025
+
+CURRENT SCHEDULE STATUS (as of Aug 8, 2025):
+- Tulane Football: Next game vs Northwestern, Aug 30, 11:00 AM
+- Saints: Next game @ Chargers, Aug 10, 3:05 PM (PRESEASON)  
+- IUP Volleyball: Season starts Sep 5 at Ashland Invitational
+- Yankees: Current series vs Astros (check Yahoo Sports for exact next game)
+- Tulane Baseball: Offseason until Feb 2025
+
+NOTE: ALL TIMES DISPLAYED IN CENTRAL TIME (New Orleans local time)
+Convert from ET: subtract 1 hour | Convert from PT: add 2 hours
+
+INCLUDE TV CHANNEL INFO: Always add TV/streaming info for next games
+- Check official team sites, ESPN, or broadcast schedules
+- Format: "Channel • Time" in game details
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Steve's Sports Report by Kevin Kolb</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background: white;
+            border-radius: 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 300;
+            letter-spacing: -0.02em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-weight: 300;
+        }
+
+        .teams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .team-card {
+            background: white;
+            border-radius: 0;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.15);
+        }
+
+        .team-header {
+            padding: 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            background: var(--team-color);
+            color: white;
+        }
+
+        .team-header::before {
+            display: none;
+        }
+
+        .team-banner {
+            padding: 0;
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            min-height: 120px;
+        }
+
+        .team-logo-cell {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--team-color);
+        }
+
+        .team-info-cell {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+            background: var(--team-color);
+        }
+
+        .team-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .team-name {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: white;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+            letter-spacing: -0.01em;
+        }
+
+        .team-logo {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0;
+            background: transparent;
+            padding: 8px;
+            transition: transform 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .team-logo:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.25);
+        }
+
+        .team-sport {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.85);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 400;
+            position: relative;
+            z-index: 2;
+            margin: 0;
+        }
+
+        .next-game {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .next-game-label {
+            font-size: 0.75rem;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .opponent {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--team-color);
+            margin-bottom: 3px;
+        }
+
+        .game-details {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .game-time {
+            font-weight: 500;
+            color: var(--team-color);
+        }
+
+        .team-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            padding: 20px 30px 30px;
+        }
+
+        .action-btn {
+            padding: 12px 20px;
+            border: 2px solid var(--team-color);
+            background: white;
+            color: var(--team-color);
+            text-decoration: none;
+            border-radius: 0;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .action-btn:hover {
+            background: var(--team-color);
+            color: white;
+            transform: scale(1.02);
+        }
+
+        .action-btn.primary {
+            background: var(--team-color);
+            color: white;
+        }
+
+        .action-btn.primary:hover {
+            background: transparent;
+            color: var(--team-color);
+        }
+
+        /* Team Colors */
+        .tulane-football { --team-color: #00693E; }
+        .saints { --team-color: #D3BC8D; }
+        .iup-volleyball { --team-color: #722F37; }
+        .yankees { --team-color: #132448; }
+        .tulane-baseball { --team-color: #00693E; }
+
+        .live-indicator {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #e74c3c;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 0;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .quick-links {
+            background: white;
+            border-radius: 0;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+
+        .quick-links h3 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .quick-link {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: none;
+            border-radius: 0;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .quick-link:hover {
+            background: #e9ecef;
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .teams-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .team-actions {
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                padding: 15px 20px 25px;
+            }
+            
+            .action-btn {
+                padding: 10px 15px;
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-actions {
+                grid-template-columns: 1fr;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Coach Steve's Sports Report</h1>
+            <p>by Kevin Kolb</p>
+        </div>
+
+        <div class="teams-grid">
+            <!-- Tulane Green Wave Football -->
+            <div class="team-card tulane-football">
+                <div class="team-header">
+                    <div class="team-name">
+                        <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
+                        Tulane Green Wave
+                    </div>
+                    <div class="team-sport">Football</div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game</div>
+                        <div class="opponent">vs Northwestern Wildcats</div>
+                        <div class="game-details">
+                            Saturday, Aug 30 • <span class="game-time">11:00 AM</span><br>
+                            ESPNU • Yulman Stadium • New Orleans, LA
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Results</a>
+                    <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster</a>
+                    <a href="https://tulanegreenwave.com/sports/football/coaches" class="action-btn">Coaches</a>
+                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- New Orleans Saints -->
+            <div class="team-card saints">
+                <div class="team-header">
+                    <div class="team-name">
+                        <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
+                        New Orleans Saints
+                    </div>
+                    <div class="team-sport">NFL Football</div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game (Preseason)</div>
+                        <div class="opponent">@ Los Angeles Chargers</div>
+                        <div class="game-details">
+                            Sunday, Aug 10 • <span class="game-time">2:05 PM</span><br>
+                            FOX 8 • SoFi Stadium • Los Angeles, CA
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
+                    <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
+                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
+                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
+                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- IUP Volleyball -->
+            <div class="team-card iup-volleyball">
+                <div class="team-header">
+                    <div class="team-name">
+                        <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
+                        IUP Crimson Hawks
+                    </div>
+                    <div class="team-sport">Volleyball</div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Match</div>
+                        <div class="opponent">Ashland Invitational</div>
+                        <div class="game-details">
+                            Friday, Sep 5 • <span class="game-time">1:00 PM</span><br>
+                            ESPN+ • vs Daemen • Ashland, OH
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball" class="action-btn">Results</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- New York Yankees -->
+            <div class="team-card yankees">
+                <div class="team-header">
+                    <div class="team-name">
+                        <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
+                        New York Yankees
+                    </div>
+                    <div class="team-sport">MLB Baseball</div>
+                    <div class="next-game">
+                        <div class="next-game-label">Next Game</div>
+                        <div class="opponent">vs Houston Astros</div>
+                        <div class="game-details">
+                            Friday, Aug 8 • <span class="game-time">6:05 PM</span><br>
+                            YES Network • Yankee Stadium • Bronx, NY
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://www.mlb.com/yankees/stats" class="action-btn">Results</a>
+                    <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
+                    <a href="https://www.mlb.com/yankees/team/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- Tulane Green Wave Baseball -->
+            <div class="team-card tulane-baseball">
+                <div class="team-header">
+                    <div class="team-name">
+                        <img src="images/tulane.svg" alt="Tulane Baseball Logo" class="team-logo">
+                        Tulane Green Wave
+                    </div>
+                    <div class="team-sport">Baseball</div>
+                    <div class="next-game">
+                        <div class="next-game-label">Season Status</div>
+                        <div class="opponent">OFFSEASON</div>
+                        <div class="game-details">
+                            Season resumes February 2026
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://tulanegreenwave.com/sports/baseball/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/stats" class="action-btn">Results</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/roster" class="action-btn">Roster</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/coaches" class="action-btn">Coaches</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball" class="action-btn">News</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
