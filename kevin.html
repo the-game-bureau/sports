@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kevin's Football Schedules — 2025 (CT)</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Helvetica Neue', Arial, sans-serif; line-height:1.6; background:#f8f8f8; color:#333; }
+    .container { max-width:1200px; margin:0 auto; padding:40px 20px; }
+    .header { text-align:center; margin-bottom:60px; border-bottom:3px solid #333; padding-bottom:30px; }
+    .main-title { font-size:3rem; font-weight:700; letter-spacing:-1px; margin-bottom:10px; text-transform:uppercase; }
+    .subtitle { font-size:1.2rem; color:#666; font-weight:300; }
+
+    .schedule-container { background:#fff; box-shadow:0 4px 20px rgba(0,0,0,.1); overflow:hidden; }
+    .schedule-table { width:100%; border-collapse:collapse; }
+    .schedule-table td { padding:15px 20px; border-bottom:1px solid #f0f0f0; vertical-align:middle; }
+
+    .week-header { background:#333; color:#fff; padding:12px 20px; font-weight:700; font-size:.9rem; text-transform:uppercase; letter-spacing:1px; border-top:15px solid #f8f8f8; }
+    .week-header:first-child { border-top:none; }
+    .schedule-table tr:hover { opacity:.9; }
+
+    .date-cell { font-weight:600; font-size:.95rem; white-space:nowrap; }
+    .team-name-cell { font-weight:600; font-size:.9rem; }
+    .opponent-cell { font-size:.95rem; }
+    .location-cell { font-size:.85rem; color:#666; }
+    .venue-cell { text-align:center; width:100px; }
+    .vs-indicator { font-size:.75rem; margin-right:5px; }
+    .home-tag,.away-tag,.neutral-tag {
+      font-size:.7rem; padding:3px 8px; border-radius:3px; font-weight:700; text-transform:uppercase; display:inline-block; color:#fff;
+    }
+    .home-tag { background-color:#2d5016; }
+    .away-tag { background-color:#8b1538; }
+    .neutral-tag { background-color:#555; }
+
+    /* Team row accents */
+    .saints-row { background-color:#000; color:#fff; }
+    .tulane-row { background-color:#87CEEB; color:#333; border-left:5px solid #808000; }
+    .lsu-row { background-color:#FDD023; color:#333; }
+    .florida-row { background-color:#FA4616; color:#fff; border-left:5px solid #0021A5; }
+
+    .saints-row .location-cell { color:#ccc; }
+    .tulane-row .location-cell, .lsu-row .location-cell { color:#555; }
+    .florida-row .location-cell { color:#eee; }
+
+    .legend-footer { background:#fff; padding:25px 30px; border-top:1px solid #eee; text-align:center; }
+    .legend-text { font-size:.9rem; color:#666; line-height:1.6; }
+
+    @media (max-width:768px) {
+      .main-title { font-size:2rem; }
+      .container { padding:20px 15px; }
+      .schedule-table td { padding:10px 12px; font-size:.85rem; }
+      .home-tag,.away-tag,.neutral-tag { font-size:.6rem; padding:2px 5px; }
+      .venue-cell { width:70px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="main-title">Kevin's Football Schedules</h1>
+      <p class="subtitle">2025 Season • All times Central Time (CT)</p>
+    </header>
+
+    <div class="schedule-container">
+      <table class="schedule-table">
+        <tbody>
+          <!-- Week 1 -->
+          <tr><td colspan="6" class="week-header">Week 1 • August 30 – September 1</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Aug 30</td><td class="date-cell">11:00 AM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Northwestern</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Aug 30</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Clemson</td>
+            <td class="location-cell">Clemson, SC</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Aug 30</td><td class="date-cell">6:00 PM</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>LIU</td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+
+          <!-- Week 2 -->
+          <tr><td colspan="6" class="week-header">Week 2 • September 6 – 8</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Sep 6</td><td class="date-cell">6:00 PM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>South Alabama</td>
+            <td class="location-cell">Mobile, AL</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Sep 6</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Louisiana Tech</td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Sep 6</td><td class="date-cell">3:15 PM</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>South Florida</td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Sep 7</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Arizona Cardinals</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 3 -->
+          <tr><td colspan="6" class="week-header">Week 3 • September 13 – 15</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Sep 13</td><td class="date-cell">7:00 PM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Duke</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Sep 13</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Florida</td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Sep 13</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>LSU</td>
+            <td class="location-cell">Baton Rouge, LA</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Sep 14</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>San Francisco 49ers</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 4 -->
+          <tr><td colspan="6" class="week-header">Week 4 • September 20 – 22</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Sep 20</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Ole Miss</td>
+            <td class="location-cell">Oxford, MS</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Sep 20</td><td class="date-cell">6:45 PM</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Southeastern Louisiana</td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Sep 20</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Miami</td>
+            <td class="location-cell">Miami Gardens, FL</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Sep 21</td><td class="date-cell">3:05 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Seattle Seahawks</td>
+            <td class="location-cell">Seattle, WA</td>
+          </tr>
+
+          <!-- Week 5 -->
+          <tr><td colspan="6" class="week-header">Week 5 • September 27 – 29</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Sep 27</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Tulsa</td>
+            <td class="location-cell">Tulsa, OK</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Sep 27</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Ole Miss <span style="font-size:.8em;color:#222;">(Flex window)</span></td>
+            <td class="location-cell">Oxford, MS</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Sep 27</td><td class="date-cell">—</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"></td>
+            <td class="opponent-cell">BYE</td>
+            <td class="location-cell">—</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Sep 28</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Buffalo Bills</td>
+            <td class="location-cell">Buffalo, NY</td>
+          </tr>
+
+          <!-- Week 6 -->
+          <tr><td colspan="6" class="week-header">Week 6 • October 4 – 6</td></tr>
+          <tr class="florida-row">
+            <td class="date-cell">Oct 4</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Texas <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Oct 5</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>New York Giants</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 7 -->
+          <tr><td colspan="6" class="week-header">Week 7 • October 9 – 13</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Oct 9</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>ECU</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Oct 11</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>South Carolina <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Oct 11</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Texas A&M <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">College Station, TX</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Oct 12</td><td class="date-cell">3:25 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>New England Patriots</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 8 -->
+          <tr><td colspan="6" class="week-header">Week 8 • October 18 – 20</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Oct 18</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Army</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Oct 18</td><td class="date-cell">Early Window</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Vanderbilt</td>
+            <td class="location-cell">Nashville, TN</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Oct 18</td><td class="date-cell">Afternoon Window</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Mississippi State</td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Oct 19</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Chicago Bears</td>
+            <td class="location-cell">Chicago, IL</td>
+          </tr>
+
+          <!-- Week 9 -->
+          <tr><td colspan="6" class="week-header">Week 9 • October 25 – 27</td></tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Oct 25</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Texas A&M <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Oct 25</td><td class="date-cell">—</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"></td>
+            <td class="opponent-cell">BYE</td>
+            <td class="location-cell">—</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Oct 26</td><td class="date-cell">3:05 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Tampa Bay Buccaneers</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Oct 30</td><td class="date-cell">6:30 PM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>UTSA</td>
+            <td class="location-cell">San Antonio, TX</td>
+          </tr>
+
+          <!-- Week 10 -->
+          <tr><td colspan="6" class="week-header">Week 10 • November 1 – 3</td></tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Nov 1</td><td class="date-cell">Night Window</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Alabama</td>
+            <td class="location-cell">Tuscaloosa, AL</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Nov 1</td><td class="date-cell">2:30 PM</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="neutral-tag">NEUTRAL</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Georgia</td>
+            <td class="location-cell">Jacksonville, FL (EverBank Stadium)</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Nov 2</td><td class="date-cell">3:05 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Los Angeles Rams</td>
+            <td class="location-cell">Los Angeles, CA</td>
+          </tr>
+
+          <!-- Week 11 -->
+          <tr><td colspan="6" class="week-header">Week 11 • November 7 – 10</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Nov 7</td><td class="date-cell">8:00 PM</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Memphis</td>
+            <td class="location-cell">Memphis, TN</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Nov 8</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Kentucky <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Lexington, KY</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Nov 9</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Carolina Panthers</td>
+            <td class="location-cell">Charlotte, NC</td>
+          </tr>
+
+          <!-- Week 12 -->
+          <tr><td colspan="6" class="week-header">Week 12 • November 15 – 17</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Nov 15</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>FAU</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Nov 15</td><td class="date-cell">Early Window</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Arkansas</td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Nov 15</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Ole Miss <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Oxford, MS</td>
+          </tr>
+
+          <!-- Week 13 -->
+          <tr><td colspan="6" class="week-header">Week 13 • November 22 – 24</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Nov 22</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Temple</td>
+            <td class="location-cell">Philadelphia, PA</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Nov 22</td><td class="date-cell">Night Window</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Western Kentucky</td>
+            <td class="location-cell">Tiger Stadium</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Nov 22</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Tennessee <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Nov 23</td><td class="date-cell">3:25 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Atlanta Falcons</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 14 -->
+          <tr><td colspan="6" class="week-header">Week 14 • November 29 – December 1</td></tr>
+          <tr class="tulane-row">
+            <td class="date-cell">Nov 29</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Tulane</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Charlotte</td>
+            <td class="location-cell">Yulman Stadium</td>
+          </tr>
+          <tr class="lsu-row">
+            <td class="date-cell">Nov 29</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">LSU</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Oklahoma <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Norman, OK</td>
+          </tr>
+          <tr class="florida-row">
+            <td class="date-cell">Nov 29</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Florida</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Florida State <span style="font-size:.8em;">(Flex window)</span></td>
+            <td class="location-cell">Ben Hill Griffin Stadium</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">Nov 30</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Miami Dolphins</td>
+            <td class="location-cell">Miami, FL</td>
+          </tr>
+
+          <!-- Week 15 -->
+          <tr><td colspan="6" class="week-header">Week 15 • December 7 – 8</td></tr>
+          <tr class="saints-row">
+            <td class="date-cell">Dec 7</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Tampa Bay Buccaneers</td>
+            <td class="location-cell">Tampa, FL</td>
+          </tr>
+
+          <!-- Week 16 -->
+          <tr><td colspan="6" class="week-header">Week 16 • December 14 – 15</td></tr>
+          <tr class="saints-row">
+            <td class="date-cell">Dec 14</td><td class="date-cell">3:25 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>Carolina Panthers</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 17 -->
+          <tr><td colspan="6" class="week-header">Week 17 • December 21 – 22</td></tr>
+          <tr class="saints-row">
+            <td class="date-cell">Dec 21</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="home-tag">HOME</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">vs</span>New York Jets</td>
+            <td class="location-cell">Caesars Superdome</td>
+          </tr>
+
+          <!-- Week 18 -->
+          <tr><td colspan="6" class="week-header">Week 18 • December 28 – 29</td></tr>
+          <tr class="saints-row">
+            <td class="date-cell">Dec 28</td><td class="date-cell">12:00 PM</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Tennessee Titans</td>
+            <td class="location-cell">Nashville, TN</td>
+          </tr>
+          <tr class="saints-row">
+            <td class="date-cell">TBD</td><td class="date-cell">TBD</td>
+            <td class="team-name-cell">Saints</td><td class="venue-cell"><span class="away-tag">AWAY</span></td>
+            <td class="opponent-cell"><span class="vs-indicator">@</span>Atlanta Falcons</td>
+            <td class="location-cell">Atlanta, GA</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="legend-footer">
+        <p class="legend-text">
+          by Kevin Kolb<br>
+          All times shown in Central Time (CT). Some games list conference TV windows; exact kickoffs will be set closer to game week.<br>
+          <em>*Schedules updated: August 2025</em>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
