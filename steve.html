@@ -273,14 +273,36 @@
         }
 
         /* Mobile-specific optimizations */
+        @media (max-width: 768px) {
+            .teams-grid {
+                display: flex;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                gap: 15px;
+                padding: 0 10px;
+                margin-bottom: 20px;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            .team-card {
+                flex: 0 0 85vw;
+                max-width: 350px;
+                scroll-snap-align: center;
+            }
+        }
+        
         @media (max-width: 480px) {
             .container {
                 padding: 5px;
             }
             
             .teams-grid {
-                grid-template-columns: 1fr;
+                padding: 0 5px;
                 gap: 10px;
+            }
+            
+            .team-card {
+                flex: 0 0 90vw;
             }
             
             .header {
@@ -310,6 +332,23 @@
             .action-btn {
                 min-height: 44px;
                 padding: 12px 16px;
+            }
+        }
+
+        /* Swipe indicator styles */
+        @media (max-width: 768px) {
+            .teams-grid::after {
+                content: "";
+                flex: 0 0 10px;
+            }
+            
+            .teams-grid::-webkit-scrollbar {
+                display: none;
+            }
+            
+            .teams-grid {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
             }
         }
 
