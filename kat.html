@@ -6,7 +6,7 @@
   <title>Kat's Football Schedule 2025</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- PWA Meta Tags -->
   <meta name="theme-color" content="#667eea">
   <meta name="mobile-web-app-capable" content="yes">
@@ -14,122 +14,53 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Kat's Football">
   <meta name="description" content="Kat's Football Schedule 2025 - Saints, LSU, Tulane, Florida">
-  
-  <!-- Inline Manifest for PWA -->
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkthdCdzIEZvb3RiYWxsIFNjaGVkdWxlIDIwMjUiLAogICJzaG9ydF9uYW1lIjogIkthdCdzIEZvb3RiYWxsIiwKICAiZGVzY3JpcHRpb24iOiAiMjAyNSBGb290YmFsbCBTY2hlZHVsZSBmb3IgU2FpbnRzLCBMU1UsIFR1bGFuZSwgYW5kIEZsb3JpZGEiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiIzY2N2VlYSIsCiAgInRoZW1lX2NvbG9yIjogIiM2NjdlZWEiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIzYVdSMGFEMGlNVGs0SWlCb1pXbG5hSFE5SWpFNU9DSWdkbWxsZDBKdmVEMGlNQ0F3SURFNU9DQXhPVGdpSUdobGJXNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUkrUEhKbFkzUWdkMmxrZEdnOUlqRTVPQ0lnYUdWcFoyaDBQU0l4T1RnaUlHWnBiR3c5SWlNMk5qZGxaV0VpTHo0OGRHVjRkQ0I0UFNJNU9TSWdlVDBpT1RraUlHWnBiR3c5SWlOalpERmhOVEVpSUdadmJuUXRjMmw2WlQwaU5UQWlJR1p2Ym5RdGQyVnBaMmgwUFNJM01EQWlJSFJsZUhRdFlXNWphRzl5UFNKdGFXUmtiR1VpUGtaUFQwUkNRVXhNUEM5MFpYaDBQZzA4TDNOMlp6ND0iLAogICAgICAic2l6ZXMiOiAiMTk4eDE5OCIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiCiAgICB9CiAgXQp9">
-  
+
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk4IiBoZWlnaHQ9IjE5OCIgdmlld0JveD0iMCAwIDE5OCAxOTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTgiIGhlaWdodD0iMTk4IiBmaWxsPSIjNjY3ZWVhIi8+Cjx0ZXh0IHg9Ijk5IiB5PSI5OSIgZmlsbD0iI2NkMWE1MSIgZm9udC1zaXplPSI1MCIgZm9udC13ZWlnaHQ9IjcwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Rk9PVEJBTEw8L3RleHQ+Cjwvc3ZnPgo=">
-  
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk4IiBoZWlnaHQ9IjE5OCIgdmlld0JveD0iMCAwIDE5OCAxOTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE5OCIgaGVpZ2h0PSIxOTgiIGZpbGw9IiM2NjdlZWEiLz48dGV4dCB4PSI5OSIgeT0iOTkiIGZpbGw9IiNjZDFhNTEiIGZvbnQtc2l6ZT0iNTAiIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZPT1RCQUxMPC90ZXh0Pjwvc3ZnPg==">
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    body { 
+    body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       min-height: 100vh;
       color: #1a1a1a;
       line-height: 1.5;
     }
-
-    .container { 
-      max-width: 800px; 
-      margin: 0 auto; 
-      padding: 20px;
-    }
-
+    .container { max-width: 880px; margin: 0 auto; padding: 20px; }
     .header {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 24px;
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(20px);
       border-radius: 24px;
-      padding: 32px 24px;
+      padding: 28px 24px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
       position: relative;
     }
+    .header-buttons { position: absolute; top: 18px; right: 18px; display: flex; gap: 10px; align-items: center; }
+    .header-button { background: #667eea; color: white; border: none; padding: 9px 12px; border-radius: 12px; cursor: pointer; font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 6px; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3); min-width: 44px; justify-content: center; }
+    .header-button:hover { background: #5a6fd8; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4); }
+    .add-to-home-header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
+    .add-to-home-header:hover { background: linear-gradient(135deg, #059669 0%, #047857 100%); box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4); }
+    .main-title { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 6px; letter-spacing: -0.02em; }
+    .subtitle { font-size: 1.05rem; color: #6b7280; font-weight: 500; }
 
-    .header-buttons {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      display: flex;
-      gap: 12px;
-      align-items: center;
-    }
-
-    .header-button {
-      background: #667eea;
-      color: white;
-      border: none;
-      padding: 10px 14px;
-      border-radius: 12px;
-      cursor: pointer;
-      font-size: 13px;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-      min-width: 44px;
-      justify-content: center;
-    }
-
-    .header-button:hover {
-      background: #5a6fd8;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-    }
-
-    .add-to-home-header {
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
-    }
-
-    .add-to-home-header:hover {
-      background: linear-gradient(135deg, #059669 0%, #047857 100%);
-      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
-    }
-
-    .main-title {
-      font-size: 2.5rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 8px;
-      letter-spacing: -0.02em;
-    }
-
-    .subtitle {
-      font-size: 1.1rem;
-      color: #6b7280;
-      font-weight: 400;
-    }
-
-    .week-section {
-      margin-bottom: 32px;
-    }
-
+    .week-section { margin-bottom: 22px; }
     .week-header {
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(20px);
       color: #1f2937;
-      padding: 20px 24px;
-      font-weight: 700;
-      font-size: 1.1rem;
+      padding: 16px 20px;
+      font-weight: 800;
+      font-size: 1.02rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       border-radius: 16px 16px 0 0;
       border-bottom: 3px solid #e5e7eb;
-      position: sticky;
-      top: 20px;
-      z-index: 10;
+      position: sticky; top: 16px; z-index: 10;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
-
     .games-container {
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(20px);
@@ -137,335 +68,46 @@
       overflow: hidden;
       box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
     }
+    .game-card { padding: 18px; border-bottom: 1px solid rgba(0, 0, 0, 0.06); transition: all 0.3s ease; position: relative; overflow: hidden; }
+    .game-card:last-child { border-bottom: none; }
+    .game-card:hover { background: rgba(0, 0, 0, 0.02); transform: translateX(6px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); }
 
-    .game-card {
-      padding: 24px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-      transition: all 0.3s ease;
-      position: relative;
-      overflow: hidden;
-    }
+    /* Team gradients */
+    .saints-card  { background: linear-gradient(135deg, #D3BC8D 0%, #ffffff 50%, #000000 100%); color: #000000; border-left: 6px solid #D3BC8D; }
+    .tulane-card  { background: linear-gradient(135deg, #00743F 0%, #ffffff 50%, #418FDE 100%); color: #00743F; border-left: 6px solid #00743F; }
+    .lsu-card     { background: linear-gradient(135deg, #461D7C 0%, #ffffff 50%, #FDD023 100%); color: #461D7C; border-left: 6px solid #461D7C; }
+    .florida-card { background: linear-gradient(135deg, #0021A5 0%, #ffffff 50%, #FA4616 100%); color: #0021A5; border-left: 6px solid #FA4616; }
+    .bye-card     { background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); color: #6b7280; border-left: 6px solid #9ca3af; opacity: 0.85; }
 
-    .game-card:last-child {
-      border-bottom: none;
-    }
+    .game-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 10px; }
+    .date-time { display: flex; flex-direction: column; gap: 2px; }
+    .date { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.01em; }
+    .day  { font-size: 0.85rem; opacity: 0.8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .time { font-size: 0.95rem; font-weight: 700; opacity: 0.9; }
 
-    .game-card:hover {
-      background: rgba(0, 0, 0, 0.02);
-      transform: translateX(8px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    }
+    .venue-tag { padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
+    .home-tag { background: rgba(45, 80, 22, 0.92); color: white; }
+    .away-tag { background: rgba(139, 21, 56, 0.92); color: white; }
+    .neutral-tag { background: rgba(75, 85, 99, 0.92); color: white; }
 
-    /* Team Colors - Tri-color gradients: Primary -> White -> Secondary */
-    .saints-card {
-      background: linear-gradient(135deg, #D3BC8D 0%, #ffffff 50%, #000000 100%);
-      color: #000000;
-      border-left: 6px solid #D3BC8D;
-    }
+    .game-details { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .team-matchup { flex: 1; min-width: 200px; }
+    .team-name { font-size: 1.25rem; font-weight: 900; margin-bottom: 2px; letter-spacing: -0.01em; }
+    .opponent { font-size: 1rem; font-weight: 700; opacity: 0.95; }
+    .vs-indicator { opacity: 0.7; margin-right: 6px; font-size: 0.9rem; }
 
-    .tulane-card {
-      background: linear-gradient(135deg, #00743F 0%, #ffffff 50%, #418FDE 100%);
-      color: #00743F;
-      border-left: 6px solid #00743F;
-    }
-
-    .lsu-card {
-      background: linear-gradient(135deg, #461D7C 0%, #ffffff 50%, #FDD023 100%);
-      color: #461D7C;
-      border-left: 6px solid #461D7C;
-    }
-
-    .florida-card {
-      background: linear-gradient(135deg, #0021A5 0%, #ffffff 50%, #FA4616 100%);
-      color: #0021A5;
-      border-left: 6px solid #FA4616;
-    }
-
-    .game-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .date-time {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .date {
-      font-size: 1.2rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-    }
-
-    .day {
-      font-size: 0.9rem;
-      opacity: 0.8;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .time {
-      font-size: 1rem;
-      font-weight: 600;
-      opacity: 0.9;
-    }
-
-    .venue-tag {
-      padding: 8px 16px;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      white-space: nowrap;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .home-tag {
-      background: rgba(45, 80, 22, 0.9);
-      color: white;
-    }
-
-    .away-tag {
-      background: rgba(139, 21, 56, 0.9);
-      color: white;
-    }
-
-    .neutral-tag {
-      background: rgba(75, 85, 99, 0.9);
-      color: white;
-    }
-
-    .game-details {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .team-matchup {
-      flex: 1;
-      min-width: 200px;
-    }
-
-    .team-name {
-      font-size: 1.4rem;
-      font-weight: 800;
-      margin-bottom: 4px;
-      letter-spacing: -0.01em;
-    }
-
-    .opponent {
-      font-size: 1.1rem;
-      font-weight: 600;
-      opacity: 0.9;
-    }
-
-    .vs-indicator {
-      opacity: 0.7;
-      margin-right: 6px;
-      font-size: 0.9rem;
-    }
-
-    .game-meta {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
-      text-align: right;
-    }
-
-    .tv-info {
-      background: rgba(0, 0, 0, 0.08);
-      color: inherit;
-      padding: 6px 12px;
-      border-radius: 12px;
-      font-size: 0.9rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-    }
-
-    .location {
-      font-size: 0.9rem;
-      opacity: 0.7;
-      font-weight: 500;
-    }
-
-    /* Enhanced color adjustments for better readability on tri-color backgrounds */
-    .saints-card .day, .saints-card .location {
-      opacity: 0.7;
-      color: #333;
-    }
-
-    .tulane-card .day, .tulane-card .location {
-      opacity: 0.7;
-      color: #004a2b;
-    }
-
-    .lsu-card .day, .lsu-card .location {
-      opacity: 0.7;
-      color: #461D7C;
-    }
-
-    .florida-card .day, .florida-card .location {
-      opacity: 0.7;
-      color: #001870;
-    }
-
-    .bye-card {
-      background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
-      color: #6b7280;
-      border-left: 6px solid #9ca3af;
-      opacity: 0.7;
-    }
-
-    .bye-content {
-      text-align: center;
-      padding: 20px;
-    }
-
-    .bye-text {
-      font-size: 1.3rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    .add-to-home-btn {
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      color: white;
-      border: none;
-      padding: 16px 24px;
-      border-radius: 16px;
-      cursor: pointer;
-      font-size: 1rem;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      transition: all 0.3s ease;
-      box-shadow: 0 8px 24px rgba(16, 185, 129, 0.3);
-      backdrop-filter: blur(20px);
-      font-family: inherit;
-    }
-
-    .add-to-home-btn:hover {
-      background: linear-gradient(135deg, #059669 0%, #047857 100%);
-      transform: translateY(-2px);
-      box-shadow: 0 12px 32px rgba(16, 185, 129, 0.4);
-    }
-
-    .add-to-home-btn:active {
-      transform: translateY(0);
-    }
-
-    /* Mobile Optimizations */
-    @media (max-width: 768px) {
-      .container { padding: 16px; }
-      
-      .header { 
-        padding: 24px 20px;
-        margin-bottom: 24px;
-      }
-
-      .header-buttons {
-        position: static;
-        justify-content: center;
-        margin: 16px auto 0;
-        gap: 8px;
-      }
-
-      .header-button {
-        padding: 8px 10px;
-        font-size: 12px;
-        min-width: 40px;
-      }
-      
-      .main-title { font-size: 2rem; }
-      
-      #katopusImage {
-        width: 50px !important;
-        height: 50px !important;
-      }
-      
-      .week-section { margin-bottom: 24px; }
-      
-      .week-header {
-        padding: 16px 20px;
-        font-size: 1rem;
-        top: 16px;
-      }
-      
-      .game-card { padding: 20px; }
-      
-      .game-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-      }
-      
-      .game-details {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-      }
-      
-      .game-meta {
-        align-items: flex-start;
-        text-align: left;
-        width: 100%;
-      }
-      
-      .team-name { font-size: 1.2rem; }
-      .opponent { font-size: 1rem; }
-      
-      .add-to-home-btn {
-        padding: 14px 20px;
-        font-size: 0.9rem;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .main-title { font-size: 1.6rem; }
-      .game-card { padding: 16px; }
-      .team-name { font-size: 1.1rem; }
-      .date { font-size: 1rem; }
-    }
+    .game-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; }
+    .tv-info { background: rgba(0, 0, 0, 0.08); color: inherit; padding: 6px 10px; border-radius: 12px; font-size: 0.88rem; font-weight: 800; letter-spacing: 0.02em; }
+    .location { font-size: 0.88rem; opacity: 0.8; font-weight: 600; }
 
     /* Print Styles */
     @media print {
-      body { 
-        background: white !important;
-        -webkit-print-color-adjust: exact;
-        color-adjust: exact;
-      }
-      
+      body { background: white !important; -webkit-print-color-adjust: exact; color-adjust: exact; }
       .container { max-width: none; padding: 0; }
       .header-buttons { display: none; }
-      
-      .header, .games-container, .week-header {
-        background: white !important;
-        box-shadow: none !important;
-        backdrop-filter: none !important;
-      }
-      
-      .game-card {
-        border: 1px solid #e5e7eb !important;
-        margin-bottom: 8px;
-        break-inside: avoid;
-      }
-      
-      .saints-card, .tulane-card, .lsu-card, .florida-card {
-        -webkit-print-color-adjust: exact;
-        color-adjust: exact;
-      }
+      .header, .games-container, .week-header { background: white !important; box-shadow: none !important; backdrop-filter: none !important; }
+      .game-card { border: 1px solid #e5e7eb !important; margin-bottom: 8px; break-inside: avoid; }
+      .saints-card, .tulane-card, .lsu-card, .florida-card { -webkit-print-color-adjust: exact; color-adjust: exact; }
     }
   </style>
 </head>
@@ -482,1755 +124,244 @@
           <span class="button-text">Add</span>
         </button>
       </div>
-      <div style="display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 16px;">
-        <img 
-          src="images/katopus.png" 
-          alt="Katopus" 
-          id="katopusImage"
-          style="width: 60px; height: 60px; object-fit: contain; cursor: pointer; border-radius: 12px; transition: transform 0.3s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
-          onmouseover="this.style.transform='scale(1.1)'"
-          onmouseout="this.style.transform='scale(1)'"
-          onclick="showFullSizeImage()"
-        >
+      <div style="display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:10px;">
+        <img src="images/katopus.png" alt="Katopus" id="katopusImage" style="width:58px;height:58px;object-fit:contain;cursor:pointer;border-radius:12px;transition:transform .3s ease;box-shadow:0 4px 12px rgba(0,0,0,.1);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" onclick="showFullSizeImage()" />
         <h1 class="main-title">Kat's Football Schedule</h1>
       </div>
       <p class="subtitle">2025 Season • Central Time Zone</p>
     </header>
 
-    <!-- Week 1 -->
-    <div class="week-section">
-      <div class="week-header">Week 1 • August 30 – September 1</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 15</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>FAU</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 15</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (MS)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Ole Miss <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Oxford, MS</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">Night Window</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Western Kentucky</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (PA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Temple</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Philadelphia, PA</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Tennessee <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 23</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:25 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Atlanta Falcons</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 12 - Final Games -->
-    <div class="week-section">
-      <div class="week-header">Final Games • November 29 – January 4</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Charlotte</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (OK)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Oklahoma <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Norman, OK</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Florida State <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 30</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Miami Dolphins</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Miami, FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 7</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Tampa Bay Buccaneers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Tampa, FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 14</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:25 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Carolina Panthers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 21</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>New York Jets</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 28</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TN)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Tennessee Titans</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Nashville, TN</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Jan 4</div>
-              <div class="day">Sunday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (GA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Atlanta Falcons</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Atlanta, GA</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>">
-              <div class="date">Aug 30</div>
-              <div class="day">Saturday</div>
-              <div class="time">11:00 AM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Ole Miss</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Oxford, MS</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 20</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:45 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Southeastern Louisiana</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">SEC Network</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 20</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Miami</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Miami Gardens, FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 21</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:05 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (WA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Seattle Seahawks</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Seattle, WA</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 5 -->
-    <div class="week-section">
-      <div class="week-header">Week 5 • September 27 – 29</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 27</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (OK)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Tulsa</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tulsa, OK</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bye-card">
-          <div class="bye-content">
-            <div class="bye-text">Tulane Green Wave • BYE Week (Oct 4)</div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 27</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (MS)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Ole Miss <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Oxford, MS</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card bye-card">
-          <div class="bye-content">
-            <div class="bye-text">Florida Gators • BYE Week</div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 28</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (NY)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Buffalo Bills</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Buffalo, NY</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 6 -->
-    <div class="week-section">
-      <div class="week-header">Week 6 • October 4 – 6</div>
-      <div class="games-container">
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 4</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Texas <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 5</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>New York Giants</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 7 -->
-    <div class="week-section">
-      <div class="week-header">Week 7 • October 9 – 19</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 9</div>
-              <div class="day">Thursday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>ECU</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 11</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>South Carolina <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 11</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TX)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Texas A&M <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">College Station, TX</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 19</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (IL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Chicago Bears</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Chicago, IL</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 8 -->
-    <div class="week-section">
-      <div class="week-header">Week 8 • October 18 – 26</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 18</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Army</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 18</div>
-              <div class="day">Saturday</div>
-              <div class="time">Early Window</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TN)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Vanderbilt</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Nashville, TN</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 18</div>
-              <div class="day">Saturday</div>
-              <div class="time">Afternoon Window</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Mississippi State</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 26</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:05 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Tampa Bay Buccaneers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 9 -->
-    <div class="week-section">
-      <div class="week-header">Week 9 • October 25 – November 2</div>
-      <div class="games-container">
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 25</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Texas A&M <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card bye-card">
-          <div class="bye-content">
-            <div class="bye-text">Florida Gators • BYE Week</div>
-          </div>
-        </div>
-
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Oct 30</div>
-              <div class="day">Thursday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TX)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>UTSA</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">San Antonio, TX</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 2</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:05 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (CA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Los Angeles Rams</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Los Angeles, CA</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 10 -->
-    <div class="week-section">
-      <div class="week-header">Week 10 • November 1 – 9</div>
-      <div class="games-container">
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 1</div>
-              <div class="day">Saturday</div>
-              <div class="time">Night Window</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (AL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Alabama</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tuscaloosa, AL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 1</div>
-              <div class="day">Saturday</div>
-              <div class="time">2:30 PM</div>
-            </div>
-            <div class="venue-tag neutral-tag">NEUTRAL (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Georgia</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Jacksonville, FL (EverBank Stadium)</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 9</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (NC)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Carolina Panthers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Charlotte, NC</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 11 -->
-    <div class="week-section">
-      <div class="week-header">Week 11 • November 7 – 23</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 7</div>
-              <div class="day">Friday</div>
-              <div class="time">8:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TN)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Memphis</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Memphis, TN</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 8</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (KY)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Kentucky <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Lexington, KY</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 15</div>
-              <div class="day">Saturday</div>
-              <div class="time">Early Window</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Arkansas</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 15</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>FAU</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 15</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (MS)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Ole Miss <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Oxford, MS</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">Night Window</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Western Kentucky</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (PA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Temple</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Philadelphia, PA</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 22</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Tennessee <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 23</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:25 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Atlanta Falcons</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 12 -->
-    <div class="week-section">
-      <div class="week-header">Week 12 • November 29 – December 21</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Charlotte</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (OK)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Oklahoma <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Norman, OK</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 29</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Florida State <span style="font-size:.9em;opacity:0.8;">(Flex)</span></div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Nov 30</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Miami Dolphins</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Miami, FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 7</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Tampa Bay Buccaneers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Tampa, FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 14</div>
-              <div class="day">Sunday</div>
-              <div class="time">3:25 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Carolina Panthers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 21</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>New York Jets</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Final Week -->
-    <div class="week-section">
-      <div class="week-header">Final Week • December 28 – January 4</div>
-      <div class="games-container">
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Dec 28</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (TN)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Tennessee Titans</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">CBS</div>
-              <div class="location">Nashville, TN</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Jan 4</div>
-              <div class="day">Sunday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (GA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Atlanta Falcons</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">TBD</div>
-              <div class="location">Atlanta, GA</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Remove the old standalone Add to Home Screen Button section -->
-
-    <div style="text-align: center; padding: 40px 20px; color: rgba(255, 255, 255, 0.8);">
-      <p style="font-size: 0.9rem; margin-bottom: 8px;"><strong>by Kevin Kolb</strong></p>
-      <p style="font-size: 0.85rem; line-height: 1.6;">
-        All times shown in Central Time (CT) • TV assignments are estimates and subject to change<br>
-        Some games list conference flex windows; exact kickoffs set closer to game week<br>
-        <em>*Schedule updated: August 2025</em>
-      </p>
-    </div>
+    <!-- Dynamic schedule will be injected here -->
+    <div id="schedule"></div>
   </div>
 
   <script>
-    // Show full size Katopus image
-    function showFullSizeImage() {
-      const modal = document.createElement('div');
-      modal.style.cssText = `
-        position: fixed; top: 0; left: 0; right: 0; bottom: 0; 
-        background: rgba(0,0,0,0.9); z-index: 1000; 
-        display: flex; align-items: center; justify-content: center; 
-        padding: 20px; cursor: pointer;
-      `;
-      
-      const img = document.createElement('img');
-      img.src = 'images/katopus.png';
-      img.alt = 'Katopus - Full Size';
-      img.style.cssText = `
-        max-width: 90vw; max-height: 90vh; 
-        object-fit: contain; border-radius: 16px;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-        animation: fadeInScale 0.3s ease-out;
-      `;
-      
-      // Add animation keyframes
-      if (!document.getElementById('modalAnimation')) {
-        const style = document.createElement('style');
-        style.id = 'modalAnimation';
-        style.textContent = `
-          @keyframes fadeInScale {
-            from { opacity: 0; transform: scale(0.8); }
-            to { opacity: 1; transform: scale(1); }
-          }
-        `;
-        document.head.appendChild(style);
+    // === CONFIG ===
+    const XML_SOURCES = [
+      // Kevin's GitHub Pages XML endpoints (working)
+      'https://kevinkolb.github.io/horsesmouthsportsdata/games/nflgames.xml',
+      'https://kevinkolb.github.io/horsesmouthsportsdata/games/collegegames.xml'
+    ];
+
+    // Focused teams to display (case-insensitive contains match)
+    const FOCUS = [
+      'New Orleans Saints', 'Saints',
+      'Tulane', 'Green Wave',
+      'LSU', 'Louisiana State', 'Tigers',
+      'Florida', 'Gators'
+    ];
+
+    // Map a team name to a card class
+    function cardClassFor(team) {
+      const t = (team || '').toLowerCase();
+      if (t.includes('saints')) return 'saints-card';
+      if (t.includes('tulane')) return 'tulane-card';
+      if (t.includes('lsu') || t.includes('louisiana state')) return 'lsu-card';
+      if (t.includes('florida') || t.includes('gators')) return 'florida-card';
+      return '';
+    }
+
+    // Graceful XML text getter, trying several tag names
+    function firstText(node, names, attr) {
+      for (const n of names) {
+        const el = node.querySelector(n);
+        if (el) return attr ? el.getAttribute(attr) : (el.textContent || '').trim();
       }
-      
-      modal.appendChild(img);
-      document.body.appendChild(modal);
-      
-      // Close on click anywhere
-      modal.onclick = () => {
-        modal.style.animation = 'fadeInScale 0.2s ease-in reverse';
-        setTimeout(() => modal.remove(), 200);
+      return '';
+    }
+
+    // Parse a single <game> element into a uniform object
+    function parseGame(gameEl) {
+      const dateRaw = firstText(gameEl, ['date','gamedate','game_date','start_date','start']);
+      const timeRaw = firstText(gameEl, ['time','gametime','start_time','kickoff','kickoff_time']);
+      const teamA   = firstText(gameEl, ['team','home_team','home','team_name','teamA','school']);
+      const teamB   = firstText(gameEl, ['opponent','away_team','away','opponent_name','teamB']);
+      const tv      = firstText(gameEl, ['tv','tv_network','network','television']);
+      const venue   = firstText(gameEl, ['venue','home_away','site','location_type']); // HOME/AWAY/NEUTRAL
+      const place   = firstText(gameEl, ['location','stadium','site_name','city']);
+
+      // Normalize date/time
+      const dateStr = (dateRaw || '').trim();
+      const timeStr = (timeRaw || '').trim();
+      let when = null;
+      if (dateStr) {
+        const iso = /\d{4}-\d{2}-\d{2}/.test(dateStr) ? dateStr : new Date(dateStr).toISOString().slice(0,10);
+        const hhmm = timeStr ? timeStr.replace(/\s*(CT|CST|CDT)$/i,'').replace(/(\d{1,2})(?::(\d{2}))?\s*([AP]M)/i, (m,h,mm,ap)=>{
+          h = parseInt(h,10) % 12; if (ap.toUpperCase()==='PM') h+=12; return `${String(h).padStart(2,'0')}:${mm||'00'}`;
+        }) : '00:00';
+        when = new Date(`${iso}T${hhmm}:00`);
+        if (isNaN(when)) when = new Date(iso);
+      }
+
+      // HOME/AWAY/NEUTRAL tag + vs/@ indicator
+      const v = (venue || '').toUpperCase();
+      let venueClass = 'home-tag', vsIndicator = 'vs';
+      if (v.includes('AWAY') || v === 'A') { venueClass = 'away-tag'; vsIndicator = '@'; }
+      else if (v.includes('NEUTRAL') || v === 'N') { venueClass = 'neutral-tag'; vsIndicator = 'vs'; }
+
+      // Choose primary team to color by (prefer Saints/Tulane/LSU/Florida if present among either competitor)
+      const colorTeam = [teamA, teamB].find(t => cardClassFor(t));
+      const cardClass = cardClassFor(colorTeam || teamA);
+
+      return {
+        when, dateStr, timeStr,
+        day: when ? when.toLocaleDateString(undefined, { weekday:'long' }) : '',
+        team: teamA, opponent: teamB, tv,
+        venueClass, vsIndicator, location: place, cardClass
       };
-      
-      // Close on escape key
-      const handleEscape = (e) => {
-        if (e.key === 'Escape') {
-          modal.click();
-          document.removeEventListener('keydown', handleEscape);
+    }
+
+    // ISO week utilities
+    function getISOWeek(d) {
+      const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+      const dayNum = date.getUTCDay() || 7; // Mon=1 ... Sun=7
+      date.setUTCDate(date.getUTCDate() + 4 - dayNum);
+      const yearStart = new Date(Date.UTC(date.getUTCFullYear(),0,1));
+      const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1)/7);
+      return { year: date.getUTCFullYear(), week: weekNo };
+    }
+
+    function weekRange(d) {
+      // Sat–Sun window around the game date
+      const day = d.getDay();
+      const sat = new Date(d); sat.setDate(d.getDate() - ((day + 1) % 7)); // Sat
+      const sun = new Date(sat); sun.setDate(sat.getDate() + 2); // include Mon night by stretching window a bit
+      const fmt = (x)=> x.toLocaleDateString(undefined,{ month:'short', day:'numeric' });
+      return `${fmt(sat)} – ${fmt(sun)}`;
+    }
+
+    async function fetchXML(url) {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      const text = await res.text();
+      const dom = new DOMParser().parseFromString(text, 'application/xml');
+      const pe = dom.querySelector('parsererror');
+      if (pe) throw new Error(`XML parse error for ${url}`);
+      return dom;
+    }
+
+    function containsAny(hay, needles) {
+      const s = (hay||'').toLowerCase();
+      return needles.some(n => s.includes(n.toLowerCase()));
+    }
+
+    function makeGameCard(g) {
+      const dateFmt = g.when ? g.when.toLocaleDateString(undefined,{ month:'short', day:'numeric' }) : (g.dateStr||'TBD');
+      const timeFmt = g.when && g.timeStr ? g.when.toLocaleTimeString(undefined,{ hour:'numeric', minute:'2-digit' }) : (g.timeStr||'TBD');
+      const dayFmt  = g.day || '';
+      const loc = g.location || '';
+      const tv  = g.tv || 'TBD';
+      const cardClass = g.cardClass || '';
+
+      return `
+        <div class="game-card ${cardClass}">
+          <div class="game-header">
+            <div class="date-time">
+              <div class="date">${dateFmt}</div>
+              <div class="day">${dayFmt}</div>
+              <div class="time">${timeFmt}</div>
+            </div>
+            <div class="venue-tag ${g.venueClass}">${g.venueClass.includes('home')?'HOME':g.venueClass.includes('away')?'AWAY':'NEUTRAL'}</div>
+          </div>
+          <div class="game-details">
+            <div class="team-matchup">
+              <div class="team-name">${g.team || ''}</div>
+              <div class="opponent"><span class="vs-indicator">${g.vsIndicator}</span>${g.opponent || ''}</div>
+            </div>
+            <div class="game-meta">
+              <div class="tv-info">${tv}</div>
+              <div class="location">${loc}</div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function sectionHTML(title, cardsHTML) {
+      return `
+        <div class="week-section">
+          <div class="week-header">${title}</div>
+          <div class="games-container">${cardsHTML}</div>
+        </div>`;
+    }
+
+    async function build() {
+      const holder = document.getElementById('schedule');
+      holder.innerHTML = '<div class="games-container" style="padding:18px;text-align:center">Loading schedule…</div>';
+
+      try {
+        const xmlDocs = await Promise.all(XML_SOURCES.map(fetchXML));
+        const games = [];
+
+        for (const doc of xmlDocs) {
+          const gameEls = doc.querySelectorAll('game, games > game');
+          gameEls.forEach(el => {
+            const g = parseGame(el);
+            // Filter: only keep games involving our focus teams (either side)
+            if (containsAny(g.team, FOCUS) || containsAny(g.opponent, FOCUS)) {
+              if (g.when) games.push(g);
+            }
+          });
         }
-      };
-      document.addEventListener('keydown', handleEscape);
-      
-      // Prevent image from closing modal when clicked
-      img.onclick = (e) => e.stopPropagation();
-    }
 
-    // Add to Home Screen functionality
-    let deferredPrompt;
-    const addBtn = document.getElementById('addToHomeScreenHeader');
+        games.sort((a,b) => (a.when - b.when));
 
-    // Check if browser supports PWA installation
-    function checkPWASupport() {
-      // Show button for iOS Safari (manual instructions)
-      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-      const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-      
-      if (isIOS && isSafari) {
-        addBtn.style.display = 'flex';
-        addBtn.onclick = showIOSInstructions;
-        return;
+        if (!games.length) {
+          holder.innerHTML = '<div class="games-container" style="padding:18px;text-align:center">No games found for Saints, Tulane, LSU, or Florida.</div>';
+          return;
+        }
+
+        // Group by ISO week
+        const groups = new Map();
+        for (const g of games) {
+          const wk = getISOWeek(g.when).week;
+          const yr = getISOWeek(g.when).year;
+          const key = `${yr}-W${String(wk).padStart(2,'0')}`;
+          if (!groups.has(key)) groups.set(key, []);
+          groups.get(key).push(g);
+        }
+
+        // Render sections
+        let html = '';
+        [...groups.entries()].sort((a,b) => a[0].localeCompare(b[0])).forEach(([key, arr]) => {
+          const range = weekRange(arr[0].when);
+          const title = `Week ${key.split('W')[1]} • ${range}`;
+          const cards = arr.map(makeGameCard).join('');
+          html += sectionHTML(title, cards);
+        });
+
+        holder.innerHTML = html;
+      } catch (err) {
+        console.error(err);
+        holder.innerHTML = `<div class="games-container" style="padding:18px;color:#b91c1c;background:#fee2e2">Failed to load schedule. ${err.message}</div>`;
       }
-
-      // Show button for all other browsers (most support some form of home screen addition)
-      addBtn.style.display = 'flex';
     }
 
-    // Listen for the beforeinstallprompt event (PWA-capable browsers)
+    // Minimal Add-to-Home Screen prompt
+    let deferredPrompt;
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPrompt = e;
-      addBtn.style.display = 'flex';
-      addBtn.onclick = installPWA;
+      const btn = document.getElementById('addToHomeScreenHeader');
+      if (btn) btn.style.display = 'inline-flex';
+    });
+    document.getElementById('addToHomeScreenHeader')?.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      document.getElementById('addToHomeScreenHeader').style.display = 'none';
     });
 
-    // PWA Installation
-    async function installPWA() {
-      if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        deferredPrompt = null;
-        if (outcome === 'accepted') {
-          addBtn.style.display = 'none';
-        }
-      }
+    function showFullSizeImage() {
+      const img = document.getElementById('katopusImage');
+      if (!img) return;
+      const src = img.getAttribute('src');
+      const w = window.open('', '_blank');
+      w.document.write(`<img src="${src}" style="width:90vw;height:auto;display:block;margin:20px auto;" alt="Katopus"/>`);
     }
 
-    // Handle successful PWA installation
-    window.addEventListener('appinstalled', () => {
-      addBtn.style.display = 'none';
-    });
-
-    // iOS Safari instructions
-    function showIOSInstructions() {
-      const modal = document.createElement('div');
-      modal.style.cssText = `
-        position: fixed; top: 0; left: 0; right: 0; bottom: 0; 
-        background: rgba(0,0,0,0.8); z-index: 1000; 
-        display: flex; align-items: center; justify-content: center; padding: 20px;
-      `;
-      
-      const content = document.createElement('div');
-      content.style.cssText = `
-        background: white; border-radius: 16px; padding: 24px; 
-        max-width: 400px; text-align: center; font-family: Inter, sans-serif;
-      `;
-      
-      content.innerHTML = `
-        <h3 style="margin: 0 0 16px 0; color: #1f2937;">Add to Home Screen</h3>
-        <p style="margin: 0 0 20px 0; line-height: 1.5; color: #6b7280;">
-          1. Tap the Share button <strong>📤</strong> at the bottom of Safari<br><br>
-          2. Scroll down and tap <strong>"Add to Home Screen"</strong><br><br>
-          3. Tap <strong>"Add"</strong> in the top right corner
-        </p>
-        <button onclick="this.parentElement.parentElement.remove()" 
-                style="background: #667eea; color: white; border: none; padding: 12px 24px; 
-                       border-radius: 8px; font-weight: 600; cursor: pointer;">
-          Got it!
-        </button>
-      `;
-      
-      modal.appendChild(content);
-      document.body.appendChild(modal);
-      modal.onclick = (e) => e.target === modal && modal.remove();
-    }
-
-    // Generic browser instructions
-    function showGenericInstructions() {
-      const isAndroid = /Android/i.test(navigator.userAgent);
-      const isChrome = /Chrome/i.test(navigator.userAgent);
-      const isFirefox = /Firefox/i.test(navigator.userAgent);
-      const isEdge = /Edge/i.test(navigator.userAgent);
-      
-      let instructions = '';
-      
-      if (isAndroid && isChrome) {
-        instructions = `
-          1. Tap the menu button <strong>⋮</strong> in Chrome<br><br>
-          2. Select <strong>"Add to Home screen"</strong><br><br>
-          3. Choose a name and tap <strong>"Add"</strong>
-        `;
-      } else if (isFirefox) {
-        instructions = `
-          1. Tap the menu button <strong>☰</strong><br><br>
-          2. Select <strong>"Add to Home Screen"</strong><br><br>
-          3. Confirm by tapping <strong>"Add"</strong>
-        `;
-      } else if (isEdge) {
-        instructions = `
-          1. Tap the menu button <strong>⋯</strong><br><br>
-          2. Select <strong>"Add to phone"</strong><br><br>
-          3. Tap <strong>"Add"</strong> to confirm
-        `;
-      } else {
-        instructions = `
-          Look for <strong>"Add to Home Screen"</strong> or <strong>"Install App"</strong> 
-          in your browser's menu to add this schedule to your home screen for quick access!
-        `;
-      }
-      
-      const modal = document.createElement('div');
-      modal.style.cssText = `
-        position: fixed; top: 0; left: 0; right: 0; bottom: 0; 
-        background: rgba(0,0,0,0.8); z-index: 1000; 
-        display: flex; align-items: center; justify-content: center; padding: 20px;
-      `;
-      
-      const content = document.createElement('div');
-      content.style.cssText = `
-        background: white; border-radius: 16px; padding: 24px; 
-        max-width: 400px; text-align: center; font-family: Inter, sans-serif;
-      `;
-      
-      content.innerHTML = `
-        <h3 style="margin: 0 0 16px 0; color: #1f2937;">Add to Home Screen</h3>
-        <p style="margin: 0 0 20px 0; line-height: 1.5; color: #6b7280;">
-          ${instructions}
-        </p>
-        <button onclick="this.parentElement.parentElement.remove()" 
-                style="background: #667eea; color: white; border: none; padding: 12px 24px; 
-                       border-radius: 8px; font-weight: 600; cursor: pointer;">
-          Got it!
-        </button>
-      `;
-      
-      modal.appendChild(content);
-      document.body.appendChild(modal);
-      modal.onclick = (e) => e.target === modal && modal.remove();
-    }
-
-    // Initialize
-    document.addEventListener('DOMContentLoaded', () => {
-      checkPWASupport();
-      
-      // Set default click handler for non-PWA browsers
-      if (!addBtn.onclick) {
-        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-        
-        if (isIOS && isSafari) {
-          addBtn.onclick = showIOSInstructions;
-        } else {
-          addBtn.onclick = showGenericInstructions;
-        }
-      }
-    });
+    // Kick it off
+    build();
   </script>
 </body>
-</html>"><span class="vs-indicator">vs</span>Northwestern</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN2</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Aug 30</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (SC)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">@</span>Clemson</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Clemson, SC</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Aug 30</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>LIU</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">SEC Network</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 2 -->
-    <div class="week-section">
-      <div class="week-header">Week 2 • September 6 – 8</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 6</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:00 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (AL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">@</span>South Alabama</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPNU</div>
-              <div class="location">Mobile, AL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 6</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Louisiana Tech</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">SEC Network</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 6</div>
-              <div class="day">Saturday</div>
-              <div class="time">3:15 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (FL)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>South Florida</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Ben Hill Griffin Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 7</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Arizona Cardinals</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 3 -->
-    <div class="week-section">
-      <div class="week-header">Week 3 • September 13 – 15</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 13</div>
-              <div class="day">Saturday</div>
-              <div class="time">7:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Duke</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN2</div>
-              <div class="location">Yulman Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card lsu-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 13</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">LSU Tigers</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>Florida</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Tiger Stadium</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card florida-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 13</div>
-              <div class="day">Saturday</div>
-              <div class="time">6:30 PM</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (LA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Florida Gators</div>
-              <div class="opponent"><span class="vs-indicator">@</span>LSU</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">ESPN</div>
-              <div class="location">Baton Rouge, LA</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-card saints-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 14</div>
-              <div class="day">Sunday</div>
-              <div class="time">12:00 PM</div>
-            </div>
-            <div class="venue-tag home-tag">HOME (NOLA)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">New Orleans Saints</div>
-              <div class="opponent"><span class="vs-indicator">vs</span>San Francisco 49ers</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">FOX</div>
-              <div class="location">Caesars Superdome</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Week 4 -->
-    <div class="week-section">
-      <div class="week-header">Week 4 • September 20 – 22</div>
-      <div class="games-container">
-        <div class="game-card tulane-card">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">Sep 20</div>
-              <div class="day">Saturday</div>
-              <div class="time">TBD</div>
-            </div>
-            <div class="venue-tag away-tag">AWAY (MS)</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">Tulane Green Wave</div>
-              <div class="opponent
+</html>
