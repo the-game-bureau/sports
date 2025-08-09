@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +10,10 @@
     <title>Coach Steve's Sports Report by Kevin Kolb</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -22,7 +25,7 @@
             background: #1a1a1a;
             min-height: 100vh;
             line-height: 1.6;
-            font-size: 18px; /* Increased base font size */
+            font-size: 18px;
         }
 
         .container {
@@ -52,22 +55,70 @@
             font-size: clamp(1rem, 3vw, 1.2rem);
             color: #7f8c8d;
             font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .team-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            flex-wrap: nowrap;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .nav-team-icon {
+            width: calc(25% - 7.5px);
+            height: 70px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            padding: 8px;
+            flex-shrink: 1;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+
+        .nav-team-icon:hover, .nav-team-icon:focus {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        }
+
+        .nav-team-icon img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .nav-team-icon.tulane {
+            background: #00693E;
+        }
+
+        .nav-team-icon.saints {
+            background: #D3BC8D;
+        }
+
+        .nav-team-icon.iup {
+            background: #722F37;
+        }
+
+        .nav-team-icon.yankees {
+            background: #132448;
         }
 
         .teams-grid {
-            position: relative;
-            overflow: hidden;
-            margin-bottom: 40px;
-        }
-
-        .carousel-container {
-            display: flex;
-            transition: transform 0.3s ease-in-out;
-            touch-action: pan-y;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
         }
 
         .team-card {
-            flex: 0 0 100%;
             background: #f5f5f5;
             border-radius: 16px;
             overflow: hidden;
@@ -166,6 +217,12 @@
             object-fit: cover;
             object-position: center top;
             border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .person-photo:hover {
+            transform: scale(1.05);
         }
 
         .next-game-container {
@@ -252,7 +309,59 @@
             display: flex;
             flex-direction: column;
             gap: 16px;
-            padding: 24px 24px 32px;
+            padding: 24px 24px 16px;
+        }
+
+        .bottom-navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 24px 24px;
+            border-top: 2px solid rgba(0,0,0,0.1);
+        }
+
+        .bottom-nav-icon {
+            width: calc(25% - 6px);
+            height: 50px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            padding: 6px;
+            flex-shrink: 1;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+
+        .bottom-nav-icon:hover, .bottom-nav-icon:focus {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+        }
+
+        .bottom-nav-icon img {
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+        }
+
+        .bottom-nav-icon.tulane {
+            background: #00693E;
+        }
+
+        .bottom-nav-icon.saints {
+            background: #D3BC8D;
+        }
+
+        .bottom-nav-icon.iup {
+            background: #722F37;
+        }
+
+        .bottom-nav-icon.yankees {
+            background: #132448;
         }
 
         .action-btn {
@@ -299,7 +408,7 @@
             color: var(--team-color);
         }
 
-        /* Team Colors - Original */
+        /* Team Colors */
         .tulane-football { 
             --team-color: #00693E;
             --team-secondary-color: #87CEEB;
@@ -312,281 +421,93 @@
             --team-color: #722F37;
             --team-secondary-color: #C1A875;
         }
-        .tulane-baseball { 
-            --team-color: #00693E;
-            --team-secondary-color: #87CEEB;
-        }
         .yankees { 
             --team-color: #132448;
             --team-secondary-color: #C4CED4;
         }
 
-        .live-indicator {
-            position: absolute;
-            top: 12px;
-            right: 12px;
-            background: #e74c3c;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-size: clamp(0.8rem, 2.5vw, 1rem);
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            animation: pulse 2s infinite;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        }
+        /* Debug borders using team secondary colors */
+        #tulane-card { border-left: 10px solid #87CEEB !important; }
+        #saints-card { border-left: 10px solid #000000 !important; }
+        #iup-card { border-left: 10px solid #C1A875 !important; }
+        #yankees-card { border-left: 10px solid #C4CED4 !important; }
 
-        .carousel-nav {
-            background: rgba(0,0,0,0.8);
-            color: white;
-            border: 3px solid white;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            font-size: 28px;
-            font-weight: bold;
-            transition: all 0.2s ease;
-            user-select: none;
-            flex-shrink: 0;
-        }
-
-        .carousel-nav:hover, .carousel-nav:focus {
-            background: rgba(0,0,0,0.9);
-            transform: scale(1.1);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-        }
-
-        .carousel-indicators {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin-top: 30px;
-        }
-
-        .indicator {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.4);
-            cursor: pointer;
-            transition: all 0.2s ease;
-            border: 2px solid rgba(255,255,255,0.6);
-        }
-
-        .indicator.active {
-            background: #2c3e50;
-            border-color: #2c3e50;
-            transform: scale(1.3);
-        }
-
-        .indicator:hover {
-            background: rgba(255,255,255,0.7);
-            transform: scale(1.1);
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
-
-        /* Enhanced Mobile Optimizations */
+        /* Mobile navigation adjustments */
         @media (max-width: 768px) {
-            body {
-                font-size: 20px; /* Even larger on mobile */
+            .team-navigation {
+                gap: 8px;
             }
             
-            .container {
-                padding: 10px;
-            }
-            
-            .header {
-                padding: 20px 15px;
-                margin-bottom: 20px;
-            }
-            
-            .team-banner {
-                height: 140px;
-                padding: 0 15px;
-            }
-            
-            .logo-section, .photo-section {
-                width: 90px;
-                height: 90px;
-            }
-            
-            .team-logo {
-                width: 60px;
+            .nav-team-icon {
                 height: 60px;
+                padding: 8px;
             }
-            
-            .person-photo {
-                width: 90px;
-                height: 90px;
-            }
-            
-            .next-game-container {
-                margin: 15px;
-                gap: 12px;
-            }
-            
-            .next-game {
-                padding: 18px;
-                gap: 14px;
-            }
-            
-            .tv-icon {
-                width: 52px;
-                height: 52px;
-            }
-            
-            .carousel-nav {
-                width: 50px;
-                height: 50px;
-                font-size: 24px;
-            }
-            
-            .action-btn {
-                min-height: 84px;
-                padding: 26px 20px;
-                font-size: clamp(2rem, 5.5vw, 2.4rem);
-            }
-            
-            .action-btn.primary {
-                min-height: 92px;
-                font-size: clamp(2.2rem, 6vw, 2.6rem);
-            }
-            
-            .indicator {
-                width: 18px;
-                height: 18px;
+
+            .nav-team-icon img {
+                width: 40px;
+                height: 40px;
             }
         }
         
         @media (max-width: 480px) {
-            body {
-                font-size: 22px; /* Maximum size for small screens */
+            .team-navigation {
+                gap: 6px;
             }
             
-            .container {
-                padding: 8px;
-            }
-            
-            .header {
-                padding: 18px 12px;
-                margin-bottom: 18px;
-            }
-            
-            .team-banner {
-                height: 120px;
-                padding: 0 12px;
-            }
-            
-            .logo-section, .photo-section {
-                width: 80px;
-                height: 80px;
-            }
-            
-            .team-logo {
-                width: 50px;
+            .nav-team-icon {
                 height: 50px;
+                padding: 6px;
             }
-            
-            .person-photo {
-                width: 80px;
-                height: 80px;
-            }
-            
-            .next-game-container {
-                margin: 12px;
-                gap: 10px;
-            }
-            
-            .next-game {
-                padding: 16px;
-                gap: 12px;
-            }
-            
-            .tv-icon {
-                width: 48px;
-                height: 48px;
-            }
-            
-            .carousel-nav {
-                width: 45px;
-                height: 45px;
-                font-size: 22px;
-            }
-            
-            .action-btn {
-                min-height: 88px;
-                padding: 28px 18px;
-                font-size: clamp(2.2rem, 6vw, 2.6rem);
-                gap: 12px;
-            }
-            
-            .action-btn.primary {
-                min-height: 96px;
-                font-size: clamp(2.4rem, 6.5vw, 2.8rem);
-            }
-            
-            .indicator {
-                width: 16px;
-                height: 16px;
-            }
-            
-            .carousel-indicators {
-                gap: 12px;
-                margin-top: 25px;
-            }
-        }
 
-        /* High contrast mode support */
-        @media (prefers-contrast: high) {
-            .team-card {
-                border: 4px solid #000;
-            }
-            
-            .action-btn {
-                border-width: 4px;
-            }
-            
-            .carousel-nav {
-                border-width: 4px;
-                background: #000;
-            }
-        }
-
-        /* Reduced motion support */
-        @media (prefers-reduced-motion: reduce) {
-            .carousel-container {
-                transition: none;
-            }
-            
-            .team-card {
-                transition: none;
-            }
-            
-            .action-btn {
-                transition: none;
-            }
-            
-            .live-indicator {
-                animation: none;
+            .nav-team-icon img {
+                width: 35px;
+                height: 35px;
             }
         }
 
         /* Focus styles for keyboard navigation */
         .action-btn:focus,
-        .carousel-nav:focus,
-        .indicator:focus,
+        .person-photo:focus,
+        .nav-team-icon:focus,
+        .bottom-nav-icon:focus,
         .tv-icon:focus {
             outline: 4px solid #007acc;
             outline-offset: 2px;
+        }
+
+        /* Mobile adjustments for bottom navigation */
+        @media (max-width: 768px) {
+            .bottom-navigation {
+                gap: 6px;
+                padding: 12px 24px 20px;
+            }
+            
+            .bottom-nav-icon {
+                width: calc(25% - 4.5px);
+                height: 45px;
+            }
+
+            .bottom-nav-icon img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .bottom-navigation {
+                gap: 4px;
+                padding: 10px 24px 18px;
+            }
+            
+            .bottom-nav-icon {
+                width: calc(25% - 3px);
+                height: 40px;
+            }
+
+            .bottom-nav-icon img {
+                width: 25px;
+                height: 25px;
+            }
         }
     </style>
 </head>
@@ -595,391 +516,257 @@
         <div class="header">
             <h1>Coach Steve's Sports Report</h1>
             <p>by Kevin Kolb</p>
+            <div class="team-navigation">
+                <a href="#tulane-card" class="nav-team-icon tulane" aria-label="Go to Tulane Green Wave">
+                    <img src="images/tulane.svg" alt="Tulane Logo">
+                </a>
+                <a href="#saints-card" class="nav-team-icon saints" aria-label="Go to New Orleans Saints">
+                    <img src="images/saints.webp" alt="Saints Logo">
+                </a>
+                <a href="#iup-card" class="nav-team-icon iup" aria-label="Go to IUP Crimson Hawks">
+                    <img src="images/iup.webp" alt="IUP Logo">
+                </a>
+                <a href="#yankees-card" class="nav-team-icon yankees" aria-label="Go to New York Yankees">
+                    <img src="images/yankees.svg" alt="Yankees Logo">
+                </a>
+            </div>
         </div>
 
         <div class="teams-grid">
-            <div class="carousel-container" id="carousel">
-                <!-- Tulane Green Wave Football -->
-                <div class="team-card tulane-football">
-                    <div class="team-header">
-                        <div class="sport-label">
-                            <span class="sport-icon">🏈</span>
-                            <span>College Football</span>
+            <!-- Tulane Green Wave Football -->
+            <div class="team-card tulane-football" id="tulane-card">
+                <div class="team-header">
+                    <div class="sport-label">
+                        <span class="sport-icon">🏈</span>
+                        <span>College Football</span>
+                    </div>
+                    <div class="team-banner">
+                        <div class="name-section">
+                            <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
+                            <div class="team-name">Tulane<br>Green Wave</div>
                         </div>
-                        <div class="team-banner">
-                            <div class="name-section">
-                                <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
-                                <div class="team-name">Tulane<br>Green Wave</div>
-                            </div>
-                            <div class="photo-section">
-                                <img src="images/jon.webp" alt="Jon's Photo" class="person-photo">
-                            </div>
-                        </div>
-                        <div class="next-game-container">
-                            <button class="carousel-nav prev" id="prevBtn" aria-label="Previous team">‹</button>
-                            <div class="next-game">
-                                <div class="game-info">
-                                    <div class="next-game-label">Next Game</div>
-                                    <div class="opponent">vs Northwestern Wildcats</div>
-                                    <div class="game-details">
-                                        Saturday, Aug 30 • <span class="game-time">11:00 AM</span><br>
-                                        Yulman Stadium • New Orleans, LA
-                                    </div>
-                                </div>
-                                <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on ESPNU">
-                                    <img src="images/espnu.webp" alt="ESPNU">
-                                </a>
-                            </div>
-                            <button class="carousel-nav next" id="nextBtn" aria-label="Next team">›</button>
+                        <div class="photo-section">
+                            <img src="images/jon.webp" alt="Jon's Photo" class="person-photo">
                         </div>
                     </div>
-                    <div class="team-actions">
-                        <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
-                        <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Stats</a>
-                        <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
-                        <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn">Video</a>
-                        <a href="https://www.facebook.com/GreenWaveFootball" class="action-btn">Facebook</a>
-                        <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
+                    <div class="next-game-container">
+                        <div class="next-game">
+                            <div class="game-info">
+                                <div class="next-game-label">Next Game</div>
+                                <div class="opponent">vs Northwestern Wildcats</div>
+                                <div class="game-details">
+                                    Saturday, Aug 30 • <span class="game-time">11:00 AM</span><br>
+                                    Yulman Stadium • New Orleans, LA
+                                </div>
+                            </div>
+                            <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on ESPNU">
+                                <img src="images/espnu.webp" alt="ESPNU">
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-                <!-- New Orleans Saints -->
-                <div class="team-card saints">
-                    <div class="team-header">
-                        <div class="sport-label">
-                            <span class="sport-icon">🏈</span>
-                            <span>NFL Football</span>
-                        </div>
-                        <div class="team-banner">
-                            <div class="name-section">
-                                <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
-                                <div class="team-name">New Orleans<br>Saints</div>
-                            </div>
-                            <div class="photo-section">
-                                <!-- Blank space -->
-                            </div>
-                        </div>
-                        <div class="next-game-container">
-                            <button class="carousel-nav prev" aria-label="Previous team">‹</button>
-                                <div class="next-game">
-                                <div class="game-info">
-                                    <div class="next-game-label">Next Game (Preseason)</div>
-                                    <div class="opponent">@ Los Angeles Chargers</div>
-                                    <div class="game-details">
-                                        Sunday, Aug 10 • <span class="game-time">3:05 PM</span><br>
-                                        SoFi Stadium • Los Angeles, CA
-                                    </div>
-                                </div>
-                                <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on FOX 8">
-                                    <img src="images/fox8.png" alt="FOX 8">
-                                </a>
-                            </div>                            <button class="carousel-nav next" aria-label="Next team">›</button>
-                        </div>
-                    </div>
-                    <div class="team-actions">
-                        <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
-                        <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
-                        <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
-                        <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
-                        <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
-                    </div>
+                <div class="team-actions">
+                    <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Stats</a>
+                    <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
+                    <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn">Video</a>
+                    <a href="https://www.facebook.com/GreenWaveFootball" class="action-btn">Facebook</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
                 </div>
-
-                <!-- IUP Volleyball -->
-                <div class="team-card iup-volleyball">
-                    <div class="team-header">
-                        <div class="sport-label">
-                            <span class="sport-icon">🏐</span>
-                            <span>College Volleyball</span>
-                        </div>
-                        <div class="team-banner">
-                            <div class="name-section">
-                                <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
-                                <div class="team-name">IUP<br>Crimson Hawks</div>
-                            </div>
-                            <div class="photo-section">
-                                <img src="images/peyton.webp" alt="Peyton's Photo" class="person-photo">
-                            </div>
-                        </div>
-                        <div class="next-game-container">
-                            <button class="carousel-nav prev" aria-label="Previous team">‹</button>
-                            <div class="next-game">
-                                <div class="game-info">
-                                    <div class="next-game-label">Next Match</div>
-                                    <div class="opponent">Ashland Invitational</div>
-                                    <div class="game-details">
-                                        Friday, Sep 5 • <span class="game-time">2:00 PM</span><br>
-                                        vs Daemen • Ashland, OH
-                                    </div>
-                                </div>
-                                <a href="https://tv.youtube.com/watch/Uictmi0N2qQ?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on ESPN+">
-                                    <img src="images/espnplus.webp" alt="ESPN+">
-                                </a>
-                            </div>
-                            <button class="carousel-nav next" aria-label="Next team">›</button>
-                        </div>
-                    </div>
-                    <div class="team-actions">
-                        <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
-                        <a href="https://iupathletics.com/sports/2011/8/5/WVB_0805114410.aspx" class="action-btn">Stats</a>
-                        <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
-                        <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
-                        <a href="https://iupathletics.com/sports/womens-volleyball/archives?search=&sport=wvball&season=0" class="action-btn">News</a>
-                    </div>
-                </div>
-
-                <!-- New York Yankees -->
-                <div class="team-card yankees">
-                    <div class="team-header">
-                        <div class="sport-label">
-                            <span class="sport-icon">⚾</span>
-                            <span>MLB Baseball</span>
-                        </div>
-                        <div class="team-banner">
-                            <div class="name-section">
-                                <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
-                                <div class="team-name">New York<br>Yankees</div>
-                            </div>
-                            <div class="photo-section">
-                                <!-- Blank space -->
-                            </div>
-                        </div>
-                        <div class="next-game-container">
-                            <button class="carousel-nav prev" aria-label="Previous team">‹</button>
-                            <div class="next-game">
-                                <div class="game-info">
-                                    <div class="next-game-label">Today's Game</div>
-                                    <div class="opponent">vs Houston Astros</div>
-                                    <div class="game-details">
-                                        Saturday, Aug 9 • <span class="game-time">1:05 PM</span><br>
-                                        Yankee Stadium • Bronx, NY
-                                    </div>
-                                </div>
-                                <a href="https://www.mlb.com/live-stream-games/subscribe" class="tv-icon" target="_blank" aria-label="Watch on MLB.TV">
-                                    <img src="images\mlbnet.svg" alt="MLB.TV">
-                                </a>
-                            </div>
-                            <button class="carousel-nav next" aria-label="Next team">›</button>
-                        </div>
-                    </div>
-                    <div class="team-actions">
-                        <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
-                        <a href="https://www.mlb.com/yankees/stats" class="action-btn">Stats</a>
-                        <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
-                        <a href="https://www.mlb.com/yankees/roster/coaches" class="action-btn">Coaches</a>
-                        <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
-                    </div>
+                <div class="bottom-navigation">
+                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
+                        <img src="images/tulane.svg" alt="Tulane Logo">
+                    </a>
+                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
+                        <img src="images/saints.webp" alt="Saints Logo">
+                    </a>
+                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
+                        <img src="images/iup.webp" alt="IUP Logo">
+                    </a>
+                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
+                        <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
                 </div>
             </div>
-            <div class="carousel-indicators" id="indicators"></div>
+
+            <!-- New Orleans Saints -->
+            <div class="team-card saints" id="saints-card">
+                <div class="team-header">
+                    <div class="sport-label">
+                        <span class="sport-icon">🏈</span>
+                        <span>NFL Football</span>
+                    </div>
+                    <div class="team-banner">
+                        <div class="name-section">
+                            <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
+                            <div class="team-name">New Orleans<br>Saints</div>
+                        </div>
+                        <div class="photo-section">
+                            <!-- Blank space -->
+                        </div>
+                    </div>
+                    <div class="next-game-container">
+                        <div class="next-game">
+                            <div class="game-info">
+                                <div class="next-game-label">Next Game (Preseason)</div>
+                                <div class="opponent">@ Los Angeles Chargers</div>
+                                <div class="game-details">
+                                    Sunday, Aug 10 • <span class="game-time">3:05 PM</span><br>
+                                    SoFi Stadium • Los Angeles, CA
+                                </div>
+                            </div>
+                            <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on FOX 8">
+                                <img src="images/fox8.png" alt="FOX 8">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
+                    <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
+                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
+                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
+                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
+                </div>
+                <div class="bottom-navigation">
+                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
+                        <img src="images/tulane.svg" alt="Tulane Logo">
+                    </a>
+                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
+                        <img src="images/saints.webp" alt="Saints Logo">
+                    </a>
+                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
+                        <img src="images/iup.webp" alt="IUP Logo">
+                    </a>
+                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
+                        <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                </div>
+            </div>
+
+            <!-- IUP Volleyball -->
+            <div class="team-card iup-volleyball" id="iup-card">
+                <div class="team-header">
+                    <div class="sport-label">
+                        <span class="sport-icon">🏐</span>
+                        <span>College Volleyball</span>
+                    </div>
+                    <div class="team-banner">
+                        <div class="name-section">
+                            <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
+                            <div class="team-name">IUP<br>Crimson Hawks</div>
+                        </div>
+                        <div class="photo-section">
+                            <img src="images/peyton.webp" alt="Peyton's Photo" class="person-photo" onclick="window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank')" tabindex="0">
+                        </div>
+                    </div>
+                    <div class="next-game-container">
+                        <div class="next-game">
+                            <div class="game-info">
+                                <div class="next-game-label">Next Match</div>
+                                <div class="opponent">Ashland Invitational</div>
+                                <div class="game-details">
+                                    Friday, Sep 5 • <span class="game-time">2:00 PM</span><br>
+                                    vs Daemen • Ashland, OH
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://iupathletics.com/sports/2011/8/5/WVB_0805114410.aspx" class="action-btn">Stats</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.instagram.com/peyton_belcher10" class="action-btn">Peyton's Photos</a>
+                    <a href="https://iupathletics.com/sports/womens-volleyball/archives?search=&sport=wvball&season=0" class="action-btn">News</a>
+                </div>
+                <div class="bottom-navigation">
+                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
+                        <img src="images/tulane.svg" alt="Tulane Logo">
+                    </a>
+                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
+                        <img src="images/saints.webp" alt="Saints Logo">
+                    </a>
+                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
+                        <img src="images/iup.webp" alt="IUP Logo">
+                    </a>
+                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
+                        <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                </div>
+            </div>
+
+            <!-- New York Yankees -->
+            <div class="team-card yankees" id="yankees-card">
+                <div class="team-header">
+                    <div class="sport-label">
+                        <span class="sport-icon">⚾</span>
+                        <span>MLB Baseball</span>
+                    </div>
+                    <div class="team-banner">
+                        <div class="name-section">
+                            <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
+                            <div class="team-name">New York<br>Yankees</div>
+                        </div>
+                        <div class="photo-section">
+                            <!-- Blank space -->
+                        </div>
+                    </div>
+                    <div class="next-game-container">
+                        <div class="next-game">
+                            <div class="game-info">
+                                <div class="next-game-label">Today's Game</div>
+                                <div class="opponent">vs Houston Astros</div>
+                                <div class="game-details">
+                                    Saturday, Aug 9 • <span class="game-time">1:05 PM</span><br>
+                                    Yankee Stadium • Bronx, NY
+                                </div>
+                            </div>
+                            <a href="https://www.mlb.com/live-stream-games/subscribe" class="tv-icon" target="_blank" aria-label="Watch on MLB.TV">
+                                <img src="images\mlbnet.svg" alt="MLB.TV">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://www.mlb.com/yankees/stats" class="action-btn">Stats</a>
+                    <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
+                    <a href="https://www.mlb.com/yankees/roster/coaches" class="action-btn">Coaches</a>
+                    <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
+                </div>
+                <div class="bottom-navigation">
+                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
+                        <img src="images/tulane.svg" alt="Tulane Logo">
+                    </a>
+                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
+                        <img src="images/saints.webp" alt="Saints Logo">
+                    </a>
+                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
+                        <img src="images/iup.webp" alt="IUP Logo">
+                    </a>
+                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
+                        <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
-        class InfiniteCarousel {
-            constructor() {
-                this.carouselContainer = document.querySelector('.teams-grid');
-                this.carousel = document.getElementById('carousel');
-                this.originalCards = Array.from(this.carousel.querySelectorAll('.team-card'));
-                this.prevBtns = document.querySelectorAll('.carousel-nav.prev');
-                this.nextBtns = document.querySelectorAll('.carousel-nav.next');
-                this.indicatorsContainer = document.getElementById('indicators');
-                
-                this.totalCards = this.originalCards.length;
-                this.currentIndex = this.totalCards; // Start at first real card
-                this.isTransitioning = false;
-                
-                this.init();
-            }
+        // Simple functionality - just Peyton's photo
+        document.addEventListener('DOMContentLoaded', function() {
+            const peytonPhoto = document.querySelector('.iup-volleyball .person-photo');
             
-            init() {
-                this.createInfiniteLoop();
-                this.createIndicators();
-                this.updateCarousel(false); // No transition on initial load
-                this.addEventListeners();
-                this.addTouchSupport();
-            }
-            
-            createInfiniteLoop() {
-                // Clone last cards and prepend
-                this.originalCards.forEach(card => {
-                    const clone = card.cloneNode(true);
-                    this.carousel.insertBefore(clone, this.carousel.firstChild);
-                });
-                
-                // Clone first cards and append
-                this.originalCards.forEach(card => {
-                    const clone = card.cloneNode(true);
-                    this.carousel.appendChild(clone);
-                });
-                
-                // Update cards array to include clones
-                this.allCards = Array.from(this.carousel.querySelectorAll('.team-card'));
-            }
-            
-            createIndicators() {
-                for (let i = 0; i < this.totalCards; i++) {
-                    const indicator = document.createElement('div');
-                    indicator.className = 'indicator';
-                    indicator.setAttribute('aria-label', `Go to team ${i + 1}`);
-                    indicator.setAttribute('tabindex', '0');
-                    indicator.addEventListener('click', () => this.goToSlide(i));
-                    indicator.addEventListener('keydown', (e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            this.goToSlide(i);
-                        }
-                    });
-                    this.indicatorsContainer.appendChild(indicator);
-                }
-                this.updateIndicators();
-            }
-            
-            updateCarousel(withTransition = true) {
-                const translateX = -this.currentIndex * 100;
-                
-                if (withTransition) {
-                    this.carousel.style.transition = 'transform 0.3s ease-in-out';
-                } else {
-                    this.carousel.style.transition = 'none';
-                }
-                
-                this.carousel.style.transform = `translateX(${translateX}%)`;
-                this.updateIndicators();
-            }
-            
-            updateIndicators() {
-                const indicators = this.indicatorsContainer.querySelectorAll('.indicator');
-                const realIndex = this.getRealIndex();
-                indicators.forEach((indicator, index) => {
-                    indicator.classList.toggle('active', index === realIndex);
-                });
-            }
-            
-            getRealIndex() {
-                if (this.currentIndex < this.totalCards) {
-                    return this.currentIndex + this.totalCards;
-                } else if (this.currentIndex >= this.totalCards * 2) {
-                    return this.currentIndex - this.totalCards * 2;
-                } else {
-                    return this.currentIndex - this.totalCards;
-                }
-            }
-            
-            next() {
-                if (this.isTransitioning) return;
-                this.isTransitioning = true;
-                
-                this.currentIndex++;
-                this.updateCarousel(true);
-                
-                setTimeout(() => {
-                    // If we're at the end clones, jump to beginning real cards
-                    if (this.currentIndex >= this.totalCards * 2) {
-                        this.currentIndex = this.totalCards;
-                        this.updateCarousel(false);
-                    }
-                    this.isTransitioning = false;
-                }, 300);
-            }
-            
-            prev() {
-                if (this.isTransitioning) return;
-                this.isTransitioning = true;
-                
-                this.currentIndex--;
-                this.updateCarousel(true);
-                
-                setTimeout(() => {
-                    // If we're at the beginning clones, jump to end real cards
-                    if (this.currentIndex < 0) {
-                        this.currentIndex = this.totalCards - 1;
-                        this.updateCarousel(false);
-                    }
-                    this.isTransitioning = false;
-                }, 300);
-            }
-            
-            goToSlide(index) {
-                if (this.isTransitioning) return;
-                this.isTransitioning = true;
-                
-                this.currentIndex = index + this.totalCards;
-                this.updateCarousel(true);
-                
-                setTimeout(() => {
-                    this.isTransitioning = false;
-                }, 300);
-            }
-            
-            addEventListeners() {
-                this.nextBtns.forEach(btn => {
-                    btn.addEventListener('click', () => this.next());
-                    btn.addEventListener('keydown', (e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            this.next();
-                        }
-                    });
-                });
-                
-                this.prevBtns.forEach(btn => {
-                    btn.addEventListener('click', () => this.prev());
-                    btn.addEventListener('keydown', (e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            this.prev();
-                        }
-                    });
-                });
-                
-                // Global keyboard support
-                document.addEventListener('keydown', (e) => {
-                    if (e.key === 'ArrowLeft') {
+            if (peytonPhoto) {
+                peytonPhoto.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        this.prev();
-                    }
-                    if (e.key === 'ArrowRight') {
-                        e.preventDefault();
-                        this.next();
+                        window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank');
                     }
                 });
             }
-            
-            addTouchSupport() {
-                let startX = 0;
-                let endX = 0;
-                let startY = 0;
-                let endY = 0;
-                
-                this.carousel.addEventListener('touchstart', (e) => {
-                    startX = e.touches[0].clientX;
-                    startY = e.touches[0].clientY;
-                }, { passive: true });
-                
-                this.carousel.addEventListener('touchend', (e) => {
-                    endX = e.changedTouches[0].clientX;
-                    endY = e.changedTouches[0].clientY;
-                    
-                    const deltaX = endX - startX;
-                    const deltaY = endY - startY;
-                    
-                    // Only trigger if horizontal swipe is more significant than vertical
-                    // Increased threshold for better touch experience
-                    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 75) {
-                        if (deltaX > 0) {
-                            this.prev(); // Swipe right = previous
-                        } else {
-                            this.next(); // Swipe left = next
-                        }
-                    }
-                }, { passive: true });
-            }
-        }
-        
-        // Initialize carousel when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            new InfiniteCarousel();
         });
     </script>
 </body>
