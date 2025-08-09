@@ -1,367 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kat's Football Schedule 2025</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kat's Football Schedules 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <!-- PWA Meta Tags -->
-  <meta name="theme-color" content="#667eea">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Kat's Football">
-  <meta name="description" content="Kat's Football Schedule 2025 - Saints, LSU, Tulane, Florida">
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            line-height: 1.4;
+            color: #000;
+            background-color: #fff;
+            font-size: 16px;
+        }
 
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTk4IiBoZWlnaHQ9IjE5OCIgdmlld0JveD0iMCAwIDE5OCAxOTgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE5OCIgaGVpZ2h0PSIxOTgiIGZpbGw9IiM2NjdlZWEiLz48dGV4dCB4PSI5OSIgeT0iOTkiIGZpbGw9IiNjZDFhNTEiIGZvbnQtc2l6ZT0iNTAiIGZvbnQtd2VpZ2h0PSI3MDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZPT1RCQUxMPC90ZXh0Pjwvc3ZnPg==">
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
 
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh;
-      color: #1a1a1a;
-      line-height: 1.5;
-    }
-    .container { max-width: 880px; margin: 0 auto; padding: 20px; }
-    .header {
-      text-align: center;
-      margin-bottom: 24px;
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      border-radius: 24px;
-      padding: 28px 24px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-      position: relative;
-    }
-    .header-buttons { position: absolute; top: 18px; right: 18px; display: flex; gap: 10px; align-items: center; }
-    .header-button { background: #667eea; color: white; border: none; padding: 9px 12px; border-radius: 12px; cursor: pointer; font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 6px; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3); min-width: 44px; justify-content: center; }
-    .header-button:hover { background: #5a6fd8; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4); }
-    .add-to-home-header { background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
-    .add-to-home-header:hover { background: linear-gradient(135deg, #059669 0%, #047857 100%); box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4); }
-    .main-title { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 6px; letter-spacing: -0.02em; }
-    .subtitle { font-size: 1.05rem; color: #6b7280; font-weight: 500; }
+        header {
+            margin-bottom: 60px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+        }
 
-    .week-section { margin-bottom: 22px; }
-    .week-header {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      color: #1f2937;
-      padding: 16px 20px;
-      font-weight: 800;
-      font-size: 1.02rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-radius: 16px 16px 0 0;
-      border-bottom: 3px solid #e5e7eb;
-      position: sticky; top: 16px; z-index: 10;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
-    .games-container {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(20px);
-      border-radius: 0 0 16px 16px;
-      overflow: hidden;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-    }
-    .game-card { padding: 18px; border-bottom: 1px solid rgba(0, 0, 0, 0.06); transition: all 0.3s ease; position: relative; overflow: hidden; }
-    .game-card:last-child { border-bottom: none; }
-    .game-card:hover { background: rgba(0, 0, 0, 0.02); transform: translateX(6px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+        }
 
-    /* Team gradients */
-    .saints-card  { background: linear-gradient(135deg, #D3BC8D 0%, #ffffff 50%, #000000 100%); color: #000000; border-left: 6px solid #D3BC8D; }
-    .tulane-card  { background: linear-gradient(135deg, #00743F 0%, #ffffff 50%, #418FDE 100%); color: #00743F; border-left: 6px solid #00743F; }
-    .lsu-card     { background: linear-gradient(135deg, #461D7C 0%, #ffffff 50%, #FDD023 100%); color: #461D7C; border-left: 6px solid #461D7C; }
-    .florida-card { background: linear-gradient(135deg, #0021A5 0%, #ffffff 50%, #FA4616 100%); color: #0021A5; border-left: 6px solid #FA4616; }
-    .bye-card     { background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); color: #6b7280; border-left: 6px solid #9ca3af; opacity: 0.85; }
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            font-weight: 300;
+        }
 
-    .game-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 10px; }
-    .date-time { display: flex; flex-direction: column; gap: 2px; }
-    .date { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.01em; }
-    .day  { font-size: 0.85rem; opacity: 0.8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-    .time { font-size: 0.95rem; font-weight: 700; opacity: 0.9; }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 18px;
+        }
 
-    .venue-tag { padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
-    .home-tag { background: rgba(45, 80, 22, 0.92); color: white; }
-    .away-tag { background: rgba(139, 21, 56, 0.92); color: white; }
-    .neutral-tag { background: rgba(75, 85, 99, 0.92); color: white; }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-left: 4px solid #dc3545;
+            margin-bottom: 20px;
+        }
 
-    .game-details { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-    .team-matchup { flex: 1; min-width: 200px; }
-    .team-name { font-size: 1.25rem; font-weight: 900; margin-bottom: 2px; letter-spacing: -0.01em; }
-    .opponent { font-size: 1rem; font-weight: 700; opacity: 0.95; }
-    .vs-indicator { opacity: 0.7; margin-right: 6px; font-size: 0.9rem; }
+        .fallback-notice {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
 
-    .game-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; }
-    .tv-info { background: rgba(0, 0, 0, 0.08); color: inherit; padding: 6px 10px; border-radius: 12px; font-size: 0.88rem; font-weight: 800; letter-spacing: 0.02em; }
-    .location { font-size: 0.88rem; opacity: 0.8; font-weight: 600; }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
 
-    /* Print Styles */
-    @media print {
-      body { background: white !important; -webkit-print-color-adjust: exact; color-adjust: exact; }
-      .container { max-width: none; padding: 0; }
-      .header-buttons { display: none; }
-      .header, .games-container, .week-header { background: white !important; box-shadow: none !important; backdrop-filter: none !important; }
-      .game-card { border: 1px solid #e5e7eb !important; margin-bottom: 8px; break-inside: avoid; }
-      .saints-card, .tulane-card, .lsu-card, .florida-card { -webkit-print-color-adjust: exact; color-adjust: exact; }
-    }
-  </style>
+        .game-card {
+            border: 1px solid #e0e0e0;
+            padding: 24px;
+            background-color: #fff;
+            transition: all 0.2s ease;
+        }
+
+        .game-card:hover {
+            border-color: #000;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-date {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .game-time {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 16px;
+        }
+
+        .matchup {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+
+        .team-highlight {
+            background-color: #000;
+            color: #fff;
+            padding: 2px 6px;
+            font-weight: 700;
+        }
+
+        .game-details {
+            font-size: 14px;
+            color: #666;
+            margin-top: 12px;
+        }
+
+        .league-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-radius: 2px;
+            margin-bottom: 12px;
+        }
+
+        .nfl {
+            background-color: #013369;
+            color: #fff;
+        }
+
+        .college {
+            background-color: #8B0000;
+            color: #fff;
+        }
+
+        .no-games {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .games-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .game-card {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="header-buttons">
-        <button class="header-button" onclick="window.print()" title="Print Schedule">
-          <i class="fas fa-print"></i>
-          <span class="button-text">Print</span>
-        </button>
-        <button id="addToHomeScreenHeader" class="header-button add-to-home-header" style="display: none;" title="Add to Home Screen">
-          <i class="fas fa-plus-circle"></i>
-          <span class="button-text">Add</span>
-        </button>
-      </div>
-      <div style="display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:10px;">
-        <img src="images/katopus.png" alt="Katopus" id="katopusImage" style="width:58px;height:58px;object-fit:contain;cursor:pointer;border-radius:12px;transition:transform .3s ease;box-shadow:0 4px 12px rgba(0,0,0,.1);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" onclick="showFullSizeImage()" />
-        <h1 class="main-title">Kat's Football Schedule</h1>
-      </div>
-      <p class="subtitle">2025 Season • Central Time Zone</p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Kat's Football Schedules 2025</h1>
+            <p class="subtitle">by Kevin Kolb</p>
+        </header>
 
-    <!-- Dynamic schedule will be injected here -->
-    <div id="schedule"></div>
-  </div>
+        <div id="loading" class="loading">
+            Loading schedules...
+        </div>
 
-  <script>
-    // === CONFIG ===
-    const XML_SOURCES = [
-      // Kevin's GitHub Pages XML endpoints (working)
-      'https://kevinkolb.github.io/horsesmouthsportsdata/games/nflgames.xml',
-      'https://kevinkolb.github.io/horsesmouthsportsdata/games/collegegames.xml'
-    ];
+        <div id="error-message" class="error" style="display: none;"></div>
+        
+        <div id="fallback-notice" class="fallback-notice" style="display: none;">
+            Unable to load XML data from external sources. Displaying sample schedule data. To use live data, please ensure the XML URLs are accessible.
+        </div>
 
-    // Focused teams to display (case-insensitive contains match)
-    const FOCUS = [
-      'New Orleans Saints', 'Saints',
-      'Tulane', 'Green Wave',
-      'LSU', 'Louisiana State', 'Tigers',
-      'Florida', 'Gators'
-    ];
+        <div id="games-container" class="games-grid"></div>
+    </div>
 
-    // Map a team name to a card class
-    function cardClassFor(team) {
-      const t = (team || '').toLowerCase();
-      if (t.includes('saints')) return 'saints-card';
-      if (t.includes('tulane')) return 'tulane-card';
-      if (t.includes('lsu') || t.includes('louisiana state')) return 'lsu-card';
-      if (t.includes('florida') || t.includes('gators')) return 'florida-card';
-      return '';
-    }
+    <script>
+        // Target teams (case insensitive matching)
+        const TARGET_TEAMS = [
+            { name: 'saints', variations: ['saints', 'new orleans saints'] },
+            { name: 'florida gators', variations: ['florida', 'florida gators', 'gators'] },
+            { name: 'tulane green wave', variations: ['tulane', 'tulane green wave', 'green wave'] },
+            { name: 'lsu tigers', variations: ['lsu', 'lsu tigers', 'tigers', 'louisiana state'] }
+        ];
 
-    // Graceful XML text getter, trying several tag names
-    function firstText(node, names, attr) {
-      for (const n of names) {
-        const el = node.querySelector(n);
-        if (el) return attr ? el.getAttribute(attr) : (el.textContent || '').trim();
-      }
-      return '';
-    }
-
-    // Parse a single <game> element into a uniform object
-    function parseGame(gameEl) {
-      const dateRaw = firstText(gameEl, ['date','gamedate','game_date','start_date','start']);
-      const timeRaw = firstText(gameEl, ['time','gametime','start_time','kickoff','kickoff_time']);
-      const teamA   = firstText(gameEl, ['team','home_team','home','team_name','teamA','school']);
-      const teamB   = firstText(gameEl, ['opponent','away_team','away','opponent_name','teamB']);
-      const tv      = firstText(gameEl, ['tv','tv_network','network','television']);
-      const venue   = firstText(gameEl, ['venue','home_away','site','location_type']); // HOME/AWAY/NEUTRAL
-      const place   = firstText(gameEl, ['location','stadium','site_name','city']);
-
-      // Normalize date/time
-      const dateStr = (dateRaw || '').trim();
-      const timeStr = (timeRaw || '').trim();
-      let when = null;
-      if (dateStr) {
-        const iso = /\d{4}-\d{2}-\d{2}/.test(dateStr) ? dateStr : new Date(dateStr).toISOString().slice(0,10);
-        const hhmm = timeStr ? timeStr.replace(/\s*(CT|CST|CDT)$/i,'').replace(/(\d{1,2})(?::(\d{2}))?\s*([AP]M)/i, (m,h,mm,ap)=>{
-          h = parseInt(h,10) % 12; if (ap.toUpperCase()==='PM') h+=12; return `${String(h).padStart(2,'0')}:${mm||'00'}`;
-        }) : '00:00';
-        when = new Date(`${iso}T${hhmm}:00`);
-        if (isNaN(when)) when = new Date(iso);
-      }
-
-      // HOME/AWAY/NEUTRAL tag + vs/@ indicator
-      const v = (venue || '').toUpperCase();
-      let venueClass = 'home-tag', vsIndicator = 'vs';
-      if (v.includes('AWAY') || v === 'A') { venueClass = 'away-tag'; vsIndicator = '@'; }
-      else if (v.includes('NEUTRAL') || v === 'N') { venueClass = 'neutral-tag'; vsIndicator = 'vs'; }
-
-      // Choose primary team to color by (prefer Saints/Tulane/LSU/Florida if present among either competitor)
-      const colorTeam = [teamA, teamB].find(t => cardClassFor(t));
-      const cardClass = cardClassFor(colorTeam || teamA);
-
-      return {
-        when, dateStr, timeStr,
-        day: when ? when.toLocaleDateString(undefined, { weekday:'long' }) : '',
-        team: teamA, opponent: teamB, tv,
-        venueClass, vsIndicator, location: place, cardClass
-      };
-    }
-
-    // ISO week utilities
-    function getISOWeek(d) {
-      const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-      const dayNum = date.getUTCDay() || 7; // Mon=1 ... Sun=7
-      date.setUTCDate(date.getUTCDate() + 4 - dayNum);
-      const yearStart = new Date(Date.UTC(date.getUTCFullYear(),0,1));
-      const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1)/7);
-      return { year: date.getUTCFullYear(), week: weekNo };
-    }
-
-    function weekRange(d) {
-      // Sat–Sun window around the game date
-      const day = d.getDay();
-      const sat = new Date(d); sat.setDate(d.getDate() - ((day + 1) % 7)); // Sat
-      const sun = new Date(sat); sun.setDate(sat.getDate() + 2); // include Mon night by stretching window a bit
-      const fmt = (x)=> x.toLocaleDateString(undefined,{ month:'short', day:'numeric' });
-      return `${fmt(sat)} – ${fmt(sun)}`;
-    }
-
-    async function fetchXML(url) {
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-      const text = await res.text();
-      const dom = new DOMParser().parseFromString(text, 'application/xml');
-      const pe = dom.querySelector('parsererror');
-      if (pe) throw new Error(`XML parse error for ${url}`);
-      return dom;
-    }
-
-    function containsAny(hay, needles) {
-      const s = (hay||'').toLowerCase();
-      return needles.some(n => s.includes(n.toLowerCase()));
-    }
-
-    function makeGameCard(g) {
-      const dateFmt = g.when ? g.when.toLocaleDateString(undefined,{ month:'short', day:'numeric' }) : (g.dateStr||'TBD');
-      const timeFmt = g.when && g.timeStr ? g.when.toLocaleTimeString(undefined,{ hour:'numeric', minute:'2-digit' }) : (g.timeStr||'TBD');
-      const dayFmt  = g.day || '';
-      const loc = g.location || '';
-      const tv  = g.tv || 'TBD';
-      const cardClass = g.cardClass || '';
-
-      return `
-        <div class="game-card ${cardClass}">
-          <div class="game-header">
-            <div class="date-time">
-              <div class="date">${dateFmt}</div>
-              <div class="day">${dayFmt}</div>
-              <div class="time">${timeFmt}</div>
-            </div>
-            <div class="venue-tag ${g.venueClass}">${g.venueClass.includes('home')?'HOME':g.venueClass.includes('away')?'AWAY':'NEUTRAL'}</div>
-          </div>
-          <div class="game-details">
-            <div class="team-matchup">
-              <div class="team-name">${g.team || ''}</div>
-              <div class="opponent"><span class="vs-indicator">${g.vsIndicator}</span>${g.opponent || ''}</div>
-            </div>
-            <div class="game-meta">
-              <div class="tv-info">${tv}</div>
-              <div class="location">${loc}</div>
-            </div>
-          </div>
-        </div>`;
-    }
-
-    function sectionHTML(title, cardsHTML) {
-      return `
-        <div class="week-section">
-          <div class="week-header">${title}</div>
-          <div class="games-container">${cardsHTML}</div>
-        </div>`;
-    }
-
-    async function build() {
-      const holder = document.getElementById('schedule');
-      holder.innerHTML = '<div class="games-container" style="padding:18px;text-align:center">Loading schedule…</div>';
-
-      try {
-        const xmlDocs = await Promise.all(XML_SOURCES.map(fetchXML));
-        const games = [];
-
-        for (const doc of xmlDocs) {
-          const gameEls = doc.querySelectorAll('game, games > game');
-          gameEls.forEach(el => {
-            const g = parseGame(el);
-            // Filter: only keep games involving our focus teams (either side)
-            if (containsAny(g.team, FOCUS) || containsAny(g.opponent, FOCUS)) {
-              if (g.when) games.push(g);
+        // Sample data for demonstration (fallback)
+        const SAMPLE_GAMES = [
+            {
+                date: '2025-09-06',
+                time: '12:00 PM',
+                homeTeam: 'LSU Tigers',
+                awayTeam: 'USC Trojans',
+                location: 'Tiger Stadium, Baton Rouge, LA',
+                league: 'COLLEGE'
+            },
+            {
+                date: '2025-09-07',
+                time: '1:00 PM',
+                homeTeam: 'New Orleans Saints',
+                awayTeam: 'Carolina Panthers',
+                location: 'Caesars Superdome, New Orleans, LA',
+                league: 'NFL'
+            },
+            {
+                date: '2025-09-13',
+                time: '7:00 PM',
+                homeTeam: 'Florida Gators',
+                awayTeam: 'Tennessee Volunteers',
+                location: 'Ben Hill Griffin Stadium, Gainesville, FL',
+                league: 'COLLEGE'
+            },
+            {
+                date: '2025-09-14',
+                time: '4:25 PM',
+                homeTeam: 'Atlanta Falcons',
+                awayTeam: 'New Orleans Saints',
+                location: 'Mercedes-Benz Stadium, Atlanta, GA',
+                league: 'NFL'
+            },
+            {
+                date: '2025-09-20',
+                time: '6:30 PM',
+                homeTeam: 'Tulane Green Wave',
+                awayTeam: 'Navy Midshipmen',
+                location: 'Yulman Stadium, New Orleans, LA',
+                league: 'COLLEGE'
+            },
+            {
+                date: '2025-09-21',
+                time: '1:00 PM',
+                homeTeam: 'New Orleans Saints',
+                awayTeam: 'Green Bay Packers',
+                location: 'Caesars Superdome, New Orleans, LA',
+                league: 'NFL'
+            },
+            {
+                date: '2025-09-27',
+                time: '12:00 PM',
+                homeTeam: 'Kentucky Wildcats',
+                awayTeam: 'Florida Gators',
+                location: 'Kroger Field, Lexington, KY',
+                league: 'COLLEGE'
+            },
+            {
+                date: '2025-10-04',
+                time: '7:00 PM',
+                homeTeam: 'LSU Tigers',
+                awayTeam: 'South Alabama Jaguars',
+                location: 'Tiger Stadium, Baton Rouge, LA',
+                league: 'COLLEGE'
             }
-          });
+        ];
+
+        async function fetchWithMultipleMethods(url) {
+            const methods = [
+                // Direct fetch
+                () => fetch(url),
+                // CORS proxy 1
+                () => fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`),
+                // CORS proxy 2
+                () => fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`),
+                // CORS proxy 3
+                () => fetch(`https://cors-anywhere.herokuapp.com/${url}`)
+            ];
+
+            for (let i = 0; i < methods.length; i++) {
+                try {
+                    console.log(`Trying fetch method ${i + 1} for ${url}`);
+                    const response = await methods[i]();
+                    if (response.ok) {
+                        const text = await response.text();
+                        console.log(`Success with method ${i + 1}`);
+                        return text;
+                    }
+                } catch (error) {
+                    console.log(`Method ${i + 1} failed:`, error.message);
+                }
+            }
+            throw new Error(`All fetch methods failed for ${url}`);
         }
 
-        games.sort((a,b) => (a.when - b.when));
-
-        if (!games.length) {
-          holder.innerHTML = '<div class="games-container" style="padding:18px;text-align:center">No games found for Saints, Tulane, LSU, or Florida.</div>';
-          return;
+        function isTargetTeam(teamName) {
+            if (!teamName) return null;
+            const lowerTeamName = teamName.toLowerCase();
+            
+            for (const target of TARGET_TEAMS) {
+                if (target.variations.some(variation => 
+                    lowerTeamName.includes(variation.toLowerCase()) || 
+                    variation.toLowerCase().includes(lowerTeamName)
+                )) {
+                    return target.name;
+                }
+            }
+            return null;
         }
 
-        // Group by ISO week
-        const groups = new Map();
-        for (const g of games) {
-          const wk = getISOWeek(g.when).week;
-          const yr = getISOWeek(g.when).year;
-          const key = `${yr}-W${String(wk).padStart(2,'0')}`;
-          if (!groups.has(key)) groups.set(key, []);
-          groups.get(key).push(g);
+        function parseXMLGame(gameElement, league) {
+            // Try multiple ways to get the data
+            const date = gameElement.getAttribute('date') || 
+                        gameElement.querySelector('date')?.textContent || 
+                        gameElement.querySelector('Date')?.textContent;
+            
+            const time = gameElement.getAttribute('time') || 
+                        gameElement.querySelector('time')?.textContent ||
+                        gameElement.querySelector('Time')?.textContent;
+            
+            const homeTeam = gameElement.getAttribute('home') || 
+                            gameElement.getAttribute('homeTeam') ||
+                            gameElement.querySelector('home')?.textContent ||
+                            gameElement.querySelector('homeTeam')?.textContent ||
+                            gameElement.querySelector('Home')?.textContent;
+            
+            const awayTeam = gameElement.getAttribute('away') || 
+                            gameElement.getAttribute('awayTeam') ||
+                            gameElement.querySelector('away')?.textContent ||
+                            gameElement.querySelector('awayTeam')?.textContent ||
+                            gameElement.querySelector('Away')?.textContent;
+            
+            const location = gameElement.getAttribute('location') || 
+                            gameElement.querySelector('location')?.textContent ||
+                            gameElement.querySelector('Location')?.textContent;
+
+            const homeTargetTeam = isTargetTeam(homeTeam);
+            const awayTargetTeam = isTargetTeam(awayTeam);
+
+            if (!homeTargetTeam && !awayTargetTeam) {
+                return null;
+            }
+
+            return createGameObject(date, time, homeTeam, awayTeam, location, league);
         }
 
-        // Render sections
-        let html = '';
-        [...groups.entries()].sort((a,b) => a[0].localeCompare(b[0])).forEach(([key, arr]) => {
-          const range = weekRange(arr[0].when);
-          const title = `Week ${key.split('W')[1]} • ${range}`;
-          const cards = arr.map(makeGameCard).join('');
-          html += sectionHTML(title, cards);
-        });
+        function createGameObject(date, time, homeTeam, awayTeam, location, league) {
+            let dateObj = new Date('2099-12-31');
+            if (date && date !== 'TBD') {
+                try {
+                    const parsedDate = new Date(date);
+                    if (!isNaN(parsedDate.getTime())) {
+                        dateObj = parsedDate;
+                    }
+                } catch (e) {
+                    console.warn('Could not parse date:', date);
+                }
+            }
 
-        holder.innerHTML = html;
-      } catch (err) {
-        console.error(err);
-        holder.innerHTML = `<div class="games-container" style="padding:18px;color:#b91c1c;background:#fee2e2">Failed to load schedule. ${err.message}</div>`;
-      }
-    }
+            const homeTargetTeam = isTargetTeam(homeTeam);
+            const awayTargetTeam = isTargetTeam(awayTeam);
 
-    // Minimal Add-to-Home Screen prompt
-    let deferredPrompt;
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      const btn = document.getElementById('addToHomeScreenHeader');
-      if (btn) btn.style.display = 'inline-flex';
-    });
-    document.getElementById('addToHomeScreenHeader')?.addEventListener('click', async () => {
-      if (!deferredPrompt) return;
-      deferredPrompt.prompt();
-      await deferredPrompt.userChoice;
-      deferredPrompt = null;
-      document.getElementById('addToHomeScreenHeader').style.display = 'none';
-    });
+            return {
+                date: date || 'TBD',
+                time: time || '',
+                homeTeam: homeTeam || 'TBD',
+                awayTeam: awayTeam || 'TBD',
+                location: location || '',
+                league: league,
+                targetTeam: homeTargetTeam || awayTargetTeam,
+                dateObj: dateObj
+            };
+        }
 
-    function showFullSizeImage() {
-      const img = document.getElementById('katopusImage');
-      if (!img) return;
-      const src = img.getAttribute('src');
-      const w = window.open('', '_blank');
-      w.document.write(`<img src="${src}" style="width:90vw;height:auto;display:block;margin:20px auto;" alt="Katopus"/>`);
-    }
+        function formatDate(dateStr) {
+            if (!dateStr || dateStr === 'TBD') return 'TBD';
+            try {
+                const date = new Date(dateStr);
+                if (isNaN(date.getTime())) return dateStr;
+                return date.toLocaleDateString('en-US', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            } catch (e) {
+                return dateStr;
+            }
+        }
 
-    // Kick it off
-    build();
-  </script>
+        function formatTime(timeStr) {
+            if (!timeStr) return '';
+            try {
+                // Handle various time formats
+                if (timeStr.includes('PM') || timeStr.includes('AM')) {
+                    return timeStr; // Already formatted
+                }
+                const time = new Date(`2000-01-01 ${timeStr}`);
+                return time.toLocaleTimeString('en-US', {
+                    hour: 'numeric',
+                    minute: '2-digit'
+                });
+            } catch (e) {
+                return timeStr;
+            }
+        }
+
+        function createGameCard(game) {
+            const homeHighlight = isTargetTeam(game.homeTeam) ? 'team-highlight' : '';
+            const awayHighlight = isTargetTeam(game.awayTeam) ? 'team-highlight' : '';
+
+            return `
+                <div class="game-card">
+                    <div class="league-badge ${game.league.toLowerCase()}">${game.league}</div>
+                    <div class="game-date">${formatDate(game.date)}</div>
+                    ${game.time ? `<div class="game-time">${formatTime(game.time)}</div>` : ''}
+                    <div class="matchup">
+                        <span class="${awayHighlight}">${game.awayTeam}</span>
+                        <br>@<br>
+                        <span class="${homeHighlight}">${game.homeTeam}</span>
+                    </div>
+                    ${game.location ? `<div class="game-details">${game.location}</div>` : ''}
+                </div>
+            `;
+        }
+
+        async function loadSchedules() {
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('error-message');
+            const fallbackEl = document.getElementById('fallback-notice');
+            const containerEl = document.getElementById('games-container');
+
+            try {
+                loadingEl.style.display = 'block';
+                errorEl.style.display = 'none';
+                fallbackEl.style.display = 'none';
+
+                const games = [];
+
+                // Try to load XML data
+                try {
+                    const collegeXmlText = await fetchWithMultipleMethods('https://kevinkolb.github.io/horsesmouthsportsdata/games/collegegames.xml');
+                    const nflXmlText = await fetchWithMultipleMethods('https://kevinkolb.github.io/horsesmouthsportsdata/games/nflgames.xml');
+
+                    const parser = new DOMParser();
+                    const collegeDoc = parser.parseFromString(collegeXmlText, 'text/xml');
+                    const nflDoc = parser.parseFromString(nflXmlText, 'text/xml');
+
+                    // Parse college games
+                    let collegeGames = collegeDoc.querySelectorAll('game, Game');
+                    if (collegeGames.length === 0) {
+                        collegeGames = Array.from(collegeDoc.documentElement.children);
+                    }
+                    
+                    collegeGames.forEach(gameEl => {
+                        const game = parseXMLGame(gameEl, 'COLLEGE');
+                        if (game) games.push(game);
+                    });
+
+                    // Parse NFL games
+                    let nflGames = nflDoc.querySelectorAll('game, Game');
+                    if (nflGames.length === 0) {
+                        nflGames = Array.from(nflDoc.documentElement.children);
+                    }
+                    
+                    nflGames.forEach(gameEl => {
+                        const game = parseXMLGame(gameEl, 'NFL');
+                        if (game) games.push(game);
+                    });
+
+                    console.log(`Loaded ${games.length} games from XML data`);
+
+                } catch (xmlError) {
+                    console.log('XML loading failed, using sample data:', xmlError.message);
+                    
+                    // Use sample data as fallback
+                    SAMPLE_GAMES.forEach(sampleGame => {
+                        const game = createGameObject(
+                            sampleGame.date,
+                            sampleGame.time,
+                            sampleGame.homeTeam,
+                            sampleGame.awayTeam,
+                            sampleGame.location,
+                            sampleGame.league
+                        );
+                        if (game && (isTargetTeam(game.homeTeam) || isTargetTeam(game.awayTeam))) {
+                            games.push(game);
+                        }
+                    });
+
+                    fallbackEl.style.display = 'block';
+                }
+
+                // Sort games chronologically
+                games.sort((a, b) => {
+                    if (!a.dateObj || !b.dateObj) return 0;
+                    return a.dateObj.getTime() - b.dateObj.getTime();
+                });
+
+                loadingEl.style.display = 'none';
+
+                if (games.length === 0) {
+                    containerEl.innerHTML = '<div class="no-games">No games found for the selected teams.</div>';
+                    return;
+                }
+
+                containerEl.innerHTML = games.map(createGameCard).join('');
+
+            } catch (error) {
+                console.error('Error loading schedules:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.textContent = `Error loading schedules: ${error.message}`;
+            }
+        }
+
+        // Load schedules when page loads
+        document.addEventListener('DOMContentLoaded', loadSchedules);
+    </script>
 </body>
 </html>
