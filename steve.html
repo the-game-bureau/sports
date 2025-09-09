@@ -70,7 +70,7 @@
         }
 
         .nav-team-icon {
-            width: calc(25% - 7.5px);
+            width: calc(20% - 8px);
             height: 70px;
             border-radius: 12px;
             display: flex;
@@ -110,6 +110,10 @@
 
         .nav-team-icon.yankees {
             background: #132448;
+        }
+
+        .nav-team-icon.texas {
+            background: #BF5700;
         }
 
         .teams-grid {
@@ -322,7 +326,7 @@
         }
 
         .bottom-nav-icon {
-            width: calc(25% - 6px);
+            width: calc(20% - 6.4px);
             height: 50px;
             border-radius: 8px;
             display: flex;
@@ -362,6 +366,10 @@
 
         .bottom-nav-icon.yankees {
             background: #132448;
+        }
+
+        .bottom-nav-icon.texas {
+            background: #BF5700;
         }
 
         .action-btn {
@@ -425,12 +433,17 @@
             --team-color: #132448;
             --team-secondary-color: #C4CED4;
         }
+        .texas-football { 
+            --team-color: #BF5700;
+            --team-secondary-color: #000;
+        }
 
-        /* Debug borders using team secondary colors */
+        /* Team border accents */
         #tulane-card { border-left: 10px solid #87CEEB !important; }
         #saints-card { border-left: 10px solid #000000 !important; }
         #iup-card { border-left: 10px solid #C1A875 !important; }
         #yankees-card { border-left: 10px solid #C4CED4 !important; }
+        #texas-card { border-left: 10px solid #FFFFFF !important; }
 
         /* Mobile navigation adjustments */
         @media (max-width: 768px) {
@@ -483,7 +496,7 @@
             }
             
             .bottom-nav-icon {
-                width: calc(25% - 4.5px);
+                width: calc(20% - 4.8px);
                 height: 45px;
             }
 
@@ -500,7 +513,7 @@
             }
             
             .bottom-nav-icon {
-                width: calc(25% - 3px);
+                width: calc(20% - 3.2px);
                 height: 40px;
             }
 
@@ -528,6 +541,9 @@
                 </a>
                 <a href="#yankees-card" class="nav-team-icon yankees" aria-label="Go to New York Yankees">
                     <img src="images/yankees.svg" alt="Yankees Logo">
+                </a>
+                <a href="#texas-card" class="nav-team-icon texas" aria-label="Go to Texas Longhorns">
+                    <img src="images/texas.png" alt="Texas Logo">
                 </a>
             </div>
         </div>
@@ -586,6 +602,9 @@
                     <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
                         <img src="images/yankees.svg" alt="Yankees Logo">
                     </a>
+                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
+                        <img src="images/texas.png" alt="Texas Logo">
+                    </a>
                 </div>
             </div>
 
@@ -643,6 +662,9 @@
                     <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
                         <img src="images/yankees.svg" alt="Yankees Logo">
                     </a>
+                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
+                        <img src="images/texas.png" alt="Texas Logo">
+                    </a>
                 </div>
             </div>
 
@@ -697,6 +719,9 @@
                     </a>
                     <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
                         <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
+                        <img src="images/texas.png" alt="Texas Logo">
                     </a>
                 </div>
             </div>
@@ -753,6 +778,52 @@
                     </a>
                     <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
                         <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
+                        <img src="images/texas.png" alt="Texas Logo">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Texas Longhorns Football -->
+            <div class="team-card texas-football" id="texas-card">
+                <div class="team-header">
+                    <div class="sport-label">
+                        <span class="sport-icon">🏈</span>
+                        <span>College Football</span>
+                    </div>
+                    <div class="team-banner">
+                        <div class="name-section">
+                            <img src="images/texas.png" alt="Texas Logo" class="team-logo">
+                            <div class="team-name">Texas<br>Longhorns</div>
+                        </div>
+                        <div class="photo-section">
+                            <img src="images/arch.png" alt="Arch Manning's Photo" class="person-photo">
+                        </div>
+                    </div>
+                <div class="team-actions">
+                    <a href="https://texassports.com/sports/football/schedule" class="action-btn primary">Schedule</a>
+                    <a href="https://texassports.com/sports/football/stats" class="action-btn">Stats</a>
+                    <a href="https://texassports.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
+                    <a href="https://watch.longhornnetwork.com/home" class="action-btn">Video</a>
+                    <a href="https://www.facebook.com/TexasLonghorns" class="action-btn">Facebook</a>
+                    <a href="https://www.espn.com/college-football/team/_/id/251/texas-longhorns" class="action-btn">News</a>
+                </div>
+                <div class="bottom-navigation">
+                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
+                        <img src="images/tulane.svg" alt="Tulane Logo">
+                    </a>
+                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
+                        <img src="images/saints.webp" alt="Saints Logo">
+                    </a>
+                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
+                        <img src="images/iup.webp" alt="IUP Logo">
+                    </a>
+                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
+                        <img src="images/yankees.svg" alt="Yankees Logo">
+                    </a>
+                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
+                        <img src="images/texas.png" alt="Texas Logo">
                     </a>
                 </div>
             </div>
