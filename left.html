@@ -178,43 +178,43 @@
                 height: auto;
                 padding: 20px;
             }
-            
+
             .container {
                 height: auto;
             }
-            
+
             h1 {
                 font-size: 1.5em;
                 margin-bottom: 15px;
             }
-            
+
             .calendar-grid {
                 grid-template-columns: 1fr;
                 gap: 0;
                 display: flex;
                 flex-direction: column;
             }
-            
+
             .day-column {
                 border-right: none;
                 padding-right: 0;
                 display: contents;
             }
-            
+
             .day-header {
                 display: none;
             }
-            
+
             .day-label-mobile {
                 display: block;
             }
-            
+
             .game-card {
                 height: auto;
                 min-height: 120px;
                 margin-bottom: 15px;
             }
-            
+
             .game-card[style*="dashed"] {
                 display: none;
             }
@@ -237,6 +237,160 @@
             .mobile-order-8 { order: 8; }
             .mobile-order-9 { order: 9; }
             .mobile-order-10 { order: 10; }
+        }
+
+        /* Enhanced Print Styles - Perfect One Page Black & White */
+        @media print {
+            @page {
+                size: letter portrait;
+                margin: 0.4in;
+            }
+
+            body {
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                background: white;
+            }
+
+            .container {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                page-break-inside: avoid;
+            }
+
+            h1 {
+                font-size: 20pt;
+                margin-bottom: 12pt;
+                color: black;
+                page-break-after: avoid;
+            }
+
+            .calendar-grid {
+                flex: 1;
+                gap: 10pt;
+                page-break-inside: avoid;
+            }
+
+            .day-column {
+                border-right: 1.5pt solid #666;
+                padding-right: 10pt;
+            }
+
+            .day-header {
+                font-size: 10pt;
+                padding: 6pt;
+                margin-bottom: 8pt;
+                background: white !important;
+                border: 1.5pt solid black !important;
+                page-break-after: avoid;
+            }
+
+            .game-card {
+                height: 108pt;
+                padding: 8pt;
+                margin-bottom: 10pt;
+                box-shadow: none;
+                page-break-inside: avoid;
+                background: white !important;
+                color: black !important;
+            }
+
+            /* Black & White game card styles */
+            .tulane-game {
+                background: white !important;
+                color: black !important;
+                border: 3pt solid black !important;
+            }
+
+            .tulane-game::before {
+                content: "🌊 ";
+                font-size: 10pt;
+            }
+
+            .tulane-away {
+                background: white !important;
+                color: black !important;
+                border: 2pt dashed black !important;
+            }
+
+            .tulane-away::before {
+                content: "🌊 ";
+                font-size: 10pt;
+            }
+
+            .saints-away {
+                background: white !important;
+                color: black !important;
+                border: 2pt dashed black !important;
+            }
+
+            .saints-away::before {
+                content: "⚜️ ";
+                font-size: 10pt;
+            }
+
+            .saints-home {
+                background: white !important;
+                color: black !important;
+                border: 3pt solid black !important;
+            }
+
+            .saints-home::before {
+                content: "⚜️ ";
+                font-size: 10pt;
+            }
+
+            .date-badge {
+                font-size: 14pt;
+                font-weight: 900;
+                color: black !important;
+            }
+
+            .month-label {
+                font-size: 7pt;
+                color: black !important;
+                opacity: 1;
+            }
+
+            .matchup {
+                font-size: 8pt;
+                font-weight: 700;
+                color: black !important;
+            }
+
+            .time {
+                font-size: 7.5pt;
+                font-weight: 600;
+                color: black !important;
+                border-top: 1.5pt solid black !important;
+            }
+
+            .footer {
+                margin-top: 10pt;
+                font-size: 9pt;
+                page-break-inside: avoid;
+                color: black;
+            }
+
+            .footnote {
+                font-size: 7.5pt;
+                margin-top: 3pt;
+                page-break-inside: avoid;
+                color: black;
+            }
+
+            /* Hide mobile elements */
+            .day-label-mobile {
+                display: none !important;
+            }
+
+            /* Hide placeholder cards completely for B&W */
+            .game-card[style*="dashed"] {
+                display: none !important;
+            }
         }
     </style>
 </head>

@@ -572,7 +572,7 @@
                 gap: 4px;
                 padding: 10px 24px 18px;
             }
-            
+
             .bottom-nav-icon {
                 width: calc(20% - 3.2px);
                 height: 40px;
@@ -581,6 +581,211 @@
             .bottom-nav-icon img {
                 width: 25px;
                 height: 25px;
+            }
+        }
+
+        /* Print Styles - Perfect One Page Layout */
+        @media print {
+            /* Reset page margins and setup */
+            @page {
+                size: letter portrait;
+                margin: 0.3in;
+            }
+
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                color-adjust: exact !important;
+            }
+
+            html, body {
+                background: white !important;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+
+            /* Header - Compact */
+            .header {
+                margin-bottom: 8px;
+                padding: 8px;
+                box-shadow: none;
+                border: 2px solid #2c3e50;
+                page-break-inside: avoid;
+            }
+
+            .header h1 {
+                font-size: 18pt;
+                margin-bottom: 2px;
+            }
+
+            .header p {
+                font-size: 11pt;
+                margin-bottom: 8px;
+            }
+
+            /* Hide navigation elements */
+            .team-navigation,
+            .bottom-navigation,
+            .full-width-btn,
+            .refresh-btn {
+                display: none !important;
+            }
+
+            /* Team cards - compact grid */
+            .teams-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                page-break-inside: avoid;
+            }
+
+            .team-card {
+                box-shadow: none;
+                border: 2px solid #ddd !important;
+                page-break-inside: avoid;
+                margin: 0;
+            }
+
+            .team-card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            /* Sport label - compact */
+            .sport-label {
+                padding: 6px 10px;
+                font-size: 9pt;
+                letter-spacing: 0.05em;
+            }
+
+            .sport-icon {
+                font-size: 1em;
+            }
+
+            /* Team banner - compact */
+            .team-banner {
+                height: 60px;
+                padding: 0 8px;
+            }
+
+            .logo-section {
+                width: 50px;
+            }
+
+            .team-logo {
+                width: 40px;
+                height: 40px;
+            }
+
+            .name-section {
+                padding: 0 8px;
+                gap: 8px;
+            }
+
+            .team-name {
+                font-size: 12pt;
+                line-height: 1.1;
+            }
+
+            .photo-section {
+                width: 50px;
+                height: 50px;
+                margin-right: 5px;
+            }
+
+            .person-photo {
+                width: 50px;
+                height: 50px;
+            }
+
+            /* Hide next game section for more space */
+            .next-game-container {
+                display: none !important;
+            }
+
+            /* Team actions - compact buttons */
+            .team-actions {
+                padding: 6px 8px;
+                gap: 4px;
+            }
+
+            .action-btn {
+                padding: 6px 8px;
+                font-size: 8pt;
+                min-height: auto;
+                letter-spacing: 0.02em;
+                box-shadow: none;
+                border: 1.5px solid var(--team-color);
+                text-transform: none;
+            }
+
+            .action-btn.primary {
+                font-size: 9pt;
+                min-height: auto;
+                padding: 8px 10px;
+                font-weight: 700;
+            }
+
+            .action-btn:hover,
+            .action-btn:focus,
+            .action-btn.primary:hover,
+            .action-btn.primary:focus {
+                transform: none;
+                box-shadow: none;
+            }
+
+            /* Remove hover effects */
+            .nav-team-icon:hover,
+            .bottom-nav-icon:hover,
+            .person-photo:hover,
+            .team-logo:hover,
+            .tv-icon:hover {
+                transform: none;
+            }
+
+            /* Remove focus outlines for print */
+            *:focus {
+                outline: none !important;
+            }
+
+            /* Force colors for team cards */
+            .tulane-football .team-banner { background: #00693E !important; }
+            .saints .team-banner { background: #D3BC8D !important; }
+            .iup-volleyball .team-banner { background: #722F37 !important; }
+            .yankees .team-banner { background: #132448 !important; }
+            .texas-football .team-banner { background: #BF5700 !important; }
+
+            .tulane-football .action-btn.primary { background: #00693E !important; }
+            .saints .action-btn.primary { background: #D3BC8D !important; }
+            .iup-volleyball .action-btn.primary { background: #722F37 !important; }
+            .yankees .action-btn.primary { background: #132448 !important; }
+            .texas-football .action-btn.primary { background: #BF5700 !important; }
+
+            /* Ensure links print properly */
+            a[href]:after {
+                content: none !important;
+            }
+
+            /* Border accents - smaller for print */
+            #tulane-card { border-left: 4px solid #87CEEB !important; }
+            #saints-card { border-left: 4px solid #000000 !important; }
+            #iup-card { border-left: 4px solid #C1A875 !important; }
+            #yankees-card { border-left: 4px solid #C4CED4 !important; }
+            #texas-card { border-left: 4px solid #FFFFFF !important; }
+
+            /* Prevent page breaks */
+            .team-card,
+            .header {
+                page-break-inside: avoid;
+                break-inside: avoid;
             }
         }
     </style>
