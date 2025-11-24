@@ -416,6 +416,36 @@
             color: var(--team-color);
         }
 
+        .full-width-btn {
+            display: block;
+            width: 100%;
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #00693E 0%, #D3BC8D 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 700;
+            text-align: center;
+            transition: all 0.2s ease;
+            font-size: clamp(1.4rem, 4vw, 1.8rem);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+
+        .full-width-btn:hover, .full-width-btn:focus {
+            background: linear-gradient(135deg, #005c35 0%, #c4a86e 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+        }
+
+        .full-width-btn:active {
+            transform: translateY(0);
+        }
+
         /* Team Colors */
         .tulane-football { 
             --team-color: #00693E;
@@ -547,6 +577,8 @@
                 </a>
             </div>
         </div>
+
+        <a href="left.html" class="full-width-btn">Saints / Tulane Remaining Games</a>
 
         <div class="teams-grid">
             <!-- Tulane Green Wave Football -->
