@@ -191,12 +191,14 @@
             .calendar-grid {
                 grid-template-columns: 1fr;
                 gap: 0;
-                display: block;
+                display: flex;
+                flex-direction: column;
             }
             
             .day-column {
                 border-right: none;
                 padding-right: 0;
+                display: contents;
             }
             
             .day-header {
@@ -251,7 +253,7 @@
                 
                 <div class="game-card" style="background: #f8f8f8; border: 2px dashed #ddd;"></div>
                 
-                <div class="game-card tulane-away mobile-order-7">
+                <div class="game-card tulane-away mobile-order-6">
                     <div class="day-label-mobile">FRIDAY, 12/19</div>
                     <div class="date-badge" style="color: #418FDE;">19</div>
                     <div class="month-label">DECEMBER</div>
@@ -278,7 +280,7 @@
                 
                 <div class="game-card" style="background: #f8f8f8; border: 2px dashed #ddd;"></div>
                 
-                <div class="game-card tulane-away mobile-order-8">
+                <div class="game-card tulane-away mobile-order-7">
                     <div class="day-label-mobile">SATURDAY, 12/20</div>
                     <div class="date-badge" style="color: #418FDE;">20</div>
                     <div class="month-label">DECEMBER</div>
@@ -317,7 +319,7 @@
                     <div class="time">3:25 PM 🏟️</div>
                 </div>
                 
-                <div class="game-card saints-home mobile-order-6">
+                <div class="game-card saints-home mobile-order-8">
                     <div class="day-label-mobile">SUNDAY, 12/21</div>
                     <div class="date-badge" style="color: #D3BC8D;">21</div>
                     <div class="month-label">DECEMBER</div>
