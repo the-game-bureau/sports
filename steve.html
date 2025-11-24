@@ -446,6 +446,37 @@
             transform: translateY(0);
         }
 
+        .refresh-btn {
+            display: block;
+            width: 100%;
+            padding: 16px 24px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background: #555;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: 700;
+            text-align: center;
+            transition: all 0.2s ease;
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+
+        .refresh-btn:hover, .refresh-btn:focus {
+            background: #777;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+        }
+
+        .refresh-btn:active {
+            transform: translateY(0);
+        }
+
         /* Team Colors */
         .tulane-football { 
             --team-color: #00693E;
@@ -860,6 +891,8 @@
                 </div>
             </div>
         </div>
+
+        <button class="refresh-btn" onclick="location.reload()">🔄 Refresh</button>
     </div>
 
     <script>
