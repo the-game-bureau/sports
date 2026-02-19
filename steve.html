@@ -10,1023 +10,387 @@
     <title>Coach Steve's Sports Report by Kevin Kolb</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
+        html { scroll-behavior: smooth; }
 
-        * {
+        *, *::before, *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #1a1a1a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
             min-height: 100vh;
-            line-height: 1.6;
-            font-size: 18px;
+            line-height: 1.4;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 620px;
             margin: 0 auto;
-            padding: 15px;
+            padding: 20px 14px;
         }
 
+        /* ── Header ── */
         .header {
-            text-align: center;
-            margin-bottom: 20px;
-            padding: 15px 20px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            background: #fff;
+            padding: 14px 16px;
+            margin-bottom: 28px;
+            border-radius: 3px;
         }
 
         .header h1 {
-            font-size: clamp(1.8rem, 6vw, 2.8rem);
-            font-weight: 600;
+            font-size: 1.3rem;
+            font-weight: 800;
             letter-spacing: -0.02em;
-            color: #2c3e50;
-            margin-bottom: 4px;
+            color: #111;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 2px;
         }
 
         .header p {
-            font-size: clamp(1rem, 3vw, 1.2rem);
-            color: #7f8c8d;
-            font-weight: 400;
-            margin-bottom: 20px;
+            font-size: 0.68rem;
+            color: #aaa;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-bottom: 12px;
         }
 
+        /* ── Nav ── */
         .team-navigation {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            width: 100%;
-            flex-wrap: nowrap;
-            max-width: 100%;
-            box-sizing: border-box;
+            gap: 4px;
         }
 
         .nav-team-icon {
-            width: calc(20% - 8px);
-            height: 70px;
-            border-radius: 12px;
+            flex: 1;
+            height: 42px;
+            border-radius: 2px;
             display: flex;
             align-items: center;
             justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
             text-decoration: none;
-            padding: 8px;
-            flex-shrink: 1;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            box-sizing: border-box;
+            transition: opacity 0.12s;
         }
 
-        .nav-team-icon:hover, .nav-team-icon:focus {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-        }
+        .nav-team-icon:hover,
+        .nav-team-icon:focus { opacity: 0.72; }
 
         .nav-team-icon img {
-            width: 50px;
-            height: 50px;
+            width: 24px;
+            height: 24px;
             object-fit: contain;
         }
 
-        .nav-team-icon.tulane {
-            background: #00693E;
-        }
+        .nav-team-icon.tulane  { background: #00693E; }
+        .nav-team-icon.saints  { background: #B8985A; }
+        .nav-team-icon.iup     { background: #722F37; }
+        .nav-team-icon.yankees { background: #132448; }
+        .nav-team-icon.texas   { background: #BF5700; }
 
-        .nav-team-icon.saints {
-            background: #D3BC8D;
-        }
-
-        .nav-team-icon.iup {
-            background: #722F37;
-        }
-
-        .nav-team-icon.yankees {
-            background: #132448;
-        }
-
-        .nav-team-icon.texas {
-            background: #BF5700;
-        }
-
+        /* ── Cards ── */
         .teams-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
         }
 
         .team-card {
-            background: #f5f5f5;
-            border-radius: 16px;
+            background: #fff;
+            border-radius: 3px;
             overflow: hidden;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            transition: all 0.3s ease;
-            position: relative;
-            border: 3px solid transparent;
+            border-top: 6px solid var(--team-color);
         }
 
-        .team-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-        }
-
-        .team-header {
-            position: relative;
-            overflow: hidden;
-        }
-
+        /* ── Sport label ── */
         .sport-label {
-            background: #484646;
-            color: rgba(255,255,255,0.95);
-            padding: 16px 24px;
-            font-size: clamp(1rem, 3.5vw, 1.2rem);
+            background: #1e1e1e;
+            color: #fff;
+            padding: 6px 12px;
+            font-size: 0.6rem;
             text-transform: uppercase;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.2em;
             font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* ── Team banner ── */
+        .team-banner {
+            background: var(--team-color);
+            padding: 12px 14px;
             display: flex;
             align-items: center;
             gap: 12px;
         }
 
-        .sport-icon {
-            font-size: 1.2em;
-        }
-
-        .team-banner {
-            background: var(--team-color);
-            height: 120px;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-        }
-
-        .logo-section {
-            width: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .name-section {
             flex: 1;
             display: flex;
-            justify-content: flex-start;
             align-items: center;
-            padding: 0 20px;
-            gap: 16px;
+            gap: 12px;
         }
 
         .photo-section {
-            width: 100px;
-            height: 100px;
+            width: 64px;
+            height: 64px;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             overflow: hidden;
-            border-radius: 12px;
-            margin-right: 10px;
+            border-radius: 2px;
+            flex-shrink: 0;
         }
 
         .team-logo {
-            width: 70px;
-            height: 70px;
+            width: 50px;
+            height: 50px;
             object-fit: contain;
-            transition: transform 0.2s ease;
-        }
-
-        .team-logo:hover {
-            transform: scale(1.05);
         }
 
         .team-name {
-            font-size: clamp(1.6rem, 6vw, 2.2rem);
-            font-weight: 600;
-            color: white;
-            letter-spacing: -0.01em;
-            text-align: left;
-            line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            text-transform: uppercase;
+            white-space: nowrap;
         }
 
         .person-photo {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            object-position: center top;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: transform 0.2s ease;
-        }
-
-        .person-photo:hover {
-            transform: scale(1.05);
-        }
-
-        .next-game-container {
-            margin: 20px;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            position: relative;
-        }
-
-        .next-game {
-            flex: 1;
-            padding: 20px;
-            background: linear-gradient(135deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 100%);
-            border-radius: 16px;
-            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-            border: 3px solid var(--team-color);
-            display: flex;
-            align-items: center;
-            gap: 18px;
-        }
-
-        .game-info {
-            flex: 1;
-        }
-
-        .tv-icon {
             width: 64px;
             height: 64px;
-            background: white;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            padding: 8px;
-            text-decoration: none;
-            transition: transform 0.2s ease;
-            border: 2px solid var(--team-color);
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 2px;
+            cursor: pointer;
         }
 
-        .tv-icon:hover {
-            transform: scale(1.05);
-        }
-
-        .tv-icon img {
-            width: 100%;
-            height: 100%;
+        /* ── Buttons ── */
+        .btn-icon {
+            width: 1em;
+            height: 1em;
             object-fit: contain;
-            object-position: center;
-        }
-
-        .next-game-label {
-            font-size: clamp(0.9rem, 3vw, 1.1rem);
-            color: #666;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-
-        .opponent {
-            font-size: clamp(1.3rem, 4vw, 1.6rem);
-            font-weight: 700;
-            color: var(--team-color);
-            margin-bottom: 8px;
-            line-height: 1.2;
-        }
-
-        .game-details {
-            font-size: clamp(1rem, 3vw, 1.2rem);
-            color: #555;
-            line-height: 1.4;
-            font-weight: 500;
-        }
-
-        .game-time {
-            font-weight: 700;
-            color: var(--team-color);
+            margin: 0 0.35em;
+            flex-shrink: 0;
+            vertical-align: middle;
         }
 
         .team-actions {
             display: flex;
             flex-direction: column;
-            gap: 16px;
-            padding: 24px 24px 16px;
-        }
-
-        .bottom-navigation {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 8px;
-            padding: 16px 24px 24px;
-            border-top: 2px solid rgba(0,0,0,0.1);
-        }
-
-        .bottom-nav-icon {
-            width: calc(20% - 6.4px);
-            height: 50px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            padding: 6px;
-            flex-shrink: 1;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-            box-sizing: border-box;
-        }
-
-        .bottom-nav-icon:hover, .bottom-nav-icon:focus {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
-        }
-
-        .bottom-nav-icon img {
-            width: 35px;
-            height: 35px;
-            object-fit: contain;
-        }
-
-        .bottom-nav-icon.tulane {
-            background: #00693E;
-        }
-
-        .bottom-nav-icon.saints {
-            background: #D3BC8D;
-        }
-
-        .bottom-nav-icon.iup {
-            background: #722F37;
-        }
-
-        .bottom-nav-icon.yankees {
-            background: #132448;
-        }
-
-        .bottom-nav-icon.texas {
-            background: #BF5700;
+            gap: 1px;
+            background: #ccc;
         }
 
         .action-btn {
-            padding: 22px 24px;
-            border: 3px solid var(--team-color);
-            background: var(--team-secondary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 12px;
-            font-weight: 700;
-            text-align: center;
-            transition: all 0.2s ease;
-            font-size: clamp(1.8rem, 5vw, 2.2rem);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            min-height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            padding: 14px 16px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
+            min-height: 52px;
+            transition: background 0.1s, color 0.1s;
         }
 
-        .action-btn:hover, .action-btn:focus {
-            background: white;
-            color: var(--team-color);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-        }
-
-        .action-btn:active {
-            transform: translateY(0);
+        .action-btn:hover,
+        .action-btn:focus {
+            background: var(--team-color);
+            color: #fff;
         }
 
         .action-btn.primary {
             background: var(--team-color);
-            color: white;
-            border: 3px solid var(--team-color);
-            font-size: clamp(2rem, 5.5vw, 2.4rem);
-            min-height: 88px;
+            color: #fff;
+            font-size: 1rem;
+            min-height: 60px;
         }
 
-        .action-btn.primary:hover, .action-btn.primary:focus {
-            background: white;
-            color: var(--team-color);
+        .action-btn.primary:hover,
+        .action-btn.primary:focus {
+            background: #111;
+            color: #fff;
         }
 
-        .full-width-btn {
-            display: block;
-            width: 100%;
-            padding: 20px 24px;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #00693E 0%, #D3BC8D 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 12px;
-            font-weight: 700;
+        .off-season {
             text-align: center;
-            transition: all 0.2s ease;
-            font-size: clamp(1.4rem, 4vw, 1.8rem);
+            padding: 14px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #111;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            box-sizing: border-box;
+            letter-spacing: 0.18em;
+            background: #fff;
         }
 
-        .full-width-btn:hover, .full-width-btn:focus {
-            background: linear-gradient(135deg, #005c35 0%, #c4a86e 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-        }
-
-        .full-width-btn:active {
-            transform: translateY(0);
-        }
-
+        /* ── Refresh ── */
         .refresh-btn {
             display: block;
             width: 100%;
-            padding: 16px 24px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            background: #555;
-            color: white;
+            margin-top: 40px;
+            padding: 12px;
+            background: #2a2a2a;
+            color: #aaa;
             border: none;
-            border-radius: 12px;
+            border-radius: 3px;
             font-weight: 700;
-            text-align: center;
-            transition: all 0.2s ease;
-            font-size: clamp(1rem, 3vw, 1.3rem);
+            font-size: 0.72rem;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.14em;
             cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            box-sizing: border-box;
+            transition: background 0.1s, color 0.1s;
         }
 
-        .refresh-btn:hover, .refresh-btn:focus {
-            background: #777;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-        }
+        .refresh-btn:hover,
+        .refresh-btn:focus { background: #444; color: #fff; }
 
-        .refresh-btn:active {
-            transform: translateY(0);
-        }
+        /* ── Team colors ── */
+        .tulane-baseball { --team-color: #00693E; }
+        .tulane-baseball .team-banner { background: #4BB3D0; }
+        .tulane-baseball { border-top-color: #4BB3D0; }
+        .tulane-baseball .action-btn.primary { background: #fff; color: #111; }
+        .tulane-baseball .action-btn.primary:hover,
+        .tulane-baseball .action-btn.primary:focus { background: #00693E; color: #fff; }
+        .saints          { --team-color: #101010; }
+        .saints .team-banner { background: #B8985A; }
+        .saints { border-top-color: #B8985A; }
+        .saints .action-btn.primary { background: #fff; color: #111; }
+        .saints .action-btn.primary:hover,
+        .saints .action-btn.primary:focus { background: #101010; color: #fff; }
+        .iup-volleyball  { --team-color: #722F37; }
+        .yankees         { --team-color: #132448; }
+        .yankees .action-btn.primary { background: #fff; color: #111; }
+        .yankees .action-btn.primary:hover,
+        .yankees .action-btn.primary:focus { background: #132448; color: #fff; }
+        .texas-football  { --team-color: #BF5700; }
 
-        /* Team Colors */
-        .tulane-football { 
-            --team-color: #00693E;
-            --team-secondary-color: #87CEEB;
-        }
-        .saints { 
-            --team-color: #D3BC8D;
-            --team-secondary-color: #000000;
-        }
-        .iup-volleyball { 
-            --team-color: #722F37;
-            --team-secondary-color: #C1A875;
-        }
-        .yankees { 
-            --team-color: #132448;
-            --team-secondary-color: #C4CED4;
-        }
-        .texas-football { 
-            --team-color: #BF5700;
-            --team-secondary-color: #000;
-        }
-
-        /* Team border accents */
-        #tulane-card { border-left: 10px solid #87CEEB !important; }
-        #saints-card { border-left: 10px solid #000000 !important; }
-        #iup-card { border-left: 10px solid #C1A875 !important; }
-        #yankees-card { border-left: 10px solid #C4CED4 !important; }
-        #texas-card { border-left: 10px solid #FFFFFF !important; }
-
-        /* Mobile navigation adjustments */
-        @media (max-width: 768px) {
-            .team-navigation {
-                gap: 8px;
-            }
-            
-            .nav-team-icon {
-                height: 60px;
-                padding: 8px;
-            }
-
-            .nav-team-icon img {
-                width: 40px;
-                height: 40px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .team-navigation {
-                gap: 6px;
-            }
-            
-            .nav-team-icon {
-                height: 50px;
-                padding: 6px;
-            }
-
-            .nav-team-icon img {
-                width: 35px;
-                height: 35px;
-            }
-        }
-
-        /* Focus styles for keyboard navigation */
+        /* ── Focus ── */
         .action-btn:focus,
         .person-photo:focus,
-        .nav-team-icon:focus,
-        .bottom-nav-icon:focus,
-        .tv-icon:focus {
-            outline: 4px solid #007acc;
+        .nav-team-icon:focus {
+            outline: 3px solid #007acc;
             outline-offset: 2px;
         }
 
-        /* Mobile adjustments for bottom navigation */
-        @media (max-width: 768px) {
-            .bottom-navigation {
-                gap: 6px;
-                padding: 12px 24px 20px;
-            }
-            
-            .bottom-nav-icon {
-                width: calc(20% - 4.8px);
-                height: 45px;
-            }
-
-            .bottom-nav-icon img {
-                width: 30px;
-                height: 30px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .bottom-navigation {
-                gap: 4px;
-                padding: 10px 24px 18px;
-            }
-
-            .bottom-nav-icon {
-                width: calc(20% - 3.2px);
-                height: 40px;
-            }
-
-            .bottom-nav-icon img {
-                width: 25px;
-                height: 25px;
-            }
+        /* ── Desktop scale-up ── */
+        @media (min-width: 520px) {
+            .container { padding: 24px 20px; }
+            .header h1 { font-size: 1.65rem; }
+            .team-name { font-size: 1.65rem; }
+            .action-btn { font-size: 1rem; min-height: 56px; }
+            .action-btn.primary { font-size: 1.1rem; min-height: 66px; }
+            .nav-team-icon { height: 50px; }
+            .nav-team-icon img { width: 28px; height: 28px; }
+            .team-logo { width: 56px; height: 56px; }
+            .photo-section { width: 72px; height: 72px; }
+            .person-photo { width: 72px; height: 72px; }
         }
 
-        /* Print Styles - Perfect One Page Layout */
+        /* ── Print ── */
         @media print {
-            /* Reset page margins and setup */
-            @page {
-                size: letter portrait;
-                margin: 0.3in;
-            }
+            @page { size: letter portrait; margin: 0.4in; }
 
             * {
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important;
-                color-adjust: exact !important;
             }
 
-            html, body {
-                background: white !important;
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
+            body { background: #fff !important; }
+            .container { max-width: 100%; padding: 0; }
+            .team-navigation, .refresh-btn { display: none !important; }
 
-            .container {
-                max-width: 100%;
-                padding: 0;
-                margin: 0;
-            }
+            .header { margin-bottom: 8px; padding: 8px; }
+            .header h1 { font-size: 14pt; }
+            .header p { margin-bottom: 0; }
 
-            /* Header - Compact */
-            .header {
-                margin-bottom: 8px;
-                padding: 8px;
-                box-shadow: none;
-                border: 2px solid #2c3e50;
-                page-break-inside: avoid;
-            }
-
-            .header h1 {
-                font-size: 18pt;
-                margin-bottom: 2px;
-            }
-
-            .header p {
-                font-size: 11pt;
-                margin-bottom: 8px;
-            }
-
-            /* Hide navigation elements */
-            .team-navigation,
-            .bottom-navigation,
-            .full-width-btn,
-            .refresh-btn {
-                display: none !important;
-            }
-
-            /* Team cards - compact grid */
             .teams-grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 8px;
-                page-break-inside: avoid;
             }
 
-            .team-card {
-                box-shadow: none;
-                border: 2px solid #ddd !important;
-                page-break-inside: avoid;
-                margin: 0;
+            .team-card { break-inside: avoid; border-top-width: 4px; }
+            .sport-label { padding: 4px 8px; font-size: 7pt; }
+            .team-banner { padding: 7px 9px; gap: 7px; }
+            .team-logo { width: 32px; height: 32px; }
+            .team-name { font-size: 10pt; white-space: normal; }
+            .photo-section { width: 40px; height: 40px; }
+            .person-photo { width: 40px; height: 40px; }
+            .team-actions { gap: 0; }
+            .action-btn { padding: 5px 8px; font-size: 8pt; min-height: auto; }
+            .action-btn.primary { font-size: 9pt; min-height: auto; }
+            .action-btn:hover, .action-btn:focus,
+            .action-btn.primary:hover, .action-btn.primary:focus {
+                background: inherit; color: inherit;
             }
-
-            .team-card:hover {
-                transform: none;
-                box-shadow: none;
-            }
-
-            /* Sport label - compact */
-            .sport-label {
-                padding: 6px 10px;
-                font-size: 9pt;
-                letter-spacing: 0.05em;
-            }
-
-            .sport-icon {
-                font-size: 1em;
-            }
-
-            /* Team banner - compact */
-            .team-banner {
-                height: 60px;
-                padding: 0 8px;
-            }
-
-            .logo-section {
-                width: 50px;
-            }
-
-            .team-logo {
-                width: 40px;
-                height: 40px;
-            }
-
-            .name-section {
-                padding: 0 8px;
-                gap: 8px;
-            }
-
-            .team-name {
-                font-size: 12pt;
-                line-height: 1.1;
-            }
-
-            .photo-section {
-                width: 50px;
-                height: 50px;
-                margin-right: 5px;
-            }
-
-            .person-photo {
-                width: 50px;
-                height: 50px;
-            }
-
-            /* Hide next game section for more space */
-            .next-game-container {
-                display: none !important;
-            }
-
-            /* Team actions - compact buttons */
-            .team-actions {
-                padding: 6px 8px;
-                gap: 4px;
-            }
-
-            .action-btn {
-                padding: 6px 8px;
-                font-size: 8pt;
-                min-height: auto;
-                letter-spacing: 0.02em;
-                box-shadow: none;
-                border: 1.5px solid var(--team-color);
-                text-transform: none;
-            }
-
-            .action-btn.primary {
-                font-size: 9pt;
-                min-height: auto;
-                padding: 8px 10px;
-                font-weight: 700;
-            }
-
-            .action-btn:hover,
-            .action-btn:focus,
-            .action-btn.primary:hover,
-            .action-btn.primary:focus {
-                transform: none;
-                box-shadow: none;
-            }
-
-            /* Remove hover effects */
-            .nav-team-icon:hover,
-            .bottom-nav-icon:hover,
-            .person-photo:hover,
-            .team-logo:hover,
-            .tv-icon:hover {
-                transform: none;
-            }
-
-            /* Remove focus outlines for print */
-            *:focus {
-                outline: none !important;
-            }
-
-            /* Force colors for team cards */
-            .tulane-football .team-banner { background: #00693E !important; }
-            .saints .team-banner { background: #D3BC8D !important; }
-            .iup-volleyball .team-banner { background: #722F37 !important; }
-            .yankees .team-banner { background: #132448 !important; }
-            .texas-football .team-banner { background: #BF5700 !important; }
-
-            .tulane-football .action-btn.primary { background: #00693E !important; }
-            .saints .action-btn.primary { background: #D3BC8D !important; }
-            .iup-volleyball .action-btn.primary { background: #722F37 !important; }
-            .yankees .action-btn.primary { background: #132448 !important; }
-            .texas-football .action-btn.primary { background: #BF5700 !important; }
-
-            /* Ensure links print properly */
-            a[href]:after {
-                content: none !important;
-            }
-
-            /* Border accents - smaller for print */
-            #tulane-card { border-left: 4px solid #87CEEB !important; }
-            #saints-card { border-left: 4px solid #000000 !important; }
-            #iup-card { border-left: 4px solid #C1A875 !important; }
-            #yankees-card { border-left: 4px solid #C4CED4 !important; }
-            #texas-card { border-left: 4px solid #FFFFFF !important; }
-
-            /* Prevent page breaks */
-            .team-card,
-            .header {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
+            *:focus { outline: none !important; }
+            a[href]:after { content: none !important; }
         }
     </style>
 </head>
 <body>
     <div class="container">
+
         <div class="header">
             <h1>Coach Steve's Sports Report</h1>
             <p>by Kevin Kolb</p>
             <div class="team-navigation">
-                <a href="#tulane-card" class="nav-team-icon tulane" aria-label="Go to Tulane Green Wave">
-                    <img src="images/tulane.svg" alt="Tulane Logo">
+                <a href="#tulane-card" class="nav-team-icon tulane" aria-label="Tulane Green Wave">
+                    <img src="images/tulane.svg" alt="Tulane">
                 </a>
-                <a href="#saints-card" class="nav-team-icon saints" aria-label="Go to New Orleans Saints">
-                    <img src="images/saints.webp" alt="Saints Logo">
+                <a href="#saints-card" class="nav-team-icon saints" aria-label="New Orleans Saints">
+                    <img src="images/saints.webp" alt="Saints">
                 </a>
-                <a href="#iup-card" class="nav-team-icon iup" aria-label="Go to IUP Crimson Hawks">
-                    <img src="images/iup.webp" alt="IUP Logo">
+                <a href="#iup-card" class="nav-team-icon iup" aria-label="IUP Crimson Hawks">
+                    <img src="images/iup.webp" alt="IUP">
                 </a>
-                <a href="#yankees-card" class="nav-team-icon yankees" aria-label="Go to New York Yankees">
-                    <img src="images/yankees.svg" alt="Yankees Logo">
+                <a href="#yankees-card" class="nav-team-icon yankees" aria-label="New York Yankees">
+                    <img src="images/yankees.svg" alt="Yankees">
                 </a>
-                <a href="#texas-card" class="nav-team-icon texas" aria-label="Go to Texas Longhorns">
-                    <img src="images/texas.png" alt="Texas Logo">
+                <a href="#texas-card" class="nav-team-icon texas" aria-label="Texas Longhorns">
+                    <img src="images/texas.png" alt="Texas">
                 </a>
             </div>
         </div>
 
-        <a href="left.html" class="full-width-btn">Saints / Tulane Remaining Games</a>
-
         <div class="teams-grid">
-            <!-- Tulane Green Wave Football -->
-            <div class="team-card tulane-football" id="tulane-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>College Football</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
-                            <div class="team-name">Tulane<br>Green Wave</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/jon.webp" alt="Jon's Photo" class="person-photo">
-                        </div>
-                    </div>
-                    <!--<div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Next Game</div>
-                                <div class="opponent">vs Duke Blue Devils</div>
-                                <div class="game-details">
-                                    Saturday, Sep 12th • <span class="game-time">7:00 PM</span><br>
-                                    Yulman Stadium • New Orleans, LA
-                                </div>
-                            </div>
-                            <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on ESPN2">
-                                <img src="images/espn2.webp" alt="ESPN2">
-                            </a>
-                        </div>
-                    </div>
-                </div>-->
-                <div class="team-actions">
-                    <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Stats</a>
-                    <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
-                    <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn">Video</a>
-                    <a href="https://www.facebook.com/GreenWaveFootball" class="action-btn">Facebook</a>
-                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
 
-            <!-- New Orleans Saints -->
-            <div class="team-card saints" id="saints-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>NFL Football</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
-                            <div class="team-name">New Orleans<br>Saints</div>
-                        </div>
-                        <div class="photo-section">
-                            <!-- Blank space -->
-                        </div>
-                    </div>
-                    <!--
-                    <div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Next Game (Preseason)</div>
-                                <div class="opponent">@ Los Angeles Chargers</div>
-                                <div class="game-details">
-                                    Sunday, Aug 10 • <span class="game-time">3:05 PM</span><br>
-                                    SoFi Stadium • Los Angeles, CA
-                                </div>
-                            </div>
-                            <a href="https://tv.youtube.com/watch/bwF7A5cJGuo?vp=0gEEEgIwAQ%3D%3D" class="tv-icon" target="_blank" aria-label="Watch on FOX 8">
-                                <img src="images/fox8.png" alt="FOX 8">
-                            </a>
-                        </div>
+            <!-- Tulane Green Wave Baseball -->
+            <div class="team-card tulane-baseball" id="tulane-card">
+                <div class="team-banner">
+                    <div class="name-section">
+                        <img src="images/tulane.svg" alt="Tulane" class="team-logo">
+                        <div class="team-name">Tulane Green Wave</div>
                     </div>
                 </div>
-                -->
                 <div class="team-actions">
-                    <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
-                    <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
-                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
-                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
-                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
-
-            <!-- IUP Volleyball -->
-            <div class="team-card iup-volleyball" id="iup-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏐</span>
-                        <span>College Volleyball</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
-                            <div class="team-name">IUP<br>Crimson Hawks</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/peyton.webp" alt="Peyton's Photo" class="person-photo" onclick="window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank')" tabindex="0">
-                        </div>
-                    </div>
-                    <!--
-                    <div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Next Match</div>
-                                <div class="opponent">Ashland Invitational</div>
-                                <div class="game-details">
-                                    Friday, Sep 5 • <span class="game-time">2:00 PM</span><br>
-                                    vs Daemen • Ashland, OH
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            -->
-                <div class="team-actions">
-                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://iupathletics.com/sports/2011/8/5/WVB_0805114410.aspx" class="action-btn">Stats</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
-                    <a href="https://www.instagram.com/peyton_belcher10" class="action-btn">Peyton's Photos</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/archives?search=&sport=wvball&season=0" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/schedule" class="action-btn primary">⚾ Schedule</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/stats" class="action-btn">⚾ Stats</a>
+                    <a href="https://tulanegreenwave.com/sports/baseball/roster" class="action-btn">⚾ Roster & Coaches</a>
+                    <a href="https://www.facebook.com/GreenWaveBaseball" class="action-btn">⚾ Facebook</a>
+                    <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn"><img src="images/tulane.svg" class="btn-icon" alt="">Video</a>
+                    <a href="https://www.nola.com/sports/tulane/" class="action-btn"><img src="images/tulane.svg" class="btn-icon" alt="">News</a>
                 </div>
             </div>
 
             <!-- New York Yankees -->
             <div class="team-card yankees" id="yankees-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">⚾</span>
-                        <span>MLB Baseball</span>
+                <div class="team-banner">
+                    <div class="name-section">
+                        <img src="images/yankees.svg" alt="Yankees" class="team-logo">
+                        <div class="team-name">New York Yankees</div>
                     </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
-                            <div class="team-name">New York<br>Yankees</div>
-                        </div>
-                        <div class="photo-section">
-                            <!-- Blank space -->
-                        </div>
-                    </div>
-                    <!--
-                    <div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Today's Game</div>
-                                <div class="opponent">vs Houston Astros</div>
-                                <div class="game-details">
-                                    Sunday, Aug 10 • <span class="game-time">1:35 PM</span><br>
-                                    Yankee Stadium • Bronx, NY
-                                </div>
-                            </div>
-                            <a href="https://www.mlb.com/live-stream-games/subscribe" class="tv-icon" target="_blank" aria-label="Watch on MLB.TV">
-                                <img src="images\mlbnet.svg" alt="MLB.TV">
-                            </a>
-                        </div>
-                    </div>
-                </div>-->
+                </div>
                 <div class="team-actions">
                     <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
                     <a href="https://www.mlb.com/yankees/stats" class="action-btn">Stats</a>
@@ -1034,82 +398,75 @@
                     <a href="https://www.mlb.com/yankees/roster/coaches" class="action-btn">Coaches</a>
                     <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
                 </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
+            </div>
+
+            <!-- New Orleans Saints -->
+            <div class="team-card saints" id="saints-card">
+                <div class="team-banner">
+                    <div class="name-section">
+                        <img src="images/saints.webp" alt="Saints" class="team-logo">
+                        <div class="team-name">New Orleans Saints</div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <a href="https://www.neworleanssaints.com/schedule/future-opponents" class="action-btn primary">Schedule</a>
+                    <a href="https://www.neworleanssaints.com/team/stats/2026/REG" class="action-btn">Stats</a>
+                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
+                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
+                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
+                </div>
+            </div>
+
+            <!-- IUP Crimson Hawks Volleyball -->
+            <div class="team-card iup-volleyball" id="iup-card">
+                <div class="team-banner">
+                    <div class="name-section">
+                        <img src="images/iup.webp" alt="IUP" class="team-logo">
+                        <div class="team-name">IUP Crimson Hawks</div>
+                    </div>
+                </div>
+                <div class="team-actions">
+                    <div class="off-season">🏐 Off Season</div>
+                    <div class="photo-section" style="width:100%;height:auto;padding:12px;justify-content:center;">
+                        <img src="https://iupathletics.com/images/2025/9/2/Peyton_Belcher.png?width=140" alt="Peyton" class="person-photo"
+                             style="width:140px;height:auto;"
+                             onclick="window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348','_blank')"
+                             tabindex="0">
+                    </div>
                 </div>
             </div>
 
             <!-- Texas Longhorns Football -->
             <div class="team-card texas-football" id="texas-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>College Football</span>
+                <div class="team-banner">
+                    <div class="name-section">
+                        <img src="images/texas.png" alt="Texas" class="team-logo">
+                        <div class="team-name">Texas Longhorns</div>
                     </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/texas.png" alt="Texas Logo" class="team-logo">
-                            <div class="team-name">Texas<br>Longhorns</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/arch.png" alt="Arch Manning's Photo" class="person-photo">
-                        </div>
-                    </div>
-                <div class="team-actions">
-                    <a href="https://texassports.com/sports/football/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://texassports.com/sports/football/stats" class="action-btn">Stats</a>
-                    <a href="https://texassports.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
-                    <a href="https://watch.longhornnetwork.com/home" class="action-btn">Video</a>
-                    <a href="https://www.facebook.com/TexasLonghorns" class="action-btn">Facebook</a>
-                    <a href="https://www.espn.com/college-football/team/_/id/251/texas-longhorns" class="action-btn">News</a>
                 </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
+                <div class="team-actions">
+                    <div class="off-season">🏈 Off Season</div>
+                    <div class="photo-section" style="width:100%;height:auto;padding:12px;justify-content:center;">
+                        <img src="images/arch.png" alt="Arch Manning" class="person-photo"
+                             style="width:140px;height:auto;">
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <button class="refresh-btn" onclick="location.reload()">🔄 Refresh</button>
+
     </div>
 
     <script>
-        // Simple functionality - just Peyton's photo
         document.addEventListener('DOMContentLoaded', function() {
             const peytonPhoto = document.querySelector('.iup-volleyball .person-photo');
-            
             if (peytonPhoto) {
                 peytonPhoto.addEventListener('keydown', function(e) {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank');
+                        window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348', '_blank');
                     }
                 });
             }
