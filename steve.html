@@ -253,6 +253,7 @@
 
         /* ── Next game — the reason the page exists ── */
         .next-game {
+            position: relative;
             padding: 18px 16px 20px;
             background: #fff;
             border-bottom: 2px solid #ccc;
@@ -266,24 +267,25 @@
             color: #888;
         }
 
-        .next-game-head {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            gap: 12px;
-            margin-bottom: 10px;
-        }
+        .next-game-head { margin-bottom: 10px; }
 
-        /* Days until kickoff, counting down to 0 on game day. */
+        /* Days until kickoff, counting down to 0 on game day. Sits in the
+           team's secondary color and floats above the card, straddling the
+           banner edge so it reads as a sticker rather than another row. */
         .countdown-badge {
-            flex-shrink: 0;
-            min-width: 78px;
-            padding: 6px 10px 7px;
-            background: var(--banner-color, var(--team-color));
-            color: #fff;
+            position: absolute;
+            top: -34px;
+            right: 14px;
+            z-index: 3;
+            min-width: 82px;
+            padding: 8px 12px 9px;
+            background: var(--secondary-color, var(--banner-color));
+            color: var(--secondary-ink, #fff);
+            border: 2px solid var(--secondary-edge, transparent);
             border-radius: 3px;
             text-align: center;
             line-height: 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
         }
 
         .countdown-badge .days {
@@ -750,7 +752,13 @@
             .next-game { padding: 6px 9px 8px; }
             .block-label { font-size: 6pt; }
             .next-game-head { margin-bottom: 4px; }
-            .countdown-badge { min-width: 34px; padding: 2px 4px; }
+            .countdown-badge {
+                position: static;
+                float: right;
+                min-width: 34px;
+                padding: 2px 4px;
+                box-shadow: none;
+            }
             .countdown-badge .days { font-size: 11pt; }
             .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
             .matchup { font-size: 11pt; }
@@ -882,7 +890,19 @@
         var c = team.colors || {};
         if (which === 'banner') { return c.banner || c.primary || '#111'; }
         if (which === 'light') { return c.light || '#f2f2f2'; }
+        if (which === 'secondary') { return c.secondary || c.banner || c.primary || '#111'; }
         return c.primary || '#111';
+    }
+
+    // Some secondaries are pale (Texas white, Yankees gray) and some are dark.
+    // Pick the text color from the background so the number always reads.
+    function luminance(hex) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var r = parseInt(h.slice(0, 2), 16) / 255;
+        var g = parseInt(h.slice(2, 4), 16) / 255;
+        var b = parseInt(h.slice(4, 6), 16) / 255;
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b;
     }
 
     // ---------- card pieces ----------
@@ -1125,6 +1145,13 @@
         card.style.setProperty('--team-color', colorOf(team, 'primary'));
         card.style.setProperty('--banner-color', colorOf(team, 'banner'));
         card.style.setProperty('--light-color', colorOf(team, 'light'));
+
+        var secondary = colorOf(team, 'secondary');
+        var pale = luminance(secondary) > 0.6;
+        card.style.setProperty('--secondary-color', secondary);
+        card.style.setProperty('--secondary-ink', pale ? '#111' : '#fff');
+        // A near-white badge needs an edge or it vanishes into the card.
+        card.style.setProperty('--secondary-edge', pale ? colorOf(team, 'primary') : 'transparent');
 
         var events = eventsFor(team);
 

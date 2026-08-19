@@ -16,6 +16,7 @@
       "logo": "images/tulane.svg",
       "colors": {
         "primary": "#00693E",
+        "secondary": "#4BB3D0",
         "banner": "#00693E",
         "light": "#CCE1D8"
       },
@@ -80,6 +81,7 @@
       "logo": "images/florida.svg",
       "colors": {
         "primary": "#0021A5",
+        "secondary": "#FA4616",
         "banner": "#0021A5",
         "light": "#CCD2ED"
       },
@@ -148,6 +150,7 @@
       "logo": "images/saints.webp",
       "colors": {
         "primary": "#101010",
+        "secondary": "#B8985A",
         "banner": "#B8985A",
         "light": "#CFCFCF"
       },
@@ -225,6 +228,7 @@
       "logo": "images/iup.webp",
       "colors": {
         "primary": "#722F37",
+        "secondary": "#C1A875",
         "banner": "#722F37",
         "light": "#E2D5D7"
       },
@@ -272,6 +276,7 @@
       "logo": "images/yankees.svg",
       "colors": {
         "primary": "#132448",
+        "secondary": "#C4CED4",
         "banner": "#132448",
         "light": "#CFD3DA"
       },
@@ -338,6 +343,7 @@
       "logo": "images/texas.png",
       "colors": {
         "primary": "#BF5700",
+        "secondary": "#FFFFFF",
         "banner": "#BF5700",
         "light": "#F2DDCC"
       },
@@ -412,6 +418,7 @@
       },
       "colors": {
         "primary": "#00693E",
+        "secondary": "#4BB3D0",
         "banner": "#4BB3D0",
         "light": "#CCE1D8"
       },
