@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Coach Steve's Story Archive</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗂️</text></svg>">
+    <style>
+        /* Older stories retired out of steve.json. Same big-type rules as
+           the main report — this page is just longer. */
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1a1a;
+            color: #1c1c1c;
+            line-height: 1.45;
+            font-size: 20px;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 12px 12px 40px; }
+
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 18px 16px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+            margin-bottom: 18px;
+        }
+
+        .header h1 {
+            font-size: clamp(1.6rem, 6.5vw, 2.2rem);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #16222e;
+        }
+
+        .header .byline { color: #6b7a86; font-size: 1rem; margin-bottom: 14px; }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 62px;
+            padding: 0 24px;
+            border: 3px solid #00693E;
+            border-radius: 14px;
+            color: #00693E;
+            background: white;
+            text-decoration: none;
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .back-link:active { background: #00693E; color: white; }
+
+        /* Filter chips */
+        .filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 18px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 54px;
+            padding: 0 16px;
+            border-radius: 999px;
+            border: 3px solid #3a3a3a;
+            background: #262626;
+            color: #e9edf0;
+            font: inherit;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .chip img { width: 26px; height: 26px; object-fit: contain; }
+        .chip.on { background: var(--team, #00693E); border-color: white; color: white; }
+
+        /* Month groups */
+        .month {
+            color: #cfd6db;
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin: 22px 4px 10px;
+        }
+
+        .story {
+            background: white;
+            border-radius: 16px;
+            border-left: 12px solid var(--team, #6b7a86);
+            padding: 16px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+        }
+
+        .story-team {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            font-weight: 800;
+            color: var(--team, #16222e);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .story-team img { width: 30px; height: 30px; object-fit: contain; }
+        .story-team .ball { font-size: 1.2rem; }
+
+        .story .headline {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #16222e;
+            line-height: 1.25;
+            margin-top: 8px;
+        }
+
+        .story .summary { font-size: 1.1rem; color: #33424d; margin-top: 6px; }
+        .story .stamp { font-size: 0.95rem; color: #6b7a86; font-weight: 700; margin-top: 8px; }
+
+        .story .source-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--team, #00693E);
+            font-weight: 800;
+            text-decoration: none;
+            border-bottom: 3px solid currentColor;
+        }
+
+        .message {
+            background: white;
+            border-radius: 16px;
+            padding: 24px 18px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #33424d;
+        }
+
+        .message small { display: block; font-weight: 500; color: #6b7a86; margin-top: 8px; font-size: 0.95rem; }
+
+        .count { text-align: center; color: #8a949c; font-size: 0.95rem; padding: 12px 0; }
+
+        a:focus-visible, .chip:focus-visible { outline: 4px solid #4da3ff; outline-offset: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="pageTitle">Story Archive</h1>
+            <div class="byline" id="pageByline">by Kevin Kolb</div>
+            <a class="back-link" href="steve.html">&larr; Today's Report</a>
+        </div>
+
+        <div class="filters" id="filters"></div>
+        <div id="stories"><div class="message">Loading the archive&hellip;</div></div>
+        <div class="count" id="count"></div>
+    </div>
+
+<script>
+(function () {
+    'use strict';
+
+    var MONTHS = ['January','February','March','April','May','June','July',
+                  'August','September','October','November','December'];
+    var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    var storiesEl = document.getElementById('stories');
+    var filtersEl = document.getElementById('filters');
+    var countEl = document.getElementById('count');
+
+    var state = { items: [], teams: {}, filter: 'all' };
+
+    function parseDate(iso) {
+        if (!iso) { return null; }
+        var p = String(iso).split('-');
+        if (p.length !== 3) { return null; }
+        var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear(); }
+    function monthKey(d) { return d ? MONTHS[d.getMonth()] + ' ' + d.getFullYear() : 'Undated'; }
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    // Team look-up comes from steve.json so the archive never drifts
+    // out of sync with the main report's colors and logos.
+    function teamInfo(id) {
+        return state.teams[id] || { name: id || 'Sports', colors: {}, ball: '' };
+    }
+
+    function buildStory(item) {
+        var t = teamInfo(item.teamId);
+        var card = el('div', 'story');
+        card.style.setProperty('--team', (t.colors && t.colors.primary) || '#6b7a86');
+
+        var head = el('div', 'story-team');
+        if (t.logo) {
+            var img = new Image();
+            img.src = t.logo;
+            img.alt = '';
+            head.appendChild(img);
+        }
+        if (t.ball) { head.appendChild(el('span', 'ball', t.ball)); }
+        head.appendChild(el('span', null, t.name));
+        card.appendChild(head);
+
+        card.appendChild(el('div', 'headline', item.headline || ''));
+        if (item.summary) { card.appendChild(el('div', 'summary', item.summary)); }
+
+        var d = parseDate(item.date);
+        var stamp = [d ? longDate(d) : null, item.source].filter(Boolean).join(' · ');
+        if (stamp) { card.appendChild(el('div', 'stamp', stamp)); }
+
+        if (item.url) {
+            var a = el('a', 'source-link', 'Read the story');
+            a.href = item.url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            card.appendChild(a);
+        }
+        return card;
+    }
+
+    function visibleItems() {
+        if (state.filter === 'all') { return state.items; }
+        return state.items.filter(function (i) { return i.teamId === state.filter; });
+    }
+
+    function renderStories() {
+        var items = visibleItems();
+        storiesEl.textContent = '';
+
+        if (!items.length) {
+            var box = el('div', 'message', 'Nothing in the archive yet.');
+            box.appendChild(el('small', null, 'Coach Steve Bot moves older stories here as new ones come in.'));
+            storiesEl.appendChild(box);
+            countEl.textContent = '';
+            return;
+        }
+
+        var currentMonth = null;
+        items.forEach(function (item) {
+            var key = monthKey(parseDate(item.date));
+            if (key !== currentMonth) {
+                currentMonth = key;
+                storiesEl.appendChild(el('div', 'month', key));
+            }
+            storiesEl.appendChild(buildStory(item));
+        });
+
+        countEl.textContent = items.length + (items.length === 1 ? ' story' : ' stories');
+    }
+
+    function buildChip(id, label, team) {
+        var b = el('button', 'chip' + (state.filter === id ? ' on' : ''));
+        b.type = 'button';
+        b.style.setProperty('--team', (team && team.colors && team.colors.primary) || '#00693E');
+        if (team && team.logo) {
+            var img = new Image();
+            img.src = team.logo;
+            img.alt = '';
+            b.appendChild(img);
+        }
+        b.appendChild(el('span', null, label));
+        b.addEventListener('click', function () {
+            state.filter = id;
+            renderFilters();
+            renderStories();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        return b;
+    }
+
+    function renderFilters() {
+        filtersEl.textContent = '';
+        filtersEl.appendChild(buildChip('all', 'All', null));
+
+        // Only offer a chip for teams that actually have archived stories.
+        var seen = {};
+        state.items.forEach(function (i) { if (i.teamId) { seen[i.teamId] = true; } });
+        Object.keys(state.teams).forEach(function (id) {
+            if (seen[id]) { filtersEl.appendChild(buildChip(id, teamInfo(id).name, state.teams[id])); }
+        });
+    }
+
+    function sortNewestFirst(items) {
+        return items.slice().sort(function (a, b) {
+            return String(b.date || '').localeCompare(String(a.date || ''));
+        });
+    }
+
+    function showError() {
+        storiesEl.textContent = '';
+        var box = el('div', 'message', 'The archive could not be loaded.');
+        box.appendChild(el('small', null,
+            'steve_archive.json did not load. If you opened this file directly, serve the folder instead ' +
+            '(for example: python -m http.server) and reload.'));
+        storiesEl.appendChild(box);
+    }
+
+    function get(url) {
+        return fetch(url + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        });
+    }
+
+    Promise.all([
+        get('steve_archive.json'),
+        get('steve.json').catch(function () { return { teams: [] }; })
+    ]).then(function (results) {
+        var archive = results[0];
+        var main = results[1];
+
+        (main.teams || []).forEach(function (t) { state.teams[t.id] = t; });
+        state.items = sortNewestFirst(archive.items || []);
+
+        var meta = archive.meta || {};
+        if (meta.title) {
+            document.title = meta.title;
+            document.getElementById('pageTitle').textContent = meta.title;
+        }
+        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+
+        renderFilters();
+        renderStories();
+    }).catch(showError);
+})();
+</script>
+</body>
+</html>

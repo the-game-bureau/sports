@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
     <link rel="apple-touch-icon" sizes="180x180" href="images/tulane.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/tulane.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/tulane.png">
@@ -10,805 +11,634 @@
     <title>Coach Steve's Sports Report by Kevin Kolb</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
     <style>
-        html {
-            scroll-behavior: smooth;
+        /* ============================================================
+           Coach Steve's Sports Report
+           Built for a mobile reader with Alzheimer's: big type, high
+           contrast, answers on the page instead of links to go find.
+           All content comes from steve.json.
+           ============================================================ */
+
+        html { scroll-behavior: smooth; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            * { transition: none !important; animation: none !important; }
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background: #1a1a1a;
-            min-height: 100vh;
-            line-height: 1.6;
-            font-size: 18px;
+            color: #1c1c1c;
+            line-height: 1.45;
+            font-size: 20px;
+            -webkit-text-size-adjust: 100%;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 720px;
             margin: 0 auto;
-            padding: 15px;
+            padding: 12px 12px 120px; /* room for the sticky team bar */
         }
 
+        /* ---------------- Header ---------------- */
         .header {
-            text-align: center;
-            margin-bottom: 20px;
-            padding: 15px 20px;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            border-radius: 16px;
+            padding: 18px 16px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+            margin-bottom: 18px;
         }
 
         .header h1 {
-            font-size: clamp(1.8rem, 6vw, 2.8rem);
-            font-weight: 600;
+            font-size: clamp(1.7rem, 7vw, 2.4rem);
+            font-weight: 800;
             letter-spacing: -0.02em;
-            color: #2c3e50;
-            margin-bottom: 4px;
+            color: #16222e;
         }
 
-        .header p {
-            font-size: clamp(1rem, 3vw, 1.2rem);
-            color: #7f8c8d;
-            font-weight: 400;
-            margin-bottom: 20px;
+        .header .byline { color: #6b7a86; font-size: 1rem; }
+
+        .today {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 3px solid #eef1f4;
+            font-size: clamp(1.15rem, 4.5vw, 1.45rem);
+            font-weight: 800;
+            color: #16222e;
         }
 
-        .team-navigation {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-            width: 100%;
-            flex-wrap: nowrap;
-            max-width: 100%;
-            box-sizing: border-box;
-        }
-
-        .nav-team-icon {
-            width: calc(20% - 8px);
-            height: 70px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            padding: 8px;
-            flex-shrink: 1;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            box-sizing: border-box;
-        }
-
-        .nav-team-icon:hover, .nav-team-icon:focus {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-        }
-
-        .nav-team-icon img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-        }
-
-        .nav-team-icon.tulane {
-            background: #00693E;
-        }
-
-        .nav-team-icon.saints {
-            background: #D3BC8D;
-        }
-
-        .nav-team-icon.iup {
-            background: #722F37;
-        }
-
-        .nav-team-icon.yankees {
-            background: #132448;
-        }
-
-        .nav-team-icon.texas {
-            background: #BF5700;
-        }
-
-        .teams-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 30px;
-        }
-
+        /* ---------------- Team card ---------------- */
         .team-card {
-            background: #f5f5f5;
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+            margin-bottom: 22px;
+            border-top: 12px solid var(--team);
+            scroll-margin-top: 12px;
+        }
+
+        /* Row 1: logo + ball + team name — the identity strip */
+        .team-strip {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 16px 14px;
+            background: var(--team);
+            color: white;
+        }
+
+        .team-badge {
+            width: 76px;
+            height: 76px;
+            flex: 0 0 76px;
             border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            transition: all 0.3s ease;
-            position: relative;
-            border: 3px solid transparent;
-        }
-
-        .team-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-        }
-
-        .team-header {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .sport-label {
-            background: #484646;
-            color: rgba(255,255,255,0.95);
-            padding: 16px 24px;
-            font-size: clamp(1rem, 3.5vw, 1.2rem);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            font-weight: 700;
+            background: white;
             display: flex;
             align-items: center;
-            gap: 12px;
-        }
-
-        .sport-icon {
-            font-size: 1.2em;
-        }
-
-        .team-banner {
-            background: var(--team-color);
-            height: 120px;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-        }
-
-        .logo-section {
-            width: 100px;
-            display: flex;
             justify-content: center;
-            align-items: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
         }
 
-        .name-section {
-            flex: 1;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 0 20px;
-            gap: 16px;
-        }
+        .team-badge img { width: 58px; height: 58px; object-fit: contain; }
 
-        .photo-section {
-            width: 100px;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            border-radius: 12px;
-            margin-right: 10px;
-        }
-
-        .team-logo {
-            width: 70px;
-            height: 70px;
-            object-fit: contain;
-            transition: transform 0.2s ease;
-        }
-
-        .team-logo:hover {
-            transform: scale(1.05);
-        }
+        .team-id { min-width: 0; flex: 1; }
 
         .team-name {
-            font-size: clamp(1.6rem, 6vw, 2.2rem);
-            font-weight: 600;
-            color: white;
+            font-size: clamp(1.5rem, 6.5vw, 2.1rem);
+            font-weight: 800;
+            line-height: 1.1;
             letter-spacing: -0.01em;
-            text-align: left;
-            line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
-        .person-photo {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            object-position: center top;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: transform 0.2s ease;
-        }
-
-        .person-photo:hover {
-            transform: scale(1.05);
-        }
-
-        .next-game-container {
-            margin: 20px;
+        .team-sport {
             display: flex;
-            align-items: center;
-            gap: 16px;
-            position: relative;
-        }
-
-        .next-game {
-            flex: 1;
-            padding: 20px;
-            background: linear-gradient(135deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 100%);
-            border-radius: 16px;
-            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-            border: 3px solid var(--team-color);
-            display: flex;
-            align-items: center;
-            gap: 18px;
-        }
-
-        .game-info {
-            flex: 1;
-        }
-
-        .tv-icon {
-            width: 64px;
-            height: 64px;
-            background: white;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            padding: 8px;
-            text-decoration: none;
-            transition: transform 0.2s ease;
-            border: 2px solid var(--team-color);
-        }
-
-        .tv-icon:hover {
-            transform: scale(1.05);
-        }
-
-        .tv-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            object-position: center;
-        }
-
-        .next-game-label {
-            font-size: clamp(0.9rem, 3vw, 1.1rem);
-            color: #666;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-
-        .opponent {
-            font-size: clamp(1.3rem, 4vw, 1.6rem);
-            font-weight: 700;
-            color: var(--team-color);
-            margin-bottom: 8px;
-            line-height: 1.2;
-        }
-
-        .game-details {
-            font-size: clamp(1rem, 3vw, 1.2rem);
-            color: #555;
-            line-height: 1.4;
-            font-weight: 500;
-        }
-
-        .game-time {
-            font-weight: 700;
-            color: var(--team-color);
-        }
-
-        .team-actions {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            padding: 24px 24px 16px;
-        }
-
-        .bottom-navigation {
-            display: flex;
-            justify-content: space-between;
             align-items: center;
             gap: 8px;
-            padding: 16px 24px 24px;
-            border-top: 2px solid rgba(0,0,0,0.1);
-        }
-
-        .bottom-nav-icon {
-            width: calc(20% - 6.4px);
-            height: 50px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            padding: 6px;
-            flex-shrink: 1;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-            box-sizing: border-box;
-        }
-
-        .bottom-nav-icon:hover, .bottom-nav-icon:focus {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
-        }
-
-        .bottom-nav-icon img {
-            width: 35px;
-            height: 35px;
-            object-fit: contain;
-        }
-
-        .bottom-nav-icon.tulane {
-            background: #00693E;
-        }
-
-        .bottom-nav-icon.saints {
-            background: #D3BC8D;
-        }
-
-        .bottom-nav-icon.iup {
-            background: #722F37;
-        }
-
-        .bottom-nav-icon.yankees {
-            background: #132448;
-        }
-
-        .bottom-nav-icon.texas {
-            background: #BF5700;
-        }
-
-        .action-btn {
-            padding: 22px 24px;
-            border: 3px solid var(--team-color);
-            background: var(--team-secondary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 12px;
+            margin-top: 4px;
+            font-size: 1.05rem;
             font-weight: 700;
-            text-align: center;
-            transition: all 0.2s ease;
-            font-size: clamp(1.8rem, 5vw, 2.2rem);
+            opacity: 0.95;
+        }
+
+        .ball { font-size: 1.6rem; line-height: 1; }
+
+        .record {
+            background: rgba(255,255,255,0.22);
+            border-radius: 999px;
+            padding: 2px 12px;
+            font-size: 1rem;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+
+        /* Row 2: the next game — the whole point of the page */
+        .section-label {
+            font-size: 1rem;
+            font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            min-height: 80px;
+            letter-spacing: 0.12em;
+            color: #6b7a86;
+        }
+
+        .next-game { padding: 18px 16px; }
+
+        .when-chip {
+            display: inline-block;
+            background: var(--team);
+            color: white;
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 6px 16px;
+            border-radius: 999px;
+            margin: 8px 0 10px;
+        }
+
+        .matchup {
+            font-size: clamp(1.7rem, 8vw, 2.5rem);
+            font-weight: 800;
+            line-height: 1.15;
+            color: #16222e;
+        }
+
+        .matchup .vs { color: #6b7a86; font-weight: 700; }
+
+        .when-line {
+            font-size: clamp(1.25rem, 5.5vw, 1.6rem);
+            font-weight: 800;
+            color: #16222e;
+            margin-top: 10px;
+        }
+
+        .where-line {
+            font-size: 1.1rem;
+            color: #4a5a66;
+            margin-top: 4px;
+        }
+
+        .watch {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-top: 16px;
+            padding: 14px;
+            border: 3px solid #e4e9ed;
+            border-radius: 14px;
+            background: #f7f9fa;
+            text-decoration: none;
+            color: #16222e;
+        }
+
+        .watch img { width: 74px; height: 40px; object-fit: contain; flex-shrink: 0; }
+        .watch .watch-text { font-size: 1.2rem; font-weight: 800; }
+        .watch .watch-sub { font-size: 0.95rem; color: #6b7a86; font-weight: 600; }
+
+        .empty-line {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #6b7a86;
+            padding: 6px 0 2px;
+        }
+
+        /* Last game */
+        .last-game {
+            margin: 0 16px 18px;
+            padding: 14px 16px;
+            border-radius: 14px;
+            background: #f2f5f7;
+            border-left: 10px solid #6b7a86;
+        }
+
+        .last-game.win { border-left-color: #1f8a4c; }
+        .last-game.loss { border-left-color: #b3261e; }
+
+        .result {
+            font-size: clamp(1.3rem, 5.5vw, 1.7rem);
+            font-weight: 800;
+            color: #16222e;
+            margin-top: 4px;
+        }
+
+        .result .win-word { color: #1f8a4c; }
+        .result .loss-word { color: #b3261e; }
+
+        /* News */
+        .news { margin: 0 16px 18px; }
+        .news ul { list-style: none; }
+
+        .news li {
+            padding: 14px 0;
+            border-top: 3px solid #eef1f4;
+        }
+
+        .news .headline {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #16222e;
+            line-height: 1.25;
+        }
+
+        .news .summary { font-size: 1.1rem; color: #33424d; margin-top: 4px; }
+        .news .stamp { font-size: 0.9rem; color: #6b7a86; font-weight: 700; margin-top: 4px; }
+
+        /* Person photo */
+        .person {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin: 0 16px 18px;
+        }
+
+        .person img {
+            width: 96px;
+            height: 96px;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 4px solid var(--team);
+        }
+
+        .person .caption { font-size: 1.25rem; font-weight: 800; color: #16222e; }
+
+        /* Links — kept to a couple per team on purpose */
+        .team-links {
+            display: flex;
+            gap: 12px;
+            padding: 0 16px 18px;
+            flex-wrap: wrap;
+        }
+
+        .team-links a {
+            flex: 1 1 40%;
+            min-height: 66px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-
-        .action-btn:hover, .action-btn:focus {
+            border: 3px solid var(--team);
+            border-radius: 14px;
+            color: var(--team);
             background: white;
-            color: var(--team-color);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
         }
 
-        .action-btn:active {
-            transform: translateY(0);
+        .team-links a:active { background: var(--team); color: white; }
+
+        /* ---------------- Sticky team bar ---------------- */
+        .team-bar {
+            position: fixed;
+            left: 0; right: 0; bottom: 0;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 10px calc(10px + env(safe-area-inset-bottom));
+            background: rgba(20,20,20,0.97);
+            border-top: 3px solid #333;
+            z-index: 50;
         }
 
-        .action-btn.primary {
-            background: var(--team-color);
-            color: white;
-            border: 3px solid var(--team-color);
-            font-size: clamp(2rem, 5.5vw, 2.4rem);
-            min-height: 88px;
+        .team-bar a {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--team);
+            box-shadow: 0 3px 8px rgba(0,0,0,0.4);
         }
 
-        .action-btn.primary:hover, .action-btn.primary:focus {
+        .team-bar img { width: 38px; height: 38px; object-fit: contain; }
+
+        /* ---------------- States ---------------- */
+        .message {
             background: white;
-            color: var(--team-color);
+            border-radius: 16px;
+            padding: 24px 18px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #33424d;
         }
 
-        /* Team Colors */
-        .tulane-football { 
-            --team-color: #00693E;
-            --team-secondary-color: #87CEEB;
-        }
-        .saints { 
-            --team-color: #D3BC8D;
-            --team-secondary-color: #000000;
-        }
-        .iup-volleyball { 
-            --team-color: #722F37;
-            --team-secondary-color: #C1A875;
-        }
-        .yankees { 
-            --team-color: #132448;
-            --team-secondary-color: #C4CED4;
-        }
-        .texas-football { 
-            --team-color: #BF5700;
-            --team-secondary-color: #000;
+        .message small { display: block; font-weight: 500; color: #6b7a86; margin-top: 8px; font-size: 0.95rem; }
+
+        .updated {
+            text-align: center;
+            color: #8a949c;
+            font-size: 0.95rem;
+            padding: 4px 0 10px;
         }
 
-        /* Team border accents */
-        #tulane-card { border-left: 10px solid #87CEEB !important; }
-        #saints-card { border-left: 10px solid #000000 !important; }
-        #iup-card { border-left: 10px solid #C1A875 !important; }
-        #yankees-card { border-left: 10px solid #C4CED4 !important; }
-        #texas-card { border-left: 10px solid #FFFFFF !important; }
-
-        /* Mobile navigation adjustments */
-        @media (max-width: 768px) {
-            .team-navigation {
-                gap: 8px;
-            }
-            
-            .nav-team-icon {
-                height: 60px;
-                padding: 8px;
-            }
-
-            .nav-team-icon img {
-                width: 40px;
-                height: 40px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .team-navigation {
-                gap: 6px;
-            }
-            
-            .nav-team-icon {
-                height: 50px;
-                padding: 6px;
-            }
-
-            .nav-team-icon img {
-                width: 35px;
-                height: 35px;
-            }
+        a:focus-visible, .watch:focus-visible {
+            outline: 4px solid #4da3ff;
+            outline-offset: 3px;
         }
 
-        /* Focus styles for keyboard navigation */
-        .action-btn:focus,
-        .person-photo:focus,
-        .nav-team-icon:focus,
-        .bottom-nav-icon:focus,
-        .tv-icon:focus {
-            outline: 4px solid #007acc;
-            outline-offset: 2px;
-        }
-
-        /* Mobile adjustments for bottom navigation */
-        @media (max-width: 768px) {
-            .bottom-navigation {
-                gap: 6px;
-                padding: 12px 24px 20px;
-            }
-            
-            .bottom-nav-icon {
-                width: calc(20% - 4.8px);
-                height: 45px;
-            }
-
-            .bottom-nav-icon img {
-                width: 30px;
-                height: 30px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .bottom-navigation {
-                gap: 4px;
-                padding: 10px 24px 18px;
-            }
-            
-            .bottom-nav-icon {
-                width: calc(20% - 3.2px);
-                height: 40px;
-            }
-
-            .bottom-nav-icon img {
-                width: 25px;
-                height: 25px;
-            }
+        @media (max-width: 380px) {
+            .team-badge { width: 62px; height: 62px; flex-basis: 62px; }
+            .team-badge img { width: 46px; height: 46px; }
+            .team-bar a { width: 48px; height: 48px; }
+            .team-bar img { width: 32px; height: 32px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Coach Steve's Sports Report</h1>
-            <p>by Kevin Kolb</p>
-            <div class="team-navigation">
-                <a href="#tulane-card" class="nav-team-icon tulane" aria-label="Go to Tulane Green Wave">
-                    <img src="images/tulane.svg" alt="Tulane Logo">
-                </a>
-                <a href="#saints-card" class="nav-team-icon saints" aria-label="Go to New Orleans Saints">
-                    <img src="images/saints.webp" alt="Saints Logo">
-                </a>
-                <a href="#iup-card" class="nav-team-icon iup" aria-label="Go to IUP Crimson Hawks">
-                    <img src="images/iup.webp" alt="IUP Logo">
-                </a>
-                <a href="#yankees-card" class="nav-team-icon yankees" aria-label="Go to New York Yankees">
-                    <img src="images/yankees.svg" alt="Yankees Logo">
-                </a>
-                <a href="#texas-card" class="nav-team-icon texas" aria-label="Go to Texas Longhorns">
-                    <img src="images/texas.png" alt="Texas Logo">
-                </a>
-            </div>
+            <h1 id="pageTitle">Coach Steve's Sports Report</h1>
+            <div class="byline" id="pageByline">by Kevin Kolb</div>
+            <div class="today" id="todayLine"></div>
         </div>
 
-        <div class="teams-grid">
-            <!-- Tulane Green Wave Football -->
-            <div class="team-card tulane-football" id="tulane-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>College Football</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/tulane.svg" alt="Tulane Logo" class="team-logo">
-                            <div class="team-name">Tulane<br>Green Wave</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/jon.webp" alt="Jon's Photo" class="person-photo">
-                        </div>
-                    </div>
-                    <div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Next Game</div>
-                                <div class="opponent">at University of South Alabama</div>
-                                <div class="game-details">
-                                    Saturday, Sep 6th • <span class="game-time">6:00 PM</span><br>
-                                    Hancock Whitney Stadium • Mobile, AL
-                                </div>
-                            </div>
-                            <a href="https://tv.youtube.com/watch" class="tv-icon" target="_blank" aria-label="Watch on ESPN+">
-                                <img src="images/espnplus.webp" alt="ESPN+">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://tulanegreenwave.com/sports/football/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://tulanegreenwave.com/sports/football" class="action-btn">Stats</a>
-                    <a href="https://tulanegreenwave.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
-                    <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn">Video</a>
-                    <a href="https://www.facebook.com/GreenWaveFootball" class="action-btn">Facebook</a>
-                    <a href="https://www.nola.com/sports/tulane/" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
-
-            <!-- New Orleans Saints -->
-            <div class="team-card saints" id="saints-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>NFL Football</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/saints.webp" alt="Saints Logo" class="team-logo">
-                            <div class="team-name">New Orleans<br>Saints</div>
-                        </div>
-                        <div class="photo-section">
-                            <!-- Blank space -->
-                        </div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://static.clubs.nfl.com/image/upload/v1747498299/saints/anby4axbumnevg3somx3.pdf" class="action-btn primary">Schedule</a>
-                    <a href="https://www.neworleanssaints.com/team/stats/2025/REG" class="action-btn">Stats</a>
-                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
-                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
-                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
-
-            <!-- IUP Volleyball -->
-            <div class="team-card iup-volleyball" id="iup-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏐</span>
-                        <span>College Volleyball</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/iup.webp" alt="IUP Logo" class="team-logo">
-                            <div class="team-name">IUP<br>Crimson Hawks</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/peyton.webp" alt="Peyton's Photo" class="person-photo" onclick="window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank')" tabindex="0">
-                        </div>
-                    </div>
-                    <div class="next-game-container">
-                        <div class="next-game">
-                            <div class="game-info">
-                                <div class="next-game-label">Next Match</div>
-                                <div class="opponent">Ashland Invitational</div>
-                                <div class="game-details">
-                                    Friday, Sep 5 • <span class="game-time">2:00 PM</span><br>
-                                    vs Daemen • Ashland, OH
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://iupathletics.com/sports/womens-volleyball/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://iupathletics.com/sports/2011/8/5/WVB_0805114410.aspx" class="action-btn">Stats</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/roster?view=3&sort=name" class="action-btn">Roster</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/coaches" class="action-btn">Coaches</a>
-                    <a href="https://www.instagram.com/peyton_belcher10" class="action-btn">Peyton's Photos</a>
-                    <a href="https://iupathletics.com/sports/womens-volleyball/archives?search=&sport=wvball&season=0" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
-
-            <!-- New York Yankees -->
-            <div class="team-card yankees" id="yankees-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">⚾</span>
-                        <span>MLB Baseball</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/yankees.svg" alt="Yankees Logo" class="team-logo">
-                            <div class="team-name">New York<br>Yankees</div>
-                        </div>
-                        <div class="photo-section">
-                            <!-- Blank space -->
-                        </div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://www.mlb.com/yankees/stats" class="action-btn">Stats</a>
-                    <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
-                    <a href="https://www.mlb.com/yankees/roster/coaches" class="action-btn">Coaches</a>
-                    <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Texas Longhorns Football -->
-            <div class="team-card texas-football" id="texas-card">
-                <div class="team-header">
-                    <div class="sport-label">
-                        <span class="sport-icon">🏈</span>
-                        <span>College Football</span>
-                    </div>
-                    <div class="team-banner">
-                        <div class="name-section">
-                            <img src="images/texas.png" alt="Texas Logo" class="team-logo">
-                            <div class="team-name">Texas<br>Longhorns</div>
-                        </div>
-                        <div class="photo-section">
-                            <img src="images/arch.png" alt="Arch Manning's Photo" class="person-photo">
-                        </div>
-                    </div>
-                <div class="team-actions">
-                    <a href="https://texassports.com/sports/football/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://texassports.com/sports/football/stats" class="action-btn">Stats</a>
-                    <a href="https://texassports.com/sports/football/roster" class="action-btn">Roster & Coaches</a>
-                    <a href="https://watch.longhornnetwork.com/home" class="action-btn">Video</a>
-                    <a href="https://www.facebook.com/TexasLonghorns" class="action-btn">Facebook</a>
-                    <a href="https://www.espn.com/college-football/team/_/id/251/texas-longhorns" class="action-btn">News</a>
-                </div>
-                <div class="bottom-navigation">
-                    <a href="#tulane-card" class="bottom-nav-icon tulane" aria-label="Go to Tulane Green Wave">
-                        <img src="images/tulane.svg" alt="Tulane Logo">
-                    </a>
-                    <a href="#saints-card" class="bottom-nav-icon saints" aria-label="Go to New Orleans Saints">
-                        <img src="images/saints.webp" alt="Saints Logo">
-                    </a>
-                    <a href="#iup-card" class="bottom-nav-icon iup" aria-label="Go to IUP Crimson Hawks">
-                        <img src="images/iup.webp" alt="IUP Logo">
-                    </a>
-                    <a href="#yankees-card" class="bottom-nav-icon yankees" aria-label="Go to New York Yankees">
-                        <img src="images/yankees.svg" alt="Yankees Logo">
-                    </a>
-                    <a href="#texas-card" class="bottom-nav-icon texas" aria-label="Go to Texas Longhorns">
-                        <img src="images/texas.png" alt="Texas Logo">
-                    </a>
-                </div>
-            </div>
+        <div id="teams">
+            <div class="message">Loading today's report&hellip;</div>
         </div>
+
+        <div class="updated" id="updatedLine"></div>
     </div>
 
-    <script>
-        // Simple functionality - just Peyton's photo
-        document.addEventListener('DOMContentLoaded', function() {
-            const peytonPhoto = document.querySelector('.iup-volleyball .person-photo');
-            
-            if (peytonPhoto) {
-                peytonPhoto.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123', '_blank');
-                    }
-                });
-            }
+    <nav class="team-bar" id="teamBar" aria-label="Jump to a team"></nav>
+
+<script>
+(function () {
+    'use strict';
+
+    var MONTHS = ['January','February','March','April','May','June','July',
+                  'August','September','October','November','December'];
+    var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    var teamsEl = document.getElementById('teams');
+    var barEl = document.getElementById('teamBar');
+
+    // ---------- dates ----------
+    // steve.json stores plain "YYYY-MM-DD" — parse as local, not UTC,
+    // so the day never slips backwards for a US reader.
+    function parseDate(iso) {
+        if (!iso) { return null; }
+        var p = String(iso).split('-');
+        if (p.length !== 3) { return null; }
+        var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+
+    function daysUntil(d) {
+        var today = midnight(new Date());
+        return Math.round((midnight(d) - today) / 86400000);
+    }
+
+    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate(); }
+
+    // The chip is the fastest read on the card: how soon is this?
+    function whenChip(d) {
+        var n = daysUntil(d);
+        if (n === 0) { return 'Today'; }
+        if (n === 1) { return 'Tomorrow'; }
+        if (n > 1 && n <= 6) { return 'In ' + n + ' days'; }
+        return DAYS[d.getDay()];
+    }
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    // ---------- card pieces ----------
+    function buildStrip(team) {
+        var strip = el('div', 'team-strip');
+
+        var badge = el('div', 'team-badge');
+        var logo = new Image();
+        logo.src = team.logo;
+        logo.alt = '';
+        badge.appendChild(logo);
+        strip.appendChild(badge);
+
+        var id = el('div', 'team-id');
+        var name = el('div', 'team-name');
+        (team.nameLines || [team.name]).forEach(function (line, i) {
+            if (i) { name.appendChild(document.createElement('br')); }
+            name.appendChild(document.createTextNode(line));
         });
-    </script>
+        id.appendChild(name);
+
+        var sport = el('div', 'team-sport');
+        sport.appendChild(el('span', 'ball', team.ball || '🏅'));
+        sport.appendChild(el('span', null, team.sport || ''));
+        if (team.record) { sport.appendChild(el('span', 'record', team.record)); }
+        id.appendChild(sport);
+
+        strip.appendChild(id);
+        return strip;
+    }
+
+    function buildNextGame(team) {
+        var wrap = el('div', 'next-game');
+        wrap.appendChild(el('div', 'section-label', 'Next Game'));
+
+        var g = team.nextGame;
+        if (!g) {
+            wrap.appendChild(el('div', 'empty-line', 'No game scheduled yet.'));
+            return wrap;
+        }
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'when-chip', whenChip(d))); }
+
+        var matchup = el('div', 'matchup');
+        var word = g.homeAway === 'away' ? 'at ' : 'vs ';
+        matchup.appendChild(el('span', 'vs', word));
+        matchup.appendChild(document.createTextNode(g.opponent || ''));
+        wrap.appendChild(matchup);
+
+        var when = [];
+        if (d) { when.push(longDate(d)); }
+        if (g.time) { when.push(g.time); }
+        if (when.length) { wrap.appendChild(el('div', 'when-line', when.join(' at '))); }
+
+        var where = [g.venue, g.city].filter(Boolean).join(' — ');
+        if (where) { wrap.appendChild(el('div', 'where-line', where)); }
+
+        if (g.tv && g.tv.name) {
+            var watch = document.createElement(g.tv.url ? 'a' : 'div');
+            watch.className = 'watch';
+            if (g.tv.url) {
+                watch.href = g.tv.url;
+                watch.target = '_blank';
+                watch.rel = 'noopener';
+            }
+            if (g.tv.logo) {
+                var tvLogo = new Image();
+                tvLogo.src = g.tv.logo;
+                tvLogo.alt = '';
+                watch.appendChild(tvLogo);
+            }
+            var textWrap = el('div');
+            textWrap.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
+            textWrap.appendChild(el('div', 'watch-sub', g.time ? 'Starts at ' + g.time : 'Check your TV guide'));
+            watch.appendChild(textWrap);
+            wrap.appendChild(watch);
+        }
+
+        return wrap;
+    }
+
+    function buildLastGame(team) {
+        var g = team.lastGame;
+        if (!g) { return null; }
+
+        var won = String(g.result || '').toUpperCase().charAt(0) === 'W';
+        var wrap = el('div', 'last-game ' + (won ? 'win' : 'loss'));
+        wrap.appendChild(el('div', 'section-label', 'Last Game'));
+
+        var line = el('div', 'result');
+        line.appendChild(el('span', won ? 'win-word' : 'loss-word', won ? 'Won' : 'Lost'));
+        var score = [g.teamScore, g.opponentScore].filter(function (s) { return s || s === 0; });
+        if (score.length === 2) { line.appendChild(document.createTextNode(' ' + score[0] + '–' + score[1])); }
+        if (g.opponent) { line.appendChild(document.createTextNode(' vs ' + g.opponent)); }
+        wrap.appendChild(line);
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'where-line', longDate(d))); }
+        return wrap;
+    }
+
+    function buildNews(team) {
+        var items = team.news || [];
+        if (!items.length) { return null; }
+
+        var wrap = el('div', 'news');
+        wrap.appendChild(el('div', 'section-label', 'What Happened'));
+
+        var list = el('ul');
+        // Short attention span: never more than three stories on screen.
+        items.slice(0, 3).forEach(function (n) {
+            var li = el('li');
+            li.appendChild(el('div', 'headline', n.headline || ''));
+            if (n.summary) { li.appendChild(el('div', 'summary', n.summary)); }
+            var d = parseDate(n.date);
+            var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+            if (stamp) { li.appendChild(el('div', 'stamp', stamp)); }
+            list.appendChild(li);
+        });
+        wrap.appendChild(list);
+        return wrap;
+    }
+
+    function buildPerson(team) {
+        var p = team.person;
+        if (!p || !p.photo) { return null; }
+
+        var wrap = el('div', 'person');
+        var img = new Image();
+        img.src = p.photo;
+        img.alt = p.name ? p.name + "'s photo" : '';
+        wrap.appendChild(img);
+        if (p.caption || p.name) { wrap.appendChild(el('div', 'caption', p.caption || p.name)); }
+        return wrap;
+    }
+
+    function buildLinks(team) {
+        var links = team.links || [];
+        if (!links.length) { return null; }
+
+        var wrap = el('div', 'team-links');
+        links.slice(0, 2).forEach(function (l) {
+            var a = el('a', null, l.label);
+            a.href = l.url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            wrap.appendChild(a);
+        });
+        return wrap;
+    }
+
+    function buildCard(team) {
+        var card = el('div', 'team-card');
+        card.id = team.id + '-card';
+        card.style.setProperty('--team', (team.colors && team.colors.primary) || '#16222e');
+        card.style.setProperty('--accent', (team.colors && team.colors.secondary) || '#6b7a86');
+
+        card.appendChild(buildStrip(team));
+        card.appendChild(buildNextGame(team));
+        [buildLastGame(team), buildNews(team), buildPerson(team), buildLinks(team)]
+            .forEach(function (piece) { if (piece) { card.appendChild(piece); } });
+        return card;
+    }
+
+    function buildBarLink(team) {
+        var a = el('a');
+        a.href = '#' + team.id + '-card';
+        a.setAttribute('aria-label', 'Go to ' + team.name);
+        a.style.setProperty('--team', (team.colors && team.colors.primary) || '#16222e');
+        var img = new Image();
+        img.src = team.logo;
+        img.alt = '';
+        a.appendChild(img);
+        return a;
+    }
+
+    // ---------- render ----------
+    function render(data) {
+        var meta = data.meta || {};
+        if (meta.title) { document.getElementById('pageTitle').textContent = meta.title; }
+        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+
+        var now = new Date();
+        document.getElementById('todayLine').textContent =
+            'Today is ' + DAYS[now.getDay()] + ', ' + MONTHS[now.getMonth()] + ' ' + now.getDate();
+
+        var teams = (data.teams || []).filter(function (t) { return !t.hidden; });
+
+        teamsEl.textContent = '';
+        barEl.textContent = '';
+
+        if (!teams.length) {
+            teamsEl.appendChild(el('div', 'message', 'No teams to show yet.'));
+            return;
+        }
+
+        teams.forEach(function (team) {
+            teamsEl.appendChild(buildCard(team));
+            barEl.appendChild(buildBarLink(team));
+        });
+
+        var updated = parseDate(meta.updated);
+        if (updated) {
+            document.getElementById('updatedLine').textContent = 'Report updated ' + longDate(updated);
+        }
+    }
+
+    function showError() {
+        teamsEl.textContent = '';
+        var box = el('div', 'message', "Today's report could not be loaded.");
+        var small = el('small', null,
+            'steve.json did not load. If you opened this file directly, serve the folder instead ' +
+            '(for example: python -m http.server) and reload.');
+        box.appendChild(small);
+        teamsEl.appendChild(box);
+    }
+
+    // Cache-bust so a freshly pushed steve.json shows up on the next visit.
+    fetch('steve.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        })
+        .then(render)
+        .catch(showError);
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "title": "Coach Steve's Sports Report",
+    "byline": "by Kevin Kolb",
+    "season": "2025",
+    "updated": "2026-08-19",
+    "note": "Schedule data seeded from cfb_schedule.xml and games.xml (2025 season). Re-run games.py / teams.py to refresh."
+  },
+  "teams": [
+    {
+      "id": "tulane",
+      "name": "Tulane Green Wave",
+      "nameLines": [
+        "Tulane",
+        "Green Wave"
+      ],
+      "sport": "College Football",
+      "ball": "🏈",
+      "logo": "images/tulane.svg",
+      "colors": {
+        "primary": "#00693E",
+        "secondary": "#87CEEB"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "college-football",
+        "teamId": "2655"
+      },
+      "person": {
+        "name": "Jon",
+        "photo": "images/jon.webp",
+        "caption": "Jon"
+      },
+      "record": null,
+      "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Duke Blue Devils",
+        "date": "2026-09-05",
+        "time": "3:30 PM",
+        "venue": "Wallace Wade Stadium",
+        "city": "Durham, NC",
+        "tv": {
+          "name": "ACC Network",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": null,
+      "news": [],
+      "links": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/@TUGreenWave/videos"
+        },
+        {
+          "label": "News",
+          "url": "https://www.nola.com/sports/tulane/"
+        }
+      ]
+    },
+    {
+      "id": "florida",
+      "name": "Florida Gators",
+      "nameLines": [
+        "Florida",
+        "Gators"
+      ],
+      "sport": "College Football",
+      "ball": "🏈",
+      "logo": "images/florida.svg",
+      "colors": {
+        "primary": "#0021A5",
+        "secondary": "#FA4616"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "college-football",
+        "teamId": "57"
+      },
+      "person": {
+        "name": "Jon Sumrall",
+        "photo": "images/jon_sumrall.jpg",
+        "caption": "Coach Jon Sumrall"
+      },
+      "record": null,
+      "newsFocus": "Coach Jon Sumrall, SEC results, quarterback play, recruiting.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "home",
+        "opponent": "Florida Atlantic Owls",
+        "date": "2026-09-05",
+        "time": "7:45 PM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
+        "tv": {
+          "name": "SEC Network",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": null,
+      "news": [],
+      "links": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/@FloridaGators/videos"
+        },
+        {
+          "label": "News",
+          "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
+        }
+      ]
+    },
+    {
+      "id": "saints",
+      "name": "New Orleans Saints",
+      "nameLines": [
+        "New Orleans",
+        "Saints"
+      ],
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "images/saints.webp",
+      "colors": {
+        "primary": "#D3BC8D",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "18"
+      },
+      "person": null,
+      "record": "0-1",
+      "newsFocus": "Injury report, quarterback situation, NFC South race.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Los Angeles Rams",
+        "date": "2026-08-22",
+        "time": "1:00 PM",
+        "venue": "SoFi Stadium",
+        "city": "Inglewood, CA",
+        "tv": {
+          "name": "KCBS-TV",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": {
+        "result": "L",
+        "teamScore": 20,
+        "opponentScore": 24,
+        "opponent": "Jacksonville Jaguars",
+        "date": "2026-08-15"
+      },
+      "news": [],
+      "links": [
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/@neworleanssaints/videos"
+        },
+        {
+          "label": "News",
+          "url": "https://www.neworleanssaints.com/news/"
+        }
+      ]
+    },
+    {
+      "id": "iup",
+      "name": "IUP Crimson Hawks",
+      "nameLines": [
+        "IUP",
+        "Crimson Hawks"
+      ],
+      "sport": "Volleyball",
+      "ball": "🏐",
+      "logo": "images/iup.webp",
+      "colors": {
+        "primary": "#722F37",
+        "secondary": "#C1A875"
+      },
+      "espn": null,
+      "person": {
+        "name": "Peyton Belcher",
+        "photo": "images/peyton.webp",
+        "caption": "Peyton",
+        "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123"
+      },
+      "record": null,
+      "newsFocus": "PRIORITY: Peyton Belcher — stat lines, match honors, PSAC weekly awards, roster and feature stories. Then IUP Crimson Hawks volleyball match results and PSAC standings.",
+      "newsPriority": 1,
+      "nextGame": null,
+      "lastGame": null,
+      "news": [],
+      "links": [
+        {
+          "label": "Schedule",
+          "url": "https://iupathletics.com/sports/womens-volleyball/schedule"
+        },
+        {
+          "label": "Peyton's Photos",
+          "url": "https://www.instagram.com/peyton_belcher10"
+        }
+      ]
+    },
+    {
+      "id": "yankees",
+      "name": "New York Yankees",
+      "nameLines": [
+        "New York",
+        "Yankees"
+      ],
+      "sport": "Baseball",
+      "ball": "⚾",
+      "logo": "images/yankees.svg",
+      "colors": {
+        "primary": "#132448",
+        "secondary": "#C4CED4"
+      },
+      "espn": {
+        "sport": "baseball",
+        "league": "mlb",
+        "teamId": "10"
+      },
+      "person": null,
+      "record": "70-55",
+      "newsFocus": "Series results, injuries, playoff picture.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Baltimore Orioles",
+        "date": "2026-08-19",
+        "time": "6:35 PM",
+        "venue": "Oriole Park at Camden Yards",
+        "city": "Baltimore, MD",
+        "tv": {
+          "name": "MASN",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": {
+        "result": "W",
+        "teamScore": 3,
+        "opponentScore": 1,
+        "opponent": "Baltimore Orioles",
+        "date": "2026-08-18"
+      },
+      "news": [],
+      "links": [
+        {
+          "label": "Schedule",
+          "url": "https://www.mlb.com/yankees/schedule"
+        },
+        {
+          "label": "News",
+          "url": "https://www.foxsports.com/mlb/new-york-yankees-team"
+        }
+      ]
+    },
+    {
+      "id": "texas",
+      "name": "Texas Longhorns",
+      "nameLines": [
+        "Texas",
+        "Longhorns"
+      ],
+      "sport": "College Football",
+      "ball": "🏈",
+      "logo": "images/texas.png",
+      "colors": {
+        "primary": "#BF5700",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "college-football",
+        "teamId": "251"
+      },
+      "person": {
+        "name": "Arch Manning",
+        "photo": "images/arch.png",
+        "caption": "Arch Manning"
+      },
+      "record": null,
+      "newsFocus": "Arch Manning, SEC results, national rankings.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "home",
+        "opponent": "Texas State Bobcats",
+        "date": "2026-09-05",
+        "time": "2:30 PM",
+        "venue": "DKR-Texas Memorial Stadium",
+        "city": "Austin, TX",
+        "tv": {
+          "name": "ESPN",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": null,
+      "news": [],
+      "links": [
+        {
+          "label": "Video",
+          "url": "https://watch.longhornnetwork.com/home"
+        },
+        {
+          "label": "News",
+          "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
+        }
+      ]
+    }
+  ]
+}
