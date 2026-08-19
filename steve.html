@@ -266,17 +266,40 @@
             color: #888;
         }
 
-        .when-chip {
-            display: inline-block;
-            margin: 8px 0 10px;
-            padding: 5px 14px;
+        .next-game-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        /* Days until kickoff, counting down to 0 on game day. */
+        .countdown-badge {
+            flex-shrink: 0;
+            min-width: 78px;
+            padding: 6px 10px 7px;
             background: var(--banner-color, var(--team-color));
             color: #fff;
-            font-size: 1rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
             border-radius: 3px;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .countdown-badge .days {
+            display: block;
+            font-size: 1.9rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .countdown-badge .unit {
+            display: block;
+            margin-top: 3px;
+            font-size: 0.62rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
         }
 
         .matchup {
@@ -726,7 +749,10 @@
 
             .next-game { padding: 6px 9px 8px; }
             .block-label { font-size: 6pt; }
-            .when-chip { font-size: 7pt; padding: 2px 6px; margin: 3px 0 4px; }
+            .next-game-head { margin-bottom: 4px; }
+            .countdown-badge { min-width: 34px; padding: 2px 4px; }
+            .countdown-badge .days { font-size: 11pt; }
+            .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
             .matchup { font-size: 11pt; }
             .when-line { font-size: 9pt; margin-top: 4px; }
             .where-line { font-size: 7pt; }
@@ -818,7 +844,18 @@
     function daysUntil(d) { return Math.round((midnight(d) - midnight(new Date())) / 86400000); }
     function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate(); }
 
-    // Fastest read on the card: how soon is this?
+    // Fastest read on the card: how many days away, counting down to 0 on
+    // game day. The game stays on the card all day; tomorrow it rolls over.
+    function buildCountdown(d) {
+        var n = Math.max(0, daysUntil(d));
+        var badge = el('div', 'countdown-badge');
+        badge.appendChild(el('span', 'days', String(n)));
+        badge.appendChild(el('span', 'unit',
+            n === 0 ? 'Game Day' : (n === 1 ? 'Day To Go' : 'Days To Go')));
+        return badge;
+    }
+
+    // Words, for the compact rows under the next game.
     function whenChip(d) {
         var n = daysUntil(d);
         if (n === 0) { return 'Today'; }
@@ -943,15 +980,18 @@
         }
 
         var wrap = el('div', 'next-game');
-        wrap.appendChild(el('div', 'block-label', 'Next Game'));
+        var head = el('div', 'next-game-head');
+        head.appendChild(el('div', 'block-label', 'Next Game'));
 
         if (!g) {
+            wrap.appendChild(head);
             wrap.appendChild(el('div', 'when-line', 'No game scheduled yet.'));
             return wrap;
         }
 
         var d = parseDate(g.date);
-        if (d) { wrap.appendChild(el('div', 'when-chip', whenChip(d))); }
+        if (d) { head.appendChild(buildCountdown(d)); }
+        wrap.appendChild(head);
 
         var matchup = el('div', 'matchup');
         if (g.label) {

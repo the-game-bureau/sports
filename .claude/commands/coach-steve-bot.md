@@ -83,9 +83,13 @@ for e in json.load(sys.stdin)['events']:
 From those responses take:
 
 - **record** — `team.record.items[0].summary` (e.g. `"70-55"`). Leave it as-is if absent.
-- **next game** — the first event that is **not completed and not in the past**.
-  ESPN's `team.nextEvent` sometimes still points at a game that already happened, so
-  prefer the schedule and check the date yourself. Never write a past game as "next."
+- **next game** — the first event whose **local date is today or later**, even if it
+  has already finished. A game holds the card for its whole day: the countdown reads
+  0 on game day, and only the next morning does the following game take its place.
+  So do not skip today's game just because ESPN marks it completed at the final
+  whistle. Never write a game from a **previous** day as "next" — and note ESPN's
+  `team.nextEvent` sometimes still points at one, which is why you read the schedule
+  and check dates yourself.
 - **last game** — the most recent completed event: `result` `W`/`L` from the
   competitor's `winner` flag, both scores, opponent, date.
 - **TV** — from `competitions[0].broadcasts`. Prefer a channel a normal television
