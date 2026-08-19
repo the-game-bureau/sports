@@ -226,7 +226,12 @@
             object-fit: contain;
         }
 
-        /* Logo and ball ride together on the name row. */
+        .banner-ball {
+            font-size: 2rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
         .team-name {
             font-size: 1.65rem;
             font-weight: 800;
@@ -234,12 +239,6 @@
             letter-spacing: -0.02em;
             line-height: 1.1;
             text-transform: uppercase;
-        }
-
-        .team-name .ball {
-            font-size: 1.3rem;
-            margin-left: 0.3em;
-            vertical-align: baseline;
         }
 
         .person-photo {
@@ -655,6 +654,7 @@
             .nav-team-icon { height: 68px; }
             .nav-team-icon img { width: 40px; height: 40px; }
             .team-logo { width: 72px; height: 72px; }
+            .banner-ball { font-size: 2.3rem; }
             .photo-section { width: 80px; height: 80px; }
             .person-photo { width: 80px; height: 80px; }
         }
@@ -746,6 +746,7 @@
             .sport-label { padding: 4px 8px; font-size: 7pt; }
             .team-banner { padding: 7px 9px; gap: 7px; }
             .team-logo { width: 32px; height: 32px; }
+            .banner-ball { font-size: 11pt; }
             .team-name { font-size: 10pt; white-space: normal; }
             .photo-section { width: 40px; height: 40px; }
             .person-photo { width: 40px; height: 40px; }
@@ -920,14 +921,13 @@
         var banner = el('div', 'team-banner');
 
         var name = el('div', 'name-section');
+        if (team.ball) { name.appendChild(el('span', 'banner-ball', team.ball)); }
+
         var logo = img(team.logo, '');
         logo.className = 'team-logo';
         name.appendChild(logo);
 
-        var title = el('div', 'team-name');
-        title.appendChild(document.createTextNode(team.name));
-        if (team.ball) { title.appendChild(el('span', 'ball', team.ball)); }
-        name.appendChild(title);
+        name.appendChild(el('div', 'team-name', team.name));
         banner.appendChild(name);
 
         var p = team.person;
