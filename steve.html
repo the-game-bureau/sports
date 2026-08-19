@@ -548,6 +548,7 @@
 
         .footer-photo {
             display: block;
+            cursor: pointer;
             width: 100%;
             max-width: 420px;   /* portrait shot — full width would eat the screen */
             height: auto;
@@ -813,7 +814,8 @@
             <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <img class="footer-photo" src="images/steve_we_web.jpg" alt="Steve" loading="lazy">
+        <img class="footer-photo" id="footerPhoto" src="images/steve_we_web.jpg"
+             alt="Steve — tap to see it bigger" role="button" tabindex="0" loading="lazy">
         <button class="refresh-btn" id="refreshBtn">
             <span class="countdown" id="countdown"></span>
             <span class="refresh-label">🔄 Tap to Refresh</span>
@@ -1267,16 +1269,19 @@
         if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
     }
 
-    headerPhoto.addEventListener('click', function () {
-        openLightbox('images/steve_summy_web.jpg', 'Steve and Summy');
-    });
+    function wireLightbox(node, src, alt) {
+        if (!node) { return; }
+        node.addEventListener('click', function () { openLightbox(src, alt); });
+        node.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openLightbox(src, alt);
+            }
+        });
+    }
 
-    headerPhoto.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openLightbox('images/steve_summy_web.jpg', 'Steve and Summy');
-        }
-    });
+    wireLightbox(headerPhoto, 'images/steve_summy_web.jpg', 'Steve and Summy');
+    wireLightbox(document.getElementById('footerPhoto'), 'images/steve_we_web.jpg', 'Steve');
 
     lightbox.addEventListener('click', closeLightbox);
 
