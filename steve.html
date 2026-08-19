@@ -977,11 +977,11 @@
             photo.className = 'person-photo';
             if (p.url) {
                 photo.tabIndex = 0;
-                photo.addEventListener('click', function () { window.open(p.url, '_blank'); });
+                photo.addEventListener('click', function () { window.location.href = p.url; });
                 photo.addEventListener('keydown', function (e) {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        window.open(p.url, '_blank');
+                        window.location.href = p.url;
                     }
                 });
             }
@@ -1079,8 +1079,6 @@
             watch.className = 'watch';
             if (g.tv.url) {
                 watch.href = g.tv.url;
-                watch.target = '_blank';
-                watch.rel = 'noopener';
             }
             if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
             var text = el('div');
@@ -1140,8 +1138,6 @@
         wrap.className = 'latest-story';
         if (n.url) {
             wrap.href = n.url;
-            wrap.target = '_blank';
-            wrap.rel = 'noopener';
         }
         wrap.appendChild(el('div', 'latest-label', 'Latest'));
         wrap.appendChild(el('div', 'headline', n.headline));
@@ -1161,8 +1157,6 @@
             var a = el('a', 'action-btn' + (i === 0 ? ' primary' : '') +
                             (l.style === 'secondary' ? ' on-secondary' : ''));
             a.href = l.url;
-            a.target = '_blank';
-            a.rel = 'noopener';
             if (l.icon) {
                 var icon = img(l.icon, '');
                 icon.className = 'btn-icon';
