@@ -2,7 +2,7 @@
   "meta": {
     "title": "Coach Steve's Sports Report",
     "byline": "by Kevin Kolb",
-    "season": "2025",
+    "season": "2026",
     "updated": "2026-08-19",
     "note": "Schedule data seeded from cfb_schedule.xml and games.xml (2025 season). Re-run games.py / teams.py to refresh."
   },
@@ -10,16 +10,13 @@
     {
       "id": "tulane",
       "name": "Tulane Green Wave",
-      "nameLines": [
-        "Tulane",
-        "Green Wave"
-      ],
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/tulane.svg",
       "colors": {
         "primary": "#00693E",
-        "secondary": "#87CEEB"
+        "banner": "#00693E",
+        "light": "#CCE1D8"
       },
       "espn": {
         "sport": "football",
@@ -51,28 +48,42 @@
       "news": [],
       "links": [
         {
+          "label": "Full Schedule",
+          "url": "https://tulanegreenwave.com/sports/football/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://tulanegreenwave.com/sports/football/stats"
+        },
+        {
+          "label": "Roster & Coaches",
+          "url": "https://tulanegreenwave.com/sports/football/roster"
+        },
+        {
           "label": "Video",
-          "url": "https://www.youtube.com/@TUGreenWave/videos"
+          "url": "https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/GreenWaveFootball"
         },
         {
           "label": "News",
           "url": "https://www.nola.com/sports/tulane/"
         }
-      ]
+      ],
+      "offSeason": false
     },
     {
       "id": "florida",
       "name": "Florida Gators",
-      "nameLines": [
-        "Florida",
-        "Gators"
-      ],
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/florida.svg",
       "colors": {
         "primary": "#0021A5",
-        "secondary": "#FA4616"
+        "banner": "#0021A5",
+        "light": "#CCD2ED"
       },
       "espn": {
         "sport": "football",
@@ -104,28 +115,42 @@
       "news": [],
       "links": [
         {
+          "label": "Full Schedule",
+          "url": "https://floridagators.com/sports/football/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://floridagators.com/sports/football/stats"
+        },
+        {
+          "label": "Roster & Coaches",
+          "url": "https://floridagators.com/sports/football/roster"
+        },
+        {
           "label": "Video",
           "url": "https://www.youtube.com/@FloridaGators/videos"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/FloridaGators"
         },
         {
           "label": "News",
           "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
         }
-      ]
+      ],
+      "offSeason": false
     },
     {
       "id": "saints",
       "name": "New Orleans Saints",
-      "nameLines": [
-        "New Orleans",
-        "Saints"
-      ],
       "sport": "NFL Football",
       "ball": "🏈",
       "logo": "images/saints.webp",
       "colors": {
-        "primary": "#D3BC8D",
-        "secondary": "#000000"
+        "primary": "#101010",
+        "banner": "#B8985A",
+        "light": "#CFCFCF"
       },
       "espn": {
         "sport": "football",
@@ -159,35 +184,56 @@
       "news": [],
       "links": [
         {
-          "label": "Video",
-          "url": "https://www.youtube.com/@neworleanssaints/videos"
+          "label": "Full Schedule",
+          "url": "https://www.neworleanssaints.com/schedule/"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.neworleanssaints.com/team/stats/2026/REG"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.neworleanssaints.com/team/players-roster/"
+        },
+        {
+          "label": "Coaches",
+          "url": "https://www.neworleanssaints.com/team/coaches/"
         },
         {
           "label": "News",
           "url": "https://www.neworleanssaints.com/news/"
+        }
+      ],
+      "offSeason": false,
+      "extraEvents": [
+        {
+          "label": "Open Practice (Shells)",
+          "date": "2026-08-26",
+          "time": "7:00 PM",
+          "endTime": "8:00 PM",
+          "venue": "Yulman Stadium, Tulane University",
+          "city": "New Orleans, LA",
+          "note": "Open to the public"
         }
       ]
     },
     {
       "id": "iup",
       "name": "IUP Crimson Hawks",
-      "nameLines": [
-        "IUP",
-        "Crimson Hawks"
-      ],
       "sport": "Volleyball",
       "ball": "🏐",
       "logo": "images/iup.webp",
       "colors": {
         "primary": "#722F37",
-        "secondary": "#C1A875"
+        "banner": "#722F37",
+        "light": "#E2D5D7"
       },
       "espn": null,
       "person": {
         "name": "Peyton Belcher",
-        "photo": "images/peyton.webp",
+        "photo": "https://iupathletics.com/images/2025/9/2/Peyton_Belcher.png?width=140",
         "caption": "Peyton",
-        "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10123"
+        "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348"
       },
       "record": null,
       "newsFocus": "PRIORITY: Peyton Belcher — stat lines, match honors, PSAC weekly awards, roster and feature stories. Then IUP Crimson Hawks volleyball match results and PSAC standings.",
@@ -197,28 +243,34 @@
       "news": [],
       "links": [
         {
-          "label": "Schedule",
+          "label": "Full Schedule",
           "url": "https://iupathletics.com/sports/womens-volleyball/schedule"
+        },
+        {
+          "label": "Roster",
+          "url": "https://iupathletics.com/sports/womens-volleyball/roster"
+        },
+        {
+          "label": "Peyton's Page",
+          "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348"
         },
         {
           "label": "Peyton's Photos",
           "url": "https://www.instagram.com/peyton_belcher10"
         }
-      ]
+      ],
+      "offSeason": false
     },
     {
       "id": "yankees",
       "name": "New York Yankees",
-      "nameLines": [
-        "New York",
-        "Yankees"
-      ],
       "sport": "Baseball",
       "ball": "⚾",
       "logo": "images/yankees.svg",
       "colors": {
         "primary": "#132448",
-        "secondary": "#C4CED4"
+        "banner": "#132448",
+        "light": "#CFD3DA"
       },
       "espn": {
         "sport": "baseball",
@@ -252,28 +304,38 @@
       "news": [],
       "links": [
         {
-          "label": "Schedule",
+          "label": "Full Schedule",
           "url": "https://www.mlb.com/yankees/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.mlb.com/yankees/stats"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.mlb.com/yankees/roster"
+        },
+        {
+          "label": "Coaches",
+          "url": "https://www.mlb.com/yankees/roster/coaches"
         },
         {
           "label": "News",
           "url": "https://www.foxsports.com/mlb/new-york-yankees-team"
         }
-      ]
+      ],
+      "offSeason": false
     },
     {
       "id": "texas",
       "name": "Texas Longhorns",
-      "nameLines": [
-        "Texas",
-        "Longhorns"
-      ],
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/texas.png",
       "colors": {
         "primary": "#BF5700",
-        "secondary": "#000000"
+        "banner": "#BF5700",
+        "light": "#F2DDCC"
       },
       "espn": {
         "sport": "football",
@@ -305,12 +367,61 @@
       "news": [],
       "links": [
         {
+          "label": "Full Schedule",
+          "url": "https://texassports.com/sports/football/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://texassports.com/sports/football/stats"
+        },
+        {
+          "label": "Roster & Coaches",
+          "url": "https://texassports.com/sports/football/roster"
+        },
+        {
           "label": "Video",
           "url": "https://watch.longhornnetwork.com/home"
         },
         {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TexasLonghorns"
+        },
+        {
           "label": "News",
           "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
+        }
+      ],
+      "offSeason": false
+    },
+    {
+      "id": "tulane-baseball",
+      "name": "Tulane Green Wave",
+      "sport": "College Baseball",
+      "ball": "⚾",
+      "logo": "images/tulane.svg",
+      "hidden": true,
+      "espn": {
+        "sport": "baseball",
+        "league": "college-baseball",
+        "teamId": "2655"
+      },
+      "colors": {
+        "primary": "#00693E",
+        "banner": "#4BB3D0",
+        "light": "#CCE1D8"
+      },
+      "person": null,
+      "record": null,
+      "newsFocus": "Series results, AAC standings.",
+      "newsPriority": 2,
+      "offSeason": true,
+      "nextGame": null,
+      "lastGame": null,
+      "news": [],
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://tulanegreenwave.com/sports/baseball/schedule"
         }
       ]
     }

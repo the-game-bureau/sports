@@ -10,6 +10,10 @@
     <title>Coach Steve's Sports Report by Kevin Kolb</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
     <style>
+        /* Every card is drawn from steve.json. Coach Steve Bot refreshes that
+           file twice a day, so the answers — next game, kickoff, channel, last
+           result — sit on the page instead of behind a link. */
+
         html { scroll-behavior: smooth; }
 
         *, *::before, *::after {
@@ -58,6 +62,16 @@
             margin-bottom: 14px;
         }
 
+        /* Today's date, so he always knows where he is in the week. */
+        .today {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding-bottom: 14px;
+        }
+
         /* ── Nav ── */
         .team-navigation {
             display: flex;
@@ -73,6 +87,7 @@
             justify-content: center;
             text-decoration: none;
             transition: opacity 0.12s;
+            background: var(--team-color, #333);
         }
 
         .nav-team-icon:hover,
@@ -83,12 +98,6 @@
             height: 34px;
             object-fit: contain;
         }
-
-        .nav-team-icon.tulane  { background: #00693E; }
-        .nav-team-icon.saints  { background: #B8985A; }
-        .nav-team-icon.iup     { background: #722F37; }
-        .nav-team-icon.yankees { background: #132448; }
-        .nav-team-icon.texas   { background: #BF5700; }
 
         /* ── Cards ── */
         .teams-grid {
@@ -101,7 +110,8 @@
             background: #fff;
             border-radius: 4px;
             overflow: hidden;
-            border-top: 7px solid var(--team-color);
+            border-top: 7px solid var(--banner-color, var(--team-color));
+            scroll-margin-top: 8px;
         }
 
         /* ── Sport label ── */
@@ -118,9 +128,15 @@
             gap: 6px;
         }
 
+        .sport-label .record {
+            margin-left: auto;
+            letter-spacing: 0.1em;
+            color: #bbb;
+        }
+
         /* ── Team banner ── */
         .team-banner {
-            background: var(--team-color);
+            background: var(--banner-color, var(--team-color));
             padding: 16px 16px;
             display: flex;
             align-items: center;
@@ -151,6 +167,7 @@
             object-fit: contain;
         }
 
+        /* Logo and ball ride together on the name row. */
         .team-name {
             font-size: 1.65rem;
             font-weight: 800;
@@ -158,6 +175,12 @@
             letter-spacing: -0.02em;
             line-height: 1.1;
             text-transform: uppercase;
+        }
+
+        .team-name .ball {
+            font-size: 1.3rem;
+            margin-left: 0.3em;
+            vertical-align: baseline;
         }
 
         .person-photo {
@@ -168,6 +191,141 @@
             border-radius: 2px;
             cursor: pointer;
         }
+
+        /* ── Next game — the reason the page exists ── */
+        .next-game {
+            padding: 18px 16px 20px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .block-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #888;
+        }
+
+        .when-chip {
+            display: inline-block;
+            margin: 8px 0 10px;
+            padding: 5px 14px;
+            background: var(--banner-color, var(--team-color));
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            border-radius: 3px;
+        }
+
+        .matchup {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.1;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+        }
+
+        .matchup .vs { color: #888; }
+
+        .when-line {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #111;
+            margin-top: 10px;
+        }
+
+        .where-line {
+            font-size: 1rem;
+            color: #555;
+            font-weight: 600;
+            margin-top: 3px;
+        }
+
+        .watch {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 14px;
+            padding: 12px 14px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .watch img { width: 64px; height: 34px; object-fit: contain; flex-shrink: 0; }
+        .watch .watch-text { font-size: 1.05rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }
+        .watch .watch-sub { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* Hand-entered extras (an open practice, a signing day) ride below
+           the next game so the card still answers "what's next?" first. */
+        .also { padding: 0 16px 16px; background: #fff; }
+
+        .also .row {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            padding: 10px 12px;
+            margin-top: 8px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+        }
+
+        .also .row-when {
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #111;
+            white-space: nowrap;
+        }
+
+        .also .row-what { font-size: 1rem; font-weight: 700; color: #333; }
+        .also .row-where { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* ── Last game ── */
+        .last-game {
+            padding: 14px 16px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .result {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .result .won { color: #0a7a3d; }
+        .result .lost { color: #a81f16; }
+
+        /* ── News ── */
+        .news {
+            padding: 4px 16px 14px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .news .block-label { padding: 10px 0 2px; display: block; }
+
+        .news .story { padding: 10px 0; border-top: 2px solid #eee; }
+        .news .story:first-of-type { border-top: none; }
+
+        .news .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.25;
+        }
+
+        .news .summary { font-size: 1rem; color: #333; margin-top: 3px; }
+        .news .stamp { font-size: 0.8rem; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
 
         /* ── Buttons ── */
         .btn-icon {
@@ -254,30 +412,33 @@
         .refresh-btn:hover,
         .refresh-btn:focus { background: #444; color: #fff; }
 
-        /* ── Team colors ── */
-        .tulane-baseball { --team-color: #00693E; }
-        .tulane-baseball .team-banner { background: #4BB3D0; }
-        .tulane-baseball { border-top-color: #4BB3D0; }
-        .tulane-baseball .action-btn.primary { background: #fff; color: #111; }
-        .tulane-baseball .action-btn.primary:hover,
-        .tulane-baseball .action-btn.primary:focus { background: #00693E; color: #fff; }
-        .saints          { --team-color: #101010; }
-        .saints .team-banner { background: #B8985A; }
-        .saints { border-top-color: #B8985A; }
-        .saints .action-btn.primary { background: #fff; color: #111; }
-        .saints .action-btn.primary:hover,
-        .saints .action-btn.primary:focus { background: #101010; color: #fff; }
-        .iup-volleyball  { --team-color: #722F37; }
-        .yankees         { --team-color: #132448; }
-        .yankees .action-btn.primary { background: #fff; color: #111; }
-        .yankees .action-btn.primary:hover,
-        .yankees .action-btn.primary:focus { background: #132448; color: #fff; }
-        .texas-football  { --team-color: #BF5700; }
+        .updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            padding: 16px 0 0;
+        }
+
+        .message {
+            background: #fff;
+            border-radius: 4px;
+            padding: 28px 18px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .message small { display: block; font-weight: 500; color: #777; margin-top: 8px; font-size: 0.85rem; text-transform: none; letter-spacing: 0; }
 
         /* ── Focus ── */
         .action-btn:focus,
         .person-photo:focus,
-        .nav-team-icon:focus {
+        .nav-team-icon:focus,
+        .watch:focus {
             outline: 3px solid #007acc;
             outline-offset: 2px;
         }
@@ -287,6 +448,7 @@
             .container { padding: 28px 24px; }
             .header h1 { font-size: 2.1rem; }
             .team-name { font-size: 2rem; }
+            .matchup { font-size: 2rem; }
             .action-btn { font-size: 1.2rem; min-height: 70px; }
             .action-btn.primary { font-size: 1.35rem; min-height: 84px; }
             .nav-team-icon { height: 68px; }
@@ -307,11 +469,12 @@
 
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
-            .team-navigation, .refresh-btn { display: none !important; }
+            .team-navigation, .refresh-btn, .updated { display: none !important; }
 
             .header { margin-bottom: 8px; padding: 8px; }
             .header h1 { font-size: 14pt; }
             .header p { margin-bottom: 0; }
+            .today { font-size: 9pt; padding-bottom: 4px; }
 
             .teams-grid {
                 display: grid;
@@ -326,6 +489,26 @@
             .team-name { font-size: 10pt; white-space: normal; }
             .photo-section { width: 40px; height: 40px; }
             .person-photo { width: 40px; height: 40px; }
+
+            .next-game { padding: 6px 9px 8px; }
+            .block-label { font-size: 6pt; }
+            .when-chip { font-size: 7pt; padding: 2px 6px; margin: 3px 0 4px; }
+            .matchup { font-size: 11pt; }
+            .when-line { font-size: 9pt; margin-top: 4px; }
+            .where-line { font-size: 7pt; }
+            .watch { margin-top: 6px; padding: 4px 6px; }
+            .watch img { width: 34px; height: 18px; }
+            .watch .watch-text { font-size: 7pt; }
+            .watch .watch-sub { display: none; }
+            .also { padding: 0 9px 6px; }
+            .also .row { padding: 3px 6px; margin-top: 4px; }
+            .also .row-when, .also .row-what { font-size: 7pt; }
+            .also .row-where { display: none; }
+            .last-game, .news { padding: 5px 9px; }
+            .result { font-size: 9pt; }
+            .news .headline { font-size: 8pt; }
+            .news .summary, .news .stamp { display: none; }
+
             .team-actions { gap: 0; }
             .action-btn { padding: 5px 8px; font-size: 8pt; min-height: auto; }
             .action-btn.primary { font-size: 9pt; min-height: auto; }
@@ -342,135 +525,371 @@
     <div class="container">
 
         <div class="header">
-            <h1>Coach Steve's Sports Report</h1>
-            <p>by Kevin Kolb</p>
-            <div class="team-navigation">
-                <a href="#tulane-card" class="nav-team-icon tulane" aria-label="Tulane Green Wave">
-                    <img src="images/tulane.svg" alt="Tulane">
-                </a>
-                <a href="#saints-card" class="nav-team-icon saints" aria-label="New Orleans Saints">
-                    <img src="images/saints.webp" alt="Saints">
-                </a>
-                <a href="#iup-card" class="nav-team-icon iup" aria-label="IUP Crimson Hawks">
-                    <img src="images/iup.webp" alt="IUP">
-                </a>
-                <a href="#yankees-card" class="nav-team-icon yankees" aria-label="New York Yankees">
-                    <img src="images/yankees.svg" alt="Yankees">
-                </a>
-                <a href="#texas-card" class="nav-team-icon texas" aria-label="Texas Longhorns">
-                    <img src="images/texas.png" alt="Texas">
-                </a>
-            </div>
+            <h1 id="pageTitle">Coach Steve's Sports Report</h1>
+            <p id="pageByline">by Kevin Kolb</p>
+            <div class="today" id="todayLine"></div>
+            <div class="team-navigation" id="teamNav"></div>
         </div>
 
-        <div class="teams-grid">
-
-            <!-- Tulane Green Wave Baseball -->
-            <div class="team-card tulane-baseball" id="tulane-card">
-                <div class="team-banner">
-                    <div class="name-section">
-                        <img src="images/tulane.svg" alt="Tulane" class="team-logo">
-                        <div class="team-name">Tulane Green Wave</div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://tulanegreenwave.com/sports/baseball/schedule" class="action-btn primary">⚾ Schedule</a>
-                    <a href="https://tulanegreenwave.com/sports/baseball/stats" class="action-btn">⚾ Stats</a>
-                    <a href="https://tulanegreenwave.com/sports/baseball/roster" class="action-btn">⚾ Roster & Coaches</a>
-                    <a href="https://www.facebook.com/GreenWaveBaseball" class="action-btn">⚾ Facebook</a>
-                    <a href="https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1" class="action-btn"><img src="images/tulane.svg" class="btn-icon" alt="">Video</a>
-                    <a href="https://www.nola.com/sports/tulane/" class="action-btn"><img src="images/tulane.svg" class="btn-icon" alt="">News</a>
-                </div>
-            </div>
-
-            <!-- New York Yankees -->
-            <div class="team-card yankees" id="yankees-card">
-                <div class="team-banner">
-                    <div class="name-section">
-                        <img src="images/yankees.svg" alt="Yankees" class="team-logo">
-                        <div class="team-name">New York Yankees</div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://www.mlb.com/yankees/schedule" class="action-btn primary">Schedule</a>
-                    <a href="https://www.mlb.com/yankees/stats" class="action-btn">Stats</a>
-                    <a href="https://www.mlb.com/yankees/roster" class="action-btn">Roster</a>
-                    <a href="https://www.mlb.com/yankees/roster/coaches" class="action-btn">Coaches</a>
-                    <a href="https://www.foxsports.com/mlb/new-york-yankees-team" class="action-btn">News</a>
-                </div>
-            </div>
-
-            <!-- New Orleans Saints -->
-            <div class="team-card saints" id="saints-card">
-                <div class="team-banner">
-                    <div class="name-section">
-                        <img src="images/saints.webp" alt="Saints" class="team-logo">
-                        <div class="team-name">New Orleans Saints</div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <a href="https://www.neworleanssaints.com/schedule/future-opponents" class="action-btn primary">Schedule</a>
-                    <a href="https://www.neworleanssaints.com/team/stats/2026/REG" class="action-btn">Stats</a>
-                    <a href="https://www.neworleanssaints.com/team/players-roster/" class="action-btn">Roster</a>
-                    <a href="https://www.neworleanssaints.com/team/coaches/" class="action-btn">Coaches</a>
-                    <a href="https://www.neworleanssaints.com/news/" class="action-btn">News</a>
-                </div>
-            </div>
-
-            <!-- IUP Crimson Hawks Volleyball -->
-            <div class="team-card iup-volleyball" id="iup-card">
-                <div class="team-banner">
-                    <div class="name-section">
-                        <img src="images/iup.webp" alt="IUP" class="team-logo">
-                        <div class="team-name">IUP Crimson Hawks</div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <div class="off-season">🏐 Off Season</div>
-                    <div class="photo-section" style="width:100%;height:auto;padding:12px;justify-content:center;">
-                        <img src="https://iupathletics.com/images/2025/9/2/Peyton_Belcher.png?width=140" alt="Peyton" class="person-photo"
-                             style="width:140px;height:auto;"
-                             onclick="window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348','_blank')"
-                             tabindex="0">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Texas Longhorns Football -->
-            <div class="team-card texas-football" id="texas-card">
-                <div class="team-banner">
-                    <div class="name-section">
-                        <img src="images/texas.png" alt="Texas" class="team-logo">
-                        <div class="team-name">Texas Longhorns</div>
-                    </div>
-                </div>
-                <div class="team-actions">
-                    <div class="off-season">🏈 Off Season</div>
-                    <div class="photo-section" style="width:100%;height:auto;padding:12px;justify-content:center;">
-                        <img src="images/arch.png" alt="Arch Manning" class="person-photo"
-                             style="width:140px;height:auto;">
-                    </div>
-                </div>
-            </div>
-
+        <div class="teams-grid" id="teams">
+            <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <button class="refresh-btn" onclick="location.reload()">🔄 Refresh</button>
+        <button class="refresh-btn" onclick="location.reload()">🔄 Tap to Refresh</button>
+        <div class="updated" id="updatedLine"></div>
 
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const peytonPhoto = document.querySelector('.iup-volleyball .person-photo');
-            if (peytonPhoto) {
-                peytonPhoto.addEventListener('keydown', function(e) {
+<script>
+(function () {
+    'use strict';
+
+    var MONTHS = ['January','February','March','April','May','June','July',
+                  'August','September','October','November','December'];
+    var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    var teamsEl = document.getElementById('teams');
+    var navEl = document.getElementById('teamNav');
+
+    // steve.json stores plain "YYYY-MM-DD". Parse as local so the day never
+    // slips backwards for a US reader.
+    function parseDate(iso) {
+        if (!iso) { return null; }
+        var p = String(iso).split('-');
+        if (p.length !== 3) { return null; }
+        var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+    function daysUntil(d) { return Math.round((midnight(d) - midnight(new Date())) / 86400000); }
+    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate(); }
+
+    // Fastest read on the card: how soon is this?
+    function whenChip(d) {
+        var n = daysUntil(d);
+        if (n === 0) { return 'Today'; }
+        if (n === 1) { return 'Tomorrow'; }
+        if (n > 1 && n <= 6) { return 'In ' + n + ' days'; }
+        return DAYS[d.getDay()];
+    }
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    function img(src, alt) {
+        var node = new Image();
+        node.src = src;
+        node.alt = alt || '';
+        return node;
+    }
+
+    function colorOf(team, which) {
+        var c = team.colors || {};
+        if (which === 'banner') { return c.banner || c.primary || '#111'; }
+        if (which === 'light') { return c.light || '#f2f2f2'; }
+        return c.primary || '#111';
+    }
+
+    // ---------- card pieces ----------
+    function buildSportLabel(team) {
+        var label = el('div', 'sport-label');
+        label.appendChild(el('span', 'ball', team.ball || ''));
+        label.appendChild(el('span', null, team.sport || ''));
+        if (team.record) { label.appendChild(el('span', 'record', team.record)); }
+        return label;
+    }
+
+    function buildBanner(team) {
+        var banner = el('div', 'team-banner');
+
+        var name = el('div', 'name-section');
+        var logo = img(team.logo, '');
+        logo.className = 'team-logo';
+        name.appendChild(logo);
+
+        var title = el('div', 'team-name');
+        title.appendChild(document.createTextNode(team.name));
+        if (team.ball) { title.appendChild(el('span', 'ball', team.ball)); }
+        name.appendChild(title);
+        banner.appendChild(name);
+
+        var p = team.person;
+        if (p && p.photo) {
+            var photoWrap = el('div', 'photo-section');
+            var photo = img(p.photo, p.name ? p.name + "'s photo" : '');
+            photo.className = 'person-photo';
+            if (p.url) {
+                photo.tabIndex = 0;
+                photo.addEventListener('click', function () { window.open(p.url, '_blank'); });
+                photo.addEventListener('keydown', function (e) {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        window.open('https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348', '_blank');
+                        window.open(p.url, '_blank');
                     }
                 });
             }
+            photoWrap.appendChild(photo);
+            banner.appendChild(photoWrap);
+        }
+        return banner;
+    }
+
+    // ESPN owns nextGame; extraEvents are hand-entered in steve.json and the
+    // routine leaves them alone. Both go on the calendar together.
+    function eventsFor(team) {
+        var list = [];
+        if (team.nextGame) { list.push(team.nextGame); }
+        (team.extraEvents || []).forEach(function (e) { list.push(e); });
+
+        var today = new Date();
+        today = today.getFullYear() + '-' +
+                ('0' + (today.getMonth() + 1)).slice(-2) + '-' +
+                ('0' + today.getDate()).slice(-2);
+
+        var future = list.filter(function (e) { return !e.date || e.date >= today; });
+        if (!future.length) { future = team.nextGame ? [team.nextGame] : []; }
+
+        return future.sort(function (a, b) {
+            return String(a.date || '').localeCompare(String(b.date || ''));
         });
-    </script>
+    }
+
+    function titleOf(g) {
+        if (g.label) { return g.label; }
+        return (g.homeAway === 'away' ? 'at ' : 'vs ') + (g.opponent || '');
+    }
+
+    function buildAlso(team, rest) {
+        if (!rest.length) { return null; }
+
+        var wrap = el('div', 'also');
+        rest.slice(0, 2).forEach(function (g) {
+            var row = el('div', 'row');
+            var d = parseDate(g.date);
+            row.appendChild(el('span', 'row-when', d ? whenChip(d) : ''));
+
+            var what = el('div');
+            var time = [g.time, g.endTime].filter(Boolean).join(' – ');
+            what.appendChild(el('div', 'row-what', titleOf(g) + (time ? ' · ' + time : '')));
+            var where = [g.venue, g.note].filter(Boolean).join(' · ');
+            if (where) { what.appendChild(el('div', 'row-where', where)); }
+            row.appendChild(what);
+            wrap.appendChild(row);
+        });
+        return wrap;
+    }
+
+    function buildNextGame(team, g) {
+        if (team.offSeason) {
+            return el('div', 'off-season', ((team.ball || '') + ' Off Season').trim());
+        }
+
+        var wrap = el('div', 'next-game');
+        wrap.appendChild(el('div', 'block-label', 'Next Game'));
+
+        if (!g) {
+            wrap.appendChild(el('div', 'when-line', 'No game scheduled yet.'));
+            return wrap;
+        }
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'when-chip', whenChip(d))); }
+
+        var matchup = el('div', 'matchup');
+        if (g.label) {
+            matchup.appendChild(document.createTextNode(g.label));
+        } else {
+            matchup.appendChild(el('span', 'vs', g.homeAway === 'away' ? 'at ' : 'vs '));
+            matchup.appendChild(document.createTextNode(g.opponent || ''));
+        }
+        wrap.appendChild(matchup);
+
+        var when = [];
+        if (d) { when.push(longDate(d)); }
+        var clock = [g.time, g.endTime].filter(Boolean).join(' – ');
+        if (clock) { when.push(clock); }
+        if (when.length) { wrap.appendChild(el('div', 'when-line', when.join(' at '))); }
+
+        var where = [g.venue, g.city].filter(Boolean).join(' — ');
+        if (where) { wrap.appendChild(el('div', 'where-line', where)); }
+        if (g.note) { wrap.appendChild(el('div', 'where-line', g.note)); }
+
+        if (g.tv && g.tv.name) {
+            var watch = document.createElement(g.tv.url ? 'a' : 'div');
+            watch.className = 'watch';
+            if (g.tv.url) {
+                watch.href = g.tv.url;
+                watch.target = '_blank';
+                watch.rel = 'noopener';
+            }
+            if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
+            var text = el('div');
+            text.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
+            text.appendChild(el('div', 'watch-sub', g.time ? 'Starts at ' + g.time : 'Check your TV guide'));
+            watch.appendChild(text);
+            wrap.appendChild(watch);
+        }
+        return wrap;
+    }
+
+    function buildLastGame(team) {
+        var g = team.lastGame;
+        if (!g) { return null; }
+
+        var won = String(g.result || '').toUpperCase().charAt(0) === 'W';
+        var wrap = el('div', 'last-game');
+        wrap.appendChild(el('div', 'block-label', 'Last Game'));
+
+        var line = el('div', 'result');
+        line.appendChild(el('span', won ? 'won' : 'lost', won ? 'Won' : 'Lost'));
+        var score = [g.teamScore, g.opponentScore].filter(function (s) { return s || s === 0; });
+        if (score.length === 2) { line.appendChild(document.createTextNode(' ' + score[0] + '–' + score[1])); }
+        if (g.opponent) { line.appendChild(document.createTextNode(' vs ' + g.opponent)); }
+        wrap.appendChild(line);
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'where-line', longDate(d))); }
+        return wrap;
+    }
+
+    function buildNews(team) {
+        var items = team.news || [];
+        if (!items.length) { return null; }
+
+        var wrap = el('div', 'news');
+        wrap.appendChild(el('span', 'block-label', 'What Happened'));
+
+        // Short attention span: three stories is the ceiling.
+        items.slice(0, 3).forEach(function (n) {
+            var story = el('div', 'story');
+            story.appendChild(el('div', 'headline', n.headline || ''));
+            if (n.summary) { story.appendChild(el('div', 'summary', n.summary)); }
+            var d = parseDate(n.date);
+            var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+            if (stamp) { story.appendChild(el('div', 'stamp', stamp)); }
+            wrap.appendChild(story);
+        });
+        return wrap;
+    }
+
+    function buildActions(team) {
+        var links = team.links || [];
+        if (!links.length) { return null; }
+
+        var wrap = el('div', 'team-actions');
+        links.forEach(function (l, i) {
+            var a = el('a', 'action-btn' + (i === 0 ? ' primary' : ''));
+            a.href = l.url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            if (l.icon) {
+                var icon = img(l.icon, '');
+                icon.className = 'btn-icon';
+                a.appendChild(icon);
+            }
+            a.appendChild(document.createTextNode(l.label));
+            wrap.appendChild(a);
+        });
+        return wrap;
+    }
+
+    function buildCard(team) {
+        var card = el('div', 'team-card');
+        card.id = team.id + '-card';
+        card.style.setProperty('--team-color', colorOf(team, 'primary'));
+        card.style.setProperty('--banner-color', colorOf(team, 'banner'));
+        card.style.setProperty('--light-color', colorOf(team, 'light'));
+
+        var events = eventsFor(team);
+
+        card.appendChild(buildSportLabel(team));
+        card.appendChild(buildBanner(team));
+        card.appendChild(buildNextGame(team, events[0]));
+        [buildAlso(team, events.slice(1)), buildLastGame(team), buildNews(team), buildActions(team)]
+            .forEach(function (piece) { if (piece) { card.appendChild(piece); } });
+        return card;
+    }
+
+    function buildNavIcon(team) {
+        var a = el('a', 'nav-team-icon');
+        a.href = '#' + team.id + '-card';
+        a.setAttribute('aria-label', team.name);
+        a.style.setProperty('--team-color', colorOf(team, 'primary'));
+        a.appendChild(img(team.logo, ''));
+        return a;
+    }
+
+    // ---------- render ----------
+    function render(data) {
+        var meta = data.meta || {};
+        if (meta.title) { document.getElementById('pageTitle').textContent = meta.title; }
+        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+
+        var now = new Date();
+        document.getElementById('todayLine').textContent =
+            DAYS[now.getDay()] + ', ' + MONTHS[now.getMonth()] + ' ' + now.getDate();
+
+        var teams = (data.teams || []).filter(function (t) { return !t.hidden; });
+
+        teamsEl.textContent = '';
+        navEl.textContent = '';
+
+        if (!teams.length) {
+            teamsEl.appendChild(el('div', 'message', 'No teams to show yet.'));
+            return;
+        }
+
+        teams.forEach(function (team) {
+            teamsEl.appendChild(buildCard(team));
+            navEl.appendChild(buildNavIcon(team));
+        });
+
+        var updated = parseDate(meta.updated);
+        if (updated) {
+            document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
+        }
+    }
+
+    function showError() {
+        teamsEl.textContent = '';
+        var box = el('div', 'message', "Today's report could not be loaded.");
+        box.appendChild(el('small', null,
+            'steve.json did not load. If you opened this file directly, serve the folder instead ' +
+            '(for example: python -m http.server) and reload.'));
+        teamsEl.appendChild(box);
+    }
+
+    // Coach Steve Bot rewrites steve.json twice a day. Re-fetch every 20
+    // minutes and whenever he comes back to the tab, so a phone left open on
+    // the page is never showing yesterday's card. Re-rendering in place keeps
+    // his scroll position — a full reload would throw him back to the top.
+    var REFRESH_MS = 20 * 60 * 1000;
+
+    function load(onError) {
+        // Cache-bust so a freshly pushed steve.json shows up right away.
+        return fetch('steve.json?t=' + Date.now(), { cache: 'no-store' })
+            .then(function (r) {
+                if (!r.ok) { throw new Error('HTTP ' + r.status); }
+                return r.json();
+            })
+            .then(render)
+            .catch(function (err) { if (onError) { onError(err); } });
+    }
+
+    load(showError);
+    setInterval(function () { load(null); }, REFRESH_MS);
+
+    // Quietly freshen on return to the tab; a failure here keeps the last
+    // good card on screen rather than replacing it with an error.
+    document.addEventListener('visibilitychange', function () {
+        if (!document.hidden) { load(null); }
+    });
+})();
+</script>
 </body>
 </html>
