@@ -806,7 +806,10 @@
                 icon.className = 'btn-icon';
                 a.appendChild(icon);
             }
-            a.appendChild(document.createTextNode(l.label));
+            // Buttons carry the team name so a card read on its own still
+            // says whose stats these are.
+            var prefix = l.prefix === false ? '' : (team.shortName || '') + ' ';
+            a.appendChild(document.createTextNode((prefix + l.label).trim()));
             wrap.appendChild(a);
         });
         return wrap;

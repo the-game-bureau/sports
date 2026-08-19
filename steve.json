@@ -10,6 +10,7 @@
     {
       "id": "tulane",
       "name": "Tulane Green Wave",
+      "shortName": "Tulane",
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/tulane.svg",
@@ -73,6 +74,7 @@
     {
       "id": "florida",
       "name": "Florida Gators",
+      "shortName": "Florida",
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/florida.svg",
@@ -144,6 +146,7 @@
     {
       "id": "saints",
       "name": "New Orleans Saints",
+      "shortName": "Saints",
       "sport": "NFL Football",
       "ball": "🏈",
       "logo": "images/saints.webp",
@@ -220,6 +223,7 @@
     {
       "id": "iup",
       "name": "IUP Crimson Hawks",
+      "shortName": "IUP",
       "sport": "Volleyball",
       "ball": "🏐",
       "logo": "images/iup.webp",
@@ -252,11 +256,13 @@
         },
         {
           "label": "Peyton's Page",
-          "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348"
+          "url": "https://iupathletics.com/sports/womens-volleyball/roster/peyton-belcher/10348",
+          "prefix": false
         },
         {
           "label": "Peyton's Photos",
-          "url": "https://www.instagram.com/peyton_belcher10"
+          "url": "https://www.instagram.com/peyton_belcher10",
+          "prefix": false
         }
       ],
       "offSeason": false
@@ -264,6 +270,7 @@
     {
       "id": "yankees",
       "name": "New York Yankees",
+      "shortName": "Yankees",
       "sport": "Baseball",
       "ball": "⚾",
       "logo": "images/yankees.svg",
@@ -329,6 +336,7 @@
     {
       "id": "texas",
       "name": "Texas Longhorns",
+      "shortName": "Texas",
       "sport": "College Football",
       "ball": "🏈",
       "logo": "images/texas.png",
@@ -396,6 +404,7 @@
     {
       "id": "tulane-baseball",
       "name": "Tulane Green Wave",
+      "shortName": "Tulane",
       "sport": "College Baseball",
       "ball": "⚾",
       "logo": "images/tulane.svg",
