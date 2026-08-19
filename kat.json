@@ -245,7 +245,7 @@
       "links": [
         {
           "label": "Full Schedule",
-          "url": "https://lsusports.net/sports/football/schedule"
+          "url": "https://lsusports.net/sports/fb/schedule"
         },
         {
           "label": "Stats",
@@ -253,7 +253,7 @@
         },
         {
           "label": "Roster & Coaches",
-          "url": "https://lsusports.net/sports/football/roster"
+          "url": "https://lsusports.net/sports/fb/roster"
         },
         {
           "label": "Video",
