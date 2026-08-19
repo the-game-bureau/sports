@@ -385,10 +385,10 @@
         /* ── News ── */
         .news {
             padding: 10px 16px 16px;
-            background: #fff;
-            /* Latest wears the banner color; the older stories wear the
-               team's secondary, so the pair reads as one stack. */
-            border-left: 8px solid var(--secondary-color, var(--banner-color));
+            /* Latest wears the banner color on white; the older stories sit
+               on a light wash of the team's secondary. */
+            background: var(--news-bg, #fff);
+            border-left: 8px solid var(--news-accent, var(--banner-color));
         }
 
         .news .block-label { padding: 10px 0 2px; display: block; }
@@ -892,6 +892,18 @@
         return c.primary || '#111';
     }
 
+    // Mix a color toward white — a light wash that still reads as the team's.
+    function tint(hex, amount) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var out = '#';
+        for (var i = 0; i < 3; i++) {
+            var c = parseInt(h.slice(i * 2, i * 2 + 2), 16);
+            out += ('0' + Math.round(c + (255 - c) * amount).toString(16)).slice(-2);
+        }
+        return out.toUpperCase();
+    }
+
     // Some secondaries are pale (Texas white, Yankees gray) and some are dark.
     // Pick the text color from the background so the number always reads.
     function luminance(hex) {
@@ -1149,6 +1161,12 @@
         card.style.setProperty('--secondary-ink', pale ? '#111' : '#fff');
         // A near-white badge needs an edge or it vanishes into the card.
         card.style.setProperty('--secondary-edge', pale ? colorOf(team, 'primary') : 'transparent');
+
+        // Texas's secondary is white, which would leave the news block with no
+        // stripe and no wash at all — fall back to the primary for those.
+        var accent = luminance(secondary) > 0.9 ? colorOf(team, 'primary') : secondary;
+        card.style.setProperty('--news-accent', accent);
+        card.style.setProperty('--news-bg', tint(accent, 0.88));
 
         var events = eventsFor(team);
 
