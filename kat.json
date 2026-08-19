@@ -219,6 +219,12 @@
           "url": "https://www.facebook.com/GreenWaveFootball"
         },
         {
+          "label": "The Current Radio Show",
+          "url": "https://podcasts.apple.com/us/podcast/the-current/id1491577393",
+          "prefix": false,
+          "style": "secondary"
+        },
+        {
           "label": "News",
           "url": "https://www.nola.com/sports/tulane/"
         }
