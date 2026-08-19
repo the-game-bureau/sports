@@ -45,6 +45,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "484166c834af",
+          "teamId": "tulane",
+          "headline": "Four quarterbacks still fighting for the job",
+          "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
+          "date": "2026-08-16",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
+        },
+        {
           "id": "26a8f88cedd9",
           "teamId": "tulane",
           "headline": "Defense dominates in first fall scrimmage",
@@ -179,7 +188,7 @@
       "logo": "images/saints.webp",
       "colors": {
         "primary": "#101010",
-        "secondary": "#B8985A",
+        "secondary": "#101010",
         "banner": "#B8985A",
         "light": "#CFCFCF"
       },
@@ -421,7 +430,7 @@
       "logo": "images/texas.png",
       "colors": {
         "primary": "#BF5700",
-        "secondary": "#FFFFFF",
+        "secondary": "#333F48",
         "banner": "#BF5700",
         "light": "#F2DDCC"
       },

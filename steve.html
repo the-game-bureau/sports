@@ -1162,11 +1162,17 @@
         // A near-white badge needs an edge or it vanishes into the card.
         card.style.setProperty('--secondary-edge', pale ? colorOf(team, 'primary') : 'transparent');
 
-        // Texas's secondary is white, which would leave the news block with no
-        // stripe and no wash at all — fall back to the primary for those.
+        // A white secondary (Texas once had one) would leave the news block with
+        // no stripe at all, so fall back to the primary there.
         var accent = luminance(secondary) > 0.9 ? colorOf(team, 'primary') : secondary;
         card.style.setProperty('--news-accent', accent);
-        card.style.setProperty('--news-bg', tint(accent, 0.88));
+
+        // A near-black accent tints to flat gray, which reads as a dead block
+        // next to the other teams. Draw the wash from the banner instead and
+        // let the dark stripe carry the accent — Saints get sand under black,
+        // Texas pale orange under charcoal.
+        var washBase = luminance(accent) < 0.25 ? colorOf(team, 'banner') : accent;
+        card.style.setProperty('--news-bg', tint(washBase, 0.88));
 
         var events = eventsFor(team);
 
