@@ -393,8 +393,20 @@
 
         .news .block-label { padding: 10px 0 2px; display: block; }
 
-        .news .story { padding: 10px 0; border-top: 2px solid #eee; }
+        .news .story {
+            display: block;
+            padding: 10px 0;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #111;
+        }
+
         .news .story:first-of-type { border-top: none; }
+
+        .news .story[href] .headline {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
 
         .news .headline {
             font-size: 1.15rem;
@@ -1119,7 +1131,9 @@
 
         // Short attention span: two more stories is the ceiling.
         items.slice(0, 2).forEach(function (n) {
-            var story = el('div', 'story');
+            var story = document.createElement(n.url ? 'a' : 'div');
+            story.className = 'story';
+            if (n.url) { story.href = n.url; }
             story.appendChild(el('div', 'headline', n.headline || ''));
             if (n.summary) { story.appendChild(el('div', 'summary', n.summary)); }
             var d = parseDate(n.date);
