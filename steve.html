@@ -56,6 +56,46 @@
             border-radius: 3px;
             object-fit: cover;
             flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
         }
 
         .header-text { min-width: 0; }
@@ -498,6 +538,46 @@
             border-radius: 3px;
             object-fit: cover;
             flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
         }
 
         .header-text { min-width: 0; }
@@ -525,7 +605,7 @@
 
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
-            .team-navigation, .refresh-btn, .updated, .footer-photo { display: none !important; }
+            .team-navigation, .refresh-btn, .updated, .footer-photo, .lightbox { display: none !important; }
             .header-photo { width: 34px; height: 34px; }
             .header-top { gap: 8px; margin-bottom: 6px; }
 
@@ -543,6 +623,46 @@
             border-radius: 3px;
             object-fit: cover;
             flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
         }
 
         .header-text { min-width: 0; }
@@ -601,7 +721,8 @@
 
         <div class="header">
             <div class="header-top">
-                <img class="header-photo" src="images/steve_summy_badge.jpg" alt="Steve and Summy">
+                <img class="header-photo" id="headerPhoto" src="images/steve_summy_badge.jpg"
+                     alt="Steve and Summy — tap to see it bigger" role="button" tabindex="0">
                 <div class="header-text">
                     <h1 id="pageTitle">Coach Steve's Sports Report</h1>
                     <p id="pageByline">by Kevin Kolb</p>
@@ -622,6 +743,11 @@
         </button>
         <div class="updated" id="updatedLine"></div>
 
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
+        <img id="lightboxImg" src="" alt="">
+        <button class="lightbox-close" id="lightboxClose" type="button">Close</button>
     </div>
 
 <script>
@@ -984,6 +1110,43 @@
 
     document.getElementById('refreshBtn').addEventListener('click', function () {
         location.reload();
+    });
+
+    // ---------- lightbox ----------
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = document.getElementById('lightboxImg');
+    var headerPhoto = document.getElementById('headerPhoto');
+    var lastFocus = null;
+
+    function openLightbox(src, alt) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lastFocus = document.activeElement;
+        lightbox.classList.add('open');
+        document.getElementById('lightboxClose').focus();
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightboxImg.src = '';
+        if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
+    }
+
+    headerPhoto.addEventListener('click', function () {
+        openLightbox('images/steve_summy_web.jpg', 'Steve and Summy');
+    });
+
+    headerPhoto.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox('images/steve_summy_web.jpg', 'Steve and Summy');
+        }
+    });
+
+    lightbox.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) { closeLightbox(); }
     });
 
     load(showError);
