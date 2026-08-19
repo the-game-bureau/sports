@@ -180,6 +180,94 @@
       "offSeason": false
     },
     {
+      "id": "texas",
+      "name": "Texas Longhorns",
+      "shortName": "Texas",
+      "sport": "College Football",
+      "ball": "🏈",
+      "logo": "images/texas.png",
+      "colors": {
+        "primary": "#BF5700",
+        "secondary": "#333F48",
+        "banner": "#BF5700",
+        "light": "#F2DDCC"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "college-football",
+        "teamId": "251"
+      },
+      "person": {
+        "name": "Arch Manning",
+        "photo": "images/arch.png",
+        "caption": "Arch Manning"
+      },
+      "record": null,
+      "newsFocus": "Arch Manning, SEC results, national rankings.",
+      "newsPriority": 2,
+      "nextGame": {
+        "homeAway": "home",
+        "opponent": "Texas State Bobcats",
+        "date": "2026-09-05",
+        "time": "2:30 PM",
+        "venue": "DKR-Texas Memorial Stadium",
+        "city": "Austin, TX",
+        "tv": {
+          "name": "ESPN",
+          "logo": "",
+          "url": ""
+        }
+      },
+      "lastGame": null,
+      "news": [
+        {
+          "id": "e51e2b0c272e",
+          "teamId": "texas",
+          "headline": "Four Longhorns named to preseason All-America team",
+          "summary": "Trevor Goosby, Cam Coleman, Colin Simmons, and Rasheem Biles all made the AP's preseason All-America team, more than any other program in the country. It's a strong vote of confidence heading into the season.",
+          "date": "2026-08-18",
+          "source": "Fox Sports",
+          "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
+        },
+        {
+          "id": "694ea253348b",
+          "teamId": "texas",
+          "headline": "Left tackle Goosby has bone bruise in knee",
+          "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
+          "date": "2026-08-18",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://texassports.com/sports/football/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://texassports.com/sports/football/stats"
+        },
+        {
+          "label": "Roster & Coaches",
+          "url": "https://texassports.com/sports/football/roster"
+        },
+        {
+          "label": "Video",
+          "url": "https://watch.longhornnetwork.com/home"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TexasLonghorns"
+        },
+        {
+          "label": "News",
+          "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
+        }
+      ],
+      "offSeason": false
+    },
+    {
       "id": "saints",
       "name": "New Orleans Saints",
       "shortName": "Saints",
@@ -417,94 +505,6 @@
         {
           "label": "News",
           "url": "https://www.foxsports.com/mlb/new-york-yankees-team"
-        }
-      ],
-      "offSeason": false
-    },
-    {
-      "id": "texas",
-      "name": "Texas Longhorns",
-      "shortName": "Texas",
-      "sport": "College Football",
-      "ball": "🏈",
-      "logo": "images/texas.png",
-      "colors": {
-        "primary": "#BF5700",
-        "secondary": "#333F48",
-        "banner": "#BF5700",
-        "light": "#F2DDCC"
-      },
-      "espn": {
-        "sport": "football",
-        "league": "college-football",
-        "teamId": "251"
-      },
-      "person": {
-        "name": "Arch Manning",
-        "photo": "images/arch.png",
-        "caption": "Arch Manning"
-      },
-      "record": null,
-      "newsFocus": "Arch Manning, SEC results, national rankings.",
-      "newsPriority": 2,
-      "nextGame": {
-        "homeAway": "home",
-        "opponent": "Texas State Bobcats",
-        "date": "2026-09-05",
-        "time": "2:30 PM",
-        "venue": "DKR-Texas Memorial Stadium",
-        "city": "Austin, TX",
-        "tv": {
-          "name": "ESPN",
-          "logo": "",
-          "url": ""
-        }
-      },
-      "lastGame": null,
-      "news": [
-        {
-          "id": "e51e2b0c272e",
-          "teamId": "texas",
-          "headline": "Four Longhorns named to preseason All-America team",
-          "summary": "Trevor Goosby, Cam Coleman, Colin Simmons, and Rasheem Biles all made the AP's preseason All-America team, more than any other program in the country. It's a strong vote of confidence heading into the season.",
-          "date": "2026-08-18",
-          "source": "Fox Sports",
-          "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
-        },
-        {
-          "id": "694ea253348b",
-          "teamId": "texas",
-          "headline": "Left tackle Goosby has bone bruise in knee",
-          "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
-          "date": "2026-08-18",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
-        }
-      ],
-      "links": [
-        {
-          "label": "Full Schedule",
-          "url": "https://texassports.com/sports/football/schedule"
-        },
-        {
-          "label": "Stats",
-          "url": "https://texassports.com/sports/football/stats"
-        },
-        {
-          "label": "Roster & Coaches",
-          "url": "https://texassports.com/sports/football/roster"
-        },
-        {
-          "label": "Video",
-          "url": "https://watch.longhornnetwork.com/home"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TexasLonghorns"
-        },
-        {
-          "label": "News",
-          "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
         }
       ],
       "offSeason": false
