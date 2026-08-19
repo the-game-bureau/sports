@@ -23,11 +23,7 @@
         "league": "college-football",
         "teamId": "2655"
       },
-      "person": {
-        "name": "Jon",
-        "photo": "images/jon.webp",
-        "caption": "Jon"
-      },
+      "person": null,
       "record": null,
       "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
       "newsPriority": 2,
