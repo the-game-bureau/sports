@@ -3,522 +3,1370 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kat's Football Schedules 2025</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/katopus_icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/katopus_icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/katopus_icon.png">
+    <link rel="apple-touch-icon" href="images/katopus_icon.png">
+    <title>Kat's Sports Report by Kevin Kolb</title>
+    <link rel="icon" href="images/katopus_icon.png">
     <style>
-        * {
+        /* Every card is drawn from kat.json. The news routine refreshes that
+           file twice a day, so the answers — next game, kickoff, channel, last
+           result — sit on the page instead of behind a link. */
+
+        html { scroll-behavior: smooth; }
+
+        *, *::before, *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-weight: 400;
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            min-height: 100vh;
             line-height: 1.4;
-            color: #000;
-            background-color: #fff;
-            font-size: 16px;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 640px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 16px 12px;
         }
 
-        header {
-            margin-bottom: 60px;
-            border-bottom: 2px solid #000;
-            padding-bottom: 20px;
+        /* ── Header ── */
+        .header {
+            background: #fff;
+            padding: 18px 18px 14px;
+            margin-bottom: 24px;
+            border-radius: 4px;
         }
 
-        h1 {
-            font-size: 48px;
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
             font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
             letter-spacing: -0.02em;
-            margin-bottom: 10px;
+            color: #111;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 4px;
         }
 
-        .subtitle {
-            font-size: 18px;
-            color: #666;
-            font-weight: 300;
+        .header-top p { margin-bottom: 0; }
+
+        .header p {
+            font-size: 0.85rem;
+            color: #aaa;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-bottom: 14px;
         }
 
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-            font-size: 18px;
+        /* Today's date, so he always knows where he is in the week. */
+        .today {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding-bottom: 14px;
         }
 
-        .error {
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 20px;
-            border-left: 4px solid #dc3545;
-            margin-bottom: 20px;
+        /* ── Nav ── */
+        .team-navigation {
+            display: flex;
+            gap: 5px;
         }
 
-        .fallback-notice {
-            background-color: #fff3cd;
-            color: #856404;
-            padding: 20px;
-            border-left: 4px solid #ffc107;
-            margin-bottom: 20px;
-            font-size: 14px;
+        .nav-team-icon {
+            flex: 1;
+            height: 60px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: opacity 0.12s;
+            background: var(--team-color, #333);
         }
 
-        .games-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 24px;
-            margin-top: 40px;
+        .nav-team-icon:hover,
+        .nav-team-icon:focus { opacity: 0.72; }
+
+        .nav-team-icon img {
+            width: 34px;
+            height: 34px;
+            object-fit: contain;
         }
 
-        .game-card {
-            border: 1px solid #e0e0e0;
-            padding: 24px;
-            background-color: #fff;
-            transition: all 0.2s ease;
+        /* ── Cards ── */
+        .teams-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
         }
 
-        .game-card:hover {
-            border-color: #000;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        .team-card {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 7px solid var(--banner-color, var(--team-color));
+            scroll-margin-top: 8px;
         }
 
-        .game-date {
-            font-size: 14px;
+        /* ── Sport label ── */
+        .sport-label {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 8px 14px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sport-label .record {
+            margin-left: auto;
+            letter-spacing: 0.1em;
+            color: #bbb;
+        }
+
+        /* ── Team banner ── */
+        .team-banner {
+            background: var(--banner-color, var(--team-color));
+            padding: 16px 16px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .name-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .photo-section {
+            width: 72px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .team-logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+        }
+
+        .team-name {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .person-photo {
+            width: 72px;
+            height: 72px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        /* ── Next game — the reason the page exists ── */
+        .next-game {
+            position: relative;
+            padding: 18px 16px 20px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .block-label {
+            font-size: 0.75rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: #666;
-            margin-bottom: 8px;
+            letter-spacing: 0.2em;
+            color: #888;
         }
 
-        .game-time {
-            font-size: 12px;
-            color: #999;
-            margin-bottom: 16px;
+        .next-game-head { margin-bottom: 10px; }
+
+        /* Days until kickoff, counting down to 0 on game day. Sits in the
+           team's secondary color and floats above the card, straddling the
+           banner edge so it reads as a sticker rather than another row. */
+        .countdown-badge {
+            position: absolute;
+            top: -34px;
+            right: 14px;
+            z-index: 3;
+            min-width: 82px;
+            padding: 8px 12px 9px;
+            background: var(--secondary-color, var(--banner-color));
+            color: var(--secondary-ink, #fff);
+            border: 2px solid var(--secondary-edge, transparent);
+            border-radius: 3px;
+            text-align: center;
+            line-height: 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+        }
+
+        .countdown-badge .days {
+            display: block;
+            font-size: 1.9rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .countdown-badge .unit {
+            display: block;
+            margin-top: 3px;
+            font-size: 0.62rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
         }
 
         .matchup {
-            font-size: 20px;
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.1;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+        }
+
+        .matchup .vs { color: #888; }
+
+        .when-line {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #111;
+            margin-top: 10px;
+        }
+
+        .where-line {
+            font-size: 1rem;
+            color: #555;
             font-weight: 600;
-            margin-bottom: 12px;
-            line-height: 1.2;
+            margin-top: 3px;
         }
 
-        .team-highlight {
-            background-color: #000;
-            color: #fff;
-            padding: 2px 6px;
+        .watch {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 14px;
+            padding: 12px 14px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .watch img { width: 64px; height: 34px; object-fit: contain; flex-shrink: 0; }
+        .watch .watch-text { font-size: 1.05rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }
+        .watch .watch-sub { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* Hand-entered extras (an open practice, a signing day) ride below
+           the next game so the card still answers "what's next?" first. */
+        .also { padding: 0 16px 16px; background: #fff; }
+
+        .also .row {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            padding: 10px 12px;
+            margin-top: 8px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+        }
+
+        .also .row-when {
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #111;
+            white-space: nowrap;
+        }
+
+        .also .row-what { font-size: 1rem; font-weight: 700; color: #333; }
+        .also .row-where { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* ── Last game ── */
+        .last-game {
+            padding: 14px 16px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .result {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .result .won { color: #0a7a3d; }
+        .result .lost { color: #a81f16; }
+
+        /* ── News ── */
+        .news {
+            padding: 10px 16px 16px;
+            /* Latest wears the banner color on white; the older stories sit
+               on a light wash of the team's secondary. */
+            background: var(--news-bg, #fff);
+            border-left: 8px solid var(--news-accent, var(--banner-color));
+        }
+
+        .news .block-label { padding: 10px 0 2px; display: block; }
+
+        .news .story {
+            display: block;
+            padding: 10px 0;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #111;
+        }
+
+        .news .story:first-of-type { border-top: none; }
+
+        .news .story[href] .headline {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .news .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.25;
+        }
+
+        .news .summary { font-size: 1rem; color: #333; margin-top: 3px; }
+        .news .stamp { font-size: 0.8rem; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+
+        /* ── Buttons ── */
+        .btn-icon {
+            width: 1.2em;
+            height: 1.2em;
+            object-fit: contain;
+            margin: 0 0.4em;
+            flex-shrink: 0;
+            vertical-align: middle;
+        }
+
+        .team-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            background: #ccc;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 20px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
             font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            min-height: 66px;
+            transition: background 0.1s, color 0.1s;
         }
 
-        .game-details {
-            font-size: 14px;
-            color: #666;
-            margin-top: 12px;
+        .action-btn:hover,
+        .action-btn:focus {
+            background: var(--team-color);
+            color: #fff;
         }
 
-        .league-badge {
-            display: inline-block;
-            padding: 4px 8px;
-            font-size: 11px;
+        .action-btn.primary {
+            background: var(--team-color);
+            color: #fff;
+            font-size: 1.25rem;
+            min-height: 78px;
+        }
+
+        .action-btn.primary:hover,
+        .action-btn.primary:focus {
+            background: #111;
+            color: #fff;
+        }
+
+        /* The newest story rides directly under that team's News button, so
+           he sees what happened without opening anything. */
+        .latest-story {
+            display: block;
+            padding: 14px 16px 16px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 8px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .latest-story .latest-label {
+            font-size: 0.7rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
-            border-radius: 2px;
-            margin-bottom: 12px;
-        }
-
-        .nfl {
-            background-color: #013369;
-            color: #fff;
-        }
-
-        .college {
-            background-color: #8B0000;
-            color: #fff;
-        }
-
-        .no-games {
-            text-align: center;
-            padding: 60px 20px;
+            letter-spacing: 0.2em;
             color: #666;
-            font-size: 18px;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px 16px;
+        .latest-story .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-top: 4px;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .latest-story .summary { font-size: 1rem; color: #333; margin-top: 4px; }
+
+        .latest-story .stamp {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 5px;
+        }
+
+        /* A link can ask for the team's secondary color in kat.json. */
+        .action-btn.on-secondary {
+            background: var(--secondary-color, var(--banner-color));
+            color: #fff;
+        }
+
+        .action-btn.on-secondary:hover,
+        .action-btn.on-secondary:focus {
+            background: var(--team-color);
+            color: #fff;
+        }
+
+        .off-season {
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            background: #fff;
+        }
+
+        .archive-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 66px;
+            margin-top: 32px;
+            padding: 16px 20px;
+            background: #fff;
+            color: #111;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+        }
+
+        .archive-btn:active { background: #ccc; }
+
+        /* ── Refresh ── */
+        .refresh-btn {
+            display: block;
+            width: 100%;
+            margin-top: 36px;
+            padding: 18px;
+            background: #2a2a2a;
+            color: #aaa;
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+            transition: background 0.1s, color 0.1s;
+            min-height: 60px;
+        }
+
+        .refresh-btn:hover,
+        .refresh-btn:focus { background: #444; color: #fff; }
+
+        .refresh-btn .countdown {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .refresh-btn .refresh-label { display: block; }
+
+        .footer-photo {
+            display: block;
+            cursor: pointer;
+            width: 100%;
+            max-width: 420px;   /* portrait shot — full width would eat the screen */
+            height: auto;
+            margin: 28px auto 0;
+            border-radius: 4px;
+        }
+
+        .updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            padding: 16px 0 0;
+        }
+
+        .message {
+            background: #fff;
+            border-radius: 4px;
+            padding: 28px 18px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .message small { display: block; font-weight: 500; color: #777; margin-top: 8px; font-size: 0.85rem; text-transform: none; letter-spacing: 0; }
+
+        /* ── Focus ── */
+        .action-btn:focus,
+        .person-photo:focus,
+        .nav-team-icon:focus,
+        .watch:focus {
+            outline: 3px solid #007acc;
+            outline-offset: 2px;
+        }
+
+        /* ── Desktop scale-up ── */
+        @media (min-width: 520px) {
+            .container { padding: 28px 24px; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 2.1rem; }
+            .team-name { font-size: 2rem; }
+            .matchup { font-size: 2rem; }
+            .action-btn { font-size: 1.2rem; min-height: 70px; }
+            .action-btn.primary { font-size: 1.35rem; min-height: 84px; }
+            .nav-team-icon { height: 68px; }
+            .nav-team-icon img { width: 40px; height: 40px; }
+            .team-logo { width: 72px; height: 72px; }
+            .photo-section { width: 80px; height: 80px; }
+            .person-photo { width: 80px; height: 80px; }
+        }
+
+        /* ── Print ── */
+        @media print {
+            @page { size: letter portrait; margin: 0.4in; }
+
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
             }
 
-            h1 {
-                font-size: 36px;
+            body { background: #fff !important; }
+            .container { max-width: 100%; padding: 0; }
+            .team-navigation, .refresh-btn, .updated, .footer-photo, .lightbox,
+            .archive-btn { display: none !important; }
+            .header-photo { width: 34px; height: 34px; }
+            .header-top { gap: 8px; margin-bottom: 6px; }
+
+            .header { margin-bottom: 8px; padding: 8px; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 14pt; }
+            .header p { margin-bottom: 0; }
+            .today { font-size: 9pt; padding-bottom: 4px; }
+
+            .teams-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
             }
 
-            .games-grid {
-                grid-template-columns: 1fr;
-                gap: 16px;
-            }
+            .team-card { break-inside: avoid; border-top-width: 4px; }
+            .sport-label { padding: 4px 8px; font-size: 7pt; }
+            .team-banner { padding: 7px 9px; gap: 7px; }
+            .team-logo { width: 32px; height: 32px; }
+            .team-name { font-size: 10pt; white-space: normal; }
+            .photo-section { width: 40px; height: 40px; }
+            .person-photo { width: 40px; height: 40px; }
 
-            .game-card {
-                padding: 20px;
+            .next-game { padding: 6px 9px 8px; }
+            .block-label { font-size: 6pt; }
+            .next-game-head { margin-bottom: 4px; }
+            .countdown-badge {
+                position: static;
+                float: right;
+                min-width: 34px;
+                padding: 2px 4px;
+                box-shadow: none;
             }
+            .countdown-badge .days { font-size: 11pt; }
+            .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
+            .matchup { font-size: 11pt; }
+            .when-line { font-size: 9pt; margin-top: 4px; }
+            .where-line { font-size: 7pt; }
+            .watch { margin-top: 6px; padding: 4px 6px; }
+            .watch img { width: 34px; height: 18px; }
+            .watch .watch-text { font-size: 7pt; }
+            .watch .watch-sub { display: none; }
+            .news { border-left-width: 4px; }
+            .also { padding: 0 9px 6px; }
+            .also .row { padding: 3px 6px; margin-top: 4px; }
+            .also .row-when, .also .row-what { font-size: 7pt; }
+            .also .row-where { display: none; }
+            .last-game, .news { padding: 5px 9px; }
+            .latest-story { padding: 4px 8px; }
+            .latest-story .latest-label, .latest-story .stamp { display: none; }
+            .latest-story .headline { font-size: 8pt; }
+            .latest-story .summary { display: none; }
+            .result { font-size: 9pt; }
+            .news .headline { font-size: 8pt; }
+            .news .summary, .news .stamp { display: none; }
+
+            .team-actions { gap: 0; }
+            .action-btn { padding: 5px 8px; font-size: 8pt; min-height: auto; }
+            .action-btn.primary { font-size: 9pt; min-height: auto; }
+            .action-btn:hover, .action-btn:focus,
+            .action-btn.primary:hover, .action-btn.primary:focus {
+                background: inherit; color: inherit;
+            }
+            *:focus { outline: none !important; }
+            a[href]:after { content: none !important; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Kat's Football Schedules 2025</h1>
-            <p class="subtitle">by Kevin Kolb</p>
-        </header>
 
-        <div id="loading" class="loading">
-            Loading schedules...
+        <div class="header">
+            <div class="header-top">
+                <img class="header-photo" id="headerPhoto" src="images/kat_merry_badge.jpg"
+                     alt="Kat — tap to see it bigger" role="button" tabindex="0">
+                <div class="header-text">
+                    <h1 id="pageTitle">Kat's Sports Report</h1>
+                    <p id="pageByline">by Kevin Kolb</p>
+                </div>
+            </div>
+            <div class="today" id="todayLine"></div>
+            <div class="team-navigation" id="teamNav"></div>
         </div>
 
-        <div id="error-message" class="error" style="display: none;"></div>
-        
-        <div id="fallback-notice" class="fallback-notice" style="display: none;">
-            Unable to load XML data from external sources. Displaying sample schedule data. To use live data, please ensure the XML URLs are accessible.
+        <div class="teams-grid" id="teams">
+            <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <div id="games-container" class="games-grid"></div>
+        <a class="archive-btn" href="kat_archive.html">Older Stories &rarr;</a>
+
+        <img class="footer-photo" id="footerPhoto" src="images/kat_saints_too_web.jpg"
+             alt="Kat — tap to see it bigger" role="button" tabindex="0" loading="lazy">
+        <button class="refresh-btn" id="refreshBtn">
+            <span class="countdown" id="countdown"></span>
+            <span class="refresh-label">🔄 Tap to Refresh</span>
+        </button>
+        <div class="updated" id="updatedLine"></div>
+
     </div>
 
-    <script>
-        // Target teams (case insensitive matching)
-        const TARGET_TEAMS = [
-            { name: 'saints', variations: ['saints', 'new orleans saints'] },
-            { name: 'florida gators', variations: ['florida', 'florida gators', 'gators'] },
-            { name: 'tulane green wave', variations: ['tulane', 'tulane green wave', 'green wave'] },
-            { name: 'lsu tigers', variations: ['lsu', 'lsu tigers', 'tigers', 'louisiana state'] }
-        ];
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
+        <img id="lightboxImg" src="" alt="">
+        <button class="lightbox-close" id="lightboxClose" type="button">Close</button>
+    </div>
 
-        // Sample data for demonstration (fallback)
-        const SAMPLE_GAMES = [
-            {
-                date: '2025-09-06',
-                time: '12:00 PM',
-                homeTeam: 'LSU Tigers',
-                awayTeam: 'USC Trojans',
-                location: 'Tiger Stadium, Baton Rouge, LA',
-                league: 'COLLEGE'
-            },
-            {
-                date: '2025-09-07',
-                time: '1:00 PM',
-                homeTeam: 'New Orleans Saints',
-                awayTeam: 'Carolina Panthers',
-                location: 'Caesars Superdome, New Orleans, LA',
-                league: 'NFL'
-            },
-            {
-                date: '2025-09-13',
-                time: '7:00 PM',
-                homeTeam: 'Florida Gators',
-                awayTeam: 'Tennessee Volunteers',
-                location: 'Ben Hill Griffin Stadium, Gainesville, FL',
-                league: 'COLLEGE'
-            },
-            {
-                date: '2025-09-14',
-                time: '4:25 PM',
-                homeTeam: 'Atlanta Falcons',
-                awayTeam: 'New Orleans Saints',
-                location: 'Mercedes-Benz Stadium, Atlanta, GA',
-                league: 'NFL'
-            },
-            {
-                date: '2025-09-20',
-                time: '6:30 PM',
-                homeTeam: 'Tulane Green Wave',
-                awayTeam: 'Navy Midshipmen',
-                location: 'Yulman Stadium, New Orleans, LA',
-                league: 'COLLEGE'
-            },
-            {
-                date: '2025-09-21',
-                time: '1:00 PM',
-                homeTeam: 'New Orleans Saints',
-                awayTeam: 'Green Bay Packers',
-                location: 'Caesars Superdome, New Orleans, LA',
-                league: 'NFL'
-            },
-            {
-                date: '2025-09-27',
-                time: '12:00 PM',
-                homeTeam: 'Kentucky Wildcats',
-                awayTeam: 'Florida Gators',
-                location: 'Kroger Field, Lexington, KY',
-                league: 'COLLEGE'
-            },
-            {
-                date: '2025-10-04',
-                time: '7:00 PM',
-                homeTeam: 'LSU Tigers',
-                awayTeam: 'South Alabama Jaguars',
-                location: 'Tiger Stadium, Baton Rouge, LA',
-                league: 'COLLEGE'
-            }
-        ];
+<script>
+(function () {
+    'use strict';
 
-        async function fetchWithMultipleMethods(url) {
-            const methods = [
-                // Direct fetch
-                () => fetch(url),
-                // CORS proxy 1
-                () => fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`),
-                // CORS proxy 2
-                () => fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`),
-                // CORS proxy 3
-                () => fetch(`https://cors-anywhere.herokuapp.com/${url}`)
-            ];
+    var MONTHS = ['January','February','March','April','May','June','July',
+                  'August','September','October','November','December'];
+    var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
-            for (let i = 0; i < methods.length; i++) {
-                try {
-                    console.log(`Trying fetch method ${i + 1} for ${url}`);
-                    const response = await methods[i]();
-                    if (response.ok) {
-                        const text = await response.text();
-                        console.log(`Success with method ${i + 1}`);
-                        return text;
+    var teamsEl = document.getElementById('teams');
+    var navEl = document.getElementById('teamNav');
+
+    // kat.json stores plain "YYYY-MM-DD". Parse as local so the day never
+    // slips backwards for a US reader.
+    function parseDate(iso) {
+        if (!iso) { return null; }
+        var p = String(iso).split('-');
+        if (p.length !== 3) { return null; }
+        var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+    function daysUntil(d) { return Math.round((midnight(d) - midnight(new Date())) / 86400000); }
+    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate(); }
+
+    // Fastest read on the card: how many days away, counting down to 0 on
+    // game day. The game stays on the card all day; tomorrow it rolls over.
+    function buildCountdown(d) {
+        var n = Math.max(0, daysUntil(d));
+        var badge = el('div', 'countdown-badge');
+        badge.appendChild(el('span', 'days', String(n)));
+        badge.appendChild(el('span', 'unit',
+            n === 0 ? 'Game Day' : (n === 1 ? 'Day To Go' : 'Days To Go')));
+        return badge;
+    }
+
+    // Words, for the compact rows under the next game.
+    function whenChip(d) {
+        var n = daysUntil(d);
+        if (n === 0) { return 'Today'; }
+        if (n === 1) { return 'Tomorrow'; }
+        if (n > 1 && n <= 6) { return 'In ' + n + ' days'; }
+        return DAYS[d.getDay()];
+    }
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    function img(src, alt) {
+        var node = new Image();
+        node.src = src;
+        node.alt = alt || '';
+        return node;
+    }
+
+    function colorOf(team, which) {
+        var c = team.colors || {};
+        if (which === 'banner') { return c.banner || c.primary || '#111'; }
+        if (which === 'light') { return c.light || '#f2f2f2'; }
+        if (which === 'secondary') { return c.secondary || c.banner || c.primary || '#111'; }
+        return c.primary || '#111';
+    }
+
+    // Mix a color toward white — a light wash that still reads as the team's.
+    function tint(hex, amount) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var out = '#';
+        for (var i = 0; i < 3; i++) {
+            var c = parseInt(h.slice(i * 2, i * 2 + 2), 16);
+            out += ('0' + Math.round(c + (255 - c) * amount).toString(16)).slice(-2);
+        }
+        return out.toUpperCase();
+    }
+
+    // Some secondaries are pale (Texas white, Yankees gray) and some are dark.
+    // Pick the text color from the background so the number always reads.
+    function luminance(hex) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var r = parseInt(h.slice(0, 2), 16) / 255;
+        var g = parseInt(h.slice(2, 4), 16) / 255;
+        var b = parseInt(h.slice(4, 6), 16) / 255;
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    }
+
+    // ---------- card pieces ----------
+    function buildSportLabel(team) {
+        var label = el('div', 'sport-label');
+        label.appendChild(el('span', 'ball', team.ball || ''));
+        label.appendChild(el('span', null, team.sport || ''));
+        if (team.record) { label.appendChild(el('span', 'record', team.record)); }
+        return label;
+    }
+
+    function buildBanner(team) {
+        var banner = el('div', 'team-banner');
+
+        var name = el('div', 'name-section');
+        var logo = img(team.logo, '');
+        logo.className = 'team-logo';
+        name.appendChild(logo);
+
+        name.appendChild(el('div', 'team-name', team.name));
+        banner.appendChild(name);
+
+        var p = team.person;
+        if (p && p.photo) {
+            var photoWrap = el('div', 'photo-section');
+            var photo = img(p.photo, p.name ? p.name + "'s photo" : '');
+            photo.className = 'person-photo';
+            if (p.lightbox) {
+                // A photo of the reader opens big rather than navigating away.
+                photo.tabIndex = 0;
+                photo.setAttribute('role', 'button');
+                wireLightbox(photo, p.lightbox, p.name ? p.name + "'s photo" : '');
+            } else if (p.url) {
+                photo.tabIndex = 0;
+                photo.addEventListener('click', function () { window.location.href = p.url; });
+                photo.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        window.location.href = p.url;
                     }
-                } catch (error) {
-                    console.log(`Method ${i + 1} failed:`, error.message);
-                }
-            }
-            throw new Error(`All fetch methods failed for ${url}`);
-        }
-
-        function isTargetTeam(teamName) {
-            if (!teamName) return null;
-            const lowerTeamName = teamName.toLowerCase();
-            
-            for (const target of TARGET_TEAMS) {
-                if (target.variations.some(variation => 
-                    lowerTeamName.includes(variation.toLowerCase()) || 
-                    variation.toLowerCase().includes(lowerTeamName)
-                )) {
-                    return target.name;
-                }
-            }
-            return null;
-        }
-
-        function parseXMLGame(gameElement, league) {
-            // Try multiple ways to get the data
-            const date = gameElement.getAttribute('date') || 
-                        gameElement.querySelector('date')?.textContent || 
-                        gameElement.querySelector('Date')?.textContent;
-            
-            const time = gameElement.getAttribute('time') || 
-                        gameElement.querySelector('time')?.textContent ||
-                        gameElement.querySelector('Time')?.textContent;
-            
-            const homeTeam = gameElement.getAttribute('home') || 
-                            gameElement.getAttribute('homeTeam') ||
-                            gameElement.querySelector('home')?.textContent ||
-                            gameElement.querySelector('homeTeam')?.textContent ||
-                            gameElement.querySelector('Home')?.textContent;
-            
-            const awayTeam = gameElement.getAttribute('away') || 
-                            gameElement.getAttribute('awayTeam') ||
-                            gameElement.querySelector('away')?.textContent ||
-                            gameElement.querySelector('awayTeam')?.textContent ||
-                            gameElement.querySelector('Away')?.textContent;
-            
-            const location = gameElement.getAttribute('location') || 
-                            gameElement.querySelector('location')?.textContent ||
-                            gameElement.querySelector('Location')?.textContent;
-
-            const homeTargetTeam = isTargetTeam(homeTeam);
-            const awayTargetTeam = isTargetTeam(awayTeam);
-
-            if (!homeTargetTeam && !awayTargetTeam) {
-                return null;
-            }
-
-            return createGameObject(date, time, homeTeam, awayTeam, location, league);
-        }
-
-        function createGameObject(date, time, homeTeam, awayTeam, location, league) {
-            let dateObj = new Date('2099-12-31');
-            if (date && date !== 'TBD') {
-                try {
-                    const parsedDate = new Date(date);
-                    if (!isNaN(parsedDate.getTime())) {
-                        dateObj = parsedDate;
-                    }
-                } catch (e) {
-                    console.warn('Could not parse date:', date);
-                }
-            }
-
-            const homeTargetTeam = isTargetTeam(homeTeam);
-            const awayTargetTeam = isTargetTeam(awayTeam);
-
-            return {
-                date: date || 'TBD',
-                time: time || '',
-                homeTeam: homeTeam || 'TBD',
-                awayTeam: awayTeam || 'TBD',
-                location: location || '',
-                league: league,
-                targetTeam: homeTargetTeam || awayTargetTeam,
-                dateObj: dateObj
-            };
-        }
-
-        function formatDate(dateStr) {
-            if (!dateStr || dateStr === 'TBD') return 'TBD';
-            try {
-                const date = new Date(dateStr);
-                if (isNaN(date.getTime())) return dateStr;
-                return date.toLocaleDateString('en-US', {
-                    weekday: 'long',
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
                 });
-            } catch (e) {
-                return dateStr;
             }
+            photoWrap.appendChild(photo);
+            banner.appendChild(photoWrap);
+        }
+        return banner;
+    }
+
+    // ESPN owns nextGame; extraEvents are hand-entered in kat.json and the
+    // routine leaves them alone. Both go on the calendar together.
+    function eventsFor(team) {
+        var list = [];
+        if (team.nextGame) { list.push(team.nextGame); }
+        (team.extraEvents || []).forEach(function (e) { list.push(e); });
+
+        var today = new Date();
+        today = today.getFullYear() + '-' +
+                ('0' + (today.getMonth() + 1)).slice(-2) + '-' +
+                ('0' + today.getDate()).slice(-2);
+
+        var future = list.filter(function (e) { return !e.date || e.date >= today; });
+        if (!future.length) { future = team.nextGame ? [team.nextGame] : []; }
+
+        return future.sort(function (a, b) {
+            return String(a.date || '').localeCompare(String(b.date || ''));
+        });
+    }
+
+    function titleOf(g) {
+        if (g.label) { return g.label; }
+        return (g.homeAway === 'away' ? 'at ' : 'vs ') + (g.opponent || '');
+    }
+
+    function buildAlso(team, rest) {
+        if (!rest.length) { return null; }
+
+        var wrap = el('div', 'also');
+        rest.slice(0, 2).forEach(function (g) {
+            var row = el('div', 'row');
+            var d = parseDate(g.date);
+            row.appendChild(el('span', 'row-when', d ? whenChip(d) : ''));
+
+            var what = el('div');
+            var time = [g.time, g.endTime].filter(Boolean).join(' – ');
+            what.appendChild(el('div', 'row-what', titleOf(g) + (time ? ' · ' + time : '')));
+            var where = [g.venue, g.note].filter(Boolean).join(' · ');
+            if (where) { what.appendChild(el('div', 'row-where', where)); }
+            row.appendChild(what);
+            wrap.appendChild(row);
+        });
+        return wrap;
+    }
+
+    function buildNextGame(team, g) {
+        if (team.offSeason) {
+            return el('div', 'off-season', ((team.ball || '') + ' Off Season').trim());
         }
 
-        function formatTime(timeStr) {
-            if (!timeStr) return '';
-            try {
-                // Handle various time formats
-                if (timeStr.includes('PM') || timeStr.includes('AM')) {
-                    return timeStr; // Already formatted
-                }
-                const time = new Date(`2000-01-01 ${timeStr}`);
-                return time.toLocaleTimeString('en-US', {
-                    hour: 'numeric',
-                    minute: '2-digit'
-                });
-            } catch (e) {
-                return timeStr;
+        var wrap = el('div', 'next-game');
+        var head = el('div', 'next-game-head');
+        head.appendChild(el('div', 'block-label', 'Next Game'));
+
+        if (!g) {
+            wrap.appendChild(head);
+            wrap.appendChild(el('div', 'when-line', 'No game scheduled yet.'));
+            return wrap;
+        }
+
+        var d = parseDate(g.date);
+        if (d) { head.appendChild(buildCountdown(d)); }
+        wrap.appendChild(head);
+
+        var matchup = el('div', 'matchup');
+        if (g.label) {
+            matchup.appendChild(document.createTextNode(g.label));
+        } else {
+            matchup.appendChild(el('span', 'vs', g.homeAway === 'away' ? 'at ' : 'vs '));
+            matchup.appendChild(document.createTextNode(g.opponent || ''));
+        }
+        wrap.appendChild(matchup);
+
+        var when = [];
+        if (d) { when.push(longDate(d)); }
+        var clock = [g.time, g.endTime].filter(Boolean).join(' – ');
+        if (clock) { when.push(clock); }
+        if (when.length) { wrap.appendChild(el('div', 'when-line', when.join(' at '))); }
+
+        var where = [g.venue, g.city].filter(Boolean).join(' — ');
+        if (where) { wrap.appendChild(el('div', 'where-line', where)); }
+        if (g.note) { wrap.appendChild(el('div', 'where-line', g.note)); }
+
+        if (g.tv && g.tv.name) {
+            var watch = document.createElement(g.tv.url ? 'a' : 'div');
+            watch.className = 'watch';
+            if (g.tv.url) {
+                watch.href = g.tv.url;
             }
+            if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
+            var text = el('div');
+            text.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
+            text.appendChild(el('div', 'watch-sub', g.time ? 'Starts at ' + g.time : 'Check your TV guide'));
+            watch.appendChild(text);
+            wrap.appendChild(watch);
         }
+        return wrap;
+    }
 
-        function createGameCard(game) {
-            const homeHighlight = isTargetTeam(game.homeTeam) ? 'team-highlight' : '';
-            const awayHighlight = isTargetTeam(game.awayTeam) ? 'team-highlight' : '';
+    function buildLastGame(team) {
+        var g = team.lastGame;
+        if (!g) { return null; }
 
-            return `
-                <div class="game-card">
-                    <div class="league-badge ${game.league.toLowerCase()}">${game.league}</div>
-                    <div class="game-date">${formatDate(game.date)}</div>
-                    ${game.time ? `<div class="game-time">${formatTime(game.time)}</div>` : ''}
-                    <div class="matchup">
-                        <span class="${awayHighlight}">${game.awayTeam}</span>
-                        <br>@<br>
-                        <span class="${homeHighlight}">${game.homeTeam}</span>
-                    </div>
-                    ${game.location ? `<div class="game-details">${game.location}</div>` : ''}
-                </div>
-            `;
+        var won = String(g.result || '').toUpperCase().charAt(0) === 'W';
+        var wrap = el('div', 'last-game');
+        wrap.appendChild(el('div', 'block-label', 'Last Game'));
+
+        var line = el('div', 'result');
+        line.appendChild(el('span', won ? 'won' : 'lost', won ? 'Won' : 'Lost'));
+        var score = [g.teamScore, g.opponentScore].filter(function (s) { return s || s === 0; });
+        if (score.length === 2) { line.appendChild(document.createTextNode(' ' + score[0] + '–' + score[1])); }
+        if (g.opponent) { line.appendChild(document.createTextNode(' vs ' + g.opponent)); }
+        wrap.appendChild(line);
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'where-line', longDate(d))); }
+        return wrap;
+    }
+
+    function buildNews(team) {
+        var items = (team.news || []).slice(1);
+        if (!items.length) { return null; }
+
+        var wrap = el('div', 'news');
+        wrap.appendChild(el('span', 'block-label', 'Also This Week'));
+
+        // Short attention span: two more stories is the ceiling.
+        items.slice(0, 2).forEach(function (n) {
+            var story = document.createElement(n.url ? 'a' : 'div');
+            story.className = 'story';
+            if (n.url) { story.href = n.url; }
+            story.appendChild(el('div', 'headline', n.headline || ''));
+            if (n.summary) { story.appendChild(el('div', 'summary', n.summary)); }
+            var d = parseDate(n.date);
+            var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+            if (stamp) { story.appendChild(el('div', 'stamp', stamp)); }
+            wrap.appendChild(story);
+        });
+        return wrap;
+    }
+
+    function buildLatestStory(team) {
+        var n = (team.news || [])[0];
+        if (!n || !n.headline) { return null; }
+
+        var wrap = document.createElement(n.url ? 'a' : 'div');
+        wrap.className = 'latest-story';
+        if (n.url) {
+            wrap.href = n.url;
         }
+        wrap.appendChild(el('div', 'latest-label', 'Latest'));
+        wrap.appendChild(el('div', 'headline', n.headline));
+        if (n.summary) { wrap.appendChild(el('div', 'summary', n.summary)); }
+        var d = parseDate(n.date);
+        var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+        if (stamp) { wrap.appendChild(el('div', 'stamp', stamp)); }
+        return wrap;
+    }
 
-        async function loadSchedules() {
-            const loadingEl = document.getElementById('loading');
-            const errorEl = document.getElementById('error-message');
-            const fallbackEl = document.getElementById('fallback-notice');
-            const containerEl = document.getElementById('games-container');
+    function buildActions(team) {
+        var links = team.links || [];
+        if (!links.length) { return null; }
 
-            try {
-                loadingEl.style.display = 'block';
-                errorEl.style.display = 'none';
-                fallbackEl.style.display = 'none';
-
-                const games = [];
-
-                // Try to load XML data
-                try {
-                    const collegeXmlText = await fetchWithMultipleMethods('https://kevinkolb.github.io/horsesmouthsportsdata/games/collegegames.xml');
-                    const nflXmlText = await fetchWithMultipleMethods('https://kevinkolb.github.io/horsesmouthsportsdata/games/nflgames.xml');
-
-                    const parser = new DOMParser();
-                    const collegeDoc = parser.parseFromString(collegeXmlText, 'text/xml');
-                    const nflDoc = parser.parseFromString(nflXmlText, 'text/xml');
-
-                    // Parse college games
-                    let collegeGames = collegeDoc.querySelectorAll('game, Game');
-                    if (collegeGames.length === 0) {
-                        collegeGames = Array.from(collegeDoc.documentElement.children);
-                    }
-                    
-                    collegeGames.forEach(gameEl => {
-                        const game = parseXMLGame(gameEl, 'COLLEGE');
-                        if (game) games.push(game);
-                    });
-
-                    // Parse NFL games
-                    let nflGames = nflDoc.querySelectorAll('game, Game');
-                    if (nflGames.length === 0) {
-                        nflGames = Array.from(nflDoc.documentElement.children);
-                    }
-                    
-                    nflGames.forEach(gameEl => {
-                        const game = parseXMLGame(gameEl, 'NFL');
-                        if (game) games.push(game);
-                    });
-
-                    console.log(`Loaded ${games.length} games from XML data`);
-
-                } catch (xmlError) {
-                    console.log('XML loading failed, using sample data:', xmlError.message);
-                    
-                    // Use sample data as fallback
-                    SAMPLE_GAMES.forEach(sampleGame => {
-                        const game = createGameObject(
-                            sampleGame.date,
-                            sampleGame.time,
-                            sampleGame.homeTeam,
-                            sampleGame.awayTeam,
-                            sampleGame.location,
-                            sampleGame.league
-                        );
-                        if (game && (isTargetTeam(game.homeTeam) || isTargetTeam(game.awayTeam))) {
-                            games.push(game);
-                        }
-                    });
-
-                    fallbackEl.style.display = 'block';
-                }
-
-                // Sort games chronologically
-                games.sort((a, b) => {
-                    if (!a.dateObj || !b.dateObj) return 0;
-                    return a.dateObj.getTime() - b.dateObj.getTime();
-                });
-
-                loadingEl.style.display = 'none';
-
-                if (games.length === 0) {
-                    containerEl.innerHTML = '<div class="no-games">No games found for the selected teams.</div>';
-                    return;
-                }
-
-                containerEl.innerHTML = games.map(createGameCard).join('');
-
-            } catch (error) {
-                console.error('Error loading schedules:', error);
-                loadingEl.style.display = 'none';
-                errorEl.style.display = 'block';
-                errorEl.textContent = `Error loading schedules: ${error.message}`;
+        var wrap = el('div', 'team-actions');
+        links.forEach(function (l, i) {
+            var a = el('a', 'action-btn' + (i === 0 ? ' primary' : '') +
+                            (l.style === 'secondary' ? ' on-secondary' : ''));
+            a.href = l.url;
+            if (l.icon) {
+                var icon = img(l.icon, '');
+                icon.className = 'btn-icon';
+                a.appendChild(icon);
             }
+            // Buttons carry the team name so a card read on its own still
+            // says whose stats these are.
+            var prefix = l.prefix === false ? '' : (team.shortName || '') + ' ';
+            a.appendChild(document.createTextNode((prefix + l.label).trim()));
+            wrap.appendChild(a);
+
+            if (/news/i.test(l.label)) {
+                var latest = buildLatestStory(team);
+                if (latest) { wrap.appendChild(latest); }
+                var older = buildNews(team);
+                if (older) { wrap.appendChild(older); }
+            }
+        });
+        return wrap;
+    }
+
+    function buildCard(team) {
+        var card = el('div', 'team-card');
+        card.id = team.id + '-card';
+        card.style.setProperty('--team-color', colorOf(team, 'primary'));
+        card.style.setProperty('--banner-color', colorOf(team, 'banner'));
+        card.style.setProperty('--light-color', colorOf(team, 'light'));
+
+        var secondary = colorOf(team, 'secondary');
+        var pale = luminance(secondary) > 0.6;
+        card.style.setProperty('--secondary-color', secondary);
+        card.style.setProperty('--secondary-ink', pale ? '#111' : '#fff');
+        // A near-white badge needs an edge or it vanishes into the card.
+        card.style.setProperty('--secondary-edge', pale ? colorOf(team, 'primary') : 'transparent');
+
+        // A white secondary (Texas once had one) would leave the news block with
+        // no stripe at all, so fall back to the primary there.
+        var accent = luminance(secondary) > 0.9 ? colorOf(team, 'primary') : secondary;
+        card.style.setProperty('--news-accent', accent);
+
+        // A near-black accent tints to flat gray, which reads as a dead block
+        // next to the other teams. Draw the wash from the banner instead and
+        // let the dark stripe carry the accent — Saints get sand under black,
+        // Texas pale orange under charcoal.
+        var washBase = luminance(accent) < 0.25 ? colorOf(team, 'banner') : accent;
+        card.style.setProperty('--news-bg', tint(washBase, 0.88));
+
+        var events = eventsFor(team);
+
+        card.appendChild(buildSportLabel(team));
+        card.appendChild(buildBanner(team));
+        card.appendChild(buildNextGame(team, events[0]));
+        [buildAlso(team, events.slice(1)), buildLastGame(team), buildActions(team)]
+            .forEach(function (piece) { if (piece) { card.appendChild(piece); } });
+        return card;
+    }
+
+    function buildNavIcon(team) {
+        var a = el('a', 'nav-team-icon');
+        a.href = '#' + team.id + '-card';
+        a.setAttribute('aria-label', team.name);
+        a.style.setProperty('--team-color', colorOf(team, 'primary'));
+        a.appendChild(img(team.logo, ''));
+        return a;
+    }
+
+    // ---------- render ----------
+    function render(data) {
+        var meta = data.meta || {};
+        if (meta.title) { document.getElementById('pageTitle').textContent = meta.title; }
+        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+
+        var now = new Date();
+        document.getElementById('todayLine').textContent =
+            DAYS[now.getDay()] + ', ' + MONTHS[now.getMonth()] + ' ' + now.getDate();
+
+        var teams = (data.teams || []).filter(function (t) { return !t.hidden; });
+
+        teamsEl.textContent = '';
+        navEl.textContent = '';
+
+        if (!teams.length) {
+            teamsEl.appendChild(el('div', 'message', 'No teams to show yet.'));
+            return;
         }
 
-        // Load schedules when page loads
-        document.addEventListener('DOMContentLoaded', loadSchedules);
-    </script>
+        teams.forEach(function (team) {
+            teamsEl.appendChild(buildCard(team));
+            navEl.appendChild(buildNavIcon(team));
+        });
+
+        var updated = parseDate(meta.updated);
+        if (updated) {
+            document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
+        }
+    }
+
+    function showError() {
+        teamsEl.textContent = '';
+        var box = el('div', 'message', "Today's report could not be loaded.");
+        box.appendChild(el('small', null,
+            'kat.json did not load. If you opened this file directly, serve the folder instead ' +
+            '(for example: python -m http.server) and reload.'));
+        teamsEl.appendChild(box);
+    }
+
+    // kat.json is rewritten twice a day. Re-fetch every 20
+    // minutes and whenever he comes back to the tab, so a phone left open on
+    // the page is never showing yesterday's card. Re-rendering in place keeps
+    // his scroll position — a full reload would throw him back to the top.
+    var REFRESH_MS = 20 * 60 * 1000;
+    var nextRefreshAt = Date.now() + REFRESH_MS;
+
+    function load(onError) {
+        nextRefreshAt = Date.now() + REFRESH_MS;
+        // Cache-bust so a freshly pushed kat.json shows up right away.
+        return fetch('kat.json?t=' + Date.now(), { cache: 'no-store' })
+            .then(function (r) {
+                if (!r.ok) { throw new Error('HTTP ' + r.status); }
+                return r.json();
+            })
+            .then(render)
+            .catch(function (err) { if (onError) { onError(err); } });
+    }
+
+    // Counts down to the next automatic refresh, so the page never looks
+    // stuck — he can see it is still working even when nothing changes.
+    var countdownEl = document.getElementById('countdown');
+
+    function tick() {
+        var left = Math.max(0, nextRefreshAt - Date.now());
+        var mins = Math.floor(left / 60000);
+        var secs = Math.floor((left % 60000) / 1000);
+        countdownEl.textContent = 'Auto-Refresh in ' + mins + ':' + ('0' + secs).slice(-2);
+        if (left <= 0) { load(null); }
+    }
+
+    document.getElementById('refreshBtn').addEventListener('click', function () {
+        location.reload();
+    });
+
+    // ---------- lightbox ----------
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = document.getElementById('lightboxImg');
+    var headerPhoto = document.getElementById('headerPhoto');
+    var lastFocus = null;
+
+    function openLightbox(src, alt) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lastFocus = document.activeElement;
+        lightbox.classList.add('open');
+        document.getElementById('lightboxClose').focus();
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightboxImg.src = '';
+        if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
+    }
+
+    function wireLightbox(node, src, alt) {
+        if (!node) { return; }
+        node.addEventListener('click', function () { openLightbox(src, alt); });
+        node.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openLightbox(src, alt);
+            }
+        });
+    }
+
+    wireLightbox(headerPhoto, 'images/kat_merry_web.jpg', 'Kat');
+    wireLightbox(document.getElementById('footerPhoto'), 'images/kat_saints_too_web.jpg', 'Kat');
+
+    lightbox.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) { closeLightbox(); }
+    });
+
+    load(showError);
+    tick();
+    setInterval(tick, 1000);
+
+    // Quietly freshen on return to the tab; a failure here keeps the last
+    // good card on screen rather than replacing it with an error.
+    document.addEventListener('visibilitychange', function () {
+        if (!document.hidden) { load(null); }
+    });
+})();
+</script>
 </body>
 </html>

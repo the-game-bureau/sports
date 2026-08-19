@@ -987,7 +987,12 @@
             var photoWrap = el('div', 'photo-section');
             var photo = img(p.photo, p.name ? p.name + "'s photo" : '');
             photo.className = 'person-photo';
-            if (p.url) {
+            if (p.lightbox) {
+                // A photo of the reader opens big rather than navigating away.
+                photo.tabIndex = 0;
+                photo.setAttribute('role', 'button');
+                wireLightbox(photo, p.lightbox, p.name ? p.name + "'s photo" : '');
+            } else if (p.url) {
                 photo.tabIndex = 0;
                 photo.addEventListener('click', function () { window.location.href = p.url; });
                 photo.addEventListener('keydown', function (e) {

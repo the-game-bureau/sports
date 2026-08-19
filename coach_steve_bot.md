@@ -1,6 +1,7 @@
 # Coach Steve Bot
 
-The daily routine behind [Coach Steve's Sports Report](steve.html).
+The daily routine behind [Coach Steve's Sports Report](steve.html) and
+[Kat's Sports Report](kat.html).
 
 **Who it's for.** One reader: a man with Alzheimer's disease, reading on a phone, with
 a short attention span. He should never have to click to find something out. Every
@@ -38,6 +39,10 @@ over the file.
 
 ## What it writes
 
+Both reports run in one pass. Steve follows the Saints, Florida, Tulane, Texas, IUP,
+and the Yankees; Kat follows the Saints, Florida, LSU, and Tulane. Shared teams are
+researched once and written into both feeds.
+
 | Field | Where it comes from |
 | --- | --- |
 | `record` | ESPN team endpoint |
@@ -46,11 +51,12 @@ over the file.
 | `news[]` | Web research, **appended**, deduped by URL + headline |
 | `meta.updated` | Today |
 
-Newest 3 stories per team stay on [steve.html](steve.html). Older ones move to
-`steve_archive.json`, which [steve_archive.html](steve_archive.html) reads.
+Newest 3 stories per team stay on the report. Older ones move to that report's archive
+— `steve_archive.json` behind [steve_archive.html](steve_archive.html), `kat_archive.json`
+behind [kat_archive.html](kat_archive.html).
 
-Every run writes `steve.json.bak` and `steve_archive.json.bak` first, so a bad run is
-one file rename away from undone.
+Every run writes a `.bak` beside each of the four data files first, so a bad run is one
+file rename away from undone.
 
 ---
 
@@ -80,9 +86,10 @@ The routine uses whatever is in `steve.json`; this is the current set.
 | Florida Gators | `florida` | football / college-football / 57 |
 | New Orleans Saints | `saints` | football / nfl / 18 |
 | IUP Crimson Hawks | `iup` | *none — researched by hand* |
+| LSU Tigers | `lsu` | football / college-football / 99 |
 | New York Yankees | `yankees` | baseball / mlb / 10 |
 | Texas Longhorns | `texas` | football / college-football / 251 |
 
-To follow a new team, add an entry to `steve.json` with its `espn` block, `newsFocus`,
-and colors. To stop covering one, set `"hidden": true` — [steve.html](steve.html)
+To follow a new team, add an entry to `steve.json` or `kat.json` with its `espn` block,
+`newsFocus`, and colors. To stop covering one, set `"hidden": true` — [steve.html](steve.html)
 skips hidden teams and the routine leaves them alone.
