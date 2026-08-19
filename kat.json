@@ -241,7 +241,26 @@
         }
       },
       "lastGame": null,
-      "news": [],
+      "news": [
+        {
+          "id": "69678f73ab72",
+          "teamId": "lsu",
+          "headline": "Trey'Dez Green named to Walter Camp watch list",
+          "summary": "The junior tight end is the only tight end on the 50-player list for national player of the year. He already holds LSU's career record for receiving touchdowns by a tight end.",
+          "date": "2026-08-18",
+          "source": "And The Valley Shook",
+          "url": "https://www.andthevalleyshook.com/lsu-tigers-football/51718/treydez-green-named-to-walter-camp-award-watch-list"
+        },
+        {
+          "id": "2b50cd6eef89",
+          "teamId": "lsu",
+          "headline": "LSU ranked No. 11 in preseason AP poll",
+          "summary": "The Tigers open the season Sept. 5 at home against Clemson, who did not make the poll. It is LSU's first season under new coach Lane Kiffin.",
+          "date": "2026-08-17",
+          "source": "WAFB",
+          "url": "https://www.wafb.com/2026/08/17/where-lsu-football-ranks-ap-preseason-top-25-poll/"
+        }
+      ],
       "links": [
         {
           "label": "Full Schedule",
@@ -249,7 +268,7 @@
         },
         {
           "label": "Stats",
-          "url": "https://lsusports.net/sports/football/stats"
+          "url": "https://lsusports.net/sports/fb/stats"
         },
         {
           "label": "Roster & Coaches",
@@ -257,7 +276,7 @@
         },
         {
           "label": "Video",
-          "url": "https://www.youtube.com/@LSUFootball/videos"
+          "url": "https://www.youtube.com/@LSUTigersFB/videos"
         },
         {
           "label": "Facebook",
@@ -265,7 +284,7 @@
         },
         {
           "label": "News",
-          "url": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers"
+          "url": "https://lsusports.net/sports/fb/news"
         }
       ]
     },
