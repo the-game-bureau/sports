@@ -497,6 +497,18 @@
             margin-top: 5px;
         }
 
+        /* A link can ask for the team's secondary color in steve.json. */
+        .action-btn.on-secondary {
+            background: var(--secondary-color, var(--banner-color));
+            color: #fff;
+        }
+
+        .action-btn.on-secondary:hover,
+        .action-btn.on-secondary:focus {
+            background: #111;
+            color: #fff;
+        }
+
         .off-season {
             text-align: center;
             padding: 20px;
@@ -1146,7 +1158,8 @@
 
         var wrap = el('div', 'team-actions');
         links.forEach(function (l, i) {
-            var a = el('a', 'action-btn' + (i === 0 ? ' primary' : ''));
+            var a = el('a', 'action-btn' + (i === 0 ? ' primary' : '') +
+                            (l.style === 'secondary' ? ' on-secondary' : ''));
             a.href = l.url;
             a.target = '_blank';
             a.rel = 'noopener';
