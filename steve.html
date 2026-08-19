@@ -384,8 +384,11 @@
 
         /* ── News ── */
         .news {
-            padding: 4px 16px 16px;
+            padding: 10px 16px 16px;
             background: #fff;
+            /* Latest wears the banner color; the older stories wear the
+               team's secondary, so the pair reads as one stack. */
+            border-left: 8px solid var(--secondary-color, var(--banner-color));
         }
 
         .news .block-label { padding: 10px 0 2px; display: block; }
@@ -761,6 +764,7 @@
             .watch img { width: 34px; height: 18px; }
             .watch .watch-text { font-size: 7pt; }
             .watch .watch-sub { display: none; }
+            .news { border-left-width: 4px; }
             .also { padding: 0 9px 6px; }
             .also .row { padding: 3px 6px; margin-top: 4px; }
             .also .row-when, .also .row-what { font-size: 7pt; }
