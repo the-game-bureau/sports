@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/katopus_icon.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/katopus_icon.png">
     <link rel="apple-touch-icon" href="images/katopus_icon.png">
-    <title>Older Stories — Kat's Sports Report</title>
+    <title>Archived Posts — Kat's Sports Report</title>
     <link rel="icon" href="images/katopus_icon.png">
     <style>
         /* Same page furniture as the report — 640px column, uppercase type,
@@ -243,7 +243,7 @@
             <div class="header-top">
                 <img class="header-photo" src="images/kat_merry_badge.jpg" alt="Kat">
                 <div>
-                    <h1>Older Stories</h1>
+                    <h1>Archived Posts</h1>
                 </div>
             </div>
             <a class="back-btn" href="kat.html">&larr; Back to Today</a>
@@ -366,7 +366,7 @@
         storiesEl.textContent = '';
 
         if (!items.length) {
-            var box = el('div', 'message', 'No older stories yet.');
+            var box = el('div', 'message', 'No archived posts yet.');
             box.appendChild(el('small', null,
                 'Stories move here once newer ones take their place on the report.'));
             storiesEl.appendChild(box);
@@ -428,7 +428,7 @@
 
     function showError() {
         storiesEl.textContent = '';
-        var box = el('div', 'message', 'The older stories could not be loaded.');
+        var box = el('div', 'message', 'The archived posts could not be loaded.');
         box.appendChild(el('small', null,
             'If you opened this file directly, serve the folder instead ' +
             '(for example: python -m http.server) and reload.'));
