@@ -139,6 +139,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "2b2be0a927cc",
+          "teamId": "florida",
+          "headline": "Florida left out of preseason AP Top 25",
+          "summary": "The Gators didn't crack the AP's preseason poll, though they had the second-most votes among unranked teams. It's a fresh-start season under new coach Jon Sumrall, so this is the low point expectations can only rise from.",
+          "date": "2026-08-17",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/08/17/florida-football-falls-outside-2026-preseason-ap-top-25-rankings/"
+        },
+        {
           "id": "7bbc018fb7d6",
           "teamId": "florida",
           "headline": "QB battle still even after first scrimmage",
@@ -324,6 +333,15 @@
           "date": "2026-08-19",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
+        },
+        {
+          "id": "3627ef62f53f",
+          "teamId": "saints",
+          "headline": "Saints, Cowboys scuffle in joint practice",
+          "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
+          "date": "2026-08-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
         },
         {
           "id": "9c927efa32d5",
