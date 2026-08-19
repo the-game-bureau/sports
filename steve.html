@@ -438,6 +438,45 @@
             color: #fff;
         }
 
+        /* The newest story rides directly under that team's News button, so
+           he sees what happened without opening anything. */
+        .latest-story {
+            display: block;
+            padding: 14px 16px 16px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 8px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .latest-story .latest-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #666;
+        }
+
+        .latest-story .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-top: 4px;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .latest-story .summary { font-size: 1rem; color: #333; margin-top: 4px; }
+
+        .latest-story .stamp {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 5px;
+        }
+
         .off-season {
             text-align: center;
             padding: 20px;
@@ -700,6 +739,10 @@
             .also .row-when, .also .row-what { font-size: 7pt; }
             .also .row-where { display: none; }
             .last-game, .news { padding: 5px 9px; }
+            .latest-story { padding: 4px 8px; }
+            .latest-story .latest-label, .latest-story .stamp { display: none; }
+            .latest-story .headline { font-size: 8pt; }
+            .latest-story .summary { display: none; }
             .result { font-size: 9pt; }
             .news .headline { font-size: 8pt; }
             .news .summary, .news .stamp { display: none; }
@@ -968,14 +1011,14 @@
     }
 
     function buildNews(team) {
-        var items = team.news || [];
+        var items = (team.news || []).slice(1);
         if (!items.length) { return null; }
 
         var wrap = el('div', 'news');
-        wrap.appendChild(el('span', 'block-label', 'What Happened'));
+        wrap.appendChild(el('span', 'block-label', 'Also This Week'));
 
-        // Short attention span: three stories is the ceiling.
-        items.slice(0, 3).forEach(function (n) {
+        // Short attention span: two more stories is the ceiling.
+        items.slice(0, 2).forEach(function (n) {
             var story = el('div', 'story');
             story.appendChild(el('div', 'headline', n.headline || ''));
             if (n.summary) { story.appendChild(el('div', 'summary', n.summary)); }
@@ -984,6 +1027,26 @@
             if (stamp) { story.appendChild(el('div', 'stamp', stamp)); }
             wrap.appendChild(story);
         });
+        return wrap;
+    }
+
+    function buildLatestStory(team) {
+        var n = (team.news || [])[0];
+        if (!n || !n.headline) { return null; }
+
+        var wrap = document.createElement(n.url ? 'a' : 'div');
+        wrap.className = 'latest-story';
+        if (n.url) {
+            wrap.href = n.url;
+            wrap.target = '_blank';
+            wrap.rel = 'noopener';
+        }
+        wrap.appendChild(el('div', 'latest-label', 'Latest'));
+        wrap.appendChild(el('div', 'headline', n.headline));
+        if (n.summary) { wrap.appendChild(el('div', 'summary', n.summary)); }
+        var d = parseDate(n.date);
+        var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+        if (stamp) { wrap.appendChild(el('div', 'stamp', stamp)); }
         return wrap;
     }
 
@@ -1007,6 +1070,11 @@
             var prefix = l.prefix === false ? '' : (team.shortName || '') + ' ';
             a.appendChild(document.createTextNode((prefix + l.label).trim()));
             wrap.appendChild(a);
+
+            if (/news/i.test(l.label)) {
+                var latest = buildLatestStory(team);
+                if (latest) { wrap.appendChild(latest); }
+            }
         });
         return wrap;
     }
