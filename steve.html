@@ -508,6 +508,26 @@
             background: #fff;
         }
 
+        .archive-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 66px;
+            margin-top: 32px;
+            padding: 16px 20px;
+            background: #fff;
+            color: #111;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+        }
+
+        .archive-btn:active { background: #ccc; }
+
         /* ── Refresh ── */
         .refresh-btn {
             display: block;
@@ -665,7 +685,8 @@
 
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
-            .team-navigation, .refresh-btn, .updated, .footer-photo, .lightbox { display: none !important; }
+            .team-navigation, .refresh-btn, .updated, .footer-photo, .lightbox,
+            .archive-btn { display: none !important; }
             .header-photo { width: 34px; height: 34px; }
             .header-top { gap: 8px; margin-bottom: 6px; }
 
@@ -809,6 +830,8 @@
         <div class="teams-grid" id="teams">
             <div class="message">Loading today's report&hellip;</div>
         </div>
+
+        <a class="archive-btn" href="steve_archive.html">Older Stories &rarr;</a>
 
         <img class="footer-photo" id="footerPhoto" src="images/steve_we_web.jpg"
              alt="Steve — tap to see it bigger" role="button" tabindex="0" loading="lazy">

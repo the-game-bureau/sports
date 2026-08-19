@@ -3,172 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1a1a1a">
-    <title>Coach Steve's Story Archive</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗂️</text></svg>">
+    <meta name="theme-color" content="#111111">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" href="images/steve_summy_icon.png">
+    <title>Older Stories — Coach Steve's Sports Report</title>
+    <link rel="icon" href="images/steve_summy_icon.png">
     <style>
-        /* Older stories retired out of steve.json. Same big-type rules as
-           the main report — this page is just longer. */
+        /* Same page furniture as steve.html — 640px column, uppercase type,
+           flat white cards on black. This one just runs longer. */
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #1a1a1a;
-            color: #1c1c1c;
-            line-height: 1.45;
-            font-size: 20px;
-            -webkit-text-size-adjust: 100%;
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .container { max-width: 720px; margin: 0 auto; padding: 12px 12px 40px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            min-height: 100vh;
+            line-height: 1.4;
+        }
 
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 16px 12px 40px;
+        }
+
+        /* ── Header ── */
         .header {
-            background: white;
-            border-radius: 16px;
-            padding: 18px 16px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.25);
-            margin-bottom: 18px;
+            background: #fff;
+            padding: 18px 18px 14px;
+            margin-bottom: 24px;
+            border-radius: 4px;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
         }
 
         .header h1 {
-            font-size: clamp(1.6rem, 6.5vw, 2.2rem);
+            font-size: 1.75rem;
             font-weight: 800;
             letter-spacing: -0.02em;
-            color: #16222e;
+            color: #111;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 4px;
         }
 
-        .header .byline { color: #6b7a86; font-size: 1rem; margin-bottom: 14px; }
+        .header p {
+            font-size: 0.85rem;
+            color: #aaa;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+        }
 
-        .back-link {
-            display: inline-flex;
+        .back-btn {
+            display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 62px;
-            padding: 0 24px;
-            border: 3px solid #00693E;
-            border-radius: 14px;
-            color: #00693E;
-            background: white;
+            min-height: 66px;
+            padding: 16px 20px;
+            background: #111;
+            color: #fff;
+            border-radius: 3px;
             text-decoration: none;
-            font-size: 1.15rem;
-            font-weight: 800;
+            font-weight: 700;
+            font-size: 1.1rem;
             text-transform: uppercase;
-            letter-spacing: 0.04em;
+            letter-spacing: 0.07em;
         }
 
-        .back-link:active { background: #00693E; color: white; }
+        .back-btn:active { background: #444; }
 
-        /* Filter chips */
+        /* ── Team filter ── */
         .filters {
             display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 18px;
+            gap: 5px;
+            margin-bottom: 24px;
         }
 
-        .chip {
-            display: inline-flex;
+        .filter-icon {
+            flex: 1;
+            height: 60px;
+            border-radius: 3px;
+            display: flex;
             align-items: center;
-            gap: 8px;
-            min-height: 54px;
-            padding: 0 16px;
-            border-radius: 999px;
-            border: 3px solid #3a3a3a;
-            background: #262626;
-            color: #e9edf0;
-            font: inherit;
-            font-size: 1rem;
-            font-weight: 800;
+            justify-content: center;
+            border: none;
+            padding: 0;
             cursor: pointer;
+            background: var(--team-color, #333);
+            opacity: 0.42;
+            transition: opacity 0.12s;
         }
 
-        .chip img { width: 26px; height: 26px; object-fit: contain; }
-        .chip.on { background: var(--team, #00693E); border-color: white; color: white; }
+        .filter-icon.on { opacity: 1; }
+        .filter-icon img { width: 34px; height: 34px; object-fit: contain; }
 
-        /* Month groups */
-        .month {
-            color: #cfd6db;
-            font-size: 1.1rem;
+        .filter-icon.all {
+            color: #fff;
             font-weight: 800;
+            font-size: 0.85rem;
             text-transform: uppercase;
             letter-spacing: 0.1em;
-            margin: 22px 4px 10px;
+            background: #2a2a2a;
         }
 
+        /* ── Month divider ── */
+        .month {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 8px 14px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-weight: 700;
+            border-radius: 3px 3px 0 0;
+            margin-top: 24px;
+        }
+
+        .month:first-of-type { margin-top: 0; }
+
+        /* ── Story ── */
         .story {
-            background: white;
-            border-radius: 16px;
-            border-left: 12px solid var(--team, #6b7a86);
+            display: block;
+            background: var(--news-bg, #fff);
+            border-left: 8px solid var(--news-accent, #666);
+            border-radius: 0 4px 4px 0;
             padding: 16px;
-            margin-bottom: 14px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #111;
         }
 
         .story-team {
             display: flex;
             align-items: center;
-            gap: 10px;
-            font-size: 1rem;
+            gap: 8px;
+            font-size: 0.72rem;
             font-weight: 800;
-            color: var(--team, #16222e);
             text-transform: uppercase;
-            letter-spacing: 0.06em;
+            letter-spacing: 0.16em;
+            color: #555;
         }
 
-        .story-team img { width: 30px; height: 30px; object-fit: contain; }
-        .story-team .ball { font-size: 1.2rem; }
+        .story-team img { width: 24px; height: 24px; object-fit: contain; }
 
         .story .headline {
-            font-size: 1.3rem;
-            font-weight: 800;
-            color: #16222e;
-            line-height: 1.25;
-            margin-top: 8px;
-        }
-
-        .story .summary { font-size: 1.1rem; color: #33424d; margin-top: 6px; }
-        .story .stamp { font-size: 0.95rem; color: #6b7a86; font-weight: 700; margin-top: 8px; }
-
-        .story .source-link {
-            display: inline-block;
-            margin-top: 10px;
-            color: var(--team, #00693E);
-            font-weight: 800;
-            text-decoration: none;
-            border-bottom: 3px solid currentColor;
-        }
-
-        .message {
-            background: white;
-            border-radius: 16px;
-            padding: 24px 18px;
-            text-align: center;
             font-size: 1.2rem;
-            font-weight: 700;
-            color: #33424d;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-top: 7px;
         }
 
-        .message small { display: block; font-weight: 500; color: #6b7a86; margin-top: 8px; font-size: 0.95rem; }
+        .story[href] .headline {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
 
-        .count { text-align: center; color: #8a949c; font-size: 0.95rem; padding: 12px 0; }
+        .story .summary { font-size: 1rem; color: #333; margin-top: 5px; }
 
-        a:focus-visible, .chip:focus-visible { outline: 4px solid #4da3ff; outline-offset: 3px; }
+        .story .stamp {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 7px;
+        }
+
+        /* ── States ── */
+        .message {
+            background: #fff;
+            border-radius: 4px;
+            padding: 28px 18px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .message small {
+            display: block;
+            font-weight: 500;
+            color: #777;
+            margin-top: 8px;
+            font-size: 0.85rem;
+        }
+
+        .count {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            padding: 20px 0 0;
+        }
+
+        a:focus-visible, button:focus-visible {
+            outline: 3px solid #007acc;
+            outline-offset: 2px;
+        }
+
+        @media (min-width: 520px) {
+            .container { padding: 28px 24px 40px; }
+            .header h1 { font-size: 2.1rem; }
+            .filter-icon { height: 68px; }
+            .filter-icon img { width: 40px; height: 40px; }
+        }
+
+        @media print {
+            @page { size: letter portrait; margin: 0.4in; }
+            * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+            body { background: #fff !important; }
+            .container { max-width: 100%; padding: 0; }
+            .filters, .back-btn, .count { display: none !important; }
+            .story { break-inside: avoid; margin-bottom: 6px; padding: 8px; }
+            .story .headline { font-size: 10pt; }
+            .story .summary { font-size: 8pt; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
+
         <div class="header">
-            <h1 id="pageTitle">Story Archive</h1>
-            <div class="byline" id="pageByline">by Kevin Kolb</div>
-            <a class="back-link" href="steve.html">&larr; Today's Report</a>
+            <div class="header-top">
+                <img class="header-photo" src="images/steve_summy_badge.jpg" alt="Steve and Summy">
+                <div>
+                    <h1>Older Stories</h1>
+                    <p id="pageByline">by Kevin Kolb</p>
+                </div>
+            </div>
+            <a class="back-btn" href="steve.html">&larr; Back to Today</a>
         </div>
 
         <div class="filters" id="filters"></div>
-        <div id="stories"><div class="message">Loading the archive&hellip;</div></div>
+        <div id="stories"><div class="message">Loading&hellip;</div></div>
         <div class="count" id="count"></div>
+
     </div>
 
 <script>
@@ -183,7 +276,7 @@
     var filtersEl = document.getElementById('filters');
     var countEl = document.getElementById('count');
 
-    var state = { items: [], teams: {}, filter: 'all' };
+    var state = { items: [], teams: {}, order: [], filter: 'all' };
 
     function parseDate(iso) {
         if (!iso) { return null; }
@@ -193,7 +286,10 @@
         return isNaN(d.getTime()) ? null : d;
     }
 
-    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear(); }
+    function longDate(d) {
+        return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    }
+
     function monthKey(d) { return d ? MONTHS[d.getMonth()] + ' ' + d.getFullYear() : 'Undated'; }
 
     function el(tag, cls, text) {
@@ -203,26 +299,63 @@
         return node;
     }
 
-    // Team look-up comes from steve.json so the archive never drifts
-    // out of sync with the main report's colors and logos.
+    function img(src, alt) {
+        var node = new Image();
+        node.src = src;
+        node.alt = alt || '';
+        return node;
+    }
+
+    // Colors mirror steve.html so a story looks the same in both places.
+    function luminance(hex) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        return 0.2126 * parseInt(h.slice(0, 2), 16) / 255 +
+               0.7152 * parseInt(h.slice(2, 4), 16) / 255 +
+               0.0722 * parseInt(h.slice(4, 6), 16) / 255;
+    }
+
+    function tint(hex, amount) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var out = '#';
+        for (var i = 0; i < 3; i++) {
+            var c = parseInt(h.slice(i * 2, i * 2 + 2), 16);
+            out += ('0' + Math.round(c + (255 - c) * amount).toString(16)).slice(-2);
+        }
+        return out;
+    }
+
     function teamInfo(id) {
-        return state.teams[id] || { name: id || 'Sports', colors: {}, ball: '' };
+        return state.teams[id] || { name: 'Sports', colors: {}, logo: '' };
+    }
+
+    function accentFor(team) {
+        var c = team.colors || {};
+        var primary = c.primary || '#666';
+        var secondary = c.secondary || primary;
+        var accent = luminance(secondary) > 0.9 ? primary : secondary;
+        var washBase = luminance(accent) < 0.25 ? (c.banner || primary) : accent;
+        return { accent: accent, bg: tint(washBase, 0.88) };
     }
 
     function buildStory(item) {
-        var t = teamInfo(item.teamId);
-        var card = el('div', 'story');
-        card.style.setProperty('--team', (t.colors && t.colors.primary) || '#6b7a86');
+        var team = teamInfo(item.teamId);
+        var colors = accentFor(team);
+
+        var card = document.createElement(item.url ? 'a' : 'div');
+        card.className = 'story';
+        if (item.url) {
+            card.href = item.url;
+            card.target = '_blank';
+            card.rel = 'noopener';
+        }
+        card.style.setProperty('--news-accent', colors.accent);
+        card.style.setProperty('--news-bg', colors.bg);
 
         var head = el('div', 'story-team');
-        if (t.logo) {
-            var img = new Image();
-            img.src = t.logo;
-            img.alt = '';
-            head.appendChild(img);
-        }
-        if (t.ball) { head.appendChild(el('span', 'ball', t.ball)); }
-        head.appendChild(el('span', null, t.name));
+        if (team.logo) { head.appendChild(img(team.logo, '')); }
+        head.appendChild(el('span', null, team.name));
         card.appendChild(head);
 
         card.appendChild(el('div', 'headline', item.headline || ''));
@@ -231,14 +364,6 @@
         var d = parseDate(item.date);
         var stamp = [d ? longDate(d) : null, item.source].filter(Boolean).join(' · ');
         if (stamp) { card.appendChild(el('div', 'stamp', stamp)); }
-
-        if (item.url) {
-            var a = el('a', 'source-link', 'Read the story');
-            a.href = item.url;
-            a.target = '_blank';
-            a.rel = 'noopener';
-            card.appendChild(a);
-        }
         return card;
     }
 
@@ -252,8 +377,9 @@
         storiesEl.textContent = '';
 
         if (!items.length) {
-            var box = el('div', 'message', 'Nothing in the archive yet.');
-            box.appendChild(el('small', null, 'Coach Steve Bot moves older stories here as new ones come in.'));
+            var box = el('div', 'message', 'No older stories yet.');
+            box.appendChild(el('small', null,
+                'Stories move here once newer ones take their place on the report.'));
             storiesEl.appendChild(box);
             countEl.textContent = '';
             return;
@@ -272,17 +398,18 @@
         countEl.textContent = items.length + (items.length === 1 ? ' story' : ' stories');
     }
 
-    function buildChip(id, label, team) {
-        var b = el('button', 'chip' + (state.filter === id ? ' on' : ''));
+    function buildFilter(id, team) {
+        var b = el('button', 'filter-icon' + (state.filter === id ? ' on' : ''));
         b.type = 'button';
-        b.style.setProperty('--team', (team && team.colors && team.colors.primary) || '#00693E');
-        if (team && team.logo) {
-            var img = new Image();
-            img.src = team.logo;
-            img.alt = '';
-            b.appendChild(img);
+        if (id === 'all') {
+            b.className += ' all';
+            b.textContent = 'All';
+            b.setAttribute('aria-label', 'Show every team');
+        } else {
+            b.style.setProperty('--team-color', (team.colors && team.colors.primary) || '#333');
+            b.appendChild(img(team.logo, ''));
+            b.setAttribute('aria-label', team.name);
         }
-        b.appendChild(el('span', null, label));
         b.addEventListener('click', function () {
             state.filter = id;
             renderFilters();
@@ -294,17 +421,17 @@
 
     function renderFilters() {
         filtersEl.textContent = '';
-        filtersEl.appendChild(buildChip('all', 'All', null));
+        filtersEl.appendChild(buildFilter('all', null));
 
-        // Only offer a chip for teams that actually have archived stories.
+        // Only teams that actually have stories in here get a button.
         var seen = {};
         state.items.forEach(function (i) { if (i.teamId) { seen[i.teamId] = true; } });
-        Object.keys(state.teams).forEach(function (id) {
-            if (seen[id]) { filtersEl.appendChild(buildChip(id, teamInfo(id).name, state.teams[id])); }
+        state.order.forEach(function (id) {
+            if (seen[id]) { filtersEl.appendChild(buildFilter(id, teamInfo(id))); }
         });
     }
 
-    function sortNewestFirst(items) {
+    function newestFirst(items) {
         return items.slice().sort(function (a, b) {
             return String(b.date || '').localeCompare(String(a.date || ''));
         });
@@ -312,9 +439,9 @@
 
     function showError() {
         storiesEl.textContent = '';
-        var box = el('div', 'message', 'The archive could not be loaded.');
+        var box = el('div', 'message', 'The older stories could not be loaded.');
         box.appendChild(el('small', null,
-            'steve_archive.json did not load. If you opened this file directly, serve the folder instead ' +
+            'If you opened this file directly, serve the folder instead ' +
             '(for example: python -m http.server) and reload.'));
         storiesEl.appendChild(box);
     }
@@ -333,15 +460,14 @@
         var archive = results[0];
         var main = results[1];
 
-        (main.teams || []).forEach(function (t) { state.teams[t.id] = t; });
-        state.items = sortNewestFirst(archive.items || []);
+        (main.teams || []).forEach(function (t) {
+            state.teams[t.id] = t;
+            state.order.push(t.id);
+        });
+        state.items = newestFirst(archive.items || []);
 
-        var meta = archive.meta || {};
-        if (meta.title) {
-            document.title = meta.title;
-            document.getElementById('pageTitle').textContent = meta.title;
-        }
-        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+        var byline = (archive.meta || {}).byline || (main.meta || {}).byline;
+        if (byline) { document.getElementById('pageByline').textContent = byline; }
 
         renderFilters();
         renderStories();
