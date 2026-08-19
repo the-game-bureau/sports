@@ -384,9 +384,8 @@
 
         /* ── News ── */
         .news {
-            padding: 4px 16px 14px;
+            padding: 4px 16px 16px;
             background: #fff;
-            border-bottom: 2px solid #ccc;
         }
 
         .news .block-label { padding: 10px 0 2px; display: block; }
@@ -1126,6 +1125,8 @@
             if (/news/i.test(l.label)) {
                 var latest = buildLatestStory(team);
                 if (latest) { wrap.appendChild(latest); }
+                var older = buildNews(team);
+                if (older) { wrap.appendChild(older); }
             }
         });
         return wrap;
@@ -1150,7 +1151,7 @@
         card.appendChild(buildSportLabel(team));
         card.appendChild(buildBanner(team));
         card.appendChild(buildNextGame(team, events[0]));
-        [buildAlso(team, events.slice(1)), buildLastGame(team), buildNews(team), buildActions(team)]
+        [buildAlso(team, events.slice(1)), buildLastGame(team), buildActions(team)]
             .forEach(function (piece) { if (piece) { card.appendChild(piece); } });
         return card;
     }
