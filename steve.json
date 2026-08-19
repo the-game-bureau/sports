@@ -119,8 +119,12 @@
           "url": "https://floridagators.com/sports/football/stats"
         },
         {
-          "label": "Roster & Coaches",
+          "label": "Roster",
           "url": "https://floridagators.com/sports/football/roster"
+        },
+        {
+          "label": "Coaches",
+          "url": "https://floridagators.com/sports/football/coaches/"
         },
         {
           "label": "Video",
