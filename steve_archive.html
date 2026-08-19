@@ -68,14 +68,6 @@
             margin-bottom: 4px;
         }
 
-        .header p {
-            font-size: 0.85rem;
-            color: #aaa;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.14em;
-        }
-
         .back-btn {
             display: flex;
             align-items: center;
@@ -252,7 +244,6 @@
                 <img class="header-photo" src="images/steve_summy_badge.jpg" alt="Steve and Summy">
                 <div>
                     <h1>Older Stories</h1>
-                    <p id="pageByline">by Kevin Kolb</p>
                 </div>
             </div>
             <a class="back-btn" href="steve.html">&larr; Back to Today</a>
@@ -465,9 +456,6 @@
             state.order.push(t.id);
         });
         state.items = newestFirst(archive.items || []);
-
-        var byline = (archive.meta || {}).byline || (main.meta || {}).byline;
-        if (byline) { document.getElementById('pageByline').textContent = byline; }
 
         renderFilters();
         renderStories();
