@@ -412,6 +412,17 @@
         .refresh-btn:hover,
         .refresh-btn:focus { background: #444; color: #fff; }
 
+        .refresh-btn .countdown {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .refresh-btn .refresh-label { display: block; }
+
         .updated {
             text-align: center;
             color: #666;
@@ -535,7 +546,10 @@
             <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <button class="refresh-btn" onclick="location.reload()">🔄 Tap to Refresh</button>
+        <button class="refresh-btn" id="refreshBtn">
+            <span class="countdown" id="countdown"></span>
+            <span class="refresh-label">🔄 Tap to Refresh</span>
+        </button>
         <div class="updated" id="updatedLine"></div>
 
     </div>
@@ -869,8 +883,10 @@
     // the page is never showing yesterday's card. Re-rendering in place keeps
     // his scroll position — a full reload would throw him back to the top.
     var REFRESH_MS = 20 * 60 * 1000;
+    var nextRefreshAt = Date.now() + REFRESH_MS;
 
     function load(onError) {
+        nextRefreshAt = Date.now() + REFRESH_MS;
         // Cache-bust so a freshly pushed steve.json shows up right away.
         return fetch('steve.json?t=' + Date.now(), { cache: 'no-store' })
             .then(function (r) {
@@ -881,8 +897,25 @@
             .catch(function (err) { if (onError) { onError(err); } });
     }
 
+    // Counts down to the next automatic refresh, so the page never looks
+    // stuck — he can see it is still working even when nothing changes.
+    var countdownEl = document.getElementById('countdown');
+
+    function tick() {
+        var left = Math.max(0, nextRefreshAt - Date.now());
+        var mins = Math.floor(left / 60000);
+        var secs = Math.floor((left % 60000) / 1000);
+        countdownEl.textContent = 'Auto-Refresh in ' + mins + ':' + ('0' + secs).slice(-2);
+        if (left <= 0) { load(null); }
+    }
+
+    document.getElementById('refreshBtn').addEventListener('click', function () {
+        location.reload();
+    });
+
     load(showError);
-    setInterval(function () { load(null); }, REFRESH_MS);
+    tick();
+    setInterval(tick, 1000);
 
     // Quietly freshen on return to the tab; a failure here keeps the last
     // good card on screen rather than replacing it with an error.
