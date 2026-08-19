@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/tulane.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/tulane.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/tulane.png">
-    <link rel="apple-touch-icon" href="images/tulane.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/steve_summy_icon.png">
+    <link rel="apple-touch-icon" href="images/steve_summy_icon.png">
     <title>Coach Steve's Sports Report by Kevin Kolb</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+    <link rel="icon" href="images/steve_summy_icon.png">
     <style>
         /* Every card is drawn from steve.json. Coach Steve Bot refreshes that
            file twice a day, so the answers — next game, kickoff, channel, last
@@ -43,6 +43,23 @@
             border-radius: 4px;
         }
 
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text { min-width: 0; }
+
         .header h1 {
             font-size: 1.75rem;
             font-weight: 800;
@@ -52,6 +69,8 @@
             line-height: 1;
             margin-bottom: 4px;
         }
+
+        .header-top p { margin-bottom: 0; }
 
         .header p {
             font-size: 0.85rem;
@@ -423,6 +442,15 @@
 
         .refresh-btn .refresh-label { display: block; }
 
+        .footer-photo {
+            display: block;
+            width: 100%;
+            max-width: 420px;   /* portrait shot — full width would eat the screen */
+            height: auto;
+            margin: 28px auto 0;
+            border-radius: 4px;
+        }
+
         .updated {
             text-align: center;
             color: #666;
@@ -457,7 +485,24 @@
         /* ── Desktop scale-up ── */
         @media (min-width: 520px) {
             .container { padding: 28px 24px; }
-            .header h1 { font-size: 2.1rem; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 2.1rem; }
             .team-name { font-size: 2rem; }
             .matchup { font-size: 2rem; }
             .action-btn { font-size: 1.2rem; min-height: 70px; }
@@ -480,10 +525,29 @@
 
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
-            .team-navigation, .refresh-btn, .updated { display: none !important; }
+            .team-navigation, .refresh-btn, .updated, .footer-photo { display: none !important; }
+            .header-photo { width: 34px; height: 34px; }
+            .header-top { gap: 8px; margin-bottom: 6px; }
 
             .header { margin-bottom: 8px; padding: 8px; }
-            .header h1 { font-size: 14pt; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 14pt; }
             .header p { margin-bottom: 0; }
             .today { font-size: 9pt; padding-bottom: 4px; }
 
@@ -536,8 +600,13 @@
     <div class="container">
 
         <div class="header">
-            <h1 id="pageTitle">Coach Steve's Sports Report</h1>
-            <p id="pageByline">by Kevin Kolb</p>
+            <div class="header-top">
+                <img class="header-photo" src="images/steve_summy_badge.jpg" alt="Steve and Summy">
+                <div class="header-text">
+                    <h1 id="pageTitle">Coach Steve's Sports Report</h1>
+                    <p id="pageByline">by Kevin Kolb</p>
+                </div>
+            </div>
             <div class="today" id="todayLine"></div>
             <div class="team-navigation" id="teamNav"></div>
         </div>
@@ -550,6 +619,7 @@
             <span class="countdown" id="countdown"></span>
             <span class="refresh-label">🔄 Tap to Refresh</span>
         </button>
+        <img class="footer-photo" src="images/steve_we_web.jpg" alt="Steve" loading="lazy">
         <div class="updated" id="updatedLine"></div>
 
     </div>
