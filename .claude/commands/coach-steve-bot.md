@@ -84,6 +84,14 @@ From those responses take:
 
 - **record** — `team.record.items[0].summary` (e.g. `"70-55"`). If ESPN gives none,
   leave whatever is there; a team that has not played yet reads `"0-0"`, never blank.
+
+  **Preseason and exhibition games do not count.** Check the season type on the
+  schedule payload (`requestedSeason.type` / `season.type`): `1` is preseason, `2` the
+  regular season, `3` postseason. While a team is in season type 1, ESPN's record is
+  its preseason record — write `"0-0"` instead, however many exhibitions it has won or
+  lost. The reader should never see a loss that does not count. Once the team reaches
+  season type 2, ESPN's record is the real one, so use it as given; it starts over at
+  0-0 on its own.
 - **next game** — the first event whose **local date is today or later**, even if it
   has already finished. A game holds the card for its whole day: the countdown reads
   0 on game day, and only the next morning does the following game take its place.
