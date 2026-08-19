@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulane Baseball</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/tulane.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚾</text></svg>">
+    <style>
+        :root {
+            --green:  #00693E;
+            --blue:   #4BB3D0;
+            --green2: #005530;  /* darker green for hover */
+            --bg:     #eef4ee;
+            --mid:    #667;
+            --dark:   #111;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            min-height: 100vh;
+            color: var(--dark);
+        }
+
+        /* ── Header ── */
+        .header {
+            background: var(--green);
+            padding: 20px 18px 18px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .header img {
+            width: 58px;
+            height: 58px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            font-size: 1.9rem;
+            font-weight: 800;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            line-height: 1;
+        }
+
+        .header-text p {
+            font-size: 0.78rem;
+            color: rgba(255,255,255,0.65);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-top: 4px;
+        }
+
+        /* ── Record bar ── */
+        #record-bar {
+            background: var(--blue);
+            padding: 10px 18px;
+            display: none;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .rec-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1px;
+        }
+
+        .rec-label {
+            font-size: 0.58rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 700;
+            color: rgba(0,0,0,0.5);
+        }
+
+        .rec-value {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1;
+        }
+
+        /* ── Main content ── */
+        #content {
+            max-width: 660px;
+            margin: 0 auto;
+            padding: 0 12px 24px;
+        }
+
+        /* ── Section labels ── */
+        .section-label {
+            font-size: 0.64rem;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            font-weight: 700;
+            color: var(--mid);
+            padding: 20px 4px 8px;
+        }
+
+        /* ── Game cards ── */
+        .game-card {
+            background: #fff;
+            border-radius: 4px;
+            margin-bottom: 3px;
+            display: flex;
+            align-items: center;
+            padding: 16px 16px;
+            gap: 14px;
+            min-height: 76px;
+            border-left: 4px solid transparent;
+        }
+
+        .game-card.win  { border-left-color: var(--green); }
+        .game-card.loss { border-left-color: #c00; }
+        .game-card.next { border-left-color: var(--blue); }
+
+        /* Date block */
+        .game-date {
+            width: 44px;
+            flex-shrink: 0;
+            text-align: center;
+        }
+
+        .date-mon {
+            font-size: 0.62rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+            color: var(--mid);
+        }
+
+        .date-day {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--dark);
+            line-height: 1;
+        }
+
+        /* Game info */
+        .game-info { flex: 1; min-width: 0; }
+
+        .game-at-vs {
+            font-size: 0.62rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--mid);
+            font-weight: 600;
+        }
+
+        .game-opp {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--dark);
+            line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .game-meta {
+            font-size: 0.72rem;
+            color: var(--mid);
+            margin-top: 2px;
+        }
+
+        /* Result / time chip */
+        .game-result {
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .chip {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 3px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+            line-height: 1.3;
+        }
+
+        .chip.win  { background: var(--green); color: #fff; }
+        .chip.loss { background: #c00;         color: #fff; }
+        .chip.time { background: var(--blue);  color: #fff; font-size: 0.82rem; letter-spacing: 0; padding: 5px 10px; }
+
+        .chip-score {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--mid);
+            margin-top: 2px;
+            text-align: right;
+        }
+
+        /* ── Loading ── */
+        .loading {
+            text-align: center;
+            padding: 48px 16px 32px;
+            color: var(--mid);
+            font-weight: 600;
+        }
+
+        .spinner {
+            width: 44px;
+            height: 44px;
+            border: 4px solid #ddd;
+            border-top-color: var(--green);
+            border-radius: 50%;
+            animation: spin 0.75s linear infinite;
+            margin: 0 auto 14px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── Error ── */
+        .error-box {
+            background: #fff;
+            border-left: 4px solid #c00;
+            border-radius: 3px;
+            padding: 18px 16px;
+            margin-top: 16px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .error-box a { color: var(--green); font-weight: 700; }
+
+        /* ── Top button bar ── */
+        .top-btns {
+            display: flex;
+            gap: 3px;
+            max-width: 660px;
+            margin: 0 auto;
+            padding: 10px 12px 0;
+        }
+
+        .top-btn {
+            flex: 1;
+            padding: 16px 12px;
+            background: var(--green);
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            min-height: 56px;
+            transition: background 0.15s;
+        }
+
+        .top-btn:hover, .top-btn:focus { background: var(--green2); }
+
+        @media (min-width: 520px) {
+            .top-btn { font-size: 1.05rem; }
+            .top-btns { padding: 12px 20px 0; }
+        }
+
+        /* ── Status bar ── */
+        #status-bar {
+            text-align: center;
+            padding: 12px 16px 20px;
+            font-size: 0.72rem;
+            color: var(--mid);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        /* ── View full link ── */
+        .full-link {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--green);
+            text-decoration: none;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        /* ── Desktop ── */
+        @media (min-width: 520px) {
+            .header { padding: 26px 24px 22px; }
+            .header img { width: 70px; height: 70px; }
+            .header-text h1 { font-size: 2.4rem; }
+            #content { padding: 0 20px 28px; }
+            .game-card { padding: 18px 20px; min-height: 82px; }
+            .game-opp { font-size: 1.25rem; }
+            .chip { font-size: 1.2rem; }
+            #refresh-btn { font-size: 1.1rem; }
+        }
+
+        /* ── Print ── */
+        #print-record { display: none; }
+
+        @media print {
+            @page { size: letter portrait; margin: 0.5in; }
+
+            body { background: #fff !important; color: #000 !important; }
+
+            .top-btns, #status-bar, .full-link,
+            #record-bar { display: none !important; }
+
+            /* Header: green text on white — no background needed */
+            .header {
+                background: none !important;
+                border-bottom: 4px solid #00693E !important;
+                padding: 0 0 10px !important;
+                gap: 10px !important;
+            }
+
+            .header img { width: 44px !important; height: 44px !important; }
+
+            .header-text h1 {
+                color: #00693E !important;
+                font-size: 1.6rem !important;
+            }
+
+            .header-text p { color: #555 !important; margin-top: 2px !important; }
+
+            /* Record line — printed below the title */
+            #print-record {
+                display: block !important;
+                font-size: 1rem !important;
+                font-weight: 800 !important;
+                color: #000 !important;
+                margin-top: 4px !important;
+                letter-spacing: 0.04em !important;
+            }
+
+            #content { padding: 0 !important; }
+
+            .section-label {
+                color: #00693E !important;
+                border-bottom: 2px solid #00693E !important;
+                padding: 14px 0 4px !important;
+                font-size: 0.7rem !important;
+            }
+
+            /* Game cards: strip backgrounds, use simple dividers */
+            .game-card {
+                background: none !important;
+                border-left: none !important;
+                border-bottom: 1px solid #ddd !important;
+                border-radius: 0 !important;
+                min-height: auto !important;
+                padding: 8px 0 !important;
+                margin-bottom: 0 !important;
+            }
+
+            .game-opp { font-size: 0.9rem !important; }
+            .date-day  { font-size: 1.1rem !important; }
+            .game-meta { color: #555 !important; }
+
+            /* Chips: background-free, use text color */
+            .chip {
+                background: none !important;
+                padding: 0 !important;
+                font-size: 0.9rem !important;
+                font-weight: 800 !important;
+                line-height: 1 !important;
+            }
+
+            .chip.win  { color: #00693E !important; }
+            .chip.loss { color: #c00    !important; }
+            .chip.time { color: #333    !important; }
+
+            .chip-score { color: #444 !important; font-size: 0.8rem !important; }
+
+            *:focus { outline: none !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="../../images/tulane.svg" alt="Tulane">
+        <div class="header-text">
+            <h1>Tulane Baseball</h1>
+            <p id="season-label">2026 Schedule</p>
+            <p id="print-record"></p>
+        </div>
+    </div>
+
+    <div id="record-bar"></div>
+
+    <div class="top-btns">
+        <button class="top-btn" onclick="load(true)">⟳ Refresh</button>
+        <button class="top-btn" onclick="window.print()">⎙ Print</button>
+    </div>
+
+    <div id="content">
+        <div class="loading">
+            <div class="spinner"></div>
+            Loading schedule…
+        </div>
+    </div>
+
+    <div id="status-bar"></div>
+
+<script>
+const SOURCE = 'https://tulanegreenwave.com/sports/baseball/schedule';
+const PROXY  = 'https://api.allorigins.win/raw?url=';
+const CACHE  = 'tulane_baseball_v3';
+const TTL    = 12 * 60 * 1000; // 12 minutes
+
+const MONS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+/* ─────────────────────────────────────────────
+   Nuxt 3 / @nuxt/devalue  unflatten
+   ───────────────────────────────────────────── */
+function nuxtUnflatten(flat) {
+    if (!Array.isArray(flat)) return flat;
+    const seen = new Map();
+
+    const REDUCERS = {
+        ShallowReactive: v => v,
+        Reactive:        v => v,
+        ShallowReadonly: v => v,
+        Readonly:        v => v,
+        Ref:             v => ({ value: v }),
+        ComputedRef:     v => ({ value: v }),
+        Date:            v => v,  // keep as string
+        Set:             v => Array.isArray(v) ? v : [],
+        Map:             v => v,
+        NaN:             ()  => NaN,
+        Infinity:        ()  => Infinity,
+        '-Infinity':     ()  => -Infinity,
+        undefined:       ()  => undefined,
+        BigInt:          v => v,
+    };
+
+    function hydrate(i) {
+        if (typeof i !== 'number') return i;
+        if (i < 0 || i >= flat.length) return undefined;
+        if (seen.has(i)) return seen.get(i);
+
+        const v = flat[i];
+
+        if (Array.isArray(v)) {
+            // Special-type array: ["TypeName", refOrValue]
+            if (v.length >= 1 && typeof v[0] === 'string' && REDUCERS[v[0]]) {
+                const inner = v.length > 1 ? (typeof v[1] === 'number' ? hydrate(v[1]) : v[1]) : undefined;
+                const result = REDUCERS[v[0]](inner);
+                seen.set(i, result);
+                return result;
+            }
+            // Regular array
+            const arr = [];
+            seen.set(i, arr);
+            for (const item of v) arr.push(typeof item === 'number' ? hydrate(item) : item);
+            return arr;
+        }
+
+        if (v !== null && typeof v === 'object') {
+            const obj = {};
+            seen.set(i, obj);
+            for (const [k, val] of Object.entries(v))
+                obj[k] = typeof val === 'number' ? hydrate(val) : val;
+            return obj;
+        }
+
+        return v;
+    }
+
+    return hydrate(0);
+}
+
+/* ─────────────────────────────────────────────
+   Extract the __NUXT_DATA__ script tag and parse
+   ───────────────────────────────────────────── */
+function extractNuxtData(html) {
+    // Look for the Nuxt 3 hydration payload script
+    const patterns = [
+        /<script[^>]+id=["']__NUXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i,
+        /<script[^>]+type=["']application\/json["'][^>]+id=["'][^"']*nuxt[^"']*["'][^>]*>([\s\S]*?)<\/script>/i,
+        /<script[^>]+id=["'][^"']*nuxt[^"']*["'][^>]+type=["']application\/json["'][^>]*>([\s\S]*?)<\/script>/i,
+    ];
+    for (const rx of patterns) {
+        const m = html.match(rx);
+        if (m) {
+            try { return JSON.parse(m[1]); } catch (_) {}
+        }
+    }
+
+    // Fallback: find any script tag whose content starts with the Nuxt devalue array pattern
+    const allScripts = [...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/gi)];
+    for (const m of allScripts) {
+        const src = m[1].trim();
+        if (src.startsWith('[["ShallowReactive') || src.startsWith('[["Reactive')) {
+            try { return JSON.parse(src); } catch (_) {}
+        }
+    }
+    return null;
+}
+
+/* ─────────────────────────────────────────────
+   Recursively search a hydrated object for a games array
+   ───────────────────────────────────────────── */
+function findGames(node, depth = 0) {
+    if (depth > 14 || !node || typeof node !== 'object') return null;
+
+    if (Array.isArray(node)) {
+        // Is this the games array itself?
+        if (node.length > 0) {
+            const sample = node[0];
+            if (sample && typeof sample === 'object' && !Array.isArray(sample)
+                && ('date' in sample || 'opponent' in sample)) {
+                return node;
+            }
+        }
+        for (const item of node) {
+            const found = findGames(item, depth + 1);
+            if (found) return found;
+        }
+        return null;
+    }
+
+    if ('games' in node && Array.isArray(node.games) && node.games.length > 0) {
+        const s = node.games[0];
+        if (s && typeof s === 'object' && ('date' in s || 'opponent' in s)) return node.games;
+    }
+
+    for (const val of Object.values(node)) {
+        const found = findGames(val, depth + 1);
+        if (found) return found;
+    }
+    return null;
+}
+
+function findRecord(node, depth = 0) {
+    if (depth > 14 || !node || typeof node !== 'object') return null;
+    if (Array.isArray(node)) {
+        for (const item of node) {
+            const f = findRecord(item, depth + 1);
+            if (f) return f;
+        }
+        return null;
+    }
+    // A record object has wins/losses directly or under "overall"
+    if ('overall' in node && typeof node.overall === 'object' && 'wins' in node.overall) return node;
+    if ('wins' in node && 'losses' in node && !('date' in node)) return { overall: node };
+    for (const val of Object.values(node)) {
+        const f = findRecord(val, depth + 1);
+        if (f) return f;
+    }
+    return null;
+}
+
+/* ─────────────────────────────────────────────
+   Fallback: regex-scrape visible text pairs
+   ───────────────────────────────────────────── */
+function scrapeGamesFromText(html) {
+    // Look for ISO date strings anywhere near opponent-like context
+    const games = [];
+    const re = /"(\d{4}-\d{2}-\d{2}T[^"]+)"/g;
+    const seen = new Set();
+    let m;
+    while ((m = re.exec(html)) !== null) {
+        const dateStr = m[1];
+        if (seen.has(dateStr)) continue;
+        seen.add(dateStr);
+        games.push({ date: dateStr, time: '', opponent: { title: '—' }, status: '', team_score: null, opponent_score: null, location: '', at_vs: 'vs' });
+    }
+    return games;
+}
+
+/* ─────────────────────────────────────────────
+   Render
+   ───────────────────────────────────────────── */
+function renderRecord(record) {
+    const rb = document.getElementById('record-bar');
+    if (!record) { rb.style.display = 'none'; return; }
+
+    const ov   = record.overall   || record;
+    const conf = record.conference || {};
+    const stk  = record.streak    || null;
+
+    let html = `
+        <div class="rec-item">
+            <span class="rec-label">Overall</span>
+            <span class="rec-value">${ov.wins ?? 0}–${ov.losses ?? 0}</span>
+        </div>`;
+
+    if (conf.wins != null) {
+        html += `
+        <div class="rec-item">
+            <span class="rec-label">Conf</span>
+            <span class="rec-value">${conf.wins}–${conf.losses}</span>
+        </div>`;
+    }
+
+    if (stk) {
+        const t = stk.type === 'W' || stk.result === 'W' ? 'W' : 'L';
+        html += `
+        <div class="rec-item">
+            <span class="rec-label">Streak</span>
+            <span class="rec-value">${t}${stk.length ?? stk.count ?? ''}</span>
+        </div>`;
+    }
+
+    rb.innerHTML = html;
+    rb.style.display = 'flex';
+
+    // Print-friendly record line in the header
+    let recText = `Overall ${ov.wins ?? 0}–${ov.losses ?? 0}`;
+    if (conf.wins != null) recText += `  ·  Conf ${conf.wins}–${conf.losses}`;
+    if (stk) recText += `  ·  Streak ${stk.type === 'W' || stk.result === 'W' ? 'W' : 'L'}${stk.length ?? stk.count ?? ''}`;
+    const pr = document.getElementById('print-record');
+    if (pr) pr.textContent = recText;
+}
+
+function renderGames(games, cachedAt) {
+    if (!games || games.length === 0) {
+        document.getElementById('content').innerHTML = `
+            <div class="error-box">
+                No schedule data found.
+                <a href="${SOURCE}" target="_blank">View on Tulane's site →</a>
+            </div>`;
+        return;
+    }
+
+    const played   = [];
+    const upcoming = [];
+    const today    = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    for (const g of games) {
+        const raw = g.date || g.game_date || '';
+        const gameDate = new Date(raw.includes('T') ? raw : raw + 'T12:00:00');
+        gameDate.setHours(0, 0, 0, 0);
+        if (gameDate < today) {
+            played.push(g);
+        } else {
+            upcoming.push(g);
+        }
+    }
+
+    let html = '';
+
+    if (upcoming.length) {
+        html += `<div class="section-label">Upcoming</div>`;
+        upcoming.forEach(g => { html += gameCard(g, false); });
+    }
+
+    if (played.length) {
+        html += `<div class="section-label">Results</div>`;
+        [...played].reverse().forEach(g => { html += gameCard(g, true); });
+    }
+
+    html += `<a class="full-link" href="${SOURCE}" target="_blank">Full schedule on tulanegreenwave.com ↗</a>`;
+
+    document.getElementById('content').innerHTML = html;
+
+    if (cachedAt) {
+        const mins = Math.round((Date.now() - cachedAt) / 60000);
+        setStatus(mins < 1 ? 'Just updated' : `Updated ${mins}m ago  ·  Auto-refreshes every 12 min`);
+    }
+}
+
+function gameCard(g, isPast = false) {
+    const rawDate = g.date || g.game_date || '';
+    const d       = parseDate(rawDate);
+    const status  = (g.status ?? g.result ?? '').toString().toUpperCase();
+    const isWin   = status === 'W';
+    const isLoss  = status === 'L';
+    const hasWL   = isWin || isLoss;
+
+    const opp    = oppName(g);
+    const atVs   = (g.at_vs ?? (g.location_indicator === 'H' ? 'vs' : 'at')).toString();
+    const loc    = g.location || g.game_location || '';
+    const tScore = g.team_score ?? g.score;
+    const oScore = g.opponent_score ?? g.opp_score;
+    const hasScore = tScore != null && tScore !== '';
+    const time   = g.time || g.game_time || '';
+
+    const cardClass = hasWL ? (isWin ? 'win' : 'loss') : (!isPast && isNextGame(g) ? 'next' : '');
+
+    let resultHtml = '';
+    if (isPast) {
+        if (hasWL) {
+            resultHtml = `
+            <div class="game-result">
+                <div class="chip ${isWin ? 'win' : 'loss'}">${isWin ? 'W' : 'L'}</div>
+                ${hasScore ? `<div class="chip-score">${tScore}–${oScore}</div>` : ''}
+            </div>`;
+        } else if (hasScore) {
+            resultHtml = `
+            <div class="game-result">
+                <div class="chip-score" style="font-size:1rem;font-weight:800;">${tScore}–${oScore}</div>
+            </div>`;
+        } else {
+            resultHtml = `<div class="game-result" style="color:var(--mid);font-size:0.85rem;">—</div>`;
+        }
+    } else {
+        resultHtml = `
+            <div class="game-result">
+                <div class="chip time">${time || 'TBA'}</div>
+            </div>`;
+    }
+
+    return `
+    <div class="game-card ${cardClass}">
+        <div class="game-date">
+            <div class="date-mon">${d.mon}</div>
+            <div class="date-day">${d.day}</div>
+        </div>
+        <div class="game-info">
+            <div class="game-at-vs">${atVs}</div>
+            <div class="game-opp">${opp}</div>
+            ${loc ? `<div class="game-meta">${loc}</div>` : ''}
+        </div>
+        ${resultHtml}
+    </div>`;
+}
+
+function oppName(g) {
+    if (!g.opponent) return 'TBA';
+    if (typeof g.opponent === 'string') return g.opponent;
+    return g.opponent.title || g.opponent.name || g.opponent.display_name || 'TBA';
+}
+
+function parseDate(raw) {
+    if (!raw) return { mon: '—', day: '—' };
+    const d = new Date(raw.includes('T') ? raw : raw + 'T12:00:00');
+    return { mon: MONS[d.getMonth()] || '—', day: d.getDate() || '—' };
+}
+
+let _nextFlagged = false;
+function isNextGame(g) {
+    if (_nextFlagged) return false;
+    const s = (g.status ?? '').toString().toUpperCase();
+    if (!s || s === '' || s === 'NONE') { _nextFlagged = true; return true; }
+    return false;
+}
+
+function setStatus(msg) {
+    document.getElementById('status-bar').textContent = msg;
+}
+
+/* ─────────────────────────────────────────────
+   Main load / cache
+   ───────────────────────────────────────────── */
+async function load(forceRefresh = false) {
+    _nextFlagged = false;
+
+    // Try cache first
+    if (!forceRefresh) {
+        try {
+            const c = JSON.parse(localStorage.getItem(CACHE) || 'null');
+            if (c && (Date.now() - c.cachedAt) < TTL) {
+                renderRecord(c.record);
+                renderGames(c.games, c.cachedAt);
+                return;
+            }
+        } catch (_) {}
+    }
+
+    // Show loading
+    document.getElementById('content').innerHTML = `
+        <div class="loading">
+            <div class="spinner"></div>
+            Loading schedule…
+        </div>`;
+    setStatus('');
+
+    try {
+        const proxyUrl = PROXY + encodeURIComponent(SOURCE);
+        const res = await fetch(proxyUrl, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const html = await res.text();
+
+        let games  = null;
+        let record = null;
+
+        // Strategy 1: Nuxt devalue
+        const flat = extractNuxtData(html);
+        if (flat) {
+            const revived = nuxtUnflatten(flat);
+            games  = findGames(revived);
+            record = findRecord(revived);
+        }
+
+        // Strategy 2: raw regex ISO dates (last resort)
+        if (!games || games.length === 0) {
+            games = scrapeGamesFromText(html);
+        }
+
+        if (!games || games.length === 0) throw new Error('Could not find schedule data in page.');
+
+        const payload = { games, record, cachedAt: Date.now() };
+        try { localStorage.setItem(CACHE, JSON.stringify(payload)); } catch (_) {}
+
+        renderRecord(record);
+        renderGames(games, payload.cachedAt);
+
+    } catch (err) {
+        // Try stale cache
+        try {
+            const c = JSON.parse(localStorage.getItem(CACHE) || 'null');
+            if (c && c.games) {
+                renderRecord(c.record);
+                renderGames(c.games, c.cachedAt);
+                setStatus('⚠ Showing cached data — could not connect.');
+                return;
+            }
+        } catch (_) {}
+
+        document.getElementById('content').innerHTML = `
+            <div class="error-box">
+                <strong>Could not load schedule.</strong><br>
+                ${err.message}<br><br>
+                <a href="${SOURCE}" target="_blank">View on Tulane's site →</a>
+            </div>`;
+        setStatus('');
+    }
+}
+
+// Go
+load();
+
+// Auto-refresh
+setInterval(() => load(false), TTL);
+
+// Update "X min ago" every minute without re-fetching
+setInterval(() => {
+    try {
+        const c = JSON.parse(localStorage.getItem(CACHE) || 'null');
+        if (c) {
+            const mins = Math.round((Date.now() - c.cachedAt) / 60000);
+            setStatus(mins < 1 ? 'Just updated' : `Updated ${mins}m ago  ·  Auto-refreshes every 12 min`);
+        }
+    } catch (_) {}
+}, 60_000);
+</script>
+</body>
+</html>
