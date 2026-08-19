@@ -26,7 +26,7 @@
         "teamId": "2655"
       },
       "person": null,
-      "record": null,
+      "record": "0-0",
       "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
       "newsPriority": 2,
       "nextGame": {
@@ -114,7 +114,7 @@
         "photo": "images/jon_sumrall.jpg",
         "caption": "Coach Jon Sumrall"
       },
-      "record": null,
+      "record": "0-0",
       "newsFocus": "Coach Jon Sumrall, SEC results, quarterback play, recruiting.",
       "newsPriority": 2,
       "nextGame": {
@@ -202,7 +202,7 @@
         "photo": "images/arch.png",
         "caption": "Arch Manning"
       },
-      "record": null,
+      "record": "0-0",
       "newsFocus": "Arch Manning, SEC results, national rankings.",
       "newsPriority": 2,
       "nextGame": {
@@ -529,7 +529,7 @@
         "light": "#CCE1D8"
       },
       "person": null,
-      "record": null,
+      "record": "0-0",
       "newsFocus": "Series results, AAC standings.",
       "newsPriority": 2,
       "offSeason": true,

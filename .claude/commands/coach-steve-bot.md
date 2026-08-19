@@ -82,7 +82,8 @@ for e in json.load(sys.stdin)['events']:
 
 From those responses take:
 
-- **record** — `team.record.items[0].summary` (e.g. `"70-55"`). Leave it as-is if absent.
+- **record** — `team.record.items[0].summary` (e.g. `"70-55"`). If ESPN gives none,
+  leave whatever is there; a team that has not played yet reads `"0-0"`, never blank.
 - **next game** — the first event whose **local date is today or later**, even if it
   has already finished. A game holds the card for its whole day: the countdown reads
   0 on game day, and only the next morning does the following game take its place.
