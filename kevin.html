@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/katopus_icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/katopus_icon.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/katopus_icon.png">
-    <link rel="apple-touch-icon" href="images/katopus_icon.png">
-    <title>Kat's Sports Report by Kevin Kolb</title>
-    <link rel="icon" href="images/katopus_icon.png">
+    <title>Kevin's Sports Report by Kevin Kolb</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
     <style>
-        /* Every card is drawn from kat.json. The news routine refreshes that
+        /* Every card is drawn from kevin.json. The news routine refreshes that
            file twice a day, so the answers — next game, kickoff, channel, last
            result — sit on the page instead of behind a link. */
 
@@ -511,7 +507,7 @@
             margin-top: 5px;
         }
 
-        /* A link can ask for the team's secondary color in kat.json. */
+        /* A link can ask for the team's secondary color in kevin.json. */
         .action-btn.on-secondary {
             background: var(--secondary-color, var(--banner-color));
             color: #fff;
@@ -966,14 +962,8 @@
     <div class="container">
 
         <div class="header">
-            <div class="header-top">
-                <img class="header-photo" id="headerPhoto" src="images/kat_merry_badge.jpg"
-                     alt="Kat — tap to see it bigger" role="button" tabindex="0">
-                <div class="header-text">
-                    <h1 id="pageTitle">Kat's Sports Report</h1>
-                    <p id="pageByline">by Kevin Kolb</p>
-                </div>
-            </div>
+            <h1 id="pageTitle">Kevin's Sports Report</h1>
+            <p id="pageByline">The Game Bureau</p>
             <div class="today" id="todayLine"></div>
             <div class="team-navigation" id="teamNav"></div>
         </div>
@@ -984,7 +974,7 @@
 
         <div id="league"></div>
 
-        <a class="archive-btn" href="kat/kat_archive.html">Archived Posts &rarr;</a>
+        <a class="archive-btn" href="kevin/kevin_archive.html">Archived Posts &rarr;</a>
 
         <div class="carousel" id="carousel" hidden>
             <div class="slides" id="slides"></div>
@@ -1018,7 +1008,7 @@
     var teamsEl = document.getElementById('teams');
     var navEl = document.getElementById('teamNav');
 
-    // kat.json stores plain "YYYY-MM-DD". Parse as local so the day never
+    // kevin.json stores plain "YYYY-MM-DD". Parse as local so the day never
     // slips backwards for a US reader.
     function parseDate(iso) {
         if (!iso) { return null; }
@@ -1143,7 +1133,7 @@
         return banner;
     }
 
-    // ESPN owns nextGame; extraEvents are hand-entered in kat.json and the
+    // ESPN owns nextGame; extraEvents are hand-entered in kevin.json and the
     // routine leaves them alone. Both go on the calendar together.
     function eventsFor(team) {
         var list = [];
@@ -1497,21 +1487,21 @@
         teamsEl.textContent = '';
         var box = el('div', 'message', "Today's report could not be loaded.");
         box.appendChild(el('small', null,
-            'kat/kat.json did not load. If you opened this file directly, serve the folder instead ' +
+            'kevin/kevin.json did not load. If you opened this file directly, serve the folder instead ' +
             '(for example: python -m http.server) and reload.'));
         teamsEl.appendChild(box);
     }
 
-    // kat.json is rewritten twice a day. Re-fetch every 20
+    // kevin.json is rewritten twice a day. Re-fetch every 20
     // minutes and whenever he comes back to the tab, so a phone left open on
     // the page is never showing yesterday's card. Re-rendering in place keeps
     // his scroll position — a full reload would throw him back to the top.
     var REFRESH_MS = 20 * 60 * 1000;
     var nextRefreshAt = Date.now() + REFRESH_MS;
 
-    // Two files on purpose. kat.json holds what never changes on its own —
+    // Two files on purpose. kevin.json holds what never changes on its own —
     // teams, colors, links, photos, hand-entered events — and the routine never
-    // writes to it. kat_live.json holds what the routine rewrites twice a day:
+    // writes to it. kevin_live.json holds what the routine rewrites twice a day:
     // records, schedules, results, stories. Merged here, at read time.
     function merge(config, live) {
         var slots = (live && live.teams) || {};
@@ -1538,10 +1528,10 @@
     function load(onError) {
         nextRefreshAt = Date.now() + REFRESH_MS;
         return Promise.all([
-            get('kat/kat.json'),
+            get('kevin/kevin.json'),
             // A missing live file still gives a readable page: teams and links
             // show, with no scores yet.
-            get('kat/kat_live.json').catch(function () { return { teams: {} }; })
+            get('kevin/kevin_live.json').catch(function () { return { teams: {} }; })
         ])
             .then(function (r) { render(merge(r[0], r[1])); })
             .catch(function (err) { if (onError) { onError(err); } });
@@ -1566,7 +1556,6 @@
     // ---------- lightbox ----------
     var lightbox = document.getElementById('lightbox');
     var lightboxImg = document.getElementById('lightboxImg');
-    var headerPhoto = document.getElementById('headerPhoto');
     var lastFocus = null;
 
     function openLightbox(src, alt) {
@@ -1594,7 +1583,6 @@
         });
     }
 
-    wireLightbox(headerPhoto, 'images/kat_merry_web.jpg', 'Kat');
 
     // Tap anywhere on the backdrop — including the Close button and the photo
     // itself — or press Escape.
@@ -1605,7 +1593,7 @@
     });
 
     // ---------- photo carousel ----------
-    // Photos come from meta.photos in kat.json — hand-set, like everything
+    // Photos come from meta.photos in kevin.json — hand-set, like everything
     // else in that file.
     var carousel = document.getElementById('carousel');
     var slidesEl = document.getElementById('slides');

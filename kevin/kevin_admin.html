@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin's Sports Report — Admin</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #1a1a1a;
+            color: #2c3e50;
+            min-height: 100vh;
+            line-height: 1.6;
+            font-size: 17px;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 15px; }
+
+        .header {
+            text-align: center;
+            padding: 15px 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: clamp(1.6rem, 5vw, 2.4rem);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        .header p { color: #7f8c8d; margin-bottom: 10px; }
+
+        .header a.back-link {
+            display: inline-block;
+            color: #00693E;
+            font-weight: 700;
+            text-decoration: none;
+            border-bottom: 2px solid #00693E;
+        }
+
+        .panel {
+            background: #f5f5f5;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .panel h2 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #7f8c8d;
+            margin-bottom: 4px;
+        }
+
+        .panel .hint { color: #7f8c8d; font-size: 0.95rem; margin-bottom: 14px; }
+
+        /* ---------- Teams ---------- */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 12px;
+        }
+
+        .team-toggle {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: white;
+            border: 3px solid #dcdcdc;
+            border-left: 10px solid var(--accent, #dcdcdc);
+            border-radius: 12px;
+            padding: 10px 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .team-toggle:hover { transform: translateY(-2px); box-shadow: 0 5px 14px rgba(0,0,0,0.15); }
+
+        .team-toggle.on { border-color: var(--team, #2c3e50); border-left-color: var(--accent, #2c3e50); }
+
+        .team-toggle input { width: 22px; height: 22px; accent-color: var(--team, #2c3e50); cursor: pointer; }
+
+        .team-badge {
+            width: 44px; height: 44px;
+            border-radius: 10px;
+            background: var(--team, #2c3e50);
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .team-badge img { width: 32px; height: 32px; object-fit: contain; }
+
+        .team-meta { min-width: 0; }
+        .team-meta .name { font-weight: 700; line-height: 1.25; }
+        .team-meta .sport { font-size: 0.85rem; color: #7f8c8d; }
+
+        .bulk-actions { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+
+        /* ---------- Controls ---------- */
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+        }
+
+        label.field { display: block; font-weight: 700; font-size: 0.95rem; margin-bottom: 5px; }
+
+        select, input[type="text"], textarea {
+            width: 100%;
+            font: inherit;
+            padding: 10px 12px;
+            border: 2px solid #dcdcdc;
+            border-radius: 10px;
+            background: white;
+            color: #2c3e50;
+        }
+
+        select:focus, input:focus, textarea:focus { outline: 3px solid #007acc; outline-offset: 1px; }
+
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .checkline { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+        .checkline input { width: 20px; height: 20px; accent-color: #00693E; }
+
+        /* ---------- Output ---------- */
+        pre#promptOut {
+            background: #23272e;
+            color: #e6e6e6;
+            padding: 16px;
+            border-radius: 12px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.92rem;
+            line-height: 1.5;
+            max-height: 420px;
+        }
+
+        .btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+
+        .btn {
+            padding: 14px 20px;
+            border: 3px solid #00693E;
+            background: white;
+            color: #00693E;
+            border-radius: 12px;
+            font: inherit;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover, .btn:focus { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.2); }
+        .btn.primary { background: #00693E; color: white; }
+        .btn.primary:hover, .btn.primary:focus { background: white; color: #00693E; }
+        .btn.subtle { border-color: #7f8c8d; color: #7f8c8d; padding: 10px 16px; text-transform: none; font-size: 0.95rem; }
+        .btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; box-shadow: none; }
+
+        .status { margin-top: 10px; font-weight: 700; color: #00693E; min-height: 1.6em; }
+
+        .note {
+            background: #fff8e1;
+            border-left: 6px solid #f0b429;
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-size: 0.95rem;
+            margin-top: 14px;
+        }
+
+        .footer { text-align: center; color: #7f8c8d; font-size: 0.9rem; padding: 10px 0 30px; }
+
+        @media (max-width: 480px) {
+            .btn { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sports Report Admin</h1>
+            <p>Build the news prompt for Kevin's teams</p>
+            <a class="back-link" href="../kevin.html">&larr; Back to the report</a>
+        </div>
+
+        <!-- ================= TEAMS ================= -->
+        <div class="panel">
+            <h2>Teams Followed</h2>
+            <p class="hint">Pick which teams this run should cover.</p>
+            <div class="bulk-actions">
+                <button class="btn subtle" type="button" id="selectAll">Select all</button>
+                <button class="btn subtle" type="button" id="selectNone">Select none</button>
+                <button class="btn subtle" type="button" id="selectFootball">Football only</button>
+            </div>
+            <div class="team-grid" id="teamGrid"></div>
+        </div>
+
+        <!-- ================= OPTIONS ================= -->
+        <div class="panel">
+            <h2>Run Options</h2>
+            <p class="hint">These feed the placeholders in the prompt template below.</p>
+            <div class="controls">
+                <div>
+                    <label class="field" for="window">Look back</label>
+                    <select id="window">
+                        <option value="the last 24 hours">Last 24 hours</option>
+                        <option value="the last 3 days" selected>Last 3 days</option>
+                        <option value="the last 7 days">Last 7 days</option>
+                        <option value="the last 14 days">Last 14 days</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="field" for="count">Stories per team</label>
+                    <select id="count">
+                        <option value="2">2</option>
+                        <option value="3" selected>3</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="field" for="tone">Reading level</label>
+                    <select id="tone">
+                        <option value="plain, friendly language a busy fan can skim" selected>Plain &amp; friendly</option>
+                        <option value="large-print, very simple sentences, no jargon">Extra simple</option>
+                        <option value="detailed analysis for a serious fan">Detailed analysis</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="field" for="format">Output format</label>
+                    <select id="format">
+                        <option value="markdown" selected>Markdown summary</option>
+                        <option value="html">HTML cards for kevin.html</option>
+                        <option value="json">JSON (for automation)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="checkline">
+                <input type="checkbox" id="linksOnly" checked>
+                <label for="linksOnly">Require a source link for every story</label>
+            </div>
+            <div class="checkline">
+                <input type="checkbox" id="nextGame" checked>
+                <label for="nextGame">Include each team's next game (date, time, opponent, TV)</label>
+            </div>
+            <div class="checkline">
+                <input type="checkbox" id="skipRumors" checked>
+                <label for="skipRumors">Skip rumors and unconfirmed reports</label>
+            </div>
+        </div>
+
+        <!-- ================= TEMPLATE ================= -->
+        <div class="panel">
+            <h2>Prompt Template</h2>
+            <p class="hint">Placeholders: <code>{{teams}}</code> <code>{{window}}</code> <code>{{count}}</code> <code>{{tone}}</code> <code>{{format}}</code> <code>{{rules}}</code> <code>{{date}}</code></p>
+            <textarea id="template" spellcheck="false"></textarea>
+            <div class="btn-row">
+                <button class="btn subtle" type="button" id="resetTemplate">Reset to default</button>
+            </div>
+        </div>
+
+        <!-- ================= OUTPUT ================= -->
+        <div class="panel">
+            <h2>Generated Prompt</h2>
+            <p class="hint">Copy this into Claude, or open it directly.</p>
+            <pre id="promptOut"></pre>
+            <div class="btn-row">
+                <button class="btn primary" type="button" id="copyBtn">Copy prompt</button>
+                <a class="btn" id="claudeBtn" href="#" target="_blank" rel="noopener">Open in Claude</a>
+                <button class="btn" type="button" id="downloadBtn">Download .md</button>
+            </div>
+            <div class="status" id="status"></div>
+            <div class="note">
+                <strong>Coming next:</strong> a scheduled Claude routine will run this same prompt on its own
+                and write the results back into the report. For now this page just builds the prompt.
+            </div>
+        </div>
+
+        <div class="footer">Kevin's Sports Report &middot; by Kevin Kolb</div>
+    </div>
+
+<script>
+(function () {
+    'use strict';
+
+    // Team roster mirrors the cards in kevin.html.
+    // hidden: true keeps a team out of the picker until it is back in season.
+    var TEAMS = [];   // loaded from kevin.json
+
+    var DEFAULT_TEMPLATE = [
+        'You are the news editor for "Kevin\'s Sports Report." Today is {{date}}.',
+        '',
+        'Find the most important news from {{window}} for these teams:',
+        '',
+        '{{teams}}',
+        '',
+        'For each team, give me the top {{count}} stories. Write in {{tone}}.',
+        'Lead with what actually changed — a result, an injury, a lineup move, a coaching decision.',
+        '',
+        'Rules:',
+        '{{rules}}',
+        '- Say "No real news this week" for a team rather than padding it with filler.',
+        '- Never invent scores, dates, or quotes.',
+        '',
+        'Return the result as {{format}}.'
+    ].join('\n');
+
+    var FORMAT_TEXT = {
+        markdown: 'a Markdown document with one "## Team Name" section per team, each story as a bolded one-line headline followed by two or three sentences',
+        html: 'HTML fragments matching the team-card markup in kevin.html, one block per team, ready to paste in',
+        json: 'a JSON array of objects with the keys: team, headline, summary, source_url, published'
+    };
+
+    var STORAGE_KEY = 'kevinAdmin.v1';
+
+    var els = {
+        grid: document.getElementById('teamGrid'),
+        template: document.getElementById('template'),
+        out: document.getElementById('promptOut'),
+        status: document.getElementById('status'),
+        claudeBtn: document.getElementById('claudeBtn')
+    };
+
+    var OPTION_IDS = ['window', 'count', 'tone', 'format', 'linksOnly', 'nextGame', 'skipRumors'];
+
+    // ---------- render teams ----------
+    function renderTeams() {
+        TEAMS.filter(function (t) { return !t.hidden; }).forEach(function (t) {
+        var label = document.createElement('label');
+        label.className = 'team-toggle on';
+        label.style.setProperty('--team', t.color);
+        label.style.setProperty('--accent', t.accent);
+        label.innerHTML =
+            '<input type="checkbox" data-team="' + t.id + '" checked>' +
+            '<span class="team-badge"><img src="' + t.logo + '" alt=""></span>' +
+            '<span class="team-meta"><span class="name">' + t.name + '</span><br>' +
+            '<span class="sport">' + t.sport + '</span></span>';
+        label.querySelector('input').addEventListener('change', function () {
+            label.classList.toggle('on', this.checked);
+            update();
+        });
+        els.grid.appendChild(label);
+        });
+    }
+
+    function teamBoxes() {
+        return Array.prototype.slice.call(els.grid.querySelectorAll('input[data-team]'));
+    }
+
+    function selectedTeams() {
+        var on = {};
+        teamBoxes().forEach(function (b) { if (b.checked) { on[b.getAttribute('data-team')] = true; } });
+        return TEAMS.filter(function (t) { return on[t.id]; });
+    }
+
+    function setTeams(fn) {
+        teamBoxes().forEach(function (b) {
+            var id = b.getAttribute('data-team');
+            var team = TEAMS.filter(function (t) { return t.id === id; })[0];
+            b.checked = fn(team);
+            b.parentNode.classList.toggle('on', b.checked);
+        });
+        update();
+    }
+
+    document.getElementById('selectAll').addEventListener('click', function () {
+        setTeams(function () { return true; });
+    });
+    document.getElementById('selectNone').addEventListener('click', function () {
+        setTeams(function () { return false; });
+    });
+    document.getElementById('selectFootball').addEventListener('click', function () {
+        setTeams(function (t) { return /Football/i.test(t.sport); });
+    });
+
+    // ---------- build prompt ----------
+    function buildRules() {
+        var rules = [];
+        if (document.getElementById('linksOnly').checked) {
+            rules.push('- Every story needs a working link to the original source.');
+        }
+        if (document.getElementById('nextGame').checked) {
+            rules.push('- End each team with its next game: date, start time, opponent, venue, and TV channel.');
+        }
+        if (document.getElementById('skipRumors').checked) {
+            rules.push('- Reported facts only. No rumors, speculation, or "sources say" items.');
+        }
+        return rules.join('\n');
+    }
+
+    function buildPrompt() {
+        var teamLines = selectedTeams().map(function (t) {
+            return '- ' + t.name + ' (' + t.sport + ') — watch for: ' + t.focus;
+        }).join('\n');
+
+        var today = new Date().toLocaleDateString('en-US', {
+            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+        });
+
+        return els.template.value
+            .replace(/\{\{teams\}\}/g, teamLines || '(no teams selected)')
+            .replace(/\{\{window\}\}/g, document.getElementById('window').value)
+            .replace(/\{\{count\}\}/g, document.getElementById('count').value)
+            .replace(/\{\{tone\}\}/g, document.getElementById('tone').value)
+            .replace(/\{\{format\}\}/g, FORMAT_TEXT[document.getElementById('format').value])
+            .replace(/\{\{rules\}\}/g, buildRules())
+            .replace(/\{\{date\}\}/g, today);
+    }
+
+    function update() {
+        var prompt = buildPrompt();
+        els.out.textContent = prompt;
+        var empty = selectedTeams().length === 0;
+        els.claudeBtn.href = 'https://claude.ai/new?q=' + encodeURIComponent(prompt);
+        els.claudeBtn.setAttribute('aria-disabled', empty ? 'true' : 'false');
+        document.getElementById('copyBtn').disabled = empty;
+        document.getElementById('downloadBtn').disabled = empty;
+        save();
+    }
+
+    // ---------- persistence ----------
+    function save() {
+        try {
+            var state = { template: els.template.value, teams: {}, options: {} };
+            teamBoxes().forEach(function (b) { state.teams[b.getAttribute('data-team')] = b.checked; });
+            OPTION_IDS.forEach(function (id) {
+                var el = document.getElementById(id);
+                state.options[id] = el.type === 'checkbox' ? el.checked : el.value;
+            });
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        } catch (e) { /* private browsing — just run without saving */ }
+    }
+
+    function load() {
+        var state = null;
+        try { state = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch (e) { state = null; }
+        els.template.value = (state && state.template) || DEFAULT_TEMPLATE;
+        if (!state) { return; }
+        teamBoxes().forEach(function (b) {
+            var id = b.getAttribute('data-team');
+            if (state.teams && Object.prototype.hasOwnProperty.call(state.teams, id)) {
+                b.checked = !!state.teams[id];
+                b.parentNode.classList.toggle('on', b.checked);
+            }
+        });
+        OPTION_IDS.forEach(function (id) {
+            if (!state.options || !(id in state.options)) { return; }
+            var el = document.getElementById(id);
+            if (el.type === 'checkbox') { el.checked = !!state.options[id]; }
+            else { el.value = state.options[id]; }
+        });
+    }
+
+    // ---------- actions ----------
+    function flash(msg) {
+        els.status.textContent = msg;
+        setTimeout(function () { els.status.textContent = ''; }, 2500);
+    }
+
+    document.getElementById('copyBtn').addEventListener('click', function () {
+        var text = els.out.textContent;
+        function fallback() {
+            var ta = document.createElement('textarea');
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); flash('Copied to clipboard.'); }
+            catch (e) { flash('Copy failed — select the text above.'); }
+            document.body.removeChild(ta);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function () { flash('Copied to clipboard.'); }, fallback);
+        } else {
+            fallback();
+        }
+    });
+
+    document.getElementById('downloadBtn').addEventListener('click', function () {
+        var blob = new Blob([els.out.textContent], { type: 'text/markdown' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'kevin-news-prompt.md';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+        flash('Downloaded kevin-news-prompt.md');
+    });
+
+    document.getElementById('resetTemplate').addEventListener('click', function () {
+        els.template.value = DEFAULT_TEMPLATE;
+        update();
+        flash('Template reset.');
+    });
+
+    OPTION_IDS.forEach(function (id) {
+        document.getElementById(id).addEventListener('change', update);
+    });
+    els.template.addEventListener('input', update);
+
+    fetch('kevin.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        })
+        .then(function (data) {
+            TEAMS = (data.teams || []).map(function (t) {
+                return {
+                    id: t.id,
+                    name: t.name,
+                    sport: t.sport,
+                    color: (t.colors || {}).primary || '#2c3e50',
+                    accent: (t.colors || {}).secondary || '#7f8c8d',
+                    logo: t.logo,
+                    focus: t.newsFocus || '',
+                    hidden: !!t.hidden
+                };
+            });
+            renderTeams();
+            load();
+            update();
+        })
+        .catch(function () {
+            els.grid.innerHTML = '<div class="hint">kevin.json could not be loaded. ' +
+                'If you opened this file directly, serve the folder instead ' +
+                '(for example: python -m http.server) and reload.</div>';
+        });
+})();
+</script>
+</body>
+</html>

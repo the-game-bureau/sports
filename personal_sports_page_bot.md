@@ -1,9 +1,9 @@
 # Personal Sports Page Bot
 
-The daily routine behind [Coach Steve's Sports Report](steve.html) and
-[Kat's Sports Report](kat.html).
+The daily routine behind [Coach Steve's Sports Report](steve.html),
+[Kat's Sports Report](kat.html), and [Kevin's Sports Report](kevin.html).
 
-**Who it's for.** Two readers, Steve and Kat, on their phones. Steve has Alzheimer's
+**Who it's for.** Three readers — Steve, Kat, and Kevin — on their phones. Steve has Alzheimer's
 disease and a short attention span, so nothing should need a click to find out. Every
 story is short, plain, and finished in two sentences.
 
@@ -56,9 +56,9 @@ dropped The Current Radio Show from Kat's Tulane card.
 
 ## What it writes
 
-Both reports run in one pass. Steve follows the Saints, Florida, Tulane, Texas, IUP,
-and the Yankees; Kat follows the Saints, Florida, LSU, and Tulane. Shared teams are
-researched once and written into both feeds.
+All three reports run in one pass. Steve follows the Saints, Florida, Tulane, Texas,
+IUP, and the Yankees; Kat and Kevin both follow the Saints, Florida, LSU, and Tulane.
+Shared teams are researched once and written into every feed that carries them.
 
 | Field | Where it comes from |
 | --- | --- |
