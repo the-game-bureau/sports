@@ -3,9 +3,18 @@
     "title": "Kevin's Sports Report",
     "byline": "The Game Bureau",
     "season": "2026",
+    "layout": [
+      "saints",
+      "tulane",
+      "florida",
+      "law-order",
+      "yahoo",
+      "lsu"
+    ],
     "note": "Permanent settings: teams, colors, links, leagues. Personal Sports Page Bot never writes to this file — scores and news live in kevin_live.json.",
     "leagues": [
       {
+        "id": "law-order",
         "label": "Fantasy Football",
         "name": "Law & Order: Special Victory Unit",
         "shortName": "Law & Order",
@@ -24,6 +33,7 @@
         }
       },
       {
+        "id": "yahoo",
         "label": "Fantasy Football",
         "name": "Yahoo Pro Football Pick'em",
         "shortName": "Yahoo Pick'em",
@@ -100,6 +110,61 @@
           "note": "Open to the public"
         }
       ]
+    },
+    {
+      "id": "tulane",
+      "name": "Tulane Green Wave",
+      "shortName": "Tulane",
+      "sport": "College Football",
+      "ball": "🏈",
+      "logo": "images/tulane.svg",
+      "colors": {
+        "primary": "#00693E",
+        "secondary": "#4BB3D0",
+        "banner": "#00693E",
+        "light": "#CCE1D8"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "college-football",
+        "teamId": "2655"
+      },
+      "person": null,
+      "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
+      "newsPriority": 2,
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://tulanegreenwave.com/sports/football/schedule"
+        },
+        {
+          "label": "Stats",
+          "url": "https://tulanegreenwave.com/sports/football/stats"
+        },
+        {
+          "label": "Roster & Coaches",
+          "url": "https://tulanegreenwave.com/sports/football/roster"
+        },
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/GreenWaveFootball"
+        },
+        {
+          "label": "The Current Radio Show",
+          "url": "https://podcasts.apple.com/us/podcast/the-current/id1491577393",
+          "prefix": false,
+          "style": "secondary"
+        },
+        {
+          "label": "News",
+          "url": "https://www.nola.com/sports/tulane/"
+        }
+      ],
+      "offSeason": false
     },
     {
       "id": "florida",
@@ -198,61 +263,6 @@
           "url": "https://lsusports.net/sports/fb/news"
         }
       ]
-    },
-    {
-      "id": "tulane",
-      "name": "Tulane Green Wave",
-      "shortName": "Tulane",
-      "sport": "College Football",
-      "ball": "🏈",
-      "logo": "images/tulane.svg",
-      "colors": {
-        "primary": "#00693E",
-        "secondary": "#4BB3D0",
-        "banner": "#00693E",
-        "light": "#CCE1D8"
-      },
-      "espn": {
-        "sport": "football",
-        "league": "college-football",
-        "teamId": "2655"
-      },
-      "person": null,
-      "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
-      "newsPriority": 2,
-      "links": [
-        {
-          "label": "Full Schedule",
-          "url": "https://tulanegreenwave.com/sports/football/schedule"
-        },
-        {
-          "label": "Stats",
-          "url": "https://tulanegreenwave.com/sports/football/stats"
-        },
-        {
-          "label": "Roster & Coaches",
-          "url": "https://tulanegreenwave.com/sports/football/roster"
-        },
-        {
-          "label": "Video",
-          "url": "https://www.youtube.com/@TUGreenWave/videos?view=0&sort=dd&shelf_id=1"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/GreenWaveFootball"
-        },
-        {
-          "label": "The Current Radio Show",
-          "url": "https://podcasts.apple.com/us/podcast/the-current/id1491577393",
-          "prefix": false,
-          "style": "secondary"
-        },
-        {
-          "label": "News",
-          "url": "https://www.nola.com/sports/tulane/"
-        }
-      ],
-      "offSeason": false
     }
   ]
 }

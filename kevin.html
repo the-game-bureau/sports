@@ -532,14 +532,11 @@
 
         /* Not a team — her fantasy league gets its own block, in its own
            colors, so it never reads as a fifth team card. */
-        .league + .league { margin-top: 24px; }
-
         .league {
             background: #fff;
             border-radius: 4px;
             overflow: hidden;
             border-top: 7px solid var(--league-accent, #0F766E);
-            margin-top: 32px;
         }
 
         .league .sport-label { background: var(--league-banner, #000); }
@@ -972,7 +969,6 @@
             <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <div id="league"></div>
 
         <a class="archive-btn" href="kevin/kevin_archive.html">Archived Posts &rarr;</a>
 
@@ -1424,13 +1420,37 @@
         return a;
     }
 
-    function buildLeagues(meta) {
-        var host = document.getElementById('league');
-        host.textContent = '';
-        leaguesOf(meta).forEach(function (league, i) {
-            var card = buildLeague(league, i);
-            if (card) { host.appendChild(card); }
+    // Teams and leagues share one running order, so a league can sit between
+    // two teams. meta.layout names the blocks; anything left out follows in
+    // its natural order.
+    function orderedBlocks(data, teams) {
+        var meta = data.meta || {};
+        var leagues = leaguesOf(meta);
+        var blocks = orderedMap();
+
+        teams.forEach(function (team) {
+            blocks.push(team.id, { team: team });
         });
+        leagues.forEach(function (league, i) {
+            blocks.push(league.id || ('league-' + (i + 1)), { league: league, index: i });
+        });
+
+        var order = (meta.layout && meta.layout.length) ? meta.layout.slice() : [];
+        blocks.keys().forEach(function (id) {
+            if (order.indexOf(id) === -1) { order.push(id); }
+        });
+
+        return order.map(function (id) { return blocks.get(id); }).filter(Boolean);
+    }
+
+    // Tiny ordered map — keeps the code honest about duplicate ids.
+    function orderedMap() {
+        var keys = [], store = {};
+        return {
+            push: function (k, v) { if (!(k in store)) { keys.push(k); } store[k] = v; },
+            get: function (k) { return store[k]; },
+            keys: function () { return keys.slice(); }
+        };
     }
 
     function buildNavIcon(team) {
@@ -1462,20 +1482,23 @@
             return;
         }
 
-        teams.forEach(function (team) {
-            teamsEl.appendChild(buildCard(team));
-            navEl.appendChild(buildNavIcon(team));
+        orderedBlocks(data, teams).forEach(function (block) {
+            if (block.team) {
+                teamsEl.appendChild(buildCard(block.team));
+                navEl.appendChild(buildNavIcon(block.team));
+                return;
+            }
+            var card = buildLeague(block.league, block.index);
+            if (card) {
+                teamsEl.appendChild(card);
+                navEl.appendChild(buildLeagueNavIcon(block.league, block.index));
+            }
         });
 
         var updated = parseDate(meta.updated);
         if (updated) {
             document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
         }
-
-        buildLeagues(meta);
-        leaguesOf(meta).forEach(function (league, i) {
-            if (league.url) { navEl.appendChild(buildLeagueNavIcon(league, i)); }
-        });
 
         if (!carousel.dataset.built) {
             buildCarousel(meta.photos);
