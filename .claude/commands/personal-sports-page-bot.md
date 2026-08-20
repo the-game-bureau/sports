@@ -183,6 +183,47 @@ From those responses take:
   For a team's own site, a "how to watch" article is often the most reliable source
   for the local station — the Saints publish one per game.
 
+  **ESPN's where-to-watch page lists every outlet for a game**, where the schedule
+  endpoint names only one. Today's Yankees game reads `MASN` in the schedule but
+  `['MLB.TV', 'MASN', 'YES']` here — which is what lets you tell a reader the game
+  is reachable on MLB.TV even though neither cable channel is in their package.
+
+  It covers **today only**, 50 events a page, every sport mixed together:
+
+```bash
+python - <<'PY'
+import json, re, subprocess
+def page(n):
+    html = subprocess.run(['curl','-s','-L','https://www.espn.com/where-to-watch?page=%d' % n],
+                          capture_output=True, text=True, encoding='utf-8', errors='ignore').stdout
+    m = re.search(r'"whereToWatch":\{', html)
+    if not m: return None
+    i = start = m.end()-1; depth = 0
+    while i < len(html):
+        if html[i] == '{': depth += 1
+        elif html[i] == '}':
+            depth -= 1
+            if depth == 0: break
+        i += 1
+    return json.loads(html[start:i+1].replace('\\"', '"'))
+
+for n in range(1, 6):
+    d = page(n)
+    if not d: break
+    for bucket, items in (d.get('evts') or {}).items():
+        if not isinstance(items, list): continue
+        for e in items:
+            lg = (e.get('league') or {}).get('abbrev')
+            name = e.get('displayName') or ' vs '.join(t.get('displayName','') for t in (e.get('teams') or []))
+            casts = ((e.get('watchListen') or {}).get('broadcasts')) or []
+            print(lg, '|', name, '|', casts)
+PY
+```
+
+  **Filter by league before you trust a match.** That feed carries every sport, so a
+  search for "LSU" today returns an LSU volleyball match on SECN+, not football.
+  Check `league.abbrev` — `NCAAF`, `NFL`, `MLB` — and confirm the opponent.
+
   **College football, when ESPN has not posted a channel yet.** Most games are only
   assigned six to twelve days out, so a September game looked up in August often has
   no broadcast listed. Two things narrow it down:
