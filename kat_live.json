@@ -1,6 +1,6 @@
 {
   "note": "Written by Coach Steve Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -117,6 +117,15 @@
       },
       "lastGame": null,
       "news": [
+        {
+          "id": "5ae2204af7c4",
+          "teamId": "lsu",
+          "headline": "Three Tigers make AP Preseason All-America teams",
+          "summary": "Tight end Trey'Dez Green earned first-team honors, while transfers Jordan Seaton and Ty Benefield made second team. It is a strong vote of confidence for Lane Kiffin's first LSU roster.",
+          "date": "2026-08-18",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/08/18/three-tigers-on-ap-preseason-all-america-teams"
+        },
         {
           "id": "69678f73ab72",
           "teamId": "lsu",

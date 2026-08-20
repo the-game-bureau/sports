@@ -1,6 +1,6 @@
 {
   "note": "Written by Coach Steve Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -193,11 +193,11 @@
       "news": []
     },
     "yankees": {
-      "record": "70-55",
+      "record": "71-55",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Baltimore Orioles",
-        "date": "2026-08-19",
+        "date": "2026-08-20",
         "time": "6:35 PM",
         "venue": "Oriole Park at Camden Yards",
         "city": "Baltimore, MD",
@@ -209,12 +209,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 3,
-        "opponentScore": 1,
+        "teamScore": 5,
+        "opponentScore": 3,
         "opponent": "Baltimore Orioles",
-        "date": "2026-08-18"
+        "date": "2026-08-19"
       },
       "news": [
+        {
+          "id": "4fe5df5d93c6",
+          "teamId": "yankees",
+          "headline": "Stanton nearing return from calf injury",
+          "summary": "Manager Aaron Boone said Giancarlo Stanton is near the end of his running program and responding well. There is still no firm timeline for his return.",
+          "date": "2026-08-19",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
+        },
         {
           "id": "89fd83b6badc",
           "teamId": "yankees",
