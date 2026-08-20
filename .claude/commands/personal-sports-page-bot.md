@@ -183,6 +183,35 @@ From those responses take:
   For a team's own site, a "how to watch" article is often the most reliable source
   for the local station — the Saints publish one per game.
 
+  **College football, when ESPN has not posted a channel yet.** Most games are only
+  assigned six to twelve days out, so a September game looked up in August often has
+  no broadcast listed. Two things narrow it down:
+
+  1. **The home team's conference controls the broadcast.** Tulane visiting Duke is an
+     ACC home game, so it runs on ACC channels even though Tulane is American.
+  2. Each conference has its own family of channels:
+
+  | Conference | Usual channels | Also |
+  | --- | --- | --- |
+  | SEC | ABC, ESPN, SEC Network | ESPN2, ESPNU, ESPN+, SECN+ |
+  | ACC | ABC, ACC Network, ESPN, The CW | ESPN2, ESPNU, ACC Network Extra |
+  | American | ABC, CBSSN, ESPN | CBS, ESPN2, ESPNU, ESPN+ |
+  | Big Ten | Big Ten Network, CBS, Fox, NBC | FS1, Peacock |
+  | Big 12 | ABC, ESPN, Fox, TNT | ESPN2, ESPNU, ESPN+, FS1 |
+
+  YouTube TV carries the linear ones — ABC, CBS, NBC, Fox, ESPN, ESPN2, ESPNU, SEC
+  Network, ACC Network, Big Ten Network, FS1, CBSSN, TNT, The CW. It does **not**
+  include the streaming-only tiers: **ESPN+, SECN+, ACC Network Extra, Peacock,
+  Paramount+, Fox One, HBO Max**. A game on one of those gets the
+  "Not on YouTube TV" treatment above.
+
+  **A local listing always wins.** If the team's own how-to-watch page, or a New
+  Orleans station's schedule, names a channel, use it and ignore the conference
+  guide — the guide describes the usual case, the local listing describes this game.
+
+  Background, if you need it: The Athletic's 2026 college football TV guide,
+  <https://www.nytimes.com/athletic/7482277/2026/08/19/college-football-2026-streaming-tv-how-to-watch/>
+
   Keep the existing `tv.logo` and `tv.url` if the channel name has not changed; use
   `""` if it has. Logos on hand: `images/fox8.png`, `images/espn.webp`,
   `images/espn2.webp`, `images/espnu.webp`, `images/espnplus.webp`,

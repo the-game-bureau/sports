@@ -92,6 +92,11 @@ away from undone.
   page in Central time, and the channel is the New Orleans one — ABC is WGNO 26,
   CBS is WWL 4, NBC is WDSU 6, FOX is WVUE Fox 8. ESPN's own listing names the
   home team's market, which for a Saints road game is the wrong city entirely.
+- **College channels are set late.** Games get their broadcast six to twelve days
+  out, so a September game looked up in August usually has none. The home team's
+  conference controls it — Tulane at Duke is an ACC game — and the brief carries a
+  conference-to-channel table for narrowing it down. A local listing always wins
+  over that table.
 - **Say when they cannot watch it.** YouTube TV carries almost no regional sports
   networks, so an Orioles game on MASN gets "Not on YouTube TV — stream on MLB.TV"
   rather than a channel they will never find.
