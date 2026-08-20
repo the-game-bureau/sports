@@ -109,6 +109,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "e7b9978184d8",
+          "teamId": "texas",
+          "headline": "Goosby could return by season opener",
+          "summary": "Doctors say Trevor Goosby's knee bruise should heal in two to three weeks. That could have him back for the September 5 opener, and he should be ready by the Ohio State game on September 12 at the latest.",
+          "date": "2026-08-19",
+          "source": "Burnt Orange Nation",
+          "url": "https://www.burntorangenation.com/texas-longhorns-football/103934/trevor-goosby-bone-bruise-timetable"
+        },
+        {
           "id": "e51e2b0c272e",
           "teamId": "texas",
           "headline": "Four Longhorns named to preseason All-America team",
@@ -221,6 +230,15 @@
       },
       "news": [
         {
+          "id": "c90895ee0f6e",
+          "teamId": "yankees",
+          "headline": "Aaron Judge nearing his return",
+          "summary": "Judge started hitting off a tee and doing soft toss this week as he recovers from his rib injury. Most reports point to him coming back sometime in September.",
+          "date": "2026-08-20",
+          "source": "NY Sports Day",
+          "url": "https://www.nysportsday.com/2026/08/20/aaron-judge-injury-update-2/"
+        },
+        {
           "id": "4fe5df5d93c6",
           "teamId": "yankees",
           "headline": "Stanton nearing return from calf injury",
@@ -237,15 +255,6 @@
           "date": "2026-08-19",
           "source": "MLB.com",
           "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
-        },
-        {
-          "id": "6cc0cd53406a",
-          "teamId": "yankees",
-          "headline": "Carlos Rodón returns with 4 solid innings",
-          "summary": "Rodón made his first start since early July and pitched four innings against Baltimore. Trent Grisham's home run carried the Yankees to a 3-1 win.",
-          "date": "2026-08-18",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/carlos-rodon-activated-start-vs-orioles"
         }
       ]
     },

@@ -5,5 +5,15 @@
     "updated": "2026-08-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
-  "items": []
+  "items": [
+    {
+      "id": "2b50cd6eef89",
+      "teamId": "lsu",
+      "headline": "LSU ranked No. 11 in preseason AP poll",
+      "summary": "The Tigers open the season Sept. 5 at home against Clemson, who did not make the poll. It is LSU's first season under new coach Lane Kiffin.",
+      "date": "2026-08-17",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/08/17/where-lsu-football-ranks-ap-preseason-top-25-poll/"
+    }
+  ]
 }

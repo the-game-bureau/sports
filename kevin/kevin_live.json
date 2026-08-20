@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "b1412180fe87",
+          "teamId": "lsu",
+          "headline": "LSU lands eight players on All-SEC team",
+          "summary": "The Tigers' preseason Coaches All-SEC team includes five first-team picks, tying for the most in the league. It's a strong show of respect for Lane Kiffin's first LSU roster.",
+          "date": "2026-08-20",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lsu-tigers-put-eight-players-on-preseason-coaches-all-sec-team"
+        },
+        {
           "id": "5ae2204af7c4",
           "teamId": "lsu",
           "headline": "Three Tigers make AP Preseason All-America teams",
@@ -140,15 +149,6 @@
           "date": "2026-08-18",
           "source": "And The Valley Shook",
           "url": "https://www.andthevalleyshook.com/lsu-tigers-football/51718/treydez-green-named-to-walter-camp-award-watch-list"
-        },
-        {
-          "id": "2b50cd6eef89",
-          "teamId": "lsu",
-          "headline": "LSU ranked No. 11 in preseason AP poll",
-          "summary": "The Tigers open the season Sept. 5 at home against Clemson, who did not make the poll. It is LSU's first season under new coach Lane Kiffin.",
-          "date": "2026-08-17",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/08/17/where-lsu-football-ranks-ap-preseason-top-25-poll/"
         }
       ]
     },
