@@ -1289,15 +1289,41 @@
     var REFRESH_MS = 20 * 60 * 1000;
     var nextRefreshAt = Date.now() + REFRESH_MS;
 
+    // Two files on purpose. steve.json holds what never changes on its own —
+    // teams, colors, links, photos, hand-entered events — and the routine never
+    // writes to it. steve_live.json holds what the routine rewrites twice a day:
+    // records, schedules, results, stories. Merged here, at read time.
+    function merge(config, live) {
+        var slots = (live && live.teams) || {};
+        (config.teams || []).forEach(function (team) {
+            var slot = slots[team.id] || {};
+            team.record = slot.record;
+            team.nextGame = slot.nextGame;
+            team.lastGame = slot.lastGame;
+            team.news = slot.news || [];
+        });
+        config.meta = config.meta || {};
+        if (live && live.updated) { config.meta.updated = live.updated; }
+        return config;
+    }
+
+    function get(url) {
+        // Cache-bust so freshly pushed data shows up right away.
+        return fetch(url + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        });
+    }
+
     function load(onError) {
         nextRefreshAt = Date.now() + REFRESH_MS;
-        // Cache-bust so a freshly pushed steve.json shows up right away.
-        return fetch('steve.json?t=' + Date.now(), { cache: 'no-store' })
-            .then(function (r) {
-                if (!r.ok) { throw new Error('HTTP ' + r.status); }
-                return r.json();
-            })
-            .then(render)
+        return Promise.all([
+            get('steve.json'),
+            // A missing live file still gives a readable page: teams and links
+            // show, with no scores yet.
+            get('steve_live.json').catch(function () { return { teams: {} }; })
+        ])
+            .then(function (r) { render(merge(r[0], r[1])); })
             .catch(function (err) { if (onError) { onError(err); } });
     }
 

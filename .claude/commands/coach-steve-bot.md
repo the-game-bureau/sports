@@ -12,12 +12,38 @@ words, no jargon or acronyms, no betting or fantasy angles, no "sources say."
 You do the whole job yourself: fetch, research, merge, write. There is no helper
 script. Work through the steps in order and report what changed at the end.
 
-**There are two reports**, each a page plus its own data files:
+**There are two reports**, and each one keeps its data in two files — permanent and
+volatile. This split is the whole safety model: you write three files per report and
+never the fourth.
 
-| Reader | Feed | Older stories |
-| --- | --- | --- |
-| Steve | `steve.json` | `steve_archive.json` |
-| Kat | `kat.json` | `kat_archive.json` |
+| Reader | Permanent — **read only** | Yours to write | Older stories |
+| --- | --- | --- | --- |
+| Steve | `steve.json` | `steve_live.json` | `steve_archive.json` |
+| Kat | `kat.json` | `kat_live.json` | `kat_archive.json` |
+
+`steve.json` and `kat.json` hold what Kevin sets by hand: teams, colors, logos,
+links, photos, `newsFocus`, and `extraEvents` like an open practice. **Never write to
+them.** If a link looks wrong or a team needs adding, say so in your report and leave
+the file alone.
+
+`steve_live.json` and `kat_live.json` hold only what you produce, keyed by team id:
+
+```json
+{
+  "updated": "2026-08-19",
+  "teams": {
+    "tulane": {
+      "record": "0-0",
+      "nextGame": { },
+      "lastGame": null,
+      "news": [ ]
+    }
+  }
+}
+```
+
+A team id in a live file must exist in the matching permanent file. Keep every team
+present, even with nothing to say — write `null` or `[]` rather than dropping it.
 
 Do every step below for **both**. They share teams — Kat follows the Saints, Florida,
 LSU, and Tulane, and Steve follows the Saints, Florida, Tulane, Texas, IUP, and the
@@ -31,14 +57,15 @@ its own report, and Steve's archive never holds Kat's stories.
 
 ## Step 1 — Read the feed
 
-Read `steve.json` **and** `kat.json`. Each `teams` array is an assignment list — skip
-any entry with `"hidden": true`, which is a team that reader is not following right
-now. Each team carries:
+Read `steve.json` **and** `kat.json` — read only, they are your assignment lists.
+Skip any entry with `"hidden": true`, which is a team that reader is not following
+right now. Each team carries:
 
 - `espn` — `{sport, league, teamId}`, or `null` if ESPN does not carry them
 - `newsFocus` — what this reader cares about for that team
 - `newsPriority` — `1` means cover it first and dig hardest
-- `record`, `nextGame`, `lastGame`, `news[]` — what you are about to update
+Then read `steve_live.json` and `kat_live.json` to see the `record`, `nextGame`,
+`lastGame`, and `news[]` you wrote last time.
 
 Also read `steve_archive.json` and `kat_archive.json` (their `items` arrays) so you
 know which stories have already been retired and do not re-add them to that report.
@@ -46,7 +73,7 @@ know which stories have already been retired and do not re-add them to that repo
 Back both files up before you change anything:
 
 ```bash
-for f in steve steve_archive kat kat_archive; do cp "$f.json" "$f.json.bak"; done
+for f in steve_live steve_archive kat_live kat_archive; do cp "$f.json" "$f.json.bak"; done
 ```
 
 ---
@@ -170,26 +197,18 @@ Rules, without exception:
 
 ---
 
-## Step 4 — Write the feeds
+## Step 4 — Write the live files
 
-Edit `steve.json` and `kat.json` in place. Keep the existing key order and the
-two-space indent. Everything below applies to each file separately.
+Edit `steve_live.json` and `kat_live.json`. Keep the two-space indent. Everything
+below applies to each file separately.
 
-**Only four fields per team are yours**: `record`, `nextGame`, `lastGame`, and
-`news[]`. Everything else is hand-set by Kevin and must survive your run byte for
-byte — `links`, `person`, `colors`, `extraEvents`, `newsFocus`, `newsPriority`,
-`shortName`, `logo`, `hidden`, `offSeason`. Never rebuild a team object from
-scratch; edit the four fields in place. A single run has already wiped a podcast
-link off a card this way.
+`steve.json` and `kat.json` are not yours. Do not open them for writing, do not stage
+them, do not "tidy" them.
 
-Before you commit, prove you did not: compare the link labels and person photos in
-each file against the copy in `git show HEAD:steve.json` and `git show HEAD:kat.json`,
-and restore anything that changed.
+For each team, under `teams.<id>`:
 
-For each team:
-
-- Set `record`, `nextGame`, `lastGame` from what you found. Leave a field untouched
-  when you could not confirm it — a stale value beats a wrong one.
+- Set `record`, `nextGame`, and `lastGame` from what you found. Leave a field as it
+  was when you could not confirm it — a stale value beats a wrong one.
 - **Append** to `news[]`; never replace the array wholesale. Each story is:
 
 ```json
@@ -215,18 +234,24 @@ python -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].strip().lower().enc
   outlets is one story, so keep the better-sourced one.
 - Sort each `news[]` newest first.
 - **Keep only the newest 3 per team.** Move the rest into that report's archive —
-  `steve.json` overflows to `steve_archive.json`, `kat.json` to `kat_archive.json` —
-  with `teamId` set, newest first, capped at 500 items total.
+  `steve_live.json` overflows to `steve_archive.json`, `kat_live.json` to
+  `kat_archive.json` — with `teamId` set, newest first, capped at 500 items total.
 
-Set `meta.updated` in **all four** files to today's date, `YYYY-MM-DD`.
+Set `updated` in both live files and `meta.updated` in both archives to today's
+date, `YYYY-MM-DD`.
 
 Validate before you finish:
 
 ```bash
-python -c "import json;[json.load(open(f,encoding='utf-8')) for f in ['steve.json','steve_archive.json','kat.json','kat_archive.json']];print('JSON OK')"
+python -c "import json;[json.load(open(f,encoding='utf-8')) for f in ['steve_live.json','steve_archive.json','kat_live.json','kat_archive.json']];print('JSON OK')"
+
+# Nothing permanent may have moved:
+git status --porcelain steve.json kat.json
 ```
 
-If validation fails, restore from the `.bak` copies and try again.
+If validation fails, restore from the `.bak` copies and try again. If
+`git status` shows `steve.json` or `kat.json` as modified, you edited a file you do
+not own — `git checkout -- steve.json kat.json` and carry on.
 
 ---
 
@@ -247,6 +272,7 @@ Do not paste the JSON back into the conversation. The files are the output.
 ## If you have no file access
 
 Running on claude.ai or anywhere without tools, do steps 2 and 3 from the web, then
-return **the complete updated `steve.json`** in one fenced block and **`kat.json`** in
-another, for the user to paste over the files, followed by any archived stories. Same rules apply —
+return **the complete updated `steve_live.json`** in one fenced block and
+**`kat_live.json`** in another, for the user to paste over those files, followed by
+any archived stories. Never hand back `steve.json` or `kat.json`. Same rules apply —
 still 3 stories per team, still newest first, still no invented facts.

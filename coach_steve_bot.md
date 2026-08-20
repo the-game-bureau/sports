@@ -8,8 +8,8 @@ a short attention span. He should never have to click to find something out. Eve
 story is short, plain, and finished in two sentences.
 
 **What it is.** A Claude routine — no scripts to run, no files to merge by hand.
-Claude fetches the scores, researches the news, and writes `steve.json` and
-`steve_archive.json` itself. The full instructions live in
+Claude fetches the scores, researches the news, and writes the live and archive files
+itself. The full instructions live in
 [.claude/commands/coach-steve-bot.md](.claude/commands/coach-steve-bot.md); this page
 is the summary.
 
@@ -37,6 +37,23 @@ over the file.
 
 ---
 
+## Two kinds of file
+
+The data is split so the routine physically cannot clobber your work.
+
+| File | Holds | Who writes it |
+| --- | --- | --- |
+| `steve.json`, `kat.json` | Teams, colors, logos, links, photos, hand-entered events | **You, by hand.** The routine only reads these. |
+| `steve_live.json`, `kat_live.json` | Records, next games, last results, stories | The routine, every run |
+| `steve_archive.json`, `kat_archive.json` | Stories that rolled off the front | The routine, every run |
+
+The pages merge a report's two files at read time. Anything you set by hand — a
+podcast button, a photo, an open practice — lives in a file the routine never opens
+for writing, so a bad run cannot take it away.
+
+This came from a real loss: an early run rebuilt a team object while writing news and
+dropped The Current Radio Show from Kat's Tulane card.
+
 ## What it writes
 
 Both reports run in one pass. Steve follows the Saints, Florida, Tulane, Texas, IUP,
@@ -55,8 +72,8 @@ Newest 3 stories per team stay on the report. Older ones move to that report's a
 — `steve_archive.json` behind [steve_archive.html](steve_archive.html), `kat_archive.json`
 behind [kat_archive.html](kat_archive.html).
 
-Every run writes a `.bak` beside each of the four data files first, so a bad run is one
-file rename away from undone.
+Every run writes a `.bak` beside each file it touches, so a bad run is one file rename
+away from undone.
 
 ---
 
