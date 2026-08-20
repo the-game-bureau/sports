@@ -63,7 +63,7 @@ Shared teams are researched once and written into every feed that carries them.
 | Field | Where it comes from |
 | --- | --- |
 | `record` | ESPN team endpoint |
-| `nextGame` | ESPN schedule — first game not yet played, in New Orleans time |
+| `nextGame` | ESPN schedule — first game not yet played, with ESPN's UTC stamp; the page converts it to New Orleans time on every load and labels it CT |
 | `lastGame` | ESPN schedule — most recent completed game, with the score |
 | `news[]` | Web research, **appended**, deduped by URL + headline |
 | `meta.updated` | Today |

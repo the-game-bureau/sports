@@ -1215,7 +1215,8 @@
         var when = [];
         if (d) { when.push(longDate(d)); }
         var clock = [g.time, g.endTime].filter(Boolean).join(' – ');
-        if (clock) { when.push(clock); }
+        // Say the zone out loud, so nobody wonders whose clock this is.
+        if (clock) { when.push(clock + ' CT'); }
         if (when.length) { wrap.appendChild(el('div', 'when-line', when.join(' at '))); }
 
         var where = [g.venue, g.city].filter(Boolean).join(' — ');
@@ -1231,7 +1232,7 @@
             if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
             var text = el('div');
             text.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
-            var sub = [g.tv.note, g.time ? 'Starts at ' + g.time : ''].filter(Boolean).join(' · ');
+            var sub = [g.tv.note, g.time ? 'Starts at ' + g.time + ' CT' : ''].filter(Boolean).join(' · ');
             text.appendChild(el('div', 'watch-sub', sub || 'Check your TV guide'));
             watch.appendChild(text);
             wrap.appendChild(watch);
@@ -1537,13 +1538,55 @@
     // teams, colors, links, photos, hand-entered events — and the routine never
     // writes to it. kat_live.json holds what the routine rewrites twice a day:
     // records, schedules, results, stories. Merged here, at read time.
+    // Everyone reads this in New Orleans, so a kickoff is shown on a New Orleans
+    // clock. When the feed carries the UTC stamp, the page works the time out
+    // itself rather than trusting whatever was typed into `time`.
+    function nthSundayUTC(year, month, nth, hourUTC) {
+        var d = new Date(Date.UTC(year, month - 1, 1));
+        d.setUTCDate(1 + ((7 - d.getUTCDay()) % 7) + (nth - 1) * 7);
+        d.setUTCHours(hourUTC);
+        return d.getTime();
+    }
+
+    function centralOffset(ms) {
+        var year = new Date(ms).getUTCFullYear();
+        var start = nthSundayUTC(year, 3, 2, 7);    // 2am ET, second Sunday in March
+        var end = nthSundayUTC(year, 11, 1, 6);     // 2am ET, first Sunday in November
+        return (ms >= start && ms < end) ? 5 : 6;   // CDT : CST
+    }
+
+    function centralFrom(utc) {
+        var m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(String(utc || ''));
+        if (!m) { return null; }
+        var ms = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+        var shifted = new Date(ms - centralOffset(ms) * 3600000);
+        var hour = shifted.getUTCHours() % 12 || 12;
+        var minute = ('0' + shifted.getUTCMinutes()).slice(-2);
+        return {
+            date: shifted.getUTCFullYear() + '-' +
+                  ('0' + (shifted.getUTCMonth() + 1)).slice(-2) + '-' +
+                  ('0' + shifted.getUTCDate()).slice(-2),
+            time: hour + ':' + minute + ' ' + (shifted.getUTCHours() < 12 ? 'AM' : 'PM')
+        };
+    }
+
+    function toCentral(game) {
+        if (!game || !game.utc) { return game; }
+        var ct = centralFrom(game.utc);
+        if (ct) {
+            game.date = ct.date;
+            game.time = ct.time;
+        }
+        return game;
+    }
+
     function merge(config, live) {
         var slots = (live && live.teams) || {};
         (config.teams || []).forEach(function (team) {
             var slot = slots[team.id] || {};
             team.record = slot.record;
-            team.nextGame = slot.nextGame;
-            team.lastGame = slot.lastGame;
+            team.nextGame = toCentral(slot.nextGame);
+            team.lastGame = toCentral(slot.lastGame);
             team.news = slot.news || [];
         });
         config.meta = config.meta || {};

@@ -271,13 +271,30 @@ PY
 time is the time on *their* clock, not the venue's. A Saints game kicking off at
 1:00 PM at SoFi Stadium goes on the page as **3:00 PM**.
 
-ESPN gives UTC (`2026-08-19T22:35Z`). Convert to **US Central**: UTC−5 during
-daylight time, UTC−6 otherwise. Daylight time runs from the second Sunday in March
-to the first Sunday in November. Write the result as `"date": "YYYY-MM-DD"` and
-`"time": "6:35 PM"`.
+**Always carry `utc` on a game you take from ESPN**, exactly as ESPN gives it:
 
-The `date` is the New Orleans date too. A West Coast night game can land a day
-earlier for them than the venue's own listing suggests — use the Central date.
+```json
+"nextGame": {
+  "homeAway": "away",
+  "opponent": "Los Angeles Rams",
+  "date": "2026-08-22",
+  "utc": "2026-08-22T20:00Z",
+  "time": "3:00 PM"
+}
+```
+
+The page recomputes `date` and `time` from `utc` on every load and shows the result
+with a **CT** label, so a slip in the conversion cannot reach the reader. Fill in
+`date` and `time` anyway — a hand-entered game with no ESPN stamp, like an IUP match
+or an open practice, has no `utc` and the page shows what you wrote.
+
+To work them out yourself: **US Central** is UTC−5 during daylight time, UTC−6
+otherwise, with daylight time running from the second Sunday in March to the first
+Sunday in November.
+
+**The date follows the clock.** A West Coast night game at `2026-09-06T02:30Z` is
+**September 5, 9:30 PM** in New Orleans — a day earlier than the venue's own listing.
+Use the Central date, or the countdown counts to the wrong day.
 
 Teams with `"espn": null` — **IUP Crimson Hawks**, which ESPN does not carry because
 it is Division II — get their schedule and results from research in the next step.
