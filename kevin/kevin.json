@@ -39,15 +39,15 @@
         "shortName": "Yahoo Pick'em",
         "tagline": "Pick the winners each week against the group.",
         "ball": "🏈",
-        "logo": "",
-        "banner": "",
+        "logo": "images/yahoo_icon.png",
+        "banner": "images/yahoo_logo_web.jpg",
         "url": "https://football.fantasysports.yahoo.com/pickem/3571/13",
         "buttonLabel": "Open Pick'em",
         "colors": {
           "primary": "#5F01D1",
           "secondary": "#7E1FFF",
           "accent": "#7E1FFF",
-          "banner": "#232A31",
+          "banner": "#602AD2",
           "light": "#EFE6FA"
         }
       }
