@@ -3,7 +3,24 @@
     "title": "Kat's Sports Report",
     "byline": "by Kevin Kolb",
     "season": "2026",
-    "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Coach Steve Bot never writes to this file — scores and news live in kat_live.json."
+    "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Coach Steve Bot never writes to this file — scores and news live in kat_live.json.",
+    "photos": [
+      {
+        "src": "images/kat_saints_too_web.jpg",
+        "full": "images/kat_saints_too_web.jpg",
+        "alt": "Kat in the Superdome"
+      },
+      {
+        "src": "images/katopus_web.jpg",
+        "full": "images/katopus_web.jpg",
+        "alt": "Katopus"
+      },
+      {
+        "src": "images/kat_tu_cookies_web.jpg",
+        "full": "images/kat_tu_cookies_web.jpg",
+        "alt": "Tulane cookies"
+      }
+    ]
   },
   "teams": [
     {

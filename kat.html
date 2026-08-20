@@ -585,15 +585,61 @@
 
         .refresh-btn .refresh-label { display: block; }
 
-        .footer-photo {
-            display: block;
-            cursor: pointer;
-            width: 100%;
-            max-width: 420px;   /* portrait shot — full width would eat the screen */
-            height: auto;
-            margin: 28px auto 0;
+        /* Photo carousel. Native scroll-snap does the swiping, so it feels
+           right on a phone with no gesture code of our own. */
+        .carousel { margin-top: 28px; }
+
+        .slides {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
             border-radius: 4px;
         }
+
+        .slides::-webkit-scrollbar { display: none; }
+
+        .slide {
+            flex: 0 0 100%;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+            scroll-snap-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Big targets: he can tap a dot instead of swiping if that is easier. */
+        .dots {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .dot {
+            width: 44px;
+            height: 44px;
+            padding: 0;
+            border: none;
+            background: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dot::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #555;
+            transition: background 0.15s, transform 0.15s;
+        }
+
+        .dot.on::after { background: #fff; transform: scale(1.35); }
 
         .updated {
             text-align: center;
@@ -709,7 +755,7 @@
 
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
-            .team-navigation, .refresh-btn, .updated, .footer-photo, .lightbox,
+            .team-navigation, .refresh-btn, .updated, .carousel, .lightbox,
             .archive-btn { display: none !important; }
             .header-photo { width: 34px; height: 34px; }
             .header-top { gap: 8px; margin-bottom: 6px; }
@@ -857,8 +903,10 @@
 
         <a class="archive-btn" href="kat_archive.html">Archived Posts &rarr;</a>
 
-        <img class="footer-photo" id="footerPhoto" src="images/kat_saints_too_web.jpg"
-             alt="Kat — tap to see it bigger" role="button" tabindex="0" loading="lazy">
+        <div class="carousel" id="carousel" hidden>
+            <div class="slides" id="slides"></div>
+            <div class="dots" id="dots"></div>
+        </div>
         <button class="refresh-btn" id="refreshBtn">
             <span class="countdown" id="countdown"></span>
             <span class="refresh-label">🔄 Tap to Refresh</span>
@@ -1271,6 +1319,11 @@
         if (updated) {
             document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
         }
+
+        if (!carousel.dataset.built) {
+            buildCarousel(meta.photos);
+            carousel.dataset.built = '1';
+        }
     }
 
     function showError() {
@@ -1375,7 +1428,58 @@
     }
 
     wireLightbox(headerPhoto, 'images/kat_merry_web.jpg', 'Kat');
-    wireLightbox(document.getElementById('footerPhoto'), 'images/kat_saints_too_web.jpg', 'Kat');
+
+    // ---------- photo carousel ----------
+    // Photos come from meta.photos in kat.json — hand-set, like everything
+    // else in that file.
+    var carousel = document.getElementById('carousel');
+    var slidesEl = document.getElementById('slides');
+    var dotsEl = document.getElementById('dots');
+
+    function buildCarousel(photos) {
+        if (!photos || !photos.length) { return; }
+
+        slidesEl.textContent = '';
+        dotsEl.textContent = '';
+
+        photos.forEach(function (photo, i) {
+            var slide = new Image();
+            slide.className = 'slide';
+            slide.src = photo.src;
+            slide.alt = (photo.alt || '') + ' — tap to see it bigger';
+            slide.setAttribute('role', 'button');
+            slide.tabIndex = 0;
+            if (i) { slide.loading = 'lazy'; }
+            wireLightbox(slide, photo.full || photo.src, photo.alt || '');
+            slidesEl.appendChild(slide);
+
+            var dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'dot' + (i ? '' : ' on');
+            dot.setAttribute('aria-label', 'Photo ' + (i + 1) + ' of ' + photos.length);
+            dot.addEventListener('click', function () {
+                slidesEl.scrollTo({ left: slidesEl.clientWidth * i, behavior: 'smooth' });
+            });
+            dotsEl.appendChild(dot);
+        });
+
+        // Follow the swipe: light up whichever photo is centred.
+        var pending = null;
+        slidesEl.addEventListener('scroll', function () {
+            if (pending) { return; }
+            pending = requestAnimationFrame(function () {
+                pending = null;
+                var i = Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
+                var dots = dotsEl.children;
+                for (var n = 0; n < dots.length; n++) {
+                    dots[n].classList.toggle('on', n === i);
+                }
+            });
+        });
+
+        carousel.hidden = photos.length === 0;
+        dotsEl.style.display = photos.length > 1 ? 'flex' : 'none';
+    }
 
     lightbox.addEventListener('click', closeLightbox);
 
