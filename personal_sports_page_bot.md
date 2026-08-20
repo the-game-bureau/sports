@@ -97,9 +97,14 @@ away from undone.
   conference controls it — Tulane at Duke is an ACC game — and the brief carries a
   conference-to-channel table for narrowing it down. A local listing always wins
   over that table.
+- **ESPN Unlimited comes with their YouTube TV.** Since July 2026 a plan with ESPN
+  includes it at no extra cost, which covers what ESPN+ used to carry — SECN+ and
+  ACC Network Extra included. Those games play in the ESPN app, not the YouTube TV
+  guide, so the page says so.
 - **Say when they cannot watch it.** YouTube TV carries almost no regional sports
   networks, so an Orioles game on MASN gets "Not on YouTube TV — stream on MLB.TV"
-  rather than a channel they will never find.
+  rather than a channel they will never find. Peacock, Paramount+, Fox One and
+  HBO Max are outside their subscription too.
 
 ---
 

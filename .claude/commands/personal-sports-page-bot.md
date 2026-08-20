@@ -200,10 +200,19 @@ From those responses take:
   | Big 12 | ABC, ESPN, Fox, TNT | ESPN2, ESPNU, ESPN+, FS1 |
 
   YouTube TV carries the linear ones — ABC, CBS, NBC, Fox, ESPN, ESPN2, ESPNU, SEC
-  Network, ACC Network, Big Ten Network, FS1, CBSSN, TNT, The CW. It does **not**
-  include the streaming-only tiers: **ESPN+, SECN+, ACC Network Extra, Peacock,
-  Paramount+, Fox One, HBO Max**. A game on one of those gets the
-  "Not on YouTube TV" treatment above.
+  Network, ACC Network, Big Ten Network, FS1, CBSSN, TNT, The CW.
+
+  **ESPN's streaming tier comes with it.** Since July 2026, a YouTube TV plan that
+  includes ESPN also includes **ESPN Unlimited** at no extra cost — the service that
+  absorbed ESPN+ — so games on **ESPN+ / ESPN Select, SECN+ and ACC Network Extra**
+  are watchable. It is a one-time hookup in YouTube TV under Settings → Sports →
+  Connect ESPN, and those games play in the ESPN app rather than the YouTube TV
+  guide. Write `"note": "On ESPN Unlimited (comes with YouTube TV)"` for those, so
+  nobody looks for them in the channel list.
+
+  Still outside their subscription: **Peacock, Paramount+, Fox One, HBO Max**, and
+  regional sports networks like MASN. Those get the "Not on YouTube TV" treatment
+  above.
 
   **A local listing always wins.** If the team's own how-to-watch page, or a New
   Orleans station's schedule, names a channel, use it and ignore the conference
