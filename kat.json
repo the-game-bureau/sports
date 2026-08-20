@@ -306,7 +306,12 @@
         "league": "college-football",
         "teamId": "2655"
       },
-      "person": null,
+      "person": {
+        "name": "At the Tulane game",
+        "photo": "images/kat_tu_badge.jpg",
+        "caption": "Tulane",
+        "lightbox": "images/kat_tu_web.jpg"
+      },
       "record": "0-0",
       "newsFocus": "Head coach and staff news, AAC standings, quarterback play, game results.",
       "newsPriority": 2,
