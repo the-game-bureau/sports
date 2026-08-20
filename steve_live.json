@@ -225,6 +225,15 @@
           "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
         },
         {
+          "id": "1165bca24dc2",
+          "teamId": "yankees",
+          "headline": "Yankees edge Orioles in third straight win",
+          "summary": "New York beat Baltimore 5-3 on Wednesday, helped by a controversial call that went the Yankees' way and a home run from Ben Rice. It was the Yankees' third win over the Orioles in a row.",
+          "date": "2026-08-19",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
+        },
+        {
           "id": "89fd83b6badc",
           "teamId": "yankees",
           "headline": "Max Fried back on IL with elbow bone bruise",
@@ -232,15 +241,6 @@
           "date": "2026-08-18",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/max-fried-bone-bruise-left-elbow"
-        },
-        {
-          "id": "ddb336f99b8c",
-          "teamId": "yankees",
-          "headline": "Aaron Judge begins hitting progression",
-          "summary": "Judge will start hitting this week as he works back from the rib fracture that has kept him out since early June. The Yankees are hopeful he can return to the lineup in September.",
-          "date": "2026-08-18",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-08-18/aaron-judge-rib-to-start-hitting-progression"
         }
       ]
     },

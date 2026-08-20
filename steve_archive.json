@@ -5,5 +5,15 @@
     "updated": "2026-08-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
-  "items": []
+  "items": [
+    {
+      "id": "ddb336f99b8c",
+      "teamId": "yankees",
+      "headline": "Aaron Judge begins hitting progression",
+      "summary": "Judge will start hitting this week as he works back from the rib fracture that has kept him out since early June. The Yankees are hopeful he can return to the lineup in September.",
+      "date": "2026-08-18",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-08-18/aaron-judge-rib-to-start-hitting-progression"
+    }
+  ]
 }
