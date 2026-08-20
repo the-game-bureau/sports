@@ -600,46 +600,54 @@
 
         .slides::-webkit-scrollbar { display: none; }
 
+        /* A square frame fits both the portrait and landscape shots, and
+           `contain` shows each one whole — no cropped faces. */
         .slide {
             flex: 0 0 100%;
             width: 100%;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            background: #000;
             scroll-snap-align: center;
             border-radius: 4px;
             cursor: pointer;
         }
 
-        /* Big targets: he can tap a dot instead of swiping if that is easier. */
-        .dots {
-            display: flex;
-            justify-content: center;
-            gap: 6px;
-            margin-top: 10px;
-        }
-
-        .dot {
-            width: 44px;
-            height: 44px;
-            padding: 0;
-            border: none;
-            background: none;
-            cursor: pointer;
+        /* Arrows, not a row of dots: there are too many photos for dots to
+           stay tappable, and these say plainly which way you are going. */
+        .carousel-nav {
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: 12px;
+            margin-top: 10px;
         }
 
-        .dot::after {
-            content: '';
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #555;
-            transition: background 0.15s, transform 0.15s;
+        .carousel-nav button {
+            width: 64px;
+            height: 56px;
+            border: none;
+            border-radius: 4px;
+            background: #2a2a2a;
+            color: #fff;
+            font: inherit;
+            font-size: 1.4rem;
+            font-weight: 800;
+            line-height: 1;
+            cursor: pointer;
         }
 
-        .dot.on::after { background: #fff; transform: scale(1.35); }
+        .carousel-nav button:active { background: #555; }
+
+        .carousel-count {
+            min-width: 96px;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
 
         .updated {
             text-align: center;
@@ -905,7 +913,11 @@
 
         <div class="carousel" id="carousel" hidden>
             <div class="slides" id="slides"></div>
-            <div class="dots" id="dots"></div>
+            <div class="carousel-nav" id="carouselNav">
+                <button type="button" id="prevPhoto" aria-label="Previous photo">&larr;</button>
+                <span class="carousel-count" id="photoCount"></span>
+                <button type="button" id="nextPhoto" aria-label="Next photo">&rarr;</button>
+            </div>
         </div>
         <button class="refresh-btn" id="refreshBtn">
             <span class="countdown" id="countdown"></span>
@@ -1434,96 +1446,93 @@
     // else in that file.
     var carousel = document.getElementById('carousel');
     var slidesEl = document.getElementById('slides');
-    var dotsEl = document.getElementById('dots');
+    var countEl = document.getElementById('photoCount');
+
+    var AUTO_MS = 30000;
+    var autoTimer = null;
+    var photoCount = 0;
+
+    function currentSlide() {
+        return Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
+    }
+
+    function goToSlide(i) {
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        slidesEl.scrollTo({
+            left: slidesEl.clientWidth * i,
+            behavior: smooth ? 'smooth' : 'auto'
+        });
+    }
+
+    function step(delta) {
+        if (!photoCount) { return; }
+        goToSlide((currentSlide() + delta + photoCount) % photoCount);
+    }
+
+    function showCount() {
+        if (photoCount) { countEl.textContent = (currentSlide() + 1) + ' of ' + photoCount; }
+    }
+
+    // He can swipe, but he does not have to: the strip moves on by itself
+    // every 30 seconds so every photo gets seen. Any touch of his own
+    // restarts the clock, so it never yanks a photo away mid-look.
+    function restartAuto() {
+        clearInterval(autoTimer);
+        if (photoCount < 2) { return; }
+        autoTimer = setInterval(function () {
+            // Hold still while he is looking at a photo full-size, or while
+            // the page is not on screen at all.
+            if (document.hidden || lightbox.classList.contains('open')) { return; }
+            step(1);
+        }, AUTO_MS);
+    }
 
     function buildCarousel(photos) {
         if (!photos || !photos.length) { return; }
-
+        photoCount = photos.length;
         slidesEl.textContent = '';
-        dotsEl.textContent = '';
 
         photos.forEach(function (photo, i) {
             var slide = new Image();
             slide.className = 'slide';
             slide.src = photo.src;
-            slide.alt = (photo.alt || '') + ' — tap to see it bigger';
+            slide.alt = (photo.alt || 'Photo') + ' — tap to see it bigger';
             slide.setAttribute('role', 'button');
             slide.tabIndex = 0;
             if (i) { slide.loading = 'lazy'; }
             wireLightbox(slide, photo.full || photo.src, photo.alt || '');
             slidesEl.appendChild(slide);
-
-            var dot = document.createElement('button');
-            dot.type = 'button';
-            dot.className = 'dot' + (i ? '' : ' on');
-            dot.setAttribute('aria-label', 'Photo ' + (i + 1) + ' of ' + photos.length);
-            dot.addEventListener('click', function () {
-                slidesEl.scrollTo({ left: slidesEl.clientWidth * i, behavior: 'smooth' });
-            });
-            dotsEl.appendChild(dot);
         });
 
-        // Follow the swipe: light up whichever photo is centred.
         var pending = null;
         slidesEl.addEventListener('scroll', function () {
             if (pending) { return; }
             pending = requestAnimationFrame(function () {
                 pending = null;
-                var i = Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
-                var dots = dotsEl.children;
-                for (var n = 0; n < dots.length; n++) {
-                    dots[n].classList.toggle('on', n === i);
-                }
+                showCount();
             });
+        }, { passive: true });
+
+        document.getElementById('prevPhoto').addEventListener('click', function () {
+            step(-1);
+            restartAuto();
+        });
+        document.getElementById('nextPhoto').addEventListener('click', function () {
+            step(1);
+            restartAuto();
         });
 
-        carousel.hidden = photos.length === 0;
-        dotsEl.style.display = photos.length > 1 ? 'flex' : 'none';
-
-        // He can swipe, but he does not have to: the strip moves on by itself
-        // every 30 seconds so every photo gets seen. Any touch of his own
-        // restarts the clock, so it never yanks a photo away mid-look.
-        if (photos.length > 1) { startAutoAdvance(photos.length); }
-    }
-
-    var AUTO_MS = 30000;
-    var autoTimer = null;
-
-    function advance(count) {
-        var i = Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
-        var next = (i + 1) % count;
-        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        slidesEl.scrollTo({
-            left: slidesEl.clientWidth * next,
-            behavior: smooth ? 'smooth' : 'auto'
-        });
-    }
-
-    function startAutoAdvance(count) {
-        function restart() {
-            clearInterval(autoTimer);
-            autoTimer = setInterval(function () {
-                // Hold still while he is looking at a photo full-size, or
-                // while the page is not on screen at all.
-                if (document.hidden || lightbox.classList.contains('open')) { return; }
-                advance(count);
-            }, AUTO_MS);
-        }
-
-        restart();
-
-        // Touching it hands control back to him for another 30 seconds.
         ['touchstart', 'pointerdown', 'keydown'].forEach(function (evt) {
-            carousel.addEventListener(evt, restart, { passive: true });
+            carousel.addEventListener(evt, restartAuto, { passive: true });
         });
-        slidesEl.addEventListener('scroll', restart, { passive: true });
+        slidesEl.addEventListener('scroll', restartAuto, { passive: true });
+
+        document.getElementById('carouselNav').style.display =
+            photos.length > 1 ? 'flex' : 'none';
+        carousel.hidden = false;
+        showCount();
+        restartAuto();
     }
-
-    lightbox.addEventListener('click', closeLightbox);
-
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && lightbox.classList.contains('open')) { closeLightbox(); }
-    });
 
     load(showError);
     tick();
