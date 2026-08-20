@@ -5,16 +5,21 @@
     "season": "2026",
     "league": {
       "label": "Fantasy Football",
-      "name": "The Game Bureau",
+      "name": "Law & Order: Special Victory Unit",
+      "shortName": "Law & Order",
+      "tagline": "In the NFL justice system, the people are represented by two separate yet equally important groups: those who win, and those who lose. These are their stories.",
       "player": "katnola",
       "ball": "🏈",
+      "logo": "images/ff_icon.png",
+      "banner": "images/ff_logo_web.jpg",
       "url": "https://thegamebureau.com/ff",
       "buttonLabel": "Open My League",
       "colors": {
-        "primary": "#0F766E",
-        "secondary": "#F5B700",
-        "banner": "#0F766E",
-        "light": "#CFE3E1"
+        "primary": "#0033CC",
+        "secondary": "#E10600",
+        "accent": "#FFD400",
+        "banner": "#000000",
+        "light": "#F4F1E8"
       }
     },
     "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Coach Steve Bot never writes to this file — scores and news live in kat_live.json.",

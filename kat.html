@@ -542,11 +542,25 @@
             margin-top: 32px;
         }
 
-        .league .sport-label { background: var(--league-color, #0F766E); }
+        .league .sport-label { background: var(--league-banner, #000); }
+
+        .league-banner {
+            display: block;
+            width: 100%;
+            background: var(--league-banner, #000);
+        }
 
         .league-body {
             padding: 18px 16px 20px;
             background: var(--league-light, #f2f2f2);
+        }
+
+        .league-tagline {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #444;
+            margin-top: 8px;
+            line-height: 1.35;
         }
 
         .league-name {
@@ -1357,14 +1371,22 @@
 
         var colors = league.colors || {};
         var card = el('div', 'league');
-        card.style.setProperty('--league-color', colors.primary || '#0F766E');
-        card.style.setProperty('--league-accent', colors.secondary || colors.primary || '#0F766E');
+        card.id = 'league-card';
+        card.style.setProperty('--league-color', colors.primary || '#111');
+        card.style.setProperty('--league-accent', colors.accent || colors.secondary || '#111');
+        card.style.setProperty('--league-banner', colors.banner || colors.primary || '#111');
         card.style.setProperty('--league-light', colors.light || '#f2f2f2');
 
         var label = el('div', 'sport-label');
         label.appendChild(el('span', 'ball', league.ball || '🏈'));
         label.appendChild(el('span', null, league.label || 'Fantasy Football'));
         card.appendChild(label);
+
+        if (league.banner) {
+            var banner = img(league.banner, league.name || '');
+            banner.className = 'league-banner';
+            card.appendChild(banner);
+        }
 
         var body = el('div', 'league-body');
         body.appendChild(el('div', 'league-name', league.name || ''));
@@ -1374,6 +1396,7 @@
             line.appendChild(el('span', 'handle', league.player));
             body.appendChild(line);
         }
+        if (league.tagline) { body.appendChild(el('div', 'league-tagline', league.tagline)); }
         card.appendChild(body);
 
         var go = el('a', 'action-btn', league.buttonLabel || 'Open My League');
@@ -1381,6 +1404,16 @@
         card.appendChild(go);
 
         host.appendChild(card);
+    }
+
+    // Same shape as a team button, pointing at the league block.
+    function buildLeagueNavIcon(league) {
+        var a = el('a', 'nav-team-icon');
+        a.href = '#league-card';
+        a.setAttribute('aria-label', league.shortName || league.name || 'Fantasy Football');
+        a.style.setProperty('--team-color', (league.colors || {}).banner || '#111');
+        a.appendChild(img(league.logo || league.banner, ''));
+        return a;
     }
 
     function buildNavIcon(team) {
@@ -1423,6 +1456,9 @@
         }
 
         buildLeague(meta.league);
+        if (meta.league && meta.league.url) {
+            navEl.appendChild(buildLeagueNavIcon(meta.league));
+        }
 
         if (!carousel.dataset.built) {
             buildCarousel(meta.photos);
