@@ -1441,6 +1441,14 @@
 
     wireLightbox(headerPhoto, 'images/kat_merry_web.jpg', 'Kat');
 
+    // Tap anywhere on the backdrop — including the Close button and the photo
+    // itself — or press Escape.
+    lightbox.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) { closeLightbox(); }
+    });
+
     // ---------- photo carousel ----------
     // Photos come from meta.photos in kat.json — hand-set, like everything
     // else in that file.
