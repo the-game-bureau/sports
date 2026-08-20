@@ -909,7 +909,7 @@
             <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <a class="archive-btn" href="kat_archive.html">Archived Posts &rarr;</a>
+        <a class="archive-btn" href="kat/kat_archive.html">Archived Posts &rarr;</a>
 
         <div class="carousel" id="carousel" hidden>
             <div class="slides" id="slides"></div>
@@ -1342,7 +1342,7 @@
         teamsEl.textContent = '';
         var box = el('div', 'message', "Today's report could not be loaded.");
         box.appendChild(el('small', null,
-            'kat.json did not load. If you opened this file directly, serve the folder instead ' +
+            'kat/kat.json did not load. If you opened this file directly, serve the folder instead ' +
             '(for example: python -m http.server) and reload.'));
         teamsEl.appendChild(box);
     }
@@ -1383,10 +1383,10 @@
     function load(onError) {
         nextRefreshAt = Date.now() + REFRESH_MS;
         return Promise.all([
-            get('kat.json'),
+            get('kat/kat.json'),
             // A missing live file still gives a readable page: teams and links
             // show, with no scores yet.
-            get('kat_live.json').catch(function () { return { teams: {} }; })
+            get('kat/kat_live.json').catch(function () { return { teams: {} }; })
         ])
             .then(function (r) { render(merge(r[0], r[1])); })
             .catch(function (err) { if (onError) { onError(err); } });

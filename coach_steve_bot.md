@@ -43,9 +43,9 @@ The data is split so the routine physically cannot clobber your work.
 
 | File | Holds | Who writes it |
 | --- | --- | --- |
-| `steve.json`, `kat.json` | Teams, colors, logos, links, photos, hand-entered events | **You, by hand.** The routine only reads these. |
-| `steve_live.json`, `kat_live.json` | Records, next games, last results, stories | The routine, every run |
-| `steve_archive.json`, `kat_archive.json` | Stories that rolled off the front | The routine, every run |
+| `steve.json`, `kat/kat.json` | Teams, colors, logos, links, photos, hand-entered events | **You, by hand.** The routine only reads these. |
+| `steve_live.json`, `kat/kat_live.json` | Records, next games, last results, stories | The routine, every run |
+| `steve_archive.json`, `kat/kat_archive.json` | Stories that rolled off the front | The routine, every run |
 
 The pages merge a report's two files at read time. Anything you set by hand — a
 podcast button, a photo, an open practice — lives in a file the routine never opens
@@ -69,8 +69,8 @@ researched once and written into both feeds.
 | `meta.updated` | Today |
 
 Newest 3 stories per team stay on the report. Older ones move to that report's archive
-— `steve_archive.json` behind [steve_archive.html](steve_archive.html), `kat_archive.json`
-behind [kat_archive.html](kat_archive.html).
+— `steve_archive.json` behind [steve_archive.html](steve_archive.html), `kat/kat_archive.json`
+behind [kat/kat_archive.html](kat/kat_archive.html).
 
 Every run writes a `.bak` beside each file it touches, so a bad run is one file rename
 away from undone.
@@ -107,6 +107,6 @@ The routine uses whatever is in `steve.json`; this is the current set.
 | New York Yankees | `yankees` | baseball / mlb / 10 |
 | Texas Longhorns | `texas` | football / college-football / 251 |
 
-To follow a new team, add an entry to `steve.json` or `kat.json` with its `espn` block,
+To follow a new team, add an entry to `steve.json` or `kat/kat.json` with its `espn` block,
 `newsFocus`, and colors. To stop covering one, set `"hidden": true` — [steve.html](steve.html)
 skips hidden teams and the routine leaves them alone.

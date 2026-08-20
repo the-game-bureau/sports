@@ -19,14 +19,14 @@ never the fourth.
 | Reader | Permanent — **read only** | Yours to write | Older stories |
 | --- | --- | --- | --- |
 | Steve | `steve.json` | `steve_live.json` | `steve_archive.json` |
-| Kat | `kat.json` | `kat_live.json` | `kat_archive.json` |
+| Kat | `kat/kat.json` | `kat/kat_live.json` | `kat/kat_archive.json` |
 
-`steve.json` and `kat.json` hold what Kevin sets by hand: teams, colors, logos,
+`steve.json` and `kat/kat.json` hold what Kevin sets by hand: teams, colors, logos,
 links, photos, `newsFocus`, and `extraEvents` like an open practice. **Never write to
 them.** If a link looks wrong or a team needs adding, say so in your report and leave
 the file alone.
 
-`steve_live.json` and `kat_live.json` hold only what you produce, keyed by team id:
+`steve_live.json` and `kat/kat_live.json` hold only what you produce, keyed by team id:
 
 ```json
 {
@@ -57,23 +57,23 @@ its own report, and Steve's archive never holds Kat's stories.
 
 ## Step 1 — Read the feed
 
-Read `steve.json` **and** `kat.json` — read only, they are your assignment lists.
+Read `steve.json` **and** `kat/kat.json` — read only, they are your assignment lists.
 Skip any entry with `"hidden": true`, which is a team that reader is not following
 right now. Each team carries:
 
 - `espn` — `{sport, league, teamId}`, or `null` if ESPN does not carry them
 - `newsFocus` — what this reader cares about for that team
 - `newsPriority` — `1` means cover it first and dig hardest
-Then read `steve_live.json` and `kat_live.json` to see the `record`, `nextGame`,
+Then read `steve_live.json` and `kat/kat_live.json` to see the `record`, `nextGame`,
 `lastGame`, and `news[]` you wrote last time.
 
-Also read `steve_archive.json` and `kat_archive.json` (their `items` arrays) so you
+Also read `steve_archive.json` and `kat/kat_archive.json` (their `items` arrays) so you
 know which stories have already been retired and do not re-add them to that report.
 
 Back both files up before you change anything:
 
 ```bash
-for f in steve_live steve_archive kat_live kat_archive; do cp "$f.json" "$f.json.bak"; done
+for f in steve_live steve_archive kat/kat_live kat/kat_archive; do cp "$f.json" "$f.json.bak"; done
 ```
 
 ---
@@ -199,10 +199,10 @@ Rules, without exception:
 
 ## Step 4 — Write the live files
 
-Edit `steve_live.json` and `kat_live.json`. Keep the two-space indent. Everything
+Edit `steve_live.json` and `kat/kat_live.json`. Keep the two-space indent. Everything
 below applies to each file separately.
 
-`steve.json` and `kat.json` are not yours. Do not open them for writing, do not stage
+`steve.json` and `kat/kat.json` are not yours. Do not open them for writing, do not stage
 them, do not "tidy" them.
 
 For each team, under `teams.<id>`:
@@ -234,8 +234,8 @@ python -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].strip().lower().enc
   outlets is one story, so keep the better-sourced one.
 - Sort each `news[]` newest first.
 - **Keep only the newest 3 per team.** Move the rest into that report's archive —
-  `steve_live.json` overflows to `steve_archive.json`, `kat_live.json` to
-  `kat_archive.json` — with `teamId` set, newest first, capped at 500 items total.
+  `steve_live.json` overflows to `steve_archive.json`, `kat/kat_live.json` to
+  `kat/kat_archive.json` — with `teamId` set, newest first, capped at 500 items total.
 
 Set `updated` in both live files and `meta.updated` in both archives to today's
 date, `YYYY-MM-DD`.
@@ -243,15 +243,15 @@ date, `YYYY-MM-DD`.
 Validate before you finish:
 
 ```bash
-python -c "import json;[json.load(open(f,encoding='utf-8')) for f in ['steve_live.json','steve_archive.json','kat_live.json','kat_archive.json']];print('JSON OK')"
+python -c "import json;[json.load(open(f,encoding='utf-8')) for f in ['steve_live.json','steve_archive.json','kat/kat_live.json','kat/kat_archive.json']];print('JSON OK')"
 
 # Nothing permanent may have moved:
-git status --porcelain steve.json kat.json
+git status --porcelain steve.json kat/kat.json
 ```
 
 If validation fails, restore from the `.bak` copies and try again. If
-`git status` shows `steve.json` or `kat.json` as modified, you edited a file you do
-not own — `git checkout -- steve.json kat.json` and carry on.
+`git status` shows `steve.json` or `kat/kat.json` as modified, you edited a file you do
+not own — `git checkout -- steve.json kat/kat.json` and carry on.
 
 ---
 
@@ -273,6 +273,6 @@ Do not paste the JSON back into the conversation. The files are the output.
 
 Running on claude.ai or anywhere without tools, do steps 2 and 3 from the web, then
 return **the complete updated `steve_live.json`** in one fenced block and
-**`kat_live.json`** in another, for the user to paste over those files, followed by
-any archived stories. Never hand back `steve.json` or `kat.json`. Same rules apply —
+**`kat/kat_live.json`** in another, for the user to paste over those files, followed by
+any archived stories. Never hand back `steve.json` or `kat/kat.json`. Same rules apply —
 still 3 stories per team, still newest first, still no invented facts.
