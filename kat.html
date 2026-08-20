@@ -532,6 +532,57 @@
             background: #fff;
         }
 
+        /* Not a team — her fantasy league gets its own block, in its own
+           colors, so it never reads as a fifth team card. */
+        .league {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 7px solid var(--league-accent, #0F766E);
+            margin-top: 32px;
+        }
+
+        .league .sport-label { background: var(--league-color, #0F766E); }
+
+        .league-body {
+            padding: 18px 16px 20px;
+            background: var(--league-light, #f2f2f2);
+        }
+
+        .league-name {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+
+        .league-player {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333;
+            margin-top: 6px;
+        }
+
+        .league-player .handle {
+            display: inline-block;
+            background: var(--league-color, #0F766E);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 3px;
+            letter-spacing: 0.04em;
+        }
+
+        .league .action-btn {
+            background: var(--league-color, #0F766E);
+            color: #fff;
+            border-top: 2px solid #ccc;
+        }
+
+        .league .action-btn:hover,
+        .league .action-btn:focus { background: #111; color: #fff; }
+
         .archive-btn {
             display: flex;
             align-items: center;
@@ -765,6 +816,10 @@
             .container { max-width: 100%; padding: 0; }
             .team-navigation, .refresh-btn, .updated, .carousel, .lightbox,
             .archive-btn { display: none !important; }
+            .league { break-inside: avoid; margin-top: 8px; }
+            .league-body { padding: 6px 9px 8px; }
+            .league-name { font-size: 11pt; }
+            .league-player { font-size: 8pt; }
             .header-photo { width: 34px; height: 34px; }
             .header-top { gap: 8px; margin-bottom: 6px; }
 
@@ -908,6 +963,8 @@
         <div class="teams-grid" id="teams">
             <div class="message">Loading today's report&hellip;</div>
         </div>
+
+        <div id="league"></div>
 
         <a class="archive-btn" href="kat/kat_archive.html">Archived Posts &rarr;</a>
 
@@ -1293,6 +1350,39 @@
         return card;
     }
 
+    function buildLeague(league) {
+        var host = document.getElementById('league');
+        host.textContent = '';
+        if (!league || !league.url) { return; }
+
+        var colors = league.colors || {};
+        var card = el('div', 'league');
+        card.style.setProperty('--league-color', colors.primary || '#0F766E');
+        card.style.setProperty('--league-accent', colors.secondary || colors.primary || '#0F766E');
+        card.style.setProperty('--league-light', colors.light || '#f2f2f2');
+
+        var label = el('div', 'sport-label');
+        label.appendChild(el('span', 'ball', league.ball || '🏈'));
+        label.appendChild(el('span', null, league.label || 'Fantasy Football'));
+        card.appendChild(label);
+
+        var body = el('div', 'league-body');
+        body.appendChild(el('div', 'league-name', league.name || ''));
+        if (league.player) {
+            var line = el('div', 'league-player');
+            line.appendChild(document.createTextNode('Playing as '));
+            line.appendChild(el('span', 'handle', league.player));
+            body.appendChild(line);
+        }
+        card.appendChild(body);
+
+        var go = el('a', 'action-btn', league.buttonLabel || 'Open My League');
+        go.href = league.url;
+        card.appendChild(go);
+
+        host.appendChild(card);
+    }
+
     function buildNavIcon(team) {
         var a = el('a', 'nav-team-icon');
         a.href = '#' + team.id + '-card';
@@ -1331,6 +1421,8 @@
         if (updated) {
             document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
         }
+
+        buildLeague(meta.league);
 
         if (!carousel.dataset.built) {
             buildCarousel(meta.photos);

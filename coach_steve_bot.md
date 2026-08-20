@@ -32,7 +32,7 @@ report refreshes itself and you just reload the page. `/schedule` sets that up.
 
 **Anywhere without file access** (claude.ai, the phone app): paste the contents of
 [.claude/commands/coach-steve-bot.md](.claude/commands/coach-steve-bot.md) as your
-prompt. Claude will do the research and hand back a complete `steve.json` to paste
+prompt. Claude will do the research and hand back a complete `steve/steve.json` to paste
 over the file.
 
 ---
@@ -43,9 +43,9 @@ The data is split so the routine physically cannot clobber your work.
 
 | File | Holds | Who writes it |
 | --- | --- | --- |
-| `steve.json`, `kat/kat.json` | Teams, colors, logos, links, photos, hand-entered events | **You, by hand.** The routine only reads these. |
-| `steve_live.json`, `kat/kat_live.json` | Records, next games, last results, stories | The routine, every run |
-| `steve_archive.json`, `kat/kat_archive.json` | Stories that rolled off the front | The routine, every run |
+| `steve/steve.json`, `kat/kat.json` | Teams, colors, logos, links, photos, hand-entered events | **You, by hand.** The routine only reads these. |
+| `steve/steve_live.json`, `kat/kat_live.json` | Records, next games, last results, stories | The routine, every run |
+| `steve/steve_archive.json`, `kat/kat_archive.json` | Stories that rolled off the front | The routine, every run |
 
 The pages merge a report's two files at read time. Anything you set by hand — a
 podcast button, a photo, an open practice — lives in a file the routine never opens
@@ -69,7 +69,7 @@ researched once and written into both feeds.
 | `meta.updated` | Today |
 
 Newest 3 stories per team stay on the report. Older ones move to that report's archive
-— `steve_archive.json` behind [steve_archive.html](steve_archive.html), `kat/kat_archive.json`
+— `steve/steve_archive.json` behind [steve/steve_archive.html](steve/steve_archive.html), `kat/kat_archive.json`
 behind [kat/kat_archive.html](kat/kat_archive.html).
 
 Every run writes a `.bak` beside each file it touches, so a bad run is one file rename
@@ -95,7 +95,7 @@ away from undone.
 
 ## Team ids
 
-The routine uses whatever is in `steve.json`; this is the current set.
+The routine uses whatever is in `steve/steve.json`; this is the current set.
 
 | Team | id | ESPN |
 | --- | --- | --- |
@@ -107,6 +107,6 @@ The routine uses whatever is in `steve.json`; this is the current set.
 | New York Yankees | `yankees` | baseball / mlb / 10 |
 | Texas Longhorns | `texas` | football / college-football / 251 |
 
-To follow a new team, add an entry to `steve.json` or `kat/kat.json` with its `espn` block,
+To follow a new team, add an entry to `steve/steve.json` or `kat/kat.json` with its `espn` block,
 `newsFocus`, and colors. To stop covering one, set `"hidden": true` — [steve.html](steve.html)
 skips hidden teams and the routine leaves them alone.

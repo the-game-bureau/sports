@@ -855,7 +855,7 @@
             <div class="message">Loading today's report&hellip;</div>
         </div>
 
-        <a class="archive-btn" href="steve_archive.html">Archived Posts &rarr;</a>
+        <a class="archive-btn" href="steve/steve_archive.html">Archived Posts &rarr;</a>
 
         <img class="footer-photo" id="footerPhoto" src="images/steve_we_web.jpg"
              alt="Steve — tap to see it bigger" role="button" tabindex="0" loading="lazy">
@@ -1277,7 +1277,7 @@
         teamsEl.textContent = '';
         var box = el('div', 'message', "Today's report could not be loaded.");
         box.appendChild(el('small', null,
-            'steve.json did not load. If you opened this file directly, serve the folder instead ' +
+            'steve/steve.json did not load. If you opened this file directly, serve the folder instead ' +
             '(for example: python -m http.server) and reload.'));
         teamsEl.appendChild(box);
     }
@@ -1318,10 +1318,10 @@
     function load(onError) {
         nextRefreshAt = Date.now() + REFRESH_MS;
         return Promise.all([
-            get('steve.json'),
+            get('steve/steve.json'),
             // A missing live file still gives a readable page: teams and links
             // show, with no scores yet.
-            get('steve_live.json').catch(function () { return { teams: {} }; })
+            get('steve/steve_live.json').catch(function () { return { teams: {} }; })
         ])
             .then(function (r) { render(merge(r[0], r[1])); })
             .catch(function (err) { if (onError) { onError(err); } });

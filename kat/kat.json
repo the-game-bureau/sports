@@ -3,6 +3,20 @@
     "title": "Kat's Sports Report",
     "byline": "by Kevin Kolb",
     "season": "2026",
+    "league": {
+      "label": "Fantasy Football",
+      "name": "The Game Bureau",
+      "player": "katnola",
+      "ball": "🏈",
+      "url": "https://thegamebureau.com/ff",
+      "buttonLabel": "Open My League",
+      "colors": {
+        "primary": "#0F766E",
+        "secondary": "#F5B700",
+        "banner": "#0F766E",
+        "light": "#CFE3E1"
+      }
+    },
     "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Coach Steve Bot never writes to this file — scores and news live in kat_live.json.",
     "photos": [
       {
