@@ -81,7 +81,7 @@ away from undone.
 
 - **ESPN 403s a faked user-agent.** It fingerprints the caller, so `curl` must send
   *no* `User-Agent` header at all — its own default passes, while `Mozilla/5.0` or a
-  Chrome string gets denied. This is what broke the old `games.py` path.
+  Chrome string gets denied. This is what broke the old `archive/games.py` path.
 - **`team.nextEvent` can point at a game that already happened.** The routine reads
   the schedule and checks the date, so a past game is never shown as "next."
 - **College schedules come back empty** from the plain call before the season opens;
