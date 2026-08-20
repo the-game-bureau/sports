@@ -1479,6 +1479,44 @@
 
         carousel.hidden = photos.length === 0;
         dotsEl.style.display = photos.length > 1 ? 'flex' : 'none';
+
+        // He can swipe, but he does not have to: the strip moves on by itself
+        // every 30 seconds so every photo gets seen. Any touch of his own
+        // restarts the clock, so it never yanks a photo away mid-look.
+        if (photos.length > 1) { startAutoAdvance(photos.length); }
+    }
+
+    var AUTO_MS = 30000;
+    var autoTimer = null;
+
+    function advance(count) {
+        var i = Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
+        var next = (i + 1) % count;
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        slidesEl.scrollTo({
+            left: slidesEl.clientWidth * next,
+            behavior: smooth ? 'smooth' : 'auto'
+        });
+    }
+
+    function startAutoAdvance(count) {
+        function restart() {
+            clearInterval(autoTimer);
+            autoTimer = setInterval(function () {
+                // Hold still while he is looking at a photo full-size, or
+                // while the page is not on screen at all.
+                if (document.hidden || lightbox.classList.contains('open')) { return; }
+                advance(count);
+            }, AUTO_MS);
+        }
+
+        restart();
+
+        // Touching it hands control back to him for another 30 seconds.
+        ['touchstart', 'pointerdown', 'keydown'].forEach(function (evt) {
+            carousel.addEventListener(evt, restart, { passive: true });
+        });
+        slidesEl.addEventListener('scroll', restart, { passive: true });
     }
 
     lightbox.addEventListener('click', closeLightbox);
