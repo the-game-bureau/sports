@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "89fd83b6badc",
+      "teamId": "yankees",
+      "headline": "Max Fried back on IL with elbow bone bruise",
+      "summary": "The Yankees placed Max Fried on the injured list Monday with the same left elbow bone bruise that cost him two months earlier this season. There is no timetable yet for his return.",
+      "date": "2026-08-18",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/max-fried-bone-bruise-left-elbow"
+    },
+    {
       "id": "ddb336f99b8c",
       "teamId": "yankees",
       "headline": "Aaron Judge begins hitting progression",
