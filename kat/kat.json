@@ -21,7 +21,7 @@
         "light": "#F4F1E8"
       }
     },
-    "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Coach Steve Bot never writes to this file — scores and news live in kat_live.json.",
+    "note": "Permanent settings: teams, colors, links, photos, hand-entered events. Personal Sports Page Bot never writes to this file — scores and news live in kat_live.json.",
     "photos": [
       {
         "src": "images/kat_saints_too_web.jpg",

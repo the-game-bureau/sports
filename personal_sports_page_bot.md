@@ -1,16 +1,16 @@
-# Coach Steve Bot
+# Personal Sports Page Bot
 
 The daily routine behind [Coach Steve's Sports Report](steve.html) and
 [Kat's Sports Report](kat.html).
 
-**Who it's for.** One reader: a man with Alzheimer's disease, reading on a phone, with
-a short attention span. He should never have to click to find something out. Every
+**Who it's for.** Two readers, Steve and Kat, on their phones. Steve has Alzheimer's
+disease and a short attention span, so nothing should need a click to find out. Every
 story is short, plain, and finished in two sentences.
 
 **What it is.** A Claude routine — no scripts to run, no files to merge by hand.
 Claude fetches the scores, researches the news, and writes the live and archive files
 itself. The full instructions live in
-[.claude/commands/coach-steve-bot.md](.claude/commands/coach-steve-bot.md); this page
+[.claude/commands/personal-sports-page-bot.md](.claude/commands/personal-sports-page-bot.md); this page
 is the summary.
 
 ---
@@ -20,7 +20,7 @@ is the summary.
 **In Claude Code:**
 
 ```text
-/coach-steve-bot
+/personal-sports-page-bot
 ```
 
 That's the whole thing. It backs up both JSON files, pulls scores and schedules from
@@ -31,7 +31,7 @@ you what changed.
 report refreshes itself and you just reload the page. `/schedule` sets that up.
 
 **Anywhere without file access** (claude.ai, the phone app): paste the contents of
-[.claude/commands/coach-steve-bot.md](.claude/commands/coach-steve-bot.md) as your
+[.claude/commands/personal-sports-page-bot.md](.claude/commands/personal-sports-page-bot.md) as your
 prompt. Claude will do the research and hand back a complete `steve/steve.json` to paste
 over the file.
 
