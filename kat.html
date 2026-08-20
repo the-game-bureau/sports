@@ -1452,25 +1452,45 @@
     var autoTimer = null;
     var photoCount = 0;
 
-    function currentSlide() {
+    // The strip loops. A copy of the last photo sits before the first and a
+    // copy of the first sits after the last, so going forward off the end
+    // brings photo 1 in from the right instead of rewinding the whole strip.
+    // Once the scroll settles on a copy we jump silently to the real one.
+    function rawSlide() {
         return Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
     }
 
-    function goToSlide(i) {
-        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    // Raw position 0 is the trailing copy, 1..n are the real photos,
+    // n+1 is the leading copy.
+    function realIndex() {
+        var raw = rawSlide();
+        if (raw === 0) { return photoCount - 1; }
+        if (raw === photoCount + 1) { return 0; }
+        return raw - 1;
+    }
+
+    function goToSlide(raw, smooth) {
         slidesEl.scrollTo({
-            left: slidesEl.clientWidth * i,
+            left: slidesEl.clientWidth * raw,
             behavior: smooth ? 'smooth' : 'auto'
         });
     }
 
     function step(delta) {
-        if (!photoCount) { return; }
-        goToSlide((currentSlide() + delta + photoCount) % photoCount);
+        if (photoCount < 2) { return; }
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        goToSlide(rawSlide() + delta, smooth);
     }
 
     function showCount() {
-        if (photoCount) { countEl.textContent = (currentSlide() + 1) + ' of ' + photoCount; }
+        if (photoCount) { countEl.textContent = (realIndex() + 1) + ' of ' + photoCount; }
+    }
+
+    // Silently rewind off a copy once the scroll has come to rest.
+    function normalize() {
+        var raw = rawSlide();
+        if (raw === photoCount + 1) { goToSlide(1, false); }
+        else if (raw === 0) { goToSlide(photoCount, false); }
     }
 
     // He can swipe, but he does not have to: the strip moves on by itself
@@ -1487,30 +1507,55 @@
         }, AUTO_MS);
     }
 
+    function makeSlide(photo, lazy) {
+        var slide = new Image();
+        slide.className = 'slide';
+        slide.src = photo.src;
+        slide.alt = (photo.alt || 'Photo') + ' — tap to see it bigger';
+        slide.setAttribute('role', 'button');
+        slide.tabIndex = 0;
+        if (lazy) { slide.loading = 'lazy'; }
+        wireLightbox(slide, photo.full || photo.src, photo.alt || '');
+        return slide;
+    }
+
     function buildCarousel(photos) {
         if (!photos || !photos.length) { return; }
         photoCount = photos.length;
         slidesEl.textContent = '';
 
-        photos.forEach(function (photo, i) {
-            var slide = new Image();
-            slide.className = 'slide';
-            slide.src = photo.src;
-            slide.alt = (photo.alt || 'Photo') + ' — tap to see it bigger';
-            slide.setAttribute('role', 'button');
-            slide.tabIndex = 0;
-            if (i) { slide.loading = 'lazy'; }
-            wireLightbox(slide, photo.full || photo.src, photo.alt || '');
-            slidesEl.appendChild(slide);
-        });
+        var loop = photos.length > 1;
+        if (loop) { slidesEl.appendChild(makeSlide(photos[photos.length - 1], true)); }
+        photos.forEach(function (photo, i) { slidesEl.appendChild(makeSlide(photo, i > 0)); });
+        if (loop) { slidesEl.appendChild(makeSlide(photos[0], true)); }
 
-        var pending = null;
-        slidesEl.addEventListener('scroll', function () {
-            if (pending) { return; }
-            pending = requestAnimationFrame(function () {
-                pending = null;
+        document.getElementById('carouselNav').style.display = loop ? 'flex' : 'none';
+        carousel.hidden = false;
+
+        // Start on the first real photo, past the trailing copy.
+        if (loop) {
+            requestAnimationFrame(function () {
+                goToSlide(1, false);
                 showCount();
             });
+        }
+
+        var pending = null;
+        var settle = null;
+        slidesEl.addEventListener('scroll', function () {
+            if (!pending) {
+                pending = requestAnimationFrame(function () {
+                    pending = null;
+                    showCount();
+                });
+            }
+            // Wait for the scroll to stop before stepping off a copy, or the
+            // jump would fight the animation.
+            clearTimeout(settle);
+            settle = setTimeout(function () {
+                normalize();
+                showCount();
+            }, 140);
         }, { passive: true });
 
         document.getElementById('prevPhoto').addEventListener('click', function () {
@@ -1527,9 +1572,11 @@
         });
         slidesEl.addEventListener('scroll', restartAuto, { passive: true });
 
-        document.getElementById('carouselNav').style.display =
-            photos.length > 1 ? 'flex' : 'none';
-        carousel.hidden = false;
+        // A rotated phone changes the slide width; keep the same photo centred.
+        window.addEventListener('resize', function () {
+            goToSlide(rawSlide(), false);
+        });
+
         showCount();
         restartAuto();
     }
