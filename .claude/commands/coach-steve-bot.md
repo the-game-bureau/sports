@@ -175,6 +175,17 @@ Rules, without exception:
 Edit `steve.json` and `kat.json` in place. Keep the existing key order and the
 two-space indent. Everything below applies to each file separately.
 
+**Only four fields per team are yours**: `record`, `nextGame`, `lastGame`, and
+`news[]`. Everything else is hand-set by Kevin and must survive your run byte for
+byte — `links`, `person`, `colors`, `extraEvents`, `newsFocus`, `newsPriority`,
+`shortName`, `logo`, `hidden`, `offSeason`. Never rebuild a team object from
+scratch; edit the four fields in place. A single run has already wiped a podcast
+link off a card this way.
+
+Before you commit, prove you did not: compare the link labels and person photos in
+each file against the copy in `git show HEAD:steve.json` and `git show HEAD:kat.json`,
+and restore anything that changed.
+
 For each team:
 
 - Set `record`, `nextGame`, `lastGame` from what you found. Leave a field untouched
