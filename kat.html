@@ -1231,7 +1231,8 @@
             if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
             var text = el('div');
             text.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
-            text.appendChild(el('div', 'watch-sub', g.time ? 'Starts at ' + g.time : 'Check your TV guide'));
+            var sub = [g.tv.note, g.time ? 'Starts at ' + g.time : ''].filter(Boolean).join(' · ');
+            text.appendChild(el('div', 'watch-sub', sub || 'Check your TV guide'));
             watch.appendChild(text);
             wrap.appendChild(watch);
         }

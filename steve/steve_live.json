@@ -8,13 +8,14 @@
         "homeAway": "away",
         "opponent": "Duke Blue Devils",
         "date": "2026-09-05",
-        "time": "3:30 PM",
+        "time": "2:30 PM",
         "venue": "Wallace Wade Stadium",
         "city": "Durham, NC",
         "tv": {
           "name": "ACC Network",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
@@ -45,13 +46,14 @@
         "homeAway": "home",
         "opponent": "Florida Atlantic Owls",
         "date": "2026-09-05",
-        "time": "7:45 PM",
+        "time": "6:45 PM",
         "venue": "Ben Hill Griffin Stadium",
         "city": "Gainesville, FL",
         "tv": {
           "name": "SEC Network",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
@@ -96,8 +98,9 @@
         "city": "Austin, TX",
         "tv": {
           "name": "ESPN",
-          "logo": "",
-          "url": ""
+          "logo": "images/espn.webp",
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
@@ -128,13 +131,14 @@
         "homeAway": "away",
         "opponent": "Los Angeles Rams",
         "date": "2026-08-22",
-        "time": "1:00 PM",
+        "time": "3:00 PM",
         "venue": "SoFi Stadium",
         "city": "Inglewood, CA",
         "tv": {
-          "name": "KCBS-TV",
-          "logo": "",
-          "url": ""
+          "name": "Fox 8 (WVUE)",
+          "logo": "images/fox8.png",
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
@@ -180,14 +184,9 @@
         "homeAway": "away",
         "opponent": "Findlay Oilers",
         "date": "2026-08-27",
-        "time": "7:00 PM",
+        "time": "6:00 PM",
         "venue": "",
-        "city": "Findlay, OH",
-        "tv": {
-          "name": "",
-          "logo": "",
-          "url": ""
-        }
+        "city": "Findlay, OH"
       },
       "lastGame": null,
       "news": []
@@ -198,13 +197,14 @@
         "homeAway": "away",
         "opponent": "Baltimore Orioles",
         "date": "2026-08-20",
-        "time": "6:35 PM",
+        "time": "5:35 PM",
         "venue": "Oriole Park at Camden Yards",
         "city": "Baltimore, MD",
         "tv": {
           "name": "MASN",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {

@@ -63,7 +63,7 @@ Shared teams are researched once and written into every feed that carries them.
 | Field | Where it comes from |
 | --- | --- |
 | `record` | ESPN team endpoint |
-| `nextGame` | ESPN schedule — first game not yet played, time converted to the venue's clock |
+| `nextGame` | ESPN schedule — first game not yet played, in New Orleans time |
 | `lastGame` | ESPN schedule — most recent completed game, with the score |
 | `news[]` | Web research, **appended**, deduped by URL + headline |
 | `meta.updated` | Today |
@@ -88,8 +88,13 @@ away from undone.
   they need `?season=YYYY&seasontype=2`.
 - **IUP is not in ESPN's API** — Division II volleyball isn't carried. Peyton
   Belcher's team is researched by hand every run, schedule and results included.
-- **Streaming bundles are not TV.** A channel the reader's television actually
-  receives wins over `MLB.TV` or `ESPN+`.
+- **Everyone reads this in New Orleans, on YouTube TV.** Kickoff times go on the
+  page in Central time, and the channel is the New Orleans one — ABC is WGNO 26,
+  CBS is WWL 4, NBC is WDSU 6, FOX is WVUE Fox 8. ESPN's own listing names the
+  home team's market, which for a Saints road game is the wrong city entirely.
+- **Say when they cannot watch it.** YouTube TV carries almost no regional sports
+  networks, so an Orioles game on MASN gets "Not on YouTube TV — stream on MLB.TV"
+  rather than a channel they will never find.
 
 ---
 

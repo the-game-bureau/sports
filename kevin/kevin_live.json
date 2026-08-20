@@ -8,13 +8,14 @@
         "homeAway": "away",
         "opponent": "Los Angeles Rams",
         "date": "2026-08-22",
-        "time": "1:00 PM",
+        "time": "3:00 PM",
         "venue": "SoFi Stadium",
         "city": "Inglewood, CA",
         "tv": {
-          "name": "KCBS-TV",
-          "logo": "",
-          "url": ""
+          "name": "Fox 8 (WVUE)",
+          "logo": "images/fox8.png",
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
@@ -60,13 +61,14 @@
         "homeAway": "home",
         "opponent": "Florida Atlantic Owls",
         "date": "2026-09-05",
-        "time": "7:45 PM",
+        "time": "6:45 PM",
         "venue": "Ben Hill Griffin Stadium",
         "city": "Gainesville, FL",
         "tv": {
           "name": "SEC Network",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
@@ -110,9 +112,10 @@
         "venue": "Tiger Stadium",
         "city": "Baton Rouge, LA",
         "tv": {
-          "name": "ABC",
+          "name": "ABC (WGNO 26)",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
@@ -152,13 +155,14 @@
         "homeAway": "away",
         "opponent": "Duke Blue Devils",
         "date": "2026-09-05",
-        "time": "3:30 PM",
+        "time": "2:30 PM",
         "venue": "Wallace Wade Stadium",
         "city": "Durham, NC",
         "tv": {
           "name": "ACC Network",
           "logo": "",
-          "url": ""
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": null,
