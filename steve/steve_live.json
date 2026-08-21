@@ -163,6 +163,15 @@
       },
       "news": [
         {
+          "id": "915bc1d10da3",
+          "teamId": "saints",
+          "headline": "NFL fines Saints $500,000 for practice fights",
+          "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
+          "date": "2026-08-21",
+          "source": "NFL.com",
+          "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
+        },
+        {
           "id": "669ea07e56d8",
           "teamId": "saints",
           "headline": "Alvin Kamara out at least a month with knee sprain",
@@ -170,15 +179,6 @@
           "date": "2026-08-19",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
-        },
-        {
-          "id": "3627ef62f53f",
-          "teamId": "saints",
-          "headline": "Saints, Cowboys scuffle in joint practice",
-          "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
-          "date": "2026-08-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
         },
         {
           "id": "9c927efa32d5",
