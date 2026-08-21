@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-20",
+    "updated": "2026-08-21",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "1165bca24dc2",
+      "teamId": "yankees",
+      "headline": "Yankees edge Orioles in third straight win",
+      "summary": "New York beat Baltimore 5-3 on Wednesday, helped by a controversial call that went the Yankees' way and a home run from Ben Rice. It was the Yankees' third win over the Orioles in a row.",
+      "date": "2026-08-19",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
+    },
+    {
+      "id": "694ea253348b",
+      "teamId": "texas",
+      "headline": "Left tackle Goosby has bone bruise in knee",
+      "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
+      "date": "2026-08-18",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
+    },
     {
       "id": "6cc0cd53406a",
       "teamId": "yankees",

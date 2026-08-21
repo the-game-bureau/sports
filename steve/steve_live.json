@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -109,6 +109,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "a4049b4099f0",
+          "teamId": "texas",
+          "headline": "Arch Manning named to Golden Arm Award watch list",
+          "summary": "For the second year in a row, Texas quarterback Arch Manning made the watch list for the nation's top upperclassman quarterback. It comes as No. 5 Texas looks to bounce back from last year's two early losses and get back into the College Football Playoff.",
+          "date": "2026-08-20",
+          "source": "Burnt Orange Nation",
+          "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
+        },
+        {
           "id": "e7b9978184d8",
           "teamId": "texas",
           "headline": "Goosby could return by season opener",
@@ -125,15 +134,6 @@
           "date": "2026-08-18",
           "source": "Fox Sports",
           "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
-        },
-        {
-          "id": "694ea253348b",
-          "teamId": "texas",
-          "headline": "Left tackle Goosby has bone bruise in knee",
-          "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
-          "date": "2026-08-18",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
         }
       ]
     },
@@ -205,17 +205,17 @@
       "news": []
     },
     "yankees": {
-      "record": "71-55",
+      "record": "72-55",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Baltimore Orioles",
-        "date": "2026-08-20",
-        "utc": "2026-08-20T22:35Z",
-        "time": "5:35 PM",
-        "venue": "Oriole Park at Camden Yards",
-        "city": "Baltimore, MD",
+        "homeAway": "home",
+        "opponent": "Toronto Blue Jays",
+        "date": "2026-08-21",
+        "utc": "2026-08-21T23:05Z",
+        "time": "6:05 PM",
+        "venue": "Yankee Stadium",
+        "city": "Bronx, NY",
         "tv": {
-          "name": "MASN",
+          "name": "YES",
           "logo": "",
           "url": "",
           "note": "Not on YouTube TV — stream on MLB.TV"
@@ -223,12 +223,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 5,
-        "opponentScore": 3,
+        "teamScore": 6,
+        "opponentScore": 1,
         "opponent": "Baltimore Orioles",
-        "date": "2026-08-19"
+        "date": "2026-08-20"
       },
       "news": [
+        {
+          "id": "f12e6e9adb55",
+          "teamId": "yankees",
+          "headline": "Gerrit Cole passes Clemens on Yankees K list",
+          "summary": "Cole struck out eight in New York's 6-1 win over Baltimore, moving past Roger Clemens for 12th on the Yankees' all-time strikeout list. It capped a series sweep and the team's fourth straight win.",
+          "date": "2026-08-20",
+          "source": "Heavy.com",
+          "url": "https://heavy.com/sports/mlb/new-york-yankees/gerrit-cole-roger-clemens-strikeout-list/"
+        },
         {
           "id": "c90895ee0f6e",
           "teamId": "yankees",
@@ -246,15 +255,6 @@
           "date": "2026-08-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
-        },
-        {
-          "id": "1165bca24dc2",
-          "teamId": "yankees",
-          "headline": "Yankees edge Orioles in third straight win",
-          "summary": "New York beat Baltimore 5-3 on Wednesday, helped by a controversial call that went the Yankees' way and a home run from Ben Rice. It was the Yankees' third win over the Orioles in a row.",
-          "date": "2026-08-19",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
         }
       ]
     },
