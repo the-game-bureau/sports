@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "669ea07e56d8",
+      "teamId": "saints",
+      "headline": "Alvin Kamara out at least a month with knee sprain",
+      "summary": "Kamara sprained the MCL in his knee during Tuesday's joint practice with the Cowboys and is expected to miss at least a month. It's a tough blow to the Saints' offense heading into the season.",
+      "date": "2026-08-19",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
+    },
+    {
+      "id": "5ae2204af7c4",
+      "teamId": "lsu",
+      "headline": "Three Tigers make AP Preseason All-America teams",
+      "summary": "Tight end Trey'Dez Green earned first-team honors, while transfers Jordan Seaton and Ty Benefield made second team. It is a strong vote of confidence for Lane Kiffin's first LSU roster.",
+      "date": "2026-08-18",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/08/18/three-tigers-on-ap-preseason-all-america-teams"
+    },
+    {
+      "id": "7bbc018fb7d6",
+      "teamId": "florida",
+      "headline": "QB battle still even after first scrimmage",
+      "summary": "Neither Aaron Philo nor Tramell Jones Jr. has separated himself in fall camp, coach Jon Sumrall said after Florida's first scrimmage. The competition is expected to continue right up until the season opener.",
+      "date": "2026-08-17",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
+    },
+    {
+      "id": "26a8f88cedd9",
+      "teamId": "tulane",
+      "headline": "Defense dominates in first fall scrimmage",
+      "summary": "Tulane's defense set the tone early in Saturday's first scrimmage, and coach Will Hall said the offense answered back in the red zone. The four-way quarterback race stays open with the season opener three weeks away.",
+      "date": "2026-08-15",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
+    },
+    {
       "id": "9c927efa32d5",
       "teamId": "saints",
       "headline": "Rookie receiver Jordyn Tyson out 8 weeks",

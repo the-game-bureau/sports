@@ -22,6 +22,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "42925128d61d",
+          "teamId": "tulane",
+          "headline": "Jack Tchienchou makes top defender watch list",
+          "summary": "Tulane safety Jack Tchienchou was named to the watch list for the Bednarik Award, which goes to the best defensive player in college football. He led Tulane with 83 tackles last season.",
+          "date": "2026-08-21",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-tchienchou-named-to-2026-chuck-bednarik-award-watch-list/"
+        },
+        {
           "id": "5e7920fd5089",
           "teamId": "tulane",
           "headline": "Tulane linebacker makes national comeback list",
@@ -38,15 +47,6 @@
           "date": "2026-08-16",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
-        },
-        {
-          "id": "26a8f88cedd9",
-          "teamId": "tulane",
-          "headline": "Defense dominates in first fall scrimmage",
-          "summary": "Tulane's defense set the tone early in Saturday's first scrimmage, and coach Will Hall said the offense answered back in the red zone. The four-way quarterback race stays open with the season opener three weeks away.",
-          "date": "2026-08-15",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
         }
       ]
     },
@@ -70,6 +70,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "5a69e0a2562c",
+          "teamId": "florida",
+          "headline": "Myles Graham makes top defender watch list",
+          "summary": "Florida linebacker Myles Graham was named to the watch list for the Bednarik Award, given to college football's best defensive player. He led the Gators with 76 tackles last season.",
+          "date": "2026-08-21",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/8/21/football-chuck-bednarik-award-names-myles-graham-to-preseason-watch-list"
+        },
+        {
           "id": "2677558dce81",
           "teamId": "florida",
           "headline": "Five Gators make Senior Bowl watch list",
@@ -86,15 +95,6 @@
           "date": "2026-08-20",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
-        },
-        {
-          "id": "7bbc018fb7d6",
-          "teamId": "florida",
-          "headline": "QB battle still even after first scrimmage",
-          "summary": "Neither Aaron Philo nor Tramell Jones Jr. has separated himself in fall camp, coach Jon Sumrall said after Florida's first scrimmage. The competition is expected to continue right up until the season opener.",
-          "date": "2026-08-17",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
         }
       ]
     },
@@ -190,13 +190,13 @@
           "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
         },
         {
-          "id": "669ea07e56d8",
+          "id": "7df4ff2c5f54",
           "teamId": "saints",
-          "headline": "Alvin Kamara out at least a month with knee sprain",
-          "summary": "Kamara sprained the MCL in his knee during Tuesday's joint practice with the Cowboys and is expected to miss at least a month. It's a tough blow to the Saints' offense heading into the season.",
-          "date": "2026-08-19",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
+          "headline": "Three Saints leave joint practice early",
+          "summary": "Guard Cesar Ruiz hurt an ankle and did not finish Thursday's practice with the Rams. Lineman John Ridgeway and cornerback Dalys Beanum also left early, and coach Kellen Moore said the team will keep an eye on all three.",
+          "date": "2026-08-20",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/kellen-moore-shares-injury-updates-232755638.html"
         }
       ]
     },
@@ -214,7 +214,7 @@
       "news": []
     },
     "yankees": {
-      "record": "73-55",
+      "record": "73-56",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Toronto Blue Jays",
@@ -231,21 +231,30 @@
         }
       },
       "lastGame": {
-        "result": "W",
+        "result": "L",
         "teamScore": 3,
-        "opponentScore": 1,
+        "opponentScore": 4,
         "opponent": "Toronto Blue Jays",
-        "date": "2026-08-21"
+        "date": "2026-08-22"
       },
       "news": [
         {
-          "id": "5612a070a5bc",
+          "id": "01f68b37cf9f",
           "teamId": "yankees",
-          "headline": "Yankees beat Blue Jays for fifth win in a row",
-          "summary": "Rookie Spencer Jones hit a two-run home run in the second inning and New York won 3-1 on Friday night. The Yankees are now three games behind Tampa Bay in the American League East.",
-          "date": "2026-08-21",
+          "headline": "Blue Jays end Yankees' win streak at five",
+          "summary": "Toronto won 4-3 on Saturday afternoon at Yankee Stadium. Nathan Lukes homered in the eighth inning, and a two-run homer by New York in the bottom of the inning was not enough.",
+          "date": "2026-08-22",
           "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816613"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816628/blue-jays-yankees"
+        },
+        {
+          "id": "a9a340b5a57b",
+          "teamId": "yankees",
+          "headline": "Ryan Weathers leaves game with arm pain",
+          "summary": "The Yankees starter walked off in the fourth inning on Saturday with soreness in his left forearm. He has already pitched more innings this year than in any season of his career.",
+          "date": "2026-08-22",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/49693944/new-york-yankees-starter-ryan-weathers-exits-4th-inning"
         },
         {
           "id": "8903c490d948",
@@ -255,15 +264,6 @@
           "date": "2026-08-21",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/08/yankees-place-ryan-mcmahon-on-injured-list.html"
-        },
-        {
-          "id": "c90895ee0f6e",
-          "teamId": "yankees",
-          "headline": "Aaron Judge nearing his return",
-          "summary": "Judge started hitting off a tee and doing soft toss this week as he recovers from his rib injury. Most reports point to him coming back sometime in September.",
-          "date": "2026-08-20",
-          "source": "NY Sports Day",
-          "url": "https://www.nysportsday.com/2026/08/20/aaron-judge-injury-update-2/"
         }
       ]
     },
