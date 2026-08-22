@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "915bc1d10da3",
+          "teamId": "saints",
+          "headline": "NFL fines Saints $500,000 for practice fights",
+          "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
+          "date": "2026-08-21",
+          "source": "NFL.com",
+          "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
+        },
+        {
           "id": "669ea07e56d8",
           "teamId": "saints",
           "headline": "Alvin Kamara out at least a month with knee sprain",
@@ -35,15 +44,6 @@
           "date": "2026-08-19",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
-        },
-        {
-          "id": "3627ef62f53f",
-          "teamId": "saints",
-          "headline": "Saints, Cowboys scuffle in joint practice",
-          "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
-          "date": "2026-08-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
         },
         {
           "id": "9c927efa32d5",
@@ -124,6 +124,24 @@
       "lastGame": null,
       "news": [
         {
+          "id": "4e8597f6faf2",
+          "teamId": "lsu",
+          "headline": "Lamar Brown returns to practice after leg injury",
+          "summary": "The five-star signee missed Thursday's practice with a leg injury but returned Friday with no signs of trouble. LSU holds a closed scrimmage in Tiger Stadium on Saturday.",
+          "date": "2026-08-21",
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/08/21/lsu-fall-camp-report-august-21/lsu-sports/"
+        },
+        {
+          "id": "b1412180fe87",
+          "teamId": "lsu",
+          "headline": "LSU lands eight players on All-SEC team",
+          "summary": "The Tigers' preseason Coaches All-SEC team includes five first-team picks, tying for the most in the league. It's a strong show of respect for Lane Kiffin's first LSU roster.",
+          "date": "2026-08-20",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lsu-tigers-put-eight-players-on-preseason-coaches-all-sec-team"
+        },
+        {
           "id": "5ae2204af7c4",
           "teamId": "lsu",
           "headline": "Three Tigers make AP Preseason All-America teams",
@@ -131,24 +149,6 @@
           "date": "2026-08-18",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/08/18/three-tigers-on-ap-preseason-all-america-teams"
-        },
-        {
-          "id": "69678f73ab72",
-          "teamId": "lsu",
-          "headline": "Trey'Dez Green named to Walter Camp watch list",
-          "summary": "The junior tight end is the only tight end on the 50-player list for national player of the year. He already holds LSU's career record for receiving touchdowns by a tight end.",
-          "date": "2026-08-18",
-          "source": "And The Valley Shook",
-          "url": "https://www.andthevalleyshook.com/lsu-tigers-football/51718/treydez-green-named-to-walter-camp-award-watch-list"
-        },
-        {
-          "id": "2b50cd6eef89",
-          "teamId": "lsu",
-          "headline": "LSU ranked No. 11 in preseason AP poll",
-          "summary": "The Tigers open the season Sept. 5 at home against Clemson, who did not make the poll. It is LSU's first season under new coach Lane Kiffin.",
-          "date": "2026-08-17",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/08/17/where-lsu-football-ranks-ap-preseason-top-25-poll/"
         }
       ]
     },

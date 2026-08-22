@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-20",
+    "updated": "2026-08-21",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3627ef62f53f",
+      "teamId": "saints",
+      "headline": "Saints, Cowboys scuffle in joint practice",
+      "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
+      "date": "2026-08-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
+    },
+    {
+      "id": "1165bca24dc2",
+      "teamId": "yankees",
+      "headline": "Yankees edge Orioles in third straight win",
+      "summary": "New York beat Baltimore 5-3 on Wednesday, helped by a controversial call that went the Yankees' way and a home run from Ben Rice. It was the Yankees' third win over the Orioles in a row.",
+      "date": "2026-08-19",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
+    },
+    {
+      "id": "694ea253348b",
+      "teamId": "texas",
+      "headline": "Left tackle Goosby has bone bruise in knee",
+      "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
+      "date": "2026-08-18",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
+    },
+    {
+      "id": "6cc0cd53406a",
+      "teamId": "yankees",
+      "headline": "Carlos Rodón returns with 4 solid innings",
+      "summary": "Rodón made his first start since early July and pitched four innings against Baltimore. Trent Grisham's home run carried the Yankees to a 3-1 win.",
+      "date": "2026-08-18",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/carlos-rodon-activated-start-vs-orioles"
+    },
     {
       "id": "89fd83b6badc",
       "teamId": "yankees",
