@@ -223,7 +223,12 @@
         "league": "college-football",
         "teamId": "99"
       },
-      "person": null,
+      "person": {
+        "name": "Kat",
+        "photo": "images/kat_lsu_badge.jpg",
+        "caption": "Kat",
+        "lightbox": "images/kat_lsu_web.jpg"
+      },
       "newsFocus": "SEC results, quarterback play, injuries, recruiting.",
       "newsPriority": 2,
       "offSeason": false,
