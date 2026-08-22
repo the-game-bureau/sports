@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -209,9 +209,9 @@
       "nextGame": {
         "homeAway": "home",
         "opponent": "Toronto Blue Jays",
-        "date": "2026-08-21",
-        "utc": "2026-08-21T23:05Z",
-        "time": "6:05 PM",
+        "date": "2026-08-22",
+        "utc": "2026-08-22T17:35Z",
+        "time": "12:35 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
@@ -248,13 +248,13 @@
           "url": "https://www.nysportsday.com/2026/08/20/aaron-judge-injury-update-2/"
         },
         {
-          "id": "4fe5df5d93c6",
+          "id": "a6a60cdcf79a",
           "teamId": "yankees",
-          "headline": "Stanton nearing return from calf injury",
-          "summary": "Manager Aaron Boone said Giancarlo Stanton is near the end of his running program and responding well. There is still no firm timeline for his return.",
+          "headline": "Yankees trade catcher Christian Bethancourt to Pirates",
+          "summary": "New York sent Bethancourt to Pittsburgh for cash after he hit .333 at Triple-A. The Pirates needed catching depth with their starter out with a hip injury.",
           "date": "2026-08-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
+          "source": "Heavy.com",
+          "url": "https://heavy.com/sports/mlb/new-york-yankees/trade-yankees-send-8-year-mlb-veteran-to-pirates/"
         }
       ]
     },
