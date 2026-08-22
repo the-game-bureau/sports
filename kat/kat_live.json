@@ -76,6 +76,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "3a6331fb4bf4",
+          "teamId": "florida",
+          "headline": "LJ McCray up for national comeback award",
+          "summary": "McCray broke his foot early last year and played only four snaps all season. He is back healthy and on the watch list for college football's Comeback Player of the Year award.",
+          "date": "2026-08-20",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
+        },
+        {
           "id": "2b2be0a927cc",
           "teamId": "florida",
           "headline": "Florida left out of preseason AP Top 25",
@@ -92,15 +101,6 @@
           "date": "2026-08-17",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
-        },
-        {
-          "id": "78f49bbca788",
-          "teamId": "florida",
-          "headline": "Sumrall gives injury update after scrimmage",
-          "summary": "Receiver Vernell Brown III and defensive back Dijon Johnson, who both sat out the scrimmage as a precaution, were back at full practice Monday. Defensive back Jordy Lowery was the only player actually hurt, with a minor soft-tissue injury.",
-          "date": "2026-08-17",
-          "source": "On3",
-          "url": "https://www.on3.com/teams/florida-gators/news/jon-sumrall-provides-injury-report-after-florida-gators-scrimmage/"
         }
       ]
     },
@@ -171,6 +171,15 @@
       },
       "lastGame": null,
       "news": [
+        {
+          "id": "5e7920fd5089",
+          "teamId": "tulane",
+          "headline": "Tulane linebacker makes national comeback list",
+          "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
+          "date": "2026-08-20",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
+        },
         {
           "id": "484166c834af",
           "teamId": "tulane",

@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "a6a60cdcf79a",
+      "teamId": "yankees",
+      "headline": "Yankees trade catcher Christian Bethancourt to Pirates",
+      "summary": "New York sent Bethancourt to Pittsburgh for cash after he hit .333 at Triple-A. The Pirates needed catching depth with their starter out with a hip injury.",
+      "date": "2026-08-19",
+      "source": "Heavy.com",
+      "url": "https://heavy.com/sports/mlb/new-york-yankees/trade-yankees-send-8-year-mlb-veteran-to-pirates/"
+    },
+    {
       "id": "4fe5df5d93c6",
       "teamId": "yankees",
       "headline": "Stanton nearing return from calf injury",
@@ -16,15 +25,6 @@
       "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
     },
     {
-      "id": "3627ef62f53f",
-      "teamId": "saints",
-      "headline": "Saints, Cowboys scuffle in joint practice",
-      "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
-      "date": "2026-08-18",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
-    },
-    {
       "id": "1165bca24dc2",
       "teamId": "yankees",
       "headline": "Yankees edge Orioles in third straight win",
@@ -32,6 +32,24 @@
       "date": "2026-08-19",
       "source": "MLB.com",
       "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
+    },
+    {
+      "id": "e51e2b0c272e",
+      "teamId": "texas",
+      "headline": "Four Longhorns named to preseason All-America team",
+      "summary": "Trevor Goosby, Cam Coleman, Colin Simmons, and Rasheem Biles all made the AP's preseason All-America team, more than any other program in the country. It's a strong vote of confidence heading into the season.",
+      "date": "2026-08-18",
+      "source": "Fox Sports",
+      "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
+    },
+    {
+      "id": "3627ef62f53f",
+      "teamId": "saints",
+      "headline": "Saints, Cowboys scuffle in joint practice",
+      "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
+      "date": "2026-08-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
     },
     {
       "id": "694ea253348b",
@@ -68,6 +86,15 @@
       "date": "2026-08-18",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-08-18/aaron-judge-rib-to-start-hitting-progression"
+    },
+    {
+      "id": "78f49bbca788",
+      "teamId": "florida",
+      "headline": "Sumrall gives injury update after scrimmage",
+      "summary": "Receiver Vernell Brown III and defensive back Dijon Johnson, who both sat out the scrimmage as a precaution, were back at full practice Monday. Defensive back Jordy Lowery was the only player actually hurt, with a minor soft-tissue injury.",
+      "date": "2026-08-17",
+      "source": "On3",
+      "url": "https://www.on3.com/teams/florida-gators/news/jon-sumrall-provides-injury-report-after-florida-gators-scrimmage/"
     }
   ]
 }

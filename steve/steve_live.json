@@ -22,6 +22,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "5e7920fd5089",
+          "teamId": "tulane",
+          "headline": "Tulane linebacker makes national comeback list",
+          "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
+          "date": "2026-08-20",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
+        },
+        {
           "id": "484166c834af",
           "teamId": "tulane",
           "headline": "Four quarterbacks still fighting for the job",
@@ -61,6 +70,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "3a6331fb4bf4",
+          "teamId": "florida",
+          "headline": "LJ McCray up for national comeback award",
+          "summary": "McCray broke his foot early last year and played only four snaps all season. He is back healthy and on the watch list for college football's Comeback Player of the Year award.",
+          "date": "2026-08-20",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
+        },
+        {
           "id": "2b2be0a927cc",
           "teamId": "florida",
           "headline": "Florida left out of preseason AP Top 25",
@@ -77,15 +95,6 @@
           "date": "2026-08-17",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
-        },
-        {
-          "id": "78f49bbca788",
-          "teamId": "florida",
-          "headline": "Sumrall gives injury update after scrimmage",
-          "summary": "Receiver Vernell Brown III and defensive back Dijon Johnson, who both sat out the scrimmage as a precaution, were back at full practice Monday. Defensive back Jordy Lowery was the only player actually hurt, with a minor soft-tissue injury.",
-          "date": "2026-08-17",
-          "source": "On3",
-          "url": "https://www.on3.com/teams/florida-gators/news/jon-sumrall-provides-injury-report-after-florida-gators-scrimmage/"
         }
       ]
     },
@@ -109,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "e5d1e40c8230",
+          "teamId": "texas",
+          "headline": "Linebacker Ty'Anthony Smith leaves Texas",
+          "summary": "Junior linebacker Ty'Anthony Smith is no longer with the Longhorns. Texas loses a veteran at that spot two weeks before its first game.",
+          "date": "2026-08-21",
+          "source": "Orangebloods",
+          "url": "https://www.orangebloods.com/2026/08/21/linebacker-tyanthony-smith-leaves-longhorns/"
+        },
+        {
           "id": "a4049b4099f0",
           "teamId": "texas",
           "headline": "Arch Manning named to Golden Arm Award watch list",
@@ -125,15 +143,6 @@
           "date": "2026-08-19",
           "source": "Burnt Orange Nation",
           "url": "https://www.burntorangenation.com/texas-longhorns-football/103934/trevor-goosby-bone-bruise-timetable"
-        },
-        {
-          "id": "e51e2b0c272e",
-          "teamId": "texas",
-          "headline": "Four Longhorns named to preseason All-America team",
-          "summary": "Trevor Goosby, Cam Coleman, Colin Simmons, and Rasheem Biles all made the AP's preseason All-America team, more than any other program in the country. It's a strong vote of confidence heading into the season.",
-          "date": "2026-08-18",
-          "source": "Fox Sports",
-          "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
         }
       ]
     },
@@ -205,7 +214,7 @@
       "news": []
     },
     "yankees": {
-      "record": "72-55",
+      "record": "73-55",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Toronto Blue Jays",
@@ -215,20 +224,29 @@
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "YES",
-          "logo": "",
+          "name": "ESPN Unlimited",
+          "logo": "images/espn.webp",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 6,
+        "teamScore": 3,
         "opponentScore": 1,
-        "opponent": "Baltimore Orioles",
-        "date": "2026-08-20"
+        "opponent": "Toronto Blue Jays",
+        "date": "2026-08-21"
       },
       "news": [
+        {
+          "id": "5612a070a5bc",
+          "teamId": "yankees",
+          "headline": "Yankees beat Blue Jays for fifth win in a row",
+          "summary": "Rookie Spencer Jones hit a two-run home run in the second inning and New York won 3-1 on Friday night. The Yankees are now three games behind Tampa Bay in the American League East.",
+          "date": "2026-08-21",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401816613"
+        },
         {
           "id": "f12e6e9adb55",
           "teamId": "yankees",
@@ -246,15 +264,6 @@
           "date": "2026-08-20",
           "source": "NY Sports Day",
           "url": "https://www.nysportsday.com/2026/08/20/aaron-judge-injury-update-2/"
-        },
-        {
-          "id": "a6a60cdcf79a",
-          "teamId": "yankees",
-          "headline": "Yankees trade catcher Christian Bethancourt to Pirates",
-          "summary": "New York sent Bethancourt to Pittsburgh for cash after he hit .333 at Triple-A. The Pirates needed catching depth with their starter out with a hip injury.",
-          "date": "2026-08-19",
-          "source": "Heavy.com",
-          "url": "https://heavy.com/sports/mlb/new-york-yankees/trade-yankees-send-8-year-mlb-veteran-to-pirates/"
         }
       ]
     },
