@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "f12e6e9adb55",
+      "teamId": "yankees",
+      "headline": "Gerrit Cole passes Clemens on Yankees K list",
+      "summary": "Cole struck out eight in New York's 6-1 win over Baltimore, moving past Roger Clemens for 12th on the Yankees' all-time strikeout list. It capped a series sweep and the team's fourth straight win.",
+      "date": "2026-08-20",
+      "source": "Heavy.com",
+      "url": "https://heavy.com/sports/mlb/new-york-yankees/gerrit-cole-roger-clemens-strikeout-list/"
+    },
+    {
+      "id": "e7b9978184d8",
+      "teamId": "texas",
+      "headline": "Goosby could return by season opener",
+      "summary": "Doctors say Trevor Goosby's knee bruise should heal in two to three weeks. That could have him back for the September 5 opener, and he should be ready by the Ohio State game on September 12 at the latest.",
+      "date": "2026-08-19",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-football/103934/trevor-goosby-bone-bruise-timetable"
+    },
+    {
       "id": "a6a60cdcf79a",
       "teamId": "yankees",
       "headline": "Yankees trade catcher Christian Bethancourt to Pirates",
@@ -32,6 +50,15 @@
       "date": "2026-08-19",
       "source": "MLB.com",
       "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
+    },
+    {
+      "id": "9c927efa32d5",
+      "teamId": "saints",
+      "headline": "Rookie receiver Jordyn Tyson out 8 weeks",
+      "summary": "First-round pick Jordyn Tyson strained his hamstring and is expected to miss about eight weeks. Coach Kellen Moore says this injury is not related to his past hamstring problems.",
+      "date": "2026-08-18",
+      "source": "Louisiana Radio Network",
+      "url": "https://louisianaradionetwork.com/2026/08/18/47836/"
     },
     {
       "id": "e51e2b0c272e",
@@ -86,6 +113,15 @@
       "date": "2026-08-18",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-08-18/aaron-judge-rib-to-start-hitting-progression"
+    },
+    {
+      "id": "2b2be0a927cc",
+      "teamId": "florida",
+      "headline": "Florida left out of preseason AP Top 25",
+      "summary": "The Gators didn't crack the AP's preseason poll, though they had the second-most votes among unranked teams. It's a fresh-start season under new coach Jon Sumrall, so this is the low point expectations can only rise from.",
+      "date": "2026-08-17",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/08/17/florida-football-falls-outside-2026-preseason-ap-top-25-rankings/"
     },
     {
       "id": "78f49bbca788",

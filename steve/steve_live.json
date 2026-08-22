@@ -70,6 +70,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "2677558dce81",
+          "teamId": "florida",
+          "headline": "Five Gators make Senior Bowl watch list",
+          "summary": "Kamran James, Eric Singleton Jr., Bryce Thornton, Jadan Baugh and Myles Graham were named to the Senior Bowl's preseason top 300 list. It is an early sign that pro scouts will be watching them this fall.",
+          "date": "2026-08-20",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/five-florida-football-players-named-161554829.html"
+        },
+        {
           "id": "3a6331fb4bf4",
           "teamId": "florida",
           "headline": "LJ McCray up for national comeback award",
@@ -77,15 +86,6 @@
           "date": "2026-08-20",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
-        },
-        {
-          "id": "2b2be0a927cc",
-          "teamId": "florida",
-          "headline": "Florida left out of preseason AP Top 25",
-          "summary": "The Gators didn't crack the AP's preseason poll, though they had the second-most votes among unranked teams. It's a fresh-start season under new coach Jon Sumrall, so this is the low point expectations can only rise from.",
-          "date": "2026-08-17",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/08/17/florida-football-falls-outside-2026-preseason-ap-top-25-rankings/"
         },
         {
           "id": "7bbc018fb7d6",
@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "49471f9a619b",
+          "teamId": "texas",
+          "headline": "Two Longhorns on top defender watch list",
+          "summary": "Rasheem Biles and Colin Simmons were named to the watch list for the Chuck Bednarik Award, which goes to the best defensive player in college football. Both made the list last year too.",
+          "date": "2026-08-22",
+          "source": "Burnt Orange Nation",
+          "url": "https://www.burntorangenation.com/texas-longhorns-news/103976/longhorns-daily-news-texas-rasheem-biles-colin-simmons-land-on-chuck-bednarik-award-watch-list-for-second-consecutive-year"
+        },
+        {
           "id": "e5d1e40c8230",
           "teamId": "texas",
           "headline": "Linebacker Ty'Anthony Smith leaves Texas",
@@ -134,15 +143,6 @@
           "date": "2026-08-20",
           "source": "Burnt Orange Nation",
           "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
-        },
-        {
-          "id": "e7b9978184d8",
-          "teamId": "texas",
-          "headline": "Goosby could return by season opener",
-          "summary": "Doctors say Trevor Goosby's knee bruise should heal in two to three weeks. That could have him back for the September 5 opener, and he should be ready by the Ohio State game on September 12 at the latest.",
-          "date": "2026-08-19",
-          "source": "Burnt Orange Nation",
-          "url": "https://www.burntorangenation.com/texas-longhorns-football/103934/trevor-goosby-bone-bruise-timetable"
         }
       ]
     },
@@ -181,6 +181,15 @@
           "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
         },
         {
+          "id": "f01141ba7e97",
+          "teamId": "saints",
+          "headline": "Wilson and Rattler push for backup quarterback job",
+          "summary": "Tyler Shough is the starter, so Zach Wilson and Spencer Rattler are competing to be the backup. Coach Kellen Moore said both are playing good ball, and Saturday's game at the Rams gives each another turn.",
+          "date": "2026-08-21",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
+        },
+        {
           "id": "669ea07e56d8",
           "teamId": "saints",
           "headline": "Alvin Kamara out at least a month with knee sprain",
@@ -188,15 +197,6 @@
           "date": "2026-08-19",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
-        },
-        {
-          "id": "9c927efa32d5",
-          "teamId": "saints",
-          "headline": "Rookie receiver Jordyn Tyson out 8 weeks",
-          "summary": "First-round pick Jordyn Tyson strained his hamstring and is expected to miss about eight weeks. Coach Kellen Moore says this injury is not related to his past hamstring problems.",
-          "date": "2026-08-18",
-          "source": "Louisiana Radio Network",
-          "url": "https://louisianaradionetwork.com/2026/08/18/47836/"
         }
       ]
     },
@@ -248,13 +248,13 @@
           "url": "https://www.espn.com/mlb/recap?gameId=401816613"
         },
         {
-          "id": "f12e6e9adb55",
+          "id": "8903c490d948",
           "teamId": "yankees",
-          "headline": "Gerrit Cole passes Clemens on Yankees K list",
-          "summary": "Cole struck out eight in New York's 6-1 win over Baltimore, moving past Roger Clemens for 12th on the Yankees' all-time strikeout list. It capped a series sweep and the team's fourth straight win.",
-          "date": "2026-08-20",
-          "source": "Heavy.com",
-          "url": "https://heavy.com/sports/mlb/new-york-yankees/gerrit-cole-roger-clemens-strikeout-list/"
+          "headline": "Ryan McMahon out with a sprained thumb",
+          "summary": "McMahon sprained his left thumb sliding into second base against Baltimore and went on the 10-day injured list. The Yankees called up Max Schuemann, and McMahon is not expected to be out long.",
+          "date": "2026-08-21",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/08/yankees-place-ryan-mcmahon-on-injured-list.html"
         },
         {
           "id": "c90895ee0f6e",
