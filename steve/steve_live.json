@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -22,6 +22,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "0ed2ee917188",
+          "teamId": "tulane",
+          "headline": "Two quarterbacks lead the way in last scrimmage",
+          "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
+          "date": "2026-08-22",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
+        },
+        {
           "id": "42925128d61d",
           "teamId": "tulane",
           "headline": "Jack Tchienchou makes top defender watch list",
@@ -38,15 +47,6 @@
           "date": "2026-08-20",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
-        },
-        {
-          "id": "484166c834af",
-          "teamId": "tulane",
-          "headline": "Four quarterbacks still fighting for the job",
-          "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
-          "date": "2026-08-16",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
         }
       ]
     },
@@ -150,12 +150,12 @@
       "record": "0-0",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Los Angeles Rams",
-        "date": "2026-08-22",
-        "utc": "2026-08-22T20:00Z",
-        "time": "3:00 PM",
-        "venue": "SoFi Stadium",
-        "city": "Inglewood, CA",
+        "opponent": "Dallas Cowboys",
+        "date": "2026-08-28",
+        "utc": "2026-08-29T00:00Z",
+        "time": "7:00 PM",
+        "venue": "AT&T Stadium",
+        "city": "Arlington, TX",
         "tv": {
           "name": "Fox 8 (WVUE)",
           "logo": "images/fox8.png",
@@ -218,16 +218,16 @@
       "nextGame": {
         "homeAway": "home",
         "opponent": "Toronto Blue Jays",
-        "date": "2026-08-22",
-        "utc": "2026-08-22T17:35Z",
+        "date": "2026-08-23",
+        "utc": "2026-08-23T17:35Z",
         "time": "12:35 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "ESPN Unlimited",
-          "logo": "images/espn.webp",
+          "name": "YES Network",
+          "logo": "",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {
@@ -239,13 +239,22 @@
       },
       "news": [
         {
-          "id": "01f68b37cf9f",
+          "id": "d2eac5793bea",
           "teamId": "yankees",
-          "headline": "Blue Jays end Yankees' win streak at five",
-          "summary": "Toronto won 4-3 on Saturday afternoon at Yankee Stadium. Nathan Lukes homered in the eighth inning, and a two-run homer by New York in the bottom of the inning was not enough.",
+          "headline": "Stanton hurts calf, may miss rest of season",
+          "summary": "Giancarlo Stanton strained his left calf while running the bases this week, just as he was finishing his comeback from a right calf injury. Manager Aaron Boone said the team is not ruling anything out, but there is not much season left.",
           "date": "2026-08-22",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816628/blue-jays-yankees"
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/giancarlo-stanton-left-calf-strain-could-end-2026-season"
+        },
+        {
+          "id": "1d33c7a733b6",
+          "teamId": "yankees",
+          "headline": "Cody Bellinger back in the lineup Sunday",
+          "summary": "Bellinger said he will play Sunday against Toronto, his first game since he hurt his hamstring on July 25. He is batting .259 with 11 home runs this season.",
+          "date": "2026-08-22",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/cody-bellinger-yankees-hamstring-injury-rehab"
         },
         {
           "id": "a9a340b5a57b",
@@ -255,15 +264,6 @@
           "date": "2026-08-22",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/49693944/new-york-yankees-starter-ryan-weathers-exits-4th-inning"
-        },
-        {
-          "id": "8903c490d948",
-          "teamId": "yankees",
-          "headline": "Ryan McMahon out with a sprained thumb",
-          "summary": "McMahon sprained his left thumb sliding into second base against Baltimore and went on the 10-day injured list. The Yankees called up Max Schuemann, and McMahon is not expected to be out long.",
-          "date": "2026-08-21",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/08/yankees-place-ryan-mcmahon-on-injured-list.html"
         }
       ]
     },

@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-22",
+    "updated": "2026-08-23",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "01f68b37cf9f",
+      "teamId": "yankees",
+      "headline": "Blue Jays end Yankees' win streak at five",
+      "summary": "Toronto won 4-3 on Saturday afternoon at Yankee Stadium. Nathan Lukes homered in the eighth inning, and a two-run homer by New York in the bottom of the inning was not enough.",
+      "date": "2026-08-22",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816628/blue-jays-yankees"
+    },
+    {
+      "id": "8903c490d948",
+      "teamId": "yankees",
+      "headline": "Ryan McMahon out with a sprained thumb",
+      "summary": "McMahon sprained his left thumb sliding into second base against Baltimore and went on the 10-day injured list. The Yankees called up Max Schuemann, and McMahon is not expected to be out long.",
+      "date": "2026-08-21",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/08/yankees-place-ryan-mcmahon-on-injured-list.html"
+    },
+    {
+      "id": "484166c834af",
+      "teamId": "tulane",
+      "headline": "Four quarterbacks still fighting for the job",
+      "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
+      "date": "2026-08-16",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
+    },
     {
       "id": "f01141ba7e97",
       "teamId": "saints",

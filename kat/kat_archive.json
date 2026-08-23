@@ -2,10 +2,37 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-22",
+    "updated": "2026-08-23",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4e8597f6faf2",
+      "teamId": "lsu",
+      "headline": "Lamar Brown returns to practice after leg injury",
+      "summary": "The five-star signee missed Thursday's practice with a leg injury but returned Friday with no signs of trouble. LSU holds a closed scrimmage in Tiger Stadium on Saturday.",
+      "date": "2026-08-21",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/08/21/lsu-fall-camp-report-august-21/lsu-sports/"
+    },
+    {
+      "id": "b1412180fe87",
+      "teamId": "lsu",
+      "headline": "LSU lands eight players on All-SEC team",
+      "summary": "The Tigers' preseason Coaches All-SEC team includes five first-team picks, tying for the most in the league. It's a strong show of respect for Lane Kiffin's first LSU roster.",
+      "date": "2026-08-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-tigers-put-eight-players-on-preseason-coaches-all-sec-team"
+    },
+    {
+      "id": "484166c834af",
+      "teamId": "tulane",
+      "headline": "Four quarterbacks still fighting for the job",
+      "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
+      "date": "2026-08-16",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
+    },
     {
       "id": "f01141ba7e97",
       "teamId": "saints",
