@@ -165,12 +165,30 @@
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 20,
-        "opponentScore": 24,
-        "opponent": "Jacksonville Jaguars",
-        "date": "2026-08-15"
+        "teamScore": 0,
+        "opponentScore": 34,
+        "opponent": "Los Angeles Rams",
+        "date": "2026-08-22"
       },
       "news": [
+        {
+          "id": "610d46216cdd",
+          "teamId": "saints",
+          "headline": "Rams shut out Saints 34-0",
+          "summary": "The Saints did not score in Saturday's preseason game at Los Angeles. They gave the ball away three times, were called for 12 penalties, and missed their only field goal try.",
+          "date": "2026-08-22",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/2026-nfl-preseason-week-2-los-angeles-rams-vs-new-orleans-saints-game-recap"
+        },
+        {
+          "id": "ea986e02b664",
+          "teamId": "saints",
+          "headline": "Three Saints hurt in loss to Rams",
+          "summary": "Running back Devin Neal hurt a hamstring and tight end Moliki Matavao hurt a knee in the first half. Lineman Torricelli Simpkins left the game with a concussion.",
+          "date": "2026-08-22",
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
+        },
         {
           "id": "915bc1d10da3",
           "teamId": "saints",
@@ -179,24 +197,6 @@
           "date": "2026-08-21",
           "source": "NFL.com",
           "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
-        },
-        {
-          "id": "f01141ba7e97",
-          "teamId": "saints",
-          "headline": "Wilson and Rattler push for backup quarterback job",
-          "summary": "Tyler Shough is the starter, so Zach Wilson and Spencer Rattler are competing to be the backup. Coach Kellen Moore said both are playing good ball, and Saturday's game at the Rams gives each another turn.",
-          "date": "2026-08-21",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
-        },
-        {
-          "id": "7df4ff2c5f54",
-          "teamId": "saints",
-          "headline": "Three Saints leave joint practice early",
-          "summary": "Guard Cesar Ruiz hurt an ankle and did not finish Thursday's practice with the Rams. Lineman John Ridgeway and cornerback Dalys Beanum also left early, and coach Kellen Moore said the team will keep an eye on all three.",
-          "date": "2026-08-20",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/kellen-moore-shares-injury-updates-232755638.html"
         }
       ]
     },
