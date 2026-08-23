@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "db1418b3f2d7",
+      "teamId": "lsu",
+      "headline": "LSU adds Notre Dame pass rusher",
+      "summary": "Defensive end Junior Tuihalamaka picked LSU on Friday after a Louisiana court ruling gave him one more year to play. He appeared in 54 games at Notre Dame, including the national championship game.",
+      "date": "2026-08-21",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-tigers-land-surprise-commitment-from-notre-dame-transfer"
+    },
+    {
       "id": "4e8597f6faf2",
       "teamId": "lsu",
       "headline": "Lamar Brown returns to practice after leg injury",

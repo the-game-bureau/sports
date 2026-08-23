@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "1d33c7a733b6",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger back in the lineup Sunday",
+      "summary": "Bellinger said he will play Sunday against Toronto, his first game since he hurt his hamstring on July 25. He is batting .259 with 11 home runs this season.",
+      "date": "2026-08-22",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/cody-bellinger-yankees-hamstring-injury-rehab"
+    },
+    {
+      "id": "a9a340b5a57b",
+      "teamId": "yankees",
+      "headline": "Ryan Weathers leaves game with arm pain",
+      "summary": "The Yankees starter walked off in the fourth inning on Saturday with soreness in his left forearm. He has already pitched more innings this year than in any season of his career.",
+      "date": "2026-08-22",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49693944/new-york-yankees-starter-ryan-weathers-exits-4th-inning"
+    },
+    {
+      "id": "a4049b4099f0",
+      "teamId": "texas",
+      "headline": "Arch Manning named to Golden Arm Award watch list",
+      "summary": "For the second year in a row, Texas quarterback Arch Manning made the watch list for the nation's top upperclassman quarterback. It comes as No. 5 Texas looks to bounce back from last year's two early losses and get back into the College Football Playoff.",
+      "date": "2026-08-20",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
+    },
+    {
       "id": "01f68b37cf9f",
       "teamId": "yankees",
       "headline": "Blue Jays end Yankees' win streak at five",

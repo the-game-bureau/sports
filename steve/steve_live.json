@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "4d2b1c3fa6fd",
+          "teamId": "texas",
+          "headline": "Defense forces four turnovers in Texas scrimmage",
+          "summary": "The Texas defense took the ball away four times in Saturday's practice game in Austin. Arch Manning threw touchdown passes to Ryan Wingo and Emmett Mosley V, and coach Steve Sarkisian said the offense has to stop giving the ball away.",
+          "date": "2026-08-22",
+          "source": "The Katy News",
+          "url": "https://thekatynews.com/2026/08/22/texas-longhorns-defense-dominates-second-preseason-scrimmage/"
+        },
+        {
           "id": "49471f9a619b",
           "teamId": "texas",
           "headline": "Two Longhorns on top defender watch list",
@@ -134,15 +143,6 @@
           "date": "2026-08-21",
           "source": "Orangebloods",
           "url": "https://www.orangebloods.com/2026/08/21/linebacker-tyanthony-smith-leaves-longhorns/"
-        },
-        {
-          "id": "a4049b4099f0",
-          "teamId": "texas",
-          "headline": "Arch Manning named to Golden Arm Award watch list",
-          "summary": "For the second year in a row, Texas quarterback Arch Manning made the watch list for the nation's top upperclassman quarterback. It comes as No. 5 Texas looks to bounce back from last year's two early losses and get back into the College Football Playoff.",
-          "date": "2026-08-20",
-          "source": "Burnt Orange Nation",
-          "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
         }
       ]
     },
@@ -214,7 +214,7 @@
       "news": []
     },
     "yankees": {
-      "record": "73-56",
+      "record": "74-56",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Toronto Blue Jays",
@@ -231,13 +231,31 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 3,
-        "opponentScore": 4,
+        "result": "W",
+        "teamScore": 8,
+        "opponentScore": 3,
         "opponent": "Toronto Blue Jays",
-        "date": "2026-08-22"
+        "date": "2026-08-23"
       },
       "news": [
+        {
+          "id": "d4b9fdfb0a12",
+          "teamId": "yankees",
+          "headline": "Yankees beat Blue Jays 8-3",
+          "summary": "Ben Rice hit a two-run single in the sixth inning on Sunday to break the game open. Jazz Chisholm Jr. and Trent Grisham each hit a home run late as New York won for the sixth time in seven games.",
+          "date": "2026-08-23",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401816643"
+        },
+        {
+          "id": "9cb78aa55487",
+          "teamId": "yankees",
+          "headline": "Ryan Weathers goes on the injured list",
+          "summary": "The Yankees put the left-handed starter on the 15-day injured list Sunday with a strained muscle in his left forearm. Manager Aaron Boone said Weathers will not throw for two to four weeks but should pitch again this season.",
+          "date": "2026-08-23",
+          "source": "amNewYork",
+          "url": "https://www.amny.com/sports/ryan-weathers-injury-yankees-8-23-26/"
+        },
         {
           "id": "d2eac5793bea",
           "teamId": "yankees",
@@ -246,24 +264,6 @@
           "date": "2026-08-22",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/giancarlo-stanton-left-calf-strain-could-end-2026-season"
-        },
-        {
-          "id": "1d33c7a733b6",
-          "teamId": "yankees",
-          "headline": "Cody Bellinger back in the lineup Sunday",
-          "summary": "Bellinger said he will play Sunday against Toronto, his first game since he hurt his hamstring on July 25. He is batting .259 with 11 home runs this season.",
-          "date": "2026-08-22",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/cody-bellinger-yankees-hamstring-injury-rehab"
-        },
-        {
-          "id": "a9a340b5a57b",
-          "teamId": "yankees",
-          "headline": "Ryan Weathers leaves game with arm pain",
-          "summary": "The Yankees starter walked off in the fourth inning on Saturday with soreness in his left forearm. He has already pitched more innings this year than in any season of his career.",
-          "date": "2026-08-22",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49693944/new-york-yankees-starter-ryan-weathers-exits-4th-inning"
         }
       ]
     },
