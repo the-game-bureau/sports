@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "f1a8b41d2e90",
+          "teamId": "texas",
+          "headline": "Nobody hurt in Texas scrimmage, Goosby improving",
+          "summary": "Coach Steve Sarkisian said Texas ran 120 plays on Saturday without a new injury. Left tackle Trevor Goosby is making good progress on his bruised knee, and lineman Laurence Seymore returns to practice Monday.",
+          "date": "2026-08-22",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/texas/football/injury-updates-after-texas-longhorns-second-scrimmage-fall-camp"
+        },
+        {
           "id": "4d2b1c3fa6fd",
           "teamId": "texas",
           "headline": "Defense forces four turnovers in Texas scrimmage",
@@ -134,15 +143,6 @@
           "date": "2026-08-22",
           "source": "Burnt Orange Nation",
           "url": "https://www.burntorangenation.com/texas-longhorns-news/103976/longhorns-daily-news-texas-rasheem-biles-colin-simmons-land-on-chuck-bednarik-award-watch-list-for-second-consecutive-year"
-        },
-        {
-          "id": "e5d1e40c8230",
-          "teamId": "texas",
-          "headline": "Linebacker Ty'Anthony Smith leaves Texas",
-          "summary": "Junior linebacker Ty'Anthony Smith is no longer with the Longhorns. Texas loses a veteran at that spot two weeks before its first game.",
-          "date": "2026-08-21",
-          "source": "Orangebloods",
-          "url": "https://www.orangebloods.com/2026/08/21/linebacker-tyanthony-smith-leaves-longhorns/"
         }
       ]
     },
@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "a67cc0da76af",
+          "teamId": "saints",
+          "headline": "Rookie Christen Miller stands out in loss to Rams",
+          "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
+          "date": "2026-08-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+        },
+        {
           "id": "610d46216cdd",
           "teamId": "saints",
           "headline": "Rams shut out Saints 34-0",
@@ -188,15 +197,6 @@
           "date": "2026-08-22",
           "source": "Louisiana Sports",
           "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
-        },
-        {
-          "id": "915bc1d10da3",
-          "teamId": "saints",
-          "headline": "NFL fines Saints $500,000 for practice fights",
-          "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
-          "date": "2026-08-21",
-          "source": "NFL.com",
-          "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
         }
       ]
     },
@@ -217,10 +217,10 @@
       "record": "74-56",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Toronto Blue Jays",
-        "date": "2026-08-23",
-        "utc": "2026-08-23T17:35Z",
-        "time": "12:35 PM",
+        "opponent": "Houston Astros",
+        "date": "2026-08-25",
+        "utc": "2026-08-25T23:05Z",
+        "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "a67cc0da76af",
+          "teamId": "saints",
+          "headline": "Rookie Christen Miller stands out in loss to Rams",
+          "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
+          "date": "2026-08-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+        },
+        {
           "id": "610d46216cdd",
           "teamId": "saints",
           "headline": "Rams shut out Saints 34-0",
@@ -44,15 +53,6 @@
           "date": "2026-08-22",
           "source": "Louisiana Sports",
           "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
-        },
-        {
-          "id": "915bc1d10da3",
-          "teamId": "saints",
-          "headline": "NFL fines Saints $500,000 for practice fights",
-          "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
-          "date": "2026-08-21",
-          "source": "NFL.com",
-          "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
         }
       ]
     },
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "5080a5bc4775",
+          "teamId": "lsu",
+          "headline": "Browns cut tight end who plans to join LSU",
+          "summary": "Cleveland waived Dae'Quan Wright, who has agreed to play for LSU this season if he clears waivers. He played for coach Lane Kiffin at Ole Miss and won another year of college eligibility in court.",
+          "date": "2026-08-23",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49705433/agents-daequan-wright-waived-browns-set-join-lsu"
+        },
+        {
           "id": "76168a2794c1",
           "teamId": "lsu",
           "headline": "Durham breaks two long runs in LSU scrimmage",
@@ -140,15 +149,6 @@
           "date": "2026-08-22",
           "source": "Louisiana Sports",
           "url": "https://www.louisianasports.net/2026/08/22/clemson-dt-arrested-and-suspended/lsu-sports/"
-        },
-        {
-          "id": "46547e37671f",
-          "teamId": "lsu",
-          "headline": "Kiffin praises quarterback Sam Leavitt",
-          "summary": "Coach Lane Kiffin said Sam Leavitt has been awesome in camp and has the starting job settled. LSU held a closed scrimmage in Tiger Stadium on Saturday and opens the season against Clemson on September 5.",
-          "date": "2026-08-22",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-football-sam-leavitt-has-been-in-a-word-awesome-lane-kiffin-says/"
         }
       ]
     },

@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-23",
+    "updated": "2026-08-24",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "46547e37671f",
+      "teamId": "lsu",
+      "headline": "Kiffin praises quarterback Sam Leavitt",
+      "summary": "Coach Lane Kiffin said Sam Leavitt has been awesome in camp and has the starting job settled. LSU held a closed scrimmage in Tiger Stadium on Saturday and opens the season against Clemson on September 5.",
+      "date": "2026-08-22",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-football-sam-leavitt-has-been-in-a-word-awesome-lane-kiffin-says/"
+    },
+    {
+      "id": "915bc1d10da3",
+      "teamId": "saints",
+      "headline": "NFL fines Saints $500,000 for practice fights",
+      "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
+      "date": "2026-08-21",
+      "source": "NFL.com",
+      "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
+    },
     {
       "id": "db1418b3f2d7",
       "teamId": "lsu",
@@ -25,24 +43,6 @@
       "url": "https://www.louisianasports.net/2026/08/21/lsu-fall-camp-report-august-21/lsu-sports/"
     },
     {
-      "id": "b1412180fe87",
-      "teamId": "lsu",
-      "headline": "LSU lands eight players on All-SEC team",
-      "summary": "The Tigers' preseason Coaches All-SEC team includes five first-team picks, tying for the most in the league. It's a strong show of respect for Lane Kiffin's first LSU roster.",
-      "date": "2026-08-20",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/lsu/football/lsu-tigers-put-eight-players-on-preseason-coaches-all-sec-team"
-    },
-    {
-      "id": "484166c834af",
-      "teamId": "tulane",
-      "headline": "Four quarterbacks still fighting for the job",
-      "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
-      "date": "2026-08-16",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
-    },
-    {
       "id": "f01141ba7e97",
       "teamId": "saints",
       "headline": "Wilson and Rattler push for backup quarterback job",
@@ -50,6 +50,15 @@
       "date": "2026-08-21",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
+    },
+    {
+      "id": "b1412180fe87",
+      "teamId": "lsu",
+      "headline": "LSU lands eight players on All-SEC team",
+      "summary": "The Tigers' preseason Coaches All-SEC team includes five first-team picks, tying for the most in the league. It's a strong show of respect for Lane Kiffin's first LSU roster.",
+      "date": "2026-08-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-tigers-put-eight-players-on-preseason-coaches-all-sec-team"
     },
     {
       "id": "7df4ff2c5f54",
@@ -79,24 +88,6 @@
       "url": "https://lsusports.net/news/2026/08/18/three-tigers-on-ap-preseason-all-america-teams"
     },
     {
-      "id": "7bbc018fb7d6",
-      "teamId": "florida",
-      "headline": "QB battle still even after first scrimmage",
-      "summary": "Neither Aaron Philo nor Tramell Jones Jr. has separated himself in fall camp, coach Jon Sumrall said after Florida's first scrimmage. The competition is expected to continue right up until the season opener.",
-      "date": "2026-08-17",
-      "source": "WRUF",
-      "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
-    },
-    {
-      "id": "26a8f88cedd9",
-      "teamId": "tulane",
-      "headline": "Defense dominates in first fall scrimmage",
-      "summary": "Tulane's defense set the tone early in Saturday's first scrimmage, and coach Will Hall said the offense answered back in the red zone. The four-way quarterback race stays open with the season opener three weeks away.",
-      "date": "2026-08-15",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
-    },
-    {
       "id": "9c927efa32d5",
       "teamId": "saints",
       "headline": "Rookie receiver Jordyn Tyson out 8 weeks",
@@ -124,6 +115,15 @@
       "url": "https://www.andthevalleyshook.com/lsu-tigers-football/51718/treydez-green-named-to-walter-camp-award-watch-list"
     },
     {
+      "id": "7bbc018fb7d6",
+      "teamId": "florida",
+      "headline": "QB battle still even after first scrimmage",
+      "summary": "Neither Aaron Philo nor Tramell Jones Jr. has separated himself in fall camp, coach Jon Sumrall said after Florida's first scrimmage. The competition is expected to continue right up until the season opener.",
+      "date": "2026-08-17",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
+    },
+    {
       "id": "2b2be0a927cc",
       "teamId": "florida",
       "headline": "Florida left out of preseason AP Top 25",
@@ -149,6 +149,24 @@
       "date": "2026-08-17",
       "source": "WAFB",
       "url": "https://www.wafb.com/2026/08/17/where-lsu-football-ranks-ap-preseason-top-25-poll/"
+    },
+    {
+      "id": "484166c834af",
+      "teamId": "tulane",
+      "headline": "Four quarterbacks still fighting for the job",
+      "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
+      "date": "2026-08-16",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
+    },
+    {
+      "id": "26a8f88cedd9",
+      "teamId": "tulane",
+      "headline": "Defense dominates in first fall scrimmage",
+      "summary": "Tulane's defense set the tone early in Saturday's first scrimmage, and coach Will Hall said the offense answered back in the red zone. The four-way quarterback race stays open with the season opener three weeks away.",
+      "date": "2026-08-15",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
     }
   ]
 }
