@@ -28,6 +28,24 @@
       },
       "news": [
         {
+          "id": "120f6213a13a",
+          "teamId": "saints",
+          "headline": "Saints trade for running back Zamir White",
+          "summary": "The Saints got running back Zamir White from San Francisco and sent linebacker Deion Jones the other way. They needed help in the backfield with Alvin Kamara and Devin Neal both hurt.",
+          "date": "2026-08-24",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
+        },
+        {
+          "id": "5b5d1c377ca6",
+          "teamId": "saints",
+          "headline": "Saints sign kicker Daniel Carlson",
+          "summary": "New Orleans signed kicker Daniel Carlson on Monday. He has been an All-Pro twice and made 22 of his 27 field goal tries last season.",
+          "date": "2026-08-24",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
+        },
+        {
           "id": "a67cc0da76af",
           "teamId": "saints",
           "headline": "Rookie Christen Miller stands out in loss to Rams",
@@ -35,24 +53,6 @@
           "date": "2026-08-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
-        },
-        {
-          "id": "610d46216cdd",
-          "teamId": "saints",
-          "headline": "Rams shut out Saints 34-0",
-          "summary": "The Saints did not score in Saturday's preseason game at Los Angeles. They gave the ball away three times, were called for 12 penalties, and missed their only field goal try.",
-          "date": "2026-08-22",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-preseason-week-2-los-angeles-rams-vs-new-orleans-saints-game-recap"
-        },
-        {
-          "id": "ea986e02b664",
-          "teamId": "saints",
-          "headline": "Three Saints hurt in loss to Rams",
-          "summary": "Running back Devin Neal hurt a hamstring and tight end Moliki Matavao hurt a knee in the first half. Lineman Torricelli Simpkins left the game with a concussion.",
-          "date": "2026-08-22",
-          "source": "Louisiana Sports",
-          "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
         }
       ]
     },
@@ -76,6 +76,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "57eb154ff883",
+          "teamId": "florida",
+          "headline": "Aaron Philo will start at quarterback for Florida",
+          "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
+          "date": "2026-08-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
+        },
+        {
           "id": "5a69e0a2562c",
           "teamId": "florida",
           "headline": "Myles Graham makes top defender watch list",
@@ -92,15 +101,6 @@
           "date": "2026-08-20",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/five-florida-football-players-named-161554829.html"
-        },
-        {
-          "id": "3a6331fb4bf4",
-          "teamId": "florida",
-          "headline": "LJ McCray up for national comeback award",
-          "summary": "McCray broke his foot early last year and played only four snaps all season. He is back healthy and on the watch list for college football's Comeback Player of the Year award.",
-          "date": "2026-08-20",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
         }
       ]
     },

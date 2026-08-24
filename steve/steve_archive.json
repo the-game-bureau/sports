@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "ea986e02b664",
+      "teamId": "saints",
+      "headline": "Three Saints hurt in loss to Rams",
+      "summary": "Running back Devin Neal hurt a hamstring and tight end Moliki Matavao hurt a knee in the first half. Lineman Torricelli Simpkins left the game with a concussion.",
+      "date": "2026-08-22",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
+    },
+    {
+      "id": "610d46216cdd",
+      "teamId": "saints",
+      "headline": "Rams shut out Saints 34-0",
+      "summary": "The Saints did not score in Saturday's preseason game at Los Angeles. They gave the ball away three times, were called for 12 penalties, and missed their only field goal try.",
+      "date": "2026-08-22",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-preseason-week-2-los-angeles-rams-vs-new-orleans-saints-game-recap"
+    },
+    {
       "id": "1d33c7a733b6",
       "teamId": "yankees",
       "headline": "Cody Bellinger back in the lineup Sunday",
@@ -77,6 +95,15 @@
       "date": "2026-08-21",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401816613"
+    },
+    {
+      "id": "3a6331fb4bf4",
+      "teamId": "florida",
+      "headline": "LJ McCray up for national comeback award",
+      "summary": "McCray broke his foot early last year and played only four snaps all season. He is back healthy and on the watch list for college football's Comeback Player of the Year award.",
+      "date": "2026-08-20",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
     },
     {
       "id": "a4049b4099f0",
