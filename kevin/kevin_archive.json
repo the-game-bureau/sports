@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-08-24",
+    "updated": "2026-08-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -68,6 +68,15 @@
       "date": "2026-08-21",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
+    },
+    {
+      "id": "5e7920fd5089",
+      "teamId": "tulane",
+      "headline": "Tulane linebacker makes national comeback list",
+      "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
+      "date": "2026-08-20",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
     },
     {
       "id": "3a6331fb4bf4",

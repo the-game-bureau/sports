@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -172,6 +172,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "931a769988df",
+          "teamId": "tulane",
+          "headline": "Zeon Chriss-Gremillion will start at quarterback",
+          "summary": "Coach Will Hall picked Chriss-Gremillion to start Tulane's opener at Duke on September 5. He has started 13 college games, first at Louisiana and then at Houston.",
+          "date": "2026-08-24",
+          "source": "Underdog Dynasty",
+          "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
+        },
+        {
           "id": "0ed2ee917188",
           "teamId": "tulane",
           "headline": "Two quarterbacks lead the way in last scrimmage",
@@ -188,15 +197,6 @@
           "date": "2026-08-21",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulanes-tchienchou-named-to-2026-chuck-bednarik-award-watch-list/"
-        },
-        {
-          "id": "5e7920fd5089",
-          "teamId": "tulane",
-          "headline": "Tulane linebacker makes national comeback list",
-          "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
-          "date": "2026-08-20",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
         }
       ]
     }

@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-24",
+    "updated": "2026-08-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "49471f9a619b",
+      "teamId": "texas",
+      "headline": "Two Longhorns on top defender watch list",
+      "summary": "Rasheem Biles and Colin Simmons were named to the watch list for the Chuck Bednarik Award, which goes to the best defensive player in college football. Both made the list last year too.",
+      "date": "2026-08-22",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-news/103976/longhorns-daily-news-texas-rasheem-biles-colin-simmons-land-on-chuck-bednarik-award-watch-list-for-second-consecutive-year"
+    },
     {
       "id": "ea986e02b664",
       "teamId": "saints",
@@ -95,6 +104,15 @@
       "date": "2026-08-21",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401816613"
+    },
+    {
+      "id": "5e7920fd5089",
+      "teamId": "tulane",
+      "headline": "Tulane linebacker makes national comeback list",
+      "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
+      "date": "2026-08-20",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
     },
     {
       "id": "3a6331fb4bf4",
