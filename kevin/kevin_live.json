@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "9483cba6bfca",
+          "teamId": "saints",
+          "headline": "Cornerback Rejzohn Wright out for the season",
+          "summary": "Wright hurt his hip and needs surgery. The Saints put him on the injured list, so he will miss the whole season.",
+          "date": "2026-08-25",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
+        },
+        {
           "id": "120f6213a13a",
           "teamId": "saints",
           "headline": "Saints trade for running back Zamir White",
@@ -44,15 +53,6 @@
           "date": "2026-08-24",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
-        },
-        {
-          "id": "a67cc0da76af",
-          "teamId": "saints",
-          "headline": "Rookie Christen Miller stands out in loss to Rams",
-          "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
-          "date": "2026-08-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
         }
       ]
     },
@@ -124,6 +124,24 @@
       "lastGame": null,
       "news": [
         {
+          "id": "d103a3e79d71",
+          "teamId": "lsu",
+          "headline": "Zxavian Harris joins LSU after Saints cut him",
+          "summary": "Harris is a 6-foot-8 defensive tackle who started every game for Ole Miss last season. The Saints let him go on Aug. 8, and now he will play for Lane Kiffin at LSU.",
+          "date": "2026-08-24",
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/08/24/former-saints-dl-zxavian-harris-commits-to-lsu/lsu-sports/"
+        },
+        {
+          "id": "e22dfc882707",
+          "teamId": "lsu",
+          "headline": "SEC says pro players should not return to college",
+          "summary": "A judge let some players who had signed pro contracts come back to school, and LSU has picked up three of them. On Monday night the SEC said players who turn pro should not be allowed to play college football again.",
+          "date": "2026-08-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49716985/pro-athletes-not-return-college-competition"
+        },
+        {
           "id": "5080a5bc4775",
           "teamId": "lsu",
           "headline": "Browns cut tight end who plans to join LSU",
@@ -131,24 +149,6 @@
           "date": "2026-08-23",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/49705433/agents-daequan-wright-waived-browns-set-join-lsu"
-        },
-        {
-          "id": "76168a2794c1",
-          "teamId": "lsu",
-          "headline": "Durham breaks two long runs in LSU scrimmage",
-          "summary": "Running back Caden Durham ripped off two runs of more than 70 yards in LSU's last scrimmage on Saturday in Tiger Stadium. Kicker Scott Starzyk made three field goals from beyond 50 yards, the longest from 58.",
-          "date": "2026-08-22",
-          "source": "Louisiana Sports",
-          "url": "https://www.louisianasports.net/2026/08/22/lsu-scrimmage-report-leavitt-shines-durham-explodes/lsu-sports/"
-        },
-        {
-          "id": "a093c92b231d",
-          "teamId": "lsu",
-          "headline": "Clemson lineman suspended before LSU opener",
-          "summary": "Clemson defensive tackle Vic Burley was arrested early Saturday and charged with disorderly conduct. Coach Dabo Swinney suspended him from the team, and LSU opens against Clemson on September 5.",
-          "date": "2026-08-22",
-          "source": "Louisiana Sports",
-          "url": "https://www.louisianasports.net/2026/08/22/clemson-dt-arrested-and-suspended/lsu-sports/"
         }
       ]
     },

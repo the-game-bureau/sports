@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "a67cc0da76af",
+      "teamId": "saints",
+      "headline": "Rookie Christen Miller stands out in loss to Rams",
+      "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
+      "date": "2026-08-23",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+    },
+    {
+      "id": "76168a2794c1",
+      "teamId": "lsu",
+      "headline": "Durham breaks two long runs in LSU scrimmage",
+      "summary": "Running back Caden Durham ripped off two runs of more than 70 yards in LSU's last scrimmage on Saturday in Tiger Stadium. Kicker Scott Starzyk made three field goals from beyond 50 yards, the longest from 58.",
+      "date": "2026-08-22",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/08/22/lsu-scrimmage-report-leavitt-shines-durham-explodes/lsu-sports/"
+    },
+    {
+      "id": "a093c92b231d",
+      "teamId": "lsu",
+      "headline": "Clemson lineman suspended before LSU opener",
+      "summary": "Clemson defensive tackle Vic Burley was arrested early Saturday and charged with disorderly conduct. Coach Dabo Swinney suspended him from the team, and LSU opens against Clemson on September 5.",
+      "date": "2026-08-22",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/08/22/clemson-dt-arrested-and-suspended/lsu-sports/"
+    },
+    {
       "id": "ea986e02b664",
       "teamId": "saints",
       "headline": "Three Saints hurt in loss to Rams",

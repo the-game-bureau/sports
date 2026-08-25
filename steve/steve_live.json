@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "9483cba6bfca",
+          "teamId": "saints",
+          "headline": "Cornerback Rejzohn Wright out for the season",
+          "summary": "Wright hurt his hip and needs surgery. The Saints put him on the injured list, so he will miss the whole season.",
+          "date": "2026-08-25",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
+        },
+        {
           "id": "120f6213a13a",
           "teamId": "saints",
           "headline": "Saints trade for running back Zamir White",
@@ -188,15 +197,6 @@
           "date": "2026-08-24",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
-        },
-        {
-          "id": "a67cc0da76af",
-          "teamId": "saints",
-          "headline": "Rookie Christen Miller stands out in loss to Rams",
-          "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
-          "date": "2026-08-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
         }
       ]
     },
