@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "9483cba6bfca",
+      "teamId": "saints",
+      "headline": "Cornerback Rejzohn Wright out for the season",
+      "summary": "Wright hurt his hip and needs surgery. The Saints put him on the injured list, so he will miss the whole season.",
+      "date": "2026-08-25",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
+    },
+    {
       "id": "5b5d1c377ca6",
       "teamId": "saints",
       "headline": "Saints sign kicker Daniel Carlson",
@@ -23,6 +32,15 @@
       "date": "2026-08-24",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
+    },
+    {
+      "id": "9cb78aa55487",
+      "teamId": "yankees",
+      "headline": "Ryan Weathers goes on the injured list",
+      "summary": "The Yankees put the left-handed starter on the 15-day injured list Sunday with a strained muscle in his left forearm. Manager Aaron Boone said Weathers will not throw for two to four weeks but should pitch again this season.",
+      "date": "2026-08-23",
+      "source": "amNewYork",
+      "url": "https://www.amny.com/sports/ryan-weathers-injury-yankees-8-23-26/"
     },
     {
       "id": "a67cc0da76af",

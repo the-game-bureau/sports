@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "4fc3b8048eab",
+          "teamId": "saints",
+          "headline": "Saints add two defensive backs",
+          "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
+          "date": "2026-08-26",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
+        },
+        {
           "id": "80c8bedc821e",
           "teamId": "saints",
           "headline": "Two Saints out for the season with knee injuries",
@@ -188,15 +197,6 @@
           "date": "2026-08-25",
           "source": "WWL Radio",
           "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
-        },
-        {
-          "id": "9483cba6bfca",
-          "teamId": "saints",
-          "headline": "Cornerback Rejzohn Wright out for the season",
-          "summary": "Wright hurt his hip and needs surgery. The Saints put him on the injured list, so he will miss the whole season.",
-          "date": "2026-08-25",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
         }
       ]
     },
@@ -239,6 +239,15 @@
       },
       "news": [
         {
+          "id": "bb9905be26b1",
+          "teamId": "yankees",
+          "headline": "Fernando Cruz goes on the injured list",
+          "summary": "The Yankees put the relief pitcher on the 15-day injured list Wednesday with a sore right elbow. They signed pitcher Michael Fulmer and called up Elmer Rodriguez to take the innings.",
+          "date": "2026-08-26",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-injuries-and-roster-moves"
+        },
+        {
           "id": "94eb55d044e6",
           "teamId": "yankees",
           "headline": "Astros beat Yankees 9-7",
@@ -255,15 +264,6 @@
           "date": "2026-08-23",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap?gameId=401816643"
-        },
-        {
-          "id": "9cb78aa55487",
-          "teamId": "yankees",
-          "headline": "Ryan Weathers goes on the injured list",
-          "summary": "The Yankees put the left-handed starter on the 15-day injured list Sunday with a strained muscle in his left forearm. Manager Aaron Boone said Weathers will not throw for two to four weeks but should pitch again this season.",
-          "date": "2026-08-23",
-          "source": "amNewYork",
-          "url": "https://www.amny.com/sports/ryan-weathers-injury-yankees-8-23-26/"
         }
       ]
     },
