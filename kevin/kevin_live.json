@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,24 @@
       },
       "news": [
         {
+          "id": "80c8bedc821e",
+          "teamId": "saints",
+          "headline": "Two Saints out for the season with knee injuries",
+          "summary": "Running back Ty Chandler and tight end Moliki Matavao were both put on injured reserve Tuesday. Both got hurt in Saturday's game against the Rams, and neither will play again this year.",
+          "date": "2026-08-25",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
+        },
+        {
+          "id": "ab5904c57122",
+          "teamId": "saints",
+          "headline": "Chris Olave hurt at practice, coach says it is minor",
+          "summary": "The receiver landed on his back late in Tuesday's practice and had the wind knocked out of him. Coach Kellen Moore said the injury looks minor.",
+          "date": "2026-08-25",
+          "source": "WWL Radio",
+          "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
+        },
+        {
           "id": "9483cba6bfca",
           "teamId": "saints",
           "headline": "Cornerback Rejzohn Wright out for the season",
@@ -35,24 +53,6 @@
           "date": "2026-08-25",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
-        },
-        {
-          "id": "120f6213a13a",
-          "teamId": "saints",
-          "headline": "Saints trade for running back Zamir White",
-          "summary": "The Saints got running back Zamir White from San Francisco and sent linebacker Deion Jones the other way. They needed help in the backfield with Alvin Kamara and Devin Neal both hurt.",
-          "date": "2026-08-24",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
-        },
-        {
-          "id": "5b5d1c377ca6",
-          "teamId": "saints",
-          "headline": "Saints sign kicker Daniel Carlson",
-          "summary": "New Orleans signed kicker Daniel Carlson on Monday. He has been an All-Pro twice and made 22 of his 27 field goal tries last season.",
-          "date": "2026-08-24",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
         }
       ]
     },
@@ -124,6 +124,24 @@
       "lastGame": null,
       "news": [
         {
+          "id": "f6eb95a9180c",
+          "teamId": "lsu",
+          "headline": "SEC bans pro players from returning to college",
+          "summary": "SEC schools voted 16-0 on Tuesday to keep anyone who has played pro football or basketball off their rosters. The rule blocks the two former NFL players LSU planned to add.",
+          "date": "2026-08-26",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49726430/sec-draws-rule-stop-nfl-nba-wnba-players-returning"
+        },
+        {
+          "id": "f52aa451ddfd",
+          "teamId": "lsu",
+          "headline": "Kiffin says other schools have a double standard",
+          "summary": "The LSU coach said schools have used court rulings to add players for years and only complained when LSU did it. He spoke about it Tuesday on a national radio show.",
+          "date": "2026-08-26",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49724296/kiffin-conferences-using-double-standard-court-orders"
+        },
+        {
           "id": "d103a3e79d71",
           "teamId": "lsu",
           "headline": "Zxavian Harris joins LSU after Saints cut him",
@@ -131,24 +149,6 @@
           "date": "2026-08-24",
           "source": "Louisiana Sports",
           "url": "https://www.louisianasports.net/2026/08/24/former-saints-dl-zxavian-harris-commits-to-lsu/lsu-sports/"
-        },
-        {
-          "id": "e22dfc882707",
-          "teamId": "lsu",
-          "headline": "SEC says pro players should not return to college",
-          "summary": "A judge let some players who had signed pro contracts come back to school, and LSU has picked up three of them. On Monday night the SEC said players who turn pro should not be allowed to play college football again.",
-          "date": "2026-08-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/49716985/pro-athletes-not-return-college-competition"
-        },
-        {
-          "id": "5080a5bc4775",
-          "teamId": "lsu",
-          "headline": "Browns cut tight end who plans to join LSU",
-          "summary": "Cleveland waived Dae'Quan Wright, who has agreed to play for LSU this season if he clears waivers. He played for coach Lane Kiffin at Ole Miss and won another year of college eligibility in court.",
-          "date": "2026-08-23",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/49705433/agents-daequan-wright-waived-browns-set-join-lsu"
         }
       ]
     },
