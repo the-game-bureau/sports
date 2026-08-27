@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-26",
+    "updated": "2026-08-27",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "ab5904c57122",
+      "teamId": "saints",
+      "headline": "Chris Olave hurt at practice, coach says it is minor",
+      "summary": "The receiver landed on his back late in Tuesday's practice and had the wind knocked out of him. Coach Kellen Moore said the injury looks minor.",
+      "date": "2026-08-25",
+      "source": "WWL Radio",
+      "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
+    },
     {
       "id": "9483cba6bfca",
       "teamId": "saints",

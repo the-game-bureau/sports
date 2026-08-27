@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "62d1bab94ea4",
+          "teamId": "saints",
+          "headline": "Saints will rest starters in Friday game at Dallas",
+          "summary": "Coach Kellen Moore said most of the starters will not play in the last preseason game at Dallas on Friday night. They already got their work in during three joint practices with the Cowboys.",
+          "date": "2026-08-26",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-starters-will-sit-out-preseason-finale-against-dallas-2026"
+        },
+        {
           "id": "4fc3b8048eab",
           "teamId": "saints",
           "headline": "Saints add two defensive backs",
@@ -188,15 +197,6 @@
           "date": "2026-08-25",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
-        },
-        {
-          "id": "ab5904c57122",
-          "teamId": "saints",
-          "headline": "Chris Olave hurt at practice, coach says it is minor",
-          "summary": "The receiver landed on his back late in Tuesday's practice and had the wind knocked out of him. Coach Kellen Moore said the injury looks minor.",
-          "date": "2026-08-25",
-          "source": "WWL Radio",
-          "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
         }
       ]
     },
@@ -211,33 +211,52 @@
         "city": "Findlay, OH"
       },
       "lastGame": null,
-      "news": []
+      "news": [
+        {
+          "id": "a15dc27e2cf8",
+          "teamId": "iup",
+          "headline": "IUP volleyball picked second in its division",
+          "summary": "Coaches picked the Crimson Hawks second in the PSAC West, behind Gannon. IUP went 9-5 in the division last season and brings back three all-conference players.",
+          "date": "2026-08-13",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/8/13/womens-volleyball-iup-volleyball-picked-second-in-psac-west-preseason-poll.aspx"
+        }
+      ]
     },
     "yankees": {
-      "record": "74-57",
+      "record": "75-57",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Houston Astros",
-        "date": "2026-08-26",
-        "utc": "2026-08-26T23:05Z",
+        "date": "2026-08-27",
+        "utc": "2026-08-27T23:05Z",
         "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "ESPN Unlimited",
-          "logo": "images/espnplus.webp",
+          "name": "YES Network",
+          "logo": "",
           "url": "",
-          "note": "Comes with YouTube TV. Watch it in the ESPN app."
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 7,
-        "opponentScore": 9,
+        "result": "W",
+        "teamScore": 9,
+        "opponentScore": 3,
         "opponent": "Houston Astros",
-        "date": "2026-08-25"
+        "date": "2026-08-26"
       },
       "news": [
+        {
+          "id": "4c0f1cf61297",
+          "teamId": "yankees",
+          "headline": "Yankees beat Astros 9-3",
+          "summary": "Cody Bellinger hit a bases-loaded double in the seventh inning Wednesday night to put New York ahead. Pitcher Elmer Rodriguez had the best start of his career, and the Yankees evened the series.",
+          "date": "2026-08-26",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401816682"
+        },
         {
           "id": "bb9905be26b1",
           "teamId": "yankees",
@@ -255,15 +274,6 @@
           "date": "2026-08-25",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap?gameId=401816667"
-        },
-        {
-          "id": "d4b9fdfb0a12",
-          "teamId": "yankees",
-          "headline": "Yankees beat Blue Jays 8-3",
-          "summary": "Ben Rice hit a two-run single in the sixth inning on Sunday to break the game open. Jazz Chisholm Jr. and Trent Grisham each hit a home run late as New York won for the sixth time in seven games.",
-          "date": "2026-08-23",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816643"
         }
       ]
     },
