@@ -201,12 +201,12 @@
       ]
     },
     "iup": {
-      "record": "0-1",
+      "record": "0-2",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Hillsdale Chargers",
+        "opponent": "Northwood Timberwolves",
         "date": "2026-08-28",
-        "time": "11:15 AM",
+        "time": "3:45 PM",
         "venue": "Wayne State Invitational",
         "city": "Detroit, MI"
       },
@@ -214,10 +214,19 @@
         "result": "L",
         "teamScore": 1,
         "opponentScore": 3,
-        "opponent": "Findlay Oilers",
-        "date": "2026-08-27"
+        "opponent": "Hillsdale Chargers",
+        "date": "2026-08-28"
       },
       "news": [
+        {
+          "id": "af52cf2cb0ea",
+          "teamId": "iup",
+          "headline": "Hillsdale beats IUP in four sets",
+          "summary": "The Crimson Hawks won the first set Friday in Detroit and then lost the next three. Delaney Concannon and Jessica Neiman each had 12 kills, and Elliott Rauch handed out 21 assists.",
+          "date": "2026-08-28",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/hillsdale-college/boxscore/15315"
+        },
         {
           "id": "4ad91b5ed94e",
           "teamId": "iup",
@@ -264,6 +273,15 @@
       },
       "news": [
         {
+          "id": "17906980f6bd",
+          "teamId": "yankees",
+          "headline": "Lombard makes an error in six straight games",
+          "summary": "Rookie shortstop George Lombard Jr. made an error in Thursday night's 5-1 loss to Houston. It was his sixth game in a row with one, something no Yankee had done since 1921.",
+          "date": "2026-08-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
+        },
+        {
           "id": "c553df49206f",
           "teamId": "yankees",
           "headline": "Astros beat Yankees 5-1 to take the series",
@@ -280,15 +298,6 @@
           "date": "2026-08-27",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/49746969/yankees-aaron-judge-need-rehab-stint-once-cleared"
-        },
-        {
-          "id": "3c25b17dff05",
-          "teamId": "yankees",
-          "headline": "Fernando Cruz has a partly torn elbow ligament",
-          "summary": "Manager Aaron Boone said Wednesday that a scan found the tear in the relief pitcher's right elbow. Cruz may need surgery, and he could miss the rest of the season either way.",
-          "date": "2026-08-27",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
         }
       ]
     },

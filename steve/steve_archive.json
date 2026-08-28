@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "3c25b17dff05",
+      "teamId": "yankees",
+      "headline": "Fernando Cruz has a partly torn elbow ligament",
+      "summary": "Manager Aaron Boone said Wednesday that a scan found the tear in the relief pitcher's right elbow. Cruz may need surgery, and he could miss the rest of the season either way.",
+      "date": "2026-08-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
+    },
+    {
       "id": "4c0f1cf61297",
       "teamId": "yankees",
       "headline": "Yankees beat Astros 9-3",

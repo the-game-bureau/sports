@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "4fb24a9f8f82",
+          "teamId": "lsu",
+          "headline": "Judge puts the SEC's new player rule on hold",
+          "summary": "A judge in Texas ruled Thursday that the SEC cannot enforce its new ban on former pro players joining college teams. LSU has two former pro players who want to play there this season.",
+          "date": "2026-08-27",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/texas-judge-sec-former-pro-athletes/"
+        },
+        {
           "id": "544844f2b051",
           "teamId": "lsu",
           "headline": "SEC will suspend coaches who sign pro players",
@@ -140,15 +149,6 @@
           "date": "2026-08-27",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/secs-ban-on-lsus-nfl-commitments-is-illegal-says-their-attorney-tony-clayton/"
-        },
-        {
-          "id": "d5fcfe44ecc8",
-          "teamId": "lsu",
-          "headline": "Whit Weeks and Trey'Dez Green will wear No. 7",
-          "summary": "LSU gave its famous No. 7 jersey to linebacker Whit Weeks and tight end Trey'Dez Green. The number goes to the team's best playmakers, and past winners include Patrick Peterson and Ja'Marr Chase.",
-          "date": "2026-08-26",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/08/27/footballs-green-whit-weeks-to-wear-no-7-in-2026"
         }
       ]
     },
