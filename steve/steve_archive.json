@@ -2,18 +2,27 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "d4b9fdfb0a12",
+      "id": "4c0f1cf61297",
       "teamId": "yankees",
-      "headline": "Yankees beat Blue Jays 8-3",
-      "summary": "Ben Rice hit a two-run single in the sixth inning on Sunday to break the game open. Jazz Chisholm Jr. and Trent Grisham each hit a home run late as New York won for the sixth time in seven games.",
-      "date": "2026-08-23",
+      "headline": "Yankees beat Astros 9-3",
+      "summary": "Cody Bellinger hit a bases-loaded double in the seventh inning Wednesday night to put New York ahead. Pitcher Elmer Rodriguez had the best start of his career, and the Yankees evened the series.",
+      "date": "2026-08-26",
       "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816643"
+      "url": "https://www.espn.com/mlb/recap?gameId=401816682"
+    },
+    {
+      "id": "bb9905be26b1",
+      "teamId": "yankees",
+      "headline": "Fernando Cruz goes on the injured list",
+      "summary": "The Yankees put the relief pitcher on the 15-day injured list Wednesday with a sore right elbow. They signed pitcher Michael Fulmer and called up Elmer Rodriguez to take the innings.",
+      "date": "2026-08-26",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/yankees-injuries-and-roster-moves"
     },
     {
       "id": "ab5904c57122",
@@ -34,6 +43,24 @@
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
     },
     {
+      "id": "80c8bedc821e",
+      "teamId": "saints",
+      "headline": "Two Saints out for the season with knee injuries",
+      "summary": "Running back Ty Chandler and tight end Moliki Matavao were both put on injured reserve Tuesday. Both got hurt in Saturday's game against the Rams, and neither will play again this year.",
+      "date": "2026-08-25",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
+    },
+    {
+      "id": "94eb55d044e6",
+      "teamId": "yankees",
+      "headline": "Astros beat Yankees 9-7",
+      "summary": "Yordan Alvarez hit a go-ahead triple in the eighth inning Tuesday night at Yankee Stadium. Cody Bellinger and Luis Garcia Jr. homered for New York, but the bullpen gave up the lead.",
+      "date": "2026-08-25",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap?gameId=401816667"
+    },
+    {
       "id": "5b5d1c377ca6",
       "teamId": "saints",
       "headline": "Saints sign kicker Daniel Carlson",
@@ -50,6 +77,15 @@
       "date": "2026-08-24",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
+    },
+    {
+      "id": "d4b9fdfb0a12",
+      "teamId": "yankees",
+      "headline": "Yankees beat Blue Jays 8-3",
+      "summary": "Ben Rice hit a two-run single in the sixth inning on Sunday to break the game open. Jazz Chisholm Jr. and Trent Grisham each hit a home run late as New York won for the sixth time in seven games.",
+      "date": "2026-08-23",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap?gameId=401816643"
     },
     {
       "id": "9cb78aa55487",

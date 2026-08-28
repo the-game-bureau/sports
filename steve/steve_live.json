@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "b9682dcfdbdb",
+          "teamId": "saints",
+          "headline": "Three kickers still fighting for the Saints job",
+          "summary": "Tanner Brown made all eight of his field goal tries at Wednesday's practice, while Charlie Smyth and Daniel Carlson each missed one. Coach Kellen Moore says he wants to see them kick in Friday's game at Dallas before he picks one.",
+          "date": "2026-08-27",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/several-saints-prepare-to-make-a-final-case-for-roster-spots-in-the-preseason-finale"
+        },
+        {
           "id": "62d1bab94ea4",
           "teamId": "saints",
           "headline": "Saints will rest starters in Friday game at Dallas",
@@ -188,30 +197,36 @@
           "date": "2026-08-26",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
-        },
-        {
-          "id": "80c8bedc821e",
-          "teamId": "saints",
-          "headline": "Two Saints out for the season with knee injuries",
-          "summary": "Running back Ty Chandler and tight end Moliki Matavao were both put on injured reserve Tuesday. Both got hurt in Saturday's game against the Rams, and neither will play again this year.",
-          "date": "2026-08-25",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
         }
       ]
     },
     "iup": {
-      "record": "0-0",
+      "record": "0-1",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Findlay Oilers",
-        "date": "2026-08-27",
-        "time": "6:00 PM",
-        "venue": "",
-        "city": "Findlay, OH"
+        "opponent": "Hillsdale Chargers",
+        "date": "2026-08-28",
+        "time": "11:15 AM",
+        "venue": "Wayne State Invitational",
+        "city": "Detroit, MI"
       },
-      "lastGame": null,
+      "lastGame": {
+        "result": "L",
+        "teamScore": 1,
+        "opponentScore": 3,
+        "opponent": "Findlay Oilers",
+        "date": "2026-08-27"
+      },
       "news": [
+        {
+          "id": "4ad91b5ed94e",
+          "teamId": "iup",
+          "headline": "Findlay beats IUP in the season opener",
+          "summary": "The Crimson Hawks lost in four sets Thursday at Findlay, 27-25, 26-24, 19-25, 25-23. Jessica Neiman led IUP with 12 kills and Delaney Concannon added 9 kills and 12 digs.",
+          "date": "2026-08-27",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/8/27/womens-volleyball-iup-volleyball-drops-season-opener-in-four-sets-at-findlay.aspx"
+        },
         {
           "id": "a15dc27e2cf8",
           "teamId": "iup",
@@ -224,56 +239,56 @@
       ]
     },
     "yankees": {
-      "record": "75-57",
+      "record": "75-58",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Houston Astros",
-        "date": "2026-08-27",
-        "utc": "2026-08-27T23:05Z",
-        "time": "6:05 PM",
+        "opponent": "Boston Red Sox",
+        "date": "2026-08-28",
+        "utc": "2026-08-28T23:15Z",
+        "time": "6:15 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "YES Network",
-          "logo": "",
+          "name": "Apple TV",
+          "logo": "images/appletvplus.png",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
+          "note": "Not on YouTube TV — stream on Apple TV"
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 9,
-        "opponentScore": 3,
+        "result": "L",
+        "teamScore": 1,
+        "opponentScore": 5,
         "opponent": "Houston Astros",
-        "date": "2026-08-26"
+        "date": "2026-08-27"
       },
       "news": [
         {
-          "id": "4c0f1cf61297",
+          "id": "c553df49206f",
           "teamId": "yankees",
-          "headline": "Yankees beat Astros 9-3",
-          "summary": "Cody Bellinger hit a bases-loaded double in the seventh inning Wednesday night to put New York ahead. Pitcher Elmer Rodriguez had the best start of his career, and the Yankees evened the series.",
-          "date": "2026-08-26",
+          "headline": "Astros beat Yankees 5-1 to take the series",
+          "summary": "Christian Walker had three hits and a two-run home run off Gerrit Cole on Thursday night. Houston won two of the three games in the Bronx.",
+          "date": "2026-08-27",
           "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816682"
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816696/astros-yankees"
         },
         {
-          "id": "bb9905be26b1",
+          "id": "2fc2a21f25b7",
           "teamId": "yankees",
-          "headline": "Fernando Cruz goes on the injured list",
-          "summary": "The Yankees put the relief pitcher on the 15-day injured list Wednesday with a sore right elbow. They signed pitcher Michael Fulmer and called up Elmer Rodriguez to take the innings.",
-          "date": "2026-08-26",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/yankees-injuries-and-roster-moves"
+          "headline": "Aaron Judge does not want a minor league rehab stint",
+          "summary": "Judge said Thursday he plans to come straight back to the Yankees once doctors clear him. He is still healing a small crack in a rib.",
+          "date": "2026-08-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/49746969/yankees-aaron-judge-need-rehab-stint-once-cleared"
         },
         {
-          "id": "94eb55d044e6",
+          "id": "3c25b17dff05",
           "teamId": "yankees",
-          "headline": "Astros beat Yankees 9-7",
-          "summary": "Yordan Alvarez hit a go-ahead triple in the eighth inning Tuesday night at Yankee Stadium. Cody Bellinger and Luis Garcia Jr. homered for New York, but the bullpen gave up the lead.",
-          "date": "2026-08-25",
+          "headline": "Fernando Cruz has a partly torn elbow ligament",
+          "summary": "Manager Aaron Boone said Wednesday that a scan found the tear in the relief pitcher's right elbow. Cruz may need surgery, and he could miss the rest of the season either way.",
+          "date": "2026-08-27",
           "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816667"
+          "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
         }
       ]
     },

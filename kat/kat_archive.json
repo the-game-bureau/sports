@@ -2,7 +2,7 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,24 @@
       "date": "2026-08-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/49724296/kiffin-conferences-using-double-standard-court-orders"
+    },
+    {
+      "id": "f6eb95a9180c",
+      "teamId": "lsu",
+      "headline": "SEC bans pro players from returning to college",
+      "summary": "SEC schools voted 16-0 on Tuesday to keep anyone who has played pro football or basketball off their rosters. The rule blocks the two former NFL players LSU planned to add.",
+      "date": "2026-08-26",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49726430/sec-draws-rule-stop-nfl-nba-wnba-players-returning"
+    },
+    {
+      "id": "15b64b04d204",
+      "teamId": "lsu",
+      "headline": "Braelin Moore will wear LSU's No. 18 jersey",
+      "summary": "LSU gives the No. 18 to the player it thinks leads the team best, and it picked its starting center on Wednesday. Moore will wear it as a patch for the first time against Clemson on September 5.",
+      "date": "2026-08-26",
+      "source": "The Reveille",
+      "url": "https://lsureveille.com/285622/tigertv/tiger-tv-trending-story-1/lsu-football-awards-braelin-moore-the-prestigious-no-18-jersey/"
     },
     {
       "id": "ab5904c57122",
@@ -32,6 +50,15 @@
       "date": "2026-08-25",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
+    },
+    {
+      "id": "80c8bedc821e",
+      "teamId": "saints",
+      "headline": "Two Saints out for the season with knee injuries",
+      "summary": "Running back Ty Chandler and tight end Moliki Matavao were both put on injured reserve Tuesday. Both got hurt in Saturday's game against the Rams, and neither will play again this year.",
+      "date": "2026-08-25",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
     },
     {
       "id": "d103a3e79d71",
