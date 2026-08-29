@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "17906980f6bd",
+      "teamId": "yankees",
+      "headline": "Lombard makes an error in six straight games",
+      "summary": "Rookie shortstop George Lombard Jr. made an error in Thursday night's 5-1 loss to Houston. It was his sixth game in a row with one, something no Yankee had done since 1921.",
+      "date": "2026-08-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
+    },
+    {
+      "id": "4ad91b5ed94e",
+      "teamId": "iup",
+      "headline": "Findlay beats IUP in the season opener",
+      "summary": "The Crimson Hawks lost in four sets Thursday at Findlay, 27-25, 26-24, 19-25, 25-23. Jessica Neiman led IUP with 12 kills and Delaney Concannon added 9 kills and 12 digs.",
+      "date": "2026-08-27",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/27/womens-volleyball-iup-volleyball-drops-season-opener-in-four-sets-at-findlay.aspx"
+    },
+    {
       "id": "c553df49206f",
       "teamId": "yankees",
       "headline": "Astros beat Yankees 5-1 to take the series",

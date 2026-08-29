@@ -201,23 +201,32 @@
       ]
     },
     "iup": {
-      "record": "1-2",
+      "record": "1-3",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Quincy University",
+        "opponent": "Wayne State Warriors",
         "date": "2026-08-29",
-        "time": "9:00 AM",
+        "time": "4:00 PM",
         "venue": "Wayne State Invitational",
         "city": "Detroit, MI"
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 3,
-        "opponentScore": 2,
-        "opponent": "Northwood Timberwolves",
-        "date": "2026-08-28"
+        "result": "L",
+        "teamScore": 1,
+        "opponentScore": 3,
+        "opponent": "Quincy University",
+        "date": "2026-08-29"
       },
       "news": [
+        {
+          "id": "dca88cff0a0d",
+          "teamId": "iup",
+          "headline": "Quincy beats IUP in four sets",
+          "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
+          "date": "2026-08-29",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
+        },
         {
           "id": "6f0a0aa31bd8",
           "teamId": "iup",
@@ -235,43 +244,43 @@
           "date": "2026-08-28",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/hillsdale-college/boxscore/15315"
-        },
-        {
-          "id": "4ad91b5ed94e",
-          "teamId": "iup",
-          "headline": "Findlay beats IUP in the season opener",
-          "summary": "The Crimson Hawks lost in four sets Thursday at Findlay, 27-25, 26-24, 19-25, 25-23. Jessica Neiman led IUP with 12 kills and Delaney Concannon added 9 kills and 12 digs.",
-          "date": "2026-08-27",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/8/27/womens-volleyball-iup-volleyball-drops-season-opener-in-four-sets-at-findlay.aspx"
         }
       ]
     },
     "yankees": {
-      "record": "76-58",
+      "record": "76-59",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Boston Red Sox",
         "date": "2026-08-29",
-        "utc": "2026-08-29T17:05Z",
-        "time": "12:05 PM",
+        "utc": "2026-08-29T23:15Z",
+        "time": "6:15 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "MLB Network",
-          "logo": "images/mlbnet.svg",
+          "name": "Fox 8 (WVUE)",
+          "logo": "images/fox8.png",
           "url": "",
           "note": "On YouTube TV"
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 1,
-        "opponentScore": 0,
+        "result": "L",
+        "teamScore": 0,
+        "opponentScore": 6,
         "opponent": "Boston Red Sox",
-        "date": "2026-08-28"
+        "date": "2026-08-29"
       },
       "news": [
+        {
+          "id": "9f3243b3ee0d",
+          "teamId": "yankees",
+          "headline": "Red Sox shut out Yankees 6-0",
+          "summary": "Boston pitcher Jake Bennett gave up only three hits in six innings Saturday afternoon and New York never scored. It was the first game of a doubleheader at Yankee Stadium.",
+          "date": "2026-08-29",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401874913"
+        },
         {
           "id": "fb400908df43",
           "teamId": "yankees",
@@ -289,15 +298,6 @@
           "date": "2026-08-28",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap?gameId=401816702"
-        },
-        {
-          "id": "17906980f6bd",
-          "teamId": "yankees",
-          "headline": "Lombard makes an error in six straight games",
-          "summary": "Rookie shortstop George Lombard Jr. made an error in Thursday night's 5-1 loss to Houston. It was his sixth game in a row with one, something no Yankee had done since 1921.",
-          "date": "2026-08-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
         }
       ]
     },
