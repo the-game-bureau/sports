@@ -299,6 +299,42 @@
             letter-spacing: 0.14em;
         }
 
+        /* Game day needs no number. The words alone, swapping ink and
+           background about once a second, so the card announces itself from
+           across the room without anyone having to read a 0. */
+        .countdown-badge.is-gameday {
+            min-width: 0;
+            padding: 10px 14px;
+            animation: gameday-blink 1.4s steps(1, end) infinite;
+        }
+
+        .countdown-badge.is-gameday .gameday {
+            display: block;
+            font-size: 1.05rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            white-space: nowrap;
+        }
+
+        @keyframes gameday-blink {
+            0%, 50% {
+                background: var(--secondary-color, var(--banner-color));
+                color: var(--secondary-ink, #fff);
+            }
+            50.01%, 100% {
+                background: var(--secondary-ink, #fff);
+                color: var(--secondary-color, var(--banner-color));
+            }
+        }
+
+        /* Blinking is a barrier for some readers, and a trigger for a few.
+           Anyone who has asked their phone for less motion gets the words
+           held still, in the badge's normal colors. */
+        @media (prefers-reduced-motion: reduce) {
+            .countdown-badge.is-gameday { animation: none; }
+        }
+
         .matchup {
             font-size: 1.7rem;
             font-weight: 800;
@@ -926,6 +962,8 @@
             }
             .countdown-badge .days { font-size: 11pt; }
             .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
+            .countdown-badge.is-gameday { animation: none; padding: 5pt 7pt; }
+            .countdown-badge.is-gameday .gameday { font-size: 8pt; }
             .matchup { font-size: 11pt; }
             .when-line { font-size: 9pt; margin-top: 4px; }
             .where-line { font-size: 7pt; }
@@ -1026,10 +1064,14 @@
     // game day. The game stays on the card all day; tomorrow it rolls over.
     function buildCountdown(d) {
         var n = Math.max(0, daysUntil(d));
+        if (n === 0) {
+            var today = el('div', 'countdown-badge is-gameday');
+            today.appendChild(el('span', 'gameday', 'Game Day!'));
+            return today;
+        }
         var badge = el('div', 'countdown-badge');
         badge.appendChild(el('span', 'days', String(n)));
-        badge.appendChild(el('span', 'unit',
-            n === 0 ? 'Game Day' : (n === 1 ? 'Day To Go' : 'Days To Go')));
+        badge.appendChild(el('span', 'unit', n === 1 ? 'Day To Go' : 'Days To Go'));
         return badge;
     }
 
