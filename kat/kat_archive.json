@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-28",
+    "updated": "2026-08-29",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "203bad50b5f6",
+      "teamId": "lsu",
+      "headline": "Players add the SEC commissioner to their lawsuit",
+      "summary": "The two former pro players who want to join LSU have now named SEC commissioner Greg Sankey in their court case. A judge in Baton Rouge hears the case Monday.",
+      "date": "2026-08-27",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/secs-ban-on-lsus-nfl-commitments-is-illegal-says-their-attorney-tony-clayton/"
+    },
+    {
+      "id": "62d1bab94ea4",
+      "teamId": "saints",
+      "headline": "Saints will rest starters in Friday game at Dallas",
+      "summary": "Coach Kellen Moore said most of the starters will not play in the last preseason game at Dallas on Friday night. They already got their work in during three joint practices with the Cowboys.",
+      "date": "2026-08-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-starters-will-sit-out-preseason-finale-against-dallas-2026"
+    },
     {
       "id": "4fc3b8048eab",
       "teamId": "saints",
@@ -187,6 +205,15 @@
       "url": "https://www.tigerrag.com/lsu-football-sam-leavitt-has-been-in-a-word-awesome-lane-kiffin-says/"
     },
     {
+      "id": "42925128d61d",
+      "teamId": "tulane",
+      "headline": "Jack Tchienchou makes top defender watch list",
+      "summary": "Tulane safety Jack Tchienchou was named to the watch list for the Bednarik Award, which goes to the best defensive player in college football. He led Tulane with 83 tackles last season.",
+      "date": "2026-08-21",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulanes-tchienchou-named-to-2026-chuck-bednarik-award-watch-list/"
+    },
+    {
       "id": "915bc1d10da3",
       "teamId": "saints",
       "headline": "NFL fines Saints $500,000 for practice fights",
@@ -221,6 +248,15 @@
       "date": "2026-08-21",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
+    },
+    {
+      "id": "2677558dce81",
+      "teamId": "florida",
+      "headline": "Five Gators make Senior Bowl watch list",
+      "summary": "Kamran James, Eric Singleton Jr., Bryce Thornton, Jadan Baugh and Myles Graham were named to the Senior Bowl's preseason top 300 list. It is an early sign that pro scouts will be watching them this fall.",
+      "date": "2026-08-20",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/five-florida-football-players-named-161554829.html"
     },
     {
       "id": "5e7920fd5089",
