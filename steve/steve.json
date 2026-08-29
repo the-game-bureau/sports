@@ -231,10 +231,10 @@
       "ball": "🏐",
       "logo": "images/iup.webp",
       "colors": {
-        "primary": "#A81830",
-        "secondary": "#B8BCC0",
-        "banner": "#A81830",
-        "light": "#F3DDE1"
+        "primary": "#9D2235",
+        "secondary": "#5E5F5F",
+        "banner": "#9D2235",
+        "light": "#F1E0E2"
       },
       "espn": null,
       "person": {
