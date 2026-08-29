@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "02485de1cfcb",
+          "teamId": "texas",
+          "headline": "Three Texas freshmen make a national award list",
+          "summary": "Linebacker Tyler Atkinson, receiver Jermaine Bishop Jr. and pass rusher Richard Wesley were named to the watch list for the Shaun Alexander Freshman of the Year Award. Only Alabama, Michigan and Ohio State had as many players on it.",
+          "date": "2026-08-26",
+          "source": "Texas Athletics",
+          "url": "https://texaslonghorns.com/news/2026/8/26/no-5-4-football-trio-named-to-shaun-alexander-freshman-of-the-year-watch-list"
+        },
+        {
           "id": "268e6b715a9a",
           "teamId": "texas",
           "headline": "Arch Manning named to Manning Award watch list",
@@ -134,15 +143,6 @@
           "date": "2026-08-22",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/texas/football/injury-updates-after-texas-longhorns-second-scrimmage-fall-camp"
-        },
-        {
-          "id": "4d2b1c3fa6fd",
-          "teamId": "texas",
-          "headline": "Defense forces four turnovers in Texas scrimmage",
-          "summary": "The Texas defense took the ball away four times in Saturday's practice game in Austin. Arch Manning threw touchdown passes to Ryan Wingo and Emmett Mosley V, and coach Steve Sarkisian said the offense has to stop giving the ball away.",
-          "date": "2026-08-22",
-          "source": "The Katy News",
-          "url": "https://thekatynews.com/2026/08/22/texas-longhorns-defense-dominates-second-preseason-scrimmage/"
         }
       ]
     },
@@ -164,13 +164,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 0,
-        "opponentScore": 34,
-        "opponent": "Los Angeles Rams",
-        "date": "2026-08-22"
+        "result": "W",
+        "teamScore": 27,
+        "opponentScore": 24,
+        "opponent": "Dallas Cowboys",
+        "date": "2026-08-28"
       },
       "news": [
+        {
+          "id": "0358e97f18e2",
+          "teamId": "saints",
+          "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
+          "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
+          "date": "2026-08-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap?gameId=401874048"
+        },
         {
           "id": "b9682dcfdbdb",
           "teamId": "saints",
@@ -188,20 +197,11 @@
           "date": "2026-08-26",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-starters-will-sit-out-preseason-finale-against-dallas-2026"
-        },
-        {
-          "id": "4fc3b8048eab",
-          "teamId": "saints",
-          "headline": "Saints add two defensive backs",
-          "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
-          "date": "2026-08-26",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
         }
       ]
     },
     "iup": {
-      "record": "0-2",
+      "record": "1-2",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Northwood Timberwolves",
@@ -211,13 +211,22 @@
         "city": "Detroit, MI"
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 1,
-        "opponentScore": 3,
-        "opponent": "Hillsdale Chargers",
+        "result": "W",
+        "teamScore": 3,
+        "opponentScore": 2,
+        "opponent": "Northwood Timberwolves",
         "date": "2026-08-28"
       },
       "news": [
+        {
+          "id": "6f0a0aa31bd8",
+          "teamId": "iup",
+          "headline": "IUP wins a five-set thriller over Northwood",
+          "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
+          "date": "2026-08-28",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
+        },
         {
           "id": "af52cf2cb0ea",
           "teamId": "iup",
@@ -235,20 +244,11 @@
           "date": "2026-08-27",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/8/27/womens-volleyball-iup-volleyball-drops-season-opener-in-four-sets-at-findlay.aspx"
-        },
-        {
-          "id": "a15dc27e2cf8",
-          "teamId": "iup",
-          "headline": "IUP volleyball picked second in its division",
-          "summary": "Coaches picked the Crimson Hawks second in the PSAC West, behind Gannon. IUP went 9-5 in the division last season and brings back three all-conference players.",
-          "date": "2026-08-13",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/8/13/womens-volleyball-iup-volleyball-picked-second-in-psac-west-preseason-poll.aspx"
         }
       ]
     },
     "yankees": {
-      "record": "75-58",
+      "record": "76-58",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Boston Red Sox",
@@ -265,13 +265,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
+        "result": "W",
         "teamScore": 1,
-        "opponentScore": 5,
-        "opponent": "Houston Astros",
-        "date": "2026-08-27"
+        "opponentScore": 0,
+        "opponent": "Boston Red Sox",
+        "date": "2026-08-28"
       },
       "news": [
+        {
+          "id": "52d22b734e96",
+          "teamId": "yankees",
+          "headline": "Yankees beat Red Sox 1-0",
+          "summary": "Paul Goldschmidt hit a home run in the third inning Friday night for the game's only run. Cody Bellinger threw a Boston runner out at home plate to end the seventh inning.",
+          "date": "2026-08-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401816702"
+        },
         {
           "id": "17906980f6bd",
           "teamId": "yankees",
@@ -289,15 +298,6 @@
           "date": "2026-08-27",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/game/_/gameId/401816696/astros-yankees"
-        },
-        {
-          "id": "2fc2a21f25b7",
-          "teamId": "yankees",
-          "headline": "Aaron Judge does not want a minor league rehab stint",
-          "summary": "Judge said Thursday he plans to come straight back to the Yankees once doctors clear him. He is still healing a small crack in a rib.",
-          "date": "2026-08-27",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49746969/yankees-aaron-judge-need-rehab-stint-once-cleared"
         }
       ]
     },

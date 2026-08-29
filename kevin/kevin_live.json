@@ -20,13 +20,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 0,
-        "opponentScore": 34,
-        "opponent": "Los Angeles Rams",
-        "date": "2026-08-22"
+        "result": "W",
+        "teamScore": 27,
+        "opponentScore": 24,
+        "opponent": "Dallas Cowboys",
+        "date": "2026-08-28"
       },
       "news": [
+        {
+          "id": "0358e97f18e2",
+          "teamId": "saints",
+          "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
+          "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
+          "date": "2026-08-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap?gameId=401874048"
+        },
         {
           "id": "b9682dcfdbdb",
           "teamId": "saints",
@@ -44,15 +53,6 @@
           "date": "2026-08-26",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-starters-will-sit-out-preseason-finale-against-dallas-2026"
-        },
-        {
-          "id": "4fc3b8048eab",
-          "teamId": "saints",
-          "headline": "Saints add two defensive backs",
-          "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
-          "date": "2026-08-26",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
         }
       ]
     },

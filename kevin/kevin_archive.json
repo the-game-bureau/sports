@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "4fc3b8048eab",
+      "teamId": "saints",
+      "headline": "Saints add two defensive backs",
+      "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
+      "date": "2026-08-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
+    },
+    {
+      "id": "e59caed649ed",
+      "teamId": "lsu",
+      "headline": "LSU's opener against Clemson is sold out",
+      "summary": "LSU said every ticket is gone for the September 5 game against Clemson at Tiger Stadium. It will be Lane Kiffin's first game as LSU's head coach.",
+      "date": "2026-08-26",
+      "source": "WBRZ",
+      "url": "https://www.wbrz.com/news/lsu-football-season-opener-against-clemson-sold-out/"
+    },
+    {
       "id": "d5fcfe44ecc8",
       "teamId": "lsu",
       "headline": "Whit Weeks and Trey'Dez Green will wear No. 7",

@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "2fc2a21f25b7",
+      "teamId": "yankees",
+      "headline": "Aaron Judge does not want a minor league rehab stint",
+      "summary": "Judge said Thursday he plans to come straight back to the Yankees once doctors clear him. He is still healing a small crack in a rib.",
+      "date": "2026-08-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49746969/yankees-aaron-judge-need-rehab-stint-once-cleared"
+    },
+    {
       "id": "3c25b17dff05",
       "teamId": "yankees",
       "headline": "Fernando Cruz has a partly torn elbow ligament",
@@ -14,6 +23,15 @@
       "date": "2026-08-27",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
+    },
+    {
+      "id": "4fc3b8048eab",
+      "teamId": "saints",
+      "headline": "Saints add two defensive backs",
+      "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
+      "date": "2026-08-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
     },
     {
       "id": "4c0f1cf61297",
@@ -113,6 +131,15 @@
       "date": "2026-08-23",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+    },
+    {
+      "id": "4d2b1c3fa6fd",
+      "teamId": "texas",
+      "headline": "Defense forces four turnovers in Texas scrimmage",
+      "summary": "The Texas defense took the ball away four times in Saturday's practice game in Austin. Arch Manning threw touchdown passes to Ryan Wingo and Emmett Mosley V, and coach Steve Sarkisian said the offense has to stop giving the ball away.",
+      "date": "2026-08-22",
+      "source": "The Katy News",
+      "url": "https://thekatynews.com/2026/08/22/texas-longhorns-defense-dominates-second-preseason-scrimmage/"
     },
     {
       "id": "d2eac5793bea",
@@ -428,6 +455,15 @@
       "date": "2026-08-15",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
+    },
+    {
+      "id": "a15dc27e2cf8",
+      "teamId": "iup",
+      "headline": "IUP volleyball picked second in its division",
+      "summary": "Coaches picked the Crimson Hawks second in the PSAC West, behind Gannon. IUP went 9-5 in the division last season and brings back three all-conference players.",
+      "date": "2026-08-13",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/13/womens-volleyball-iup-volleyball-picked-second-in-psac-west-preseason-poll.aspx"
     }
   ]
 }
