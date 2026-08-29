@@ -937,7 +937,11 @@
     // Fastest read on the card: how many days away, counting down to 0 on
     // game day. The game stays on the card all day; tomorrow it rolls over.
     function buildCountdown(d) {
-        var n = Math.max(0, daysUntil(d));
+        var n = daysUntil(d);
+        // A game already played gets no badge. This used to clamp to 0, which
+        // left GAME DAY! flashing over yesterday's game right through the
+        // small hours until the feed caught up in the morning.
+        if (n < 0) { return null; }
         if (n === 0) {
             var today = el('div', 'countdown-badge is-gameday');
             today.appendChild(el('span', 'gameday', 'Game'));
@@ -1111,7 +1115,10 @@
         }
 
         var d = parseDate(g.date);
-        if (d) { head.appendChild(buildCountdown(d)); }
+        if (d) {
+            var badge = buildCountdown(d);
+            if (badge) { head.appendChild(badge); }
+        }
         wrap.appendChild(head);
 
         var matchup = el('div', 'matchup');
@@ -1472,6 +1479,22 @@
     load(showError);
     tick();
     setInterval(tick, 1000);
+
+    // Every day word on the card — the badge, Today, Tomorrow — is worked out
+    // from the date at render time, so a page left open overnight would still
+    // be flashing GAME DAY! at breakfast. Re-render just after midnight, and
+    // book the next one from the clock rather than adding 24 hours, so the
+    // roll stays on midnight when the clocks change.
+    function scheduleMidnightRoll() {
+        var now = new Date();
+        var next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 1, 0, 0);
+        setTimeout(function () {
+            load(null);
+            scheduleMidnightRoll();
+        }, (next - now) + 500);
+    }
+
+    scheduleMidnightRoll();
 
     // Quietly freshen on return to the tab; a failure here keeps the last
     // good card on screen rather than replacing it with an error.
