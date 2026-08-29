@@ -301,18 +301,17 @@
            background about once a second, so the card announces itself from
            across the room without anyone having to read a 0. */
         .countdown-badge.is-gameday {
-            min-width: 0;
-            padding: 10px 14px;
+            padding: 9px 12px 10px;
             animation: gameday-blink 1.4s steps(1, end) infinite;
         }
 
         .countdown-badge.is-gameday .gameday {
             display: block;
-            font-size: 1.05rem;
+            font-size: 1.25rem;
             font-weight: 800;
+            line-height: 1.02;
             text-transform: uppercase;
-            letter-spacing: 0.06em;
-            white-space: nowrap;
+            letter-spacing: 0.04em;
         }
 
         @keyframes gameday-blink {
@@ -839,7 +838,7 @@
             .countdown-badge .days { font-size: 11pt; }
             .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
             .countdown-badge.is-gameday { animation: none; padding: 5pt 7pt; }
-            .countdown-badge.is-gameday .gameday { font-size: 8pt; }
+            .countdown-badge.is-gameday .gameday { font-size: 9pt; }
             .matchup { font-size: 11pt; }
             .when-line { font-size: 9pt; margin-top: 4px; }
             .where-line { font-size: 7pt; }
@@ -941,7 +940,8 @@
         var n = Math.max(0, daysUntil(d));
         if (n === 0) {
             var today = el('div', 'countdown-badge is-gameday');
-            today.appendChild(el('span', 'gameday', 'Game Day!'));
+            today.appendChild(el('span', 'gameday', 'Game'));
+            today.appendChild(el('span', 'gameday', 'Day!'));
             return today;
         }
         var badge = el('div', 'countdown-badge');
