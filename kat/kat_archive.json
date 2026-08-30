@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "544844f2b051",
+      "teamId": "lsu",
+      "headline": "SEC will suspend coaches who sign pro players",
+      "summary": "A school that adds a former pro player now loses its head coach for half a season and pays a large fine. The 15 other SEC schools voted for the penalties and LSU did not vote.",
+      "date": "2026-08-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49734134/sources-sec-suspend-head-coaches-add-pro-players"
+    },
+    {
+      "id": "b9682dcfdbdb",
+      "teamId": "saints",
+      "headline": "Three kickers still fighting for the Saints job",
+      "summary": "Tanner Brown made all eight of his field goal tries at Wednesday's practice, while Charlie Smyth and Daniel Carlson each missed one. Coach Kellen Moore says he wants to see them kick in Friday's game at Dallas before he picks one.",
+      "date": "2026-08-27",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/several-saints-prepare-to-make-a-final-case-for-roster-spots-in-the-preseason-finale"
+    },
     {
       "id": "203bad50b5f6",
       "teamId": "lsu",

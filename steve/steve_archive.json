@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "52d22b734e96",
+      "teamId": "yankees",
+      "headline": "Yankees beat Red Sox 1-0",
+      "summary": "Paul Goldschmidt hit a home run in the third inning Friday night for the game's only run. Cody Bellinger threw a Boston runner out at home plate to end the seventh inning.",
+      "date": "2026-08-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap?gameId=401816702"
+    },
+    {
+      "id": "fb400908df43",
+      "teamId": "yankees",
+      "headline": "Max Fried comes off the injured list to pitch Saturday",
+      "summary": "The left-hander will start one game of Saturday's doubleheader against Boston. He has been out since the middle of August with a bruised left elbow.",
+      "date": "2026-08-28",
+      "source": "Associated Press",
+      "url": "https://www.aol.com/articles/max-fried-come-off-injured-205808000.html"
+    },
+    {
+      "id": "af52cf2cb0ea",
+      "teamId": "iup",
+      "headline": "Hillsdale beats IUP in four sets",
+      "summary": "The Crimson Hawks won the first set Friday in Detroit and then lost the next three. Delaney Concannon and Jessica Neiman each had 12 kills, and Elliott Rauch handed out 21 assists.",
+      "date": "2026-08-28",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/hillsdale-college/boxscore/15315"
+    },
     {
       "id": "17906980f6bd",
       "teamId": "yankees",
@@ -14,6 +41,15 @@
       "date": "2026-08-28",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
+    },
+    {
+      "id": "b9682dcfdbdb",
+      "teamId": "saints",
+      "headline": "Three kickers still fighting for the Saints job",
+      "summary": "Tanner Brown made all eight of his field goal tries at Wednesday's practice, while Charlie Smyth and Daniel Carlson each missed one. Coach Kellen Moore says he wants to see them kick in Friday's game at Dallas before he picks one.",
+      "date": "2026-08-27",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/several-saints-prepare-to-make-a-final-case-for-roster-spots-in-the-preseason-finale"
     },
     {
       "id": "4ad91b5ed94e",

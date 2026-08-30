@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "56119d52ac6b",
+          "teamId": "saints",
+          "headline": "Saints let go of 10 players before Sunday's deadline",
+          "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
+          "date": "2026-08-29",
+          "source": "Fox 8 New Orleans",
+          "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+        },
+        {
           "id": "6f8664a62be3",
           "teamId": "saints",
           "headline": "Saints must cut down to 53 players by Sunday",
@@ -44,15 +53,6 @@
           "date": "2026-08-28",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/recap?gameId=401874048"
-        },
-        {
-          "id": "b9682dcfdbdb",
-          "teamId": "saints",
-          "headline": "Three kickers still fighting for the Saints job",
-          "summary": "Tanner Brown made all eight of his field goal tries at Wednesday's practice, while Charlie Smyth and Daniel Carlson each missed one. Coach Kellen Moore says he wants to see them kick in Friday's game at Dallas before he picks one.",
-          "date": "2026-08-27",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/several-saints-prepare-to-make-a-final-case-for-roster-spots-in-the-preseason-finale"
         }
       ]
     },
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "a8ac874d5a8c",
+          "teamId": "lsu",
+          "headline": "SEC says it will follow the judge's order",
+          "summary": "The conference told the court Friday that it will not punish LSU while the order is in place. The next hearing is Thursday, September 3, two days before LSU plays Clemson.",
+          "date": "2026-08-29",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/sec-eligibility-ruling-greg-sankey-lsu-former-pros-court/"
+        },
+        {
           "id": "87cd6f88ee95",
           "teamId": "lsu",
           "headline": "Louisiana judge blocks the SEC from punishing LSU",
@@ -140,15 +149,6 @@
           "date": "2026-08-27",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/texas-judge-sec-former-pro-athletes/"
-        },
-        {
-          "id": "544844f2b051",
-          "teamId": "lsu",
-          "headline": "SEC will suspend coaches who sign pro players",
-          "summary": "A school that adds a former pro player now loses its head coach for half a season and pays a large fine. The 15 other SEC schools voted for the penalties and LSU did not vote.",
-          "date": "2026-08-27",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/49734134/sources-sec-suspend-head-coaches-add-pro-players"
         }
       ]
     },
