@@ -28,6 +28,24 @@
       },
       "news": [
         {
+          "id": "96714452ca06",
+          "teamId": "saints",
+          "headline": "Saints let go of kicker Charlie Smyth",
+          "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
+          "date": "2026-08-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
+        },
+        {
+          "id": "57431be724bc",
+          "teamId": "saints",
+          "headline": "Saints release running back Zamir White",
+          "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
+          "date": "2026-08-30",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+        },
+        {
           "id": "56119d52ac6b",
           "teamId": "saints",
           "headline": "Saints let go of 10 players before Sunday's deadline",
@@ -35,24 +53,6 @@
           "date": "2026-08-29",
           "source": "Fox 8 New Orleans",
           "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
-        },
-        {
-          "id": "6f8664a62be3",
-          "teamId": "saints",
-          "headline": "Saints must cut down to 53 players by Sunday",
-          "summary": "The Saints have to go from 90 players to 53 by Sunday. Coach Kellen Moore said a lot of hard decisions come right after Friday's win at Dallas.",
-          "date": "2026-08-29",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-clean-up-play-in-preseason-finale-prepare-for-roster-cut-sunday"
-        },
-        {
-          "id": "0358e97f18e2",
-          "teamId": "saints",
-          "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
-          "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
-          "date": "2026-08-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/recap?gameId=401874048"
         }
       ]
     },
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "7e8f31d20915",
+          "teamId": "lsu",
+          "headline": "Tampa Bay cuts Jack Pyburn, who could return to LSU",
+          "summary": "The Buccaneers waived the linebacker on Sunday after he had four sacks in the preseason. If no other pro team picks him up, he is free to play for LSU again.",
+          "date": "2026-08-30",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-waive-lb-jack-pyburn-paving-way-for-lsu-return"
+        },
+        {
           "id": "a8ac874d5a8c",
           "teamId": "lsu",
           "headline": "SEC says it will follow the judge's order",
@@ -140,15 +149,6 @@
           "date": "2026-08-28",
           "source": "WBRZ",
           "url": "https://www.wbrz.com/news/report-sec-commissioner-greg-sankey-can-t-sanction-teams-using-players-with-nfl-ties-judge-rules"
-        },
-        {
-          "id": "4fb24a9f8f82",
-          "teamId": "lsu",
-          "headline": "Judge puts the SEC's new player rule on hold",
-          "summary": "A judge in Texas ruled Thursday that the SEC cannot enforce its new ban on former pro players joining college teams. LSU has two former pro players who want to play there this season.",
-          "date": "2026-08-27",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/texas-judge-sec-former-pro-athletes/"
         }
       ]
     },

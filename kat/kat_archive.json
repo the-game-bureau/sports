@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "6f8664a62be3",
+      "teamId": "saints",
+      "headline": "Saints must cut down to 53 players by Sunday",
+      "summary": "The Saints have to go from 90 players to 53 by Sunday. Coach Kellen Moore said a lot of hard decisions come right after Friday's win at Dallas.",
+      "date": "2026-08-29",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-clean-up-play-in-preseason-finale-prepare-for-roster-cut-sunday"
+    },
+    {
+      "id": "0358e97f18e2",
+      "teamId": "saints",
+      "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
+      "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
+      "date": "2026-08-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/recap?gameId=401874048"
+    },
+    {
+      "id": "4fb24a9f8f82",
+      "teamId": "lsu",
+      "headline": "Judge puts the SEC's new player rule on hold",
+      "summary": "A judge in Texas ruled Thursday that the SEC cannot enforce its new ban on former pro players joining college teams. LSU has two former pro players who want to play there this season.",
+      "date": "2026-08-27",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/texas-judge-sec-former-pro-athletes/"
+    },
+    {
       "id": "544844f2b051",
       "teamId": "lsu",
       "headline": "SEC will suspend coaches who sign pro players",

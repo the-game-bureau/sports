@@ -172,6 +172,24 @@
       },
       "news": [
         {
+          "id": "96714452ca06",
+          "teamId": "saints",
+          "headline": "Saints let go of kicker Charlie Smyth",
+          "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
+          "date": "2026-08-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
+        },
+        {
+          "id": "57431be724bc",
+          "teamId": "saints",
+          "headline": "Saints release running back Zamir White",
+          "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
+          "date": "2026-08-30",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+        },
+        {
           "id": "56119d52ac6b",
           "teamId": "saints",
           "headline": "Saints let go of 10 players before Sunday's deadline",
@@ -179,24 +197,6 @@
           "date": "2026-08-29",
           "source": "Fox 8 New Orleans",
           "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
-        },
-        {
-          "id": "6f8664a62be3",
-          "teamId": "saints",
-          "headline": "Saints must cut down to 53 players by Sunday",
-          "summary": "The Saints have to go from 90 players to 53 by Sunday. Coach Kellen Moore said a lot of hard decisions come right after Friday's win at Dallas.",
-          "date": "2026-08-29",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-clean-up-play-in-preseason-finale-prepare-for-roster-cut-sunday"
-        },
-        {
-          "id": "0358e97f18e2",
-          "teamId": "saints",
-          "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
-          "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
-          "date": "2026-08-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/recap?gameId=401874048"
         }
       ]
     },
@@ -207,7 +207,7 @@
         "opponent": "West Liberty Hilltoppers",
         "date": "2026-09-04",
         "time": "10:00 AM",
-        "venue": "Ed Fry Arena (Crimson Hawk Classic)",
+        "venue": "Kovalchick Complex (Crimson Hawk Classic)",
         "city": "Indiana, PA"
       },
       "lastGame": {
@@ -248,7 +248,7 @@
       ]
     },
     "yankees": {
-      "record": "77-59",
+      "record": "78-59",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Boston Red Sox",
@@ -266,12 +266,30 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 9,
-        "opponentScore": 2,
+        "teamScore": 16,
+        "opponentScore": 1,
         "opponent": "Boston Red Sox",
-        "date": "2026-08-29"
+        "date": "2026-08-30"
       },
       "news": [
+        {
+          "id": "5586c6045443",
+          "teamId": "yankees",
+          "headline": "Yankees beat Red Sox 16-1 to take the season series",
+          "summary": "Austin Wells hit two home runs in a nine-run eighth inning Sunday at Yankee Stadium. The win gave New York the season series over Boston and a four-game lead for the top wild card spot.",
+          "date": "2026-08-30",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap?gameId=401816732"
+        },
+        {
+          "id": "52836b2d9774",
+          "teamId": "yankees",
+          "headline": "Lombard's knee scan comes back clean",
+          "summary": "The scan on George Lombard Jr.'s right knee showed no damage, only some soreness and swelling. Manager Aaron Boone said the rookie shortstop is day to day and should not need the injured list.",
+          "date": "2026-08-30",
+          "source": "amNewYork",
+          "url": "https://www.amny.com/sports/george-lombard-jr-injury-yankees-8-30-26/"
+        },
         {
           "id": "baba55cdd36a",
           "teamId": "yankees",
@@ -280,24 +298,6 @@
           "date": "2026-08-29",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap?gameId=401816717"
-        },
-        {
-          "id": "e9bcc3f6d63b",
-          "teamId": "yankees",
-          "headline": "George Lombard Jr. leaves game with a sore knee",
-          "summary": "The rookie shortstop hurt his right knee on a swing in the second inning Saturday and came out of the game in the fourth. The Yankees said he would have the knee scanned that night.",
-          "date": "2026-08-29",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/george-lombard-jr-exits-red-sox-yankees-game-with-knee-injury"
-        },
-        {
-          "id": "9f3243b3ee0d",
-          "teamId": "yankees",
-          "headline": "Red Sox shut out Yankees 6-0",
-          "summary": "Boston pitcher Jake Bennett gave up only three hits in six innings Saturday afternoon and New York never scored. It was the first game of a doubleheader at Yankee Stadium.",
-          "date": "2026-08-29",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401874913"
         }
       ]
     },
