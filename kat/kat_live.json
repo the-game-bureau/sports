@@ -28,22 +28,22 @@
       },
       "news": [
         {
-          "id": "96714452ca06",
+          "id": "db576a7ea482",
           "teamId": "saints",
-          "headline": "Saints let go of kicker Charlie Smyth",
-          "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
-          "date": "2026-08-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
+          "headline": "Saints claim two linemen off waivers",
+          "summary": "New Orleans added defensive tackle Colby Wooden from the Colts and offensive tackle Mason Murphy from the Bears on Monday. Both had been let go by their old teams in the league-wide cuts on Sunday.",
+          "date": "2026-08-31",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-claim-two-off-waivers-recently-released-players-join-new-teams/"
         },
         {
-          "id": "57431be724bc",
+          "id": "b00d2587d9aa",
           "teamId": "saints",
-          "headline": "Saints release running back Zamir White",
-          "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
+          "headline": "Saints set their 53-man roster for the season",
+          "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
           "date": "2026-08-30",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
         },
         {
           "id": "b38317b854a2",
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "14796ff6dd0a",
+          "teamId": "lsu",
+          "headline": "Kiffin waits on a court ruling before setting his roster",
+          "summary": "Two players who had been in the NFL are practicing with LSU but cannot be on the game roster yet. A judge hears the case Thursday, and LSU has to turn in its roster Friday, one day before it plays Clemson.",
+          "date": "2026-08-31",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/lsus-lane-kiffin-awaits-courtroom-decision-before-following-secs-orders-were-focused-on-clemson/"
+        },
+        {
           "id": "7e8f31d20915",
           "teamId": "lsu",
           "headline": "Tampa Bay cuts Jack Pyburn, who could return to LSU",
@@ -140,15 +149,6 @@
           "date": "2026-08-29",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/sec-eligibility-ruling-greg-sankey-lsu-former-pros-court/"
-        },
-        {
-          "id": "87cd6f88ee95",
-          "teamId": "lsu",
-          "headline": "Louisiana judge blocks the SEC from punishing LSU",
-          "summary": "A judge signed an order Friday that stops the SEC from fining schools or suspending coaches who play former pro players. Two players who left NFL camps plan to join LSU.",
-          "date": "2026-08-28",
-          "source": "WBRZ",
-          "url": "https://www.wbrz.com/news/report-sec-commissioner-greg-sankey-can-t-sanction-teams-using-players-with-nfl-ties-judge-rules"
         }
       ]
     },

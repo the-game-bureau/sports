@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "ad84be4f442f",
+          "teamId": "texas",
+          "headline": "Two hurt Texas linemen return to practice",
+          "summary": "Left tackle Trevor Goosby and lineman Laurence Seymore both practiced on Monday. Coach Steve Sarkisian said they both looked really good, but he did not say whether they will play Saturday.",
+          "date": "2026-08-31",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/texas/football/trevor-goosby-injury-update-before-texas-longhorns-season-opener"
+        },
+        {
           "id": "02485de1cfcb",
           "teamId": "texas",
           "headline": "Three Texas freshmen make a national award list",
@@ -134,15 +143,6 @@
           "date": "2026-08-24",
           "source": "Allstate Sugar Bowl",
           "url": "https://allstatesugarbowl.org/news/2026/8/24/allstate-sugar-bowl-announces-2026-manning-award-watch-list.aspx"
-        },
-        {
-          "id": "f1a8b41d2e90",
-          "teamId": "texas",
-          "headline": "Nobody hurt in Texas scrimmage, Goosby improving",
-          "summary": "Coach Steve Sarkisian said Texas ran 120 plays on Saturday without a new injury. Left tackle Trevor Goosby is making good progress on his bruised knee, and lineman Laurence Seymore returns to practice Monday.",
-          "date": "2026-08-22",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/injury-updates-after-texas-longhorns-second-scrimmage-fall-camp"
         }
       ]
     },
@@ -172,22 +172,22 @@
       },
       "news": [
         {
-          "id": "96714452ca06",
+          "id": "db576a7ea482",
           "teamId": "saints",
-          "headline": "Saints let go of kicker Charlie Smyth",
-          "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
-          "date": "2026-08-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
+          "headline": "Saints claim two linemen off waivers",
+          "summary": "New Orleans added defensive tackle Colby Wooden from the Colts and offensive tackle Mason Murphy from the Bears on Monday. Both had been let go by their old teams in the league-wide cuts on Sunday.",
+          "date": "2026-08-31",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-claim-two-off-waivers-recently-released-players-join-new-teams/"
         },
         {
-          "id": "57431be724bc",
+          "id": "b00d2587d9aa",
           "teamId": "saints",
-          "headline": "Saints release running back Zamir White",
-          "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
+          "headline": "Saints set their 53-man roster for the season",
+          "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
           "date": "2026-08-30",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
         },
         {
           "id": "b38317b854a2",
@@ -273,6 +273,24 @@
       },
       "news": [
         {
+          "id": "b62861c2afcc",
+          "teamId": "yankees",
+          "headline": "Aaron Judge travels west as his recovery moves along",
+          "summary": "Manager Aaron Boone said Monday that Judge will go with the team to California and do more work before games. Judge has not played since May 31 with a cracked rib, and hitting against faster pitching is his next step.",
+          "date": "2026-08-31",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/aaron-boone-gives-aaron-judge-151329379.html"
+        },
+        {
+          "id": "98771e1b705e",
+          "teamId": "yankees",
+          "headline": "Yankees claim relief pitcher John Schreiber",
+          "summary": "New York claimed the right-hander off waivers from Kansas City on Monday. He got in before the deadline, so he can pitch for the Yankees in the playoffs.",
+          "date": "2026-08-31",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-claim-john-schreiber-off-waivers"
+        },
+        {
           "id": "5586c6045443",
           "teamId": "yankees",
           "headline": "Yankees beat Red Sox 16-1 to take the season series",
@@ -280,24 +298,6 @@
           "date": "2026-08-30",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap?gameId=401816732"
-        },
-        {
-          "id": "52836b2d9774",
-          "teamId": "yankees",
-          "headline": "Lombard's knee scan comes back clean",
-          "summary": "The scan on George Lombard Jr.'s right knee showed no damage, only some soreness and swelling. Manager Aaron Boone said the rookie shortstop is day to day and should not need the injured list.",
-          "date": "2026-08-30",
-          "source": "amNewYork",
-          "url": "https://www.amny.com/sports/george-lombard-jr-injury-yankees-8-30-26/"
-        },
-        {
-          "id": "3af8a107f371",
-          "teamId": "yankees",
-          "headline": "Yankees bring Luis Gil back to pitch in relief",
-          "summary": "New York called the right-hander up from Triple-A on Sunday and sent Yerry de los Santos down. Gil has been out since April with a sore shoulder and will now work out of the bullpen.",
-          "date": "2026-08-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-recall-luis-gil-option-170253911.html"
         }
       ]
     },

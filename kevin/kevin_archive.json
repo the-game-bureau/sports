@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "96714452ca06",
+      "teamId": "saints",
+      "headline": "Saints let go of kicker Charlie Smyth",
+      "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
+      "date": "2026-08-30",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
+    },
+    {
+      "id": "57431be724bc",
+      "teamId": "saints",
+      "headline": "Saints release running back Zamir White",
+      "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
+      "date": "2026-08-30",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+    },
+    {
       "id": "6f8664a62be3",
       "teamId": "saints",
       "headline": "Saints must cut down to 53 players by Sunday",
@@ -23,6 +41,15 @@
       "date": "2026-08-29",
       "source": "Fox 8 New Orleans",
       "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+    },
+    {
+      "id": "87cd6f88ee95",
+      "teamId": "lsu",
+      "headline": "Louisiana judge blocks the SEC from punishing LSU",
+      "summary": "A judge signed an order Friday that stops the SEC from fining schools or suspending coaches who play former pro players. Two players who left NFL camps plan to join LSU.",
+      "date": "2026-08-28",
+      "source": "WBRZ",
+      "url": "https://www.wbrz.com/news/report-sec-commissioner-greg-sankey-can-t-sanction-teams-using-players-with-nfl-ties-judge-rules"
     },
     {
       "id": "0358e97f18e2",
