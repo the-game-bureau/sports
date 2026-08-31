@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,15 @@
       "date": "2026-08-29",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-clean-up-play-in-preseason-finale-prepare-for-roster-cut-sunday"
+    },
+    {
+      "id": "56119d52ac6b",
+      "teamId": "saints",
+      "headline": "Saints let go of 10 players before Sunday's deadline",
+      "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
+      "date": "2026-08-29",
+      "source": "Fox 8 New Orleans",
+      "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
     },
     {
       "id": "0358e97f18e2",

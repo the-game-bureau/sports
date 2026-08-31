@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -32,6 +32,24 @@
       "date": "2026-08-29",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401874913"
+    },
+    {
+      "id": "56119d52ac6b",
+      "teamId": "saints",
+      "headline": "Saints let go of 10 players before Sunday's deadline",
+      "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
+      "date": "2026-08-29",
+      "source": "Fox 8 New Orleans",
+      "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+    },
+    {
+      "id": "baba55cdd36a",
+      "teamId": "yankees",
+      "headline": "Yankees beat Red Sox 9-2 in the nightcap",
+      "summary": "New York had 13 hits Saturday night and every one of them was a single. Max Fried pitched into the fourth inning in his first game back from the injured list.",
+      "date": "2026-08-29",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap?gameId=401816717"
     },
     {
       "id": "0358e97f18e2",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -46,13 +46,13 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
         },
         {
-          "id": "56119d52ac6b",
+          "id": "b38317b854a2",
           "teamId": "saints",
-          "headline": "Saints let go of 10 players before Sunday's deadline",
-          "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
-          "date": "2026-08-29",
-          "source": "Fox 8 New Orleans",
-          "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+          "headline": "Devin Neal is out for the season with a hamstring injury",
+          "summary": "The Saints put the running back on injured reserve Sunday, so he will miss the whole season. He hurt the hamstring in August and made it worse in the preseason game at the Rams.",
+          "date": "2026-08-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-lose-promising-running-back-233939970.html"
         }
       ]
     },

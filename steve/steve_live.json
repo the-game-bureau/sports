@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -190,13 +190,13 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
         },
         {
-          "id": "56119d52ac6b",
+          "id": "b38317b854a2",
           "teamId": "saints",
-          "headline": "Saints let go of 10 players before Sunday's deadline",
-          "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
-          "date": "2026-08-29",
-          "source": "Fox 8 New Orleans",
-          "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+          "headline": "Devin Neal is out for the season with a hamstring injury",
+          "summary": "The Saints put the running back on injured reserve Sunday, so he will miss the whole season. He hurt the hamstring in August and made it worse in the preseason game at the Rams.",
+          "date": "2026-08-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-lose-promising-running-back-233939970.html"
         }
       ]
     },
@@ -250,18 +250,18 @@
     "yankees": {
       "record": "78-59",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Boston Red Sox",
-        "date": "2026-08-30",
-        "utc": "2026-08-30T17:35Z",
-        "time": "12:35 PM",
-        "venue": "Yankee Stadium",
-        "city": "Bronx, NY",
+        "homeAway": "away",
+        "opponent": "Los Angeles Angels",
+        "date": "2026-08-31",
+        "utc": "2026-09-01T01:38Z",
+        "time": "8:38 PM",
+        "venue": "Angel Stadium",
+        "city": "Anaheim, CA",
         "tv": {
-          "name": "ESPN Unlimited",
-          "logo": "images/espnplus.webp",
+          "name": "YES Network",
+          "logo": "",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {
@@ -291,13 +291,13 @@
           "url": "https://www.amny.com/sports/george-lombard-jr-injury-yankees-8-30-26/"
         },
         {
-          "id": "baba55cdd36a",
+          "id": "3af8a107f371",
           "teamId": "yankees",
-          "headline": "Yankees beat Red Sox 9-2 in the nightcap",
-          "summary": "New York had 13 hits Saturday night and every one of them was a single. Max Fried pitched into the fourth inning in his first game back from the injured list.",
-          "date": "2026-08-29",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap?gameId=401816717"
+          "headline": "Yankees bring Luis Gil back to pitch in relief",
+          "summary": "New York called the right-hander up from Triple-A on Sunday and sent Yerry de los Santos down. Gil has been out since April with a sore shoulder and will now work out of the bullpen.",
+          "date": "2026-08-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-recall-luis-gil-option-170253911.html"
         }
       ]
     },
