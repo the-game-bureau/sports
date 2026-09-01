@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "57eb154ff883",
+      "teamId": "florida",
+      "headline": "Aaron Philo will start at quarterback for Florida",
+      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
+      "date": "2026-08-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
+    },
+    {
+      "id": "b00d2587d9aa",
+      "teamId": "saints",
+      "headline": "Saints set their 53-man roster for the season",
+      "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
+      "date": "2026-08-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
+    },
+    {
       "id": "b62861c2afcc",
       "teamId": "yankees",
       "headline": "Aaron Judge travels west as his recovery moves along",

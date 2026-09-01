@@ -70,6 +70,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "2503a46ec39c",
+          "teamId": "florida",
+          "headline": "Florida is healthy going into Saturday's opener",
+          "summary": "Coach Jon Sumrall said Tuesday that the Gators are pretty healthy and almost everyone is ready to play. Walk-on running back Kelvin Jimenez is out for the year, and tight end Evan Chieca is questionable.",
+          "date": "2026-09-01",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
+        },
+        {
           "id": "56c407183322",
           "teamId": "florida",
           "headline": "Florida posts its first lineup chart of the year",
@@ -86,15 +95,6 @@
           "date": "2026-08-28",
           "source": "Saturday Down South",
           "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
-        },
-        {
-          "id": "57eb154ff883",
-          "teamId": "florida",
-          "headline": "Aaron Philo will start at quarterback for Florida",
-          "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
-          "date": "2026-08-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
         }
       ]
     },
@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "3aed49797fb0",
+          "teamId": "saints",
+          "headline": "Saints add two more to the practice squad",
+          "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
+          "date": "2026-09-01",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+        },
+        {
           "id": "46e2e171a0ca",
           "teamId": "saints",
           "headline": "Saints sign 12 players to the practice squad",
@@ -188,15 +197,6 @@
           "date": "2026-08-31",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/saints-claim-two-off-waivers-recently-released-players-join-new-teams/"
-        },
-        {
-          "id": "b00d2587d9aa",
-          "teamId": "saints",
-          "headline": "Saints set their 53-man roster for the season",
-          "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
-          "date": "2026-08-30",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
         }
       ]
     },
