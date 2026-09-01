@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "46e2e171a0ca",
+          "teamId": "saints",
+          "headline": "Saints sign 12 players to the practice squad",
+          "summary": "New Orleans filled its 12-spot practice squad on Monday, one day after cutting down to 53 players. Running back Zamir White and kicker Charlie Smyth are both back after being let go on Sunday.",
+          "date": "2026-08-31",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-2026-practice-squad-announced-roster-moves-transactions-2026-nfl-season"
+        },
+        {
           "id": "db576a7ea482",
           "teamId": "saints",
           "headline": "Saints claim two linemen off waivers",
@@ -44,15 +53,6 @@
           "date": "2026-08-30",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
-        },
-        {
-          "id": "b38317b854a2",
-          "teamId": "saints",
-          "headline": "Devin Neal is out for the season with a hamstring injury",
-          "summary": "The Saints put the running back on injured reserve Sunday, so he will miss the whole season. He hurt the hamstring in August and made it worse in the preseason game at the Rams.",
-          "date": "2026-08-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-lose-promising-running-back-233939970.html"
         }
       ]
     },
@@ -76,6 +76,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "56c407183322",
+          "teamId": "florida",
+          "headline": "Florida posts its first lineup chart of the year",
+          "summary": "The Gators listed their starters Monday for Saturday's opener against Florida Atlantic. Aaron Philo is the quarterback and Jadan Baugh is the running back, while three players are still competing for the last spot on the defensive line.",
+          "date": "2026-08-31",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
+        },
+        {
           "id": "b74a17b5ff0c",
           "teamId": "florida",
           "headline": "Sumrall says Florida will not add former pro players",
@@ -92,15 +101,6 @@
           "date": "2026-08-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
-        },
-        {
-          "id": "5a69e0a2562c",
-          "teamId": "florida",
-          "headline": "Myles Graham makes top defender watch list",
-          "summary": "Florida linebacker Myles Graham was named to the watch list for the Bednarik Award, given to college football's best defensive player. He led the Gators with 76 tackles last season.",
-          "date": "2026-08-21",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/8/21/football-chuck-bednarik-award-names-myles-graham-to-preseason-watch-list"
         }
       ]
     },
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "c4c9fda0461d",
+          "teamId": "lsu",
+          "headline": "Kiffin will not show his lineup until game day",
+          "summary": "LSU will not hand out its list of starters until Saturday, an hour-of-the-game change from past coaches. Lane Kiffin said Monday that most spots are settled except defensive tackle, where he plans to rotate players.",
+          "date": "2026-08-31",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-football-depth-chart-before-opener-vs-clemson-battle-at-defensive-tackle-says-lane-kiffin/"
+        },
+        {
           "id": "14796ff6dd0a",
           "teamId": "lsu",
           "headline": "Kiffin waits on a court ruling before setting his roster",
@@ -140,15 +149,6 @@
           "date": "2026-08-30",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-waive-lb-jack-pyburn-paving-way-for-lsu-return"
-        },
-        {
-          "id": "a8ac874d5a8c",
-          "teamId": "lsu",
-          "headline": "SEC says it will follow the judge's order",
-          "summary": "The conference told the court Friday that it will not punish LSU while the order is in place. The next hearing is Thursday, September 3, two days before LSU plays Clemson.",
-          "date": "2026-08-29",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/sec-eligibility-ruling-greg-sankey-lsu-former-pros-court/"
         }
       ]
     },

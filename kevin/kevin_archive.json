@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-08-31",
+    "updated": "2026-09-01",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "b38317b854a2",
+      "teamId": "saints",
+      "headline": "Devin Neal is out for the season with a hamstring injury",
+      "summary": "The Saints put the running back on injured reserve Sunday, so he will miss the whole season. He hurt the hamstring in August and made it worse in the preseason game at the Rams.",
+      "date": "2026-08-30",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-lose-promising-running-back-233939970.html"
+    },
     {
       "id": "96714452ca06",
       "teamId": "saints",
@@ -23,6 +32,15 @@
       "date": "2026-08-30",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
+    },
+    {
+      "id": "a8ac874d5a8c",
+      "teamId": "lsu",
+      "headline": "SEC says it will follow the judge's order",
+      "summary": "The conference told the court Friday that it will not punish LSU while the order is in place. The next hearing is Thursday, September 3, two days before LSU plays Clemson.",
+      "date": "2026-08-29",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/sec-eligibility-ruling-greg-sankey-lsu-former-pros-court/"
     },
     {
       "id": "6f8664a62be3",
@@ -284,6 +302,15 @@
       "date": "2026-08-22",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/lsu-football-sam-leavitt-has-been-in-a-word-awesome-lane-kiffin-says/"
+    },
+    {
+      "id": "5a69e0a2562c",
+      "teamId": "florida",
+      "headline": "Myles Graham makes top defender watch list",
+      "summary": "Florida linebacker Myles Graham was named to the watch list for the Bednarik Award, given to college football's best defensive player. He led the Gators with 76 tackles last season.",
+      "date": "2026-08-21",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/8/21/football-chuck-bednarik-award-names-myles-graham-to-preseason-watch-list"
     },
     {
       "id": "42925128d61d",
