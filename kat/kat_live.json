@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "c09e234fb810",
+          "teamId": "saints",
+          "headline": "Saints claim a cornerback off waivers",
+          "summary": "New Orleans picked up cornerback Decamerion Richardson from Las Vegas on Wednesday. Safety Lorenzo Styles Jr. went on injured reserve, and wide receiver Kevin Austin Jr. and tight end Treyton Welch joined the practice squad.",
+          "date": "2026-09-02",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-treyton-welch-kevin-austin-jr-saints-roster-moves-transaction-alert-september-1-2026"
+        },
+        {
           "id": "ead0e94fad5c",
           "teamId": "saints",
           "headline": "Kamara and Cameron Jordan miss practice this week",
@@ -44,15 +53,6 @@
           "date": "2026-09-01",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
-        },
-        {
-          "id": "3301700a0a14",
-          "teamId": "saints",
-          "headline": "Daniel Carlson will be the Saints kicker",
-          "summary": "The Saints kept Carlson for the job after he signed only days before the last preseason game. He kicked the 53-yard field goal that beat Dallas, and coach Kellen Moore said Carlson will do a great job.",
-          "date": "2026-08-31",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/kicker-daniel-carlson-made-most-of-limited-preseason-time-with-new-orleans-saints"
         }
       ]
     },
