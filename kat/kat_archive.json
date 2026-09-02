@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "db576a7ea482",
+      "teamId": "saints",
+      "headline": "Saints claim two linemen off waivers",
+      "summary": "New Orleans added defensive tackle Colby Wooden from the Colts and offensive tackle Mason Murphy from the Bears on Monday. Both had been let go by their old teams in the league-wide cuts on Sunday.",
+      "date": "2026-08-31",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-claim-two-off-waivers-recently-released-players-join-new-teams/"
+    },
+    {
+      "id": "46e2e171a0ca",
+      "teamId": "saints",
+      "headline": "Saints sign 12 players to the practice squad",
+      "summary": "New Orleans filled its 12-spot practice squad on Monday, one day after cutting down to 53 players. Running back Zamir White and kicker Charlie Smyth are both back after being let go on Sunday.",
+      "date": "2026-08-31",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-2026-practice-squad-announced-roster-moves-transactions-2026-nfl-season"
+    },
     {
       "id": "7e8f31d20915",
       "teamId": "lsu",
@@ -14,15 +32,6 @@
       "date": "2026-08-30",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-waive-lb-jack-pyburn-paving-way-for-lsu-return"
-    },
-    {
-      "id": "57eb154ff883",
-      "teamId": "florida",
-      "headline": "Aaron Philo will start at quarterback for Florida",
-      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
-      "date": "2026-08-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
     },
     {
       "id": "b00d2587d9aa",
@@ -230,6 +239,15 @@
       "date": "2026-08-25",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
+    },
+    {
+      "id": "57eb154ff883",
+      "teamId": "florida",
+      "headline": "Aaron Philo will start at quarterback for Florida",
+      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
+      "date": "2026-08-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
     },
     {
       "id": "d103a3e79d71",

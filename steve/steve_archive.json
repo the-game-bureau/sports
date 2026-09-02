@@ -2,27 +2,45 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "57eb154ff883",
-      "teamId": "florida",
-      "headline": "Aaron Philo will start at quarterback for Florida",
-      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
-      "date": "2026-08-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
+      "id": "98771e1b705e",
+      "teamId": "yankees",
+      "headline": "Yankees claim relief pitcher John Schreiber",
+      "summary": "New York claimed the right-hander off waivers from Kansas City on Monday. He got in before the deadline, so he can pitch for the Yankees in the playoffs.",
+      "date": "2026-08-31",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/yankees-claim-john-schreiber-off-waivers"
     },
     {
-      "id": "b00d2587d9aa",
+      "id": "73e2f66277cf",
+      "teamId": "yankees",
+      "headline": "Angels beat Yankees 10-1",
+      "summary": "New York made three errors Monday night in Anaheim and lost the first game of the series. Spencer Jones hit a home run for the only Yankees run.",
+      "date": "2026-08-31",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap?gameId=401816756"
+    },
+    {
+      "id": "db576a7ea482",
       "teamId": "saints",
-      "headline": "Saints set their 53-man roster for the season",
-      "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
-      "date": "2026-08-30",
+      "headline": "Saints claim two linemen off waivers",
+      "summary": "New Orleans added defensive tackle Colby Wooden from the Colts and offensive tackle Mason Murphy from the Bears on Monday. Both had been let go by their old teams in the league-wide cuts on Sunday.",
+      "date": "2026-08-31",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-claim-two-off-waivers-recently-released-players-join-new-teams/"
+    },
+    {
+      "id": "46e2e171a0ca",
+      "teamId": "saints",
+      "headline": "Saints sign 12 players to the practice squad",
+      "summary": "New Orleans filled its 12-spot practice squad on Monday, one day after cutting down to 53 players. Running back Zamir White and kicker Charlie Smyth are both back after being let go on Sunday.",
+      "date": "2026-08-31",
       "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-2026-practice-squad-announced-roster-moves-transactions-2026-nfl-season"
     },
     {
       "id": "b62861c2afcc",
@@ -32,6 +50,15 @@
       "date": "2026-08-31",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/aaron-boone-gives-aaron-judge-151329379.html"
+    },
+    {
+      "id": "b00d2587d9aa",
+      "teamId": "saints",
+      "headline": "Saints set their 53-man roster for the season",
+      "summary": "New Orleans got down to the 53 players the league allows on Sunday. The team let go of 19 players and put five more on injured reserve.",
+      "date": "2026-08-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
     },
     {
       "id": "b38317b854a2",
@@ -293,6 +320,15 @@
       "date": "2026-08-25",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401816667"
+    },
+    {
+      "id": "57eb154ff883",
+      "teamId": "florida",
+      "headline": "Aaron Philo will start at quarterback for Florida",
+      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
+      "date": "2026-08-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
     },
     {
       "id": "268e6b715a9a",
