@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3aa4508421b4",
+      "teamId": "yankees",
+      "headline": "Aaron Judge could be back in the lineup September 8",
+      "summary": "Manager Aaron Boone said Monday night that Judge might play when the Yankees get home to face Colorado on September 8. Judge has not played since May 31 because of a cracked rib.",
+      "date": "2026-08-31",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49789903/aaron-judge-return-new-york-yankees-lineup-sept-8"
+    },
     {
       "id": "3301700a0a14",
       "teamId": "saints",

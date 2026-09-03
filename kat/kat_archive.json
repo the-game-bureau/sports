@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "14796ff6dd0a",
+      "teamId": "lsu",
+      "headline": "Kiffin waits on a court ruling before setting his roster",
+      "summary": "Two players who had been in the NFL are practicing with LSU but cannot be on the game roster yet. A judge hears the case Thursday, and LSU has to turn in its roster Friday, one day before it plays Clemson.",
+      "date": "2026-08-31",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/lsus-lane-kiffin-awaits-courtroom-decision-before-following-secs-orders-were-focused-on-clemson/"
+    },
     {
       "id": "3301700a0a14",
       "teamId": "saints",

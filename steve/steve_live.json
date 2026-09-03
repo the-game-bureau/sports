@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -248,15 +248,15 @@
       ]
     },
     "yankees": {
-      "record": "79-60",
+      "record": "80-60",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Los Angeles Angels",
-        "date": "2026-09-02",
-        "utc": "2026-09-03T01:38Z",
-        "time": "8:38 PM",
-        "venue": "Angel Stadium",
-        "city": "Anaheim, CA",
+        "opponent": "San Diego Padres",
+        "date": "2026-09-04",
+        "utc": "2026-09-05T01:40Z",
+        "time": "8:40 PM",
+        "venue": "Petco Park",
+        "city": "San Diego, CA",
         "tv": {
           "name": "YES Network",
           "logo": "",
@@ -266,12 +266,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 7,
+        "teamScore": 6,
         "opponentScore": 3,
         "opponent": "Los Angeles Angels",
-        "date": "2026-09-01"
+        "date": "2026-09-02"
       },
       "news": [
+        {
+          "id": "f50179717fcd",
+          "teamId": "yankees",
+          "headline": "Yankees win in extra innings in Anaheim",
+          "summary": "New York scored five runs with two outs in the 10th inning Wednesday night and beat the Angels 6-3. Cam Schlittler pitched eight innings and gave up just one run.",
+          "date": "2026-09-02",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
+        },
         {
           "id": "f80dc0a31b36",
           "teamId": "yankees",
@@ -289,15 +298,6 @@
           "date": "2026-09-01",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-activate-ryan-mcmahon-add-212206370.html"
-        },
-        {
-          "id": "3aa4508421b4",
-          "teamId": "yankees",
-          "headline": "Aaron Judge could be back in the lineup September 8",
-          "summary": "Manager Aaron Boone said Monday night that Judge might play when the Yankees get home to face Colorado on September 8. Judge has not played since May 31 because of a cracked rib.",
-          "date": "2026-08-31",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49789903/aaron-judge-return-new-york-yankees-lineup-sept-8"
         }
       ]
     },
