@@ -641,6 +641,19 @@
             };
         }
 
+        // Busy college days list a game under each team's conference and
+        // again under Top 25, so the same box shows up two or three times.
+        // Keep the first copy of each game.
+        function dedupe(games) {
+            const seen = new Set();
+            return games.filter(g => {
+                const key = g.link && !/\/ncaaf\/?$/.test(g.link) ? g.link : `${g.league}:${g.away.code}@${g.home.code}`;
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
+        }
+
         // ── Presentation helpers ──────────────────────────────────────────
 
         function displayName(team, league) {
@@ -798,8 +811,7 @@
                 try {
                     const archiveHtml = await fetchSource(`/ncaaf/${dayKey(day)}/`);
                     if (archiveHtml !== null) {
-                        const seen = new Set(games.map(g => g.link));
-                        games = games.concat(parsePage(archiveHtml, 'ncaaf').games.filter(g => !seen.has(g.link)));
+                        games = dedupe(games.concat(parsePage(archiveHtml, 'ncaaf').games));
                     }
                 } catch (err) { /* keep what we have */ }
                 return { ...page, games };
@@ -830,7 +842,7 @@
                 any = true;
             }
             if (!any) return null;
-            return { games, stamp: Number.isNaN(loaded) || !loaded ? Date.now() : loaded };
+            return { games: dedupe(games), stamp: Number.isNaN(loaded) || !loaded ? Date.now() : loaded };
         }
 
         async function loadScores(day, isToday) {
@@ -858,7 +870,7 @@
             if (failures.length === 2) throw new Error('unreachable');
 
             const stamp = Number.isNaN(loaded) || !loaded ? Date.now() : loaded;
-            return { games, stamp, failures };
+            return { games: dedupe(games), stamp, failures };
         }
 
         function readCache() {
