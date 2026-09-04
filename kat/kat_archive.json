@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "3aed49797fb0",
+      "teamId": "saints",
+      "headline": "Saints add two more to the practice squad",
+      "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
+      "date": "2026-09-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
+      "id": "c4c9fda0461d",
+      "teamId": "lsu",
+      "headline": "Kiffin will not show his lineup until game day",
+      "summary": "LSU will not hand out its list of starters until Saturday, an hour-of-the-game change from past coaches. Lane Kiffin said Monday that most spots are settled except defensive tackle, where he plans to rotate players.",
+      "date": "2026-08-31",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-football-depth-chart-before-opener-vs-clemson-battle-at-defensive-tackle-says-lane-kiffin/"
+    },
+    {
+      "id": "9faff4ec6a97",
+      "teamId": "lsu",
+      "headline": "LSU great Jerry Stovall dies at 85",
+      "summary": "Stovall died Monday in Baton Rouge. He was an All-America running back for LSU in 1962, later coached the Tigers from 1980 to 1983, and his number 21 hangs retired in Tiger Stadium.",
+      "date": "2026-08-31",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/08/31/lsu-college-football-hall-of-famer-jerry-stovall-passes-away-85"
+    },
+    {
       "id": "14796ff6dd0a",
       "teamId": "lsu",
       "headline": "Kiffin waits on a court ruling before setting his roster",
@@ -113,6 +140,15 @@
       "date": "2026-08-29",
       "source": "Fox 8 New Orleans",
       "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
+    },
+    {
+      "id": "b74a17b5ff0c",
+      "teamId": "florida",
+      "headline": "Sumrall says Florida will not add former pro players",
+      "summary": "Coach Jon Sumrall said Friday that his roster is full and he is not signing anyone who has played pro football. He said that once a player goes pro, that ship has sailed.",
+      "date": "2026-08-28",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
     },
     {
       "id": "87cd6f88ee95",

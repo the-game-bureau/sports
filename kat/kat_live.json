@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "84324a250923",
+          "teamId": "saints",
+          "headline": "Saints let go of two hurt players",
+          "summary": "The Saints released running back Devin Neal and pass rusher Michael Heldman, who were both hurt in the preseason. The team paid them for their recovery time, and it can sign them again later.",
+          "date": "2026-09-03",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-surprisingly-waive-two-players-215850908.html"
+        },
+        {
           "id": "c09e234fb810",
           "teamId": "saints",
           "headline": "Saints claim a cornerback off waivers",
@@ -44,15 +53,6 @@
           "date": "2026-09-01",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/nfl/saints/onsi/saints-notebook-roster-moves-injury-updates-along-with-some-lagniappe-01m1d0jae34b"
-        },
-        {
-          "id": "3aed49797fb0",
-          "teamId": "saints",
-          "headline": "Saints add two more to the practice squad",
-          "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
-          "date": "2026-09-01",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
         }
       ]
     },
@@ -76,6 +76,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "603a734f60d9",
+          "teamId": "florida",
+          "headline": "Florida's opener Saturday is sold out",
+          "summary": "Florida says every seat is taken for the Florida Atlantic game. It is the 19th home game in a row that has sold out.",
+          "date": "2026-09-03",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/3/football-sold-out-florida-atlantic-game-marks-19th-straight-sellout-for-gators"
+        },
+        {
           "id": "2503a46ec39c",
           "teamId": "florida",
           "headline": "Florida is healthy going into Saturday's opener",
@@ -92,15 +101,6 @@
           "date": "2026-08-31",
           "source": "Saturday Down South",
           "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
-        },
-        {
-          "id": "b74a17b5ff0c",
-          "teamId": "florida",
-          "headline": "Sumrall says Florida will not add former pro players",
-          "summary": "Coach Jon Sumrall said Friday that his roster is full and he is not signing anyone who has played pro football. He said that once a player goes pro, that ship has sailed.",
-          "date": "2026-08-28",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
         }
       ]
     },
@@ -124,6 +124,24 @@
       "lastGame": null,
       "news": [
         {
+          "id": "8294a3248886",
+          "teamId": "lsu",
+          "headline": "College GameDay comes to LSU on Saturday",
+          "summary": "ESPN's Saturday morning football show will broadcast from the LSU campus before the Clemson game. Louisiana singer Lainey Wilson will pick the games and perform.",
+          "date": "2026-09-03",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/where-college-gameday-week-location-110103472.html"
+        },
+        {
+          "id": "bc9360ef102f",
+          "teamId": "lsu",
+          "headline": "LSU game sets a record for media passes",
+          "summary": "LSU told ESPN that Saturday night against Clemson is the most heavily covered game in Tiger Stadium history. More reporters and celebrities have passes than for any game before it.",
+          "date": "2026-09-02",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-confirms-clemson-season-opener-as-most-credentialed-game-in-tiger-stadium-history/"
+        },
+        {
           "id": "424616312a6c",
           "teamId": "lsu",
           "headline": "Former pro tight end practices with LSU",
@@ -131,24 +149,6 @@
           "date": "2026-09-01",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/lsu-set-play-nfl-returnees-075829304.html"
-        },
-        {
-          "id": "9faff4ec6a97",
-          "teamId": "lsu",
-          "headline": "LSU great Jerry Stovall dies at 85",
-          "summary": "Stovall died Monday in Baton Rouge. He was an All-America running back for LSU in 1962, later coached the Tigers from 1980 to 1983, and his number 21 hangs retired in Tiger Stadium.",
-          "date": "2026-08-31",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/08/31/lsu-college-football-hall-of-famer-jerry-stovall-passes-away-85"
-        },
-        {
-          "id": "c4c9fda0461d",
-          "teamId": "lsu",
-          "headline": "Kiffin will not show his lineup until game day",
-          "summary": "LSU will not hand out its list of starters until Saturday, an hour-of-the-game change from past coaches. Lane Kiffin said Monday that most spots are settled except defensive tackle, where he plans to rotate players.",
-          "date": "2026-08-31",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-football-depth-chart-before-opener-vs-clemson-battle-at-defensive-tackle-says-lane-kiffin/"
         }
       ]
     },

@@ -70,6 +70,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "603a734f60d9",
+          "teamId": "florida",
+          "headline": "Florida's opener Saturday is sold out",
+          "summary": "Florida says every seat is taken for the Florida Atlantic game. It is the 19th home game in a row that has sold out.",
+          "date": "2026-09-03",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/3/football-sold-out-florida-atlantic-game-marks-19th-straight-sellout-for-gators"
+        },
+        {
           "id": "2503a46ec39c",
           "teamId": "florida",
           "headline": "Florida is healthy going into Saturday's opener",
@@ -86,15 +95,6 @@
           "date": "2026-08-31",
           "source": "Saturday Down South",
           "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
-        },
-        {
-          "id": "b74a17b5ff0c",
-          "teamId": "florida",
-          "headline": "Sumrall says Florida will not add former pro players",
-          "summary": "Coach Jon Sumrall said Friday that his roster is full and he is not signing anyone who has played pro football. He said that once a player goes pro, that ship has sailed.",
-          "date": "2026-08-28",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
         }
       ]
     },
@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "e56f3aa2f52d",
+          "teamId": "texas",
+          "headline": "Four Texas home games move up a week",
+          "summary": "Texas said four future home games will now be played a week earlier, starting with New Mexico State on August 28, 2027. College football will begin a week sooner from next season on.",
+          "date": "2026-09-03",
+          "source": "Texas Athletics",
+          "url": "https://texaslonghorns.com/news/2026/9/3/texas-football-games-date-changes"
+        },
+        {
           "id": "8ad7f9076260",
           "teamId": "texas",
           "headline": "Texas picks Gio Spetic as its kicker",
@@ -134,15 +143,6 @@
           "date": "2026-08-31",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/texas/football/trevor-goosby-injury-update-before-texas-longhorns-season-opener"
-        },
-        {
-          "id": "02485de1cfcb",
-          "teamId": "texas",
-          "headline": "Three Texas freshmen make a national award list",
-          "summary": "Linebacker Tyler Atkinson, receiver Jermaine Bishop Jr. and pass rusher Richard Wesley were named to the watch list for the Shaun Alexander Freshman of the Year Award. Only Alabama, Michigan and Ohio State had as many players on it.",
-          "date": "2026-08-26",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/8/26/no-5-4-football-trio-named-to-shaun-alexander-freshman-of-the-year-watch-list"
         }
       ]
     },
@@ -172,6 +172,15 @@
       },
       "news": [
         {
+          "id": "84324a250923",
+          "teamId": "saints",
+          "headline": "Saints let go of two hurt players",
+          "summary": "The Saints released running back Devin Neal and pass rusher Michael Heldman, who were both hurt in the preseason. The team paid them for their recovery time, and it can sign them again later.",
+          "date": "2026-09-03",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-surprisingly-waive-two-players-215850908.html"
+        },
+        {
           "id": "c09e234fb810",
           "teamId": "saints",
           "headline": "Saints claim a cornerback off waivers",
@@ -188,15 +197,6 @@
           "date": "2026-09-01",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/nfl/saints/onsi/saints-notebook-roster-moves-injury-updates-along-with-some-lagniappe-01m1d0jae34b"
-        },
-        {
-          "id": "3aed49797fb0",
-          "teamId": "saints",
-          "headline": "Saints add two more to the practice squad",
-          "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
-          "date": "2026-09-01",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
         }
       ]
     },

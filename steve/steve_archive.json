@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "3aed49797fb0",
+      "teamId": "saints",
+      "headline": "Saints add two more to the practice squad",
+      "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
+      "date": "2026-09-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
       "id": "3aa4508421b4",
       "teamId": "yankees",
       "headline": "Aaron Judge could be back in the lineup September 8",
@@ -178,6 +187,15 @@
       "url": "https://www.espn.com/mlb/recap?gameId=401816717"
     },
     {
+      "id": "b74a17b5ff0c",
+      "teamId": "florida",
+      "headline": "Sumrall says Florida will not add former pro players",
+      "summary": "Coach Jon Sumrall said Friday that his roster is full and he is not signing anyone who has played pro football. He said that once a player goes pro, that ship has sailed.",
+      "date": "2026-08-28",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
+    },
+    {
       "id": "0358e97f18e2",
       "teamId": "saints",
       "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
@@ -266,6 +284,15 @@
       "date": "2026-08-27",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
+    },
+    {
+      "id": "02485de1cfcb",
+      "teamId": "texas",
+      "headline": "Three Texas freshmen make a national award list",
+      "summary": "Linebacker Tyler Atkinson, receiver Jermaine Bishop Jr. and pass rusher Richard Wesley were named to the watch list for the Shaun Alexander Freshman of the Year Award. Only Alabama, Michigan and Ohio State had as many players on it.",
+      "date": "2026-08-26",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/8/26/no-5-4-football-trio-named-to-shaun-alexander-freshman-of-the-year-watch-list"
     },
     {
       "id": "62d1bab94ea4",
