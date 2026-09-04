@@ -1,0 +1,46 @@
+# Keeps a copy of the two scoreboards the ticker reads, so the page still
+# has scores when the CORS relays it normally goes through are down. The
+# copy lives on an orphan "data" branch that is rewritten every run, so
+# the repo's history stays clean. The page reads it from
+# raw.githubusercontent.com, which sends CORS headers.
+name: Ticker snapshot
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ticker-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch the scoreboards
+        run: |
+          set -eu
+          mkdir -p snap/ticker
+          curl -fsS --retry 3 --retry-delay 5 -A "the-game-bureau ticker snapshot" -o snap/ticker/nfl.html   https://plaintextsports.com/nfl/
+          curl -fsS --retry 3 --retry-delay 5 -A "the-game-bureau ticker snapshot" -o snap/ticker/ncaaf.html https://plaintextsports.com/ncaaf/
+          grep -q 'Data loaded' snap/ticker/nfl.html
+          grep -q 'Data loaded' snap/ticker/ncaaf.html
+          date -u +%Y-%m-%dT%H:%M:%SZ > snap/ticker/taken.txt
+
+      - name: Publish to the data branch
+        run: |
+          set -eu
+          cd snap
+          git init -q -b data
+          git config user.name "Ticker snapshot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Ticker snapshot $(cat ticker/taken.txt)"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}" data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

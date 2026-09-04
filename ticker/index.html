@@ -403,14 +403,21 @@
         const SOURCE = 'https://plaintextsports.com';
         const CODES_URL = '../teams/ncaaf.json';
         const CACHE_KEY = 'ticker.lastGood.v2';
-        const FETCH_TIMEOUT = 12000;
+        const FETCH_TIMEOUT = 8000;
+        // A copy of today's two scoreboards, taken every ten minutes by the
+        // repo's "Ticker snapshot" workflow. Used when no relay answers.
+        const SNAPSHOT = 'https://raw.githubusercontent.com/the-game-bureau/sports/data/ticker/';
 
         // plaintextsports.com sends no CORS headers, so the browser has to go
-        // through a relay. Each is tried in turn until one answers.
+        // through a relay. Each is tried in turn until one answers. Jina's
+        // reader goes first: it hands back the raw page when asked for HTML,
+        // sends proper CORS headers, and allows 20 requests a minute per
+        // reader. The free relays after it come and go.
         const PROXIES = [
-            u => `https://api.cors.lol/?url=${encodeURIComponent(u)}`,
-            u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
-            u => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}`,
+            u => ({ url: `https://r.jina.ai/${u}`, headers: { 'X-Return-Format': 'html', 'X-No-Cache': 'true' } }),
+            u => ({ url: `https://api.cors.lol/?url=${encodeURIComponent(u)}` }),
+            u => ({ url: `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}` }),
+            u => ({ url: `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}` }),
         ];
 
         const NFL = {
@@ -490,11 +497,11 @@
 
         // ── Fetching ──────────────────────────────────────────────────────
 
-        async function fetchWithTimeout(url) {
+        async function fetchWithTimeout(url, headers) {
             const ctrl = new AbortController();
             const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT);
             try {
-                const res = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+                const res = await fetch(url, { signal: ctrl.signal, cache: 'no-store', headers: headers || {} });
                 if (res.status === 404) { const e = new Error('not found'); e.notFound = true; throw e; }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const text = await res.text();
@@ -512,7 +519,8 @@
             let lastError = null;
             for (const proxy of PROXIES) {
                 try {
-                    const html = await fetchWithTimeout(proxy(target));
+                    const req = proxy(target);
+                    const html = await fetchWithTimeout(req.url, req.headers);
                     if (!/text-fg no-underline|Data loaded/.test(html)) throw new Error('unexpected body');
                     return html;
                 } catch (err) {
@@ -799,6 +807,32 @@
             return page;
         }
 
+        // The snapshot only covers today's pages. Resolves to null when it
+        // can't be read.
+        async function loadSnapshot(day) {
+            const results = await Promise.allSettled([
+                fetchWithTimeout(`${SNAPSHOT}nfl.html?r=${Math.floor(Date.now() / 60000)}`),
+                fetchWithTimeout(`${SNAPSHOT}ncaaf.html?r=${Math.floor(Date.now() / 60000)}`),
+            ]);
+            let games = [];
+            let loaded = NaN;
+            let any = false;
+            if (results[0].status === 'fulfilled') {
+                const page = parsePage(results[0].value, 'nfl');
+                games = games.concat(page.games.filter(g => sameDay(g.day, day)));
+                if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
+                any = true;
+            }
+            if (results[1].status === 'fulfilled') {
+                const page = parsePage(results[1].value, 'ncaaf');
+                if (!page.pageDay || sameDay(page.pageDay, day)) games = games.concat(page.games);
+                if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
+                any = true;
+            }
+            if (!any) return null;
+            return { games, stamp: Number.isNaN(loaded) || !loaded ? Date.now() : loaded };
+        }
+
         async function loadScores(day, isToday) {
             const results = await Promise.allSettled([loadNfl(day), loadCollege(day, isToday)]);
             const failures = [];
@@ -883,11 +917,21 @@
             const upcomingHeading = document.querySelector('#upcoming h2');
             upcomingHeading.firstChild.textContent = `${text.upcomingTitle} `;
 
-            const [codes, outcome] = await Promise.all([
-                fetchCodes(),
-                loadScores(day, isToday).then(v => ({ ok: true, v }), e => ({ ok: false, e })),
-            ]);
-            ncaa = codes;
+            const snapshotP = isToday ? loadSnapshot(day).catch(() => null) : Promise.resolve(null);
+            const liveP = loadScores(day, isToday).then(v => ({ ok: true, v }), e => ({ ok: false, e }));
+            ncaa = await fetchCodes();
+
+            // Paint the snapshot as soon as it lands so the page isn't blank
+            // while the relays are tried; live data replaces it when it comes.
+            let settled = false;
+            snapshotP.then(snap => {
+                if (settled || !snap) return;
+                render(snap.games, text);
+                setUpdated(`Scores as of ${localClock.format(new Date(snap.stamp))} · checking for newer…`);
+            });
+
+            const outcome = await liveP;
+            settled = true;
 
             if (outcome.ok) {
                 const { games, stamp, failures } = outcome.v;
@@ -897,6 +941,14 @@
                     ? `Couldn't reach the ${failures[0]} scoreboard on plaintextsports.com this time. Try a refresh.`
                     : '');
                 if (isToday) writeCache({ stamp, games, day });
+                return;
+            }
+
+            const snap = await snapshotP;
+            if (snap) {
+                render(snap.games, text);
+                setUpdated(`Scores as of ${localClock.format(new Date(snap.stamp))}`);
+                notice(`The live relays to <a href="${SOURCE}">plaintextsports.com</a> aren't answering, so this is the copy the site takes every ten minutes. Refresh to try again.`);
                 return;
             }
 
