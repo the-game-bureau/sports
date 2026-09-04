@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,15 @@
       "date": "2026-09-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
+      "id": "ad84be4f442f",
+      "teamId": "texas",
+      "headline": "Two hurt Texas linemen return to practice",
+      "summary": "Left tackle Trevor Goosby and lineman Laurence Seymore both practiced on Monday. Coach Steve Sarkisian said they both looked really good, but he did not say whether they will play Saturday.",
+      "date": "2026-08-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/trevor-goosby-injury-update-before-texas-longhorns-season-opener"
     },
     {
       "id": "3aa4508421b4",

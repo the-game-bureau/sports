@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -124,6 +124,24 @@
       "lastGame": null,
       "news": [
         {
+          "id": "71a5e323d7dd",
+          "teamId": "lsu",
+          "headline": "Judge clears former pro players to play for LSU",
+          "summary": "A Baton Rouge judge ruled Thursday that more than 40 players who spent time in the NFL can play college football again. LSU has until Friday to add any of them to its roster, and the SEC says it will appeal.",
+          "date": "2026-09-03",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/judge-grants-injunction-allowing-lsu-to-sign-former-nfl-players"
+        },
+        {
+          "id": "75b3972937d4",
+          "teamId": "lsu",
+          "headline": "SEC sues LSU and coach Lane Kiffin",
+          "summary": "The Southeastern Conference sued LSU and Lane Kiffin in federal court on Thursday. It says they ran a campaign to bring former pro players onto the roster, which conference rules do not allow.",
+          "date": "2026-09-03",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/sec-lawsuit-lsu-lane-kiffin-nfl-players/"
+        },
+        {
           "id": "8294a3248886",
           "teamId": "lsu",
           "headline": "College GameDay comes to LSU on Saturday",
@@ -131,24 +149,6 @@
           "date": "2026-09-03",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/where-college-gameday-week-location-110103472.html"
-        },
-        {
-          "id": "bc9360ef102f",
-          "teamId": "lsu",
-          "headline": "LSU game sets a record for media passes",
-          "summary": "LSU told ESPN that Saturday night against Clemson is the most heavily covered game in Tiger Stadium history. More reporters and celebrities have passes than for any game before it.",
-          "date": "2026-09-02",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-confirms-clemson-season-opener-as-most-credentialed-game-in-tiger-stadium-history/"
-        },
-        {
-          "id": "424616312a6c",
-          "teamId": "lsu",
-          "headline": "Former pro tight end practices with LSU",
-          "summary": "Dae'Quan Wright took part in LSU's walk-through on Monday. A judge hears the case Thursday, and coach Lane Kiffin will not put him or two other former pro players on the roster before then.",
-          "date": "2026-09-01",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lsu-set-play-nfl-returnees-075829304.html"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -118,6 +118,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "c7e06e280fe5",
+          "teamId": "texas",
+          "headline": "Trevor Goosby will play in Saturday's opener",
+          "summary": "Coach Steve Sarkisian said Thursday that his left tackle is good to go after a bruised knee. Texas will watch how many plays he takes because it will be hot on Saturday afternoon.",
+          "date": "2026-09-03",
+          "source": "On3",
+          "url": "https://www.on3.com/teams/texas-longhorns/news/steve-sarkisian-trevor-goosby-texas-left-tackle-longhorns-week-1-longhorns"
+        },
+        {
           "id": "e56f3aa2f52d",
           "teamId": "texas",
           "headline": "Four Texas home games move up a week",
@@ -134,15 +143,6 @@
           "date": "2026-08-31",
           "source": "Burnt Orange Nation",
           "url": "https://www.burntorangenation.com/texas-longhorns-football/104088/texas-longhorns-specialists-jeff-banks"
-        },
-        {
-          "id": "ad84be4f442f",
-          "teamId": "texas",
-          "headline": "Two hurt Texas linemen return to practice",
-          "summary": "Left tackle Trevor Goosby and lineman Laurence Seymore both practiced on Monday. Coach Steve Sarkisian said they both looked really good, but he did not say whether they will play Saturday.",
-          "date": "2026-08-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/trevor-goosby-injury-update-before-texas-longhorns-season-opener"
         }
       ]
     },

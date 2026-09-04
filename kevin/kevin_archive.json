@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "bc9360ef102f",
+      "teamId": "lsu",
+      "headline": "LSU game sets a record for media passes",
+      "summary": "LSU told ESPN that Saturday night against Clemson is the most heavily covered game in Tiger Stadium history. More reporters and celebrities have passes than for any game before it.",
+      "date": "2026-09-02",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-confirms-clemson-season-opener-as-most-credentialed-game-in-tiger-stadium-history/"
+    },
+    {
+      "id": "424616312a6c",
+      "teamId": "lsu",
+      "headline": "Former pro tight end practices with LSU",
+      "summary": "Dae'Quan Wright took part in LSU's walk-through on Monday. A judge hears the case Thursday, and coach Lane Kiffin will not put him or two other former pro players on the roster before then.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lsu-set-play-nfl-returnees-075829304.html"
+    },
     {
       "id": "3aed49797fb0",
       "teamId": "saints",
