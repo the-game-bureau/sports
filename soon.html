@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Build Your Sports Report</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
+            padding: 24px 18px 140px;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+
+        /* ── Header ── */
+        h1 {
+            font-size: 1.55rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            line-height: 1.15;
+        }
+
+        .sub {
+            margin-top: 8px;
+            color: #999;
+            font-size: 0.95rem;
+            line-height: 1.45;
+        }
+
+        /* ── Sections ── */
+        .step {
+            margin-top: 34px;
+        }
+
+        .step-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #888;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .step-label .count {
+            margin-left: auto;
+            letter-spacing: 0.06em;
+            color: #fff;
+        }
+
+        .step-hint {
+            margin-top: 6px;
+            color: #777;
+            font-size: 0.85rem;
+        }
+
+        /* ── Name field ── */
+        .name-field {
+            margin-top: 12px;
+            width: 100%;
+            padding: 14px 16px;
+            background: #1e1e1e;
+            border: 2px solid #333;
+            border-radius: 4px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 1.05rem;
+            font-weight: 700;
+        }
+
+        .filter { font-size: 0.95rem; font-weight: 500; }
+
+        .name-field::placeholder { color: #666; font-weight: 500; }
+        .name-field:focus { outline: none; border-color: #fff; }
+
+        /* ── Team picker ── */
+        .teams {
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Each team is one wide target — easy to hit with a thumb, and the
+           whole row reacts, not a small box off to one side. */
+        .team {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            width: 100%;
+            padding: 12px 14px;
+            background: #1e1e1e;
+            border: 2px solid #333;
+            border-left: 7px solid var(--team-color, #333);
+            border-radius: 4px;
+            color: #fff;
+            font-family: inherit;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .team:focus-visible { outline: 3px solid #007acc; outline-offset: 3px; }
+
+        .team[aria-pressed="true"] {
+            background: #fff;
+            border-color: #fff;
+            border-left-color: var(--team-color, #111);
+            color: #111;
+        }
+
+        .team img {
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .team-text { min-width: 0; }
+
+        .team-name {
+            font-size: 1rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .team-sport {
+            margin-top: 3px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: #888;
+        }
+
+        .team[aria-pressed="true"] .team-sport { color: #666; }
+
+        /* The news routine only writes scores for the teams on the three
+           standing reports. Anything else builds a real card — colors, logo,
+           links — with no numbers in it yet, and it is fairer to say so here
+           than to let someone find out after they hit the button. */
+        .team-note {
+            margin-top: 4px;
+            font-size: 0.68rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #7a6320;
+        }
+
+        .team[aria-pressed="true"] .team-note { color: #8a6d15; }
+
+        /* The order they picked is the order the cards come out, so it is worth
+           showing rather than making them guess. */
+        .pick-order {
+            margin-left: auto;
+            flex-shrink: 0;
+            min-width: 30px;
+            height: 30px;
+            border-radius: 999px;
+            background: #111;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 800;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 0 8px;
+        }
+
+        .team[aria-pressed="true"] .pick-order { display: flex; }
+
+        /* ── Submit ── */
+        .bar {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 14px 18px calc(14px + env(safe-area-inset-bottom, 0px));
+            background: rgba(17, 17, 17, 0.94);
+            border-top: 1px solid #2a2a2a;
+        }
+
+        .bar-inner { max-width: 520px; margin: 0 auto; }
+
+        .go {
+            display: block;
+            width: 100%;
+            padding: 18px 20px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 1.15rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            cursor: pointer;
+        }
+
+        .go:disabled { background: #333; color: #777; cursor: default; }
+        .go:focus-visible { outline: 3px solid #007acc; outline-offset: 3px; }
+
+        .message {
+            margin-top: 12px;
+            padding: 22px 16px;
+            background: #1e1e1e;
+            border-radius: 4px;
+            color: #999;
+            text-align: center;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .foot {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .foot a { color: #999; }
+
+        @media (min-width: 520px) {
+            body { padding-top: 40px; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Build Your Sports Report</h1>
+        <p class="sub">Pick your teams and get a page of your own — scores, next
+            games, and the news that matters, refreshed twice a day.</p>
+
+        <form id="chooser">
+            <div class="step">
+                <div class="step-label"><span>Call it something</span></div>
+                <input class="name-field" id="reportName" type="text"
+                       placeholder="Kevin's Sports Report" maxlength="60"
+                       autocomplete="off" spellcheck="false">
+            </div>
+
+            <div class="step">
+                <div class="step-label">
+                    <span>Pick your teams</span>
+                    <span class="count" id="pickCount">0 picked</span>
+                </div>
+                <div class="step-hint">Tap to add. They appear in the order you pick them.</div>
+                <input class="name-field filter" id="filter" type="text"
+                       placeholder="Search teams" autocomplete="off"
+                       spellcheck="false" aria-label="Search teams">
+                <div class="teams" id="teams">
+                    <div class="message">Loading teams&hellip;</div>
+                </div>
+            </div>
+
+            <p class="foot" id="foot" hidden>Already have one?
+                <a id="lastLink" href="report.html">Open it</a>.</p>
+
+            <div class="bar">
+                <div class="bar-inner">
+                    <button class="go" id="go" type="submit" disabled>Pick a team to start</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+<script>
+(function () {
+    'use strict';
+
+    // The three hand-kept files are the only place teams are defined. Read all
+    // three and dedupe by id: whoever added the Saints first described them for
+    // everybody, and a chooser that invented its own list would drift from the
+    // reports the moment a color or a logo changed.
+    var SOURCES = ['steve', 'kat', 'kevin'];
+
+    // League catalogs come after the hand-kept files. Same id means the first
+    // definition wins, so the Saints keep the gold banner someone chose for
+    // them and the catalog only fills in the clubs nobody has written up.
+    var CATALOGS = ['teams/nfl.json'];
+    var LAST_PICK = 'sports.lastReport';
+
+    var teamsEl = document.getElementById('teams');
+    var goEl = document.getElementById('go');
+    var nameEl = document.getElementById('reportName');
+    var countEl = document.getElementById('pickCount');
+    var filterEl = document.getElementById('filter');
+    var footEl = document.getElementById('foot');
+    var lastLinkEl = document.getElementById('lastLink');
+
+    // Pick order is the card order, so this is a list and not a set.
+    var picked = [];
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    function get(url) {
+        return fetch(url + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        });
+    }
+
+    function colorOf(team) {
+        var c = team.colors || {};
+        return c.banner || c.primary || '#333';
+    }
+
+    function refresh() {
+        var n = picked.length;
+        countEl.textContent = n + ' picked';
+        goEl.disabled = n === 0;
+        goEl.textContent = n === 0 ? 'Pick a team to start'
+            : 'Build My Report (' + n + ')';
+
+        Array.prototype.forEach.call(teamsEl.querySelectorAll('.team'), function (btn) {
+            var at = picked.indexOf(btn.dataset.id);
+            btn.setAttribute('aria-pressed', at === -1 ? 'false' : 'true');
+            btn.querySelector('.pick-order').textContent = at === -1 ? '' : String(at + 1);
+        });
+    }
+
+    // Forty-odd rows is too many to scroll past to find one club. Anything
+    // already picked stays on screen regardless, so a search never hides a
+    // choice someone has made.
+    function applyFilter() {
+        var q = filterEl.value.trim().toLowerCase();
+        Array.prototype.forEach.call(teamsEl.querySelectorAll('.team'), function (btn) {
+            var hit = !q || btn.dataset.search.indexOf(q) !== -1 ||
+                picked.indexOf(btn.dataset.id) !== -1;
+            btn.hidden = !hit;
+        });
+    }
+
+    function reportUrl(title, ids) {
+        var url = 'report.html?teams=' + ids.map(encodeURIComponent).join(',');
+        return title ? url + '&title=' + encodeURIComponent(title) : url;
+    }
+
+    function toggle(id) {
+        var at = picked.indexOf(id);
+        if (at === -1) { picked.push(id); } else { picked.splice(at, 1); }
+        refresh();
+        applyFilter();
+    }
+
+    function buildTeam(team, covered) {
+        var btn = el('button', 'team');
+        btn.type = 'button';
+        btn.dataset.id = team.id;
+        btn.dataset.search = [team.name, team.shortName, team.sport, team.id]
+            .join(' ').toLowerCase();
+        btn.style.setProperty('--team-color', colorOf(team));
+        btn.setAttribute('aria-pressed', 'false');
+
+        if (team.logo) {
+            var logo = new Image();
+            logo.src = team.logo;
+            logo.alt = '';
+            btn.appendChild(logo);
+        }
+
+        var text = el('div', 'team-text');
+        text.appendChild(el('div', 'team-name', team.name || team.id));
+        text.appendChild(el('div', 'team-sport', team.sport || ''));
+        if (!covered[team.id]) { text.appendChild(el('div', 'team-note', 'No scores yet')); }
+        btn.appendChild(text);
+        btn.appendChild(el('span', 'pick-order'));
+
+        btn.addEventListener('click', function () { toggle(team.id); });
+        return btn;
+    }
+
+    function catalog(configs) {
+        var byId = {};
+        var order = [];
+        configs.forEach(function (cfg) {
+            ((cfg && cfg.teams) || []).forEach(function (team) {
+                if (byId[team.id]) { return; }
+                byId[team.id] = team;
+                order.push(team.id);
+            });
+        });
+        return order.map(function (id) { return byId[id]; });
+    }
+
+    function showTeams(list, covered) {
+        teamsEl.textContent = '';
+        if (!list.length) {
+            teamsEl.appendChild(el('div', 'message',
+                'No teams found. The team files did not load.'));
+            return;
+        }
+        list.forEach(function (team) { teamsEl.appendChild(buildTeam(team, covered)); });
+
+        // Come back to a report you already built and it is still filled in.
+        // Nobody should have to remember six teams and retype a title.
+        try {
+            var last = JSON.parse(localStorage.getItem(LAST_PICK) || 'null');
+            if (last) {
+                if (last.title) { nameEl.value = last.title; }
+                (last.teams || []).forEach(function (id) {
+                    if (picked.indexOf(id) === -1 &&
+                        list.some(function (t) { return t.id === id; })) {
+                        picked.push(id);
+                    }
+                });
+                if (picked.length) {
+                    lastLinkEl.href = reportUrl(last.title || '', picked);
+                    lastLinkEl.textContent = 'Open ' + (last.title || 'it');
+                    footEl.hidden = false;
+                }
+            }
+        } catch (err) { /* a locked-down browser just means an empty form */ }
+
+        refresh();
+        applyFilter();
+    }
+
+    filterEl.addEventListener('input', applyFilter);
+
+    // One missing file costs its teams, not the page.
+    function maybe(url) { return get(url).catch(function () { return null; }); }
+
+    // Which teams the routine actually writes scores for.
+    function coverage(lives) {
+        var seen = {};
+        lives.forEach(function (live) {
+            Object.keys((live && live.teams) || {}).forEach(function (id) { seen[id] = true; });
+        });
+        return seen;
+    }
+
+    Promise.all([
+        Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '.json'); })
+            .concat(CATALOGS.map(maybe))),
+        Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '_live.json'); }))
+    ]).then(function (r) {
+        showTeams(catalog(r[0]), coverage(r[1]));
+    }).catch(function () {
+        teamsEl.textContent = '';
+        teamsEl.appendChild(el('div', 'message',
+            'The team files did not load. If you opened this file directly, serve the ' +
+            'folder instead (for example: python -m http.server) and reload.'));
+    });
+
+    document.getElementById('chooser').addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!picked.length) { return; }
+
+        var title = nameEl.value.trim();
+        try {
+            localStorage.setItem(LAST_PICK, JSON.stringify({ title: title, teams: picked }));
+        } catch (err) { /* not being able to remember is not a reason to stop */ }
+
+        window.location.href = reportUrl(title, picked);
+    });
+})();
+</script>
+</body>
+</html>
