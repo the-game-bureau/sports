@@ -391,7 +391,8 @@
         </nav>
 
         <footer>Scores come from <a href="https://plaintextsports.com">plaintextsports.com</a>
-            and are fetched fresh each time this page loads. Logos from ESPN and NCAA.com.
+            and are fetched fresh each time this page loads. All times are Chicago time.
+            Logos from ESPN and NCAA.com.
             Built by <a href="https://thegamebureau.com/ff">The Game Bureau</a>.</footer>
 
     </div>
@@ -495,8 +496,9 @@
         const dayShort = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric' });
         const dayLong = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric' });
 
-        const localTime = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
-        const localClock = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit' });
+        // Every time on the page is shown in Chicago time.
+        const localTime = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+        const localClock = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit', second: '2-digit', timeZoneName: 'short' });
 
         // ── Fetching ──────────────────────────────────────────────────────
 
