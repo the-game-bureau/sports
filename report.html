@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/football_icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/football_icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/football_icon.png">
+    <link rel="apple-touch-icon" href="images/football_icon.png">
+    <link rel="icon" href="images/football_icon.png">
+    <title>Sports Report</title>
+    <style>
+        /* Every card is drawn from the three hand-kept team files. The news
+           routine refreshes their live halves
+           file twice a day, so the answers — next game, kickoff, channel, last
+           result — sit on the page instead of behind a link. */
+
+        html { scroll-behavior: smooth; }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            min-height: 100vh;
+            line-height: 1.4;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 16px 12px;
+        }
+
+        /* ── Header ── */
+        .header {
+            background: #fff;
+            padding: 18px 18px 14px;
+            margin-bottom: 24px;
+            border-radius: 4px;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #111;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+
+        .header-top p { margin-bottom: 0; }
+
+        .header p {
+            font-size: 0.85rem;
+            color: #aaa;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            margin-bottom: 14px;
+        }
+
+        /* Today's date, so he always knows where he is in the week. */
+        .today {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding-bottom: 14px;
+        }
+
+        /* ── Nav ── */
+        .team-navigation {
+            display: flex;
+            gap: 5px;
+        }
+
+        .nav-team-icon {
+            flex: 1;
+            height: 60px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: opacity 0.12s;
+            background: var(--team-color, #333);
+        }
+
+        .nav-team-icon:hover,
+        .nav-team-icon:focus { opacity: 0.72; }
+
+        .nav-team-icon img {
+            width: 34px;
+            height: 34px;
+            object-fit: contain;
+        }
+
+        .nav-ball { font-size: 1.7rem; line-height: 1; }
+
+        /* ── Cards ── */
+        .teams-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .team-card {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 7px solid var(--banner-color, var(--team-color));
+            scroll-margin-top: 8px;
+        }
+
+        /* ── Sport label ── */
+        .sport-label {
+            background: #1e1e1e;
+            color: #fff;
+            padding: 8px 14px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* The season record is the one number on the card that answers "how are
+           they doing," so it gets to be a bright chip on the dark bar rather
+           than grey text trailing off the end of it. */
+        .sport-label .record {
+            margin-left: auto;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            padding: 4px 10px 5px;
+            border-radius: 999px;
+            background: #fff;
+            color: #111;
+            font-size: 1rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+            line-height: 1;
+        }
+
+        /* The word carries the number for anyone who does not read "76-58" as
+           a record on sight. */
+        .sport-label .record .record-word {
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: #666;
+        }
+
+        /* ── Team banner ── */
+        .team-banner {
+            background: var(--banner-color, var(--team-color));
+            padding: 16px 16px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .name-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .photo-section {
+            width: 72px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .team-logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+        }
+
+        .team-name {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .person-photo {
+            width: 72px;
+            height: 72px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        /* ── Next game — the reason the page exists ── */
+        .next-game {
+            position: relative;
+            padding: 18px 16px 20px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .block-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #888;
+        }
+
+        .next-game-head { margin-bottom: 10px; }
+
+        /* Days until kickoff, counting down to 0 on game day. Sits in the
+           team's secondary color and floats above the card, straddling the
+           banner edge so it reads as a sticker rather than another row. */
+        .countdown-badge {
+            position: absolute;
+            top: -34px;
+            right: 14px;
+            z-index: 3;
+            min-width: 82px;
+            padding: 8px 12px 9px;
+            background: var(--secondary-color, var(--banner-color));
+            color: var(--secondary-ink, #fff);
+            border: 2px solid var(--secondary-edge, transparent);
+            border-radius: 3px;
+            text-align: center;
+            line-height: 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+        }
+
+        .countdown-badge .days {
+            display: block;
+            font-size: 1.9rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .countdown-badge .unit {
+            display: block;
+            margin-top: 3px;
+            font-size: 0.62rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+        }
+
+        /* Game day needs no number. The words alone, swapping ink and
+           background about once a second, so the card announces itself from
+           across the room without anyone having to read a 0. */
+        .countdown-badge.is-gameday {
+            padding: 9px 12px 10px;
+            animation: gameday-blink 1.4s steps(1, end) infinite;
+        }
+
+        .countdown-badge.is-gameday .gameday {
+            display: block;
+            font-size: 1.25rem;
+            font-weight: 800;
+            line-height: 1.02;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        @keyframes gameday-blink {
+            0%, 50% {
+                background: var(--secondary-color, var(--banner-color));
+                color: var(--secondary-ink, #fff);
+            }
+            50.01%, 100% {
+                background: var(--secondary-ink, #fff);
+                color: var(--secondary-color, var(--banner-color));
+            }
+        }
+
+        /* Blinking is a barrier for some readers, and a trigger for a few.
+           Anyone who has asked their phone for less motion gets the words
+           held still, in the badge's normal colors. */
+        @media (prefers-reduced-motion: reduce) {
+            .countdown-badge.is-gameday { animation: none; }
+        }
+
+        .matchup {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.1;
+            text-transform: uppercase;
+            letter-spacing: -0.01em;
+        }
+
+        .matchup .vs { color: #888; }
+
+        .when-line {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #111;
+            margin-top: 10px;
+        }
+
+        .where-line {
+            font-size: 1rem;
+            color: #555;
+            font-weight: 600;
+            margin-top: 3px;
+        }
+
+        .watch {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 14px;
+            padding: 12px 14px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .watch img { width: 64px; height: 34px; object-fit: contain; flex-shrink: 0; }
+        .watch .watch-text { font-size: 1.05rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }
+        .watch .watch-sub { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* Hand-entered extras (an open practice, a signing day) ride below
+           the next game so the card still answers "what's next?" first. */
+        .also { padding: 0 16px 16px; background: #fff; }
+
+        .also .row {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            padding: 10px 12px;
+            margin-top: 8px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 6px solid var(--banner-color, var(--team-color));
+        }
+
+        .also .row-when {
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #111;
+            white-space: nowrap;
+        }
+
+        .also .row-what { font-size: 1rem; font-weight: 700; color: #333; }
+        .also .row-where { font-size: 0.85rem; color: #666; font-weight: 600; }
+
+        /* ── Last game ── */
+        .last-game {
+            padding: 14px 16px;
+            background: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .result {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .result .won { color: #0a7a3d; }
+        .result .lost { color: #a81f16; }
+
+        /* ── News ── */
+        .news {
+            padding: 10px 16px 16px;
+            /* Latest wears the banner color on white; the older stories sit
+               on a light wash of the team's secondary. */
+            background: var(--news-bg, #fff);
+            border-left: 8px solid var(--news-accent, var(--banner-color));
+        }
+
+        .news .block-label { padding: 10px 0 2px; display: block; }
+
+        .news .story {
+            display: block;
+            padding: 10px 0;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #111;
+        }
+
+        .news .story:first-of-type { border-top: none; }
+
+        .news .story[href] .headline {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .news .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #111;
+            line-height: 1.25;
+        }
+
+        .news .summary { font-size: 1rem; color: #333; margin-top: 3px; }
+        .news .stamp { font-size: 0.8rem; color: #888; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+
+        /* ── Buttons ── */
+        .btn-icon {
+            width: 1.2em;
+            height: 1.2em;
+            object-fit: contain;
+            margin: 0 0.4em;
+            flex-shrink: 0;
+            vertical-align: middle;
+        }
+
+        .team-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            background: #ccc;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 20px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            min-height: 66px;
+            transition: background 0.1s, color 0.1s;
+        }
+
+        .action-btn:hover,
+        .action-btn:focus {
+            background: var(--team-color);
+            color: #fff;
+        }
+
+        .action-btn.primary {
+            background: var(--team-color);
+            color: #fff;
+            font-size: 1.25rem;
+            min-height: 78px;
+        }
+
+        .action-btn.primary:hover,
+        .action-btn.primary:focus {
+            background: #111;
+            color: #fff;
+        }
+
+        /* The newest story rides directly under that team's News button, so
+           he sees what happened without opening anything. */
+        .latest-story {
+            display: block;
+            padding: 14px 16px 16px;
+            background: var(--light-color, #f2f2f2);
+            border-left: 8px solid var(--banner-color, var(--team-color));
+            text-decoration: none;
+            color: #111;
+        }
+
+        .latest-story .latest-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #666;
+        }
+
+        .latest-story .headline {
+            font-size: 1.15rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-top: 4px;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .latest-story .summary { font-size: 1rem; color: #333; margin-top: 4px; }
+
+        .latest-story .stamp {
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 5px;
+        }
+
+        /* A link can ask for the team's secondary color in kevin.json. */
+        .action-btn.on-secondary {
+            background: var(--secondary-color, var(--banner-color));
+            color: #fff;
+        }
+
+        .action-btn.on-secondary:hover,
+        .action-btn.on-secondary:focus {
+            background: var(--team-color);
+            color: #fff;
+        }
+
+        .off-season {
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            background: #fff;
+        }
+
+        /* Not a team — her fantasy league gets its own block, in its own
+           colors, so it never reads as a fifth team card. */
+        .league {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            border-top: 7px solid var(--league-accent, #0F766E);
+        }
+
+        .league .sport-label { background: var(--league-banner, #000); }
+
+        .league-banner {
+            display: block;
+            width: 100%;
+            background: var(--league-banner, #000);
+        }
+
+        .league-body {
+            padding: 18px 16px 20px;
+            background: var(--league-light, #f2f2f2);
+        }
+
+        .league-tagline {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #444;
+            margin-top: 8px;
+            line-height: 1.35;
+        }
+
+        .league-name {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+
+        .league-player {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333;
+            margin-top: 6px;
+        }
+
+        .league-player .handle {
+            display: inline-block;
+            background: var(--league-color, #0F766E);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 3px;
+            letter-spacing: 0.04em;
+        }
+
+        .league .action-btn {
+            background: var(--league-color, #0F766E);
+            color: #fff;
+            border-top: 2px solid #ccc;
+        }
+
+        .league .action-btn:hover,
+        .league .action-btn:focus { background: #111; color: #fff; }
+
+        .archive-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 66px;
+            margin-top: 32px;
+            padding: 16px 20px;
+            background: #fff;
+            color: #111;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+        }
+
+        .archive-btn:active { background: #ccc; }
+
+        /* ── Refresh ── */
+        .refresh-btn {
+            display: block;
+            width: 100%;
+            margin-top: 36px;
+            padding: 18px;
+            background: #2a2a2a;
+            color: #aaa;
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+            transition: background 0.1s, color 0.1s;
+            min-height: 60px;
+        }
+
+        .refresh-btn:hover,
+        .refresh-btn:focus { background: #444; color: #fff; }
+
+        .refresh-btn .countdown {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .refresh-btn .refresh-label { display: block; }
+
+        /* Photo carousel. Native scroll-snap does the swiping, so it feels
+           right on a phone with no gesture code of our own. */
+        .carousel { margin-top: 28px; }
+
+        .slides {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            border-radius: 4px;
+        }
+
+        .slides::-webkit-scrollbar { display: none; }
+
+        /* A square frame fits both the portrait and landscape shots, and
+           `contain` shows each one whole — no cropped faces. */
+        .slide {
+            flex: 0 0 100%;
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+            background: #000;
+            scroll-snap-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Arrows, not a row of dots: there are too many photos for dots to
+           stay tappable, and these say plainly which way you are going. */
+        .carousel-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .carousel-nav button {
+            width: 64px;
+            height: 56px;
+            border: none;
+            border-radius: 4px;
+            background: #2a2a2a;
+            color: #fff;
+            font: inherit;
+            font-size: 1.4rem;
+            font-weight: 800;
+            line-height: 1;
+            cursor: pointer;
+        }
+
+        .carousel-nav button:active { background: #555; }
+
+        .carousel-count {
+            min-width: 96px;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            padding: 16px 0 0;
+        }
+
+        .message {
+            background: #fff;
+            border-radius: 4px;
+            padding: 28px 18px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #111;
+        }
+
+        .message small { display: block; font-weight: 500; color: #777; margin-top: 8px; font-size: 0.85rem; text-transform: none; letter-spacing: 0; }
+        .message a { display: inline-block; margin-top: 12px; color: #111; font-size: 0.9rem; }
+
+        /* ── Focus ── */
+        .action-btn:focus,
+        .person-photo:focus,
+        .nav-team-icon:focus,
+        .watch:focus {
+            outline: 3px solid #007acc;
+            outline-offset: 2px;
+        }
+
+        /* ── Desktop scale-up ── */
+        @media (min-width: 520px) {
+            .container { padding: 28px 24px; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 2.1rem; }
+            .team-name { font-size: 2rem; }
+            .matchup { font-size: 2rem; }
+            .action-btn { font-size: 1.2rem; min-height: 70px; }
+            .action-btn.primary { font-size: 1.35rem; min-height: 84px; }
+            .nav-team-icon { height: 68px; }
+            .nav-team-icon img { width: 40px; height: 40px; }
+            .team-logo { width: 72px; height: 72px; }
+            .photo-section { width: 80px; height: 80px; }
+            .person-photo { width: 80px; height: 80px; }
+        }
+
+        /* ── Print ── */
+        @media print {
+            @page { size: letter portrait; margin: 0.4in; }
+
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            body { background: #fff !important; }
+            .container { max-width: 100%; padding: 0; }
+            .team-navigation, .refresh-btn, .updated, .carousel, .lightbox,
+            .archive-btn { display: none !important; }
+            .league { break-inside: avoid; margin-top: 8px; }
+            .league-body { padding: 6px 9px 8px; }
+            .league-name { font-size: 11pt; }
+            .league-player { font-size: 8pt; }
+            .header-photo { width: 34px; height: 34px; }
+            .header-top { gap: 8px; margin-bottom: 6px; }
+
+            .header { margin-bottom: 8px; padding: 8px; }
+            .header-top {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .header-photo {
+            width: 76px;
+            height: 76px;
+            border-radius: 3px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+
+        /* Tap the photo to see it big. Tapping anywhere closes it, and there
+           is a large Close button, so there is no way to get stuck in here. */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.94);
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 78vh;
+            border-radius: 4px;
+            object-fit: contain;
+        }
+
+        .lightbox-close {
+            padding: 16px 28px;
+            min-height: 60px;
+            background: #fff;
+            color: #111;
+            border: none;
+            border-radius: 4px;
+            font: inherit;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            cursor: pointer;
+        }
+
+        .header-text { min-width: 0; }
+
+        .header h1 { font-size: 14pt; }
+            .header p { margin-bottom: 0; }
+            .today { font-size: 9pt; padding-bottom: 4px; }
+
+            .teams-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+            }
+
+            .team-card { break-inside: avoid; border-top-width: 4px; }
+            .sport-label { padding: 4px 8px; font-size: 7pt; }
+            .sport-label .record { padding: 2pt 6pt; font-size: 9pt; gap: 4pt; }
+            .sport-label .record .record-word { font-size: 5pt; }
+            .team-banner { padding: 7px 9px; gap: 7px; }
+            .team-logo { width: 32px; height: 32px; }
+            .team-name { font-size: 10pt; white-space: normal; }
+            .photo-section { width: 40px; height: 40px; }
+            .person-photo { width: 40px; height: 40px; }
+
+            .next-game { padding: 6px 9px 8px; }
+            .block-label { font-size: 6pt; }
+            .next-game-head { margin-bottom: 4px; }
+            .countdown-badge {
+                position: static;
+                float: right;
+                min-width: 34px;
+                padding: 2px 4px;
+                box-shadow: none;
+            }
+            .countdown-badge .days { font-size: 11pt; }
+            .countdown-badge .unit { font-size: 5pt; margin-top: 1px; }
+            .countdown-badge.is-gameday { animation: none; padding: 5pt 7pt; }
+            .countdown-badge.is-gameday .gameday { font-size: 9pt; }
+            .matchup { font-size: 11pt; }
+            .when-line { font-size: 9pt; margin-top: 4px; }
+            .where-line { font-size: 7pt; }
+            .watch { margin-top: 6px; padding: 4px 6px; }
+            .watch img { width: 34px; height: 18px; }
+            .watch .watch-text { font-size: 7pt; }
+            .watch .watch-sub { display: none; }
+            .news { border-left-width: 4px; }
+            .also { padding: 0 9px 6px; }
+            .also .row { padding: 3px 6px; margin-top: 4px; }
+            .also .row-when, .also .row-what { font-size: 7pt; }
+            .also .row-where { display: none; }
+            .last-game, .news { padding: 5px 9px; }
+            .latest-story { padding: 4px 8px; }
+            .latest-story .latest-label, .latest-story .stamp { display: none; }
+            .latest-story .headline { font-size: 8pt; }
+            .latest-story .summary { display: none; }
+            .result { font-size: 9pt; }
+            .news .headline { font-size: 8pt; }
+            .news .summary, .news .stamp { display: none; }
+
+            .team-actions { gap: 0; }
+            .action-btn { padding: 5px 8px; font-size: 8pt; min-height: auto; }
+            .action-btn.primary { font-size: 9pt; min-height: auto; }
+            .action-btn:hover, .action-btn:focus,
+            .action-btn.primary:hover, .action-btn.primary:focus {
+                background: inherit; color: inherit;
+            }
+            *:focus { outline: none !important; }
+            a[href]:after { content: none !important; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1 id="pageTitle">Sports Report</h1>
+            <p id="pageByline">The Game Bureau</p>
+            <div class="today" id="todayLine"></div>
+            <div class="team-navigation" id="teamNav"></div>
+        </div>
+
+        <div class="teams-grid" id="teams">
+            <div class="message">Loading today's report&hellip;</div>
+        </div>
+
+
+        <a class="archive-btn" href="index.html">&larr; Change Teams</a>
+
+        <div class="carousel" id="carousel" hidden>
+            <div class="slides" id="slides"></div>
+            <div class="carousel-nav" id="carouselNav">
+                <button type="button" id="prevPhoto" aria-label="Previous photo">&larr;</button>
+                <span class="carousel-count" id="photoCount"></span>
+                <button type="button" id="nextPhoto" aria-label="Next photo">&rarr;</button>
+            </div>
+        </div>
+        <button class="refresh-btn" id="refreshBtn">
+            <span class="countdown" id="countdown"></span>
+            <span class="refresh-label">🔄 Tap to Refresh</span>
+        </button>
+        <div class="updated" id="updatedLine"></div>
+
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo">
+        <img id="lightboxImg" src="" alt="">
+        <button class="lightbox-close" id="lightboxClose" type="button">Close</button>
+    </div>
+
+<script>
+(function () {
+    'use strict';
+
+    var MONTHS = ['January','February','March','April','May','June','July',
+                  'August','September','October','November','December'];
+    var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    var teamsEl = document.getElementById('teams');
+    var navEl = document.getElementById('teamNav');
+
+    // The team files store plain "YYYY-MM-DD". Parse as local so the day never
+    // slips backwards for a US reader.
+    function parseDate(iso) {
+        if (!iso) { return null; }
+        var p = String(iso).split('-');
+        if (p.length !== 3) { return null; }
+        var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        return isNaN(d.getTime()) ? null : d;
+    }
+
+    function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+    function daysUntil(d) { return Math.round((midnight(d) - midnight(new Date())) / 86400000); }
+    function longDate(d) { return DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate(); }
+
+    // Fastest read on the card: how many days away, counting down to 0 on
+    // game day. The game stays on the card all day; tomorrow it rolls over.
+    function buildCountdown(d) {
+        var n = daysUntil(d);
+        // A game already played gets no badge. This used to clamp to 0, which
+        // left GAME DAY! flashing over yesterday's game right through the
+        // small hours until the feed caught up in the morning.
+        if (n < 0) { return null; }
+        if (n === 0) {
+            var today = el('div', 'countdown-badge is-gameday');
+            today.appendChild(el('span', 'gameday', 'Game'));
+            today.appendChild(el('span', 'gameday', 'Day!'));
+            return today;
+        }
+        var badge = el('div', 'countdown-badge');
+        badge.appendChild(el('span', 'days', String(n)));
+        badge.appendChild(el('span', 'unit', n === 1 ? 'Day To Go' : 'Days To Go'));
+        return badge;
+    }
+
+    // Words, for the compact rows under the next game.
+    function whenChip(d) {
+        var n = daysUntil(d);
+        if (n === 0) { return 'Today'; }
+        if (n === 1) { return 'Tomorrow'; }
+        if (n > 1 && n <= 6) { return 'In ' + n + ' days'; }
+        return DAYS[d.getDay()];
+    }
+
+    function el(tag, cls, text) {
+        var node = document.createElement(tag);
+        if (cls) { node.className = cls; }
+        if (text !== undefined && text !== null) { node.textContent = text; }
+        return node;
+    }
+
+    function img(src, alt) {
+        var node = new Image();
+        node.src = src;
+        node.alt = alt || '';
+        return node;
+    }
+
+    function colorOf(team, which) {
+        var c = team.colors || {};
+        if (which === 'banner') { return c.banner || c.primary || '#111'; }
+        if (which === 'light') { return c.light || '#f2f2f2'; }
+        if (which === 'secondary') { return c.secondary || c.banner || c.primary || '#111'; }
+        return c.primary || '#111';
+    }
+
+    // Mix a color toward white — a light wash that still reads as the team's.
+    function tint(hex, amount) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var out = '#';
+        for (var i = 0; i < 3; i++) {
+            var c = parseInt(h.slice(i * 2, i * 2 + 2), 16);
+            out += ('0' + Math.round(c + (255 - c) * amount).toString(16)).slice(-2);
+        }
+        return out.toUpperCase();
+    }
+
+    // Some secondaries are pale (Texas white, Yankees gray) and some are dark.
+    // Pick the text color from the background so the number always reads.
+    function luminance(hex) {
+        var h = String(hex).replace('#', '');
+        if (h.length === 3) { h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2]; }
+        var r = parseInt(h.slice(0, 2), 16) / 255;
+        var g = parseInt(h.slice(2, 4), 16) / 255;
+        var b = parseInt(h.slice(4, 6), 16) / 255;
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    }
+
+    // ---------- card pieces ----------
+    function buildSportLabel(team) {
+        var label = el('div', 'sport-label');
+        label.appendChild(el('span', 'ball', team.ball || ''));
+        label.appendChild(el('span', null, team.sport || ''));
+        if (team.record) {
+            var rec = el('span', 'record');
+            rec.appendChild(el('span', 'record-word', 'Record'));
+            rec.appendChild(el('span', null, team.record));
+            label.appendChild(rec);
+        }
+        return label;
+    }
+
+    function buildBanner(team) {
+        var banner = el('div', 'team-banner');
+
+        var name = el('div', 'name-section');
+        var logo = img(team.logo, '');
+        logo.className = 'team-logo';
+        name.appendChild(logo);
+
+        name.appendChild(el('div', 'team-name', team.name));
+        banner.appendChild(name);
+
+        var p = team.person;
+        if (p && p.photo) {
+            var photoWrap = el('div', 'photo-section');
+            var photo = img(p.photo, p.name ? p.name + "'s photo" : '');
+            photo.className = 'person-photo';
+            if (p.lightbox) {
+                // A photo of the reader opens big rather than navigating away.
+                photo.tabIndex = 0;
+                photo.setAttribute('role', 'button');
+                wireLightbox(photo, p.lightbox, p.name ? p.name + "'s photo" : '');
+            } else if (p.url) {
+                photo.tabIndex = 0;
+                photo.addEventListener('click', function () { window.location.href = p.url; });
+                photo.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        window.location.href = p.url;
+                    }
+                });
+            }
+            photoWrap.appendChild(photo);
+            banner.appendChild(photoWrap);
+        }
+        return banner;
+    }
+
+    // ESPN owns nextGame; extraEvents are hand-entered in a reader's own file
+    // and the
+    // routine leaves them alone. Both go on the calendar together.
+    function eventsFor(team) {
+        var list = [];
+        if (team.nextGame) { list.push(team.nextGame); }
+        (team.extraEvents || []).forEach(function (e) { list.push(e); });
+
+        var today = new Date();
+        today = today.getFullYear() + '-' +
+                ('0' + (today.getMonth() + 1)).slice(-2) + '-' +
+                ('0' + today.getDate()).slice(-2);
+
+        var future = list.filter(function (e) { return !e.date || e.date >= today; });
+        if (!future.length) { future = team.nextGame ? [team.nextGame] : []; }
+
+        return future.sort(function (a, b) {
+            return String(a.date || '').localeCompare(String(b.date || ''));
+        });
+    }
+
+    function titleOf(g) {
+        if (g.label) { return g.label; }
+        return (g.homeAway === 'away' ? 'at ' : 'vs ') + (g.opponent || '');
+    }
+
+    function buildAlso(team, rest) {
+        if (!rest.length) { return null; }
+
+        var wrap = el('div', 'also');
+        rest.slice(0, 2).forEach(function (g) {
+            var row = el('div', 'row');
+            var d = parseDate(g.date);
+            row.appendChild(el('span', 'row-when', d ? whenChip(d) : ''));
+
+            var what = el('div');
+            var time = [g.time, g.endTime].filter(Boolean).join(' – ');
+            what.appendChild(el('div', 'row-what', titleOf(g) + (time ? ' · ' + time : '')));
+            var where = [g.venue, g.note].filter(Boolean).join(' · ');
+            if (where) { what.appendChild(el('div', 'row-where', where)); }
+            row.appendChild(what);
+            wrap.appendChild(row);
+        });
+        return wrap;
+    }
+
+    function buildNextGame(team, g) {
+        if (team.offSeason) {
+            return el('div', 'off-season', ((team.ball || '') + ' Off Season').trim());
+        }
+
+        var wrap = el('div', 'next-game');
+        var head = el('div', 'next-game-head');
+        head.appendChild(el('div', 'block-label', 'Next Game'));
+
+        if (!g) {
+            wrap.appendChild(head);
+            wrap.appendChild(el('div', 'when-line', 'No game scheduled yet.'));
+            return wrap;
+        }
+
+        var d = parseDate(g.date);
+        if (d) {
+            var badge = buildCountdown(d);
+            if (badge) { head.appendChild(badge); }
+        }
+        wrap.appendChild(head);
+
+        var matchup = el('div', 'matchup');
+        if (g.label) {
+            matchup.appendChild(document.createTextNode(g.label));
+        } else {
+            matchup.appendChild(el('span', 'vs', g.homeAway === 'away' ? 'at ' : 'vs '));
+            matchup.appendChild(document.createTextNode(g.opponent || ''));
+        }
+        wrap.appendChild(matchup);
+
+        var when = [];
+        if (d) { when.push(longDate(d)); }
+        var clock = [g.time, g.endTime].filter(Boolean).join(' – ');
+        // Say the zone out loud, so nobody wonders whose clock this is.
+        if (clock) { when.push(clock + ' CT'); }
+        if (when.length) { wrap.appendChild(el('div', 'when-line', when.join(' at '))); }
+
+        var where = [g.venue, g.city].filter(Boolean).join(' — ');
+        if (where) { wrap.appendChild(el('div', 'where-line', where)); }
+        if (g.note) { wrap.appendChild(el('div', 'where-line', g.note)); }
+
+        if (g.tv && g.tv.name) {
+            var watch = document.createElement(g.tv.url ? 'a' : 'div');
+            watch.className = 'watch';
+            if (g.tv.url) {
+                watch.href = g.tv.url;
+            }
+            if (g.tv.logo) { watch.appendChild(img(g.tv.logo, '')); }
+            var text = el('div');
+            text.appendChild(el('div', 'watch-text', 'Watch on ' + g.tv.name));
+            var sub = [g.tv.note, g.time ? 'Starts at ' + g.time + ' CT' : ''].filter(Boolean).join(' · ');
+            text.appendChild(el('div', 'watch-sub', sub || 'Check your TV guide'));
+            watch.appendChild(text);
+            wrap.appendChild(watch);
+        }
+        return wrap;
+    }
+
+    function buildLastGame(team) {
+        var g = team.lastGame;
+        if (!g) { return null; }
+
+        var won = String(g.result || '').toUpperCase().charAt(0) === 'W';
+        var wrap = el('div', 'last-game');
+        wrap.appendChild(el('div', 'block-label', 'Last Game'));
+
+        var line = el('div', 'result');
+        line.appendChild(el('span', won ? 'won' : 'lost', won ? 'Won' : 'Lost'));
+        var score = [g.teamScore, g.opponentScore].filter(function (s) { return s || s === 0; });
+        if (score.length === 2) { line.appendChild(document.createTextNode(' ' + score[0] + '–' + score[1])); }
+        if (g.opponent) { line.appendChild(document.createTextNode(' vs ' + g.opponent)); }
+        wrap.appendChild(line);
+
+        var d = parseDate(g.date);
+        if (d) { wrap.appendChild(el('div', 'where-line', longDate(d))); }
+        return wrap;
+    }
+
+    function buildNews(team) {
+        var items = (team.news || []).slice(1);
+        if (!items.length) { return null; }
+
+        var wrap = el('div', 'news');
+        wrap.appendChild(el('span', 'block-label', 'Also This Week'));
+
+        // Short attention span: two more stories is the ceiling.
+        items.slice(0, 2).forEach(function (n) {
+            var story = document.createElement(n.url ? 'a' : 'div');
+            story.className = 'story';
+            if (n.url) { story.href = n.url; }
+            story.appendChild(el('div', 'headline', n.headline || ''));
+            if (n.summary) { story.appendChild(el('div', 'summary', n.summary)); }
+            var d = parseDate(n.date);
+            var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+            if (stamp) { story.appendChild(el('div', 'stamp', stamp)); }
+            wrap.appendChild(story);
+        });
+        return wrap;
+    }
+
+    function buildLatestStory(team) {
+        var n = (team.news || [])[0];
+        if (!n || !n.headline) { return null; }
+
+        var wrap = document.createElement(n.url ? 'a' : 'div');
+        wrap.className = 'latest-story';
+        if (n.url) {
+            wrap.href = n.url;
+        }
+        wrap.appendChild(el('div', 'latest-label', 'Latest'));
+        wrap.appendChild(el('div', 'headline', n.headline));
+        if (n.summary) { wrap.appendChild(el('div', 'summary', n.summary)); }
+        var d = parseDate(n.date);
+        var stamp = [d ? longDate(d) : null, n.source].filter(Boolean).join(' · ');
+        if (stamp) { wrap.appendChild(el('div', 'stamp', stamp)); }
+        return wrap;
+    }
+
+    function buildActions(team) {
+        var links = team.links || [];
+        if (!links.length) { return null; }
+
+        var wrap = el('div', 'team-actions');
+        links.forEach(function (l, i) {
+            var a = el('a', 'action-btn' + (i === 0 ? ' primary' : '') +
+                            (l.style === 'secondary' ? ' on-secondary' : ''));
+            a.href = l.url;
+            if (l.icon) {
+                var icon = img(l.icon, '');
+                icon.className = 'btn-icon';
+                a.appendChild(icon);
+            }
+            // Buttons carry the team name so a card read on its own still
+            // says whose stats these are.
+            var prefix = l.prefix === false ? '' : (team.shortName || '') + ' ';
+            a.appendChild(document.createTextNode((prefix + l.label).trim()));
+            wrap.appendChild(a);
+
+            if (/news/i.test(l.label)) {
+                var latest = buildLatestStory(team);
+                if (latest) { wrap.appendChild(latest); }
+                var older = buildNews(team);
+                if (older) { wrap.appendChild(older); }
+            }
+        });
+        return wrap;
+    }
+
+    function buildCard(team) {
+        var card = el('div', 'team-card');
+        card.id = team.id + '-card';
+        card.style.setProperty('--team-color', colorOf(team, 'primary'));
+        card.style.setProperty('--banner-color', colorOf(team, 'banner'));
+        card.style.setProperty('--light-color', colorOf(team, 'light'));
+
+        var secondary = colorOf(team, 'secondary');
+        var pale = luminance(secondary) > 0.6;
+        card.style.setProperty('--secondary-color', secondary);
+        card.style.setProperty('--secondary-ink', pale ? '#111' : '#fff');
+        // A near-white badge needs an edge or it vanishes into the card.
+        card.style.setProperty('--secondary-edge', pale ? colorOf(team, 'primary') : 'transparent');
+
+        // A white secondary (Texas once had one) would leave the news block with
+        // no stripe at all, so fall back to the primary there.
+        var accent = luminance(secondary) > 0.9 ? colorOf(team, 'primary') : secondary;
+        card.style.setProperty('--news-accent', accent);
+
+        // A near-black accent tints to flat gray, which reads as a dead block
+        // next to the other teams. Draw the wash from the banner instead and
+        // let the dark stripe carry the accent — Saints get sand under black,
+        // Texas pale orange under charcoal.
+        var washBase = luminance(accent) < 0.25 ? colorOf(team, 'banner') : accent;
+        card.style.setProperty('--news-bg', tint(washBase, 0.88));
+
+        var events = eventsFor(team);
+
+        card.appendChild(buildSportLabel(team));
+        card.appendChild(buildBanner(team));
+        card.appendChild(buildNextGame(team, events[0]));
+        [buildAlso(team, events.slice(1)), buildLastGame(team), buildActions(team)]
+            .forEach(function (piece) { if (piece) { card.appendChild(piece); } });
+        return card;
+    }
+
+    // A page can carry more than one league; each gets its own block and its
+    // own button in the top strip.
+    function leaguesOf(meta) {
+        if (meta.leagues && meta.leagues.length) { return meta.leagues; }
+        return meta.league ? [meta.league] : [];
+    }
+
+    function leagueId(league, i) {
+        return 'league-' + (league.id || (i + 1)) + '-card';
+    }
+
+    function buildLeague(league, i) {
+        if (!league || !league.url) { return null; }
+
+        var colors = league.colors || {};
+        var card = el('div', 'league');
+        card.id = leagueId(league, i);
+        card.style.setProperty('--league-color', colors.primary || '#111');
+        card.style.setProperty('--league-accent', colors.accent || colors.secondary || '#111');
+        card.style.setProperty('--league-banner', colors.banner || colors.primary || '#111');
+        card.style.setProperty('--league-light', colors.light || '#f2f2f2');
+
+        var label = el('div', 'sport-label');
+        label.appendChild(el('span', 'ball', league.ball || '🏈'));
+        label.appendChild(el('span', null, league.label || 'Fantasy Football'));
+        card.appendChild(label);
+
+        if (league.banner) {
+            var banner = img(league.banner, league.name || '');
+            banner.className = 'league-banner';
+            card.appendChild(banner);
+        }
+
+        var body = el('div', 'league-body');
+        body.appendChild(el('div', 'league-name', league.name || ''));
+        if (league.player) {
+            var line = el('div', 'league-player');
+            line.appendChild(document.createTextNode('Playing as '));
+            line.appendChild(el('span', 'handle', league.player));
+            body.appendChild(line);
+        }
+        if (league.tagline) { body.appendChild(el('div', 'league-tagline', league.tagline)); }
+        card.appendChild(body);
+
+        var go = el('a', 'action-btn', league.buttonLabel || 'Open My League');
+        go.href = league.url;
+        card.appendChild(go);
+
+        return card;
+    }
+
+    // Same shape as a team button, pointing at that league's block. A league
+    // with no logo falls back to its ball, so it still reads as a button.
+    function buildLeagueNavIcon(league, i) {
+        var a = el('a', 'nav-team-icon');
+        a.href = '#' + leagueId(league, i);
+        a.setAttribute('aria-label', league.shortName || league.name || 'Fantasy Football');
+        a.style.setProperty('--team-color', (league.colors || {}).banner || '#111');
+        if (league.logo) {
+            a.appendChild(img(league.logo, ''));
+        } else {
+            a.appendChild(el('span', 'nav-ball', league.ball || '🏈'));
+        }
+        return a;
+    }
+
+    // Teams and leagues share one running order, so a league can sit between
+    // two teams. meta.layout names the blocks; anything left out follows in
+    // its natural order.
+    function orderedBlocks(data, teams) {
+        var meta = data.meta || {};
+        var leagues = leaguesOf(meta);
+        var blocks = orderedMap();
+
+        teams.forEach(function (team) {
+            blocks.push(team.id, { team: team });
+        });
+        leagues.forEach(function (league, i) {
+            blocks.push(league.id || ('league-' + (i + 1)), { league: league, index: i });
+        });
+
+        var order = (meta.layout && meta.layout.length) ? meta.layout.slice() : [];
+        blocks.keys().forEach(function (id) {
+            if (order.indexOf(id) === -1) { order.push(id); }
+        });
+
+        return order.map(function (id) { return blocks.get(id); }).filter(Boolean);
+    }
+
+    // Tiny ordered map — keeps the code honest about duplicate ids.
+    function orderedMap() {
+        var keys = [], store = {};
+        return {
+            push: function (k, v) { if (!(k in store)) { keys.push(k); } store[k] = v; },
+            get: function (k) { return store[k]; },
+            keys: function () { return keys.slice(); }
+        };
+    }
+
+    function buildNavIcon(team) {
+        var a = el('a', 'nav-team-icon');
+        a.href = '#' + team.id + '-card';
+        a.setAttribute('aria-label', team.name);
+        a.style.setProperty('--team-color', colorOf(team, 'primary'));
+        a.appendChild(img(team.logo, ''));
+        return a;
+    }
+
+    // ---------- render ----------
+    function render(data) {
+        var meta = data.meta || {};
+        if (meta.title) {
+            document.getElementById('pageTitle').textContent = meta.title;
+            document.title = meta.title;
+        }
+        if (meta.byline) { document.getElementById('pageByline').textContent = meta.byline; }
+
+        var now = new Date();
+        document.getElementById('todayLine').textContent =
+            DAYS[now.getDay()] + ', ' + MONTHS[now.getMonth()] + ' ' + now.getDate();
+
+        var teams = (data.teams || []).filter(function (t) { return !t.hidden; });
+
+        teamsEl.textContent = '';
+        navEl.textContent = '';
+
+        if (!teams.length) {
+            var empty = el('div', 'message', 'No teams picked yet.');
+            var back = el('a', null, 'Choose your teams →');
+            back.href = 'index.html';
+            empty.appendChild(back);
+            teamsEl.appendChild(empty);
+            return;
+        }
+
+        orderedBlocks(data, teams).forEach(function (block) {
+            if (block.team) {
+                teamsEl.appendChild(buildCard(block.team));
+                navEl.appendChild(buildNavIcon(block.team));
+                return;
+            }
+            var card = buildLeague(block.league, block.index);
+            if (card) {
+                teamsEl.appendChild(card);
+                navEl.appendChild(buildLeagueNavIcon(block.league, block.index));
+            }
+        });
+
+        var updated = parseDate(meta.updated);
+        if (updated) {
+            document.getElementById('updatedLine').textContent = 'Updated ' + longDate(updated);
+        }
+
+        if (!carousel.dataset.built) {
+            buildCarousel(meta.photos);
+            carousel.dataset.built = '1';
+        }
+    }
+
+    function showError() {
+        teamsEl.textContent = '';
+        var box = el('div', 'message', "Today's report could not be loaded.");
+        box.appendChild(el('small', null,
+            'The team files did not load. If you opened this file directly, serve the folder instead ' +
+            '(for example: python -m http.server) and reload.'));
+        teamsEl.appendChild(box);
+    }
+
+    // The live files are rewritten twice a day. Re-fetch every 20
+    // minutes and whenever he comes back to the tab, so a phone left open on
+    // the page is never showing yesterday's card. Re-rendering in place keeps
+    // his scroll position — a full reload would throw him back to the top.
+    var REFRESH_MS = 20 * 60 * 1000;
+    var nextRefreshAt = Date.now() + REFRESH_MS;
+
+    // Two files per reader on purpose. The permanent one holds what never
+    // changes on its own — teams, colors, links, hand-entered events — and the
+    // routine never writes to it. The live one holds what the routine rewrites
+    // twice a day: records, schedules, results, stories. Merged here, at read
+    // time.
+    // Everyone reads this in New Orleans, so a kickoff is shown on a New Orleans
+    // clock. When the feed carries the UTC stamp, the page works the time out
+    // itself rather than trusting whatever was typed into `time`.
+    function nthSundayUTC(year, month, nth, hourUTC) {
+        var d = new Date(Date.UTC(year, month - 1, 1));
+        d.setUTCDate(1 + ((7 - d.getUTCDay()) % 7) + (nth - 1) * 7);
+        d.setUTCHours(hourUTC);
+        return d.getTime();
+    }
+
+    function centralOffset(ms) {
+        var year = new Date(ms).getUTCFullYear();
+        var start = nthSundayUTC(year, 3, 2, 7);    // 2am ET, second Sunday in March
+        var end = nthSundayUTC(year, 11, 1, 6);     // 2am ET, first Sunday in November
+        return (ms >= start && ms < end) ? 5 : 6;   // CDT : CST
+    }
+
+    function centralFrom(utc) {
+        var m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(String(utc || ''));
+        if (!m) { return null; }
+        var ms = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+        var shifted = new Date(ms - centralOffset(ms) * 3600000);
+        var hour = shifted.getUTCHours() % 12 || 12;
+        var minute = ('0' + shifted.getUTCMinutes()).slice(-2);
+        return {
+            date: shifted.getUTCFullYear() + '-' +
+                  ('0' + (shifted.getUTCMonth() + 1)).slice(-2) + '-' +
+                  ('0' + shifted.getUTCDate()).slice(-2),
+            time: hour + ':' + minute + ' ' + (shifted.getUTCHours() < 12 ? 'AM' : 'PM')
+        };
+    }
+
+    function toCentral(game) {
+        if (!game || !game.utc) { return game; }
+        var ct = centralFrom(game.utc);
+        if (ct) {
+            game.date = ct.date;
+            game.time = ct.time;
+        }
+        return game;
+    }
+
+    function merge(config, live) {
+        var slots = (live && live.teams) || {};
+        (config.teams || []).forEach(function (team) {
+            var slot = slots[team.id] || {};
+            team.record = slot.record;
+            team.nextGame = toCentral(slot.nextGame);
+            team.lastGame = toCentral(slot.lastGame);
+            team.news = slot.news || [];
+        });
+        config.meta = config.meta || {};
+        if (live && live.updated) { config.meta.updated = live.updated; }
+        return config;
+    }
+
+    function get(url) {
+        // Cache-bust so freshly pushed data shows up right away.
+        return fetch(url + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) {
+            if (!r.ok) { throw new Error('HTTP ' + r.status); }
+            return r.json();
+        });
+    }
+
+    // ---------- a report built from the link ----------
+    // A chosen report is nothing but a list of team ids in the URL. That makes
+    // it a link: bookmark it, text it to someone, save it to a home screen. No
+    // account, no server, nothing to lose.
+    function params() {
+        var q = {};
+        String(window.location.search || '').replace(/^\?/, '').split('&').forEach(function (pair) {
+            if (!pair) { return; }
+            var i = pair.indexOf('=');
+            var raw = i < 0 ? pair : pair.slice(0, i);
+            var key = decodeURIComponent(raw.replace(/\+/g, ' '));
+            q[key] = i < 0 ? '' : decodeURIComponent(pair.slice(i + 1).replace(/\+/g, ' '));
+        });
+        return q;
+    }
+
+    var PICKS = params();
+    var CHOSEN = String(PICKS.teams || '').split(',')
+        .map(function (s) { return s.trim(); })
+        .filter(Boolean);
+
+    var SOURCES = ['steve', 'kat', 'kevin'];
+
+    // These belong to the reader whose file they sit in — a photo of someone's
+    // daughter, a practice they wrote down, how hard they want that team's news
+    // chased. A report built by a stranger does not inherit them.
+    var PERSONAL = ['person', 'extraEvents', 'newsFocus', 'newsPriority'];
+
+    // Every team the site knows lives in one of the three hand-kept files. Read
+    // all three and index by id; a team defined twice is the same team, and the
+    // first definition wins.
+    function catalog(configs) {
+        var byId = {};
+        configs.forEach(function (cfg) {
+            ((cfg && cfg.teams) || []).forEach(function (team) {
+                if (byId[team.id]) { return; }
+                var copy = {};
+                Object.keys(team).forEach(function (k) {
+                    if (PERSONAL.indexOf(k) === -1) { copy[k] = team[k]; }
+                });
+                byId[team.id] = copy;
+            });
+        });
+        return byId;
+    }
+
+    // The same team's scores appear in every live file that carries it, so take
+    // the first and keep the newest stamp across the lot.
+    function liveIndex(lives) {
+        var out = { teams: {}, updated: '' };
+        lives.forEach(function (live) {
+            if (!live) { return; }
+            if (live.updated && live.updated > out.updated) { out.updated = live.updated; }
+            Object.keys(live.teams || {}).forEach(function (id) {
+                if (!out.teams[id]) { out.teams[id] = live.teams[id]; }
+            });
+        });
+        return out;
+    }
+
+    function load(onError) {
+        nextRefreshAt = Date.now() + REFRESH_MS;
+        // One unreadable file should cost its teams, not the whole report.
+        var files = SOURCES.map(function (n) {
+            return get(n + '/' + n + '.json').catch(function () { return null; });
+        }).concat(SOURCES.map(function (n) {
+            return get(n + '/' + n + '_live.json').catch(function () { return null; });
+        }));
+
+        return Promise.all(files).then(function (r) {
+            var configs = r.slice(0, SOURCES.length);
+            if (!configs.some(Boolean)) { throw new Error('no team files'); }
+
+            var byId = catalog(configs);
+            var chosen = CHOSEN.filter(function (id) { return byId[id]; });
+
+            render(merge({
+                meta: {
+                    title: PICKS.title || 'Sports Report',
+                    byline: PICKS.byline || 'The Game Bureau',
+                    layout: chosen
+                },
+                teams: chosen.map(function (id) { return byId[id]; })
+            }, liveIndex(r.slice(SOURCES.length))));
+        }).catch(function (err) { if (onError) { onError(err); } });
+    }
+
+    // Counts down to the next automatic refresh, so the page never looks
+    // stuck — he can see it is still working even when nothing changes.
+    var countdownEl = document.getElementById('countdown');
+
+    function tick() {
+        var left = Math.max(0, nextRefreshAt - Date.now());
+        var mins = Math.floor(left / 60000);
+        var secs = Math.floor((left % 60000) / 1000);
+        countdownEl.textContent = 'Auto-Refresh in ' + mins + ':' + ('0' + secs).slice(-2);
+        if (left <= 0) { load(null); }
+    }
+
+    document.getElementById('refreshBtn').addEventListener('click', function () {
+        location.reload();
+    });
+
+    // ---------- lightbox ----------
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = document.getElementById('lightboxImg');
+    var lastFocus = null;
+
+    function openLightbox(src, alt) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lastFocus = document.activeElement;
+        lightbox.classList.add('open');
+        document.getElementById('lightboxClose').focus();
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightboxImg.src = '';
+        if (lastFocus && lastFocus.focus) { lastFocus.focus(); }
+    }
+
+    function wireLightbox(node, src, alt) {
+        if (!node) { return; }
+        node.addEventListener('click', function () { openLightbox(src, alt); });
+        node.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openLightbox(src, alt);
+            }
+        });
+    }
+
+
+    // Tap anywhere on the backdrop — including the Close button and the photo
+    // itself — or press Escape.
+    lightbox.addEventListener('click', closeLightbox);
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && lightbox.classList.contains('open')) { closeLightbox(); }
+    });
+
+    // ---------- photo carousel ----------
+    // Photos come from meta.photos in kevin.json — hand-set, like everything
+    // else in that file.
+    var carousel = document.getElementById('carousel');
+    var slidesEl = document.getElementById('slides');
+    var countEl = document.getElementById('photoCount');
+
+    var AUTO_MS = 30000;
+    var autoTimer = null;
+    var photoCount = 0;
+
+    // The strip loops. A copy of the last photo sits before the first and a
+    // copy of the first sits after the last, so going forward off the end
+    // brings photo 1 in from the right instead of rewinding the whole strip.
+    // Once the scroll settles on a copy we jump silently to the real one.
+    function rawSlide() {
+        return Math.round(slidesEl.scrollLeft / slidesEl.clientWidth);
+    }
+
+    // Raw position 0 is the trailing copy, 1..n are the real photos,
+    // n+1 is the leading copy.
+    function realIndex() {
+        var raw = rawSlide();
+        if (raw === 0) { return photoCount - 1; }
+        if (raw === photoCount + 1) { return 0; }
+        return raw - 1;
+    }
+
+    function goToSlide(raw, smooth) {
+        slidesEl.scrollTo({
+            left: slidesEl.clientWidth * raw,
+            behavior: smooth ? 'smooth' : 'auto'
+        });
+    }
+
+    function step(delta) {
+        if (photoCount < 2) { return; }
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        goToSlide(rawSlide() + delta, smooth);
+    }
+
+    function showCount() {
+        if (photoCount) { countEl.textContent = (realIndex() + 1) + ' of ' + photoCount; }
+    }
+
+    // Silently rewind off a copy once the scroll has come to rest.
+    function normalize() {
+        var raw = rawSlide();
+        if (raw === photoCount + 1) { goToSlide(1, false); }
+        else if (raw === 0) { goToSlide(photoCount, false); }
+    }
+
+    // He can swipe, but he does not have to: the strip moves on by itself
+    // every 30 seconds so every photo gets seen. Any touch of his own
+    // restarts the clock, so it never yanks a photo away mid-look.
+    function restartAuto() {
+        clearInterval(autoTimer);
+        if (photoCount < 2) { return; }
+        autoTimer = setInterval(function () {
+            // Hold still while he is looking at a photo full-size, or while
+            // the page is not on screen at all.
+            if (document.hidden || lightbox.classList.contains('open')) { return; }
+            step(1);
+        }, AUTO_MS);
+    }
+
+    function makeSlide(photo, lazy) {
+        var slide = new Image();
+        slide.className = 'slide';
+        slide.src = photo.src;
+        slide.alt = (photo.alt || 'Photo') + ' — tap to see it bigger';
+        slide.setAttribute('role', 'button');
+        slide.tabIndex = 0;
+        if (lazy) { slide.loading = 'lazy'; }
+        wireLightbox(slide, photo.full || photo.src, photo.alt || '');
+        return slide;
+    }
+
+    function buildCarousel(photos) {
+        if (!photos || !photos.length) { return; }
+        photoCount = photos.length;
+        slidesEl.textContent = '';
+
+        var loop = photos.length > 1;
+        if (loop) { slidesEl.appendChild(makeSlide(photos[photos.length - 1], true)); }
+        photos.forEach(function (photo, i) { slidesEl.appendChild(makeSlide(photo, i > 0)); });
+        if (loop) { slidesEl.appendChild(makeSlide(photos[0], true)); }
+
+        document.getElementById('carouselNav').style.display = loop ? 'flex' : 'none';
+        carousel.hidden = false;
+
+        // Start on the first real photo, past the trailing copy.
+        if (loop) {
+            requestAnimationFrame(function () {
+                goToSlide(1, false);
+                showCount();
+            });
+        }
+
+        var pending = null;
+        var settle = null;
+        slidesEl.addEventListener('scroll', function () {
+            if (!pending) {
+                pending = requestAnimationFrame(function () {
+                    pending = null;
+                    showCount();
+                });
+            }
+            // Wait for the scroll to stop before stepping off a copy, or the
+            // jump would fight the animation.
+            clearTimeout(settle);
+            settle = setTimeout(function () {
+                normalize();
+                showCount();
+            }, 140);
+        }, { passive: true });
+
+        document.getElementById('prevPhoto').addEventListener('click', function () {
+            step(-1);
+            restartAuto();
+        });
+        document.getElementById('nextPhoto').addEventListener('click', function () {
+            step(1);
+            restartAuto();
+        });
+
+        ['touchstart', 'pointerdown', 'keydown'].forEach(function (evt) {
+            carousel.addEventListener(evt, restartAuto, { passive: true });
+        });
+        slidesEl.addEventListener('scroll', restartAuto, { passive: true });
+
+        // A rotated phone changes the slide width; keep the same photo centred.
+        window.addEventListener('resize', function () {
+            goToSlide(rawSlide(), false);
+        });
+
+        showCount();
+        restartAuto();
+    }
+
+    load(showError);
+    tick();
+    setInterval(tick, 1000);
+
+    // Every day word on the card — the badge, Today, Tomorrow — is worked out
+    // from the date at render time, so a page left open overnight would still
+    // be flashing GAME DAY! at breakfast. Re-render just after midnight, and
+    // book the next one from the clock rather than adding 24 hours, so the
+    // roll stays on midnight when the clocks change.
+    function scheduleMidnightRoll() {
+        var now = new Date();
+        var next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 1, 0, 0);
+        setTimeout(function () {
+            load(null);
+            scheduleMidnightRoll();
+        }, (next - now) + 500);
+    }
+
+    scheduleMidnightRoll();
+
+    // Quietly freshen on return to the tab; a failure here keeps the last
+    // good card on screen rather than replacing it with an error.
+    document.addEventListener('visibilitychange', function () {
+        if (!document.hidden) { load(null); }
+    });
+})();
+</script>
+</body>
+</html>
