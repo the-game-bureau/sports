@@ -189,10 +189,31 @@
             gap: 6px;
         }
 
+        /* The season record is the one number on the card that answers "how are
+           they doing," so it gets to be a bright chip on the dark bar rather
+           than grey text trailing off the end of it. */
         .sport-label .record {
             margin-left: auto;
-            letter-spacing: 0.1em;
-            color: #bbb;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            padding: 4px 10px 5px;
+            border-radius: 999px;
+            background: #fff;
+            color: #111;
+            font-size: 1rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+            line-height: 1;
+        }
+
+        /* The word carries the number for anyone who does not read "76-58" as
+           a record on sight. */
+        .sport-label .record .record-word {
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            color: #666;
         }
 
         /* ── Team banner ── */
@@ -943,6 +964,8 @@
 
             .team-card { break-inside: avoid; border-top-width: 4px; }
             .sport-label { padding: 4px 8px; font-size: 7pt; }
+            .sport-label .record { padding: 2pt 6pt; font-size: 9pt; gap: 4pt; }
+            .sport-label .record .record-word { font-size: 5pt; }
             .team-banner { padding: 7px 9px; gap: 7px; }
             .team-logo { width: 32px; height: 32px; }
             .team-name { font-size: 10pt; white-space: normal; }
@@ -1138,7 +1161,12 @@
         var label = el('div', 'sport-label');
         label.appendChild(el('span', 'ball', team.ball || ''));
         label.appendChild(el('span', null, team.sport || ''));
-        if (team.record) { label.appendChild(el('span', 'record', team.record)); }
+        if (team.record) {
+            var rec = el('span', 'record');
+            rec.appendChild(el('span', 'record-word', 'Record'));
+            rec.appendChild(el('span', null, team.record));
+            label.appendChild(rec);
+        }
         return label;
     }
 
