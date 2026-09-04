@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "6f0a0aa31bd8",
+      "teamId": "iup",
+      "headline": "IUP wins a five-set thriller over Northwood",
+      "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
+      "date": "2026-08-28",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
+    },
+    {
+      "id": "8ad7f9076260",
+      "teamId": "texas",
+      "headline": "Texas picks Gio Spetic as its kicker",
+      "summary": "Coach Steve Sarkisian said Monday that Spetic, who transferred in from Memphis, won the kicking job for Saturday's opener. Mac Chiumento will punt and Ryan Niblett will return kicks again.",
+      "date": "2026-08-31",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-football/104088/texas-longhorns-specialists-jeff-banks"
+    },
+    {
       "id": "3aed49797fb0",
       "teamId": "saints",
       "headline": "Saints add two more to the practice squad",

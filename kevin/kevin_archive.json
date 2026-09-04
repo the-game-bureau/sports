@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "8294a3248886",
+      "teamId": "lsu",
+      "headline": "College GameDay comes to LSU on Saturday",
+      "summary": "ESPN's Saturday morning football show will broadcast from the LSU campus before the Clemson game. Louisiana singer Lainey Wilson will pick the games and perform.",
+      "date": "2026-09-03",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/where-college-gameday-week-location-110103472.html"
+    },
+    {
       "id": "bc9360ef102f",
       "teamId": "lsu",
       "headline": "LSU game sets a record for media passes",

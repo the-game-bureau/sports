@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "e9452137e9da",
+          "teamId": "lsu",
+          "headline": "Clemson says LSU may be breaking the game contract",
+          "summary": "Clemson's lawyer emailed LSU on Friday to say that playing former pro players may break the contract for Saturday's game. Clemson still plans to come to Baton Rouge and play.",
+          "date": "2026-09-04",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/college-football/breaking-news/article/clemson-officials-notify-lsu-it-may-be-breaching-contract-if-it-plays-former-pro-players-in-game-on-saturday-175629934.html"
+        },
+        {
           "id": "71a5e323d7dd",
           "teamId": "lsu",
           "headline": "Judge clears former pro players to play for LSU",
@@ -140,15 +149,6 @@
           "date": "2026-09-03",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/sec-lawsuit-lsu-lane-kiffin-nfl-players/"
-        },
-        {
-          "id": "8294a3248886",
-          "teamId": "lsu",
-          "headline": "College GameDay comes to LSU on Saturday",
-          "summary": "ESPN's Saturday morning football show will broadcast from the LSU campus before the Clemson game. Louisiana singer Lainey Wilson will pick the games and perform.",
-          "date": "2026-09-03",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/where-college-gameday-week-location-110103472.html"
         }
       ]
     },

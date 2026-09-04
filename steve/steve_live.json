@@ -136,13 +136,13 @@
           "url": "https://texaslonghorns.com/news/2026/9/3/texas-football-games-date-changes"
         },
         {
-          "id": "8ad7f9076260",
+          "id": "3dad32aa89a6",
           "teamId": "texas",
-          "headline": "Texas picks Gio Spetic as its kicker",
-          "summary": "Coach Steve Sarkisian said Monday that Spetic, who transferred in from Memphis, won the kicking job for Saturday's opener. Mac Chiumento will punt and Ryan Niblett will return kicks again.",
-          "date": "2026-08-31",
-          "source": "Burnt Orange Nation",
-          "url": "https://www.burntorangenation.com/texas-longhorns-football/104088/texas-longhorns-specialists-jeff-banks"
+          "headline": "Arch Manning signs a trading card deal with Topps",
+          "summary": "Arch Manning agreed to let Topps make his trading cards and sign autographs for them. His first Topps cards will be in the new Bowman football set.",
+          "date": "2026-09-03",
+          "source": "On3",
+          "url": "https://www.on3.com/nil/news/arch-manning-inks-exclusive-trading-card-autograph-nil-deal-topps"
         }
       ]
     },
@@ -201,23 +201,32 @@
       ]
     },
     "iup": {
-      "record": "2-3",
+      "record": "3-3",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "West Liberty Hilltoppers",
+        "opponent": "Ashland Eagles",
         "date": "2026-09-04",
-        "time": "10:00 AM",
+        "time": "2:00 PM",
         "venue": "Kovalchick Complex (Crimson Hawk Classic)",
         "city": "Indiana, PA"
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 1,
-        "opponent": "Wayne State Warriors",
-        "date": "2026-08-29"
+        "opponentScore": 0,
+        "opponent": "West Liberty Hilltoppers",
+        "date": "2026-09-04"
       },
       "news": [
+        {
+          "id": "c22addbee0a1",
+          "teamId": "iup",
+          "headline": "IUP sweeps West Liberty to open its home tournament",
+          "summary": "The Crimson Hawks won 25-23, 25-21 and 25-15 on Friday at the Kovalchick Complex. It was their first home match of the year and made their record 3-3.",
+          "date": "2026-09-04",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/west-liberty/boxscore/15070"
+        },
         {
           "id": "294bb5714c6c",
           "teamId": "iup",
@@ -235,15 +244,6 @@
           "date": "2026-08-29",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
-        },
-        {
-          "id": "6f0a0aa31bd8",
-          "teamId": "iup",
-          "headline": "IUP wins a five-set thriller over Northwood",
-          "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
-          "date": "2026-08-28",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
         }
       ]
     },
