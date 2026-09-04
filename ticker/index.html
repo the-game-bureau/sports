@@ -404,9 +404,12 @@
         const CODES_URL = '../teams/ncaaf.json';
         const CACHE_KEY = 'ticker.lastGood.v2';
         const FETCH_TIMEOUT = 8000;
-        // A copy of today's two scoreboards, taken every ten minutes by the
-        // repo's "Ticker snapshot" workflow. Used when no relay answers.
+        // Copies of the scoreboard pages for the surrounding week, taken every
+        // ten minutes by the repo's "Ticker snapshot" workflow. Today's view
+        // uses them when no relay answers; other days read them first, since
+        // past days never change and schedules rarely do.
         const SNAPSHOT = 'https://raw.githubusercontent.com/the-game-bureau/sports/data/ticker/';
+        let usedSnapshot = false;
 
         // plaintextsports.com sends no CORS headers, so the browser has to go
         // through a relay. Each is tried in turn until one answers. Jina's
@@ -512,16 +515,28 @@
             }
         }
 
-        // Resolves to the page HTML, or null when the source has no page for
-        // that path (a day outside the window it publishes).
-        async function fetchSource(path) {
+        function snapshotUrl(path) {
+            return `${SNAPSHOT}pages${path.replace(/\/$/, '')}.html?r=${Math.floor(Date.now() / 60000)}`;
+        }
+
+        // The snapshot copy of a source path: HTML, or null when the
+        // snapshot doesn't hold that page.
+        async function fetchSnapshot(path) {
+            try {
+                return await fetchWithTimeout(snapshotUrl(path));
+            } catch (err) {
+                return null;
+            }
+        }
+
+        async function fetchRelays(path) {
             const target = `${SOURCE}${path}?r=${Date.now()}`;
             let lastError = null;
             for (const proxy of PROXIES) {
                 try {
                     const req = proxy(target);
                     const html = await fetchWithTimeout(req.url, req.headers);
-                    if (!/text-fg no-underline|Data loaded/.test(html)) throw new Error('unexpected body');
+                    if (!/flex-initial/.test(html) || /id="redirect"/.test(html)) throw new Error('unexpected body');
                     return html;
                 } catch (err) {
                     if (err && err.notFound) return null;
@@ -529,6 +544,25 @@
                 }
             }
             throw lastError || new Error('no relay answered');
+        }
+
+        // Resolves to the page HTML, or null when the source has no page for
+        // that path (a day outside the window it publishes). Throws when
+        // nothing could be reached at all.
+        async function fetchSource(path, snapshotFirst) {
+            if (snapshotFirst) {
+                const copy = await fetchSnapshot(path);
+                if (copy !== null) return copy;
+            }
+            try {
+                return await fetchRelays(path);
+            } catch (err) {
+                if (snapshotFirst) throw err;
+                const copy = await fetchSnapshot(path);
+                if (copy === null) throw err;
+                usedSnapshot = true;
+                return copy;
+            }
         }
 
         async function fetchCodes() {
@@ -772,13 +806,13 @@
 
         // The NFL scoreboard is one page per week with previous/next links.
         // Start at the current week and step toward the day being viewed.
-        async function loadNfl(day) {
+        async function loadNfl(day, isToday) {
             let path = '/nfl/';
             const visited = new Set();
             let direction = 0;
             for (let hop = 0; hop < 4 && path && !visited.has(path); hop++) {
                 visited.add(path);
-                const html = await fetchSource(path);
+                const html = await fetchSource(path, !isToday);
                 if (html === null) return EMPTY_PAGE;
                 const page = parsePage(html, 'nfl');
                 if (!page.days.length) return page;
@@ -798,7 +832,7 @@
         // other days sit at /ncaaf/YYYY-MM-DD/ for about a week either way.
         async function loadCollege(day, isToday) {
             if (!isToday) {
-                const html = await fetchSource(`/ncaaf/${dayKey(day)}/`);
+                const html = await fetchSource(`/ncaaf/${dayKey(day)}/`, true);
                 return html === null ? EMPTY_PAGE : parsePage(html, 'ncaaf');
             }
             const html = await fetchSource('/ncaaf/');
@@ -809,7 +843,7 @@
             if (page.pageDay && !sameDay(page.pageDay, day)) {
                 let games = page.games.filter(g => g.state === 'live');
                 try {
-                    const archiveHtml = await fetchSource(`/ncaaf/${dayKey(day)}/`);
+                    const archiveHtml = await fetchSource(`/ncaaf/${dayKey(day)}/`, true);
                     if (archiveHtml !== null) {
                         games = dedupe(games.concat(parsePage(archiveHtml, 'ncaaf').games));
                     }
@@ -823,8 +857,8 @@
         // can't be read.
         async function loadSnapshot(day) {
             const results = await Promise.allSettled([
-                fetchWithTimeout(`${SNAPSHOT}nfl.html?r=${Math.floor(Date.now() / 60000)}`),
-                fetchWithTimeout(`${SNAPSHOT}ncaaf.html?r=${Math.floor(Date.now() / 60000)}`),
+                fetchWithTimeout(snapshotUrl('/nfl/')),
+                fetchWithTimeout(snapshotUrl('/ncaaf/')),
             ]);
             let games = [];
             let loaded = NaN;
@@ -846,7 +880,7 @@
         }
 
         async function loadScores(day, isToday) {
-            const results = await Promise.allSettled([loadNfl(day), loadCollege(day, isToday)]);
+            const results = await Promise.allSettled([loadNfl(day, isToday), loadCollege(day, isToday)]);
             const failures = [];
             let games = [];
             let loaded = NaN;
@@ -951,7 +985,9 @@
                 setUpdated(`Scores as of ${localClock.format(new Date(stamp))}`);
                 notice(failures.length
                     ? `Couldn't reach the ${failures[0]} scoreboard on plaintextsports.com this time. Try a refresh.`
-                    : '');
+                    : usedSnapshot && isToday
+                        ? `The live relays to <a href="${SOURCE}">plaintextsports.com</a> aren't answering, so this is the copy the site takes every ten minutes. Refresh to try again.`
+                        : '');
                 if (isToday) writeCache({ stamp, games, day });
                 return;
             }

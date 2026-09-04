@@ -1,6 +1,8 @@
-# Keeps a copy of the two scoreboards the ticker reads, so the page still
-# has scores when the CORS relays it normally goes through are down. The
-# copy lives on an orphan "data" branch that is rewritten every run, so
+# Keeps a copy of the scoreboard pages the ticker reads, so the page still
+# has scores when the CORS relays it normally goes through are down. Each
+# source path is saved under pages/ with the same shape (/nfl/ becomes
+# pages/nfl.html, /ncaaf/2026-09-05/ becomes pages/ncaaf/2026-09-05.html).
+# The copy lives on an orphan "data" branch that is rewritten every run, so
 # the repo's history stays clean. The page reads it from
 # raw.githubusercontent.com, which sends CORS headers.
 name: Ticker snapshot
@@ -20,17 +22,41 @@ concurrency:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Fetch the scoreboards
         run: |
           set -eu
-          mkdir -p snap/ticker
-          curl -fsS --retry 3 --retry-delay 5 -A "the-game-bureau ticker snapshot" -o snap/ticker/nfl.html   https://plaintextsports.com/nfl/
-          curl -fsS --retry 3 --retry-delay 5 -A "the-game-bureau ticker snapshot" -o snap/ticker/ncaaf.html https://plaintextsports.com/ncaaf/
-          grep -q 'Data loaded' snap/ticker/nfl.html
-          grep -q 'Data loaded' snap/ticker/ncaaf.html
+          SRC=https://plaintextsports.com
+          UA="the-game-bureau ticker snapshot"
+          mkdir -p snap/ticker/pages
+          # save <source path> ; skips pages the source doesn't publish
+          save() {
+            local path="$1" out="snap/ticker/pages${1%/}.html"
+            mkdir -p "$(dirname "$out")"
+            if curl -fsS --retry 2 --retry-delay 3 -A "$UA" -o "$out.tmp" "$SRC$path" \
+               && grep -q 'flex-initial' "$out.tmp" && ! grep -q 'id="redirect"' "$out.tmp"; then
+              mv "$out.tmp" "$out"; echo "saved $path"
+            else
+              rm -f "$out.tmp"; echo "skipped $path"
+            fi
+          }
+
+          save /nfl/
+          # the week before and after, from the links on the current week
+          for link in $(grep -oE 'class="nav flex-1[^"]*" href="/nfl/[^"]*"' snap/ticker/pages/nfl.html | grep -oE '/nfl/[^"]*'); do
+            save "$link"
+          done
+
+          save /ncaaf/
+          # three days back through a week ahead, in the source's own Eastern calendar
+          for offset in -3 -2 -1 1 2 3 4 5 6 7; do
+            save "/ncaaf/$(TZ=America/New_York date -d "$offset day" +%Y-%m-%d)/"
+          done
+
           date -u +%Y-%m-%dT%H:%M:%SZ > snap/ticker/taken.txt
+          test -s snap/ticker/pages/nfl.html
+          test -s snap/ticker/pages/ncaaf.html
 
       - name: Publish to the data branch
         run: |
