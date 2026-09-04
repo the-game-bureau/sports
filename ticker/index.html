@@ -286,6 +286,36 @@
             color: #6a6a6a;
         }
 
+        /* ── Day nav ── */
+        .days {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 36px;
+            padding-top: 16px;
+            border-top: 1px solid #2a2a2a;
+        }
+
+        .days a {
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 999px;
+            padding: 9px 15px;
+            white-space: nowrap;
+        }
+
+        .days a:hover { background: #2a2a2a; }
+        .days a:focus-visible { outline: 3px solid #007acc; outline-offset: 2px; }
+        .days a.today { color: #9a9a9a; background: transparent; border-color: transparent; }
+        .days a.today.off { color: #fff; border-color: #333; }
+
         /* ── Footer ── */
         footer {
             margin-top: 40px;
@@ -323,7 +353,7 @@
                 <span class="dot" id="live-dot"></span>
                 <div>
                     <h1>Football Ticker</h1>
-                    <span class="sub">NFL &middot; College</span>
+                    <span class="sub" id="day-label">NFL &middot; College</span>
                 </div>
             </div>
             <div class="meta">
@@ -354,6 +384,12 @@
             </section>
         </main>
 
+        <nav class="days" aria-label="Other days">
+            <a id="prev-day" href="./">&lsaquo; Previous</a>
+            <a id="today-day" class="today" href="./">Today</a>
+            <a id="next-day" href="./">Next &rsaquo;</a>
+        </nav>
+
         <footer>Scores come from <a href="https://plaintextsports.com">plaintextsports.com</a>
             and are fetched fresh each time this page loads. Logos from ESPN and NCAA.com.
             Built by <a href="https://thegamebureau.com/ff">The Game Bureau</a>.</footer>
@@ -366,7 +402,7 @@
 
         const SOURCE = 'https://plaintextsports.com';
         const CODES_URL = '../teams/ncaaf.json';
-        const CACHE_KEY = 'ticker.lastGood';
+        const CACHE_KEY = 'ticker.lastGood.v2';
         const FETCH_TIMEOUT = 12000;
 
         // plaintextsports.com sends no CORS headers, so the browser has to go
@@ -419,6 +455,35 @@
 
         function pad2(n) { return String(n).padStart(2, '0'); }
         function sameDay(a, b) { return a && b && a.month === b.month && a.day === b.day; }
+        function dayKey(d) { return `${d.year}-${pad2(d.month)}-${pad2(d.day)}`; }
+        function dayTime(d) { return Date.UTC(d.year, d.month - 1, d.day); }
+
+        function shiftDay(d, n) {
+            const t = new Date(dayTime(d));
+            t.setUTCDate(t.getUTCDate() + n);
+            return { year: t.getUTCFullYear(), month: t.getUTCMonth() + 1, day: t.getUTCDate() };
+        }
+
+        function parseDayKey(key) {
+            const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(key || '');
+            if (!m) return null;
+            const d = { year: +m[1], month: +m[2], day: +m[3] };
+            const t = new Date(dayTime(d));
+            if (t.getUTCFullYear() !== d.year || t.getUTCMonth() + 1 !== d.month || t.getUTCDate() !== d.day) return null;
+            return d;
+        }
+
+        // A month/day heading from the source, pinned to the year of the day
+        // being viewed (nudged across a December/January boundary).
+        function headingTime(md, ref) {
+            let year = ref.year;
+            if (md.month - ref.month > 6) year -= 1;
+            if (ref.month - md.month > 6) year += 1;
+            return Date.UTC(year, md.month - 1, md.day);
+        }
+
+        const dayShort = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric' });
+        const dayLong = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric' });
 
         const localTime = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
         const localClock = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit' });
@@ -430,13 +495,18 @@
             const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT);
             try {
                 const res = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+                if (res.status === 404) { const e = new Error('not found'); e.notFound = true; throw e; }
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                return await res.text();
+                const text = await res.text();
+                if (/NoSuchKey|<title>404/i.test(text.slice(0, 600))) { const e = new Error('not found'); e.notFound = true; throw e; }
+                return text;
             } finally {
                 clearTimeout(timer);
             }
         }
 
+        // Resolves to the page HTML, or null when the source has no page for
+        // that path (a day outside the window it publishes).
         async function fetchSource(path) {
             const target = `${SOURCE}${path}?r=${Date.now()}`;
             let lastError = null;
@@ -446,6 +516,7 @@
                     if (!/text-fg no-underline|Data loaded/.test(html)) throw new Error('unexpected body');
                     return html;
                 } catch (err) {
+                    if (err && err.notFound) return null;
                     lastError = err;
                 }
             }
@@ -478,21 +549,27 @@
             const loaded = loadedEl ? Date.parse(loadedEl.getAttribute('datetime')) : NaN;
             const nodes = doc.querySelectorAll('div.text-center.font-bold, span.font-bold.flex-initial, a.text-fg.no-underline');
             const games = [];
+            const days = [];
             let day = null;
-            let pageDay = null;
             nodes.forEach(el => {
                 if (el.tagName !== 'A') {
                     const m = el.textContent.trim().match(/^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+([A-Z][a-z]+)\s+(\d{1,2})$/);
                     if (m) {
                         day = { month: MONTHS.indexOf(m[2]) + 1, day: +m[3] };
-                        if (!pageDay) pageDay = day;
+                        days.push(day);
                     }
                     return;
                 }
                 const g = parseBox(el, league, day, games.length);
                 if (g) games.push(g);
             });
-            return { games, loaded, pageDay };
+            const navLink = sel => { const a = doc.querySelector(sel); const h = a && a.getAttribute('href'); return h && h.startsWith('/') ? h : null; };
+            return {
+                games, loaded, days,
+                pageDay: days[0] || null,
+                prev: navLink('a.nav.flex-1:not(.text-right)'),
+                next: navLink('a.nav.flex-1.text-right'),
+            };
         }
 
         function parseBox(a, league, day, index) {
@@ -648,13 +725,13 @@
             section.classList.toggle('is-live', id === 'live' && games.length > 0);
         }
 
-        function render(games) {
+        function render(games, text) {
             const live = games.filter(g => g.state === 'live');
             const done = games.filter(g => g.state === 'final');
             const later = games.filter(g => g.state === 'upcoming' || g.state === 'other');
-            fill('live', live, 'No games in progress right now.');
-            fill('final', done, 'No finals yet today.');
-            fill('upcoming', later, 'Nothing else on the schedule today.');
+            fill('live', live, text.liveEmpty);
+            fill('final', done, text.finalEmpty);
+            fill('upcoming', later, text.upcomingEmpty);
             document.getElementById('live-dot').classList.toggle('on', live.length > 0);
         }
 
@@ -670,41 +747,75 @@
 
         // ── Main ──────────────────────────────────────────────────────────
 
-        async function loadScores() {
-            const today = sportsDay();
-            const results = await Promise.allSettled([
-                fetchSource('/nfl/'),
-                fetchSource('/ncaaf/'),
-            ]);
+        const EMPTY_PAGE = { games: [], loaded: NaN, days: [], pageDay: null, prev: null, next: null };
 
+        // The NFL scoreboard is one page per week with previous/next links.
+        // Start at the current week and step toward the day being viewed.
+        async function loadNfl(day) {
+            let path = '/nfl/';
+            const visited = new Set();
+            let direction = 0;
+            for (let hop = 0; hop < 4 && path && !visited.has(path); hop++) {
+                visited.add(path);
+                const html = await fetchSource(path);
+                if (html === null) return EMPTY_PAGE;
+                const page = parsePage(html, 'nfl');
+                if (!page.days.length) return page;
+                const want = dayTime(day);
+                const first = headingTime(page.days[0], day);
+                const last = headingTime(page.days[page.days.length - 1], day);
+                const dir = want < first ? -1 : want > last ? 1 : 0;
+                if (dir === 0) return page;
+                if (direction && dir !== direction) return { ...page, games: [] }; // a day between two weeks
+                direction = dir;
+                path = dir < 0 ? page.prev : page.next;
+            }
+            return EMPTY_PAGE;
+        }
+
+        // College football is one page per day. Today's lives at /ncaaf/;
+        // other days sit at /ncaaf/YYYY-MM-DD/ for about a week either way.
+        async function loadCollege(day, isToday) {
+            if (!isToday) {
+                const html = await fetchSource(`/ncaaf/${dayKey(day)}/`);
+                return html === null ? EMPTY_PAGE : parsePage(html, 'ncaaf');
+            }
+            const html = await fetchSource('/ncaaf/');
+            if (html === null) return EMPTY_PAGE;
+            const page = parsePage(html, 'ncaaf');
+            // Before 5 AM Eastern the college page has already rolled to the
+            // next day; pull the finished day's archive in behind it.
+            if (page.pageDay && !sameDay(page.pageDay, day)) {
+                let games = page.games.filter(g => g.state === 'live');
+                try {
+                    const archiveHtml = await fetchSource(`/ncaaf/${dayKey(day)}/`);
+                    if (archiveHtml !== null) {
+                        const seen = new Set(games.map(g => g.link));
+                        games = games.concat(parsePage(archiveHtml, 'ncaaf').games.filter(g => !seen.has(g.link)));
+                    }
+                } catch (err) { /* keep what we have */ }
+                return { ...page, games };
+            }
+            return page;
+        }
+
+        async function loadScores(day, isToday) {
+            const results = await Promise.allSettled([loadNfl(day), loadCollege(day, isToday)]);
             const failures = [];
             let games = [];
             let loaded = NaN;
 
             if (results[0].status === 'fulfilled') {
-                const page = parsePage(results[0].value, 'nfl');
-                games = games.concat(page.games.filter(g => sameDay(g.day, today)));
+                const page = results[0].value;
+                games = games.concat(page.games.filter(g => sameDay(g.day, day)));
                 if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
             } else {
                 failures.push('NFL');
             }
 
             if (results[1].status === 'fulfilled') {
-                const page = parsePage(results[1].value, 'ncaaf');
-                let college = page.games;
-                // Before 5 AM Eastern the college page has already rolled to
-                // the next day; pull the finished day's archive in behind it.
-                if (page.pageDay && !sameDay(page.pageDay, today)) {
-                    try {
-                        const archive = parsePage(await fetchSource(`/ncaaf/${today.year}-${pad2(today.month)}-${pad2(today.day)}/`), 'ncaaf');
-                        const seen = new Set(college.map(g => g.link));
-                        college = college.filter(g => g.state === 'live')
-                            .concat(archive.games.filter(g => !seen.has(g.link)));
-                    } catch (err) {
-                        college = college.filter(g => g.state === 'live');
-                    }
-                }
-                games = games.concat(college);
+                const page = results[1].value;
+                games = games.concat(page.games);
                 if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
             } else {
                 failures.push('college');
@@ -729,33 +840,73 @@
             try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (err) { /* private mode etc. */ }
         }
 
+        function setupDay() {
+            const today = sportsDay();
+            const requested = parseDayKey(new URLSearchParams(location.search).get('day'));
+            const day = requested || today;
+            const isToday = dayKey(day) === dayKey(today);
+            const when = isToday ? 0 : Math.sign(dayTime(day) - dayTime(today));
+
+            const label = document.getElementById('day-label');
+            label.textContent = (isToday ? 'Today · ' : '') + dayLong.format(new Date(dayTime(day)));
+
+            const link = (id, target, text) => {
+                const a = document.getElementById(id);
+                a.href = dayKey(target) === dayKey(today) ? './' : `?day=${dayKey(target)}`;
+                a.textContent = text;
+            };
+            link('prev-day', shiftDay(day, -1), `‹ ${dayShort.format(new Date(dayTime(shiftDay(day, -1))))}`);
+            link('next-day', shiftDay(day, 1), `${dayShort.format(new Date(dayTime(shiftDay(day, 1))))} ›`);
+            const todayLink = document.getElementById('today-day');
+            todayLink.href = './';
+            todayLink.classList.toggle('off', !isToday);
+            todayLink.setAttribute('aria-current', isToday ? 'date' : 'false');
+
+            document.title = isToday ? 'Football Ticker' : `Football Ticker · ${dayShort.format(new Date(dayTime(day)))}`;
+
+            return { day, isToday, when };
+        }
+
+        function sectionText(when) {
+            return {
+                liveEmpty: when === 0 ? 'No games in progress right now.' : 'No games in progress.',
+                finalEmpty: when === 0 ? 'No finals yet today.' : when < 0 ? 'No finals listed for this day.' : 'Nothing has been played yet.',
+                upcomingTitle: when === 0 ? 'Coming up today' : when > 0 ? 'Scheduled' : 'Not played',
+                upcomingEmpty: when === 0 ? 'Nothing else on the schedule today.' : when > 0 ? 'No games listed for this day yet.' : 'Every listed game was played.',
+            };
+        }
+
         async function main() {
             document.getElementById('refresh').addEventListener('click', () => location.reload());
+            const { day, isToday, when } = setupDay();
+            const text = sectionText(when);
+            const upcomingHeading = document.querySelector('#upcoming h2');
+            upcomingHeading.firstChild.textContent = `${text.upcomingTitle} `;
 
             const [codes, outcome] = await Promise.all([
                 fetchCodes(),
-                loadScores().then(v => ({ ok: true, v }), e => ({ ok: false, e })),
+                loadScores(day, isToday).then(v => ({ ok: true, v }), e => ({ ok: false, e })),
             ]);
             ncaa = codes;
 
             if (outcome.ok) {
                 const { games, stamp, failures } = outcome.v;
-                render(games);
+                render(games, text);
                 setUpdated(`Scores as of ${localClock.format(new Date(stamp))}`);
                 notice(failures.length
                     ? `Couldn't reach the ${failures[0]} scoreboard on plaintextsports.com this time. Try a refresh.`
                     : '');
-                writeCache({ stamp, games, day: sportsDay() });
+                if (isToday) writeCache({ stamp, games, day });
                 return;
             }
 
-            const cached = readCache();
-            if (cached && sameDay(cached.day, sportsDay())) {
-                render(cached.games);
+            const cached = isToday ? readCache() : null;
+            if (cached && cached.day && dayKey(cached.day) === dayKey(day)) {
+                render(cached.games, text);
                 setUpdated(`Scores as of ${localClock.format(new Date(cached.stamp))}`);
                 notice(`Couldn't reach <a href="${SOURCE}">plaintextsports.com</a> just now. These are the last scores this browser saw. Try a refresh.`);
             } else {
-                render([]);
+                render([], text);
                 setUpdated('Scores unavailable');
                 notice(`Couldn't reach <a href="${SOURCE}">plaintextsports.com</a> just now. Try a refresh, or read the scores there directly.`);
             }
