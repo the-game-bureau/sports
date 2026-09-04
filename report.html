@@ -1707,6 +1707,12 @@
 
     var SOURCES = ['steve', 'kat', 'kevin'];
 
+    // League catalogs come after the hand-kept files on purpose. Same id means
+    // the first definition wins, so a team someone described by hand — the
+    // Saints and their gold banner — keeps that description, and the catalog
+    // only fills in the clubs nobody has written up.
+    var CATALOGS = ['teams/nfl.json'];
+
     // These belong to the reader whose file they sit in — a photo of someone's
     // daughter, a practice they wrote down, how hard they want that team's news
     // chased. A report built by a stranger does not inherit them.
@@ -1747,17 +1753,19 @@
     function load(onError) {
         nextRefreshAt = Date.now() + REFRESH_MS;
         // One unreadable file should cost its teams, not the whole report.
-        var files = SOURCES.map(function (n) {
-            return get(n + '/' + n + '.json').catch(function () { return null; });
-        }).concat(SOURCES.map(function (n) {
-            return get(n + '/' + n + '_live.json').catch(function () { return null; });
-        }));
+        function maybe(url) {
+            return get(url).catch(function () { return null; });
+        }
 
-        return Promise.all(files).then(function (r) {
-            var configs = r.slice(0, SOURCES.length);
-            if (!configs.some(Boolean)) { throw new Error('no team files'); }
+        return Promise.all([
+            Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '.json'); })),
+            Promise.all(CATALOGS.map(maybe)),
+            Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '_live.json'); }))
+        ]).then(function (r) {
+            var described = r[0].concat(r[1]);
+            if (!described.some(Boolean)) { throw new Error('no team files'); }
 
-            var byId = catalog(configs);
+            var byId = catalog(described);
             var chosen = CHOSEN.filter(function (id) { return byId[id]; });
 
             render(merge({
@@ -1767,7 +1775,7 @@
                     layout: chosen
                 },
                 teams: chosen.map(function (id) { return byId[id]; })
-            }, liveIndex(r.slice(SOURCES.length))));
+            }, liveIndex(r[2])));
         }).catch(function (err) { if (onError) { onError(err); } });
     }
 

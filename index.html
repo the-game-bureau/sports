@@ -86,6 +86,8 @@
             font-weight: 700;
         }
 
+        .filter { font-size: 0.95rem; font-weight: 500; }
+
         .name-field::placeholder { color: #666; font-weight: 500; }
         .name-field:focus { outline: none; border-color: #fff; }
 
@@ -149,6 +151,21 @@
         }
 
         .team[aria-pressed="true"] .team-sport { color: #666; }
+
+        /* The news routine only writes scores for the teams on the three
+           standing reports. Anything else builds a real card — colors, logo,
+           links — with no numbers in it yet, and it is fairer to say so here
+           than to let someone find out after they hit the button. */
+        .team-note {
+            margin-top: 4px;
+            font-size: 0.68rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #7a6320;
+        }
+
+        .team[aria-pressed="true"] .team-note { color: #8a6d15; }
 
         /* The order they picked is the order the cards come out, so it is worth
            showing rather than making them guess. */
@@ -249,6 +266,9 @@
                     <span class="count" id="pickCount">0 picked</span>
                 </div>
                 <div class="step-hint">Tap to add. They appear in the order you pick them.</div>
+                <input class="name-field filter" id="filter" type="text"
+                       placeholder="Search teams" autocomplete="off"
+                       spellcheck="false" aria-label="Search teams">
                 <div class="teams" id="teams">
                     <div class="message">Loading teams&hellip;</div>
                 </div>
@@ -275,12 +295,18 @@
     // everybody, and a chooser that invented its own list would drift from the
     // reports the moment a color or a logo changed.
     var SOURCES = ['steve', 'kat', 'kevin'];
+
+    // League catalogs come after the hand-kept files. Same id means the first
+    // definition wins, so the Saints keep the gold banner someone chose for
+    // them and the catalog only fills in the clubs nobody has written up.
+    var CATALOGS = ['teams/nfl.json'];
     var LAST_PICK = 'sports.lastReport';
 
     var teamsEl = document.getElementById('teams');
     var goEl = document.getElementById('go');
     var nameEl = document.getElementById('reportName');
     var countEl = document.getElementById('pickCount');
+    var filterEl = document.getElementById('filter');
     var footEl = document.getElementById('foot');
     var lastLinkEl = document.getElementById('lastLink');
 
@@ -320,6 +346,18 @@
         });
     }
 
+    // Forty-odd rows is too many to scroll past to find one club. Anything
+    // already picked stays on screen regardless, so a search never hides a
+    // choice someone has made.
+    function applyFilter() {
+        var q = filterEl.value.trim().toLowerCase();
+        Array.prototype.forEach.call(teamsEl.querySelectorAll('.team'), function (btn) {
+            var hit = !q || btn.dataset.search.indexOf(q) !== -1 ||
+                picked.indexOf(btn.dataset.id) !== -1;
+            btn.hidden = !hit;
+        });
+    }
+
     function reportUrl(title, ids) {
         var url = 'report.html?teams=' + ids.map(encodeURIComponent).join(',');
         return title ? url + '&title=' + encodeURIComponent(title) : url;
@@ -329,12 +367,15 @@
         var at = picked.indexOf(id);
         if (at === -1) { picked.push(id); } else { picked.splice(at, 1); }
         refresh();
+        applyFilter();
     }
 
-    function buildTeam(team) {
+    function buildTeam(team, covered) {
         var btn = el('button', 'team');
         btn.type = 'button';
         btn.dataset.id = team.id;
+        btn.dataset.search = [team.name, team.shortName, team.sport, team.id]
+            .join(' ').toLowerCase();
         btn.style.setProperty('--team-color', colorOf(team));
         btn.setAttribute('aria-pressed', 'false');
 
@@ -348,6 +389,7 @@
         var text = el('div', 'team-text');
         text.appendChild(el('div', 'team-name', team.name || team.id));
         text.appendChild(el('div', 'team-sport', team.sport || ''));
+        if (!covered[team.id]) { text.appendChild(el('div', 'team-note', 'No scores yet')); }
         btn.appendChild(text);
         btn.appendChild(el('span', 'pick-order'));
 
@@ -368,14 +410,14 @@
         return order.map(function (id) { return byId[id]; });
     }
 
-    function showTeams(list) {
+    function showTeams(list, covered) {
         teamsEl.textContent = '';
         if (!list.length) {
             teamsEl.appendChild(el('div', 'message',
                 'No teams found. The team files did not load.'));
             return;
         }
-        list.forEach(function (team) { teamsEl.appendChild(buildTeam(team)); });
+        list.forEach(function (team) { teamsEl.appendChild(buildTeam(team, covered)); });
 
         // Come back to a report you already built and it is still filled in.
         // Nobody should have to remember six teams and retype a title.
@@ -398,13 +440,29 @@
         } catch (err) { /* a locked-down browser just means an empty form */ }
 
         refresh();
+        applyFilter();
     }
 
-    Promise.all(SOURCES.map(function (n) {
-        // One missing file costs its teams, not the page.
-        return get(n + '/' + n + '.json').catch(function () { return null; });
-    })).then(function (configs) {
-        showTeams(catalog(configs));
+    filterEl.addEventListener('input', applyFilter);
+
+    // One missing file costs its teams, not the page.
+    function maybe(url) { return get(url).catch(function () { return null; }); }
+
+    // Which teams the routine actually writes scores for.
+    function coverage(lives) {
+        var seen = {};
+        lives.forEach(function (live) {
+            Object.keys((live && live.teams) || {}).forEach(function (id) { seen[id] = true; });
+        });
+        return seen;
+    }
+
+    Promise.all([
+        Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '.json'); })
+            .concat(CATALOGS.map(maybe))),
+        Promise.all(SOURCES.map(function (n) { return maybe(n + '/' + n + '_live.json'); }))
+    ]).then(function (r) {
+        showTeams(catalog(r[0]), coverage(r[1]));
     }).catch(function () {
         teamsEl.textContent = '';
         teamsEl.appendChild(el('div', 'message',

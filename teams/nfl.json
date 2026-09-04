@@ -1,0 +1,1321 @@
+{
+  "meta": {
+    "title": "NFL Teams",
+    "note": "Every NFL club, so the report builder can offer them all. Colors, logos and links come from ESPN. A team also described by hand in a reader's own file keeps that description — the id is the same and the hand-kept file is read first.",
+    "source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams"
+  },
+  "teams": [
+    {
+      "id": "arizona-cardinals",
+      "name": "Arizona Cardinals",
+      "shortName": "Cardinals",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "colors": {
+        "primary": "#A40227",
+        "secondary": "#FFFFFF",
+        "banner": "#A40227",
+        "light": "#F2DBE0"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "22"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/ari"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/ari/arizona-cardinals"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/ari/arizona-cardinals"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/ari"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+        }
+      ]
+    },
+    {
+      "id": "atlanta-falcons",
+      "name": "Atlanta Falcons",
+      "shortName": "Falcons",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "colors": {
+        "primary": "#A71930",
+        "secondary": "#000000",
+        "banner": "#A71930",
+        "light": "#F2DEE2"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "1"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/atl"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/atl/atlanta-falcons"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/atl/atlanta-falcons"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/atl"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons"
+        }
+      ]
+    },
+    {
+      "id": "baltimore-ravens",
+      "name": "Baltimore Ravens",
+      "shortName": "Ravens",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "colors": {
+        "primary": "#29126F",
+        "secondary": "#000000",
+        "banner": "#29126F",
+        "light": "#E1DDEA"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "33"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/bal"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/bal/baltimore-ravens"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/bal/baltimore-ravens"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/bal"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/bal/baltimore-ravens"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-bills",
+      "name": "Buffalo Bills",
+      "shortName": "Bills",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "colors": {
+        "primary": "#00338D",
+        "secondary": "#D50A0A",
+        "banner": "#00338D",
+        "light": "#DBE2EF"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "2"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/buf"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/buf/buffalo-bills"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/buf/buffalo-bills"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/buf"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills"
+        }
+      ]
+    },
+    {
+      "id": "carolina-panthers",
+      "name": "Carolina Panthers",
+      "shortName": "Panthers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "colors": {
+        "primary": "#0085CA",
+        "secondary": "#000000",
+        "banner": "#0085CA",
+        "light": "#DBEDF7"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "29"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/car"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/car"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers"
+        }
+      ]
+    },
+    {
+      "id": "chicago-bears",
+      "name": "Chicago Bears",
+      "shortName": "Bears",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "colors": {
+        "primary": "#0B1C3A",
+        "secondary": "#E64100",
+        "banner": "#0B1C3A",
+        "light": "#DCDFE3"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "3"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/chi"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/chi/chicago-bears"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/chi/chicago-bears"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/chi"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+        }
+      ]
+    },
+    {
+      "id": "cincinnati-bengals",
+      "name": "Cincinnati Bengals",
+      "shortName": "Bengals",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "colors": {
+        "primary": "#FB4F14",
+        "secondary": "#000000",
+        "banner": "#FB4F14",
+        "light": "#FEE6DE"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "4"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/cin"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/cin/cincinnati-bengals"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/cin/cincinnati-bengals"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/cin"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals"
+        }
+      ]
+    },
+    {
+      "id": "cleveland-browns",
+      "name": "Cleveland Browns",
+      "shortName": "Browns",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "colors": {
+        "primary": "#472A08",
+        "secondary": "#FF3C00",
+        "banner": "#472A08",
+        "light": "#E5E1DC"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "5"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/cle"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/cle/cleveland-browns"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/cle/cleveland-browns"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/cle"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+        }
+      ]
+    },
+    {
+      "id": "dallas-cowboys",
+      "name": "Dallas Cowboys",
+      "shortName": "Cowboys",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "colors": {
+        "primary": "#002A5C",
+        "secondary": "#B0B7BC",
+        "banner": "#002A5C",
+        "light": "#DBE1E8"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "6"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/dal"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/dal/dallas-cowboys"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/dal/dallas-cowboys"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/dal"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys"
+        }
+      ]
+    },
+    {
+      "id": "denver-broncos",
+      "name": "Denver Broncos",
+      "shortName": "Broncos",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "colors": {
+        "primary": "#0A2343",
+        "secondary": "#FC4C02",
+        "banner": "#0A2343",
+        "light": "#DCE0E4"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "7"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/den"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/den/denver-broncos"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/den/denver-broncos"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/den"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+        }
+      ]
+    },
+    {
+      "id": "detroit-lions",
+      "name": "Detroit Lions",
+      "shortName": "Lions",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "colors": {
+        "primary": "#0076B6",
+        "secondary": "#BBBBBB",
+        "banner": "#0076B6",
+        "light": "#DBEBF4"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "8"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/det"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/det/detroit-lions"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/det/detroit-lions"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/det"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+        }
+      ]
+    },
+    {
+      "id": "green-bay-packers",
+      "name": "Green Bay Packers",
+      "shortName": "Packers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "colors": {
+        "primary": "#204E32",
+        "secondary": "#FFB612",
+        "banner": "#204E32",
+        "light": "#DFE6E2"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "9"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/gb"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/gb/green-bay-packers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/gb/green-bay-packers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/gb"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+        }
+      ]
+    },
+    {
+      "id": "houston-texans",
+      "name": "Houston Texans",
+      "shortName": "Texans",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "colors": {
+        "primary": "#021018",
+        "secondary": "#EB0028",
+        "banner": "#021018",
+        "light": "#DBDDDE"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "34"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/hou"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/hou/houston-texans"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/hou/houston-texans"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/hou"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/hou/houston-texans"
+        }
+      ]
+    },
+    {
+      "id": "indianapolis-colts",
+      "name": "Indianapolis Colts",
+      "shortName": "Colts",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "colors": {
+        "primary": "#003B75",
+        "secondary": "#FFFFFF",
+        "banner": "#003B75",
+        "light": "#DBE3EB"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "11"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/ind"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/ind/indianapolis-colts"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/ind/indianapolis-colts"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/ind"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts"
+        }
+      ]
+    },
+    {
+      "id": "jacksonville-jaguars",
+      "name": "Jacksonville Jaguars",
+      "shortName": "Jaguars",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "colors": {
+        "primary": "#007487",
+        "secondary": "#D7A22A",
+        "banner": "#007487",
+        "light": "#DBEBEE"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "30"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/jax"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/jax/jacksonville-jaguars"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/jax/jacksonville-jaguars"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/jax"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars"
+        }
+      ]
+    },
+    {
+      "id": "kansas-city-chiefs",
+      "name": "Kansas City Chiefs",
+      "shortName": "Chiefs",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "colors": {
+        "primary": "#E31837",
+        "secondary": "#FFB612",
+        "banner": "#E31837",
+        "light": "#FBDEE3"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "12"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/kc"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/kc/kansas-city-chiefs"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/kc/kansas-city-chiefs"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/kc"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs"
+        }
+      ]
+    },
+    {
+      "id": "las-vegas-raiders",
+      "name": "Las Vegas Raiders",
+      "shortName": "Raiders",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#A5ACAF",
+        "banner": "#000000",
+        "light": "#DBDBDB"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "13"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/lv"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/lv/las-vegas-raiders"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/lv/las-vegas-raiders"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/lv"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+        }
+      ]
+    },
+    {
+      "id": "los-angeles-chargers",
+      "name": "Los Angeles Chargers",
+      "shortName": "Chargers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "colors": {
+        "primary": "#0080C6",
+        "secondary": "#FFC20E",
+        "banner": "#0080C6",
+        "light": "#DBEDF7"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "24"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/lac"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/lac/los-angeles-chargers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/lac/los-angeles-chargers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/lac"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers"
+        }
+      ]
+    },
+    {
+      "id": "los-angeles-rams",
+      "name": "Los Angeles Rams",
+      "shortName": "Rams",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "colors": {
+        "primary": "#003594",
+        "secondary": "#FFD100",
+        "banner": "#003594",
+        "light": "#DBE2F0"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "14"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/lar"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/lar/los-angeles-rams"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/lar/los-angeles-rams"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/lar"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams"
+        }
+      ]
+    },
+    {
+      "id": "miami-dolphins",
+      "name": "Miami Dolphins",
+      "shortName": "Dolphins",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "colors": {
+        "primary": "#008E97",
+        "secondary": "#FC4C02",
+        "banner": "#008E97",
+        "light": "#DBEFF0"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "15"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/mia"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/mia/miami-dolphins"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/mia/miami-dolphins"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/mia"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+        }
+      ]
+    },
+    {
+      "id": "minnesota-vikings",
+      "name": "Minnesota Vikings",
+      "shortName": "Vikings",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "colors": {
+        "primary": "#4F2683",
+        "secondary": "#FFC62F",
+        "banner": "#4F2683",
+        "light": "#E6E0ED"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "16"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/min"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/min/minnesota-vikings"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/min/minnesota-vikings"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/min"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/min/minnesota-vikings"
+        }
+      ]
+    },
+    {
+      "id": "new-england-patriots",
+      "name": "New England Patriots",
+      "shortName": "Patriots",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "colors": {
+        "primary": "#002A5C",
+        "secondary": "#C60C30",
+        "banner": "#002A5C",
+        "light": "#DBE1E8"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "17"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/ne"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/ne/new-england-patriots"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/ne/new-england-patriots"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/ne"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots"
+        }
+      ]
+    },
+    {
+      "id": "saints",
+      "name": "New Orleans Saints",
+      "shortName": "Saints",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "colors": {
+        "primary": "#D3BC8D",
+        "secondary": "#000000",
+        "banner": "#D3BC8D",
+        "light": "#F8F5EF"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "18"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/no"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/no/new-orleans-saints"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/no/new-orleans-saints"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/no"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/no/new-orleans-saints"
+        }
+      ]
+    },
+    {
+      "id": "new-york-giants",
+      "name": "New York Giants",
+      "shortName": "Giants",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "colors": {
+        "primary": "#003C7F",
+        "secondary": "#C9243F",
+        "banner": "#003C7F",
+        "light": "#DBE3ED"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "19"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/nyg"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/nyg/new-york-giants"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/nyg/new-york-giants"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/nyg"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+        }
+      ]
+    },
+    {
+      "id": "new-york-jets",
+      "name": "New York Jets",
+      "shortName": "Jets",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "colors": {
+        "primary": "#115740",
+        "secondary": "#FFFFFF",
+        "banner": "#115740",
+        "light": "#DDE7E4"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "20"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/nyj"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/nyj/new-york-jets"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/nyj/new-york-jets"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/nyj"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets"
+        }
+      ]
+    },
+    {
+      "id": "philadelphia-eagles",
+      "name": "Philadelphia Eagles",
+      "shortName": "Eagles",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "colors": {
+        "primary": "#06424D",
+        "secondary": "#000000",
+        "banner": "#06424D",
+        "light": "#DCE4E6"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "21"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/phi"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/phi/philadelphia-eagles"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/phi/philadelphia-eagles"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/phi"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+        }
+      ]
+    },
+    {
+      "id": "pittsburgh-steelers",
+      "name": "Pittsburgh Steelers",
+      "shortName": "Steelers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#FFB612",
+        "banner": "#000000",
+        "light": "#DBDBDB"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "23"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/pit"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/pit/pittsburgh-steelers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/pit/pittsburgh-steelers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/pit"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-49ers",
+      "name": "San Francisco 49ers",
+      "shortName": "49ers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "colors": {
+        "primary": "#AA0000",
+        "secondary": "#B3995D",
+        "banner": "#AA0000",
+        "light": "#F3DBDB"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "25"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/sf"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/sf/san-francisco-49ers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/sf/san-francisco-49ers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/sf"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers"
+        }
+      ]
+    },
+    {
+      "id": "seattle-seahawks",
+      "name": "Seattle Seahawks",
+      "shortName": "Seahawks",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "colors": {
+        "primary": "#002A5C",
+        "secondary": "#69BE28",
+        "banner": "#002A5C",
+        "light": "#DBE1E8"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "26"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/sea"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/sea/seattle-seahawks"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/sea/seattle-seahawks"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/sea"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+        }
+      ]
+    },
+    {
+      "id": "tampa-bay-buccaneers",
+      "name": "Tampa Bay Buccaneers",
+      "shortName": "Buccaneers",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "colors": {
+        "primary": "#BD1C36",
+        "secondary": "#3E3A35",
+        "banner": "#BD1C36",
+        "light": "#F5DFE2"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "27"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/tb"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/tb/tampa-bay-buccaneers"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/tb/tampa-bay-buccaneers"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/tb"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers"
+        }
+      ]
+    },
+    {
+      "id": "tennessee-titans",
+      "name": "Tennessee Titans",
+      "shortName": "Titans",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "colors": {
+        "primary": "#4495D2",
+        "secondary": "#001532",
+        "banner": "#4495D2",
+        "light": "#E4F0F8"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "10"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/ten"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/ten/tennessee-titans"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/ten/tennessee-titans"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/ten"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/ten/tennessee-titans"
+        }
+      ]
+    },
+    {
+      "id": "washington-commanders",
+      "name": "Washington Commanders",
+      "shortName": "Commanders",
+      "sport": "NFL Football",
+      "ball": "🏈",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "colors": {
+        "primary": "#5A1414",
+        "secondary": "#FFB612",
+        "banner": "#5A1414",
+        "light": "#E7DEDE"
+      },
+      "espn": {
+        "sport": "football",
+        "league": "nfl",
+        "teamId": "28"
+      },
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.espn.com/nfl/team/schedule/_/name/wsh"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.espn.com/nfl/team/roster/_/name/wsh/washington-commanders"
+        },
+        {
+          "label": "Stats",
+          "url": "https://www.espn.com/nfl/team/stats/_/name/wsh/washington-commanders"
+        },
+        {
+          "label": "Depth Chart",
+          "url": "https://www.espn.com/nfl/team/depth/_/name/wsh"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders"
+        }
+      ]
+    }
+  ]
+}
