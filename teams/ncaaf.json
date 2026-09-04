@@ -1,0 +1,1345 @@
+{
+  "meta": {
+    "title": "NCAA Football team codes",
+    "note": "Six-letter codes that plaintextsports.com and ncaa.com share for every college football team, mapped to the ncaa.com school slug and a short name. The ticker uses the slug for the logo at https://www.ncaa.com/sites/default/files/images/logos/schools/bgl/{seo}.svg. Rebuilt from the NCAA scoreboard feeds for the 2025 and 2026 seasons.",
+    "source": "https://data.ncaa.com/casablanca/scoreboard/football/{fbs|fcs}/{year}/{week}/scoreboard.json"
+  },
+  "teams": {
+    "A PEAY": {
+      "seo": "austin-peay",
+      "short": "Austin Peay"
+    },
+    "ABILCH": {
+      "seo": "abilene-christian",
+      "short": "Abilene Christian"
+    },
+    "ADRIAN": {
+      "seo": "adrian",
+      "short": "Adrian"
+    },
+    "AIRFOR": {
+      "seo": "air-force",
+      "short": "Air Force"
+    },
+    "AKRON": {
+      "seo": "akron",
+      "short": "Akron"
+    },
+    "AL A&M": {
+      "seo": "alabama-am",
+      "short": "Alabama A&M"
+    },
+    "ALA": {
+      "seo": "alabama",
+      "short": "Alabama"
+    },
+    "ALA ST": {
+      "seo": "alabama-st",
+      "short": "Alabama St."
+    },
+    "ALBANY": {
+      "seo": "albany-ny",
+      "short": "UAlbany"
+    },
+    "ALBYST": {
+      "seo": "albany-st-ga",
+      "short": "Albany St. (GA)"
+    },
+    "ALCORN": {
+      "seo": "alcorn",
+      "short": "Alcorn"
+    },
+    "ALLEN": {
+      "seo": "allen",
+      "short": "Allen"
+    },
+    "AM INT": {
+      "seo": "american-intl",
+      "short": "American Int'l"
+    },
+    "AND SC": {
+      "seo": "anderson-sc",
+      "short": "Anderson (SC)"
+    },
+    "APP ST": {
+      "seo": "appalachian-st",
+      "short": "App State"
+    },
+    "ARIZ": {
+      "seo": "arizona",
+      "short": "Arizona"
+    },
+    "ARK": {
+      "seo": "arkansas",
+      "short": "Arkansas"
+    },
+    "ARK PB": {
+      "seo": "ark-pine-bluff",
+      "short": "Ark.-Pine Bluff"
+    },
+    "ARK ST": {
+      "seo": "arkansas-st",
+      "short": "Arkansas St."
+    },
+    "ARMY": {
+      "seo": "army",
+      "short": "Army West Point"
+    },
+    "AUBURN": {
+      "seo": "auburn",
+      "short": "Auburn"
+    },
+    "AZ ST": {
+      "seo": "arizona-st",
+      "short": "Arizona St."
+    },
+    "BALLST": {
+      "seo": "ball-st",
+      "short": "Ball St."
+    },
+    "BAYLOR": {
+      "seo": "baylor",
+      "short": "Baylor"
+    },
+    "BC": {
+      "seo": "boston-college",
+      "short": "Boston College"
+    },
+    "BECOOK": {
+      "seo": "bethune-cookman",
+      "short": "Bethune-Cookman"
+    },
+    "BENTLY": {
+      "seo": "bentley",
+      "short": "Bentley"
+    },
+    "BGSU": {
+      "seo": "bowling-green",
+      "short": "Bowling Green"
+    },
+    "BL COL": {
+      "seo": "bluefield-col",
+      "short": "Bluefield Univ."
+    },
+    "BOISE": {
+      "seo": "boise-st",
+      "short": "Boise St."
+    },
+    "BOWIE": {
+      "seo": "bowie-st",
+      "short": "Bowie St."
+    },
+    "BROWN": {
+      "seo": "brown",
+      "short": "Brown"
+    },
+    "BRYANT": {
+      "seo": "bryant",
+      "short": "Bryant"
+    },
+    "BUCKNL": {
+      "seo": "bucknell",
+      "short": "Bucknell"
+    },
+    "BUFF": {
+      "seo": "buffalo",
+      "short": "Buffalo"
+    },
+    "BUTLER": {
+      "seo": "butler",
+      "short": "Butler"
+    },
+    "BYU": {
+      "seo": "byu",
+      "short": "BYU"
+    },
+    "C ARK": {
+      "seo": "central-ark",
+      "short": "Central Ark."
+    },
+    "C CONN": {
+      "seo": "central-conn-st",
+      "short": "Central Conn. St."
+    },
+    "C MICH": {
+      "seo": "central-mich",
+      "short": "Central Mich."
+    },
+    "C OKLA": {
+      "seo": "central-okla",
+      "short": "Central Okla."
+    },
+    "C WASH": {
+      "seo": "central-wash",
+      "short": "Central Wash."
+    },
+    "CAL": {
+      "seo": "california",
+      "short": "California"
+    },
+    "CALPLY": {
+      "seo": "cal-poly",
+      "short": "Cal Poly"
+    },
+    "CAMPBL": {
+      "seo": "campbell",
+      "short": "Campbell"
+    },
+    "CEN ST": {
+      "seo": "central-st-oh",
+      "short": "Central St. (OH)"
+    },
+    "CHANDR": {
+      "seo": "chadron-st",
+      "short": "Chadron St."
+    },
+    "CHAR": {
+      "seo": "charlotte",
+      "short": "Charlotte"
+    },
+    "CHARSO": {
+      "seo": "charleston-so",
+      "short": "Charleston So."
+    },
+    "CHAT": {
+      "seo": "chattanooga",
+      "short": "Chattanooga"
+    },
+    "CHI ST": {
+      "seo": "chicago-st",
+      "short": "Chicago St."
+    },
+    "CINCY": {
+      "seo": "cincinnati",
+      "short": "Cincinnati"
+    },
+    "CITDEL": {
+      "seo": "citadel",
+      "short": "The Citadel"
+    },
+    "CK ATL": {
+      "seo": "clark-atlanta",
+      "short": "Clark Atlanta"
+    },
+    "CLEM": {
+      "seo": "clemson",
+      "short": "Clemson"
+    },
+    "CO CAR": {
+      "seo": "coastal-caro",
+      "short": "Coastal Carolina"
+    },
+    "CO ST": {
+      "seo": "colorado-st",
+      "short": "Colorado St."
+    },
+    "COLGAT": {
+      "seo": "colgate",
+      "short": "Colgate"
+    },
+    "COLO": {
+      "seo": "colorado",
+      "short": "Colorado"
+    },
+    "COLUMB": {
+      "seo": "columbia",
+      "short": "Columbia"
+    },
+    "CONCRD": {
+      "seo": "concord",
+      "short": "Concord"
+    },
+    "CORN": {
+      "seo": "cornell",
+      "short": "Cornell"
+    },
+    "CUMBER": {
+      "seo": "cumberland-tn",
+      "short": "Cumberland (TN)"
+    },
+    "DART": {
+      "seo": "dartmouth",
+      "short": "Dartmouth"
+    },
+    "DAVID": {
+      "seo": "davidson",
+      "short": "Davidson"
+    },
+    "DAYTON": {
+      "seo": "dayton",
+      "short": "Dayton"
+    },
+    "DEL": {
+      "seo": "delaware",
+      "short": "Delaware"
+    },
+    "DEL ST": {
+      "seo": "delaware-st",
+      "short": "Delaware St."
+    },
+    "DICKIN": {
+      "seo": "dickinson",
+      "short": "Dickinson"
+    },
+    "DRAKE": {
+      "seo": "drake",
+      "short": "Drake"
+    },
+    "DUKE": {
+      "seo": "duke",
+      "short": "Duke"
+    },
+    "DUQSNE": {
+      "seo": "duquesne",
+      "short": "Duquesne"
+    },
+    "E CAR": {
+      "seo": "east-carolina",
+      "short": "East Carolina"
+    },
+    "E ILL": {
+      "seo": "eastern-ill",
+      "short": "Eastern Ill."
+    },
+    "E KY": {
+      "seo": "eastern-ky",
+      "short": "Eastern Ky."
+    },
+    "E MICH": {
+      "seo": "eastern-mich",
+      "short": "Eastern Mich."
+    },
+    "E WASH": {
+      "seo": "eastern-wash",
+      "short": "Eastern Wash."
+    },
+    "ED WAT": {
+      "seo": "edward-waters",
+      "short": "Edward Waters"
+    },
+    "ELON": {
+      "seo": "elon",
+      "short": "Elon"
+    },
+    "ELZCST": {
+      "seo": "elizabeth-city-st",
+      "short": "Elizabeth City St."
+    },
+    "ERSKIN": {
+      "seo": "erskine",
+      "short": "Erskine"
+    },
+    "ETSU": {
+      "seo": "east-tenn-st",
+      "short": "ETSU"
+    },
+    "FAIRMO": {
+      "seo": "fairmont-st",
+      "short": "Fairmont St."
+    },
+    "FAU": {
+      "seo": "fla-atlantic",
+      "short": "Fla. Atlantic"
+    },
+    "FAY ST": {
+      "seo": "fayetteville-st",
+      "short": "Fayetteville St."
+    },
+    "FERRUM": {
+      "seo": "ferrum",
+      "short": "Ferrum"
+    },
+    "FIU": {
+      "seo": "fiu",
+      "short": "FIU"
+    },
+    "FL A&M": {
+      "seo": "florida-am",
+      "short": "Florida A&M"
+    },
+    "FLA": {
+      "seo": "florida",
+      "short": "Florida"
+    },
+    "FORDHM": {
+      "seo": "fordham",
+      "short": "Fordham"
+    },
+    "FRANK": {
+      "seo": "franklin",
+      "short": "Franklin"
+    },
+    "FRESNO": {
+      "seo": "fresno-st",
+      "short": "Fresno St."
+    },
+    "FRPRCE": {
+      "seo": "franklin-pierce",
+      "short": "Franklin Pierce"
+    },
+    "FSU": {
+      "seo": "florida-st",
+      "short": "Florida St."
+    },
+    "FURMAN": {
+      "seo": "furman",
+      "short": "Furman"
+    },
+    "G WEBB": {
+      "seo": "gardner-webb",
+      "short": "Gardner-Webb"
+    },
+    "GA SOU": {
+      "seo": "ga-southern",
+      "short": "Ga. Southern"
+    },
+    "GA ST": {
+      "seo": "georgia-st",
+      "short": "Georgia St."
+    },
+    "GATECH": {
+      "seo": "georgia-tech",
+      "short": "Georgia Tech"
+    },
+    "GLENVI": {
+      "seo": "glenville-st",
+      "short": "Glenville St."
+    },
+    "GRAMB": {
+      "seo": "grambling",
+      "short": "Grambling"
+    },
+    "GREENS": {
+      "seo": "greensboro",
+      "short": "Greensboro"
+    },
+    "GTOWN": {
+      "seo": "georgetown",
+      "short": "Georgetown"
+    },
+    "GTWNKY": {
+      "seo": "georgetown-ky",
+      "short": "Georgetown (KY)"
+    },
+    "HAMPTN": {
+      "seo": "hampton",
+      "short": "Hampton"
+    },
+    "HARV": {
+      "seo": "harvard",
+      "short": "Harvard"
+    },
+    "HAWAII": {
+      "seo": "hawaii",
+      "short": "Hawaii"
+    },
+    "HNOVER": {
+      "seo": "hanover",
+      "short": "Hanover"
+    },
+    "HOLYCR": {
+      "seo": "holy-cross",
+      "short": "Holy Cross"
+    },
+    "HOU": {
+      "seo": "houston",
+      "short": "Houston"
+    },
+    "HOUCHR": {
+      "seo": "houston-christian",
+      "short": "Houston Christian"
+    },
+    "HOWARD": {
+      "seo": "howard",
+      "short": "Howard"
+    },
+    "ID ST": {
+      "seo": "idaho-st",
+      "short": "Idaho St."
+    },
+    "IDAHO": {
+      "seo": "idaho",
+      "short": "Idaho"
+    },
+    "ILL": {
+      "seo": "illinois",
+      "short": "Illinois"
+    },
+    "ILL ST": {
+      "seo": "illinois-st",
+      "short": "Illinois St."
+    },
+    "INCWRD": {
+      "seo": "uiw",
+      "short": "UIW"
+    },
+    "IND": {
+      "seo": "indiana",
+      "short": "Indiana"
+    },
+    "IND ST": {
+      "seo": "indiana-st",
+      "short": "Indiana St."
+    },
+    "IOWA": {
+      "seo": "iowa",
+      "short": "Iowa"
+    },
+    "IOWAST": {
+      "seo": "iowa-st",
+      "short": "Iowa St."
+    },
+    "JACKST": {
+      "seo": "jackson-st",
+      "short": "Jackson St."
+    },
+    "JAX ST": {
+      "seo": "jacksonville-st",
+      "short": "Jacksonville St."
+    },
+    "JMU": {
+      "seo": "james-madison",
+      "short": "James Madison"
+    },
+    "KAN ST": {
+      "seo": "kansas-st",
+      "short": "Kansas St."
+    },
+    "KANSAS": {
+      "seo": "kansas",
+      "short": "Kansas"
+    },
+    "KENSAW": {
+      "seo": "kennesaw-st",
+      "short": "Kennesaw St."
+    },
+    "KENT": {
+      "seo": "kent-st",
+      "short": "Kent St."
+    },
+    "KY CHR": {
+      "seo": "ky-christian",
+      "short": "Ky. Christian"
+    },
+    "KY ST": {
+      "seo": "kentucky-st",
+      "short": "Kentucky St."
+    },
+    "LA": {
+      "seo": "la-lafayette",
+      "short": "Louisiana"
+    },
+    "LA MON": {
+      "seo": "la-monroe",
+      "short": "ULM"
+    },
+    "LAFAYE": {
+      "seo": "lafayette",
+      "short": "Lafayette"
+    },
+    "LAMAR": {
+      "seo": "lamar",
+      "short": "Lamar University"
+    },
+    "LANE": {
+      "seo": "lane",
+      "short": "Lane"
+    },
+    "LANGST": {
+      "seo": "langston",
+      "short": "Langston"
+    },
+    "LATECH": {
+      "seo": "louisiana-tech",
+      "short": "Louisiana Tech"
+    },
+    "LAWRTC": {
+      "seo": "lawrence-tech",
+      "short": "Lawrence Tech"
+    },
+    "LEHIGH": {
+      "seo": "lehigh",
+      "short": "Lehigh"
+    },
+    "LIBRTY": {
+      "seo": "liberty",
+      "short": "Liberty"
+    },
+    "LINCPA": {
+      "seo": "lincoln-pa",
+      "short": "Lincoln (PA)"
+    },
+    "LINWOD": {
+      "seo": "lindenwood-mo",
+      "short": "Lindenwood"
+    },
+    "LIU": {
+      "seo": "long-island",
+      "short": "LIU"
+    },
+    "LOUIS": {
+      "seo": "louisville",
+      "short": "Louisville"
+    },
+    "LSU": {
+      "seo": "lsu",
+      "short": "LSU"
+    },
+    "MAINE": {
+      "seo": "maine",
+      "short": "Maine"
+    },
+    "MARIST": {
+      "seo": "marist",
+      "short": "Marist"
+    },
+    "MARSH": {
+      "seo": "marshall",
+      "short": "Marshall"
+    },
+    "MCKEND": {
+      "seo": "mckendree",
+      "short": "McKendree"
+    },
+    "MCNEES": {
+      "seo": "mcneese",
+      "short": "McNeese"
+    },
+    "MD": {
+      "seo": "maryland",
+      "short": "Maryland"
+    },
+    "MEM": {
+      "seo": "memphis",
+      "short": "Memphis"
+    },
+    "MERCER": {
+      "seo": "mercer",
+      "short": "Mercer"
+    },
+    "MERCYH": {
+      "seo": "mercyhurst",
+      "short": "Mercyhurst"
+    },
+    "MERMCK": {
+      "seo": "merrimack",
+      "short": "Merrimack"
+    },
+    "MIA OH": {
+      "seo": "miami-oh",
+      "short": "Miami (OH)"
+    },
+    "MIAMI": {
+      "seo": "miami-fl",
+      "short": "Miami (FL)"
+    },
+    "MICH": {
+      "seo": "michigan",
+      "short": "Michigan"
+    },
+    "MICHST": {
+      "seo": "michigan-st",
+      "short": "Michigan St."
+    },
+    "MIDTEN": {
+      "seo": "middle-tenn",
+      "short": "Middle Tenn."
+    },
+    "MILES": {
+      "seo": "miles",
+      "short": "Miles"
+    },
+    "MINN": {
+      "seo": "minnesota",
+      "short": "Minnesota"
+    },
+    "MISS": {
+      "seo": "ole-miss",
+      "short": "Ole Miss"
+    },
+    "MISSST": {
+      "seo": "mississippi-st",
+      "short": "Mississippi St."
+    },
+    "MIZZOU": {
+      "seo": "missouri",
+      "short": "Missouri"
+    },
+    "MO ST": {
+      "seo": "missouri-st",
+      "short": "Missouri St."
+    },
+    "MONMTH": {
+      "seo": "monmouth",
+      "short": "Monmouth"
+    },
+    "MONT": {
+      "seo": "montana",
+      "short": "Montana"
+    },
+    "MONTST": {
+      "seo": "montana-st",
+      "short": "Montana St."
+    },
+    "MONTST ": {
+      "seo": "montana-st",
+      "short": "Montana St."
+    },
+    "MOREST": {
+      "seo": "morehead-st",
+      "short": "Morehead St."
+    },
+    "MORGAN": {
+      "seo": "morgan-st",
+      "short": "Morgan St."
+    },
+    "MORHSE": {
+      "seo": "morehouse",
+      "short": "Morehouse"
+    },
+    "MS VAL": {
+      "seo": "mississippi-val",
+      "short": "Mississippi Val."
+    },
+    "MURRAY": {
+      "seo": "murray-st",
+      "short": "Murray St."
+    },
+    "N ALA": {
+      "seo": "north-ala",
+      "short": "North Ala."
+    },
+    "N COLO": {
+      "seo": "northern-colo",
+      "short": "Northern Colo."
+    },
+    "N DAME": {
+      "seo": "notre-dame",
+      "short": "Notre Dame"
+    },
+    "N IOWA": {
+      "seo": "uni",
+      "short": "UNI"
+    },
+    "N MEX": {
+      "seo": "new-mexico",
+      "short": "New Mexico"
+    },
+    "N MICH": {
+      "seo": "northern-mich",
+      "short": "Northern Mich."
+    },
+    "NAU": {
+      "seo": "northern-ariz",
+      "short": "Northern Ariz."
+    },
+    "NAVY": {
+      "seo": "navy",
+      "short": "Navy"
+    },
+    "NC A&T": {
+      "seo": "nc-at",
+      "short": "N.C. A&T"
+    },
+    "NC CEN": {
+      "seo": "nc-central",
+      "short": "N.C. Central"
+    },
+    "NC ST": {
+      "seo": "north-carolina-st",
+      "short": "NC State"
+    },
+    "ND ST": {
+      "seo": "north-dakota-st",
+      "short": "North Dakota St."
+    },
+    "NE ST": {
+      "seo": "northeastern-st",
+      "short": "Northeastern St."
+    },
+    "NEB": {
+      "seo": "nebraska",
+      "short": "Nebraska"
+    },
+    "NEVADA": {
+      "seo": "nevada",
+      "short": "Nevada"
+    },
+    "NEWHAV": {
+      "seo": "new-haven",
+      "short": "New Haven"
+    },
+    "NICHST": {
+      "seo": "nicholls-st",
+      "short": "Nicholls"
+    },
+    "NIU": {
+      "seo": "northern-ill",
+      "short": "NIU"
+    },
+    "NM ST": {
+      "seo": "new-mexico-st",
+      "short": "New Mexico St."
+    },
+    "NO DAK": {
+      "seo": "north-dakota",
+      "short": "North Dakota"
+    },
+    "NO TEX": {
+      "seo": "north-texas",
+      "short": "North Texas"
+    },
+    "NORFLK": {
+      "seo": "norfolk-st",
+      "short": "Norfolk St."
+    },
+    "NOVA": {
+      "seo": "villanova",
+      "short": "Villanova"
+    },
+    "NW": {
+      "seo": "northwestern",
+      "short": "Northwestern"
+    },
+    "NW ST": {
+      "seo": "northwestern-st",
+      "short": "Northwestern St."
+    },
+    "ODU": {
+      "seo": "old-dominion",
+      "short": "Old Dominion"
+    },
+    "OH DOM": {
+      "seo": "ohio-dominican",
+      "short": "Ohio Dominican"
+    },
+    "OHIO": {
+      "seo": "ohio",
+      "short": "Ohio"
+    },
+    "OHIOST": {
+      "seo": "ohio-st",
+      "short": "Ohio St."
+    },
+    "OKLA": {
+      "seo": "oklahoma",
+      "short": "Oklahoma"
+    },
+    "OKLAST": {
+      "seo": "oklahoma-st",
+      "short": "Oklahoma St."
+    },
+    "ORE ST": {
+      "seo": "oregon-st",
+      "short": "Oregon St."
+    },
+    "OREGN": {
+      "seo": "oregon",
+      "short": "Oregon"
+    },
+    "PACE": {
+      "seo": "pace",
+      "short": "Pace"
+    },
+    "PENN": {
+      "seo": "penn",
+      "short": "Penn"
+    },
+    "PENNST": {
+      "seo": "penn-st",
+      "short": "Penn St."
+    },
+    "PITT": {
+      "seo": "pittsburgh",
+      "short": "Pittsburgh"
+    },
+    "PORTST": {
+      "seo": "portland-st",
+      "short": "Portland St."
+    },
+    "PRESBY": {
+      "seo": "presbyterian",
+      "short": "Presbyterian"
+    },
+    "PRINCE": {
+      "seo": "princeton",
+      "short": "Princeton"
+    },
+    "PURDUE": {
+      "seo": "purdue",
+      "short": "Purdue"
+    },
+    "PV A&M": {
+      "seo": "prairie-view",
+      "short": "Prairie View"
+    },
+    "RICE": {
+      "seo": "rice",
+      "short": "Rice"
+    },
+    "RICH": {
+      "seo": "richmond",
+      "short": "Richmond"
+    },
+    "ROBMOR": {
+      "seo": "robert-morris",
+      "short": "Robert Morris"
+    },
+    "RUTGER": {
+      "seo": "rutgers",
+      "short": "Rutgers"
+    },
+    "S ALA": {
+      "seo": "south-ala",
+      "short": "South Alabama"
+    },
+    "S CAR": {
+      "seo": "south-carolina",
+      "short": "South Carolina"
+    },
+    "S MISS": {
+      "seo": "southern-miss",
+      "short": "Southern Miss."
+    },
+    "S UTAH": {
+      "seo": "southern-utah",
+      "short": "Southern Utah"
+    },
+    "SAC ST": {
+      "seo": "sacramento-st",
+      "short": "Sacramento St."
+    },
+    "SACHRT": {
+      "seo": "sacred-heart",
+      "short": "Sacred Heart"
+    },
+    "SAGVAL": {
+      "seo": "saginaw-valley",
+      "short": "Saginaw Valley"
+    },
+    "SAMFRD": {
+      "seo": "samford",
+      "short": "Samford"
+    },
+    "SAMHOU": {
+      "seo": "sam-houston-st",
+      "short": "Sam Houston"
+    },
+    "SAV ST": {
+      "seo": "savannah-st",
+      "short": "Savannah St."
+    },
+    "SC ST": {
+      "seo": "south-carolina-st",
+      "short": "South Carolina St."
+    },
+    "SDAKST": {
+      "seo": "south-dakota-st",
+      "short": "South Dakota St."
+    },
+    "SDMINE": {
+      "seo": "south-dakota-mines",
+      "short": "South Dakota Mines"
+    },
+    "SDSU": {
+      "seo": "san-diego-st",
+      "short": "San Diego St."
+    },
+    "SE LA": {
+      "seo": "southeastern-la",
+      "short": "Southeastern La."
+    },
+    "SEMO": {
+      "seo": "southeast-mo-st",
+      "short": "Southeast Mo. St."
+    },
+    "SFA": {
+      "seo": "stephen-f-austin",
+      "short": "SFA"
+    },
+    "SIU": {
+      "seo": "southern-ill",
+      "short": "Southern Ill."
+    },
+    "SJSU": {
+      "seo": "san-jose-st",
+      "short": "San Jose St."
+    },
+    "SMU": {
+      "seo": "smu",
+      "short": "SMU"
+    },
+    "SO DAK": {
+      "seo": "south-dakota",
+      "short": "South Dakota"
+    },
+    "SOCONN": {
+      "seo": "southern-conn-st",
+      "short": "Southern Conn. St."
+    },
+    "SOUTHR": {
+      "seo": "southern-u",
+      "short": "Southern U."
+    },
+    "STAN": {
+      "seo": "stanford",
+      "short": "Stanford"
+    },
+    "STANSL": {
+      "seo": "st-anselm",
+      "short": "St. Anselm"
+    },
+    "STETSN": {
+      "seo": "stetson",
+      "short": "Stetson"
+    },
+    "STFRPA": {
+      "seo": "st-francis-pa",
+      "short": "Saint Francis"
+    },
+    "STONEH": {
+      "seo": "stonehill",
+      "short": "Stonehill"
+    },
+    "STONY": {
+      "seo": "stony-brook",
+      "short": "Stony Brook"
+    },
+    "STTHOM": {
+      "seo": "st-thomas-mn",
+      "short": "St. Thomas (MN)"
+    },
+    "SULROS": {
+      "seo": "sul-ross-st",
+      "short": "Sul Ross St."
+    },
+    "SYR": {
+      "seo": "syracuse",
+      "short": "Syracuse"
+    },
+    "TAMUCO": {
+      "seo": "tex-am-commerce",
+      "short": "East Texas A&M"
+    },
+    "TARLET": {
+      "seo": "tarleton-st",
+      "short": "Tarleton St."
+    },
+    "TCU": {
+      "seo": "tcu",
+      "short": "TCU"
+    },
+    "TEMPLE": {
+      "seo": "temple",
+      "short": "Temple"
+    },
+    "TENN": {
+      "seo": "tennessee",
+      "short": "Tennessee"
+    },
+    "TENNST": {
+      "seo": "tennessee-st",
+      "short": "Tennessee St."
+    },
+    "TEXAS": {
+      "seo": "texas",
+      "short": "Texas"
+    },
+    "TNTECH": {
+      "seo": "tennessee-tech",
+      "short": "Tennessee Tech"
+    },
+    "TOLEDO": {
+      "seo": "toledo",
+      "short": "Toledo"
+    },
+    "TOMMOR": {
+      "seo": "thomas-more",
+      "short": "Thomas More"
+    },
+    "TOWSON": {
+      "seo": "towson",
+      "short": "Towson"
+    },
+    "TROY": {
+      "seo": "troy",
+      "short": "Troy"
+    },
+    "TRUMAN": {
+      "seo": "truman",
+      "short": "Truman St."
+    },
+    "TULANE": {
+      "seo": "tulane",
+      "short": "Tulane"
+    },
+    "TULSA": {
+      "seo": "tulsa",
+      "short": "Tulsa"
+    },
+    "TUSCUL": {
+      "seo": "tusculum",
+      "short": "Tusculum"
+    },
+    "TUSK": {
+      "seo": "tuskegee",
+      "short": "Tuskegee"
+    },
+    "TX A&M": {
+      "seo": "texas-am",
+      "short": "Texas A&M"
+    },
+    "TX PER": {
+      "seo": "tex-permian-basin",
+      "short": "UT Permian Basin"
+    },
+    "TX SOU": {
+      "seo": "texas-southern",
+      "short": "Texas Southern"
+    },
+    "TX ST": {
+      "seo": "texas-st",
+      "short": "Texas St."
+    },
+    "TX WES": {
+      "seo": "texas-wesleyan",
+      "short": "Texas Wesleyan"
+    },
+    "TXTECH": {
+      "seo": "texas-tech",
+      "short": "Texas Tech"
+    },
+    "UAB": {
+      "seo": "uab",
+      "short": "UAB"
+    },
+    "UC DAV": {
+      "seo": "uc-davis",
+      "short": "UC Davis"
+    },
+    "UCF": {
+      "seo": "ucf",
+      "short": "UCF"
+    },
+    "UCLA": {
+      "seo": "ucla",
+      "short": "UCLA"
+    },
+    "UCONN": {
+      "seo": "uconn",
+      "short": "UConn"
+    },
+    "UGA": {
+      "seo": "georgia",
+      "short": "Georgia"
+    },
+    "UK": {
+      "seo": "kentucky",
+      "short": "Kentucky"
+    },
+    "UMASS": {
+      "seo": "massachusetts",
+      "short": "Massachusetts"
+    },
+    "UNC": {
+      "seo": "north-carolina",
+      "short": "North Carolina"
+    },
+    "UNH": {
+      "seo": "new-hampshire",
+      "short": "New Hampshire"
+    },
+    "UNLV": {
+      "seo": "unlv",
+      "short": "UNLV"
+    },
+    "UPP IA": {
+      "seo": "upper-iowa",
+      "short": "Upper Iowa"
+    },
+    "URI": {
+      "seo": "rhode-island",
+      "short": "Rhode Island"
+    },
+    "USC": {
+      "seo": "southern-california",
+      "short": "Southern California"
+    },
+    "USD": {
+      "seo": "san-diego",
+      "short": "San Diego"
+    },
+    "USF": {
+      "seo": "south-fla",
+      "short": "South Fla."
+    },
+    "UT MAR": {
+      "seo": "ut-martin",
+      "short": "UT Martin"
+    },
+    "UT ST": {
+      "seo": "utah-st",
+      "short": "Utah St."
+    },
+    "UTAH": {
+      "seo": "utah",
+      "short": "Utah"
+    },
+    "UTEP": {
+      "seo": "utep",
+      "short": "UTEP"
+    },
+    "UTRGV": {
+      "seo": "utrgv",
+      "short": "UTRGV"
+    },
+    "UTSA": {
+      "seo": "utsa",
+      "short": "UTSA"
+    },
+    "UTTECH": {
+      "seo": "utah-tech",
+      "short": "Utah Tech"
+    },
+    "UVA": {
+      "seo": "virginia",
+      "short": "Virginia"
+    },
+    "VA LYN": {
+      "seo": "virginia-lynchburg",
+      "short": "Virginia-Lynchburg"
+    },
+    "VA ST": {
+      "seo": "virginia-st",
+      "short": "Virginia St."
+    },
+    "VAL ST": {
+      "seo": "valdosta-st",
+      "short": "Valdosta St."
+    },
+    "VALPO": {
+      "seo": "valparaiso",
+      "short": "Valparaiso"
+    },
+    "VANDY": {
+      "seo": "vanderbilt",
+      "short": "Vanderbilt"
+    },
+    "VAWISE": {
+      "seo": "uva-wise",
+      "short": "UVA Wise"
+    },
+    "VMI": {
+      "seo": "vmi",
+      "short": "VMI"
+    },
+    "VT": {
+      "seo": "virginia-tech",
+      "short": "Virginia Tech"
+    },
+    "W CAR": {
+      "seo": "western-caro",
+      "short": "Western Caro."
+    },
+    "W CONN": {
+      "seo": "western-conn-st",
+      "short": "WestConn"
+    },
+    "W FLA": {
+      "seo": "west-florida",
+      "short": "West Florida"
+    },
+    "W GA": {
+      "seo": "west-ga",
+      "short": "West Ga."
+    },
+    "W ILL": {
+      "seo": "western-ill",
+      "short": "Western Ill."
+    },
+    "W KY": {
+      "seo": "western-ky",
+      "short": "Western Ky."
+    },
+    "W LIB": {
+      "seo": "west-liberty",
+      "short": "West Liberty"
+    },
+    "W MICH": {
+      "seo": "western-mich",
+      "short": "Western Mich."
+    },
+    "W ORE": {
+      "seo": "western-ore",
+      "short": "Western Ore."
+    },
+    "WAGNER": {
+      "seo": "wagner",
+      "short": "Wagner"
+    },
+    "WAKE": {
+      "seo": "wake-forest",
+      "short": "Wake Forest"
+    },
+    "WASH": {
+      "seo": "washington",
+      "short": "Washington"
+    },
+    "WASHST": {
+      "seo": "washington-st",
+      "short": "Washington St."
+    },
+    "WEB ST": {
+      "seo": "weber-st",
+      "short": "Weber St."
+    },
+    "WEBINT": {
+      "seo": "webber-intl",
+      "short": "Webber Int'l"
+    },
+    "WINONA": {
+      "seo": "winona-st",
+      "short": "Winona St."
+    },
+    "WINSAL": {
+      "seo": "winston-salem",
+      "short": "Winston-Salem"
+    },
+    "WISC": {
+      "seo": "wisconsin",
+      "short": "Wisconsin"
+    },
+    "WM&MRY": {
+      "seo": "william-mary",
+      "short": "William & Mary"
+    },
+    "WOFFRD": {
+      "seo": "wofford",
+      "short": "Wofford"
+    },
+    "WRNSOU": {
+      "seo": "warner-southern",
+      "short": "Warner"
+    },
+    "WVA ST": {
+      "seo": "west-virginia-st",
+      "short": "West Virginia St."
+    },
+    "WVU": {
+      "seo": "west-virginia",
+      "short": "West Virginia"
+    },
+    "WYO": {
+      "seo": "wyoming",
+      "short": "Wyoming"
+    },
+    "YALE": {
+      "seo": "yale",
+      "short": "Yale"
+    },
+    "YSU": {
+      "seo": "youngstown-st",
+      "short": "Youngstown St."
+    }
+  }
+}

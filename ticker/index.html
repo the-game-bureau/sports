@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Football Ticker</title>
+    <meta name="description" content="Live NFL and college football scores, pulled fresh from plaintextsports.com every time the page loads.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html { color-scheme: dark; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px 18px calc(48px + env(safe-area-inset-bottom, 0px));
+            -webkit-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .wrap {
+            width: 100%;
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        /* ── Header ── */
+        .top {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 16px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .brand { display: flex; align-items: center; gap: 10px; }
+
+        h1 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            line-height: 1;
+        }
+
+        .brand .sub {
+            display: block;
+            margin-top: 6px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #777;
+        }
+
+        .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #3a3a3a;
+            flex-shrink: 0;
+        }
+
+        .dot.on {
+            background: #ff3b3b;
+            animation: pulse 2.4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.25; }
+        }
+
+        .meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.8rem;
+            color: #8a8a8a;
+            white-space: nowrap;
+        }
+
+        .meta button {
+            font: inherit;
+            font-weight: 700;
+            font-size: 0.72rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #fff;
+            background: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 999px;
+            padding: 8px 14px;
+            cursor: pointer;
+        }
+
+        .meta button:hover { background: #2a2a2a; }
+        .meta button:focus-visible { outline: 3px solid #007acc; outline-offset: 2px; }
+
+        /* ── Notices ── */
+        .notice {
+            margin-top: 16px;
+            padding: 12px 14px;
+            border: 1px solid #3a2a2a;
+            border-left: 3px solid #ff3b3b;
+            border-radius: 6px;
+            background: #1a1414;
+            font-size: 0.88rem;
+            line-height: 1.45;
+            color: #d8d8d8;
+        }
+
+        .notice a { color: #fff; }
+
+        /* ── Sections ── */
+        section { margin-top: 30px; }
+
+        h2 {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            color: #9a9a9a;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        h2 .count {
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            color: #5f5f5f;
+        }
+
+        section.is-live h2 { color: #fff; }
+        section.is-live h2::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ff3b3b;
+            align-self: center;
+            animation: pulse 2.4s ease-in-out infinite;
+        }
+
+        .empty {
+            padding: 16px 0 4px;
+            font-size: 0.9rem;
+            color: #6a6a6a;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        /* ── Game cards ── */
+        .game {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            background: #181818;
+            border: 1px solid #262626;
+            border-radius: 6px;
+            padding: 10px 14px 8px;
+        }
+
+        .game:hover { border-color: #3a3a3a; background: #1c1c1c; }
+        .game:focus-visible { outline: 3px solid #007acc; outline-offset: 2px; }
+
+        .game.live { border-color: #4a1f1f; }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #8a8a8a;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #242424;
+        }
+
+        .status .league {
+            color: #fff;
+            background: #2a2a2a;
+            padding: 3px 6px;
+            border-radius: 3px;
+            letter-spacing: 0.1em;
+        }
+
+        .status .clock { flex: 1; }
+
+        .game.live .status .clock { color: #ff5c5c; }
+
+        .status .net {
+            color: #5f5f5f;
+            letter-spacing: 0.08em;
+        }
+
+        .team {
+            display: grid;
+            grid-template-columns: 30px 1fr auto;
+            align-items: center;
+            gap: 10px;
+            padding: 7px 0;
+        }
+
+        .team + .team { border-top: 1px solid #1f1f1f; }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+            display: block;
+            filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.35));
+        }
+
+        .logo.blank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #2a2a2a;
+            color: #999;
+            font-size: 0.6rem;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+        }
+
+        .name {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .name .rank {
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: #8a8a8a;
+            margin-right: 5px;
+        }
+
+        .name .rec {
+            font-size: 0.74rem;
+            font-weight: 600;
+            color: #6a6a6a;
+            margin-left: 7px;
+        }
+
+        .score {
+            font-size: 1.4rem;
+            font-weight: 800;
+            line-height: 1;
+            min-width: 2.2ch;
+            text-align: right;
+        }
+
+        .team.lost .name, .team.lost .score { color: #7a7a7a; }
+        .team.lost .logo { opacity: 0.55; }
+
+        .team.tbd .score {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #6a6a6a;
+        }
+
+        /* ── Footer ── */
+        footer {
+            margin-top: 40px;
+            padding-top: 14px;
+            border-top: 1px solid #2a2a2a;
+            font-size: 0.78rem;
+            line-height: 1.6;
+            color: #5f5f5f;
+        }
+
+        footer a {
+            color: #9a9a9a;
+            text-decoration-color: #444;
+            text-underline-offset: 3px;
+        }
+
+        footer a:hover, footer a:focus { color: #fff; }
+
+        @media (max-width: 520px) {
+            body { padding-left: 14px; padding-right: 14px; }
+            .top { align-items: flex-start; flex-direction: column; }
+            .grid { grid-template-columns: 1fr; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .dot.on, section.is-live h2::before { animation: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+
+        <header class="top">
+            <div class="brand">
+                <span class="dot" id="live-dot"></span>
+                <div>
+                    <h1>Football Ticker</h1>
+                    <span class="sub">NFL &middot; College</span>
+                </div>
+            </div>
+            <div class="meta">
+                <span id="updated">Loading scores&hellip;</span>
+                <button type="button" id="refresh">Refresh</button>
+            </div>
+        </header>
+
+        <div id="notice" class="notice" hidden></div>
+
+        <noscript><p class="empty">This page needs JavaScript to pull the scores.</p></noscript>
+
+        <main id="board">
+            <section id="live">
+                <h2>Live <span class="count"></span></h2>
+                <div class="grid"></div>
+                <p class="empty" hidden></p>
+            </section>
+            <section id="final">
+                <h2>Final <span class="count"></span></h2>
+                <div class="grid"></div>
+                <p class="empty" hidden></p>
+            </section>
+            <section id="upcoming">
+                <h2>Coming up today <span class="count"></span></h2>
+                <div class="grid"></div>
+                <p class="empty" hidden></p>
+            </section>
+        </main>
+
+        <footer>Scores come from <a href="https://plaintextsports.com">plaintextsports.com</a>
+            and are fetched fresh each time this page loads. Logos from ESPN and NCAA.com.
+            Built by <a href="https://thegamebureau.com/ff">The Game Bureau</a>.</footer>
+
+    </div>
+
+    <script>
+    (() => {
+        'use strict';
+
+        const SOURCE = 'https://plaintextsports.com';
+        const CODES_URL = '../teams/ncaaf.json';
+        const CACHE_KEY = 'ticker.lastGood';
+        const FETCH_TIMEOUT = 12000;
+
+        // plaintextsports.com sends no CORS headers, so the browser has to go
+        // through a relay. Each is tried in turn until one answers.
+        const PROXIES = [
+            u => `https://api.cors.lol/?url=${encodeURIComponent(u)}`,
+            u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
+            u => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}`,
+        ];
+
+        const NFL = {
+            ari: 'Cardinals', atl: 'Falcons', bal: 'Ravens', buf: 'Bills', car: 'Panthers',
+            chi: 'Bears', cin: 'Bengals', cle: 'Browns', dal: 'Cowboys', den: 'Broncos',
+            det: 'Lions', gb: 'Packers', hou: 'Texans', ind: 'Colts', jax: 'Jaguars',
+            kc: 'Chiefs', lac: 'Chargers', lar: 'Rams', lv: 'Raiders', mia: 'Dolphins',
+            min: 'Vikings', ne: 'Patriots', no: 'Saints', nyg: 'Giants', nyj: 'Jets',
+            phi: 'Eagles', pit: 'Steelers', sea: 'Seahawks', sf: '49ers', tb: 'Buccaneers',
+            ten: 'Titans', was: 'Commanders',
+        };
+        const NFL_LOGO_SLUG = { was: 'wsh' };
+
+        const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+            'August', 'September', 'October', 'November', 'December'];
+
+        let ncaa = {};
+
+        // ── Time ──────────────────────────────────────────────────────────
+
+        // plaintextsports.com keeps its calendar in Eastern time.
+        function eastern(date = new Date()) {
+            const fmt = new Intl.DateTimeFormat('en-US', {
+                timeZone: 'America/New_York', hourCycle: 'h23',
+                year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric',
+            });
+            const p = {};
+            fmt.formatToParts(date).forEach(x => { if (x.type !== 'literal') p[x.type] = parseInt(x.value, 10); });
+            return { year: p.year, month: p.month, day: p.day, hour: p.hour % 24 };
+        }
+
+        // "Today" for a sports fan runs until 5 AM Eastern, so a late West
+        // Coast game still counts as tonight's.
+        function sportsDay() {
+            const e = eastern();
+            if (e.hour >= 5) return { year: e.year, month: e.month, day: e.day };
+            const d = new Date(Date.UTC(e.year, e.month - 1, e.day));
+            d.setUTCDate(d.getUTCDate() - 1);
+            return { year: d.getUTCFullYear(), month: d.getUTCMonth() + 1, day: d.getUTCDate() };
+        }
+
+        function pad2(n) { return String(n).padStart(2, '0'); }
+        function sameDay(a, b) { return a && b && a.month === b.month && a.day === b.day; }
+
+        const localTime = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
+        const localClock = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', second: '2-digit' });
+
+        // ── Fetching ──────────────────────────────────────────────────────
+
+        async function fetchWithTimeout(url) {
+            const ctrl = new AbortController();
+            const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT);
+            try {
+                const res = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                return await res.text();
+            } finally {
+                clearTimeout(timer);
+            }
+        }
+
+        async function fetchSource(path) {
+            const target = `${SOURCE}${path}?r=${Date.now()}`;
+            let lastError = null;
+            for (const proxy of PROXIES) {
+                try {
+                    const html = await fetchWithTimeout(proxy(target));
+                    if (!/text-fg no-underline|Data loaded/.test(html)) throw new Error('unexpected body');
+                    return html;
+                } catch (err) {
+                    lastError = err;
+                }
+            }
+            throw lastError || new Error('no relay answered');
+        }
+
+        async function fetchCodes() {
+            try {
+                const res = await fetch(CODES_URL, { cache: 'force-cache' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+                return data.teams || {};
+            } catch (err) {
+                return {};
+            }
+        }
+
+        // ── Parsing ───────────────────────────────────────────────────────
+
+        // A scoreboard page is a run of ASCII boxes, each wrapped in a link:
+        //   +--------------+
+        //   |        Final |      or a kickoff time, or the game clock
+        //   | NE        13 |      away team, then score or record
+        //   | CLE       37 |      home team
+        //   +--------- CBS +      network on NFL boxes
+        // Date headings sit between boxes on the NFL week page.
+        function parsePage(html, league) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            const loadedEl = doc.querySelector('#data-loaded');
+            const loaded = loadedEl ? Date.parse(loadedEl.getAttribute('datetime')) : NaN;
+            const nodes = doc.querySelectorAll('div.text-center.font-bold, span.font-bold.flex-initial, a.text-fg.no-underline');
+            const games = [];
+            let day = null;
+            let pageDay = null;
+            nodes.forEach(el => {
+                if (el.tagName !== 'A') {
+                    const m = el.textContent.trim().match(/^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+([A-Z][a-z]+)\s+(\d{1,2})$/);
+                    if (m) {
+                        day = { month: MONTHS.indexOf(m[2]) + 1, day: +m[3] };
+                        if (!pageDay) pageDay = day;
+                    }
+                    return;
+                }
+                const g = parseBox(el, league, day, games.length);
+                if (g) games.push(g);
+            });
+            return { games, loaded, pageDay };
+        }
+
+        function parseBox(a, league, day, index) {
+            const lines = a.textContent.split('\n');
+            const rows = lines.filter(l => l.trimStart().startsWith('|'));
+            if (rows.length < 3) return null;
+            const inner = l => l.trim().replace(/^\|\s?/, '').replace(/\s?\|$/, '');
+
+            const head = inner(rows[0]).trim();
+            const timeEl = a.querySelector('time[data-format="game-start-time"]');
+            const kick = timeEl ? Date.parse(timeEl.getAttribute('datetime')) : NaN;
+            const away = parseTeam(inner(rows[1]));
+            const home = parseTeam(inner(rows[2]));
+
+            const bottom = lines.map(l => l.trim()).filter(l => l.startsWith('+')).pop() || '';
+            const netMatch = bottom.match(/-+\s*([^+-][^+]*?)\s*\+$/);
+            const network = netMatch ? netMatch[1].trim() : '';
+
+            let state, status;
+            if (timeEl && !Number.isNaN(kick)) {
+                state = 'upcoming';
+                status = '';
+            } else if (/^final/i.test(head)) {
+                state = 'final';
+                status = head.replace(/^final\s*[\/\-]?\s*/i, '').trim();
+            } else if (/postpone|cancel|delay|suspend|tbd|ppd/i.test(head)) {
+                state = 'other';
+                status = head;
+            } else {
+                state = 'live';
+                status = head;
+            }
+
+            const href = a.getAttribute('href') || '';
+            const link = /^https?:/i.test(href) ? href : SOURCE + href;
+            if (league === 'nfl') {
+                const m = href.match(/\/([a-z]+)-([a-z]+)\/?$/);
+                if (m) { away.slug = m[1]; home.slug = m[2]; }
+            }
+
+            return { league, state, status, kick, day, away, home, network, link, index };
+        }
+
+        // "10 OKLA        27" → rank 10, code OKLA, score 27.
+        // "NE         0-0"   → code NE, record 0-0.
+        function parseTeam(text) {
+            let t = text.trim();
+            let rank = null;
+            let value = '';
+            const r = t.match(/^(\d{1,2})\s+(.*)$/);
+            if (r) { rank = +r[1]; t = r[2]; }
+            const v = t.match(/^(.*?)\s+(\d+(?:-\d+){0,2})$/);
+            if (v) { t = v[1]; value = v[2]; }
+            const isScore = /^\d+$/.test(value);
+            return {
+                code: t.trim(),
+                rank,
+                score: isScore ? +value : null,
+                record: isScore ? '' : value,
+                slug: null,
+            };
+        }
+
+        // ── Presentation helpers ──────────────────────────────────────────
+
+        function displayName(team, league) {
+            if (league === 'nfl') return (team.slug && NFL[team.slug]) || team.code;
+            const t = ncaa[team.code];
+            return (t && t.short) || team.code;
+        }
+
+        function logoUrl(team, league) {
+            if (league === 'nfl') {
+                if (!team.slug) return '';
+                const slug = NFL_LOGO_SLUG[team.slug] || team.slug;
+                return `https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/${slug}.png&h=96&w=96`;
+            }
+            const t = ncaa[team.code];
+            return t && t.seo ? `https://www.ncaa.com/sites/default/files/images/logos/schools/bgl/${t.seo}.svg` : '';
+        }
+
+        function esc(s) {
+            return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        }
+
+        function initials(code) {
+            return code.replace(/[^A-Za-z0-9]/g, '').slice(0, 3).toUpperCase() || '?';
+        }
+
+        function teamRow(team, other, g) {
+            const name = displayName(team, g.league);
+            const logo = logoUrl(team, g.league);
+            const hasScore = team.score !== null;
+            let cls = 'team';
+            if (g.state === 'final' && hasScore && other.score !== null && team.score < other.score) cls += ' lost';
+            if (!hasScore) cls += ' tbd';
+            const scoreText = hasScore ? team.score : (g.state === 'upcoming' ? '' : '–');
+            const img = logo
+                ? `<img class="logo" src="${esc(logo)}" alt="" loading="lazy" decoding="async" onerror="this.outerHTML='<span class=&quot;logo blank&quot;>${esc(initials(team.code))}</span>'">`
+                : `<span class="logo blank">${esc(initials(team.code))}</span>`;
+            return `<div class="${cls}">${img}<div class="name">${team.rank ? `<span class="rank">${team.rank}</span>` : ''}${esc(name)}${team.record ? `<span class="rec">${esc(team.record)}</span>` : ''}</div><div class="score">${scoreText}</div></div>`;
+        }
+
+        function card(g) {
+            let clock;
+            if (g.state === 'upcoming') clock = Number.isNaN(g.kick) ? 'TBD' : localTime.format(new Date(g.kick));
+            else if (g.state === 'final') clock = g.status ? `Final <span class="ot">${esc(g.status)}</span>` : 'Final';
+            else clock = esc(g.status);
+            const leagueLabel = g.league === 'nfl' ? 'NFL' : 'NCAA';
+            return `<a class="game ${g.state}" href="${esc(g.link)}" target="_blank" rel="noopener">` +
+                `<div class="status"><span class="league">${leagueLabel}</span><span class="clock">${clock}</span>${g.network ? `<span class="net">${esc(g.network)}</span>` : ''}</div>` +
+                teamRow(g.away, g.home, g) + teamRow(g.home, g.away, g) +
+                `</a>`;
+        }
+
+        // ── Sorting ───────────────────────────────────────────────────────
+
+        // Kickoff first, alphabetical (away team, then home) among games that
+        // share one. Finished games carry no kickoff on the source page, so
+        // they keep the source's own kickoff order, league by league.
+        function byKickoff(a, b) {
+            const ak = Number.isNaN(a.kick) ? null : a.kick;
+            const bk = Number.isNaN(b.kick) ? null : b.kick;
+            if (ak !== null && bk !== null) {
+                if (ak !== bk) return ak - bk;
+                return alpha(a, b);
+            }
+            if (ak !== null) return -1;
+            if (bk !== null) return 1;
+            if (a.league !== b.league) return a.league === 'nfl' ? -1 : 1;
+            return a.index - b.index;
+        }
+
+        function alpha(a, b) {
+            const an = displayName(a.away, a.league), bn = displayName(b.away, b.league);
+            const c = an.localeCompare(bn, 'en', { sensitivity: 'base' });
+            if (c !== 0) return c;
+            return displayName(a.home, a.league).localeCompare(displayName(b.home, b.league), 'en', { sensitivity: 'base' });
+        }
+
+        // ── Rendering ─────────────────────────────────────────────────────
+
+        function fill(id, games, emptyText) {
+            const section = document.getElementById(id);
+            const grid = section.querySelector('.grid');
+            const empty = section.querySelector('.empty');
+            const count = section.querySelector('.count');
+            games.sort(byKickoff);
+            grid.innerHTML = games.map(card).join('');
+            count.textContent = games.length ? String(games.length) : '';
+            empty.textContent = emptyText;
+            empty.hidden = games.length > 0;
+            section.classList.toggle('is-live', id === 'live' && games.length > 0);
+        }
+
+        function render(games) {
+            const live = games.filter(g => g.state === 'live');
+            const done = games.filter(g => g.state === 'final');
+            const later = games.filter(g => g.state === 'upcoming' || g.state === 'other');
+            fill('live', live, 'No games in progress right now.');
+            fill('final', done, 'No finals yet today.');
+            fill('upcoming', later, 'Nothing else on the schedule today.');
+            document.getElementById('live-dot').classList.toggle('on', live.length > 0);
+        }
+
+        function setUpdated(text) {
+            document.getElementById('updated').textContent = text;
+        }
+
+        function notice(html) {
+            const el = document.getElementById('notice');
+            el.innerHTML = html;
+            el.hidden = !html;
+        }
+
+        // ── Main ──────────────────────────────────────────────────────────
+
+        async function loadScores() {
+            const today = sportsDay();
+            const results = await Promise.allSettled([
+                fetchSource('/nfl/'),
+                fetchSource('/ncaaf/'),
+            ]);
+
+            const failures = [];
+            let games = [];
+            let loaded = NaN;
+
+            if (results[0].status === 'fulfilled') {
+                const page = parsePage(results[0].value, 'nfl');
+                games = games.concat(page.games.filter(g => sameDay(g.day, today)));
+                if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
+            } else {
+                failures.push('NFL');
+            }
+
+            if (results[1].status === 'fulfilled') {
+                const page = parsePage(results[1].value, 'ncaaf');
+                let college = page.games;
+                // Before 5 AM Eastern the college page has already rolled to
+                // the next day; pull the finished day's archive in behind it.
+                if (page.pageDay && !sameDay(page.pageDay, today)) {
+                    try {
+                        const archive = parsePage(await fetchSource(`/ncaaf/${today.year}-${pad2(today.month)}-${pad2(today.day)}/`), 'ncaaf');
+                        const seen = new Set(college.map(g => g.link));
+                        college = college.filter(g => g.state === 'live')
+                            .concat(archive.games.filter(g => !seen.has(g.link)));
+                    } catch (err) {
+                        college = college.filter(g => g.state === 'live');
+                    }
+                }
+                games = games.concat(college);
+                if (!Number.isNaN(page.loaded)) loaded = Math.max(loaded || 0, page.loaded);
+            } else {
+                failures.push('college');
+            }
+
+            if (failures.length === 2) throw new Error('unreachable');
+
+            const stamp = Number.isNaN(loaded) || !loaded ? Date.now() : loaded;
+            return { games, stamp, failures };
+        }
+
+        function readCache() {
+            try {
+                const raw = localStorage.getItem(CACHE_KEY);
+                return raw ? JSON.parse(raw) : null;
+            } catch (err) {
+                return null;
+            }
+        }
+
+        function writeCache(data) {
+            try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (err) { /* private mode etc. */ }
+        }
+
+        async function main() {
+            document.getElementById('refresh').addEventListener('click', () => location.reload());
+
+            const [codes, outcome] = await Promise.all([
+                fetchCodes(),
+                loadScores().then(v => ({ ok: true, v }), e => ({ ok: false, e })),
+            ]);
+            ncaa = codes;
+
+            if (outcome.ok) {
+                const { games, stamp, failures } = outcome.v;
+                render(games);
+                setUpdated(`Scores as of ${localClock.format(new Date(stamp))}`);
+                notice(failures.length
+                    ? `Couldn't reach the ${failures[0]} scoreboard on plaintextsports.com this time. Try a refresh.`
+                    : '');
+                writeCache({ stamp, games, day: sportsDay() });
+                return;
+            }
+
+            const cached = readCache();
+            if (cached && sameDay(cached.day, sportsDay())) {
+                render(cached.games);
+                setUpdated(`Scores as of ${localClock.format(new Date(cached.stamp))}`);
+                notice(`Couldn't reach <a href="${SOURCE}">plaintextsports.com</a> just now. These are the last scores this browser saw. Try a refresh.`);
+            } else {
+                render([]);
+                setUpdated('Scores unavailable');
+                notice(`Couldn't reach <a href="${SOURCE}">plaintextsports.com</a> just now. Try a refresh, or read the scores there directly.`);
+            }
+        }
+
+        main();
+    })();
+    </script>
+</body>
+</html>
