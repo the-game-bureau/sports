@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html translate="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Today’s NCAAF Scoreboard</title>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@PlainTextSports" />
+    <meta name="twitter:creator" content="@CodeIsTheEnd" />
+    <meta property="og:title" content="Today’s NCAAF Scoreboard" />
+    <meta property="og:description" content="Instant live sports scores, play-by-play, and box scores" />
+    <meta property="og:image" content="https://plaintextsports.com/icon-512.png" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <style>
+      body {
+        margin: 8px auto;
+        white-space: pre-wrap;
+        font-family: Courier, monospace;
+        max-width: 352px;
+        font-size: 13px;
+        --bg: white;
+        --fg: black;
+        --red: red;
+        --blue: blue;
+        --green: green;
+        --gray: gray;
+        --dark-gold: #bfa100;
+        --brown: #4a2d30;
+        --odd-row: #f0f0f0;
+        
+        background-color: var(--bg);
+        color: var(--fg);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          --bg: #101010;
+          --fg: white;
+          --red: #ff5050;
+          --blue: #9090ff;
+          --green: #50da50;
+          --gray: gray;
+          --brown: #745c5f;
+          --odd-row: #202020;
+          
+        }
+      }
+
+      body.light {
+        --bg: white;
+        --fg: black;
+        --red: red;
+        --blue: blue;
+        --green: green;
+        --gray: gray;
+        --brown: #4a2d30;
+        --odd-row: #f0f0f0;
+        
+      }
+
+      body.dark {
+        --bg: #101010;
+        --fg: white;
+        --red: #ff5050;
+        --blue: #9090ff;
+        --green: #50da50;
+        --gray: gray;
+        --brown: #745c5f;
+        --odd-row: #202020;
+        
+      }
+
+      /* Subset of Tailwind styles */
+.container { width: 100%; }
+
+.flex { display: flex; }
+.grid { display: grid; }
+.hidden { display: none; }
+.invisible { visibility: hidden; }
+.inline-block { display: inline-block; }
+
+.sticky { position: sticky; }
+.-top-0 { top: 0px; }
+
+.flex-1 { flex: 1 1 0px; }
+.flex-initial { flex: 0 1 initial; }
+.flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-none { flex: none; }
+.justify-between { justify-content: space-between; }
+.justify-evenly { justify-content: space-evenly; }
+.justify-center { justify-content: center; }
+.justify-items-center { justify-items: center; }
+.items-center { align-items: center; }
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.self-start { align-self: start; }
+.self-center { align-self: center; }
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.whitespace-pre-wrap { white-space: pre-wrap; }
+.italic { font-style: italic; }
+.font-bold { font-weight: bold; }
+.no-underline { text-decoration: none; }
+
+.text-fg { color: var(--fg); }
+.text-red { color: var(--red); }
+.text-blue { color: var(--blue); }
+.text-green { color: var(--green); }
+.text-gray { color: var(--gray); }
+.text-dark-gold { color: var(--dark-gold); }
+.text-brown { color: var(--brown); }
+
+.text-away { color: var(--away-color); }
+.text-home { color: var(--home-color); }
+
+.bg-bg { background-color: var(--bg); }
+.bg-odd { background-color: var(--odd-row); }
+
+.cursor-pointer { cursor: pointer; }
+
+/* Teeny-tiny component-like styles */
+.nav {
+  color: var(--blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+      label.toggle-on, label.toggle-off { cursor: pointer; }
+      input[type="checkbox"] { display: none; }
+      input[type="checkbox"]:checked ~ .toggle-on { display: none; }
+      input[type="checkbox"]:not(:checked) ~ .toggle-off { display: none; }
+      .toggle-on, .toggle-off {
+        color: var(--blue);
+      }
+
+      .champion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      
+    </style>
+  </head>
+  <body><div class="flex justify-between hidden" id="page-loaded-wrapper"><span>Page loaded: <time datetime="2026-09-05T22:20:10Z" data-format="data-load" id=page-loaded> 6:20:10 PM ET</time></span><span class="text-gray" id="page-loaded-relative"></span></div><div class="flex justify-between"><span title="2026-09-05T22:20:10Z">Data loaded: <time datetime="2026-09-05T22:20:10Z" data-format="data-load" id=data-loaded> 6:20:10 PM ET</time></span><span class="text-gray" id="data-loaded-relative"></span></div><div>
+</div><div class="flex justify-between"><a class="nav self-start" href="/">&lt; All Sports Scores</a><div class="if-js hidden"><input id="dark-mode" class="dark-mode" type="checkbox" /><label class="toggle-on" for="dark-mode"> Dark Mode</label><label class="toggle-off" for="dark-mode">Light Mode</label></div></div><div>
+</div><div><div><div class="text-center font-bold">NCAA Football</div><div>
+</div><div class="flex justify-between items-end"><a class="nav flex-1" href="/ncaaf/2026-09-04/">&lt; Sep. 4</a><span class="font-bold flex-initial">Saturday, September 5</span><a class="nav flex-1 text-right" href="/ncaaf/2026-09-06/">Sep. 6 &gt;</a></div><div>
+</div><div class="text-center font-bold">Conferences</div><div class="flex flex-wrap justify-center"><span class="text-center conf-short">
+  <a class="nav" href="#acc">ACC</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#big-12">Big 12</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#big-ten">Big Ten</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#sec">SEC</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#fbs-independent">Independents</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#american">American</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#cusa">C-USA</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#mac">MAC</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#mountain-west">Mtn West</a>  </span><span class="text-center conf-short">
+  <a class="nav" href="#sun-belt">Sun Belt</a>  </span></div><div>
+</div><div class="text-center"><i>Game links open ncaa.com in a new tab</i></div><div class="text-center font-bold" id="top-25">
+Top 25</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640530" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   BALLST<span class="interior-spacer" data-alloc="14"></span>    3</span> |
+| <span class="font-bold"> 1 OHIOST<span class="interior-spacer" data-alloc="14"></span>   56</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604288" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 15:00</span> |
+|    BOISE <span class="interior-spacer" data-alloc="14"></span>   24 |
+|  2 OREGN <span class="interior-spacer" data-alloc="14"></span>   24 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640492" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   TENNST<span class="interior-spacer" data-alloc="14"></span>    3</span> |
+| <span class="font-bold"> 3 UGA   <span class="interior-spacer" data-alloc="14"></span>   63</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604218" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 06:00</span> |
+|    TX ST <span class="interior-spacer" data-alloc="14"></span>    7 |
+|  5 TEXAS <span class="interior-spacer" data-alloc="14"></span>   49 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603946" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   NO TEX<span class="interior-spacer" data-alloc="14"></span>   16</span> |
+| <span class="font-bold"> 6 IND   <span class="interior-spacer" data-alloc="14"></span>   52</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604183" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+|    MO ST <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+|  8 TX A&M<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603812" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    CLEM  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 11 LSU   <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603982" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+|    ABILCH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 12 TXTECH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604294" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   E CAR <span class="interior-spacer" data-alloc="14"></span>   10</span> |
+| <span class="font-bold">13 ALA   <span class="interior-spacer" data-alloc="14"></span>   48</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603811" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+|    UTTECH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 14 BYU   <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603823" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    W MICH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 16 MICH  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603756" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 11:17</span> |
+|    MARSH <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 18 PENNST<span class="interior-spacer" data-alloc="14"></span>   38 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604018" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 13:03</span> |
+|    FURMAN<span class="interior-spacer" data-alloc="14"></span>    9 |
+| 20 TENN  <span class="interior-spacer" data-alloc="14"></span>   49 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603606" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 11:45</span> |
+|    NIU   <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 22 IOWA  <span class="interior-spacer" data-alloc="14"></span>   33 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604065" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   ORE ST<span class="interior-spacer" data-alloc="14"></span>   20</span> |
+| <span class="font-bold">23 HOU   <span class="interior-spacer" data-alloc="14"></span>   33</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="acc">
+Atlantic Coast Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603666" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q2 00:00</span> |
+| TULANE<span class="interior-spacer" data-alloc="14"></span>       0 |
+| DUKE  <span class="interior-spacer" data-alloc="14"></span>       7 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604252" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 06:58</span> |
+| BC    <span class="interior-spacer" data-alloc="14"></span>       0 |
+| CINCY <span class="interior-spacer" data-alloc="14"></span>      17 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640364" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">UNH   <span class="interior-spacer" data-alloc="14"></span>       3</span> |
+| <span class="font-bold">SYR   <span class="interior-spacer" data-alloc="14"></span>      66</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640531" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">MIA OH<span class="interior-spacer" data-alloc="14"></span>      14</span> |
+| <span class="font-bold">PITT  <span class="interior-spacer" data-alloc="14"></span>      59</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603799" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+| VMI   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| VT    <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603812" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    CLEM  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 11 LSU   <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604117" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:30:00Z" data-format="game-start-time" data-padded>   10:30 PM ET</time></span> |
+| UCLA  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| CAL   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="big-12">
+Big 12 Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603944" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 00:08</span> |
+| BAYLOR<span class="interior-spacer" data-alloc="14"></span>       7 |
+| AUBURN<span class="interior-spacer" data-alloc="14"></span>      10 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604252" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 06:58</span> |
+| BC    <span class="interior-spacer" data-alloc="14"></span>       0 |
+| CINCY <span class="interior-spacer" data-alloc="14"></span>      17 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603612" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 15:00</span> |
+| OKLAST<span class="interior-spacer" data-alloc="14"></span>      10 |
+| TULSA <span class="interior-spacer" data-alloc="14"></span>      17 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604065" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   ORE ST<span class="interior-spacer" data-alloc="14"></span>   20</span> |
+| <span class="font-bold">23 HOU   <span class="interior-spacer" data-alloc="14"></span>   33</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604281" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">CO CAR<span class="interior-spacer" data-alloc="14"></span>      24</span> |
+| <span class="font-bold">WVU   <span class="interior-spacer" data-alloc="14"></span>      31</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603656" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">SEMO  <span class="interior-spacer" data-alloc="14"></span>      10</span> |
+| <span class="font-bold">IOWAST<span class="interior-spacer" data-alloc="14"></span>      38</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603982" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+|    ABILCH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 12 TXTECH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604228" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| NICHST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| KAN ST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603811" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+|    UTTECH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 14 BYU   <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604331" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T01:00:00Z" data-format="game-start-time" data-padded>    9:00 PM ET</time></span> |
+| MORGAN<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| AZ ST <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640454" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T01:30:00Z" data-format="game-start-time" data-padded>    9:30 PM ET</time></span> |
+| NAU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| ARIZ  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="big-ten">
+Big Ten Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603756" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 11:17</span> |
+|    MARSH <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 18 PENNST<span class="interior-spacer" data-alloc="14"></span>   38 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604288" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 15:00</span> |
+|    BOISE <span class="interior-spacer" data-alloc="14"></span>   24 |
+|  2 OREGN <span class="interior-spacer" data-alloc="14"></span>   24 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603606" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 11:45</span> |
+|    NIU   <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 22 IOWA  <span class="interior-spacer" data-alloc="14"></span>   33 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603946" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   NO TEX<span class="interior-spacer" data-alloc="14"></span>   16</span> |
+| <span class="font-bold"> 6 IND   <span class="interior-spacer" data-alloc="14"></span>   52</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604332" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">OHIO  <span class="interior-spacer" data-alloc="14"></span>      21</span> |
+| <span class="font-bold">NEB   <span class="interior-spacer" data-alloc="14"></span>      49</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640530" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   BALLST<span class="interior-spacer" data-alloc="14"></span>    3</span> |
+| <span class="font-bold"> 1 OHIOST<span class="interior-spacer" data-alloc="14"></span>   56</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603823" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    W MICH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 16 MICH  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603796" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+| SDAKST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| NW    <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603983" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+| HAMPTN<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MD    <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604117" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:30:00Z" data-format="game-start-time" data-padded>   10:30 PM ET</time></span> |
+| UCLA  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| CAL   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div></div><div class="text-center font-bold" id="sec">
+Southeastern Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603944" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 00:08</span> |
+| BAYLOR<span class="interior-spacer" data-alloc="14"></span>       7 |
+| AUBURN<span class="interior-spacer" data-alloc="14"></span>      10 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604018" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 13:03</span> |
+|    FURMAN<span class="interior-spacer" data-alloc="14"></span>    9 |
+| 20 TENN  <span class="interior-spacer" data-alloc="14"></span>   49 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604218" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 06:00</span> |
+|    TX ST <span class="interior-spacer" data-alloc="14"></span>    7 |
+|  5 TEXAS <span class="interior-spacer" data-alloc="14"></span>   49 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603767" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 05:04</span> |
+| N ALA <span class="interior-spacer" data-alloc="14"></span>       0 |
+| ARK   <span class="interior-spacer" data-alloc="14"></span>      14 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604294" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   E CAR <span class="interior-spacer" data-alloc="14"></span>   10</span> |
+| <span class="font-bold">13 ALA   <span class="interior-spacer" data-alloc="14"></span>   48</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603924" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">KENT  <span class="interior-spacer" data-alloc="14"></span>       0</span> |
+| <span class="font-bold">S CAR <span class="interior-spacer" data-alloc="14"></span>      57</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603655" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">YSU   <span class="interior-spacer" data-alloc="14"></span>      13</span> |
+| <span class="font-bold">UK    <span class="interior-spacer" data-alloc="14"></span>      45</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640492" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   TENNST<span class="interior-spacer" data-alloc="14"></span>    3</span> |
+| <span class="font-bold"> 3 UGA   <span class="interior-spacer" data-alloc="14"></span>   63</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604183" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+|    MO ST <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+|  8 TX A&M<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640273" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| A PEAY<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| VANDY <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603699" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+| LA MON<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MISSST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603812" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    CLEM  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 11 LSU   <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603643" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:45:00Z" data-format="game-start-time" data-padded>    7:45 PM ET</time></span> |
+| FAU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| FLA   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="fbs-independent">
+Independents</div><div class="flex flex-wrap justify-evenly"><div>                
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640532" target="_blank" rel="noopener">+--------------+
+| <span class="font-bold">       Final</span> |
+| <span class="text-gray">LAFAYE     7</span> |
+| <span class="font-bold">UCONN     56</span> |
++--------------+</a></div><div>                </div></div><div class="text-center font-bold" id="american">
+American Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603666" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q2 00:00</span> |
+| TULANE<span class="interior-spacer" data-alloc="14"></span>       0 |
+| DUKE  <span class="interior-spacer" data-alloc="14"></span>       7 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603695" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 06:55</span> |
+| TOWSON<span class="interior-spacer" data-alloc="14"></span>      15 |
+| NAVY  <span class="interior-spacer" data-alloc="14"></span>      42 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604181" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q2 19:59</span> |
+| CITDEL<span class="interior-spacer" data-alloc="14"></span>       7 |
+| CHAR  <span class="interior-spacer" data-alloc="14"></span>      14 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604272" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 15:00</span> |
+| UTRGV <span class="interior-spacer" data-alloc="14"></span>       6 |
+| UTSA  <span class="interior-spacer" data-alloc="14"></span>      31 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603612" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 15:00</span> |
+| OKLAST<span class="interior-spacer" data-alloc="14"></span>      10 |
+| TULSA <span class="interior-spacer" data-alloc="14"></span>      17 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603857" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">BRYANT<span class="interior-spacer" data-alloc="14"></span>       3</span> |
+| <span class="font-bold">ARMY  <span class="interior-spacer" data-alloc="14"></span>      59</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603946" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   NO TEX<span class="interior-spacer" data-alloc="14"></span>   16</span> |
+| <span class="font-bold"> 6 IND   <span class="interior-spacer" data-alloc="14"></span>   52</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604294" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   E CAR <span class="interior-spacer" data-alloc="14"></span>   10</span> |
+| <span class="font-bold">13 ALA   <span class="interior-spacer" data-alloc="14"></span>   48</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604000" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">URI   <span class="interior-spacer" data-alloc="14"></span>      14</span> |
+| <span class="font-bold">TEMPLE<span class="interior-spacer" data-alloc="14"></span>      38</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603714" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| ARK ST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MEM   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603744" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| HOUCHR<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| RICE  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603844" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| FIU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| USF   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603643" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:45:00Z" data-format="game-start-time" data-padded>    7:45 PM ET</time></span> |
+| FAU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| FLA   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="cusa">
+Conference USA</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603933" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">LIBRTY<span class="interior-spacer" data-alloc="14"></span>      13</span> |
+| <span class="font-bold">JMU   <span class="interior-spacer" data-alloc="14"></span>      20</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603854" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T22:00:00Z" data-format="game-start-time" data-padded>    6:00 PM ET</time></span> |
+| E KY  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| JAX ST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603844" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| FIU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| USF   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603878" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| SAMHOU<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| TROY  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604183" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+|    MO ST <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+|  8 TX A&M<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640287" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| MURRAY<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MIDTEN<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640263" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T01:00:00Z" data-format="game-start-time" data-padded>    9:00 PM ET</time></span> |
+| MERCYH<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| NM ST <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604164" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:30:00Z" data-format="game-start-time" data-padded>   10:30 PM ET</time></span> |
+| W KY  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| NEVADA<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div></div><div class="text-center font-bold" id="mac">
+Mid-American Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604282" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="font-bold">TARLET<span class="interior-spacer" data-alloc="14"></span>      20</span> |
+| <span class="text-gray">BGSU  <span class="interior-spacer" data-alloc="14"></span>      13</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604332" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">OHIO  <span class="interior-spacer" data-alloc="14"></span>      21</span> |
+| <span class="font-bold">NEB   <span class="interior-spacer" data-alloc="14"></span>      49</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640530" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">   BALLST<span class="interior-spacer" data-alloc="14"></span>    3</span> |
+| <span class="font-bold"> 1 OHIOST<span class="interior-spacer" data-alloc="14"></span>   56</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6640531" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">MIA OH<span class="interior-spacer" data-alloc="14"></span>      14</span> |
+| <span class="font-bold">PITT  <span class="interior-spacer" data-alloc="14"></span>      59</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603924" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">KENT  <span class="interior-spacer" data-alloc="14"></span>       0</span> |
+| <span class="font-bold">S CAR <span class="interior-spacer" data-alloc="14"></span>      57</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603823" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+|    W MICH<span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
+| 16 MICH  <span class="interior-spacer" data-alloc="14"></span>     <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603680" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+| MS VAL<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| SAC ST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603890" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:00:00Z" data-format="game-start-time" data-padded>   10:00 PM ET</time></span> |
+| C MICH<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| N MEX <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div></div><div class="text-center font-bold" id="mountain-west">
+Mountain West Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603888" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 01:20</span> |
+| FORDHM<span class="interior-spacer" data-alloc="14"></span>       0 |
+| ND ST <span class="interior-spacer" data-alloc="14"></span>      38 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603606" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q3 11:45</span> |
+|    NIU   <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 22 IOWA  <span class="interior-spacer" data-alloc="14"></span>   33 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604196" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q1 10:46</span> |
+| WYO   <span class="interior-spacer" data-alloc="14"></span>       0 |
+| CO ST <span class="interior-spacer" data-alloc="14"></span>       7 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604046" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">DUQSNE<span class="interior-spacer" data-alloc="14"></span>       0</span> |
+| <span class="font-bold">AIRFOR<span class="interior-spacer" data-alloc="14"></span>      34</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603890" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:00:00Z" data-format="game-start-time" data-padded>   10:00 PM ET</time></span> |
+| C MICH<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| N MEX <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604206" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:00:00Z" data-format="game-start-time" data-padded>   10:00 PM ET</time></span> |
+| UNLV  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| HAWAII<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604164" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T02:30:00Z" data-format="game-start-time" data-padded>   10:30 PM ET</time></span> |
+| W KY  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| NEVADA<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div><div class="text-center font-bold" id="sun-belt">
+Sun Belt Conference</div><div class="flex flex-wrap justify-evenly"><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603756" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 11:17</span> |
+|    MARSH <span class="interior-spacer" data-alloc="14"></span>    0 |
+| 18 PENNST<span class="interior-spacer" data-alloc="14"></span>   38 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604160" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q4 10:33</span> |
+| MAINE <span class="interior-spacer" data-alloc="14"></span>       3 |
+| APP ST<span class="interior-spacer" data-alloc="14"></span>      52 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603913" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold text-red"><span class="interior-spacer" data-alloc="14"></span>      Q2 01:54</span> |
+| ALCORN<span class="interior-spacer" data-alloc="14"></span>       3 |
+| S MISS<span class="interior-spacer" data-alloc="14"></span>      14 |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603933" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">LIBRTY<span class="interior-spacer" data-alloc="14"></span>      13</span> |
+| <span class="font-bold">JMU   <span class="interior-spacer" data-alloc="14"></span>      20</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604281" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><span class="interior-spacer" data-alloc="14"></span>         Final</span> |
+| <span class="text-gray">CO CAR<span class="interior-spacer" data-alloc="14"></span>      24</span> |
+| <span class="font-bold">WVU   <span class="interior-spacer" data-alloc="14"></span>      31</span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603711" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| NORFLK<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| ODU   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603714" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| ARK ST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MEM   <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603778" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| CHARSO<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| GA SOU<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603878" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| SAMHOU<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| TROY  <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604173" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:00:00Z" data-format="game-start-time" data-padded>    7:00 PM ET</time></span> |
+| SE LA <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| S ALA <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603699" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+| LA MON<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| MISSST<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6604309" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-05T23:30:00Z" data-format="game-start-time" data-padded>    7:30 PM ET</time></span> |
+| NW ST <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| LATECH<span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  
+<a class="text-fg no-underline" href="https://www.ncaa.com/game/6603746" target="_blank" rel="noopener">+-<span class="border-spacer" data-alloc="14"></span>---------------+
+| <span class="font-bold"><time datetime="2026-09-06T00:00:00Z" data-format="game-start-time" data-padded>    8:00 PM ET</time></span> |
+| LAMAR <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
+| LA    <span class="interior-spacer" data-alloc="14"></span>        <span class="text-gray"></span> |
++-<span class="border-spacer" data-alloc="14"></span>---------------+</a></div><div><span class="interior-spacer" data-alloc="14"></span>                  </div></div></div></div><div>
+</div><div class="text-center"><div>
+</div><div>
+</div><div class="text-center"><a class="nav" href="/">plaintextsports.com</a> | <a class="nav" href="/app">Mobile App</a></div><div>
+</div><div class="text-center"><a class="nav" href="https://twitter.com/PlainTextSports">Twitter</a> | <a class="nav" href="https://instagram.com/plaintextsports">Instagram</a> | <a class="nav" href="https://twitch.tv/CodeIsTheEnd">Twitch</a></div><div id="full-width-line" class="invisible">.                                           .</div><span id="one-line">Built by <a class="nav" href="https://twitter.com/CodeIsTheEnd">CodeIsTheEnd</a></span></div></body>
+  <script type="text/javascript">
+    for (e of document.getElementsByClassName("if-js")) { e.classList.remove("hidden") }
+for (e of document.getElementsByClassName("no-js")) { e.classList.add("hidden") }
+// Dark mode toggle
+let darkModeToggle = document.getElementById("dark-mode")
+let initialScheme = "light"
+if (localStorage.visualMode) {
+  initialScheme = localStorage.visualMode
+  document.body.classList.add(localStorage.visualMode)
+} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  initialScheme = "dark"
+}
+if (initialScheme == "dark") {
+  darkModeToggle.checked = true
+}
+darkModeToggle.oninput = () => {
+  if (darkModeToggle.checked) {
+    document.body.classList.remove("light")
+    document.body.classList.add("dark")
+    localStorage.visualMode = "dark"
+  } else {
+    document.body.classList.remove("dark")
+    document.body.classList.add("light")
+    localStorage.visualMode = "light"
+  }
+}
+
+// Page and data load timers.
+let pageLoadedElem = document.getElementById("page-loaded-wrapper")
+if (pageLoadedElem) {
+  pageLoadedElem.classList.remove("hidden")
+  pageLoadedElem.getElementsByTagName("time")[0].dateTime = new Date().toISOString()
+}
+let timeElems = document.getElementsByTagName("time")
+let relativeTimeFormatter = new Intl.RelativeTimeFormat("en-US")
+function updateRelativeTimes(timesAndElems) {
+  let minSleep = 60000
+  let now = new Date().getTime()
+  timesAndElems.forEach(([time, elem]) => {
+    let difference = Math.round((time - now) / 1000)
+    let unit = "second"
+    let sleep = 5000
+    if (Math.abs(difference) > 59) {
+      difference = Math.round(difference / 60)
+      unit = "minute"
+      sleep = 15000
+      if (Math.abs(difference) > 59) {
+        difference = Math.round(difference / 60)
+        unit = "hour"
+        sleep = 60000
+      }
+    }
+    minSleep = Math.min(sleep, minSleep)
+    if (unit == "second") {
+      // Round up to a multiple of 5
+      if (difference % 5 != 0) {
+        if (difference < 0) {
+          difference -= 5 - Math.abs(difference) % 5
+        } else {
+          difference += 5 - Math.abs(difference) % 5
+        }
+      }
+      if (difference == 0) {
+        elem.textContent = ""
+      } else {
+        elem.textContent = "(~" + relativeTimeFormatter.format(difference, unit) + ")"
+      }
+    } else {
+      if (unit == "hour" && Math.abs(difference) > 3) {
+        elem.TextContent = ""
+      } else {
+        elem.textContent = "(" + relativeTimeFormatter.format(difference, unit) + ")"
+      }
+    }
+  })
+  setTimeout(() => updateRelativeTimes(timesAndElems), minSleep)
+}
+
+let relativeTimesAndElems = []
+for (timeElem of timeElems) {
+  if (!timeElem.id) continue
+  let relativeSpan = document.getElementById(timeElem.id + "-relative")
+  let time = new Date(timeElem.dateTime).getTime()
+  relativeTimesAndElems.push([time, relativeSpan])
+}
+if (relativeTimesAndElems.length > 0) {
+  updateRelativeTimes(relativeTimesAndElems)
+}
+let dataLoadedElem = document.getElementById("data-loaded")
+if (dataLoadedElem) {
+  let dataLoaded = new Date(dataLoadedElem.dateTime).getTime()
+  let now = new Date().getTime()
+  let ageInMs = now - dataLoaded
+  if (ageInMs > 120 * 60 * 1000) {
+    let tellMe = document.createElement("div")
+    tellMe.innerHTML = '<span class="font-bold text-red">\nIf you see this, that probably means that something is broken. Please reach out on Twitter <a class="nav" href="https://twitter.com/PlainTextSports">here</a> or <a class="nav" href="https://twitter.com/CodeIsTheEnd">here</a>!</span>'
+    tellMe.classList.add("text-red")
+    dataLoadedElem.parentElement.parentElement.insertAdjacentElement("afterend", tellMe)
+  }
+}
+
+// Update all formatted times to local time zone.
+const HH_MM_SS_PM = { hour: "numeric", minute: "numeric", second: "numeric" }
+const HH_MM_PM_TZ = { hour: "numeric", minute: "numeric", timeZoneName: "short" }
+const HH_MM_PM = { hour: "2-digit", minute: "2-digit" }
+const HH_MM_PM_NO_PADDING = { hour: "numeric", minute: "2-digit" }
+const HH_MM = { hour: "2-digit", minute: "2-digit" }
+const MONTH_DAY = { month: "long", day: "numeric" }
+const FORMAT_NAMES_TO_FORMATTER = {
+  "data-load": new Intl.DateTimeFormat("en-US", HH_MM_SS_PM),
+  "publish-date": new Intl.DateTimeFormat("en-US", MONTH_DAY),
+  "publish-time": new Intl.DateTimeFormat("en-US", HH_MM_PM_TZ),
+  "game-start-time": new Intl.DateTimeFormat("en-US", HH_MM_PM_TZ),
+  "short-game-start-time": new Intl.DateTimeFormat("en-US", HH_MM),
+  "medium-game-start-time": new Intl.DateTimeFormat("en-US", HH_MM_PM),
+  "medium-game-start-time-no-padding": new Intl.DateTimeFormat("en-US", HH_MM_PM_NO_PADDING),
+}
+let timeZoneWidth = new Intl.DateTimeFormat("en-US", { timeZoneName: "short" })
+  .formatToParts(new Date())
+  .find(part => part.type == "timeZoneName")
+  .value
+  .length
+const MAX_TIME_WIDTH = 9
+const ASSUMED_TIME_ZONE_WIDTH = 3
+const MIN_SPACE_NEEDED = MAX_TIME_WIDTH + ASSUMED_TIME_ZONE_WIDTH
+let spaceNeeded = MAX_TIME_WIDTH + Math.max(timeZoneWidth, ASSUMED_TIME_ZONE_WIDTH)
+for (timeElem of timeElems) {
+  if (timeElem.dataset.format === "date-offset") continue;
+  let formatter = FORMAT_NAMES_TO_FORMATTER[timeElem.dataset.format]
+  let currentValue = timeElem.textContent
+  let newValue = currentValue.includes("TBD") ?
+    currentValue :
+    formatter.format(new Date(timeElem.dateTime))
+  if (timeElem.dataset.format == "short-game-start-time") {
+    newValue = newValue.substring(0, 5)
+    if (newValue[0] == "0") newValue = " " + newValue.substring(1)
+  } else if (timeElem.dataset.format == "medium-game-start-time") {
+    newValue = newValue.substring(0, 8)
+    if (newValue[0] == "0") newValue = " " + newValue.substring(1)
+  } else if (timeElem.hasAttribute("data-padded")) {
+    newValue = newValue.padStart(Math.max(timeElem.textContent.length, spaceNeeded), " ")
+  }
+  timeElem.textContent = newValue
+}
+const createFill = (ch, length) => Array(length).fill(ch).join("")
+if (spaceNeeded > MIN_SPACE_NEEDED) {
+  for ([className, fillCh] of [["border-spacer", "-"], ["interior-spacer", " "]]) {
+    let fills = {}
+    for (elem of document.getElementsByClassName(className)) {
+      let allocated = elem.hasAttribute("data-alloc") ?
+        Number(elem.getAttribute("data-alloc")) :
+        MIN_SPACE_NEEDED
+      if (spaceNeeded > allocated) {
+        fills[allocated] = fills[allocated] || createFill(fillCh, spaceNeeded - allocated)
+        elem.textContent = fills[allocated]
+      }
+    }
+  }
+}
+
+// Fix styles for Android
+if (navigator.userAgent.toLowerCase().indexOf("android") != -1) {
+  let fixes = document.createElement("style")
+  fixes.textContent = `
+    * { max-height: 99999px; }
+    body { font-family: monospace !important; }
+    .game-flow-graph { line-height: 0.8; }
+  `
+  document.head.append(fixes)
+}
+
+let oneLineHeight = document.getElementById("one-line").offsetHeight
+let fullWidthLine = document.getElementById("full-width-line")
+let bodyFontSizeX10 = 130
+while (fullWidthLine.offsetHeight > oneLineHeight) {
+  bodyFontSizeX10 -= 1
+  document.body.style.fontSize = `${bodyFontSizeX10/10}px`
+  // Don't let font size get too small.
+  if (bodyFontSizeX10 == 120) break
+}
+
+    
+  </script>
+</html>
