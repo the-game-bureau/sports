@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-04",
+    "updated": "2026-09-05",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "75b3972937d4",
+      "teamId": "lsu",
+      "headline": "SEC sues LSU and coach Lane Kiffin",
+      "summary": "The Southeastern Conference sued LSU and Lane Kiffin in federal court on Thursday. It says they ran a campaign to bring former pro players onto the roster, which conference rules do not allow.",
+      "date": "2026-09-03",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/sec-lawsuit-lsu-lane-kiffin-nfl-players/"
+    },
     {
       "id": "8294a3248886",
       "teamId": "lsu",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "teams": {
     "tulane": {
       "record": "0-0",
@@ -201,23 +201,32 @@
       ]
     },
     "iup": {
-      "record": "3-3",
+      "record": "4-3",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Ashland Eagles",
-        "date": "2026-09-04",
-        "time": "2:00 PM",
+        "opponent": "Lake Erie College",
+        "date": "2026-09-05",
+        "time": "12:00 PM",
         "venue": "Kovalchick Complex (Crimson Hawk Classic)",
         "city": "Indiana, PA"
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "West Liberty Hilltoppers",
+        "opponentScore": 1,
+        "opponent": "Ashland Eagles",
         "date": "2026-09-04"
       },
       "news": [
+        {
+          "id": "3681d23594fd",
+          "teamId": "iup",
+          "headline": "IUP beats Ashland in four sets at home",
+          "summary": "The Crimson Hawks lost the first set 26-24 on Friday and then won the next three. Delaney Concannon had a season-best 20 kills, Jessica Neiman had 18, and IUP is now 4-3.",
+          "date": "2026-09-04",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/ashland-university/boxscore/15071"
+        },
         {
           "id": "c22addbee0a1",
           "teamId": "iup",
@@ -235,43 +244,43 @@
           "date": "2026-08-29",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
-        },
-        {
-          "id": "dca88cff0a0d",
-          "teamId": "iup",
-          "headline": "Quincy beats IUP in four sets",
-          "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
-          "date": "2026-08-29",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
         }
       ]
     },
     "yankees": {
-      "record": "80-60",
+      "record": "80-61",
       "nextGame": {
         "homeAway": "away",
         "opponent": "San Diego Padres",
-        "date": "2026-09-04",
-        "utc": "2026-09-05T01:40Z",
-        "time": "8:40 PM",
+        "date": "2026-09-05",
+        "utc": "2026-09-05T23:15Z",
+        "time": "6:15 PM",
         "venue": "Petco Park",
         "city": "San Diego, CA",
         "tv": {
-          "name": "YES Network",
-          "logo": "",
+          "name": "Fox 8 (WVUE)",
+          "logo": "images/fox8.png",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 6,
+        "result": "L",
+        "teamScore": 2,
         "opponentScore": 3,
-        "opponent": "Los Angeles Angels",
-        "date": "2026-09-02"
+        "opponent": "San Diego Padres",
+        "date": "2026-09-04"
       },
       "news": [
+        {
+          "id": "84821406ee27",
+          "teamId": "yankees",
+          "headline": "Padres beat the Yankees on a 10th inning home run",
+          "summary": "Luis Campusano hit a two-run home run in the 10th inning Friday night in San Diego and the Padres won 3-2. New York is now four games behind first-place Tampa Bay.",
+          "date": "2026-09-04",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-fall-padres-3-2-044211013.html"
+        },
         {
           "id": "f50179717fcd",
           "teamId": "yankees",
@@ -282,22 +291,13 @@
           "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
         },
         {
-          "id": "f80dc0a31b36",
+          "id": "6f55addb5959",
           "teamId": "yankees",
-          "headline": "Yankees beat Angels 7-3",
-          "summary": "New York hit two home runs in a row in the first inning Tuesday night in Anaheim. Spencer Jones and Jazz Chisholm Jr. hit them, and Gerrit Cole gave up one run in five innings.",
+          "headline": "Aaron Judge could be back next week",
+          "summary": "Manager Aaron Boone said Judge might return on September 8 but would not promise a date. Judge has been out since May 31 with a cracked rib and has started taking batting practice on the field again.",
           "date": "2026-09-01",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-hit-back-back-home-043838466.html"
-        },
-        {
-          "id": "2990e995b324",
-          "teamId": "yankees",
-          "headline": "Ryan McMahon comes off the injured list",
-          "summary": "The Yankees put their third baseman back on the roster Tuesday after he hurt his left thumb two weeks ago. Relief pitcher John Schreiber joined the active roster the same day.",
-          "date": "2026-09-01",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-activate-ryan-mcmahon-add-212206370.html"
+          "url": "https://sports.yahoo.com/articles/aaron-judge-could-york-yankees-125144534.html"
         }
       ]
     },

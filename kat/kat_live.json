@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -124,6 +124,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "507bc104e0e3",
+          "teamId": "lsu",
+          "headline": "LSU leaves two players off the Clemson roster",
+          "summary": "LSU did not put tight end Dae'Quan Wright or lineman Zxavian Harris on its roster for Saturday's game, one day after a judge said they could play. Both are still in school and the team can add them later this season.",
+          "date": "2026-09-04",
+          "source": "WAFB",
+          "url": "https://www.wafb.com/2026/09/05/lsu-does-not-add-daequan-wright-zxavian-harris-roster-clemson-game-report-says/"
+        },
+        {
           "id": "e9452137e9da",
           "teamId": "lsu",
           "headline": "Clemson says LSU may be breaking the game contract",
@@ -140,15 +149,6 @@
           "date": "2026-09-03",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/judge-grants-injunction-allowing-lsu-to-sign-former-nfl-players"
-        },
-        {
-          "id": "75b3972937d4",
-          "teamId": "lsu",
-          "headline": "SEC sues LSU and coach Lane Kiffin",
-          "summary": "The Southeastern Conference sued LSU and Lane Kiffin in federal court on Thursday. It says they ran a campaign to bring former pro players onto the roster, which conference rules do not allow.",
-          "date": "2026-09-03",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/sec-lawsuit-lsu-lane-kiffin-nfl-players/"
         }
       ]
     },

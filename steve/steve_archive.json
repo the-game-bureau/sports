@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-04",
+    "updated": "2026-09-05",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f80dc0a31b36",
+      "teamId": "yankees",
+      "headline": "Yankees beat Angels 7-3",
+      "summary": "New York hit two home runs in a row in the first inning Tuesday night in Anaheim. Spencer Jones and Jazz Chisholm Jr. hit them, and Gerrit Cole gave up one run in five innings.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-hit-back-back-home-043838466.html"
+    },
+    {
+      "id": "2990e995b324",
+      "teamId": "yankees",
+      "headline": "Ryan McMahon comes off the injured list",
+      "summary": "The Yankees put their third baseman back on the roster Tuesday after he hurt his left thumb two weeks ago. Relief pitcher John Schreiber joined the active roster the same day.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-activate-ryan-mcmahon-add-212206370.html"
+    },
+    {
+      "id": "dca88cff0a0d",
+      "teamId": "iup",
+      "headline": "Quincy beats IUP in four sets",
+      "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
+      "date": "2026-08-29",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
+    },
     {
       "id": "6f0a0aa31bd8",
       "teamId": "iup",
