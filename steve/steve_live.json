@@ -22,6 +22,15 @@
       "lastGame": null,
       "news": [
         {
+          "id": "10c7174f3177",
+          "teamId": "tulane",
+          "headline": "Storms push back Tulane's opener at Duke",
+          "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
+          "date": "2026-09-05",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
+        },
+        {
           "id": "d64e78e94363",
           "teamId": "tulane",
           "headline": "Tulane practices on grass to get ready for Duke",
@@ -38,15 +47,6 @@
           "date": "2026-08-24",
           "source": "Underdog Dynasty",
           "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
-        },
-        {
-          "id": "0ed2ee917188",
-          "teamId": "tulane",
-          "headline": "Two quarterbacks lead the way in last scrimmage",
-          "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
-          "date": "2026-08-22",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
         }
       ]
     },
@@ -201,23 +201,32 @@
       ]
     },
     "iup": {
-      "record": "4-3",
+      "record": "5-3",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Lake Erie College",
+        "opponent": "Daemen (N.Y.)",
         "date": "2026-09-05",
-        "time": "12:00 PM",
+        "time": "4:00 PM",
         "venue": "Kovalchick Complex (Crimson Hawk Classic)",
         "city": "Indiana, PA"
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 1,
-        "opponent": "Ashland Eagles",
-        "date": "2026-09-04"
+        "opponentScore": 0,
+        "opponent": "Lake Erie College",
+        "date": "2026-09-05"
       },
       "news": [
+        {
+          "id": "a833201eae9d",
+          "teamId": "iup",
+          "headline": "IUP sweeps Lake Erie for its fourth win in a row",
+          "summary": "The Crimson Hawks won 25-23, 25-16 and 25-14 on Saturday at home. Charlotte Potvin had 11 kills, Delaney Concannon had 15 digs, and IUP is now 5-3.",
+          "date": "2026-09-05",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/lake-erie-college/boxscore/15072"
+        },
         {
           "id": "3681d23594fd",
           "teamId": "iup",
@@ -235,15 +244,6 @@
           "date": "2026-09-04",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/west-liberty/boxscore/15070"
-        },
-        {
-          "id": "294bb5714c6c",
-          "teamId": "iup",
-          "headline": "IUP beats Wayne State to close the tournament",
-          "summary": "The Crimson Hawks won 24-26, 25-22, 25-22, 25-20 on Saturday in Detroit. Sammy Stephens had a career-best 14 kills and Charlotte Potvin served five aces.",
-          "date": "2026-08-29",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
         }
       ]
     },

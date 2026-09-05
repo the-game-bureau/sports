@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "294bb5714c6c",
+      "teamId": "iup",
+      "headline": "IUP beats Wayne State to close the tournament",
+      "summary": "The Crimson Hawks won 24-26, 25-22, 25-22, 25-20 on Saturday in Detroit. Sammy Stephens had a career-best 14 kills and Charlotte Potvin served five aces.",
+      "date": "2026-08-29",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
+    },
+    {
+      "id": "0ed2ee917188",
+      "teamId": "tulane",
+      "headline": "Two quarterbacks lead the way in last scrimmage",
+      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
+      "date": "2026-08-22",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
+    },
+    {
       "id": "f80dc0a31b36",
       "teamId": "yankees",
       "headline": "Yankees beat Angels 7-3",
