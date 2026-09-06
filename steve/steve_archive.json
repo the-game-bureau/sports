@@ -16,6 +16,15 @@
       "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/west-liberty/boxscore/15070"
     },
     {
+      "id": "84821406ee27",
+      "teamId": "yankees",
+      "headline": "Padres beat the Yankees on a 10th inning home run",
+      "summary": "Luis Campusano hit a two-run home run in the 10th inning Friday night in San Diego and the Padres won 3-2. New York is now four games behind first-place Tampa Bay.",
+      "date": "2026-09-04",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-fall-padres-3-2-044211013.html"
+    },
+    {
       "id": "3dad32aa89a6",
       "teamId": "texas",
       "headline": "Arch Manning signs a trading card deal with Topps",
@@ -23,6 +32,24 @@
       "date": "2026-09-03",
       "source": "On3",
       "url": "https://www.on3.com/nil/news/arch-manning-inks-exclusive-trading-card-autograph-nil-deal-topps"
+    },
+    {
+      "id": "e56f3aa2f52d",
+      "teamId": "texas",
+      "headline": "Four Texas home games move up a week",
+      "summary": "Texas said four future home games will now be played a week earlier, starting with New Mexico State on August 28, 2027. College football will begin a week sooner from next season on.",
+      "date": "2026-09-03",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/9/3/texas-football-games-date-changes"
+    },
+    {
+      "id": "f50179717fcd",
+      "teamId": "yankees",
+      "headline": "Yankees win in extra innings in Anaheim",
+      "summary": "New York scored five runs with two outs in the 10th inning Wednesday night and beat the Angels 6-3. Cam Schlittler pitched eight innings and gave up just one run.",
+      "date": "2026-09-02",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
     },
     {
       "id": "6f55addb5959",
@@ -68,6 +95,15 @@
       "date": "2026-09-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
+      "id": "2503a46ec39c",
+      "teamId": "florida",
+      "headline": "Florida is healthy going into Saturday's opener",
+      "summary": "Coach Jon Sumrall said Tuesday that the Gators are pretty healthy and almost everyone is ready to play. Walk-on running back Kelvin Jimenez is out for the year, and tight end Evan Chieca is questionable.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
     },
     {
       "id": "56c407183322",
@@ -347,6 +383,15 @@
       "date": "2026-08-28",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
+    },
+    {
+      "id": "d64e78e94363",
+      "teamId": "tulane",
+      "headline": "Tulane practices on grass to get ready for Duke",
+      "summary": "The Green Wave held their last tune-up practice Friday at the Saints facility so they could work on a real grass field. Duke's stadium has grass, and Tulane opens there on September 5.",
+      "date": "2026-08-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
     },
     {
       "id": "b9682dcfdbdb",

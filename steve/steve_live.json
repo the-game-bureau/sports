@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "8feca36fd244",
+          "teamId": "tulane",
+          "headline": "Tulane's coach says the mistakes can be fixed",
+          "summary": "Will Hall took the blame for the offense after Saturday's 17-3 loss at Duke. Tulane was flagged for 15 penalties, and Hall changed quarterbacks at halftime.",
+          "date": "2026-09-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/everything-tulane-hc-hall-said-013618609.html"
+        },
+        {
           "id": "55b4db283df6",
           "teamId": "tulane",
           "headline": "Duke beats Tulane 17-3 in the opener",
@@ -44,15 +53,6 @@
           "date": "2026-09-05",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
-        },
-        {
-          "id": "d64e78e94363",
-          "teamId": "tulane",
-          "headline": "Tulane practices on grass to get ready for Duke",
-          "summary": "The Green Wave held their last tune-up practice Friday at the Saints facility so they could work on a real grass field. Duke's stadium has grass, and Tulane opens there on September 5.",
-          "date": "2026-08-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "7f4df3cb252e",
+          "teamId": "florida",
+          "headline": "Two Florida players got hurt in the opener",
+          "summary": "Coach Jon Sumrall said receiver Eric Singleton Jr. hurt an ankle and running back Evan Pryor had a sore hip in Saturday's win. Sumrall did not know how bad either one is and will say more on Monday.",
+          "date": "2026-09-06",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/sumrall-provides-brief-injury-updates-gators-win-vs-fau-01m1tye44ag8"
+        },
+        {
           "id": "d5e2a9662a87",
           "teamId": "florida",
           "headline": "Florida wins big in Jon Sumrall's first game",
@@ -98,15 +107,6 @@
           "date": "2026-09-03",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/9/3/football-sold-out-florida-atlantic-game-marks-19th-straight-sellout-for-gators"
-        },
-        {
-          "id": "2503a46ec39c",
-          "teamId": "florida",
-          "headline": "Florida is healthy going into Saturday's opener",
-          "summary": "Coach Jon Sumrall said Tuesday that the Gators are pretty healthy and almost everyone is ready to play. Walk-on running back Kelvin Jimenez is out for the year, and tight end Evan Chieca is questionable.",
-          "date": "2026-09-01",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
         }
       ]
     },
@@ -145,6 +145,15 @@
           "url": "https://www.cbssports.com/college-football/news/arch-manning-throws-4-tds-as-no-5-texas-routs-texas-state-59-7/"
         },
         {
+          "id": "47a27d0fad1b",
+          "teamId": "texas",
+          "headline": "Texas hosts top-ranked Ohio State on Saturday",
+          "summary": "Arch Manning threw for 305 yards and four touchdowns in the opener, and now Texas gets a rematch with Ohio State in Austin. The Buckeyes beat Texas 14-7 in last year's opening game.",
+          "date": "2026-09-05",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/college-football/news/arch-manning-will-bring-momentum-into-texas-rematch-with-ohio-state"
+        },
+        {
           "id": "c7e06e280fe5",
           "teamId": "texas",
           "headline": "Trevor Goosby will play in Saturday's opener",
@@ -152,15 +161,6 @@
           "date": "2026-09-03",
           "source": "On3",
           "url": "https://www.on3.com/teams/texas-longhorns/news/steve-sarkisian-trevor-goosby-texas-left-tackle-longhorns-week-1-longhorns"
-        },
-        {
-          "id": "e56f3aa2f52d",
-          "teamId": "texas",
-          "headline": "Four Texas home games move up a week",
-          "summary": "Texas said four future home games will now be played a week earlier, starting with New Mexico State on August 28, 2027. College football will begin a week sooner from next season on.",
-          "date": "2026-09-03",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/9/3/texas-football-games-date-changes"
         }
       ]
     },
@@ -291,6 +291,24 @@
       },
       "news": [
         {
+          "id": "0225a6a72058",
+          "teamId": "yankees",
+          "headline": "Aaron Judge hits on the field again",
+          "summary": "Judge took batting practice on the field in San Diego, his first since he went on the injured list in June with a hurt rib. Manager Aaron Boone said Judge could be back during the home stand that starts Tuesday.",
+          "date": "2026-09-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-continues-090000432.html"
+        },
+        {
+          "id": "a32a66b906d4",
+          "teamId": "yankees",
+          "headline": "Yankees put Trent Grisham on the injured list",
+          "summary": "The center fielder strained his right hamstring Friday night in San Diego and will miss at least 10 days. New York called up Jasson Dominguez from the minors to take his spot.",
+          "date": "2026-09-05",
+          "source": "FOX Sports",
+          "url": "https://www.foxsports.com/articles/mlb/yankees-place-outfielder-trent-grisham-on-injured-list-aaron-judge-takes-batting-practice-again"
+        },
+        {
           "id": "5e1aeda4df4c",
           "teamId": "yankees",
           "headline": "Yankees beat the Padres 5-1 in San Diego",
@@ -298,24 +316,6 @@
           "date": "2026-09-05",
           "source": "CBS New York",
           "url": "https://www.cbsnews.com/newyork/news/spencer-jones-yankees-beat-padres/"
-        },
-        {
-          "id": "84821406ee27",
-          "teamId": "yankees",
-          "headline": "Padres beat the Yankees on a 10th inning home run",
-          "summary": "Luis Campusano hit a two-run home run in the 10th inning Friday night in San Diego and the Padres won 3-2. New York is now four games behind first-place Tampa Bay.",
-          "date": "2026-09-04",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-fall-padres-3-2-044211013.html"
-        },
-        {
-          "id": "f50179717fcd",
-          "teamId": "yankees",
-          "headline": "Yankees win in extra innings in Anaheim",
-          "summary": "New York scored five runs with two outs in the 10th inning Wednesday night and beat the Angels 6-3. Cam Schlittler pitched eight innings and gave up just one run.",
-          "date": "2026-09-02",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
         }
       ]
     },

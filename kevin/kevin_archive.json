@@ -16,6 +16,15 @@
       "url": "https://sports.yahoo.com/college-football/breaking-news/article/clemson-officials-notify-lsu-it-may-be-breaching-contract-if-it-plays-former-pro-players-in-game-on-saturday-175629934.html"
     },
     {
+      "id": "507bc104e0e3",
+      "teamId": "lsu",
+      "headline": "LSU leaves two players off the Clemson roster",
+      "summary": "LSU did not put tight end Dae'Quan Wright or lineman Zxavian Harris on its roster for Saturday's game, one day after a judge said they could play. Both are still in school and the team can add them later this season.",
+      "date": "2026-09-04",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/09/05/lsu-does-not-add-daequan-wright-zxavian-harris-roster-clemson-game-report-says/"
+    },
+    {
       "id": "71a5e323d7dd",
       "teamId": "lsu",
       "headline": "Judge clears former pro players to play for LSU",
@@ -77,6 +86,15 @@
       "date": "2026-09-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
+      "id": "2503a46ec39c",
+      "teamId": "florida",
+      "headline": "Florida is healthy going into Saturday's opener",
+      "summary": "Coach Jon Sumrall said Tuesday that the Gators are pretty healthy and almost everyone is ready to play. Walk-on running back Kelvin Jimenez is out for the year, and tight end Evan Chieca is questionable.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
     },
     {
       "id": "56c407183322",
@@ -239,6 +257,15 @@
       "date": "2026-08-28",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/recap?gameId=401874048"
+    },
+    {
+      "id": "d64e78e94363",
+      "teamId": "tulane",
+      "headline": "Tulane practices on grass to get ready for Duke",
+      "summary": "The Green Wave held their last tune-up practice Friday at the Saints facility so they could work on a real grass field. Duke's stadium has grass, and Tulane opens there on September 5.",
+      "date": "2026-08-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
     },
     {
       "id": "4fb24a9f8f82",
