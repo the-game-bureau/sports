@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-05",
+    "updated": "2026-09-06",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -23,6 +23,24 @@
       "date": "2026-09-03",
       "source": "On3",
       "url": "https://www.on3.com/nil/news/arch-manning-inks-exclusive-trading-card-autograph-nil-deal-topps"
+    },
+    {
+      "id": "6f55addb5959",
+      "teamId": "yankees",
+      "headline": "Aaron Judge could be back next week",
+      "summary": "Manager Aaron Boone said Judge might return on September 8 but would not promise a date. Judge has been out since May 31 with a cracked rib and has started taking batting practice on the field again.",
+      "date": "2026-09-01",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/aaron-judge-could-york-yankees-125144534.html"
+    },
+    {
+      "id": "ead0e94fad5c",
+      "teamId": "saints",
+      "headline": "Kamara and Cameron Jordan miss practice this week",
+      "summary": "Coach Kellen Moore said Tuesday that running back Alvin Kamara and defensive end Cameron Jordan are not expected to practice this week. Moore said he will know more about them at the end of next week.",
+      "date": "2026-09-01",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/nfl/saints/onsi/saints-notebook-roster-moves-injury-updates-along-with-some-lagniappe-01m1d0jae34b"
     },
     {
       "id": "f80dc0a31b36",
@@ -50,6 +68,15 @@
       "date": "2026-09-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
+    },
+    {
+      "id": "56c407183322",
+      "teamId": "florida",
+      "headline": "Florida posts its first lineup chart of the year",
+      "summary": "The Gators listed their starters Monday for Saturday's opener against Florida Atlantic. Aaron Philo is the quarterback and Jadan Baugh is the running back, while three players are still competing for the last spot on the defensive line.",
+      "date": "2026-08-31",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
     },
     {
       "id": "8ad7f9076260",

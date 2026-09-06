@@ -1,22 +1,22 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "teams": {
     "tulane": {
       "record": "0-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Duke Blue Devils",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T19:30Z",
-        "time": "2:30 PM",
-        "venue": "Wallace Wade Stadium",
-        "city": "Durham, NC",
+        "homeAway": "home",
+        "opponent": "South Alabama Jaguars",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "ACC Network",
-          "logo": "",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {
@@ -28,15 +28,6 @@
       },
       "news": [
         {
-          "id": "10c7174f3177",
-          "teamId": "tulane",
-          "headline": "Storms push back Tulane's opener at Duke",
-          "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
-          "date": "2026-09-05",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
-        },
-        {
           "id": "55b4db283df6",
           "teamId": "tulane",
           "headline": "Duke beats Tulane 17-3 in the opener",
@@ -44,6 +35,15 @@
           "date": "2026-09-05",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-inept-in-17-3-loss-at-duke/"
+        },
+        {
+          "id": "10c7174f3177",
+          "teamId": "tulane",
+          "headline": "Storms push back Tulane's opener at Duke",
+          "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
+          "date": "2026-09-05",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
         },
         {
           "id": "d64e78e94363",
@@ -57,24 +57,39 @@
       ]
     },
     "florida": {
-      "record": "0-0",
+      "record": "1-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Florida Atlantic Owls",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T23:45Z",
-        "time": "6:45 PM",
+        "opponent": "Campbell Fighting Camels",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T21:30Z",
+        "time": "4:30 PM",
         "venue": "Ben Hill Griffin Stadium",
         "city": "Gainesville, FL",
         "tv": {
-          "name": "SEC Network",
+          "name": "SECN+",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
-      "lastGame": null,
+      "lastGame": {
+        "result": "W",
+        "teamScore": 66,
+        "opponentScore": 21,
+        "opponent": "Florida Atlantic Owls",
+        "date": "2026-09-05"
+      },
       "news": [
+        {
+          "id": "d5e2a9662a87",
+          "teamId": "florida",
+          "headline": "Florida wins big in Jon Sumrall's first game",
+          "summary": "The Gators beat Florida Atlantic 66-21 on Saturday night in a sold-out stadium. Jadan Baugh ran for 160 yards and three touchdowns, and Aaron Philo threw for 275 yards.",
+          "date": "2026-09-05",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/florida-routs-florida-atlantic-66-21-in-jon-sumralls-debut/"
+        },
         {
           "id": "603a734f60d9",
           "teamId": "florida",
@@ -92,15 +107,6 @@
           "date": "2026-09-01",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
-        },
-        {
-          "id": "56c407183322",
-          "teamId": "florida",
-          "headline": "Florida posts its first lineup chart of the year",
-          "summary": "The Gators listed their starters Monday for Saturday's opener against Florida Atlantic. Aaron Philo is the quarterback and Jadan Baugh is the running back, while three players are still competing for the last spot on the defensive line.",
-          "date": "2026-08-31",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
         }
       ]
     },
@@ -108,15 +114,15 @@
       "record": "1-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Texas State Bobcats",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T19:30Z",
-        "time": "2:30 PM",
+        "opponent": "Ohio State Buckeyes",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T23:30Z",
+        "time": "6:30 PM",
         "venue": "DKR-Texas Memorial Stadium",
         "city": "Austin, TX",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ABC (WGNO 26)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         }
@@ -184,6 +190,15 @@
       },
       "news": [
         {
+          "id": "8e2703b11343",
+          "teamId": "saints",
+          "headline": "Tyler Shough is the Saints starting quarterback",
+          "summary": "The Saints put out their lineup chart Friday for the opener at Detroit. Tyler Shough is the starter, Spencer Rattler is behind him, and Travis Etienne Jr. and Alvin Kamara are both listed first at running back.",
+          "date": "2026-09-04",
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/09/04/saints-quietly-release-updated-depth-chart/saints-football/"
+        },
+        {
           "id": "84324a250923",
           "teamId": "saints",
           "headline": "Saints let go of two hurt players",
@@ -200,27 +215,18 @@
           "date": "2026-09-02",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/decamerion-richardson-treyton-welch-kevin-austin-jr-saints-roster-moves-transaction-alert-september-1-2026"
-        },
-        {
-          "id": "ead0e94fad5c",
-          "teamId": "saints",
-          "headline": "Kamara and Cameron Jordan miss practice this week",
-          "summary": "Coach Kellen Moore said Tuesday that running back Alvin Kamara and defensive end Cameron Jordan are not expected to practice this week. Moore said he will know more about them at the end of next week.",
-          "date": "2026-09-01",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/nfl/saints/onsi/saints-notebook-roster-moves-injury-updates-along-with-some-lagniappe-01m1d0jae34b"
         }
       ]
     },
     "iup": {
       "record": "6-3",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Daemen (N.Y.)",
-        "date": "2026-09-05",
-        "time": "4:00 PM",
-        "venue": "Kovalchick Complex (Crimson Hawk Classic)",
-        "city": "Indiana, PA"
+        "homeAway": "away",
+        "opponent": "Shepherd",
+        "date": "2026-09-11",
+        "time": "12:00 PM",
+        "venue": "Shepherd University (PSAC Crossover)",
+        "city": "Shepherdstown, WV"
       },
       "lastGame": {
         "result": "W",
@@ -260,30 +266,39 @@
       ]
     },
     "yankees": {
-      "record": "80-61",
+      "record": "81-61",
       "nextGame": {
         "homeAway": "away",
         "opponent": "San Diego Padres",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T23:15Z",
-        "time": "6:15 PM",
+        "date": "2026-09-06",
+        "utc": "2026-09-06T20:10Z",
+        "time": "3:10 PM",
         "venue": "Petco Park",
         "city": "San Diego, CA",
         "tv": {
-          "name": "Fox 8 (WVUE)",
-          "logo": "images/fox8.png",
+          "name": "YES Network",
+          "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 2,
-        "opponentScore": 3,
+        "result": "W",
+        "teamScore": 5,
+        "opponentScore": 1,
         "opponent": "San Diego Padres",
-        "date": "2026-09-04"
+        "date": "2026-09-05"
       },
       "news": [
+        {
+          "id": "5e1aeda4df4c",
+          "teamId": "yankees",
+          "headline": "Yankees beat the Padres 5-1 in San Diego",
+          "summary": "New York scored four runs in the second inning Saturday and never trailed. Carlos Rodon gave up one run in five innings, and the Yankees are now 81-61.",
+          "date": "2026-09-05",
+          "source": "CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/spencer-jones-yankees-beat-padres/"
+        },
         {
           "id": "84821406ee27",
           "teamId": "yankees",
@@ -301,15 +316,6 @@
           "date": "2026-09-02",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
-        },
-        {
-          "id": "6f55addb5959",
-          "teamId": "yankees",
-          "headline": "Aaron Judge could be back next week",
-          "summary": "Manager Aaron Boone said Judge might return on September 8 but would not promise a date. Judge has been out since May 31 with a cracked rib and has started taking batting practice on the field again.",
-          "date": "2026-09-01",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/aaron-judge-could-york-yankees-125144534.html"
         }
       ]
     },

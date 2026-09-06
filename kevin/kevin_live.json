@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "8e2703b11343",
+          "teamId": "saints",
+          "headline": "Tyler Shough is the Saints starting quarterback",
+          "summary": "The Saints put out their lineup chart Friday for the opener at Detroit. Tyler Shough is the starter, Spencer Rattler is behind him, and Travis Etienne Jr. and Alvin Kamara are both listed first at running back.",
+          "date": "2026-09-04",
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/09/04/saints-quietly-release-updated-depth-chart/saints-football/"
+        },
+        {
           "id": "84324a250923",
           "teamId": "saints",
           "headline": "Saints let go of two hurt players",
@@ -44,37 +53,43 @@
           "date": "2026-09-02",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/decamerion-richardson-treyton-welch-kevin-austin-jr-saints-roster-moves-transaction-alert-september-1-2026"
-        },
-        {
-          "id": "ead0e94fad5c",
-          "teamId": "saints",
-          "headline": "Kamara and Cameron Jordan miss practice this week",
-          "summary": "Coach Kellen Moore said Tuesday that running back Alvin Kamara and defensive end Cameron Jordan are not expected to practice this week. Moore said he will know more about them at the end of next week.",
-          "date": "2026-09-01",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/nfl/saints/onsi/saints-notebook-roster-moves-injury-updates-along-with-some-lagniappe-01m1d0jae34b"
         }
       ]
     },
     "florida": {
-      "record": "0-0",
+      "record": "1-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Florida Atlantic Owls",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T23:45Z",
-        "time": "6:45 PM",
+        "opponent": "Campbell Fighting Camels",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T21:30Z",
+        "time": "4:30 PM",
         "venue": "Ben Hill Griffin Stadium",
         "city": "Gainesville, FL",
         "tv": {
-          "name": "SEC Network",
+          "name": "SECN+",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
-      "lastGame": null,
+      "lastGame": {
+        "result": "W",
+        "teamScore": 66,
+        "opponentScore": 21,
+        "opponent": "Florida Atlantic Owls",
+        "date": "2026-09-05"
+      },
       "news": [
+        {
+          "id": "d5e2a9662a87",
+          "teamId": "florida",
+          "headline": "Florida wins big in Jon Sumrall's first game",
+          "summary": "The Gators beat Florida Atlantic 66-21 on Saturday night in a sold-out stadium. Jadan Baugh ran for 160 yards and three touchdowns, and Aaron Philo threw for 275 yards.",
+          "date": "2026-09-05",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/florida-routs-florida-atlantic-66-21-in-jon-sumralls-debut/"
+        },
         {
           "id": "603a734f60d9",
           "teamId": "florida",
@@ -92,37 +107,43 @@
           "date": "2026-09-01",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/florida-enters-week-1-encouraging-035756134.html"
-        },
-        {
-          "id": "56c407183322",
-          "teamId": "florida",
-          "headline": "Florida posts its first lineup chart of the year",
-          "summary": "The Gators listed their starters Monday for Saturday's opener against Florida Atlantic. Aaron Philo is the quarterback and Jadan Baugh is the running back, while three players are still competing for the last spot on the defensive line.",
-          "date": "2026-08-31",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-unveils-depth-chart-for-season-opener-against-fau/"
         }
       ]
     },
     "lsu": {
-      "record": "0-0",
+      "record": "1-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Clemson Tigers",
-        "date": "2026-09-05",
-        "utc": "2026-09-06T01:40Z",
-        "time": "8:40 PM",
+        "opponent": "Louisiana Tech Bulldogs",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T23:30Z",
+        "time": "6:30 PM",
         "venue": "Tiger Stadium",
         "city": "Baton Rouge, LA",
         "tv": {
-          "name": "ABC (WGNO 26)",
+          "name": "SECN+",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
-      "lastGame": null,
+      "lastGame": {
+        "result": "W",
+        "teamScore": 51,
+        "opponentScore": 10,
+        "opponent": "Clemson Tigers",
+        "date": "2026-09-05"
+      },
       "news": [
+        {
+          "id": "4ac432ffd677",
+          "teamId": "lsu",
+          "headline": "LSU routs Clemson 51-10 in Kiffin's first game",
+          "summary": "LSU led 31-3 at halftime Saturday night in Baton Rouge and finished with 644 yards. Quarterback Sam Leavitt threw for 230 yards and ran for 113 yards and two touchdowns.",
+          "date": "2026-09-05",
+          "source": "Associated Press",
+          "url": "https://www.local10.com/sports/2026/09/06/lane-kiffins-debut-with-no-11-lsu-matches-the-hype-in-a-51-10-victory-over-outmatched-clemson/"
+        },
         {
           "id": "e5c416676016",
           "teamId": "lsu",
@@ -140,33 +161,24 @@
           "date": "2026-09-04",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/09/05/lsu-does-not-add-daequan-wright-zxavian-harris-roster-clemson-game-report-says/"
-        },
-        {
-          "id": "e9452137e9da",
-          "teamId": "lsu",
-          "headline": "Clemson says LSU may be breaking the game contract",
-          "summary": "Clemson's lawyer emailed LSU on Friday to say that playing former pro players may break the contract for Saturday's game. Clemson still plans to come to Baton Rouge and play.",
-          "date": "2026-09-04",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/college-football/breaking-news/article/clemson-officials-notify-lsu-it-may-be-breaching-contract-if-it-plays-former-pro-players-in-game-on-saturday-175629934.html"
         }
       ]
     },
     "tulane": {
       "record": "0-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Duke Blue Devils",
-        "date": "2026-09-05",
-        "utc": "2026-09-05T19:30Z",
-        "time": "2:30 PM",
-        "venue": "Wallace Wade Stadium",
-        "city": "Durham, NC",
+        "homeAway": "home",
+        "opponent": "South Alabama Jaguars",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "ACC Network",
-          "logo": "",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {
@@ -178,15 +190,6 @@
       },
       "news": [
         {
-          "id": "10c7174f3177",
-          "teamId": "tulane",
-          "headline": "Storms push back Tulane's opener at Duke",
-          "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
-          "date": "2026-09-05",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
-        },
-        {
           "id": "55b4db283df6",
           "teamId": "tulane",
           "headline": "Duke beats Tulane 17-3 in the opener",
@@ -194,6 +197,15 @@
           "date": "2026-09-05",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-inept-in-17-3-loss-at-duke/"
+        },
+        {
+          "id": "10c7174f3177",
+          "teamId": "tulane",
+          "headline": "Storms push back Tulane's opener at Duke",
+          "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
+          "date": "2026-09-05",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
         },
         {
           "id": "d64e78e94363",
