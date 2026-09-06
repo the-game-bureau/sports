@@ -7,22 +7,22 @@
   },
   "items": [
     {
-      "id": "294bb5714c6c",
+      "id": "c22addbee0a1",
       "teamId": "iup",
-      "headline": "IUP beats Wayne State to close the tournament",
-      "summary": "The Crimson Hawks won 24-26, 25-22, 25-22, 25-20 on Saturday in Detroit. Sammy Stephens had a career-best 14 kills and Charlotte Potvin served five aces.",
-      "date": "2026-08-29",
+      "headline": "IUP sweeps West Liberty to open its home tournament",
+      "summary": "The Crimson Hawks won 25-23, 25-21 and 25-15 on Friday at the Kovalchick Complex. It was their first home match of the year and made their record 3-3.",
+      "date": "2026-09-04",
       "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/west-liberty/boxscore/15070"
     },
     {
-      "id": "0ed2ee917188",
-      "teamId": "tulane",
-      "headline": "Two quarterbacks lead the way in last scrimmage",
-      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
-      "date": "2026-08-22",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
+      "id": "3dad32aa89a6",
+      "teamId": "texas",
+      "headline": "Arch Manning signs a trading card deal with Topps",
+      "summary": "Arch Manning agreed to let Topps make his trading cards and sign autographs for them. His first Topps cards will be in the new Bowman football set.",
+      "date": "2026-09-03",
+      "source": "On3",
+      "url": "https://www.on3.com/nil/news/arch-manning-inks-exclusive-trading-card-autograph-nil-deal-topps"
     },
     {
       "id": "f80dc0a31b36",
@@ -43,22 +43,13 @@
       "url": "https://sports.yahoo.com/articles/yankees-activate-ryan-mcmahon-add-212206370.html"
     },
     {
-      "id": "dca88cff0a0d",
-      "teamId": "iup",
-      "headline": "Quincy beats IUP in four sets",
-      "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
-      "date": "2026-08-29",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
-    },
-    {
-      "id": "6f0a0aa31bd8",
-      "teamId": "iup",
-      "headline": "IUP wins a five-set thriller over Northwood",
-      "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
-      "date": "2026-08-28",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
+      "id": "3aed49797fb0",
+      "teamId": "saints",
+      "headline": "Saints add two more to the practice squad",
+      "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
+      "date": "2026-09-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
     },
     {
       "id": "8ad7f9076260",
@@ -68,15 +59,6 @@
       "date": "2026-08-31",
       "source": "Burnt Orange Nation",
       "url": "https://www.burntorangenation.com/texas-longhorns-football/104088/texas-longhorns-specialists-jeff-banks"
-    },
-    {
-      "id": "3aed49797fb0",
-      "teamId": "saints",
-      "headline": "Saints add two more to the practice squad",
-      "summary": "New Orleans signed wide receiver Cedric Tillman and tight end Stone Smartt on Tuesday. Tillman spent three seasons with Cleveland, and Smartt was with the Jets last season.",
-      "date": "2026-09-01",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/cedric-tillman-stone-smartt-practice-squad-saints-roster-moves-transactions-9-1-2026"
     },
     {
       "id": "ad84be4f442f",
@@ -214,6 +196,24 @@
       "url": "https://sports.yahoo.com/articles/yankees-recall-luis-gil-option-170253911.html"
     },
     {
+      "id": "294bb5714c6c",
+      "teamId": "iup",
+      "headline": "IUP beats Wayne State to close the tournament",
+      "summary": "The Crimson Hawks won 24-26, 25-22, 25-22, 25-20 on Saturday in Detroit. Sammy Stephens had a career-best 14 kills and Charlotte Potvin served five aces.",
+      "date": "2026-08-29",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
+    },
+    {
+      "id": "dca88cff0a0d",
+      "teamId": "iup",
+      "headline": "Quincy beats IUP in four sets",
+      "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
+      "date": "2026-08-29",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
+    },
+    {
       "id": "6f8664a62be3",
       "teamId": "saints",
       "headline": "Saints must cut down to 53 players by Sunday",
@@ -257,6 +257,15 @@
       "date": "2026-08-29",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401816717"
+    },
+    {
+      "id": "6f0a0aa31bd8",
+      "teamId": "iup",
+      "headline": "IUP wins a five-set thriller over Northwood",
+      "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
+      "date": "2026-08-28",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
     },
     {
       "id": "b74a17b5ff0c",
@@ -439,6 +448,15 @@
       "url": "https://www.espn.com/mlb/recap?gameId=401816667"
     },
     {
+      "id": "931a769988df",
+      "teamId": "tulane",
+      "headline": "Zeon Chriss-Gremillion will start at quarterback",
+      "summary": "Coach Will Hall picked Chriss-Gremillion to start Tulane's opener at Duke on September 5. He has started 13 college games, first at Louisiana and then at Houston.",
+      "date": "2026-08-24",
+      "source": "Underdog Dynasty",
+      "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
+    },
+    {
       "id": "57eb154ff883",
       "teamId": "florida",
       "headline": "Aaron Philo will start at quarterback for Florida",
@@ -500,6 +518,15 @@
       "date": "2026-08-23",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+    },
+    {
+      "id": "0ed2ee917188",
+      "teamId": "tulane",
+      "headline": "Two quarterbacks lead the way in last scrimmage",
+      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
+      "date": "2026-08-22",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
     },
     {
       "id": "f1a8b41d2e90",

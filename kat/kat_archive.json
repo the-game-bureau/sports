@@ -7,13 +7,13 @@
   },
   "items": [
     {
-      "id": "0ed2ee917188",
-      "teamId": "tulane",
-      "headline": "Two quarterbacks lead the way in last scrimmage",
-      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
-      "date": "2026-08-22",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
+      "id": "71a5e323d7dd",
+      "teamId": "lsu",
+      "headline": "Judge clears former pro players to play for LSU",
+      "summary": "A Baton Rouge judge ruled Thursday that more than 40 players who spent time in the NFL can play college football again. LSU has until Friday to add any of them to its roster, and the SEC says it will appeal.",
+      "date": "2026-09-03",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/judge-grants-injunction-allowing-lsu-to-sign-former-nfl-players"
     },
     {
       "id": "75b3972937d4",
@@ -340,6 +340,15 @@
       "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
     },
     {
+      "id": "931a769988df",
+      "teamId": "tulane",
+      "headline": "Zeon Chriss-Gremillion will start at quarterback",
+      "summary": "Coach Will Hall picked Chriss-Gremillion to start Tulane's opener at Duke on September 5. He has started 13 college games, first at Louisiana and then at Houston.",
+      "date": "2026-08-24",
+      "source": "Underdog Dynasty",
+      "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
+    },
+    {
       "id": "57eb154ff883",
       "teamId": "florida",
       "headline": "Aaron Philo will start at quarterback for Florida",
@@ -401,6 +410,15 @@
       "date": "2026-08-23",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
+    },
+    {
+      "id": "0ed2ee917188",
+      "teamId": "tulane",
+      "headline": "Two quarterbacks lead the way in last scrimmage",
+      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
+      "date": "2026-08-22",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
     },
     {
       "id": "76168a2794c1",

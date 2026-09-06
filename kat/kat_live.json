@@ -110,8 +110,8 @@
         "homeAway": "home",
         "opponent": "Clemson Tigers",
         "date": "2026-09-05",
-        "utc": "2026-09-05T23:30Z",
-        "time": "6:30 PM",
+        "utc": "2026-09-06T01:40Z",
+        "time": "8:40 PM",
         "venue": "Tiger Stadium",
         "city": "Baton Rouge, LA",
         "tv": {
@@ -123,6 +123,15 @@
       },
       "lastGame": null,
       "news": [
+        {
+          "id": "e5c416676016",
+          "teamId": "lsu",
+          "headline": "Lightning holds up the LSU and Clemson kickoff",
+          "summary": "Thunderstorms moved over Baton Rouge on Saturday evening and the start of the game was pushed back. Rules say play cannot begin until 30 minutes after the last lightning strike within eight miles.",
+          "date": "2026-09-05",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/lsu/article/lsu-tigers-football-kickoff-against-clemson-delayed-due-to-inclement-weather-in-baton-rouge-289545999/"
+        },
         {
           "id": "507bc104e0e3",
           "teamId": "lsu",
@@ -140,20 +149,11 @@
           "date": "2026-09-04",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/college-football/breaking-news/article/clemson-officials-notify-lsu-it-may-be-breaching-contract-if-it-plays-former-pro-players-in-game-on-saturday-175629934.html"
-        },
-        {
-          "id": "71a5e323d7dd",
-          "teamId": "lsu",
-          "headline": "Judge clears former pro players to play for LSU",
-          "summary": "A Baton Rouge judge ruled Thursday that more than 40 players who spent time in the NFL can play college football again. LSU has until Friday to add any of them to its roster, and the SEC says it will appeal.",
-          "date": "2026-09-03",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/judge-grants-injunction-allowing-lsu-to-sign-former-nfl-players"
         }
       ]
     },
     "tulane": {
-      "record": "0-0",
+      "record": "0-1",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Duke Blue Devils",
@@ -169,7 +169,13 @@
           "note": "On YouTube TV"
         }
       },
-      "lastGame": null,
+      "lastGame": {
+        "result": "L",
+        "teamScore": 3,
+        "opponentScore": 17,
+        "opponent": "Duke Blue Devils",
+        "date": "2026-09-05"
+      },
       "news": [
         {
           "id": "10c7174f3177",
@@ -181,6 +187,15 @@
           "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
         },
         {
+          "id": "55b4db283df6",
+          "teamId": "tulane",
+          "headline": "Duke beats Tulane 17-3 in the opener",
+          "summary": "Tulane's offense never got going Saturday at Duke and the Green Wave managed only a field goal. Duke running back Nate Sheppard carried the ball 35 times for 227 yards and two touchdowns.",
+          "date": "2026-09-05",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-inept-in-17-3-loss-at-duke/"
+        },
+        {
           "id": "d64e78e94363",
           "teamId": "tulane",
           "headline": "Tulane practices on grass to get ready for Duke",
@@ -188,15 +203,6 @@
           "date": "2026-08-28",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
-        },
-        {
-          "id": "931a769988df",
-          "teamId": "tulane",
-          "headline": "Zeon Chriss-Gremillion will start at quarterback",
-          "summary": "Coach Will Hall picked Chriss-Gremillion to start Tulane's opener at Duke on September 5. He has started 13 college games, first at Louisiana and then at Houston.",
-          "date": "2026-08-24",
-          "source": "Underdog Dynasty",
-          "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
         }
       ]
     }
