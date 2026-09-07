@@ -52,6 +52,24 @@
       "url": "https://texaslonghorns.com/news/2026/9/3/texas-football-games-date-changes"
     },
     {
+      "id": "603a734f60d9",
+      "teamId": "florida",
+      "headline": "Florida's opener Saturday is sold out",
+      "summary": "Florida says every seat is taken for the Florida Atlantic game. It is the 19th home game in a row that has sold out.",
+      "date": "2026-09-03",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/3/football-sold-out-florida-atlantic-game-marks-19th-straight-sellout-for-gators"
+    },
+    {
+      "id": "c7e06e280fe5",
+      "teamId": "texas",
+      "headline": "Trevor Goosby will play in Saturday's opener",
+      "summary": "Coach Steve Sarkisian said Thursday that his left tackle is good to go after a bruised knee. Texas will watch how many plays he takes because it will be hot on Saturday afternoon.",
+      "date": "2026-09-03",
+      "source": "On3",
+      "url": "https://www.on3.com/teams/texas-longhorns/news/steve-sarkisian-trevor-goosby-texas-left-tackle-longhorns-week-1-longhorns"
+    },
+    {
       "id": "f50179717fcd",
       "teamId": "yankees",
       "headline": "Yankees win in extra innings in Anaheim",
@@ -59,6 +77,15 @@
       "date": "2026-09-02",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/schlittler-sharp-yankees-score-5-045220601.html"
+    },
+    {
+      "id": "c09e234fb810",
+      "teamId": "saints",
+      "headline": "Saints claim a cornerback off waivers",
+      "summary": "New Orleans picked up cornerback Decamerion Richardson from Las Vegas on Wednesday. Safety Lorenzo Styles Jr. went on injured reserve, and wide receiver Kevin Austin Jr. and tight end Treyton Welch joined the practice squad.",
+      "date": "2026-09-02",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/decamerion-richardson-treyton-welch-kevin-austin-jr-saints-roster-moves-transaction-alert-september-1-2026"
     },
     {
       "id": "6f55addb5959",

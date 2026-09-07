@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "5bbf9dc910ad",
+          "teamId": "saints",
+          "headline": "Longtime Saints radio voice Mike Detillier dies",
+          "summary": "Detillier talked about the Saints and LSU on WWL radio for more than 40 years. He died Sunday at age 65, and the Saints called him a true gentleman.",
+          "date": "2026-09-06",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
+        },
+        {
           "id": "8e2703b11343",
           "teamId": "saints",
           "headline": "Tyler Shough is the Saints starting quarterback",
@@ -44,15 +53,6 @@
           "date": "2026-09-03",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-surprisingly-waive-two-players-215850908.html"
-        },
-        {
-          "id": "c09e234fb810",
-          "teamId": "saints",
-          "headline": "Saints claim a cornerback off waivers",
-          "summary": "New Orleans picked up cornerback Decamerion Richardson from Las Vegas on Wednesday. Safety Lorenzo Styles Jr. went on injured reserve, and wide receiver Kevin Austin Jr. and tight end Treyton Welch joined the practice squad.",
-          "date": "2026-09-02",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-treyton-welch-kevin-austin-jr-saints-roster-moves-transaction-alert-september-1-2026"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "5efd0b5df518",
+          "teamId": "florida",
+          "headline": "Florida receiver Eric Singleton may miss Saturday",
+          "summary": "Coach Jon Sumrall said Singleton hurt his ankle in the win over Florida Atlantic and is highly questionable for the Campbell game. Sumrall said the team will not know for sure until later in the week.",
+          "date": "2026-09-07",
+          "source": "Florida Gators On SI",
+          "url": "https://www.si.com/college/florida/football/sumrall-updates-injury-status-gators-wr-eric-singleton-jr-01m1ygqg3ney"
+        },
+        {
           "id": "7f4df3cb252e",
           "teamId": "florida",
           "headline": "Two Florida players got hurt in the opener",
@@ -98,15 +107,6 @@
           "date": "2026-09-05",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/florida-routs-florida-atlantic-66-21-in-jon-sumralls-debut/"
-        },
-        {
-          "id": "603a734f60d9",
-          "teamId": "florida",
-          "headline": "Florida's opener Saturday is sold out",
-          "summary": "Florida says every seat is taken for the Florida Atlantic game. It is the 19th home game in a row that has sold out.",
-          "date": "2026-09-03",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/3/football-sold-out-florida-atlantic-game-marks-19th-straight-sellout-for-gators"
         }
       ]
     },
