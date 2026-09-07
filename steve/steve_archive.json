@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-06",
+    "updated": "2026-09-07",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "5e1aeda4df4c",
+      "teamId": "yankees",
+      "headline": "Yankees beat the Padres 5-1 in San Diego",
+      "summary": "New York scored four runs in the second inning Saturday and never trailed. Carlos Rodon gave up one run in five innings, and the Yankees are now 81-61.",
+      "date": "2026-09-05",
+      "source": "CBS New York",
+      "url": "https://www.cbsnews.com/newyork/news/spencer-jones-yankees-beat-padres/"
+    },
     {
       "id": "c22addbee0a1",
       "teamId": "iup",

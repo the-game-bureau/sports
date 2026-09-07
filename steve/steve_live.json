@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "teams": {
     "tulane": {
       "record": "0-1",
@@ -266,15 +266,15 @@
       ]
     },
     "yankees": {
-      "record": "81-61",
+      "record": "81-62",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "San Diego Padres",
-        "date": "2026-09-06",
-        "utc": "2026-09-06T20:10Z",
-        "time": "3:10 PM",
-        "venue": "Petco Park",
-        "city": "San Diego, CA",
+        "homeAway": "home",
+        "opponent": "Colorado Rockies",
+        "date": "2026-09-08",
+        "utc": "2026-09-08T23:05Z",
+        "time": "6:05 PM",
+        "venue": "Yankee Stadium",
+        "city": "Bronx, NY",
         "tv": {
           "name": "YES Network",
           "logo": "",
@@ -283,13 +283,22 @@
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 5,
-        "opponentScore": 1,
+        "result": "L",
+        "teamScore": 3,
+        "opponentScore": 4,
         "opponent": "San Diego Padres",
-        "date": "2026-09-05"
+        "date": "2026-09-06"
       },
       "news": [
+        {
+          "id": "f63274882f91",
+          "teamId": "yankees",
+          "headline": "Padres beat the Yankees 4-3 in San Diego",
+          "summary": "San Diego hit three home runs in a row off Gerrit Cole to start the game Sunday. New York scored three runs in the eighth inning but could not catch up.",
+          "date": "2026-09-06",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816840"
+        },
         {
           "id": "0225a6a72058",
           "teamId": "yankees",
@@ -307,15 +316,6 @@
           "date": "2026-09-05",
           "source": "FOX Sports",
           "url": "https://www.foxsports.com/articles/mlb/yankees-place-outfielder-trent-grisham-on-injured-list-aaron-judge-takes-batting-practice-again"
-        },
-        {
-          "id": "5e1aeda4df4c",
-          "teamId": "yankees",
-          "headline": "Yankees beat the Padres 5-1 in San Diego",
-          "summary": "New York scored four runs in the second inning Saturday and never trailed. Carlos Rodon gave up one run in five innings, and the Yankees are now 81-61.",
-          "date": "2026-09-05",
-          "source": "CBS New York",
-          "url": "https://www.cbsnews.com/newyork/news/spencer-jones-yankees-beat-padres/"
         }
       ]
     },
