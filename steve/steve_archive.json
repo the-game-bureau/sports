@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "0225a6a72058",
+      "teamId": "yankees",
+      "headline": "Aaron Judge hits on the field again",
+      "summary": "Judge took batting practice on the field in San Diego, his first since he went on the injured list in June with a hurt rib. Manager Aaron Boone said Judge could be back during the home stand that starts Tuesday.",
+      "date": "2026-09-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-continues-090000432.html"
+    },
+    {
+      "id": "028a81011339",
+      "teamId": "texas",
+      "headline": "Arch Manning throws four touchdown passes",
+      "summary": "Texas opened the season Saturday with a 59-7 win over Texas State in Austin. Manning threw for 305 yards and four touchdowns before he came out of the game in the third quarter.",
+      "date": "2026-09-05",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/arch-manning-throws-4-tds-as-no-5-texas-routs-texas-state-59-7/"
+    },
+    {
+      "id": "10c7174f3177",
+      "teamId": "tulane",
+      "headline": "Storms push back Tulane's opener at Duke",
+      "summary": "Bad weather in Durham held up Saturday's game and the stadium was cleared for a while. Kickoff moved from 2:30 to 4:00 our time.",
+      "date": "2026-09-05",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/duke-football-season-opener-vs-190633486.html"
+    },
+    {
       "id": "5e1aeda4df4c",
       "teamId": "yankees",
       "headline": "Yankees beat the Padres 5-1 in San Diego",
@@ -41,6 +68,15 @@
       "date": "2026-09-05",
       "source": "FOX Sports",
       "url": "https://www.foxsports.com/articles/mlb/yankees-place-outfielder-trent-grisham-on-injured-list-aaron-judge-takes-batting-practice-again"
+    },
+    {
+      "id": "8e2703b11343",
+      "teamId": "saints",
+      "headline": "Tyler Shough is the Saints starting quarterback",
+      "summary": "The Saints put out their lineup chart Friday for the opener at Detroit. Tyler Shough is the starter, Spencer Rattler is behind him, and Travis Etienne Jr. and Alvin Kamara are both listed first at running back.",
+      "date": "2026-09-04",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/09/04/saints-quietly-release-updated-depth-chart/saints-football/"
     },
     {
       "id": "c22addbee0a1",
