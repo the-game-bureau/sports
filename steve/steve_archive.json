@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-07",
+    "updated": "2026-09-08",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,33 @@
       "date": "2026-09-05",
       "source": "CBS New York",
       "url": "https://www.cbsnews.com/newyork/news/spencer-jones-yankees-beat-padres/"
+    },
+    {
+      "id": "d5e2a9662a87",
+      "teamId": "florida",
+      "headline": "Florida wins big in Jon Sumrall's first game",
+      "summary": "The Gators beat Florida Atlantic 66-21 on Saturday night in a sold-out stadium. Jadan Baugh ran for 160 yards and three touchdowns, and Aaron Philo threw for 275 yards.",
+      "date": "2026-09-05",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/florida-routs-florida-atlantic-66-21-in-jon-sumralls-debut/"
+    },
+    {
+      "id": "47a27d0fad1b",
+      "teamId": "texas",
+      "headline": "Texas hosts top-ranked Ohio State on Saturday",
+      "summary": "Arch Manning threw for 305 yards and four touchdowns in the opener, and now Texas gets a rematch with Ohio State in Austin. The Buckeyes beat Texas 14-7 in last year's opening game.",
+      "date": "2026-09-05",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/college-football/news/arch-manning-will-bring-momentum-into-texas-rematch-with-ohio-state"
+    },
+    {
+      "id": "a32a66b906d4",
+      "teamId": "yankees",
+      "headline": "Yankees put Trent Grisham on the injured list",
+      "summary": "The center fielder strained his right hamstring Friday night in San Diego and will miss at least 10 days. New York called up Jasson Dominguez from the minors to take his spot.",
+      "date": "2026-09-05",
+      "source": "FOX Sports",
+      "url": "https://www.foxsports.com/articles/mlb/yankees-place-outfielder-trent-grisham-on-injured-list-aaron-judge-takes-batting-practice-again"
     },
     {
       "id": "c22addbee0a1",
@@ -68,6 +95,15 @@
       "date": "2026-09-03",
       "source": "On3",
       "url": "https://www.on3.com/teams/texas-longhorns/news/steve-sarkisian-trevor-goosby-texas-left-tackle-longhorns-week-1-longhorns"
+    },
+    {
+      "id": "84324a250923",
+      "teamId": "saints",
+      "headline": "Saints let go of two hurt players",
+      "summary": "The Saints released running back Devin Neal and pass rusher Michael Heldman, who were both hurt in the preseason. The team paid them for their recovery time, and it can sign them again later.",
+      "date": "2026-09-03",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-surprisingly-waive-two-players-215850908.html"
     },
     {
       "id": "f50179717fcd",
