@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "6989da183cec",
+      "teamId": "lsu",
+      "headline": "Kiffin wants the same LSU team on Saturday",
+      "summary": "Lane Kiffin said Monday that everything has to look like it did in the 51-10 win over Clemson. LSU hosts Louisiana Tech on Saturday night in Baton Rouge.",
+      "date": "2026-09-07",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lane-kiffin-wants-everything-exactly-the-way-it-was-last-saturday-this-saturday-against-louisiana-tech/"
+    },
+    {
       "id": "2813525cc3c8",
       "teamId": "lsu",
       "headline": "Kiffin says Tiger Stadium felt like Mardi Gras",
@@ -14,6 +23,15 @@
       "date": "2026-09-06",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/lane-kiffin-wraps-lsus-crush-of-clemson-felt-like-i-was-at-mardi-gras-pretty-awesome-electric/"
+    },
+    {
+      "id": "51b381ce3be7",
+      "teamId": "saints",
+      "headline": "Kamara and Cam Jordan may miss the opener",
+      "summary": "Alvin Kamara hurt his knee in an August 18 practice and has not practiced since. Coach Kellen Moore has not ruled out Kamara or defensive end Cam Jordan for Sunday's game at Detroit.",
+      "date": "2026-09-05",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/news/saints-could-without-multiple-key-011618868.html"
     },
     {
       "id": "10c7174f3177",

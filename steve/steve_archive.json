@@ -25,6 +25,15 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401816840"
     },
     {
+      "id": "51b381ce3be7",
+      "teamId": "saints",
+      "headline": "Kamara and Cam Jordan may miss the opener",
+      "summary": "Alvin Kamara hurt his knee in an August 18 practice and has not practiced since. Coach Kellen Moore has not ruled out Kamara or defensive end Cam Jordan for Sunday's game at Detroit.",
+      "date": "2026-09-05",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/news/saints-could-without-multiple-key-011618868.html"
+    },
+    {
       "id": "028a81011339",
       "teamId": "texas",
       "headline": "Arch Manning throws four touchdown passes",
@@ -77,6 +86,15 @@
       "date": "2026-09-05",
       "source": "FOX Sports",
       "url": "https://www.foxsports.com/articles/mlb/yankees-place-outfielder-trent-grisham-on-injured-list-aaron-judge-takes-batting-practice-again"
+    },
+    {
+      "id": "3681d23594fd",
+      "teamId": "iup",
+      "headline": "IUP beats Ashland in four sets at home",
+      "summary": "The Crimson Hawks lost the first set 26-24 on Friday and then won the next three. Delaney Concannon had a season-best 20 kills, Jessica Neiman had 18, and IUP is now 4-3.",
+      "date": "2026-09-04",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/ashland-university/boxscore/15071"
     },
     {
       "id": "8e2703b11343",

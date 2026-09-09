@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "712adad28b0b",
+          "teamId": "saints",
+          "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
+          "summary": "Coach Kellen Moore said Wednesday that Cam Jordan's hurt hamstring will keep him out of the opener at Detroit. Alvin Kamara practiced for the first time since he hurt his knee in August, but he was held to a light workload.",
+          "date": "2026-09-09",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
+        },
+        {
           "id": "f17ff3ce2f2a",
           "teamId": "saints",
           "headline": "Saints name nine captains for the new season",
@@ -44,15 +53,6 @@
           "date": "2026-09-06",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
-        },
-        {
-          "id": "51b381ce3be7",
-          "teamId": "saints",
-          "headline": "Kamara and Cam Jordan may miss the opener",
-          "summary": "Alvin Kamara hurt his knee in an August 18 practice and has not practiced since. Coach Kellen Moore has not ruled out Kamara or defensive end Cam Jordan for Sunday's game at Detroit.",
-          "date": "2026-09-05",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/news/saints-could-without-multiple-key-011618868.html"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "7351976eddf0",
+          "teamId": "lsu",
+          "headline": "LSU tells the SEC it has followed the rules",
+          "summary": "LSU wrote to the conference on Wednesday and said the matter is settled, one day before the league's school presidents meet about it. LSU also said it will not try to stop that meeting.",
+          "date": "2026-09-09",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/49883607/lsu-tells-sec-tigers-complied-disrupt-meeting"
+        },
+        {
           "id": "3e9aeeb35923",
           "teamId": "lsu",
           "headline": "LSU moves up to No. 8 in the new poll",
@@ -152,15 +161,6 @@
           "date": "2026-09-08",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/49869481/sec-files-amendment-authority-expel-lsu-conference"
-        },
-        {
-          "id": "6989da183cec",
-          "teamId": "lsu",
-          "headline": "Kiffin wants the same LSU team on Saturday",
-          "summary": "Lane Kiffin said Monday that everything has to look like it did in the 51-10 win over Clemson. LSU hosts Louisiana Tech on Saturday night in Baton Rouge.",
-          "date": "2026-09-07",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lane-kiffin-wants-everything-exactly-the-way-it-was-last-saturday-this-saturday-against-louisiana-tech/"
         }
       ]
     },

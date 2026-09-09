@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "712adad28b0b",
+          "teamId": "saints",
+          "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
+          "summary": "Coach Kellen Moore said Wednesday that Cam Jordan's hurt hamstring will keep him out of the opener at Detroit. Alvin Kamara practiced for the first time since he hurt his knee in August, but he was held to a light workload.",
+          "date": "2026-09-09",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
+        },
+        {
           "id": "f17ff3ce2f2a",
           "teamId": "saints",
           "headline": "Saints name nine captains for the new season",
@@ -206,15 +215,6 @@
           "date": "2026-09-06",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
-        },
-        {
-          "id": "51b381ce3be7",
-          "teamId": "saints",
-          "headline": "Kamara and Cam Jordan may miss the opener",
-          "summary": "Alvin Kamara hurt his knee in an August 18 practice and has not practiced since. Coach Kellen Moore has not ruled out Kamara or defensive end Cam Jordan for Sunday's game at Detroit.",
-          "date": "2026-09-05",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/news/saints-could-without-multiple-key-011618868.html"
         }
       ]
     },
@@ -237,6 +237,15 @@
       },
       "news": [
         {
+          "id": "63f5b8cac876",
+          "teamId": "iup",
+          "headline": "Delaney Concannon wins a conference weekly award",
+          "summary": "Concannon had 49 kills and 52 digs across four wins at IUP's home tournament last weekend. She leads the Crimson Hawks with 105 kills through nine matches.",
+          "date": "2026-09-08",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/8/womens-volleyball-concannon-earns-psac-athlete-of-the-week-honors.aspx"
+        },
+        {
           "id": "a833201eae9d",
           "teamId": "iup",
           "headline": "IUP sweeps Lake Erie for its fourth win in a row",
@@ -253,15 +262,6 @@
           "date": "2026-09-05",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/9/5/womens-volleyball-volleyball-completes-perfect-weekend-at-crimson-hawk-classic.aspx"
-        },
-        {
-          "id": "3681d23594fd",
-          "teamId": "iup",
-          "headline": "IUP beats Ashland in four sets at home",
-          "summary": "The Crimson Hawks lost the first set 26-24 on Friday and then won the next three. Delaney Concannon had a season-best 20 kills, Jessica Neiman had 18, and IUP is now 4-3.",
-          "date": "2026-09-04",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/ashland-university/boxscore/15071"
         }
       ]
     },
