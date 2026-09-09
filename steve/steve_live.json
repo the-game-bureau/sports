@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "teams": {
     "tulane": {
       "record": "0-1",
@@ -266,12 +266,12 @@
       ]
     },
     "yankees": {
-      "record": "81-62",
+      "record": "82-62",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Colorado Rockies",
-        "date": "2026-09-08",
-        "utc": "2026-09-08T23:05Z",
+        "date": "2026-09-09",
+        "utc": "2026-09-09T23:05Z",
         "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
@@ -283,13 +283,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 3,
-        "opponentScore": 4,
-        "opponent": "San Diego Padres",
-        "date": "2026-09-06"
+        "result": "W",
+        "teamScore": 5,
+        "opponentScore": 3,
+        "opponent": "Colorado Rockies",
+        "date": "2026-09-08"
       },
       "news": [
+        {
+          "id": "a7cbc90f77e6",
+          "teamId": "yankees",
+          "headline": "Yankees beat Colorado 5-3 in Judge's first game back",
+          "summary": "Aaron Judge played right field Tuesday night for the first time since May and went 0 for 3. Ryan McMahon hit the go-ahead double in the fifth inning, and Cam Schlittler pitched seven strong innings.",
+          "date": "2026-09-08",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816855"
+        },
         {
           "id": "a6fb9905ed25",
           "teamId": "yankees",
@@ -307,15 +316,6 @@
           "date": "2026-09-07",
           "source": "New York Daily News",
           "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
-        },
-        {
-          "id": "f63274882f91",
-          "teamId": "yankees",
-          "headline": "Padres beat the Yankees 4-3 in San Diego",
-          "summary": "San Diego hit three home runs in a row off Gerrit Cole to start the game Sunday. New York scored three runs in the eighth inning but could not catch up.",
-          "date": "2026-09-06",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816840"
         }
       ]
     },

@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "2813525cc3c8",
+      "teamId": "lsu",
+      "headline": "Kiffin says Tiger Stadium felt like Mardi Gras",
+      "summary": "Lane Kiffin said the crowd was electric after LSU beat Clemson 51-10 in his first game as head coach. LSU plays Louisiana Tech at home on Saturday night.",
+      "date": "2026-09-06",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lane-kiffin-wraps-lsus-crush-of-clemson-felt-like-i-was-at-mardi-gras-pretty-awesome-electric/"
+    },
     {
       "id": "10c7174f3177",
       "teamId": "tulane",

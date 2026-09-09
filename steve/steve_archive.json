@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,15 @@
       "date": "2026-09-06",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-continues-090000432.html"
+    },
+    {
+      "id": "f63274882f91",
+      "teamId": "yankees",
+      "headline": "Padres beat the Yankees 4-3 in San Diego",
+      "summary": "San Diego hit three home runs in a row off Gerrit Cole to start the game Sunday. New York scored three runs in the eighth inning but could not catch up.",
+      "date": "2026-09-06",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816840"
     },
     {
       "id": "028a81011339",
