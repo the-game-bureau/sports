@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-09",
+    "updated": "2026-09-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4dc2ecd175be",
+      "teamId": "yankees",
+      "headline": "Aaron Judge is back from the injured list",
+      "summary": "The Yankees activated Judge on Monday night, more than three months after he cracked a rib. He is available for the Colorado series that starts Tuesday at Yankee Stadium.",
+      "date": "2026-09-07",
+      "source": "New York Daily News",
+      "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
+    },
     {
       "id": "0225a6a72058",
       "teamId": "yankees",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "4c3dcf15c759",
+          "teamId": "lsu",
+          "headline": "SEC not expected to vote on removing LSU",
+          "summary": "LSU filled its last two roster spots and told the conference the matter was closed, so the vote is off the agenda for Thursday's meeting. The two former pro players LSU wanted to add cannot join the team this season.",
+          "date": "2026-09-09",
+          "source": "Associated Press",
+          "url": "https://www.click2houston.com/sports/2026/09/10/sec-not-expected-to-vote-on-lsus-membership-this-week-ap-source-says/"
+        },
+        {
           "id": "7351976eddf0",
           "teamId": "lsu",
           "headline": "LSU tells the SEC it has followed the rules",
@@ -152,15 +161,6 @@
           "date": "2026-09-08",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lsu-football-jumps-to-no-8-in-associated-press-poll-after-historic-win-over-clemson/"
-        },
-        {
-          "id": "9797b0efac43",
-          "teamId": "lsu",
-          "headline": "SEC sets a Thursday vote on removing LSU",
-          "summary": "The Southeastern Conference called a special meeting for Thursday to vote on putting LSU out of the league. The fight is over LSU adding former pro players to its roster, and two-thirds of the league's presidents would have to vote yes.",
-          "date": "2026-09-08",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/49869481/sec-files-amendment-authority-expel-lsu-conference"
         }
       ]
     },

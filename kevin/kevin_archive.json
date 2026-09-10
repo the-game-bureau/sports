@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-09",
+    "updated": "2026-09-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "9797b0efac43",
+      "teamId": "lsu",
+      "headline": "SEC sets a Thursday vote on removing LSU",
+      "summary": "The Southeastern Conference called a special meeting for Thursday to vote on putting LSU out of the league. The fight is over LSU adding former pro players to its roster, and two-thirds of the league's presidents would have to vote yes.",
+      "date": "2026-09-08",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49869481/sec-files-amendment-authority-expel-lsu-conference"
+    },
     {
       "id": "6989da183cec",
       "teamId": "lsu",

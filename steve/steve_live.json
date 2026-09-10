@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "teams": {
     "tulane": {
       "record": "0-1",
@@ -266,12 +266,12 @@
       ]
     },
     "yankees": {
-      "record": "82-62",
+      "record": "83-62",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Colorado Rockies",
-        "date": "2026-09-09",
-        "utc": "2026-09-09T23:05Z",
+        "date": "2026-09-10",
+        "utc": "2026-09-10T23:05Z",
         "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
@@ -284,12 +284,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 5,
-        "opponentScore": 3,
+        "teamScore": 6,
+        "opponentScore": 1,
         "opponent": "Colorado Rockies",
-        "date": "2026-09-08"
+        "date": "2026-09-09"
       },
       "news": [
+        {
+          "id": "670e26672f4c",
+          "teamId": "yankees",
+          "headline": "Rookie's grand slam lifts Yankees over Colorado",
+          "summary": "Rookie George Lombard Jr. hit the first grand slam of his career Wednesday night as the Yankees won 6-1. Aaron Judge went 2 for 4 for his first hits since coming back from a broken rib.",
+          "date": "2026-09-09",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
+        },
         {
           "id": "a7cbc90f77e6",
           "teamId": "yankees",
@@ -307,15 +316,6 @@
           "date": "2026-09-08",
           "source": "The Big Lead",
           "url": "https://www.thebiglead.com/yankees-announce-first-lineup-aaron-judge-3-months/"
-        },
-        {
-          "id": "4dc2ecd175be",
-          "teamId": "yankees",
-          "headline": "Aaron Judge is back from the injured list",
-          "summary": "The Yankees activated Judge on Monday night, more than three months after he cracked a rib. He is available for the Colorado series that starts Tuesday at Yankee Stadium.",
-          "date": "2026-09-07",
-          "source": "New York Daily News",
-          "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
         }
       ]
     },
