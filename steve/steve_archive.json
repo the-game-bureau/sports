@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "a6fb9905ed25",
+      "teamId": "yankees",
+      "headline": "Aaron Judge plays tonight for the first time since May",
+      "summary": "The Yankees put Judge in the lineup Tuesday against Colorado, batting third and playing right field. He missed 84 games with a cracked rib and last played on May 31.",
+      "date": "2026-09-08",
+      "source": "The Big Lead",
+      "url": "https://www.thebiglead.com/yankees-announce-first-lineup-aaron-judge-3-months/"
+    },
+    {
+      "id": "5bbf9dc910ad",
+      "teamId": "saints",
+      "headline": "Longtime Saints radio voice Mike Detillier dies",
+      "summary": "Detillier talked about the Saints and LSU on WWL radio for more than 40 years. He died Sunday at age 65, and the Saints called him a true gentleman.",
+      "date": "2026-09-06",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
+    },
+    {
       "id": "4dc2ecd175be",
       "teamId": "yankees",
       "headline": "Aaron Judge is back from the injured list",

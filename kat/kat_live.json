@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "6df0e4a96cab",
+          "teamId": "saints",
+          "headline": "Kamara practices again, but Cam Jordan sits out",
+          "summary": "Alvin Kamara practiced Thursday in a limited way as his sore knee gets better before Sunday's opener at Detroit. Cam Jordan did not practice at all with his hurt hamstring, and tight end Oscar Delp and running back Audric Estime sat out too.",
+          "date": "2026-09-10",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
+        },
+        {
           "id": "712adad28b0b",
           "teamId": "saints",
           "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
@@ -44,15 +53,6 @@
           "date": "2026-09-08",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-captains-2026-announced-roster"
-        },
-        {
-          "id": "5bbf9dc910ad",
-          "teamId": "saints",
-          "headline": "Longtime Saints radio voice Mike Detillier dies",
-          "summary": "Detillier talked about the Saints and LSU on WWL radio for more than 40 years. He died Sunday at age 65, and the Saints called him a true gentleman.",
-          "date": "2026-09-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
         }
       ]
     },
