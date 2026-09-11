@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "d40aff98e770",
+          "teamId": "saints",
+          "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
+          "summary": "The Saints ruled out Cam Jordan, tight end Oscar Delp and running back Audric Estime for Sunday's opener at Detroit. Alvin Kamara is listed as questionable after he practiced fully on Friday.",
+          "date": "2026-09-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+        },
+        {
           "id": "6df0e4a96cab",
           "teamId": "saints",
           "headline": "Kamara practices again, but Cam Jordan sits out",
@@ -44,15 +53,6 @@
           "date": "2026-09-10",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/sunday-is-feeding-day-for-new-orleans-saints-running-back-travis-etienne"
-        },
-        {
-          "id": "712adad28b0b",
-          "teamId": "saints",
-          "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
-          "summary": "Coach Kellen Moore said Wednesday that Cam Jordan's hurt hamstring will keep him out of the opener at Detroit. Alvin Kamara practiced for the first time since he hurt his knee in August, but he was held to a light workload.",
-          "date": "2026-09-09",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
         }
       ]
     },

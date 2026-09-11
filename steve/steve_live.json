@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "d40aff98e770",
+          "teamId": "saints",
+          "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
+          "summary": "The Saints ruled out Cam Jordan, tight end Oscar Delp and running back Audric Estime for Sunday's opener at Detroit. Alvin Kamara is listed as questionable after he practiced fully on Friday.",
+          "date": "2026-09-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+        },
+        {
           "id": "6df0e4a96cab",
           "teamId": "saints",
           "headline": "Kamara practices again, but Cam Jordan sits out",
@@ -206,20 +215,11 @@
           "date": "2026-09-10",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/sunday-is-feeding-day-for-new-orleans-saints-running-back-travis-etienne"
-        },
-        {
-          "id": "712adad28b0b",
-          "teamId": "saints",
-          "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
-          "summary": "Coach Kellen Moore said Wednesday that Cam Jordan's hurt hamstring will keep him out of the opener at Detroit. Alvin Kamara practiced for the first time since he hurt his knee in August, but he was held to a light workload.",
-          "date": "2026-09-09",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
         }
       ]
     },
     "iup": {
-      "record": "6-3",
+      "record": "8-3",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Shepherd",
@@ -231,11 +231,29 @@
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 1,
-        "opponent": "Daemen (N.Y.)",
-        "date": "2026-09-05"
+        "opponentScore": 0,
+        "opponent": "Millersville",
+        "date": "2026-09-11"
       },
       "news": [
+        {
+          "id": "f18ba4436e07",
+          "teamId": "iup",
+          "headline": "Peyton Belcher has her best day of the season",
+          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
+          "date": "2026-09-11",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
+        },
+        {
+          "id": "5eea72b0eecd",
+          "teamId": "iup",
+          "headline": "IUP wins twice in West Virginia",
+          "summary": "The Crimson Hawks beat Shepherd and then Millersville on Friday and did not lose a set in either match. IUP has now won seven in a row and is 8-3.",
+          "date": "2026-09-11",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
+        },
         {
           "id": "63f5b8cac876",
           "teamId": "iup",
@@ -244,24 +262,6 @@
           "date": "2026-09-08",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/9/8/womens-volleyball-concannon-earns-psac-athlete-of-the-week-honors.aspx"
-        },
-        {
-          "id": "a833201eae9d",
-          "teamId": "iup",
-          "headline": "IUP sweeps Lake Erie for its fourth win in a row",
-          "summary": "The Crimson Hawks won 25-23, 25-16 and 25-14 on Saturday at home. Charlotte Potvin had 11 kills, Delaney Concannon had 15 digs, and IUP is now 5-3.",
-          "date": "2026-09-05",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/lake-erie-college/boxscore/15072"
-        },
-        {
-          "id": "0dc89a2cc880",
-          "teamId": "iup",
-          "headline": "IUP beats Daemen to finish a perfect weekend",
-          "summary": "The Crimson Hawks lost the first set Saturday at home and then won the next three, 25-20, 25-19 and 25-18. They went 4-0 in their own tournament, and Delaney Concannon had 19 kills and 20 digs.",
-          "date": "2026-09-05",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/5/womens-volleyball-volleyball-completes-perfect-weekend-at-crimson-hawk-classic.aspx"
         }
       ]
     },
@@ -291,6 +291,15 @@
       },
       "news": [
         {
+          "id": "5a8d8e1ce03d",
+          "teamId": "yankees",
+          "headline": "Chisholm goes on the injured list with a hurt thumb",
+          "summary": "Jazz Chisholm sprained his thumb sliding into second base and will not play for at least a week. Jose Caballero is taking his place at second base.",
+          "date": "2026-09-10",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/09/yankees-to-place-jazz-chisholm-jr-on-injured-list.html"
+        },
+        {
           "id": "76846fcf1521",
           "teamId": "yankees",
           "headline": "Aaron Judge gets a rest day Thursday",
@@ -307,15 +316,6 @@
           "date": "2026-09-10",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-break-open-complete-sweep-025459946.html"
-        },
-        {
-          "id": "670e26672f4c",
-          "teamId": "yankees",
-          "headline": "Rookie's grand slam lifts Yankees over Colorado",
-          "summary": "Rookie George Lombard Jr. hit the first grand slam of his career Wednesday night as the Yankees won 6-1. Aaron Judge went 2 for 4 for his first hits since coming back from a broken rib.",
-          "date": "2026-09-09",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
         }
       ]
     },

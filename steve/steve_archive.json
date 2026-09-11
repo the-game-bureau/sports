@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "712adad28b0b",
+      "teamId": "saints",
+      "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
+      "summary": "Coach Kellen Moore said Wednesday that Cam Jordan's hurt hamstring will keep him out of the opener at Detroit. Alvin Kamara practiced for the first time since he hurt his knee in August, but he was held to a light workload.",
+      "date": "2026-09-09",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
+    },
+    {
+      "id": "670e26672f4c",
+      "teamId": "yankees",
+      "headline": "Rookie's grand slam lifts Yankees over Colorado",
+      "summary": "Rookie George Lombard Jr. hit the first grand slam of his career Wednesday night as the Yankees won 6-1. Aaron Judge went 2 for 4 for his first hits since coming back from a broken rib.",
+      "date": "2026-09-09",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
+    },
+    {
+      "id": "a833201eae9d",
+      "teamId": "iup",
+      "headline": "IUP sweeps Lake Erie for its fourth win in a row",
+      "summary": "The Crimson Hawks won 25-23, 25-16 and 25-14 on Saturday at home. Charlotte Potvin had 11 kills, Delaney Concannon had 15 digs, and IUP is now 5-3.",
+      "date": "2026-09-05",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/lake-erie-college/boxscore/15072"
+    },
+    {
+      "id": "0dc89a2cc880",
+      "teamId": "iup",
+      "headline": "IUP beats Daemen to finish a perfect weekend",
+      "summary": "The Crimson Hawks lost the first set Saturday at home and then won the next three, 25-20, 25-19 and 25-18. They went 4-0 in their own tournament, and Delaney Concannon had 19 kills and 20 digs.",
+      "date": "2026-09-05",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/5/womens-volleyball-volleyball-completes-perfect-weekend-at-crimson-hawk-classic.aspx"
+    },
+    {
       "id": "f17ff3ce2f2a",
       "teamId": "saints",
       "headline": "Saints name nine captains for the new season",
