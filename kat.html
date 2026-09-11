@@ -1377,10 +1377,27 @@
         return wrap;
     }
 
+    // The stories, newest first. These used to be appended only at whatever
+    // link happened to be labelled News, so a team without that button wrote
+    // its stories into the file and never showed one — which hit IUP, the one
+    // team on the page purely for its news.
+    function buildStories(team) {
+        var latest = buildLatestStory(team);
+        var older = buildNews(team);
+        if (!latest && !older) { return null; }
+
+        var frag = document.createDocumentFragment();
+        if (latest) { frag.appendChild(latest); }
+        if (older) { frag.appendChild(older); }
+        return frag;
+    }
+
     function buildActions(team) {
         var links = team.links || [];
-        if (!links.length) { return null; }
+        var stories = buildStories(team);
+        if (!links.length) { return stories; }
 
+        var placed = false;
         var wrap = el('div', 'team-actions');
         links.forEach(function (l, i) {
             var a = el('a', 'action-btn' + (i === 0 ? ' primary' : '') +
@@ -1397,13 +1414,16 @@
             a.appendChild(document.createTextNode((prefix + l.label).trim()));
             wrap.appendChild(a);
 
-            if (/news/i.test(l.label)) {
-                var latest = buildLatestStory(team);
-                if (latest) { wrap.appendChild(latest); }
-                var older = buildNews(team);
-                if (older) { wrap.appendChild(older); }
+            // Under the News button when there is one, so the newest story
+            // sits where he already looks for it.
+            if (!placed && /news/i.test(l.label)) {
+                if (stories) { wrap.appendChild(stories); }
+                placed = true;
             }
         });
+
+        // No News button is not a reason to have no news.
+        if (!placed && stories) { wrap.appendChild(stories); }
         return wrap;
     }
 
