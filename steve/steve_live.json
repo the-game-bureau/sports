@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "teams": {
     "tulane": {
       "record": "0-1",
@@ -82,6 +82,24 @@
       },
       "news": [
         {
+          "id": "7efaab37065a",
+          "teamId": "florida",
+          "headline": "Florida's game with Campbell is sold out",
+          "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 20th home game in a row the Gators have sold out.",
+          "date": "2026-09-10",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/10/football-sold-out-campbell-game-marks-20th-straight-sellout-for-gators"
+        },
+        {
+          "id": "b79caae116ad",
+          "teamId": "florida",
+          "headline": "Florida will wear blue helmets Saturday",
+          "summary": "The Gators announced Thursday that they will wear blue helmets, orange jerseys and white pants against Campbell. They have not worn the blue helmets since 2020.",
+          "date": "2026-09-10",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-to-debut-new-uniform-combo-for-saturdays-week-2-game/"
+        },
+        {
           "id": "1647f6d94347",
           "teamId": "florida",
           "headline": "Sumrall wants a cleaner game from the Gators",
@@ -89,24 +107,6 @@
           "date": "2026-09-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/jon-sumrall-seeks-growth-florida-212216317.html"
-        },
-        {
-          "id": "5efd0b5df518",
-          "teamId": "florida",
-          "headline": "Florida receiver Eric Singleton may miss Saturday",
-          "summary": "Coach Jon Sumrall said Singleton hurt his ankle in the win over Florida Atlantic and is highly questionable for the Campbell game. Sumrall said the team will not know for sure until later in the week.",
-          "date": "2026-09-07",
-          "source": "Florida Gators On SI",
-          "url": "https://www.si.com/college/florida/football/sumrall-updates-injury-status-gators-wr-eric-singleton-jr-01m1ygqg3ney"
-        },
-        {
-          "id": "7f4df3cb252e",
-          "teamId": "florida",
-          "headline": "Two Florida players got hurt in the opener",
-          "summary": "Coach Jon Sumrall said receiver Eric Singleton Jr. hurt an ankle and running back Evan Pryor had a sore hip in Saturday's win. Sumrall did not know how bad either one is and will say more on Monday.",
-          "date": "2026-09-06",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/sumrall-provides-brief-injury-updates-gators-win-vs-fau-01m1tye44ag8"
         }
       ]
     },
@@ -199,6 +199,15 @@
           "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
         },
         {
+          "id": "eccd52f7863b",
+          "teamId": "saints",
+          "headline": "Travis Etienne will play his first game for the Saints",
+          "summary": "Running back Travis Etienne sat out the preseason, so Sunday at Detroit will be his first game in a Saints uniform. He grew up in Jennings, Louisiana, and ran for more than 1,000 yards in three of his four seasons with Jacksonville.",
+          "date": "2026-09-10",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/sunday-is-feeding-day-for-new-orleans-saints-running-back-travis-etienne"
+        },
+        {
           "id": "712adad28b0b",
           "teamId": "saints",
           "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
@@ -206,15 +215,6 @@
           "date": "2026-09-09",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
-        },
-        {
-          "id": "f17ff3ce2f2a",
-          "teamId": "saints",
-          "headline": "Saints name nine captains for the new season",
-          "summary": "Cam Jordan, Erik McCoy, Justin Reid and Zach Wood are captains again, and five more players earned it for the first time. New starting quarterback Tyler Shough is one of them.",
-          "date": "2026-09-08",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-captains-2026-announced-roster"
         }
       ]
     },
@@ -266,28 +266,28 @@
       ]
     },
     "yankees": {
-      "record": "83-62",
+      "record": "84-62",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Colorado Rockies",
-        "date": "2026-09-10",
-        "utc": "2026-09-10T23:05Z",
+        "opponent": "New York Mets",
+        "date": "2026-09-11",
+        "utc": "2026-09-11T23:05Z",
         "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "YES Network",
-          "logo": "",
+          "name": "ESPN Unlimited",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 6,
-        "opponentScore": 1,
+        "teamScore": 10,
+        "opponentScore": 3,
         "opponent": "Colorado Rockies",
-        "date": "2026-09-09"
+        "date": "2026-09-10"
       },
       "news": [
         {
@@ -300,6 +300,15 @@
           "url": "https://sports.yahoo.com/articles/why-aaron-judge-not-playing-200412303.html"
         },
         {
+          "id": "dcd036148dc6",
+          "teamId": "yankees",
+          "headline": "Volpe's grand slam finishes off a sweep",
+          "summary": "Anthony Volpe hit a grand slam in the seventh inning Thursday night and drove in five runs in a 10-3 win. The Yankees swept all three games from Colorado and are now 84-62.",
+          "date": "2026-09-10",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-break-open-complete-sweep-025459946.html"
+        },
+        {
           "id": "670e26672f4c",
           "teamId": "yankees",
           "headline": "Rookie's grand slam lifts Yankees over Colorado",
@@ -307,15 +316,6 @@
           "date": "2026-09-09",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
-        },
-        {
-          "id": "a7cbc90f77e6",
-          "teamId": "yankees",
-          "headline": "Yankees beat Colorado 5-3 in Judge's first game back",
-          "summary": "Aaron Judge played right field Tuesday night for the first time since May and went 0 for 3. Ryan McMahon hit the go-ahead double in the fifth inning, and Cam Schlittler pitched seven strong innings.",
-          "date": "2026-09-08",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816855"
         }
       ]
     },

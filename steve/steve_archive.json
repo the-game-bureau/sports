@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-10",
+    "updated": "2026-09-11",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f17ff3ce2f2a",
+      "teamId": "saints",
+      "headline": "Saints name nine captains for the new season",
+      "summary": "Cam Jordan, Erik McCoy, Justin Reid and Zach Wood are captains again, and five more players earned it for the first time. New starting quarterback Tyler Shough is one of them.",
+      "date": "2026-09-08",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-captains-2026-announced-roster"
+    },
+    {
+      "id": "a7cbc90f77e6",
+      "teamId": "yankees",
+      "headline": "Yankees beat Colorado 5-3 in Judge's first game back",
+      "summary": "Aaron Judge played right field Tuesday night for the first time since May and went 0 for 3. Ryan McMahon hit the go-ahead double in the fifth inning, and Cam Schlittler pitched seven strong innings.",
+      "date": "2026-09-08",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816855"
+    },
+    {
+      "id": "5efd0b5df518",
+      "teamId": "florida",
+      "headline": "Florida receiver Eric Singleton may miss Saturday",
+      "summary": "Coach Jon Sumrall said Singleton hurt his ankle in the win over Florida Atlantic and is highly questionable for the Campbell game. Sumrall said the team will not know for sure until later in the week.",
+      "date": "2026-09-07",
+      "source": "Florida Gators On SI",
+      "url": "https://www.si.com/college/florida/football/sumrall-updates-injury-status-gators-wr-eric-singleton-jr-01m1ygqg3ney"
+    },
+    {
+      "id": "7f4df3cb252e",
+      "teamId": "florida",
+      "headline": "Two Florida players got hurt in the opener",
+      "summary": "Coach Jon Sumrall said receiver Eric Singleton Jr. hurt an ankle and running back Evan Pryor had a sore hip in Saturday's win. Sumrall did not know how bad either one is and will say more on Monday.",
+      "date": "2026-09-06",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/sumrall-provides-brief-injury-updates-gators-win-vs-fau-01m1tye44ag8"
+    },
     {
       "id": "a6fb9905ed25",
       "teamId": "yankees",

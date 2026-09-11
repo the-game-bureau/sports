@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -37,6 +37,15 @@
           "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
         },
         {
+          "id": "eccd52f7863b",
+          "teamId": "saints",
+          "headline": "Travis Etienne will play his first game for the Saints",
+          "summary": "Running back Travis Etienne sat out the preseason, so Sunday at Detroit will be his first game in a Saints uniform. He grew up in Jennings, Louisiana, and ran for more than 1,000 yards in three of his four seasons with Jacksonville.",
+          "date": "2026-09-10",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/sunday-is-feeding-day-for-new-orleans-saints-running-back-travis-etienne"
+        },
+        {
           "id": "712adad28b0b",
           "teamId": "saints",
           "headline": "Cam Jordan will miss Sunday; Kamara back at practice",
@@ -44,15 +53,6 @@
           "date": "2026-09-09",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
-        },
-        {
-          "id": "f17ff3ce2f2a",
-          "teamId": "saints",
-          "headline": "Saints name nine captains for the new season",
-          "summary": "Cam Jordan, Erik McCoy, Justin Reid and Zach Wood are captains again, and five more players earned it for the first time. New starting quarterback Tyler Shough is one of them.",
-          "date": "2026-09-08",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-captains-2026-announced-roster"
         }
       ]
     },
@@ -82,6 +82,24 @@
       },
       "news": [
         {
+          "id": "7efaab37065a",
+          "teamId": "florida",
+          "headline": "Florida's game with Campbell is sold out",
+          "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 20th home game in a row the Gators have sold out.",
+          "date": "2026-09-10",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/10/football-sold-out-campbell-game-marks-20th-straight-sellout-for-gators"
+        },
+        {
+          "id": "b79caae116ad",
+          "teamId": "florida",
+          "headline": "Florida will wear blue helmets Saturday",
+          "summary": "The Gators announced Thursday that they will wear blue helmets, orange jerseys and white pants against Campbell. They have not worn the blue helmets since 2020.",
+          "date": "2026-09-10",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-to-debut-new-uniform-combo-for-saturdays-week-2-game/"
+        },
+        {
           "id": "1647f6d94347",
           "teamId": "florida",
           "headline": "Sumrall wants a cleaner game from the Gators",
@@ -89,24 +107,6 @@
           "date": "2026-09-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/jon-sumrall-seeks-growth-florida-212216317.html"
-        },
-        {
-          "id": "5efd0b5df518",
-          "teamId": "florida",
-          "headline": "Florida receiver Eric Singleton may miss Saturday",
-          "summary": "Coach Jon Sumrall said Singleton hurt his ankle in the win over Florida Atlantic and is highly questionable for the Campbell game. Sumrall said the team will not know for sure until later in the week.",
-          "date": "2026-09-07",
-          "source": "Florida Gators On SI",
-          "url": "https://www.si.com/college/florida/football/sumrall-updates-injury-status-gators-wr-eric-singleton-jr-01m1ygqg3ney"
-        },
-        {
-          "id": "7f4df3cb252e",
-          "teamId": "florida",
-          "headline": "Two Florida players got hurt in the opener",
-          "summary": "Coach Jon Sumrall said receiver Eric Singleton Jr. hurt an ankle and running back Evan Pryor had a sore hip in Saturday's win. Sumrall did not know how bad either one is and will say more on Monday.",
-          "date": "2026-09-06",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/sumrall-provides-brief-injury-updates-gators-win-vs-fau-01m1tye44ag8"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "753eeb321ecd",
+          "teamId": "lsu",
+          "headline": "SEC meets but takes no vote on LSU",
+          "summary": "The league's school presidents met by video call Thursday and did not vote on LSU's membership. The SEC said afterward only that the talks will keep going.",
+          "date": "2026-09-10",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/college-football/news/sec-presidents-and-chancellors-meet-without-voting-on-lsus-membership"
+        },
+        {
           "id": "4c3dcf15c759",
           "teamId": "lsu",
           "headline": "SEC not expected to vote on removing LSU",
@@ -152,15 +161,6 @@
           "date": "2026-09-09",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/49883607/lsu-tells-sec-tigers-complied-disrupt-meeting"
-        },
-        {
-          "id": "3e9aeeb35923",
-          "teamId": "lsu",
-          "headline": "LSU moves up to No. 8 in the new poll",
-          "summary": "The Associated Press poll came out Tuesday and LSU climbed from 11th to 8th after beating Clemson 51-10. The Tigers host Louisiana Tech on Saturday night.",
-          "date": "2026-09-08",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-football-jumps-to-no-8-in-associated-press-poll-after-historic-win-over-clemson/"
         }
       ]
     },
