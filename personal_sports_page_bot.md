@@ -72,6 +72,14 @@ Newest 3 stories per team stay on the report. Older ones move to that report's a
 — `steve/steve_archive.json` behind [steve/steve_archive.html](steve/steve_archive.html), `kat/kat_archive.json`
 behind [kat/kat_archive.html](kat/kat_archive.html).
 
+**Peyton Belcher gets her own story.** IUP is on Steve's page because of her, so when
+a run turns up a real performance — a stat line off a box score, a season high, a
+weekly award — that goes on the page as an IUP story, not just into the run's report.
+The numbers are written plainly, errors included. What never goes on the page is the
+absence of news: she did not play, nothing on Instagram, no award this week. That
+belongs in the report the run hands back, and nowhere else. When IUP has more than
+three stories, hers is the one that stays.
+
 Every run writes a `.bak` beside each file it touches, so a bad run is one file rename
 away from undone.
 

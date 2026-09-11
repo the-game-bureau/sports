@@ -313,8 +313,45 @@ Right now that is **IUP Crimson Hawks volleyball**, where this reader specifical
 wants **Peyton Belcher**: her stat lines, match honors, PSAC weekly awards, roster
 notes, and any feature story that names her. Check IUP athletics, PSAC releases, her
 Instagram, and Indiana, PA local coverage. Also get IUP's record, next match, and last
-result while you are there — nothing else will. If there is genuinely nothing new
-about Peyton, say so plainly rather than substituting generic team news.
+result while you are there — nothing else will.
+
+### When you find something on Peyton, it becomes a story
+
+This is the reason IUP is on the page at all. When the search turns up something real
+about her, **write it into `iup`'s `news[]`** — do not just mention it in your report
+at the end. Her grandfather reads the page, not the report.
+
+Real means something that happened, with a link:
+
+- **A stat line from a match she played.** A box score is a source. Kills, attempts,
+  hitting percentage, digs, blocks, aces, sets played.
+- **A high** — season or career, hers or the team's lead that day.
+- An award, an honor, or a weekly conference mention.
+- A roster note, a feature, or any story that names her.
+
+Say the numbers plainly and **do not dress them up**. A hitting line includes the
+errors, and that is fine — "8 kills on 14 swings with 1 error" is an honest sentence
+and a good one. Round nothing, inflate nothing, and never call a performance great
+when the numbers do not.
+
+**What never goes on the page is the absence of news.** She did not play, she was not
+in the box score, nothing turned up on Instagram, no PSAC award this week, the local
+paper had nothing — none of that is a story. It is worth telling the user in Step 5,
+and it is worth nothing to the reader. A page that says "no news about Peyton today"
+is worse than a page that simply does not mention her.
+
+A good one, from a real day:
+
+```json
+{
+  "headline": "Peyton Belcher has her best day of the season",
+  "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings."
+}
+```
+
+Name her in the headline. Her story is separate from the team's result story — the day
+above is worth both, hers and IUP's sweep — and when a team has more than three,
+**hers is the one that stays.** Generic team news goes to the archive first.
 
 For every team, find up to **3 real stories from the last 3 days** — a result, an
 injury, an award, a lineup or coaching change. Something that actually happened.
@@ -369,6 +406,9 @@ python -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].strip().lower().enc
 - Sort each `news[]` newest first.
 - **Keep only the newest 3 per team.** Move the rest into that report's archive —
   each live file overflows to the archive beside it — with `teamId` set, newest first, capped at 500 items total.
+  One exception to newest-first: a story about a team's followed person — Peyton on
+  IUP — stays on the page ahead of generic team news of the same age. She is why the
+  team is there.
 
 Set `updated` in all three live files and `meta.updated` in all three archives to today's
 date, `YYYY-MM-DD`.
@@ -395,7 +435,9 @@ Tell the user, in a few plain lines:
 - what changed per team — record, next game, last result, stories added — and which
   report each change landed in;
 - which teams had no real news;
-- specifically what you found on Peyton Belcher, or that there was nothing;
+- specifically what you found on Peyton Belcher, whether it went on the page, and
+  where you looked and came up empty — this report is the place for the empty
+  searches, the page is not;
 - how many stories moved to the archive.
 
 Do not paste the JSON back into the conversation. The files are the output.
