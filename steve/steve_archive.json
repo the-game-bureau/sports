@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "eccd52f7863b",
+      "teamId": "saints",
+      "headline": "Travis Etienne will play his first game for the Saints",
+      "summary": "Running back Travis Etienne sat out the preseason, so Sunday at Detroit will be his first game in a Saints uniform. He grew up in Jennings, Louisiana, and ran for more than 1,000 yards in three of his four seasons with Jacksonville.",
+      "date": "2026-09-10",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/sunday-is-feeding-day-for-new-orleans-saints-running-back-travis-etienne"
+    },
+    {
+      "id": "dcd036148dc6",
+      "teamId": "yankees",
+      "headline": "Volpe's grand slam finishes off a sweep",
+      "summary": "Anthony Volpe hit a grand slam in the seventh inning Thursday night and drove in five runs in a 10-3 win. The Yankees swept all three games from Colorado and are now 84-62.",
+      "date": "2026-09-10",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-break-open-complete-sweep-025459946.html"
+    },
+    {
       "id": "76846fcf1521",
       "teamId": "yankees",
       "headline": "Aaron Judge gets a rest day Thursday",
@@ -43,24 +61,6 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
     },
     {
-      "id": "a833201eae9d",
-      "teamId": "iup",
-      "headline": "IUP sweeps Lake Erie for its fourth win in a row",
-      "summary": "The Crimson Hawks won 25-23, 25-16 and 25-14 on Saturday at home. Charlotte Potvin had 11 kills, Delaney Concannon had 15 digs, and IUP is now 5-3.",
-      "date": "2026-09-05",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/lake-erie-college/boxscore/15072"
-    },
-    {
-      "id": "0dc89a2cc880",
-      "teamId": "iup",
-      "headline": "IUP beats Daemen to finish a perfect weekend",
-      "summary": "The Crimson Hawks lost the first set Saturday at home and then won the next three, 25-20, 25-19 and 25-18. They went 4-0 in their own tournament, and Delaney Concannon had 19 kills and 20 digs.",
-      "date": "2026-09-05",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/9/5/womens-volleyball-volleyball-completes-perfect-weekend-at-crimson-hawk-classic.aspx"
-    },
-    {
       "id": "f17ff3ce2f2a",
       "teamId": "saints",
       "headline": "Saints name nine captains for the new season",
@@ -79,6 +79,33 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401816855"
     },
     {
+      "id": "a6fb9905ed25",
+      "teamId": "yankees",
+      "headline": "Aaron Judge plays tonight for the first time since May",
+      "summary": "The Yankees put Judge in the lineup Tuesday against Colorado, batting third and playing right field. He missed 84 games with a cracked rib and last played on May 31.",
+      "date": "2026-09-08",
+      "source": "The Big Lead",
+      "url": "https://www.thebiglead.com/yankees-announce-first-lineup-aaron-judge-3-months/"
+    },
+    {
+      "id": "cc0fac9c31d1",
+      "teamId": "texas",
+      "headline": "Texas lineman Cole Hutson cannot play right now",
+      "summary": "Coach Steve Sarkisian said Hutson is not eligible because he went to two NFL tryout camps last spring. Texas is appealing to the NCAA, and Hutson has started 23 games for the Longhorns.",
+      "date": "2026-09-07",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49861254/texas-ol-cole-hutson-ineligible-stints-nfl-teams"
+    },
+    {
+      "id": "1647f6d94347",
+      "teamId": "florida",
+      "headline": "Sumrall wants a cleaner game from the Gators",
+      "summary": "Coach Jon Sumrall said Monday that his defense was not sharp in the 66-21 win over Florida Atlantic. He also said the bad snaps from his center will get fixed before Campbell visits on Saturday.",
+      "date": "2026-09-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/jon-sumrall-seeks-growth-florida-212216317.html"
+    },
+    {
       "id": "5efd0b5df518",
       "teamId": "florida",
       "headline": "Florida receiver Eric Singleton may miss Saturday",
@@ -86,6 +113,15 @@
       "date": "2026-09-07",
       "source": "Florida Gators On SI",
       "url": "https://www.si.com/college/florida/football/sumrall-updates-injury-status-gators-wr-eric-singleton-jr-01m1ygqg3ney"
+    },
+    {
+      "id": "4dc2ecd175be",
+      "teamId": "yankees",
+      "headline": "Aaron Judge is back from the injured list",
+      "summary": "The Yankees activated Judge on Monday night, more than three months after he cracked a rib. He is available for the Colorado series that starts Tuesday at Yankee Stadium.",
+      "date": "2026-09-07",
+      "source": "New York Daily News",
+      "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
     },
     {
       "id": "7f4df3cb252e",
@@ -97,15 +133,6 @@
       "url": "https://www.si.com/college/florida/football/sumrall-provides-brief-injury-updates-gators-win-vs-fau-01m1tye44ag8"
     },
     {
-      "id": "a6fb9905ed25",
-      "teamId": "yankees",
-      "headline": "Aaron Judge plays tonight for the first time since May",
-      "summary": "The Yankees put Judge in the lineup Tuesday against Colorado, batting third and playing right field. He missed 84 games with a cracked rib and last played on May 31.",
-      "date": "2026-09-08",
-      "source": "The Big Lead",
-      "url": "https://www.thebiglead.com/yankees-announce-first-lineup-aaron-judge-3-months/"
-    },
-    {
       "id": "5bbf9dc910ad",
       "teamId": "saints",
       "headline": "Longtime Saints radio voice Mike Detillier dies",
@@ -113,15 +140,6 @@
       "date": "2026-09-06",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/mike-detillier-wwl-passing-saints-statement"
-    },
-    {
-      "id": "4dc2ecd175be",
-      "teamId": "yankees",
-      "headline": "Aaron Judge is back from the injured list",
-      "summary": "The Yankees activated Judge on Monday night, more than three months after he cracked a rib. He is available for the Colorado series that starts Tuesday at Yankee Stadium.",
-      "date": "2026-09-07",
-      "source": "New York Daily News",
-      "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
     },
     {
       "id": "0225a6a72058",
@@ -140,6 +158,24 @@
       "date": "2026-09-06",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/game/_/gameId/401816840"
+    },
+    {
+      "id": "a833201eae9d",
+      "teamId": "iup",
+      "headline": "IUP sweeps Lake Erie for its fourth win in a row",
+      "summary": "The Crimson Hawks won 25-23, 25-16 and 25-14 on Saturday at home. Charlotte Potvin had 11 kills, Delaney Concannon had 15 digs, and IUP is now 5-3.",
+      "date": "2026-09-05",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/lake-erie-college/boxscore/15072"
+    },
+    {
+      "id": "0dc89a2cc880",
+      "teamId": "iup",
+      "headline": "IUP beats Daemen to finish a perfect weekend",
+      "summary": "The Crimson Hawks lost the first set Saturday at home and then won the next three, 25-20, 25-19 and 25-18. They went 4-0 in their own tournament, and Delaney Concannon had 19 kills and 20 digs.",
+      "date": "2026-09-05",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/5/womens-volleyball-volleyball-completes-perfect-weekend-at-crimson-hawk-classic.aspx"
     },
     {
       "id": "51b381ce3be7",
