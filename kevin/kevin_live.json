@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "teams": {
     "saints": {
       "record": "0-0",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "e11d33977d60",
+          "teamId": "saints",
+          "headline": "Tyler Shough starts his second season as a captain",
+          "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
+          "date": "2026-09-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
+        },
+        {
           "id": "d40aff98e770",
           "teamId": "saints",
           "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
@@ -35,15 +44,6 @@
           "date": "2026-09-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
-        },
-        {
-          "id": "6df0e4a96cab",
-          "teamId": "saints",
-          "headline": "Kamara practices again, but Cam Jordan sits out",
-          "summary": "Alvin Kamara practiced Thursday in a limited way as his sore knee gets better before Sunday's opener at Detroit. Cam Jordan did not practice at all with his hurt hamstring, and tight end Oscar Delp and running back Audric Estime sat out too.",
-          "date": "2026-09-10",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
         },
         {
           "id": "eccd52f7863b",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "teams": {
     "tulane": {
       "record": "0-1",
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "e11d33977d60",
+          "teamId": "saints",
+          "headline": "Tyler Shough starts his second season as a captain",
+          "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
+          "date": "2026-09-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
+        },
+        {
           "id": "d40aff98e770",
           "teamId": "saints",
           "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
@@ -197,15 +206,6 @@
           "date": "2026-09-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
-        },
-        {
-          "id": "6df0e4a96cab",
-          "teamId": "saints",
-          "headline": "Kamara practices again, but Cam Jordan sits out",
-          "summary": "Alvin Kamara practiced Thursday in a limited way as his sore knee gets better before Sunday's opener at Detroit. Cam Jordan did not practice at all with his hurt hamstring, and tight end Oscar Delp and running back Audric Estime sat out too.",
-          "date": "2026-09-10",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
         },
         {
           "id": "eccd52f7863b",
@@ -222,11 +222,11 @@
       "record": "8-3",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Shepherd",
-        "date": "2026-09-11",
-        "time": "12:00 PM",
-        "venue": "Shepherd University (PSAC Crossover)",
-        "city": "Shepherdstown, WV"
+        "opponent": "Seton Hill",
+        "date": "2026-09-18",
+        "time": "5:00 PM",
+        "venue": "Seton Hill University (PSAC)",
+        "city": "Greensburg, PA"
       },
       "lastGame": {
         "result": "W",
@@ -266,30 +266,39 @@
       ]
     },
     "yankees": {
-      "record": "84-62",
+      "record": "85-62",
       "nextGame": {
         "homeAway": "home",
         "opponent": "New York Mets",
-        "date": "2026-09-11",
-        "utc": "2026-09-11T23:05Z",
-        "time": "6:05 PM",
+        "date": "2026-09-12",
+        "utc": "2026-09-12T17:35Z",
+        "time": "12:35 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "ESPN Unlimited",
-          "logo": "images/espnplus.webp",
+          "name": "MLB Network",
+          "logo": "images/mlbnet.svg",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 10,
-        "opponentScore": 3,
-        "opponent": "Colorado Rockies",
-        "date": "2026-09-10"
+        "teamScore": 6,
+        "opponentScore": 4,
+        "opponent": "New York Mets",
+        "date": "2026-09-11"
       },
       "news": [
+        {
+          "id": "1b05d109bcd3",
+          "teamId": "yankees",
+          "headline": "Bellinger homer lifts Yankees past the Mets",
+          "summary": "Cody Bellinger hit a three-run home run in the second inning Friday night and the Yankees beat the Mets 6-4. New York is 85-62 and leads Boston by five and a half games for the first wild card spot.",
+          "date": "2026-09-11",
+          "source": "NY1",
+          "url": "https://ny1.com/nyc/bronx/sports/2026/09/12/bellinger-hits-3-run-homer-as-yankees-beat-mets-6-4-on-25th-anniversary-of-9-11"
+        },
         {
           "id": "5a8d8e1ce03d",
           "teamId": "yankees",
@@ -298,15 +307,6 @@
           "date": "2026-09-10",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/09/yankees-to-place-jazz-chisholm-jr-on-injured-list.html"
-        },
-        {
-          "id": "76846fcf1521",
-          "teamId": "yankees",
-          "headline": "Aaron Judge gets a rest day Thursday",
-          "summary": "Judge is out of the lineup for Thursday night's game against Colorado, with Jasson Dominguez playing right field instead. Manager Aaron Boone had said he would give Judge one day off this week as he works back from the broken rib that kept him out since May.",
-          "date": "2026-09-10",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/why-aaron-judge-not-playing-200412303.html"
         },
         {
           "id": "dcd036148dc6",

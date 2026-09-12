@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-11",
+    "updated": "2026-09-12",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "76846fcf1521",
+      "teamId": "yankees",
+      "headline": "Aaron Judge gets a rest day Thursday",
+      "summary": "Judge is out of the lineup for Thursday night's game against Colorado, with Jasson Dominguez playing right field instead. Manager Aaron Boone had said he would give Judge one day off this week as he works back from the broken rib that kept him out since May.",
+      "date": "2026-09-10",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/why-aaron-judge-not-playing-200412303.html"
+    },
+    {
+      "id": "6df0e4a96cab",
+      "teamId": "saints",
+      "headline": "Kamara practices again, but Cam Jordan sits out",
+      "summary": "Alvin Kamara practiced Thursday in a limited way as his sore knee gets better before Sunday's opener at Detroit. Cam Jordan did not practice at all with his hurt hamstring, and tight end Oscar Delp and running back Audric Estime sat out too.",
+      "date": "2026-09-10",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
+    },
     {
       "id": "712adad28b0b",
       "teamId": "saints",
