@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "fff3f4760302",
+          "teamId": "tulane",
+          "headline": "Tulane wears Mardi Gras uniforms Saturday night",
+          "summary": "Tulane plays South Alabama at home Saturday night in green, purple and gold uniforms made for Mardi Gras. The helmet shows the Angry Wave in a jester hat with beads around it, and the back of the helmet reads \"Uptown.\"",
+          "date": "2026-09-12",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-unveils-uniforms-home-opener-222232481.html"
+        },
+        {
           "id": "9891c87c72fb",
           "teamId": "tulane",
           "headline": "Tulane names a new starting quarterback",
@@ -206,15 +215,6 @@
           "date": "2026-09-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/everything-tulane-hc-hall-said-013618609.html"
-        },
-        {
-          "id": "55b4db283df6",
-          "teamId": "tulane",
-          "headline": "Duke beats Tulane 17-3 in the opener",
-          "summary": "Tulane's offense never got going Saturday at Duke and the Green Wave managed only a field goal. Duke running back Nate Sheppard carried the ball 35 times for 227 yards and two touchdowns.",
-          "date": "2026-09-05",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-inept-in-17-3-loss-at-duke/"
         }
       ]
     }
