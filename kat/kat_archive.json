@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "4c3dcf15c759",
+      "teamId": "lsu",
+      "headline": "SEC not expected to vote on removing LSU",
+      "summary": "LSU filled its last two roster spots and told the conference the matter was closed, so the vote is off the agenda for Thursday's meeting. The two former pro players LSU wanted to add cannot join the team this season.",
+      "date": "2026-09-09",
+      "source": "Associated Press",
+      "url": "https://www.click2houston.com/sports/2026/09/10/sec-not-expected-to-vote-on-lsus-membership-this-week-ap-source-says/"
+    },
+    {
+      "id": "e11d33977d60",
+      "teamId": "saints",
+      "headline": "Tyler Shough starts his second season as a captain",
+      "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
+      "date": "2026-09-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
+    },
+    {
+      "id": "222d4961059f",
+      "teamId": "saints",
+      "headline": "Kellen Moore returns to the team he started with",
+      "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
+      "date": "2026-09-12",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
+    },
+    {
       "id": "d40aff98e770",
       "teamId": "saints",
       "headline": "Cam Jordan is out Sunday, Kamara is a maybe",

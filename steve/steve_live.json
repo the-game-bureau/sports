@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "69e3d7b331fc",
+          "teamId": "texas",
+          "headline": "Texas is the new No. 1 team in the country",
+          "summary": "The Longhorns took over the top spot in the Associated Press poll Sunday after beating Ohio State, with 56 of the first-place votes. It is the first time Texas has been No. 1 during a season since October 2024.",
+          "date": "2026-09-13",
+          "source": "Associated Press",
+          "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
+        },
+        {
           "id": "8c1f5e7cd6f9",
           "teamId": "texas",
           "headline": "Texas beats No. 1 Ohio State 24-23",
@@ -152,20 +161,11 @@
           "date": "2026-09-12",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/game/_/gameId/401856682"
-        },
-        {
-          "id": "fe93f6aa1a1e",
-          "teamId": "texas",
-          "headline": "Cole Hutson can play against Ohio State",
-          "summary": "The NCAA cleared the Texas lineman on Saturday, a week after the school said he was not eligible. He is not expected to start, but he is available if Texas needs him.",
-          "date": "2026-09-12",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/texas-finally-gets-a-decision-in-the-cole-hutson-eligibility-case"
         }
       ]
     },
     "saints": {
-      "record": "0-0",
+      "record": "0-1",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Detroit Lions",
@@ -182,13 +182,31 @@
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 27,
-        "opponentScore": 24,
-        "opponent": "Dallas Cowboys",
-        "date": "2026-08-28"
+        "result": "L",
+        "teamScore": 30,
+        "opponentScore": 31,
+        "opponent": "Detroit Lions",
+        "date": "2026-09-13"
       },
       "news": [
+        {
+          "id": "e4801fa32bb0",
+          "teamId": "saints",
+          "headline": "Saints lose in overtime after a 21-point comeback",
+          "summary": "New Orleans was behind 21-0 and came all the way back to tie the game with 1:07 left. In overtime Tyler Shough threw an 8-yard touchdown pass to Noah Fant, but the two-point pass that would have won it fell incomplete and Detroit won 31-30.",
+          "date": "2026-09-13",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
+        },
+        {
+          "id": "7e2f2d0be7da",
+          "teamId": "saints",
+          "headline": "Chris Olave has the best game of his career",
+          "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
+          "date": "2026-09-13",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+        },
         {
           "id": "a5a63aa00e74",
           "teamId": "saints",
@@ -197,24 +215,6 @@
           "date": "2026-09-12",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-1-elevations"
-        },
-        {
-          "id": "222d4961059f",
-          "teamId": "saints",
-          "headline": "Kellen Moore returns to the team he started with",
-          "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
-          "date": "2026-09-12",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
-        },
-        {
-          "id": "e11d33977d60",
-          "teamId": "saints",
-          "headline": "Tyler Shough starts his second season as a captain",
-          "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
-          "date": "2026-09-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
         }
       ]
     },
@@ -228,7 +228,7 @@
         "venue": "Seton Hill University (PSAC)",
         "city": "Greensburg, PA",
         "tv": {
-          "name": "the PSAC Sports Digital Network app",
+          "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball match is on the app"
@@ -272,7 +272,7 @@
       ]
     },
     "yankees": {
-      "record": "85-63",
+      "record": "86-63",
       "nextGame": {
         "homeAway": "home",
         "opponent": "New York Mets",
@@ -289,13 +289,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
+        "result": "W",
         "teamScore": 2,
-        "opponentScore": 12,
+        "opponentScore": 0,
         "opponent": "New York Mets",
-        "date": "2026-09-12"
+        "date": "2026-09-13"
       },
       "news": [
+        {
+          "id": "c65e6a75aa3a",
+          "teamId": "yankees",
+          "headline": "Yankees shut out the Mets 2-0",
+          "summary": "Cam Schlittler gave up one hit in six innings Sunday and struck out eight Mets. Ben Rice and Austin Wells each hit a home run, and the Yankees are 86-63.",
+          "date": "2026-09-13",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
+        },
         {
           "id": "99e63443c5a0",
           "teamId": "yankees",
@@ -313,15 +322,6 @@
           "date": "2026-09-11",
           "source": "NY1",
           "url": "https://ny1.com/nyc/bronx/sports/2026/09/12/bellinger-hits-3-run-homer-as-yankees-beat-mets-6-4-on-25th-anniversary-of-9-11"
-        },
-        {
-          "id": "5a8d8e1ce03d",
-          "teamId": "yankees",
-          "headline": "Chisholm goes on the injured list with a hurt thumb",
-          "summary": "Jazz Chisholm sprained his thumb sliding into second base and will not play for at least a week. Jose Caballero is taking his place at second base.",
-          "date": "2026-09-10",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/09/yankees-to-place-jazz-chisholm-jr-on-injured-list.html"
         }
       ]
     },

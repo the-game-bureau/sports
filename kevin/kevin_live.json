@@ -3,7 +3,7 @@
   "updated": "2026-09-13",
   "teams": {
     "saints": {
-      "record": "0-0",
+      "record": "0-1",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Detroit Lions",
@@ -20,13 +20,31 @@
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 27,
-        "opponentScore": 24,
-        "opponent": "Dallas Cowboys",
-        "date": "2026-08-28"
+        "result": "L",
+        "teamScore": 30,
+        "opponentScore": 31,
+        "opponent": "Detroit Lions",
+        "date": "2026-09-13"
       },
       "news": [
+        {
+          "id": "e4801fa32bb0",
+          "teamId": "saints",
+          "headline": "Saints lose in overtime after a 21-point comeback",
+          "summary": "New Orleans was behind 21-0 and came all the way back to tie the game with 1:07 left. In overtime Tyler Shough threw an 8-yard touchdown pass to Noah Fant, but the two-point pass that would have won it fell incomplete and Detroit won 31-30.",
+          "date": "2026-09-13",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
+        },
+        {
+          "id": "7e2f2d0be7da",
+          "teamId": "saints",
+          "headline": "Chris Olave has the best game of his career",
+          "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
+          "date": "2026-09-13",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+        },
         {
           "id": "a5a63aa00e74",
           "teamId": "saints",
@@ -35,24 +53,6 @@
           "date": "2026-09-12",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-1-elevations"
-        },
-        {
-          "id": "222d4961059f",
-          "teamId": "saints",
-          "headline": "Kellen Moore returns to the team he started with",
-          "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
-          "date": "2026-09-12",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
-        },
-        {
-          "id": "e11d33977d60",
-          "teamId": "saints",
-          "headline": "Tyler Shough starts his second season as a captain",
-          "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
-          "date": "2026-09-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "6cb51e061650",
+          "teamId": "lsu",
+          "headline": "LSU moves up to No. 7 in the new poll",
+          "summary": "LSU is 2-0 and climbed to seventh in Sunday's Associated Press poll after beating Louisiana Tech 45-14. Next Saturday the Tigers play at No. 8 Ole Miss.",
+          "date": "2026-09-13",
+          "source": "Associated Press",
+          "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
+        },
+        {
           "id": "9382b00a1e88",
           "teamId": "lsu",
           "headline": "LSU beats Louisiana Tech 45-14",
@@ -152,15 +161,6 @@
           "date": "2026-09-10",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/college-football/news/sec-presidents-and-chancellors-meet-without-voting-on-lsus-membership"
-        },
-        {
-          "id": "4c3dcf15c759",
-          "teamId": "lsu",
-          "headline": "SEC not expected to vote on removing LSU",
-          "summary": "LSU filled its last two roster spots and told the conference the matter was closed, so the vote is off the agenda for Thursday's meeting. The two former pro players LSU wanted to add cannot join the team this season.",
-          "date": "2026-09-09",
-          "source": "Associated Press",
-          "url": "https://www.click2houston.com/sports/2026/09/10/sec-not-expected-to-vote-on-lsus-membership-this-week-ap-source-says/"
         }
       ]
     },
