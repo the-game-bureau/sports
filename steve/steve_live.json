@@ -1,32 +1,41 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "teams": {
     "tulane": {
-      "record": "0-1",
+      "record": "1-1",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "South Alabama Jaguars",
-        "date": "2026-09-12",
-        "utc": "2026-09-12T23:00Z",
-        "time": "6:00 PM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Kansas State Wildcats",
+        "date": "2026-09-19",
+        "utc": "2026-09-19T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Bill Snyder Family Stadium",
+        "city": "Manhattan, KS",
         "tv": {
-          "name": "ESPN+",
-          "logo": "images/espnplus.webp",
+          "name": "ESPN2",
+          "logo": "images/espn2.webp",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 3,
-        "opponentScore": 17,
-        "opponent": "Duke Blue Devils",
-        "date": "2026-09-05"
+        "result": "W",
+        "teamScore": 28,
+        "opponentScore": 24,
+        "opponent": "South Alabama Jaguars",
+        "date": "2026-09-12"
       },
       "news": [
+        {
+          "id": "c0b4ad77634c",
+          "teamId": "tulane",
+          "headline": "Tulane wins its home opener 28-24",
+          "summary": "Jaylin Lucas ran for 214 yards, including an 80-yard touchdown. Kadin Semonza threw a 14-yard touchdown pass to Destyn Hill with 1:17 left to put Tulane ahead for good.",
+          "date": "2026-09-12",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/jaylin-lucas-runs-214-yards-025738761.html"
+        },
         {
           "id": "fff3f4760302",
           "teamId": "tulane",
@@ -44,28 +53,73 @@
           "date": "2026-09-08",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
-        },
-        {
-          "id": "8feca36fd244",
-          "teamId": "tulane",
-          "headline": "Tulane's coach says the mistakes can be fixed",
-          "summary": "Will Hall took the blame for the offense after Saturday's 17-3 loss at Duke. Tulane was flagged for 15 penalties, and Hall changed quarterbacks at halftime.",
-          "date": "2026-09-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/everything-tulane-hc-hall-said-013618609.html"
         }
       ]
     },
     "florida": {
-      "record": "1-0",
+      "record": "2-0",
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Auburn Tigers",
+        "date": "2026-09-19",
+        "utc": "2026-09-19T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Jordan-Hare Stadium",
+        "city": "Auburn, AL",
+        "tv": {
+          "name": "ESPN",
+          "logo": "images/espn.webp",
+          "url": "",
+          "note": "On YouTube TV"
+        }
+      },
+      "lastGame": {
+        "result": "W",
+        "teamScore": 52,
+        "opponentScore": 3,
+        "opponent": "Campbell Fighting Camels",
+        "date": "2026-09-12"
+      },
+      "news": [
+        {
+          "id": "16533aa591ef",
+          "teamId": "florida",
+          "headline": "Sumrall is not satisfied after the big win",
+          "summary": "Coach Jon Sumrall said he still feels uneasy about his team even after a 52-3 win. Florida starts its conference schedule next Saturday at Auburn.",
+          "date": "2026-09-13",
+          "source": "News4JAX",
+          "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
+        },
+        {
+          "id": "1b24dda9aace",
+          "teamId": "florida",
+          "headline": "Florida rolls past Campbell 52-3",
+          "summary": "Vernell Brown III ran two punts back for touchdowns, something no Florida player had done in one game since 1996. Jadan Baugh ran for 136 yards and two more scores, and the Gators are 2-0.",
+          "date": "2026-09-12",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
+        },
+        {
+          "id": "3e6715dc8a65",
+          "teamId": "florida",
+          "headline": "Two Gators are out against Campbell",
+          "summary": "Receiver Davian Groce is out with a hurt back and running back Kelvin Jimenez is out for the rest of the season. Receiver Eric Singleton, running back Evan Pryor and tight end Evan Chieca are all listed as maybes for Saturday's game.",
+          "date": "2026-09-12",
+          "source": "Gators Wire",
+          "url": "https://sports.yahoo.com/articles/gameday-injury-report-florida-vs-154708062.html"
+        }
+      ]
+    },
+    "texas": {
+      "record": "2-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Campbell Fighting Camels",
-        "date": "2026-09-12",
-        "utc": "2026-09-12T21:30Z",
-        "time": "4:30 PM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "opponent": "UTSA Roadrunners",
+        "date": "2026-09-19",
+        "utc": "2026-09-20T00:00Z",
+        "time": "7:00 PM",
+        "venue": "DKR-Texas Memorial Stadium",
+        "city": "Austin, TX",
         "tv": {
           "name": "SECN+",
           "logo": "",
@@ -75,66 +129,30 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 66,
-        "opponentScore": 21,
-        "opponent": "Florida Atlantic Owls",
-        "date": "2026-09-05"
-      },
-      "news": [
-        {
-          "id": "3e6715dc8a65",
-          "teamId": "florida",
-          "headline": "Two Gators are out against Campbell",
-          "summary": "Receiver Davian Groce is out with a hurt back and running back Kelvin Jimenez is out for the rest of the season. Receiver Eric Singleton, running back Evan Pryor and tight end Evan Chieca are all listed as maybes for Saturday's game.",
-          "date": "2026-09-12",
-          "source": "Gators Wire",
-          "url": "https://sports.yahoo.com/articles/gameday-injury-report-florida-vs-154708062.html"
-        },
-        {
-          "id": "7efaab37065a",
-          "teamId": "florida",
-          "headline": "Florida's game with Campbell is sold out",
-          "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 20th home game in a row the Gators have sold out.",
-          "date": "2026-09-10",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/10/football-sold-out-campbell-game-marks-20th-straight-sellout-for-gators"
-        },
-        {
-          "id": "b79caae116ad",
-          "teamId": "florida",
-          "headline": "Florida will wear blue helmets Saturday",
-          "summary": "The Gators announced Thursday that they will wear blue helmets, orange jerseys and white pants against Campbell. They have not worn the blue helmets since 2020.",
-          "date": "2026-09-10",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-to-debut-new-uniform-combo-for-saturdays-week-2-game/"
-        }
-      ]
-    },
-    "texas": {
-      "record": "1-0",
-      "nextGame": {
-        "homeAway": "home",
+        "teamScore": 24,
+        "opponentScore": 23,
         "opponent": "Ohio State Buckeyes",
-        "date": "2026-09-12",
-        "utc": "2026-09-12T23:30Z",
-        "time": "6:30 PM",
-        "venue": "DKR-Texas Memorial Stadium",
-        "city": "Austin, TX",
-        "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV"
-        }
-      },
-      "lastGame": {
-        "result": "W",
-        "teamScore": 59,
-        "opponentScore": 7,
-        "opponent": "Texas State Bobcats",
-        "date": "2026-09-05"
+        "date": "2026-09-12"
       },
       "news": [
+        {
+          "id": "8c1f5e7cd6f9",
+          "teamId": "texas",
+          "headline": "Texas beats No. 1 Ohio State 24-23",
+          "summary": "Texas was losing 23-3 in the fourth quarter and scored three touchdowns to win. Hollywood Smothers ran the last one in from the 1-yard line with 25 seconds left.",
+          "date": "2026-09-12",
+          "source": "Associated Press",
+          "url": "https://www.ksat.com/sports/2026/09/13/texas-comes-back-to-defeat-no-1-ohio-state-in-final-minute-drive-for-the-win/"
+        },
+        {
+          "id": "cf1dc0d8d409",
+          "teamId": "texas",
+          "headline": "Arch Manning starts the comeback",
+          "summary": "Manning completed 23 of 37 passes for 195 yards, with one touchdown and one interception, and ran the ball eight times. His touchdown pass to Ryan Wingo early in the fourth quarter began the rally.",
+          "date": "2026-09-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/game/_/gameId/401856682"
+        },
         {
           "id": "fe93f6aa1a1e",
           "teamId": "texas",
@@ -143,24 +161,6 @@
           "date": "2026-09-12",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/texas/football/texas-finally-gets-a-decision-in-the-cole-hutson-eligibility-case"
-        },
-        {
-          "id": "a2e3ad814389",
-          "teamId": "texas",
-          "headline": "Texas is No. 4 and hosts No. 1 Ohio State",
-          "summary": "The new Associated Press poll came out Tuesday with Ohio State first and Texas fourth. The two teams play Saturday night in Austin.",
-          "date": "2026-09-08",
-          "source": "Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25497248-ap-college-football-poll-2026-week-2-rankings-released-top-risers-and-fallers"
-        },
-        {
-          "id": "762a9ed31c0f",
-          "teamId": "texas",
-          "headline": "Texas running back Derrek Cooper is in a boot",
-          "summary": "Coach Steve Sarkisian said Cooper hurt his ankle in Saturday's win over Texas State and is wearing a walking boot. Cooper will miss the Ohio State game, and Sarkisian did not say how long he will be out.",
-          "date": "2026-09-07",
-          "source": "Austin American-Statesman",
-          "url": "https://sports.yahoo.com/articles/texas-rb-derrek-cooper-ohio-190138752.html"
         }
       ]
     },
@@ -199,6 +199,15 @@
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-1-elevations"
         },
         {
+          "id": "222d4961059f",
+          "teamId": "saints",
+          "headline": "Kellen Moore returns to the team he started with",
+          "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
+          "date": "2026-09-12",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
+        },
+        {
           "id": "e11d33977d60",
           "teamId": "saints",
           "headline": "Tyler Shough starts his second season as a captain",
@@ -206,15 +215,6 @@
           "date": "2026-09-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
-        },
-        {
-          "id": "d40aff98e770",
-          "teamId": "saints",
-          "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
-          "summary": "The Saints ruled out Cam Jordan, tight end Oscar Delp and running back Audric Estime for Sunday's opener at Detroit. Alvin Kamara is listed as questionable after he practiced fully on Friday.",
-          "date": "2026-09-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
         }
       ]
     },
@@ -224,7 +224,7 @@
         "homeAway": "away",
         "opponent": "Seton Hill",
         "date": "2026-09-18",
-        "time": "5:00 PM",
+        "time": "6:00 PM",
         "venue": "Seton Hill University (PSAC)",
         "city": "Greensburg, PA",
         "tv": {
@@ -276,16 +276,16 @@
       "nextGame": {
         "homeAway": "home",
         "opponent": "New York Mets",
-        "date": "2026-09-12",
-        "utc": "2026-09-12T17:35Z",
+        "date": "2026-09-13",
+        "utc": "2026-09-13T17:35Z",
         "time": "12:35 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "MLB Network",
-          "logo": "images/mlbnet.svg",
+          "name": "YES / SNY",
+          "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {

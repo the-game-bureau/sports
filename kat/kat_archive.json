@@ -2,10 +2,37 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-12",
+    "updated": "2026-09-13",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "d40aff98e770",
+      "teamId": "saints",
+      "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
+      "summary": "The Saints ruled out Cam Jordan, tight end Oscar Delp and running back Audric Estime for Sunday's opener at Detroit. Alvin Kamara is listed as questionable after he practiced fully on Friday.",
+      "date": "2026-09-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+    },
+    {
+      "id": "7efaab37065a",
+      "teamId": "florida",
+      "headline": "Florida's game with Campbell is sold out",
+      "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 20th home game in a row the Gators have sold out.",
+      "date": "2026-09-10",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/10/football-sold-out-campbell-game-marks-20th-straight-sellout-for-gators"
+    },
+    {
+      "id": "b79caae116ad",
+      "teamId": "florida",
+      "headline": "Florida will wear blue helmets Saturday",
+      "summary": "The Gators announced Thursday that they will wear blue helmets, orange jerseys and white pants against Campbell. They have not worn the blue helmets since 2020.",
+      "date": "2026-09-10",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/florida-to-debut-new-uniform-combo-for-saturdays-week-2-game/"
+    },
     {
       "id": "eccd52f7863b",
       "teamId": "saints",
@@ -23,6 +50,15 @@
       "date": "2026-09-10",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
+    },
+    {
+      "id": "7351976eddf0",
+      "teamId": "lsu",
+      "headline": "LSU tells the SEC it has followed the rules",
+      "summary": "LSU wrote to the conference on Wednesday and said the matter is settled, one day before the league's school presidents meet about it. LSU also said it will not try to stop that meeting.",
+      "date": "2026-09-09",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/49883607/lsu-tells-sec-tigers-complied-disrupt-meeting"
     },
     {
       "id": "712adad28b0b",
@@ -86,6 +122,15 @@
       "date": "2026-09-07",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/lane-kiffin-wants-everything-exactly-the-way-it-was-last-saturday-this-saturday-against-louisiana-tech/"
+    },
+    {
+      "id": "8feca36fd244",
+      "teamId": "tulane",
+      "headline": "Tulane's coach says the mistakes can be fixed",
+      "summary": "Will Hall took the blame for the offense after Saturday's 17-3 loss at Duke. Tulane was flagged for 15 penalties, and Hall changed quarterbacks at halftime.",
+      "date": "2026-09-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/everything-tulane-hc-hall-said-013618609.html"
     },
     {
       "id": "7f4df3cb252e",

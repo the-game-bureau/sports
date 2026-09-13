@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-12",
+    "updated": "2026-09-13",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "d40aff98e770",
+      "teamId": "saints",
+      "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
+      "summary": "The Saints ruled out Cam Jordan, tight end Oscar Delp and running back Audric Estime for Sunday's opener at Detroit. Alvin Kamara is listed as questionable after he practiced fully on Friday.",
+      "date": "2026-09-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+    },
+    {
+      "id": "7efaab37065a",
+      "teamId": "florida",
+      "headline": "Florida's game with Campbell is sold out",
+      "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 20th home game in a row the Gators have sold out.",
+      "date": "2026-09-10",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/10/football-sold-out-campbell-game-marks-20th-straight-sellout-for-gators"
+    },
+    {
+      "id": "b79caae116ad",
+      "teamId": "florida",
+      "headline": "Florida will wear blue helmets Saturday",
+      "summary": "The Gators announced Thursday that they will wear blue helmets, orange jerseys and white pants against Campbell. They have not worn the blue helmets since 2020.",
+      "date": "2026-09-10",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/florida-to-debut-new-uniform-combo-for-saturdays-week-2-game/"
+    },
     {
       "id": "eccd52f7863b",
       "teamId": "saints",
@@ -61,6 +88,15 @@
       "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
     },
     {
+      "id": "a2e3ad814389",
+      "teamId": "texas",
+      "headline": "Texas is No. 4 and hosts No. 1 Ohio State",
+      "summary": "The new Associated Press poll came out Tuesday with Ohio State first and Texas fourth. The two teams play Saturday night in Austin.",
+      "date": "2026-09-08",
+      "source": "Bleacher Report",
+      "url": "https://bleacherreport.com/articles/25497248-ap-college-football-poll-2026-week-2-rankings-released-top-risers-and-fallers"
+    },
+    {
       "id": "f17ff3ce2f2a",
       "teamId": "saints",
       "headline": "Saints name nine captains for the new season",
@@ -86,6 +122,15 @@
       "date": "2026-09-08",
       "source": "The Big Lead",
       "url": "https://www.thebiglead.com/yankees-announce-first-lineup-aaron-judge-3-months/"
+    },
+    {
+      "id": "762a9ed31c0f",
+      "teamId": "texas",
+      "headline": "Texas running back Derrek Cooper is in a boot",
+      "summary": "Coach Steve Sarkisian said Cooper hurt his ankle in Saturday's win over Texas State and is wearing a walking boot. Cooper will miss the Ohio State game, and Sarkisian did not say how long he will be out.",
+      "date": "2026-09-07",
+      "source": "Austin American-Statesman",
+      "url": "https://sports.yahoo.com/articles/texas-rb-derrek-cooper-ohio-190138752.html"
     },
     {
       "id": "cc0fac9c31d1",
@@ -122,6 +167,15 @@
       "date": "2026-09-07",
       "source": "New York Daily News",
       "url": "https://sports.yahoo.com/news/yankees-activate-aaron-judge-three-002800629.html"
+    },
+    {
+      "id": "8feca36fd244",
+      "teamId": "tulane",
+      "headline": "Tulane's coach says the mistakes can be fixed",
+      "summary": "Will Hall took the blame for the offense after Saturday's 17-3 loss at Duke. Tulane was flagged for 15 penalties, and Hall changed quarterbacks at halftime.",
+      "date": "2026-09-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/everything-tulane-hc-hall-said-013618609.html"
     },
     {
       "id": "7f4df3cb252e",
