@@ -1,20 +1,20 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "teams": {
     "saints": {
       "record": "0-1",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Detroit Lions",
-        "date": "2026-09-13",
-        "utc": "2026-09-13T17:00Z",
+        "opponent": "Baltimore Ravens",
+        "date": "2026-09-20",
+        "utc": "2026-09-20T17:00Z",
         "time": "12:00 PM",
-        "venue": "Ford Field",
-        "city": "Detroit, MI",
+        "venue": "M&T Bank Stadium",
+        "city": "Baltimore, MD",
         "tv": {
-          "name": "Fox 8 (WVUE)",
-          "logo": "images/fox8.png",
+          "name": "WWL 4 (CBS)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         }
@@ -27,6 +27,15 @@
         "date": "2026-09-13"
       },
       "news": [
+        {
+          "id": "bee5ac3c034e",
+          "teamId": "saints",
+          "headline": "Saints touchdown taken away by replay review",
+          "summary": "Chase Young knocked the ball loose from Jared Goff in the second quarter and Jonas Sanker picked it up and ran it in. Officials looked at the replay and ruled it an incomplete pass instead, so the touchdown did not count.",
+          "date": "2026-09-13",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/49934999/saints-irked-overturned-defensive-td-ot-loss-lions"
+        },
         {
           "id": "e4801fa32bb0",
           "teamId": "saints",
@@ -44,15 +53,6 @@
           "date": "2026-09-13",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
-        },
-        {
-          "id": "a5a63aa00e74",
-          "teamId": "saints",
-          "headline": "Audric Estimé goes on injured reserve",
-          "summary": "The Saints put running back Audric Estimé on injured reserve Saturday, so he will miss at least the first four games. They also signed tight end Treyton Welch and moved up receiver Kevin Austin Jr. and running back CJ Donaldson from the practice squad for Sunday at Detroit.",
-          "date": "2026-09-12",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-1-elevations"
         }
       ]
     },
@@ -91,6 +91,15 @@
           "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
         },
         {
+          "id": "20563369405f",
+          "teamId": "florida",
+          "headline": "Vernell Brown III returns two punts for touchdowns",
+          "summary": "Brown ran back two punts in a row for scores in Saturday's 52-3 win over Campbell. He is the first Florida player to return two punts for touchdowns in the same game since 1996.",
+          "date": "2026-09-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856672"
+        },
+        {
           "id": "1b24dda9aace",
           "teamId": "florida",
           "headline": "Florida rolls past Campbell 52-3",
@@ -98,15 +107,6 @@
           "date": "2026-09-12",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
-        },
-        {
-          "id": "3e6715dc8a65",
-          "teamId": "florida",
-          "headline": "Two Gators are out against Campbell",
-          "summary": "Receiver Davian Groce is out with a hurt back and running back Kelvin Jimenez is out for the rest of the season. Receiver Eric Singleton, running back Evan Pryor and tight end Evan Chieca are all listed as maybes for Saturday's game.",
-          "date": "2026-09-12",
-          "source": "Gators Wire",
-          "url": "https://sports.yahoo.com/articles/gameday-injury-report-florida-vs-154708062.html"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "1e88d54ef0a6",
+          "teamId": "tulane",
+          "headline": "Jaylin Lucas runs for 214 yards",
+          "summary": "Lucas carried the ball 11 times for 214 yards and a touchdown in Saturday's 28-24 win over South Alabama. That is close to 20 yards every time he ran it.",
+          "date": "2026-09-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401864575"
+        },
+        {
           "id": "c0b4ad77634c",
           "teamId": "tulane",
           "headline": "Tulane wins its home opener 28-24",
@@ -206,15 +215,6 @@
           "date": "2026-09-12",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-unveils-uniforms-home-opener-222232481.html"
-        },
-        {
-          "id": "9891c87c72fb",
-          "teamId": "tulane",
-          "headline": "Tulane names a new starting quarterback",
-          "summary": "Coach Will Hall said Tuesday that Kadin Semonza will start Saturday against South Alabama. Semonza came off the bench at halftime at Duke and led Tulane's only scoring drive.",
-          "date": "2026-09-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
         }
       ]
     }
