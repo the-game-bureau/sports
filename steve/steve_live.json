@@ -28,13 +28,13 @@
       },
       "news": [
         {
-          "id": "1e88d54ef0a6",
+          "id": "14892609081a",
           "teamId": "tulane",
-          "headline": "Jaylin Lucas runs for 214 yards",
-          "summary": "Lucas carried the ball 11 times for 214 yards and a touchdown in Saturday's 28-24 win over South Alabama. That is close to 20 yards every time he ran it.",
-          "date": "2026-09-12",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401864575"
+          "headline": "Jaylin Lucas honored by the American Conference",
+          "summary": "The conference put Lucas on its weekly honor roll Monday for his 214 yards and a touchdown against South Alabama. He averaged 19.5 yards a carry, a conference record for a player with at least 10 carries in a game.",
+          "date": "2026-09-14",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
         },
         {
           "id": "c0b4ad77634c",
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "cdcc73939164",
+          "teamId": "florida",
+          "headline": "Vernell Brown III wins an SEC weekly award",
+          "summary": "The SEC named Brown its co-special teams player of the week on Monday. He returned four punts for 173 yards and two touchdowns against Campbell, the most punt return yards any Florida player has had in a game.",
+          "date": "2026-09-14",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
+        },
+        {
           "id": "16533aa591ef",
           "teamId": "florida",
           "headline": "Sumrall is not satisfied after the big win",
@@ -89,15 +98,6 @@
           "date": "2026-09-13",
           "source": "News4JAX",
           "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
-        },
-        {
-          "id": "20563369405f",
-          "teamId": "florida",
-          "headline": "Vernell Brown III returns two punts for touchdowns",
-          "summary": "Brown ran back two punts in a row for scores in Saturday's 52-3 win over Campbell. He is the first Florida player to return two punts for touchdowns in the same game since 1996.",
-          "date": "2026-09-12",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856672"
         },
         {
           "id": "1b24dda9aace",
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "5dce925fdf26",
+          "teamId": "texas",
+          "headline": "Arch Manning is the SEC offensive player of the week",
+          "summary": "The SEC gave Manning the award Monday for bringing Texas back from 20 points down against Ohio State. On the three fourth-quarter drives that won the game he threw for 125 yards and a touchdown and ran for 26 more.",
+          "date": "2026-09-14",
+          "source": "SEC",
+          "url": "https://www.secsports.com/news/2026/09/sec-football-players-of-the-week-sep-14"
+        },
+        {
           "id": "69e3d7b331fc",
           "teamId": "texas",
           "headline": "Texas is the new No. 1 team in the country",
@@ -152,15 +161,6 @@
           "date": "2026-09-12",
           "source": "Associated Press",
           "url": "https://www.ksat.com/sports/2026/09/13/texas-comes-back-to-defeat-no-1-ohio-state-in-final-minute-drive-for-the-win/"
-        },
-        {
-          "id": "cf1dc0d8d409",
-          "teamId": "texas",
-          "headline": "Arch Manning starts the comeback",
-          "summary": "Manning completed 23 of 37 passes for 195 yards, with one touchdown and one interception, and ran the ball eight times. His touchdown pass to Ryan Wingo early in the fourth quarter began the rally.",
-          "date": "2026-09-12",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/game/_/gameId/401856682"
         }
       ]
     },
@@ -230,8 +230,8 @@
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/iupathletics",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network app. Tap the link on game day to watch."
+          "url": "https://psacsportsdigitalnetwork.com/",
+          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network app. Tap this link on game day to watch."
         }
       },
       "lastGame": {

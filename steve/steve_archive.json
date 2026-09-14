@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "1e88d54ef0a6",
+      "teamId": "tulane",
+      "headline": "Jaylin Lucas runs for 214 yards",
+      "summary": "Lucas carried the ball 11 times for 214 yards and a touchdown in Saturday's 28-24 win over South Alabama. That is close to 20 yards every time he ran it.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401864575"
+    },
+    {
+      "id": "20563369405f",
+      "teamId": "florida",
+      "headline": "Vernell Brown III returns two punts for touchdowns",
+      "summary": "Brown ran back two punts in a row for scores in Saturday's 52-3 win over Campbell. He is the first Florida player to return two punts for touchdowns in the same game since 1996.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856672"
+    },
+    {
+      "id": "cf1dc0d8d409",
+      "teamId": "texas",
+      "headline": "Arch Manning starts the comeback",
+      "summary": "Manning completed 23 of 37 passes for 195 yards, with one touchdown and one interception, and ran the ball eight times. His touchdown pass to Ryan Wingo early in the fourth quarter began the rally.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/game/_/gameId/401856682"
+    },
+    {
       "id": "1b05d109bcd3",
       "teamId": "yankees",
       "headline": "Bellinger homer lifts Yankees past the Mets",

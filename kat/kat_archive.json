@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "1e88d54ef0a6",
+      "teamId": "tulane",
+      "headline": "Jaylin Lucas runs for 214 yards",
+      "summary": "Lucas carried the ball 11 times for 214 yards and a touchdown in Saturday's 28-24 win over South Alabama. That is close to 20 yards every time he ran it.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401864575"
+    },
+    {
+      "id": "20563369405f",
+      "teamId": "florida",
+      "headline": "Vernell Brown III returns two punts for touchdowns",
+      "summary": "Brown ran back two punts in a row for scores in Saturday's 52-3 win over Campbell. He is the first Florida player to return two punts for touchdowns in the same game since 1996.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856672"
+    },
+    {
+      "id": "753eeb321ecd",
+      "teamId": "lsu",
+      "headline": "SEC meets but takes no vote on LSU",
+      "summary": "The league's school presidents met by video call Thursday and did not vote on LSU's membership. The SEC said afterward only that the talks will keep going.",
+      "date": "2026-09-10",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/college-football/news/sec-presidents-and-chancellors-meet-without-voting-on-lsus-membership"
+    },
+    {
       "id": "9891c87c72fb",
       "teamId": "tulane",
       "headline": "Tulane names a new starting quarterback",
