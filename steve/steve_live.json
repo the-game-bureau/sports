@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "teams": {
     "tulane": {
       "record": "1-1",
@@ -91,6 +91,15 @@
           "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
         },
         {
+          "id": "9f09f5e8ebfe",
+          "teamId": "florida",
+          "headline": "Eric Singleton may play Saturday at his old school",
+          "summary": "Singleton hurt his ankle in the first game and is now out of his walking boot, but he did very little at practice Monday. Coach Jon Sumrall says he is questionable for Saturday at Auburn, the team Singleton played for last year.",
+          "date": "2026-09-14",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
+        },
+        {
           "id": "16533aa591ef",
           "teamId": "florida",
           "headline": "Sumrall is not satisfied after the big win",
@@ -98,15 +107,6 @@
           "date": "2026-09-13",
           "source": "News4JAX",
           "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
-        },
-        {
-          "id": "1b24dda9aace",
-          "teamId": "florida",
-          "headline": "Florida rolls past Campbell 52-3",
-          "summary": "Vernell Brown III ran two punts back for touchdowns, something no Florida player had done in one game since 1996. Jadan Baugh ran for 136 yards and two more scores, and the Gators are 2-0.",
-          "date": "2026-09-12",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
         }
       ]
     },
@@ -272,12 +272,12 @@
       ]
     },
     "yankees": {
-      "record": "86-63",
+      "record": "87-63",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Minnesota Twins",
-        "date": "2026-09-14",
-        "utc": "2026-09-14T23:40Z",
+        "date": "2026-09-15",
+        "utc": "2026-09-15T23:40Z",
         "time": "6:40 PM",
         "venue": "Target Field",
         "city": "Minneapolis, MN",
@@ -290,12 +290,30 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 2,
-        "opponentScore": 0,
-        "opponent": "New York Mets",
-        "date": "2026-09-13"
+        "teamScore": 8,
+        "opponentScore": 3,
+        "opponent": "Minnesota Twins",
+        "date": "2026-09-14"
       },
       "news": [
+        {
+          "id": "3448a7d37b6c",
+          "teamId": "yankees",
+          "headline": "Yankees clinch a spot in the playoffs",
+          "summary": "New York beat Minnesota 8-3 on Monday night and is going to the playoffs. The spot was locked up while the game was still going, when Toronto lost to Detroit.",
+          "date": "2026-09-14",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-clinch-playoff-berth-beat-025843344.html"
+        },
+        {
+          "id": "65f53c25e3c5",
+          "teamId": "yankees",
+          "headline": "Aaron Judge hits his first home run since May",
+          "summary": "Judge hit a three-run homer in the eighth inning at Minnesota on Monday, his 18th of the season. His last one was on May 24, before the cracked rib that kept him out for three months.",
+          "date": "2026-09-14",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816938"
+        },
         {
           "id": "c39a109cac99",
           "teamId": "yankees",
@@ -304,24 +322,6 @@
           "date": "2026-09-13",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/49929231/yankees-schmidt-activated-week-pitch-bullpen"
-        },
-        {
-          "id": "c65e6a75aa3a",
-          "teamId": "yankees",
-          "headline": "Yankees shut out the Mets 2-0",
-          "summary": "Cam Schlittler gave up one hit in six innings Sunday and struck out eight Mets. Ben Rice and Austin Wells each hit a home run, and the Yankees are 86-63.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
-        },
-        {
-          "id": "99e63443c5a0",
-          "teamId": "yankees",
-          "headline": "Mets beat the Yankees 12-2 in the Bronx",
-          "summary": "Francisco Lindor hit two home runs and drove in five runs Saturday afternoon at Yankee Stadium. Gerrit Cole gave up five runs in four and a third innings, and the Yankees are now 85-63.",
-          "date": "2026-09-12",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816909"
         }
       ]
     },

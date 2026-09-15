@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "teams": {
     "saints": {
       "record": "0-1",
@@ -91,6 +91,15 @@
           "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
         },
         {
+          "id": "9f09f5e8ebfe",
+          "teamId": "florida",
+          "headline": "Eric Singleton may play Saturday at his old school",
+          "summary": "Singleton hurt his ankle in the first game and is now out of his walking boot, but he did very little at practice Monday. Coach Jon Sumrall says he is questionable for Saturday at Auburn, the team Singleton played for last year.",
+          "date": "2026-09-14",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
+        },
+        {
           "id": "16533aa591ef",
           "teamId": "florida",
           "headline": "Sumrall is not satisfied after the big win",
@@ -98,15 +107,6 @@
           "date": "2026-09-13",
           "source": "News4JAX",
           "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
-        },
-        {
-          "id": "1b24dda9aace",
-          "teamId": "florida",
-          "headline": "Florida rolls past Campbell 52-3",
-          "summary": "Vernell Brown III ran two punts back for touchdowns, something no Florida player had done in one game since 1996. Jadan Baugh ran for 136 yards and two more scores, and the Gators are 2-0.",
-          "date": "2026-09-12",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "d8b697760776",
+          "teamId": "lsu",
+          "headline": "LSU hosts Texas A&M at night on September 26",
+          "summary": "The game kicks off at 6:30 in the evening in Baton Rouge and will be on ABC. It is LSU's fourth home night game in a row this season.",
+          "date": "2026-09-14",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/09/14/lsu-football-vs-texas-aandm-to-kickoff-in-primetime"
+        },
+        {
           "id": "d496fb739703",
           "teamId": "lsu",
           "headline": "Lane Kiffin goes back to Ole Miss on Saturday",
@@ -152,15 +161,6 @@
           "date": "2026-09-13",
           "source": "Associated Press",
           "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
-        },
-        {
-          "id": "9382b00a1e88",
-          "teamId": "lsu",
-          "headline": "LSU beats Louisiana Tech 45-14",
-          "summary": "Sam Leavitt ran for three touchdowns and threw for 344 yards, but he also threw three interceptions. The LSU defense held Louisiana Tech to 140 yards and sacked its quarterback seven times.",
-          "date": "2026-09-12",
-          "source": "Associated Press",
-          "url": "https://www.click2houston.com/sports/2026/09/13/no-8-lsu-and-qb-sam-leavitt-overcome-a-rash-of-turnovers-in-a-45-14-victory-over-louisiana-tech/"
         }
       ]
     },

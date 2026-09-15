@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-14",
+    "updated": "2026-09-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "1b24dda9aace",
+      "teamId": "florida",
+      "headline": "Florida rolls past Campbell 52-3",
+      "summary": "Vernell Brown III ran two punts back for touchdowns, something no Florida player had done in one game since 1996. Jadan Baugh ran for 136 yards and two more scores, and the Gators are 2-0.",
+      "date": "2026-09-12",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
+    },
+    {
+      "id": "99e63443c5a0",
+      "teamId": "yankees",
+      "headline": "Mets beat the Yankees 12-2 in the Bronx",
+      "summary": "Francisco Lindor hit two home runs and drove in five runs Saturday afternoon at Yankee Stadium. Gerrit Cole gave up five runs in four and a third innings, and the Yankees are now 85-63.",
+      "date": "2026-09-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816909"
+    },
+    {
+      "id": "c65e6a75aa3a",
+      "teamId": "yankees",
+      "headline": "Yankees shut out the Mets 2-0",
+      "summary": "Cam Schlittler gave up one hit in six innings Sunday and struck out eight Mets. Ben Rice and Austin Wells each hit a home run, and the Yankees are 86-63.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
+    },
     {
       "id": "1e88d54ef0a6",
       "teamId": "tulane",

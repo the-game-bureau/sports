@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-14",
+    "updated": "2026-09-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "9382b00a1e88",
+      "teamId": "lsu",
+      "headline": "LSU beats Louisiana Tech 45-14",
+      "summary": "Sam Leavitt ran for three touchdowns and threw for 344 yards, but he also threw three interceptions. The LSU defense held Louisiana Tech to 140 yards and sacked its quarterback seven times.",
+      "date": "2026-09-12",
+      "source": "Associated Press",
+      "url": "https://www.click2houston.com/sports/2026/09/13/no-8-lsu-and-qb-sam-leavitt-overcome-a-rash-of-turnovers-in-a-45-14-victory-over-louisiana-tech/"
+    },
+    {
+      "id": "1b24dda9aace",
+      "teamId": "florida",
+      "headline": "Florida rolls past Campbell 52-3",
+      "summary": "Vernell Brown III ran two punts back for touchdowns, something no Florida player had done in one game since 1996. Jadan Baugh ran for 136 yards and two more scores, and the Gators are 2-0.",
+      "date": "2026-09-12",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/12/football-final-florida-vs-campbell-sept-12-2026"
+    },
     {
       "id": "1e88d54ef0a6",
       "teamId": "tulane",
