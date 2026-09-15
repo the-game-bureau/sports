@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "704690e52868",
+          "teamId": "saints",
+          "headline": "Alvin Kamara is getting close to playing",
+          "summary": "Kamara hurt his knee in August and missed Sunday's game at Detroit. Coach Kellen Moore said Monday that Kamara is doing well and will be back soon, but he did not say whether Kamara will play Sunday at Baltimore.",
+          "date": "2026-09-15",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/orleans-saints-encouraging-alvin-kamara-005404859.html"
+        },
+        {
           "id": "bee5ac3c034e",
           "teamId": "saints",
           "headline": "Saints touchdown taken away by replay review",
@@ -44,15 +53,6 @@
           "date": "2026-09-13",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
-        },
-        {
-          "id": "7e2f2d0be7da",
-          "teamId": "saints",
-          "headline": "Chris Olave has the best game of his career",
-          "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "3c604057d752",
+          "teamId": "lsu",
+          "headline": "LSU adds security for Kiffin's return to Ole Miss",
+          "summary": "LSU has put extra security in place for Saturday night in Oxford, where Lane Kiffin coached before he took the LSU job. Kiffin said Monday that there are real safety concerns and that other people have a plan for them.",
+          "date": "2026-09-14",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/lane-kiffin-ole-miss-return-safety-issues-pressure-lsu/"
+        },
+        {
           "id": "d8b697760776",
           "teamId": "lsu",
           "headline": "LSU hosts Texas A&M at night on September 26",
@@ -143,15 +152,6 @@
           "date": "2026-09-14",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/09/14/lsu-football-vs-texas-aandm-to-kickoff-in-primetime"
-        },
-        {
-          "id": "d496fb739703",
-          "teamId": "lsu",
-          "headline": "Lane Kiffin goes back to Ole Miss on Saturday",
-          "summary": "Kiffin coached Ole Miss for six seasons before he took the LSU job last November. Saturday night in Oxford is his first game back there, and both teams are 2-0.",
-          "date": "2026-09-13",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/olemiss/football/lane-kiffin-return-to-ole-miss-sets-stage-for-oxford-madhouse-on-saturday-night"
         },
         {
           "id": "6cb51e061650",

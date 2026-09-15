@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "d496fb739703",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin goes back to Ole Miss on Saturday",
+      "summary": "Kiffin coached Ole Miss for six seasons before he took the LSU job last November. Saturday night in Oxford is his first game back there, and both teams are 2-0.",
+      "date": "2026-09-13",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/olemiss/football/lane-kiffin-return-to-ole-miss-sets-stage-for-oxford-madhouse-on-saturday-night"
+    },
+    {
+      "id": "7e2f2d0be7da",
+      "teamId": "saints",
+      "headline": "Chris Olave has the best game of his career",
+      "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+    },
+    {
       "id": "9382b00a1e88",
       "teamId": "lsu",
       "headline": "LSU beats Louisiana Tech 45-14",
