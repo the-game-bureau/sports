@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "teams": {
     "tulane": {
       "record": "1-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "eeffbbd13d33",
+          "teamId": "tulane",
+          "headline": "Two Tulane players hurt with Kansas State next",
+          "summary": "Coach Will Hall said Tuesday that linebacker Chris Rodgers is getting a second opinion and that the team is still finding out how long tight end Ty Thompson will be out. Tulane plays Saturday morning at Kansas State, which is 2-0.",
+          "date": "2026-09-15",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
+        },
+        {
           "id": "14892609081a",
           "teamId": "tulane",
           "headline": "Jaylin Lucas honored by the American Conference",
@@ -44,15 +53,6 @@
           "date": "2026-09-12",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/jaylin-lucas-runs-214-yards-025738761.html"
-        },
-        {
-          "id": "fff3f4760302",
-          "teamId": "tulane",
-          "headline": "Tulane wears Mardi Gras uniforms Saturday night",
-          "summary": "Tulane plays South Alabama at home Saturday night in green, purple and gold uniforms made for Mardi Gras. The helmet shows the Angry Wave in a jester hat with beads around it, and the back of the helmet reads \"Uptown.\"",
-          "date": "2026-09-12",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-unveils-uniforms-home-opener-222232481.html"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "0ae5f0974e4f",
+          "teamId": "florida",
+          "headline": "Sumrall goes to Auburn, where his family has ties",
+          "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
+          "date": "2026-09-15",
+          "source": "WCJB",
+          "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
+        },
+        {
           "id": "cdcc73939164",
           "teamId": "florida",
           "headline": "Vernell Brown III wins an SEC weekly award",
@@ -98,15 +107,6 @@
           "date": "2026-09-14",
           "source": "Saturday Down South",
           "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
-        },
-        {
-          "id": "16533aa591ef",
-          "teamId": "florida",
-          "headline": "Sumrall is not satisfied after the big win",
-          "summary": "Coach Jon Sumrall said he still feels uneasy about his team even after a 52-3 win. Florida starts its conference schedule next Saturday at Auburn.",
-          "date": "2026-09-13",
-          "source": "News4JAX",
-          "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "cd55108b3864",
+          "teamId": "texas",
+          "headline": "Arch Manning apologizes to a TV reporter",
+          "summary": "A fake video made by a computer showed Texas coach Steve Sarkisian slapping ESPN reporter Holly Rowe, and Manning laughed about it when he was asked at Monday's news conference. He apologized on Tuesday and said there is nothing funny about it, and Rowe said she accepts his apology.",
+          "date": "2026-09-15",
+          "source": "KSAT / Associated Press",
+          "url": "https://www.ksat.com/sports/2026/09/15/texas-qb-arch-manning-apologizes-to-espn-reporter-holly-rowe-for-laughing-about-fake-video-of-slap/"
+        },
+        {
           "id": "5dce925fdf26",
           "teamId": "texas",
           "headline": "Arch Manning is the SEC offensive player of the week",
@@ -152,15 +161,6 @@
           "date": "2026-09-13",
           "source": "Associated Press",
           "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
-        },
-        {
-          "id": "8c1f5e7cd6f9",
-          "teamId": "texas",
-          "headline": "Texas beats No. 1 Ohio State 24-23",
-          "summary": "Texas was losing 23-3 in the fourth quarter and scored three touchdowns to win. Hollywood Smothers ran the last one in from the 1-yard line with 25 seconds left.",
-          "date": "2026-09-12",
-          "source": "Associated Press",
-          "url": "https://www.ksat.com/sports/2026/09/13/texas-comes-back-to-defeat-no-1-ohio-state-in-final-minute-drive-for-the-win/"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "af970d539c49",
+          "teamId": "saints",
+          "headline": "Kamara and Jordan are still out as Baltimore week starts",
+          "summary": "Alvin Kamara is still getting over a sprained knee and Cameron Jordan has not practiced yet because of a hamstring injury. Safety Justin Reid said the team is in a good place after nearly coming back to beat Detroit.",
+          "date": "2026-09-15",
+          "source": "KALB / Associated Press",
+          "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
+        },
+        {
           "id": "bee5ac3c034e",
           "teamId": "saints",
           "headline": "Saints touchdown taken away by replay review",
@@ -206,15 +215,6 @@
           "date": "2026-09-13",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
-        },
-        {
-          "id": "7e2f2d0be7da",
-          "teamId": "saints",
-          "headline": "Chris Olave has the best game of his career",
-          "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
         }
       ]
     },
@@ -272,13 +272,13 @@
       ]
     },
     "yankees": {
-      "record": "87-63",
+      "record": "88-63",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Minnesota Twins",
-        "date": "2026-09-15",
-        "utc": "2026-09-15T23:40Z",
-        "time": "6:40 PM",
+        "date": "2026-09-16",
+        "utc": "2026-09-16T17:40Z",
+        "time": "12:40 PM",
         "venue": "Target Field",
         "city": "Minneapolis, MN",
         "tv": {
@@ -291,11 +291,20 @@
       "lastGame": {
         "result": "W",
         "teamScore": 8,
-        "opponentScore": 3,
+        "opponentScore": 1,
         "opponent": "Minnesota Twins",
-        "date": "2026-09-14"
+        "date": "2026-09-15"
       },
       "news": [
+        {
+          "id": "694cea3f25db",
+          "teamId": "yankees",
+          "headline": "Max Fried wins for the first time since April",
+          "summary": "Fried gave up one run over seven innings Tuesday night at Minnesota and the Yankees won 8-1. Cody Bellinger and Spencer Jones hit home runs, and New York is 88-63 and three and a half games behind Tampa Bay in its division.",
+          "date": "2026-09-15",
+          "source": "ESPN / Associated Press",
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401816953"
+        },
         {
           "id": "3448a7d37b6c",
           "teamId": "yankees",
@@ -313,15 +322,6 @@
           "date": "2026-09-14",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816938"
-        },
-        {
-          "id": "c39a109cac99",
-          "teamId": "yankees",
-          "headline": "Clarke Schmidt is coming back this week",
-          "summary": "The Yankees will put pitcher Clarke Schmidt back on the roster this week, 14 months after elbow surgery. He will work out of the bullpen and could pitch in the series at Minnesota.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49929231/yankees-schmidt-activated-week-pitch-bullpen"
         }
       ]
     },

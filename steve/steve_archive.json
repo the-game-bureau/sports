@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "c39a109cac99",
+      "teamId": "yankees",
+      "headline": "Clarke Schmidt is coming back this week",
+      "summary": "The Yankees will put pitcher Clarke Schmidt back on the roster this week, 14 months after elbow surgery. He will work out of the bullpen and could pitch in the series at Minnesota.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49929231/yankees-schmidt-activated-week-pitch-bullpen"
+    },
+    {
+      "id": "7e2f2d0be7da",
+      "teamId": "saints",
+      "headline": "Chris Olave has the best game of his career",
+      "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+    },
+    {
+      "id": "16533aa591ef",
+      "teamId": "florida",
+      "headline": "Sumrall is not satisfied after the big win",
+      "summary": "Coach Jon Sumrall said he still feels uneasy about his team even after a 52-3 win. Florida starts its conference schedule next Saturday at Auburn.",
+      "date": "2026-09-13",
+      "source": "News4JAX",
+      "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
+    },
+    {
+      "id": "c65e6a75aa3a",
+      "teamId": "yankees",
+      "headline": "Yankees shut out the Mets 2-0",
+      "summary": "Cam Schlittler gave up one hit in six innings Sunday and struck out eight Mets. Ben Rice and Austin Wells each hit a home run, and the Yankees are 86-63.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
+    },
+    {
+      "id": "8c1f5e7cd6f9",
+      "teamId": "texas",
+      "headline": "Texas beats No. 1 Ohio State 24-23",
+      "summary": "Texas was losing 23-3 in the fourth quarter and scored three touchdowns to win. Hollywood Smothers ran the last one in from the 1-yard line with 25 seconds left.",
+      "date": "2026-09-12",
+      "source": "Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/13/texas-comes-back-to-defeat-no-1-ohio-state-in-final-minute-drive-for-the-win/"
+    },
+    {
+      "id": "fff3f4760302",
+      "teamId": "tulane",
+      "headline": "Tulane wears Mardi Gras uniforms Saturday night",
+      "summary": "Tulane plays South Alabama at home Saturday night in green, purple and gold uniforms made for Mardi Gras. The helmet shows the Angry Wave in a jester hat with beads around it, and the back of the helmet reads \"Uptown.\"",
+      "date": "2026-09-12",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-unveils-uniforms-home-opener-222232481.html"
+    },
     {
       "id": "1b24dda9aace",
       "teamId": "florida",
@@ -23,15 +77,6 @@
       "date": "2026-09-12",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816909"
-    },
-    {
-      "id": "c65e6a75aa3a",
-      "teamId": "yankees",
-      "headline": "Yankees shut out the Mets 2-0",
-      "summary": "Cam Schlittler gave up one hit in six innings Sunday and struck out eight Mets. Ben Rice and Austin Wells each hit a home run, and the Yankees are 86-63.",
-      "date": "2026-09-13",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
     },
     {
       "id": "1e88d54ef0a6",
@@ -61,15 +106,6 @@
       "url": "https://www.espn.com/college-football/game/_/gameId/401856682"
     },
     {
-      "id": "1b05d109bcd3",
-      "teamId": "yankees",
-      "headline": "Bellinger homer lifts Yankees past the Mets",
-      "summary": "Cody Bellinger hit a three-run home run in the second inning Friday night and the Yankees beat the Mets 6-4. New York is 85-62 and leads Boston by five and a half games for the first wild card spot.",
-      "date": "2026-09-11",
-      "source": "NY1",
-      "url": "https://ny1.com/nyc/bronx/sports/2026/09/12/bellinger-hits-3-run-homer-as-yankees-beat-mets-6-4-on-25th-anniversary-of-9-11"
-    },
-    {
       "id": "a5a63aa00e74",
       "teamId": "saints",
       "headline": "Audric Estimé goes on injured reserve",
@@ -88,24 +124,6 @@
       "url": "https://sports.yahoo.com/articles/gameday-injury-report-florida-vs-154708062.html"
     },
     {
-      "id": "9891c87c72fb",
-      "teamId": "tulane",
-      "headline": "Tulane names a new starting quarterback",
-      "summary": "Coach Will Hall said Tuesday that Kadin Semonza will start Saturday against South Alabama. Semonza came off the bench at halftime at Duke and led Tulane's only scoring drive.",
-      "date": "2026-09-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
-    },
-    {
-      "id": "5a8d8e1ce03d",
-      "teamId": "yankees",
-      "headline": "Chisholm goes on the injured list with a hurt thumb",
-      "summary": "Jazz Chisholm sprained his thumb sliding into second base and will not play for at least a week. Jose Caballero is taking his place at second base.",
-      "date": "2026-09-10",
-      "source": "MLB Trade Rumors",
-      "url": "https://www.mlbtraderumors.com/2026/09/yankees-to-place-jazz-chisholm-jr-on-injured-list.html"
-    },
-    {
       "id": "fe93f6aa1a1e",
       "teamId": "texas",
       "headline": "Cole Hutson can play against Ohio State",
@@ -113,15 +131,6 @@
       "date": "2026-09-12",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/texas/football/texas-finally-gets-a-decision-in-the-cole-hutson-eligibility-case"
-    },
-    {
-      "id": "e11d33977d60",
-      "teamId": "saints",
-      "headline": "Tyler Shough starts his second season as a captain",
-      "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
-      "date": "2026-09-11",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
     },
     {
       "id": "222d4961059f",
@@ -133,6 +142,24 @@
       "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
     },
     {
+      "id": "1b05d109bcd3",
+      "teamId": "yankees",
+      "headline": "Bellinger homer lifts Yankees past the Mets",
+      "summary": "Cody Bellinger hit a three-run home run in the second inning Friday night and the Yankees beat the Mets 6-4. New York is 85-62 and leads Boston by five and a half games for the first wild card spot.",
+      "date": "2026-09-11",
+      "source": "NY1",
+      "url": "https://ny1.com/nyc/bronx/sports/2026/09/12/bellinger-hits-3-run-homer-as-yankees-beat-mets-6-4-on-25th-anniversary-of-9-11"
+    },
+    {
+      "id": "e11d33977d60",
+      "teamId": "saints",
+      "headline": "Tyler Shough starts his second season as a captain",
+      "summary": "Quarterback Tyler Shough is the starter again this year, and his teammates voted him one of the team captains. He now gives the speech in the huddle before games, a job Drew Brees used to have.",
+      "date": "2026-09-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
+    },
+    {
       "id": "d40aff98e770",
       "teamId": "saints",
       "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
@@ -140,6 +167,15 @@
       "date": "2026-09-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+    },
+    {
+      "id": "5a8d8e1ce03d",
+      "teamId": "yankees",
+      "headline": "Chisholm goes on the injured list with a hurt thumb",
+      "summary": "Jazz Chisholm sprained his thumb sliding into second base and will not play for at least a week. Jose Caballero is taking his place at second base.",
+      "date": "2026-09-10",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/09/yankees-to-place-jazz-chisholm-jr-on-injured-list.html"
     },
     {
       "id": "7efaab37065a",
@@ -212,6 +248,15 @@
       "date": "2026-09-09",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
+    },
+    {
+      "id": "9891c87c72fb",
+      "teamId": "tulane",
+      "headline": "Tulane names a new starting quarterback",
+      "summary": "Coach Will Hall said Tuesday that Kadin Semonza will start Saturday against South Alabama. Semonza came off the bench at halftime at Duke and led Tulane's only scoring drive.",
+      "date": "2026-09-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
     },
     {
       "id": "a2e3ad814389",

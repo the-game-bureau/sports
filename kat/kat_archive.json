@@ -2,10 +2,46 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "6cb51e061650",
+      "teamId": "lsu",
+      "headline": "LSU moves up to No. 7 in the new poll",
+      "summary": "LSU is 2-0 and climbed to seventh in Sunday's Associated Press poll after beating Louisiana Tech 45-14. Next Saturday the Tigers play at No. 8 Ole Miss.",
+      "date": "2026-09-13",
+      "source": "Associated Press",
+      "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
+    },
+    {
+      "id": "16533aa591ef",
+      "teamId": "florida",
+      "headline": "Sumrall is not satisfied after the big win",
+      "summary": "Coach Jon Sumrall said he still feels uneasy about his team even after a 52-3 win. Florida starts its conference schedule next Saturday at Auburn.",
+      "date": "2026-09-13",
+      "source": "News4JAX",
+      "url": "https://www.news4jax.com/sports/2026/09/13/florida-demolishes-campbell-52-3-jon-sumrall-uneasy-where-the-gators-are-heading-into-sec-play/"
+    },
+    {
+      "id": "7e2f2d0be7da",
+      "teamId": "saints",
+      "headline": "Chris Olave has the best game of his career",
+      "summary": "Olave caught 10 passes for 182 yards at Detroit, more yards than he has ever had in a game. Tyler Shough threw for 410 yards and three touchdowns with two interceptions in his first game of the season.",
+      "date": "2026-09-13",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+    },
+    {
+      "id": "fff3f4760302",
+      "teamId": "tulane",
+      "headline": "Tulane wears Mardi Gras uniforms Saturday night",
+      "summary": "Tulane plays South Alabama at home Saturday night in green, purple and gold uniforms made for Mardi Gras. The helmet shows the Angry Wave in a jester hat with beads around it, and the back of the helmet reads \"Uptown.\"",
+      "date": "2026-09-12",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-unveils-uniforms-home-opener-222232481.html"
+    },
     {
       "id": "9382b00a1e88",
       "teamId": "lsu",
@@ -43,24 +79,6 @@
       "url": "https://www.espn.com/college-football/recap/_/gameId/401856672"
     },
     {
-      "id": "753eeb321ecd",
-      "teamId": "lsu",
-      "headline": "SEC meets but takes no vote on LSU",
-      "summary": "The league's school presidents met by video call Thursday and did not vote on LSU's membership. The SEC said afterward only that the talks will keep going.",
-      "date": "2026-09-10",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/college-football/news/sec-presidents-and-chancellors-meet-without-voting-on-lsus-membership"
-    },
-    {
-      "id": "9891c87c72fb",
-      "teamId": "tulane",
-      "headline": "Tulane names a new starting quarterback",
-      "summary": "Coach Will Hall said Tuesday that Kadin Semonza will start Saturday against South Alabama. Semonza came off the bench at halftime at Duke and led Tulane's only scoring drive.",
-      "date": "2026-09-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
-    },
-    {
       "id": "3e6715dc8a65",
       "teamId": "florida",
       "headline": "Two Gators are out against Campbell",
@@ -79,13 +97,13 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-1-elevations"
     },
     {
-      "id": "4c3dcf15c759",
-      "teamId": "lsu",
-      "headline": "SEC not expected to vote on removing LSU",
-      "summary": "LSU filled its last two roster spots and told the conference the matter was closed, so the vote is off the agenda for Thursday's meeting. The two former pro players LSU wanted to add cannot join the team this season.",
-      "date": "2026-09-09",
-      "source": "Associated Press",
-      "url": "https://www.click2houston.com/sports/2026/09/10/sec-not-expected-to-vote-on-lsus-membership-this-week-ap-source-says/"
+      "id": "222d4961059f",
+      "teamId": "saints",
+      "headline": "Kellen Moore returns to the team he started with",
+      "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
+      "date": "2026-09-12",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
     },
     {
       "id": "e11d33977d60",
@@ -97,15 +115,6 @@
       "url": "https://www.neworleanssaints.com/news/quarterback-tyler-shough-has-taken-lead-entering-his-second-season-with-new-orleans-saints"
     },
     {
-      "id": "222d4961059f",
-      "teamId": "saints",
-      "headline": "Kellen Moore returns to the team he started with",
-      "summary": "The Saints head coach began his playing career in Detroit in 2012 as an undrafted quarterback and stayed three seasons. New Orleans opens the season at Detroit on Sunday.",
-      "date": "2026-09-12",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
-    },
-    {
       "id": "d40aff98e770",
       "teamId": "saints",
       "headline": "Cam Jordan is out Sunday, Kamara is a maybe",
@@ -113,6 +122,15 @@
       "date": "2026-09-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-friday"
+    },
+    {
+      "id": "753eeb321ecd",
+      "teamId": "lsu",
+      "headline": "SEC meets but takes no vote on LSU",
+      "summary": "The league's school presidents met by video call Thursday and did not vote on LSU's membership. The SEC said afterward only that the talks will keep going.",
+      "date": "2026-09-10",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/college-football/news/sec-presidents-and-chancellors-meet-without-voting-on-lsus-membership"
     },
     {
       "id": "7efaab37065a",
@@ -151,6 +169,15 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-detroit-lions-vs-new-orleans-saints-2026-nfl-week-1-thursday"
     },
     {
+      "id": "4c3dcf15c759",
+      "teamId": "lsu",
+      "headline": "SEC not expected to vote on removing LSU",
+      "summary": "LSU filled its last two roster spots and told the conference the matter was closed, so the vote is off the agenda for Thursday's meeting. The two former pro players LSU wanted to add cannot join the team this season.",
+      "date": "2026-09-09",
+      "source": "Associated Press",
+      "url": "https://www.click2houston.com/sports/2026/09/10/sec-not-expected-to-vote-on-lsus-membership-this-week-ap-source-says/"
+    },
+    {
       "id": "7351976eddf0",
       "teamId": "lsu",
       "headline": "LSU tells the SEC it has followed the rules",
@@ -167,6 +194,15 @@
       "date": "2026-09-09",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-jordan-wont-play-this-week-alvin-kamara-returns-to-practice"
+    },
+    {
+      "id": "9891c87c72fb",
+      "teamId": "tulane",
+      "headline": "Tulane names a new starting quarterback",
+      "summary": "Coach Will Hall said Tuesday that Kadin Semonza will start Saturday against South Alabama. Semonza came off the bench at halftime at Duke and led Tulane's only scoring drive.",
+      "date": "2026-09-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-switches-qbs-week-2-182948933.html"
     },
     {
       "id": "f17ff3ce2f2a",
