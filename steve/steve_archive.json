@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "9f09f5e8ebfe",
+      "teamId": "florida",
+      "headline": "Eric Singleton may play Saturday at his old school",
+      "summary": "Singleton hurt his ankle in the first game and is now out of his walking boot, but he did very little at practice Monday. Coach Jon Sumrall says he is questionable for Saturday at Auburn, the team Singleton played for last year.",
+      "date": "2026-09-14",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
+    },
+    {
+      "id": "65f53c25e3c5",
+      "teamId": "yankees",
+      "headline": "Aaron Judge hits his first home run since May",
+      "summary": "Judge hit a three-run homer in the eighth inning at Minnesota on Monday, his 18th of the season. His last one was on May 24, before the cracked rib that kept him out for three months.",
+      "date": "2026-09-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/boxscore/_/gameId/401816938"
+    },
+    {
+      "id": "e4801fa32bb0",
+      "teamId": "saints",
+      "headline": "Saints lose in overtime after a 21-point comeback",
+      "summary": "New Orleans was behind 21-0 and came all the way back to tie the game with 1:07 left. In overtime Tyler Shough threw an 8-yard touchdown pass to Noah Fant, but the two-point pass that would have won it fell incomplete and Detroit won 31-30.",
+      "date": "2026-09-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
+    },
+    {
       "id": "c39a109cac99",
       "teamId": "yankees",
       "headline": "Clarke Schmidt is coming back this week",
@@ -41,6 +68,15 @@
       "date": "2026-09-13",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/game/_/gameId/401816924/mets-yankees"
+    },
+    {
+      "id": "c0b4ad77634c",
+      "teamId": "tulane",
+      "headline": "Tulane wins its home opener 28-24",
+      "summary": "Jaylin Lucas ran for 214 yards, including an 80-yard touchdown. Kadin Semonza threw a 14-yard touchdown pass to Destyn Hill with 1:17 left to put Tulane ahead for good.",
+      "date": "2026-09-12",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/jaylin-lucas-runs-214-yards-025738761.html"
     },
     {
       "id": "8c1f5e7cd6f9",

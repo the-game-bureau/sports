@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "9f09f5e8ebfe",
+      "teamId": "florida",
+      "headline": "Eric Singleton may play Saturday at his old school",
+      "summary": "Singleton hurt his ankle in the first game and is now out of his walking boot, but he did very little at practice Monday. Coach Jon Sumrall says he is questionable for Saturday at Auburn, the team Singleton played for last year.",
+      "date": "2026-09-14",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
+    },
+    {
+      "id": "d496fb739703",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin goes back to Ole Miss on Saturday",
+      "summary": "Kiffin coached Ole Miss for six seasons before he took the LSU job last November. Saturday night in Oxford is his first game back there, and both teams are 2-0.",
+      "date": "2026-09-13",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/olemiss/football/lane-kiffin-return-to-ole-miss-sets-stage-for-oxford-madhouse-on-saturday-night"
+    },
+    {
+      "id": "e4801fa32bb0",
+      "teamId": "saints",
+      "headline": "Saints lose in overtime after a 21-point comeback",
+      "summary": "New Orleans was behind 21-0 and came all the way back to tie the game with 1:07 left. In overtime Tyler Shough threw an 8-yard touchdown pass to Noah Fant, but the two-point pass that would have won it fell incomplete and Detroit won 31-30.",
+      "date": "2026-09-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
+    },
+    {
       "id": "6cb51e061650",
       "teamId": "lsu",
       "headline": "LSU moves up to No. 7 in the new poll",
@@ -32,6 +59,15 @@
       "date": "2026-09-13",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions"
+    },
+    {
+      "id": "c0b4ad77634c",
+      "teamId": "tulane",
+      "headline": "Tulane wins its home opener 28-24",
+      "summary": "Jaylin Lucas ran for 214 yards, including an 80-yard touchdown. Kadin Semonza threw a 14-yard touchdown pass to Destyn Hill with 1:17 left to put Tulane ahead for good.",
+      "date": "2026-09-12",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/jaylin-lucas-runs-214-yards-025738761.html"
     },
     {
       "id": "fff3f4760302",

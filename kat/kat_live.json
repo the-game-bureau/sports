@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "2a6b30f73010",
+          "teamId": "saints",
+          "headline": "Alvin Kamara takes a full practice on Wednesday",
+          "summary": "Kamara did all of Wednesday's practice for the first time since he hurt his knee in August. Cameron Jordan was back on the field too and did part of the work, three days before the Saints play at Baltimore.",
+          "date": "2026-09-16",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-wednesday"
+        },
+        {
           "id": "af970d539c49",
           "teamId": "saints",
           "headline": "Kamara and Jordan are still out as Baltimore week starts",
@@ -44,15 +53,6 @@
           "date": "2026-09-13",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/story/_/id/49934999/saints-irked-overturned-defensive-td-ot-loss-lions"
-        },
-        {
-          "id": "e4801fa32bb0",
-          "teamId": "saints",
-          "headline": "Saints lose in overtime after a 21-point comeback",
-          "summary": "New Orleans was behind 21-0 and came all the way back to tie the game with 1:07 left. In overtime Tyler Shough threw an 8-yard touchdown pass to Noah Fant, but the two-point pass that would have won it fell incomplete and Detroit won 31-30.",
-          "date": "2026-09-13",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "ba740716e925",
+          "teamId": "florida",
+          "headline": "Aaron Philo makes his first SEC start Saturday",
+          "summary": "Philo has thrown for 517 yards and five touchdowns in Florida's two wins and has completed more than 76 percent of his passes. Saturday at Auburn is his first road start and his first game against an SEC team.",
+          "date": "2026-09-15",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
+        },
+        {
           "id": "0ae5f0974e4f",
           "teamId": "florida",
           "headline": "Sumrall goes to Auburn, where his family has ties",
@@ -98,15 +107,6 @@
           "date": "2026-09-14",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
-        },
-        {
-          "id": "9f09f5e8ebfe",
-          "teamId": "florida",
-          "headline": "Eric Singleton may play Saturday at his old school",
-          "summary": "Singleton hurt his ankle in the first game and is now out of his walking boot, but he did very little at practice Monday. Coach Jon Sumrall says he is questionable for Saturday at Auburn, the team Singleton played for last year.",
-          "date": "2026-09-14",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-florida-wr-eric-singleton-jr-ahead-of-auburn-game/"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "236454f09513",
+          "teamId": "lsu",
+          "headline": "Lane Kiffin says Ed Orgeron is doing better",
+          "summary": "Orgeron, who helps LSU with recruiting and defense, has been away from the team for about a month with an illness. Kiffin said Monday that it was scary for a while and that Orgeron is feeling better and still checking in on the team.",
+          "date": "2026-09-15",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lane-kiffin-shares-update-on-ed-orgerons-health"
+        },
+        {
           "id": "a42996bfadfd",
           "teamId": "lsu",
           "headline": "Kiffin says Saturday is about the players",
@@ -152,15 +161,6 @@
           "date": "2026-09-14",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/09/14/lsu-football-vs-texas-aandm-to-kickoff-in-primetime"
-        },
-        {
-          "id": "d496fb739703",
-          "teamId": "lsu",
-          "headline": "Lane Kiffin goes back to Ole Miss on Saturday",
-          "summary": "Kiffin coached Ole Miss for six seasons before he took the LSU job last November. Saturday night in Oxford is his first game back there, and both teams are 2-0.",
-          "date": "2026-09-13",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/olemiss/football/lane-kiffin-return-to-ole-miss-sets-stage-for-oxford-madhouse-on-saturday-night"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "747a3de45231",
+          "teamId": "tulane",
+          "headline": "Dickson Agu honored after a 14-tackle game",
+          "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
+          "date": "2026-09-15",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
+        },
+        {
           "id": "eeffbbd13d33",
           "teamId": "tulane",
           "headline": "Two Tulane players hurt with Kansas State next",
@@ -206,15 +215,6 @@
           "date": "2026-09-14",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
-        },
-        {
-          "id": "c0b4ad77634c",
-          "teamId": "tulane",
-          "headline": "Tulane wins its home opener 28-24",
-          "summary": "Jaylin Lucas ran for 214 yards, including an 80-yard touchdown. Kadin Semonza threw a 14-yard touchdown pass to Destyn Hill with 1:17 left to put Tulane ahead for good.",
-          "date": "2026-09-12",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/jaylin-lucas-runs-214-yards-025738761.html"
         }
       ]
     }
