@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "teams": {
     "tulane": {
       "record": "1-1",
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "d2e56917eb4a",
+          "teamId": "florida",
+          "headline": "Florida will wait on Eric Singleton for Saturday",
+          "summary": "Florida listed receiver Eric Singleton as questionable on Wednesday for the game at Auburn, the school he played for last season. He hurt his ankle on September 5 and will dress and try to play, and lineman Emmanuel Oyebadejo is questionable too.",
+          "date": "2026-09-16",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
+        },
+        {
           "id": "ba740716e925",
           "teamId": "florida",
           "headline": "Aaron Philo makes his first SEC start Saturday",
@@ -98,15 +107,6 @@
           "date": "2026-09-15",
           "source": "WCJB",
           "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
-        },
-        {
-          "id": "cdcc73939164",
-          "teamId": "florida",
-          "headline": "Vernell Brown III wins an SEC weekly award",
-          "summary": "The SEC named Brown its co-special teams player of the week on Monday. He returned four punts for 173 yards and two touchdowns against Campbell, the most punt return yards any Florida player has had in a game.",
-          "date": "2026-09-14",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "6dee9edca32d",
+          "teamId": "saints",
+          "headline": "Saints lose the man who snaps on kicks",
+          "summary": "Zach Wood strained his calf on Wednesday and is expected to be out four to six weeks. He snaps the ball on field goals and punts and had not missed a game since 2017, and the Saints have nobody else on the roster who does that job.",
+          "date": "2026-09-16",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
+        },
+        {
           "id": "2a6b30f73010",
           "teamId": "saints",
           "headline": "Alvin Kamara takes a full practice on Wednesday",
@@ -206,15 +215,6 @@
           "date": "2026-09-15",
           "source": "KALB / Associated Press",
           "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
-        },
-        {
-          "id": "bee5ac3c034e",
-          "teamId": "saints",
-          "headline": "Saints touchdown taken away by replay review",
-          "summary": "Chase Young knocked the ball loose from Jared Goff in the second quarter and Jonas Sanker picked it up and ran it in. Officials looked at the replay and ruled it an incomplete pass instead, so the touchdown did not count.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/49934999/saints-irked-overturned-defensive-td-ot-loss-lions"
         }
       ]
     },
@@ -230,7 +230,7 @@
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/",
+          "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Every IUP volleyball match is on the PSAC Sports Digital Network app. Tap this link on game day to watch."
         },
         "utc": "2026-09-18T22:00Z"
@@ -273,30 +273,39 @@
       ]
     },
     "yankees": {
-      "record": "88-63",
+      "record": "88-64",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Minnesota Twins",
-        "date": "2026-09-16",
-        "utc": "2026-09-16T17:40Z",
-        "time": "12:40 PM",
-        "venue": "Target Field",
-        "city": "Minneapolis, MN",
+        "opponent": "Arizona Diamondbacks",
+        "date": "2026-09-18",
+        "utc": "2026-09-19T01:40Z",
+        "time": "8:40 PM",
+        "venue": "Chase Field",
+        "city": "Phoenix, AZ",
         "tv": {
-          "name": "YES / Twins.TV",
+          "name": "YES / DBACKS.TV",
           "logo": "",
           "url": "",
           "note": "Not on YouTube TV — stream on MLB.TV"
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 8,
-        "opponentScore": 1,
+        "result": "L",
+        "teamScore": 4,
+        "opponentScore": 5,
         "opponent": "Minnesota Twins",
-        "date": "2026-09-15"
+        "date": "2026-09-16"
       },
       "news": [
+        {
+          "id": "cdc70c471a37",
+          "teamId": "yankees",
+          "headline": "Yankees lose in 13 innings at Minnesota",
+          "summary": "New York led three different times Wednesday and could not hold any of them, and the Twins won 5-4 on a single by Victor Caratini in the 13th inning. Anthony Volpe had two hits and two runs batted in, and the Yankees are now 88-64.",
+          "date": "2026-09-16",
+          "source": "Bronx Pinstripes",
+          "url": "https://bronxpinstripes.com/articles/2026-09-16-yankees-vs-twins-recap"
+        },
         {
           "id": "54f545901971",
           "teamId": "yankees",
@@ -314,15 +323,6 @@
           "date": "2026-09-15",
           "source": "ESPN / Associated Press",
           "url": "https://www.espn.com/mlb/recap/_/gameId/401816953"
-        },
-        {
-          "id": "3448a7d37b6c",
-          "teamId": "yankees",
-          "headline": "Yankees clinch a spot in the playoffs",
-          "summary": "New York beat Minnesota 8-3 on Monday night and is going to the playoffs. The spot was locked up while the game was still going, when Toronto lost to Detroit.",
-          "date": "2026-09-14",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-clinch-playoff-berth-beat-025843344.html"
         }
       ]
     },

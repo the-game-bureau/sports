@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "teams": {
     "saints": {
       "record": "0-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "6dee9edca32d",
+          "teamId": "saints",
+          "headline": "Saints lose the man who snaps on kicks",
+          "summary": "Zach Wood strained his calf on Wednesday and is expected to be out four to six weeks. He snaps the ball on field goals and punts and had not missed a game since 2017, and the Saints have nobody else on the roster who does that job.",
+          "date": "2026-09-16",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
+        },
+        {
           "id": "2a6b30f73010",
           "teamId": "saints",
           "headline": "Alvin Kamara takes a full practice on Wednesday",
@@ -44,15 +53,6 @@
           "date": "2026-09-15",
           "source": "KALB / Associated Press",
           "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
-        },
-        {
-          "id": "bee5ac3c034e",
-          "teamId": "saints",
-          "headline": "Saints touchdown taken away by replay review",
-          "summary": "Chase Young knocked the ball loose from Jared Goff in the second quarter and Jonas Sanker picked it up and ran it in. Officials looked at the replay and ruled it an incomplete pass instead, so the touchdown did not count.",
-          "date": "2026-09-13",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/49934999/saints-irked-overturned-defensive-td-ot-loss-lions"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "d2e56917eb4a",
+          "teamId": "florida",
+          "headline": "Florida will wait on Eric Singleton for Saturday",
+          "summary": "Florida listed receiver Eric Singleton as questionable on Wednesday for the game at Auburn, the school he played for last season. He hurt his ankle on September 5 and will dress and try to play, and lineman Emmanuel Oyebadejo is questionable too.",
+          "date": "2026-09-16",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
+        },
+        {
           "id": "ba740716e925",
           "teamId": "florida",
           "headline": "Aaron Philo makes his first SEC start Saturday",
@@ -98,15 +107,6 @@
           "date": "2026-09-15",
           "source": "WCJB",
           "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
-        },
-        {
-          "id": "cdcc73939164",
-          "teamId": "florida",
-          "headline": "Vernell Brown III wins an SEC weekly award",
-          "summary": "The SEC named Brown its co-special teams player of the week on Monday. He returned four punts for 173 yards and two touchdowns against Campbell, the most punt return yards any Florida player has had in a game.",
-          "date": "2026-09-14",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/14/football-brown-iii-named-sec-co-special-teams-player-of-the-week"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "7fb5707ccef2",
+          "teamId": "lsu",
+          "headline": "Ole Miss sues an LSU player over a broken deal",
+          "summary": "Ole Miss is suing LSU defensive end Princewill Umanmielen, who left Ole Miss in January and followed coach Lane Kiffin to Baton Rouge. Court papers were handed to him Tuesday outside the LSU football building, and Ole Miss is asking for about $550,000.",
+          "date": "2026-09-16",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lsu-princewill-umanmielen-served-with-court-papers-in-ole-miss-lawsuit"
+        },
+        {
           "id": "236454f09513",
           "teamId": "lsu",
           "headline": "Lane Kiffin says Ed Orgeron is doing better",
@@ -152,15 +161,6 @@
           "date": "2026-09-15",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/lane-kiffin-downplays-ole-miss-121330305.html"
-        },
-        {
-          "id": "d8b697760776",
-          "teamId": "lsu",
-          "headline": "LSU hosts Texas A&M at night on September 26",
-          "summary": "The game kicks off at 6:30 in the evening in Baton Rouge and will be on ABC. It is LSU's fourth home night game in a row this season.",
-          "date": "2026-09-14",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/09/14/lsu-football-vs-texas-aandm-to-kickoff-in-primetime"
         }
       ]
     },
