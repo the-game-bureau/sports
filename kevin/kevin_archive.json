@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "a42996bfadfd",
+      "teamId": "lsu",
+      "headline": "Kiffin says Saturday is about the players",
+      "summary": "Lane Kiffin played down his return to Ole Miss on Tuesday, saying the game is about the players being ready and playing well. No. 7 LSU plays at No. 8 Ole Miss on Saturday night.",
+      "date": "2026-09-15",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lane-kiffin-downplays-ole-miss-121330305.html"
+    },
+    {
+      "id": "af970d539c49",
+      "teamId": "saints",
+      "headline": "Kamara and Jordan are still out as Baltimore week starts",
+      "summary": "Alvin Kamara is still getting over a sprained knee and Cameron Jordan has not practiced yet because of a hamstring injury. Safety Justin Reid said the team is in a good place after nearly coming back to beat Detroit.",
+      "date": "2026-09-15",
+      "source": "KALB / Associated Press",
+      "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
+    },
+    {
       "id": "d8b697760776",
       "teamId": "lsu",
       "headline": "LSU hosts Texas A&M at night on September 26",

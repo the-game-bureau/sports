@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "694cea3f25db",
+      "teamId": "yankees",
+      "headline": "Max Fried wins for the first time since April",
+      "summary": "Fried gave up one run over seven innings Tuesday night at Minnesota and the Yankees won 8-1. Cody Bellinger and Spencer Jones hit home runs, and New York is 88-63 and three and a half games behind Tampa Bay in its division.",
+      "date": "2026-09-15",
+      "source": "ESPN / Associated Press",
+      "url": "https://www.espn.com/mlb/recap/_/gameId/401816953"
+    },
+    {
+      "id": "af970d539c49",
+      "teamId": "saints",
+      "headline": "Kamara and Jordan are still out as Baltimore week starts",
+      "summary": "Alvin Kamara is still getting over a sprained knee and Cameron Jordan has not practiced yet because of a hamstring injury. Safety Justin Reid said the team is in a good place after nearly coming back to beat Detroit.",
+      "date": "2026-09-15",
+      "source": "KALB / Associated Press",
+      "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
+    },
+    {
       "id": "3448a7d37b6c",
       "teamId": "yankees",
       "headline": "Yankees clinch a spot in the playoffs",

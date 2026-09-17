@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "102701879e20",
+          "teamId": "saints",
+          "headline": "Chris Olave turns up on the injury report",
+          "summary": "Receiver Chris Olave and pass rusher Chase Young were added to Thursday's injury report, Olave with a hamstring and Young with a calf, and both did part of practice. Alvin Kamara did all of practice for a second day in a row, three days before the Saints play at Baltimore.",
+          "date": "2026-09-17",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-thursday"
+        },
+        {
           "id": "6dee9edca32d",
           "teamId": "saints",
           "headline": "Saints lose the man who snaps on kicks",
@@ -206,15 +215,6 @@
           "date": "2026-09-16",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-wednesday"
-        },
-        {
-          "id": "af970d539c49",
-          "teamId": "saints",
-          "headline": "Kamara and Jordan are still out as Baltimore week starts",
-          "summary": "Alvin Kamara is still getting over a sprained knee and Cameron Jordan has not practiced yet because of a hamstring injury. Safety Justin Reid said the team is in a good place after nearly coming back to beat Detroit.",
-          "date": "2026-09-15",
-          "source": "KALB / Associated Press",
-          "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
         }
       ]
     },
@@ -298,6 +298,15 @@
       },
       "news": [
         {
+          "id": "46ac50bfc5c8",
+          "teamId": "yankees",
+          "headline": "Aaron Judge says his leg is nothing serious",
+          "summary": "Judge said the tightness in his lower right leg is a small thing that comes with getting back up to speed, and he does not expect to need any tests. He came out of Wednesday's game at Minnesota in the sixth inning as a precaution.",
+          "date": "2026-09-17",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-expects-090000439.html"
+        },
+        {
           "id": "cdc70c471a37",
           "teamId": "yankees",
           "headline": "Yankees lose in 13 innings at Minnesota",
@@ -314,15 +323,6 @@
           "date": "2026-09-16",
           "source": "Associated Press",
           "url": "https://lethbridgeherald.com/sports/national-sports/2026/09/16/yankees-pull-aaron-judge-for-a-pinch-hitter-in-the-6th-against-twins-because-of-lower-leg-tightness/"
-        },
-        {
-          "id": "694cea3f25db",
-          "teamId": "yankees",
-          "headline": "Max Fried wins for the first time since April",
-          "summary": "Fried gave up one run over seven innings Tuesday night at Minnesota and the Yankees won 8-1. Cody Bellinger and Spencer Jones hit home runs, and New York is 88-63 and three and a half games behind Tampa Bay in its division.",
-          "date": "2026-09-15",
-          "source": "ESPN / Associated Press",
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401816953"
         }
       ]
     },
