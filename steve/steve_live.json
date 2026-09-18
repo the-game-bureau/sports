@@ -190,6 +190,24 @@
       },
       "news": [
         {
+          "id": "29bb646104a5",
+          "teamId": "saints",
+          "headline": "Olave and Young are questionable for Sunday",
+          "summary": "The Saints' final report Friday listed receiver Chris Olave with a hamstring problem and pass rusher Chase Young with a calf problem, so both are uncertain at Baltimore. Alvin Kamara and Cam Jordan have no injury tag and are set to play.",
+          "date": "2026-09-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
+        },
+        {
+          "id": "d2222d2fd13a",
+          "teamId": "saints",
+          "headline": "Zach Wood goes on injured reserve",
+          "summary": "The Saints put Zach Wood, who snaps the ball on field goals and punts, on injured reserve Friday with a hurt calf. They also moved running back CJ Donaldson up from the practice squad to the main roster.",
+          "date": "2026-09-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/cj-donaldson-scott-daly-saints-roster-moves-transaction-alert-september-18-2026"
+        },
+        {
           "id": "c6d04aa4d3fa",
           "teamId": "saints",
           "headline": "Alvin Kamara says he will play Sunday",
@@ -197,24 +215,6 @@
           "date": "2026-09-17",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
-        },
-        {
-          "id": "102701879e20",
-          "teamId": "saints",
-          "headline": "Chris Olave turns up on the injury report",
-          "summary": "Receiver Chris Olave and pass rusher Chase Young were added to Thursday's injury report, Olave with a hamstring and Young with a calf, and both did part of practice. Alvin Kamara did all of practice for a second day in a row, three days before the Saints play at Baltimore.",
-          "date": "2026-09-17",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-thursday"
-        },
-        {
-          "id": "4e900be37d60",
-          "teamId": "saints",
-          "headline": "Saints sign a new man to snap on kicks",
-          "summary": "Zach Wood, who snaps the ball on field goals and punts, strained his calf and is expected to be out about a month. The Saints tried out three snappers Thursday and signed Scott Daly, who has played 76 games for Detroit and Chicago.",
-          "date": "2026-09-17",
-          "source": "Canal Street Chronicles",
-          "url": "https://www.canalstreetchronicles.com/new-orleans-saints-news/114908/saints-sign-long-snapper-scott-daly-to-practice-squad"
         }
       ]
     },
