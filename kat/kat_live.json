@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "teams": {
     "saints": {
       "record": "0-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "c6d04aa4d3fa",
+          "teamId": "saints",
+          "headline": "Alvin Kamara says he will play Sunday",
+          "summary": "Kamara hurt his knee in August and was told it would take about six weeks. He practiced in full two days in a row and said Thursday that he feels good and is playing at Baltimore.",
+          "date": "2026-09-17",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
+        },
+        {
           "id": "102701879e20",
           "teamId": "saints",
           "headline": "Chris Olave turns up on the injury report",
@@ -37,22 +46,13 @@
           "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-thursday"
         },
         {
-          "id": "6dee9edca32d",
+          "id": "4e900be37d60",
           "teamId": "saints",
-          "headline": "Saints lose the man who snaps on kicks",
-          "summary": "Zach Wood strained his calf on Wednesday and is expected to be out four to six weeks. He snaps the ball on field goals and punts and had not missed a game since 2017, and the Saints have nobody else on the roster who does that job.",
-          "date": "2026-09-16",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
-        },
-        {
-          "id": "2a6b30f73010",
-          "teamId": "saints",
-          "headline": "Alvin Kamara takes a full practice on Wednesday",
-          "summary": "Kamara did all of Wednesday's practice for the first time since he hurt his knee in August. Cameron Jordan was back on the field too and did part of the work, three days before the Saints play at Baltimore.",
-          "date": "2026-09-16",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-wednesday"
+          "headline": "Saints sign a new man to snap on kicks",
+          "summary": "Zach Wood, who snaps the ball on field goals and punts, strained his calf and is expected to be out about a month. The Saints tried out three snappers Thursday and signed Scott Daly, who has played 76 games for Detroit and Chicago.",
+          "date": "2026-09-17",
+          "source": "Canal Street Chronicles",
+          "url": "https://www.canalstreetchronicles.com/new-orleans-saints-news/114908/saints-sign-long-snapper-scott-daly-to-practice-squad"
         }
       ]
     },
@@ -136,13 +136,13 @@
       },
       "news": [
         {
-          "id": "c44fee4fa6b5",
+          "id": "07aa4f146688",
           "teamId": "lsu",
-          "headline": "LSU quarterback Sam Leavitt may miss Saturday",
-          "summary": "LSU listed Leavitt as doubtful for the game at Ole Miss, which means he is not likely to play. He did not throw in Wednesday's practice, and backup Landen Clark has been the first quarterback off the bench in both games this season.",
+          "headline": "Sam Leavitt practices and is upgraded to questionable",
+          "summary": "LSU's quarterback practiced with the team Thursday morning after being limited on Wednesday. The SEC report moved him from doubtful to questionable for Saturday night at Ole Miss.",
           "date": "2026-09-17",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/lsu-qb-sam-leavitt-doubtful-injury-ole-miss/"
+          "source": "Louisiana Sports",
+          "url": "https://www.louisianasports.net/2026/09/17/lsu-qb-sam-leavitt-returns-to-practice-ahead-of-ole-miss/lsu-sports/"
         },
         {
           "id": "7fb5707ccef2",

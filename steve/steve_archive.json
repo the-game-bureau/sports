@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "54f545901971",
+      "teamId": "yankees",
+      "headline": "Aaron Judge comes out of Wednesday's game early",
+      "summary": "The Yankees pinch-hit for Judge in the sixth inning at Minnesota because his lower right leg was tight. He struck out in both of his at-bats, and he has been back in the lineup for about a week after a broken rib.",
+      "date": "2026-09-16",
+      "source": "Associated Press",
+      "url": "https://lethbridgeherald.com/sports/national-sports/2026/09/16/yankees-pull-aaron-judge-for-a-pinch-hitter-in-the-6th-against-twins-because-of-lower-leg-tightness/"
+    },
+    {
+      "id": "69e3d7b331fc",
+      "teamId": "texas",
+      "headline": "Texas is the new No. 1 team in the country",
+      "summary": "The Longhorns took over the top spot in the Associated Press poll Sunday after beating Ohio State, with 56 of the first-place votes. It is the first time Texas has been No. 1 during a season since October 2024.",
+      "date": "2026-09-13",
+      "source": "Associated Press",
+      "url": "https://chicago.suntimes.com/college-sports/2026/09/13/ap-top-25-texas-michigan-ohio-state-oregon"
+    },
+    {
+      "id": "2a6b30f73010",
+      "teamId": "saints",
+      "headline": "Alvin Kamara takes a full practice on Wednesday",
+      "summary": "Kamara did all of Wednesday's practice for the first time since he hurt his knee in August. Cameron Jordan was back on the field too and did part of the work, three days before the Saints play at Baltimore.",
+      "date": "2026-09-16",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-wednesday"
+    },
+    {
+      "id": "6dee9edca32d",
+      "teamId": "saints",
+      "headline": "Saints lose the man who snaps on kicks",
+      "summary": "Zach Wood strained his calf on Wednesday and is expected to be out four to six weeks. He snaps the ball on field goals and punts and had not missed a game since 2017, and the Saints have nobody else on the roster who does that job.",
+      "date": "2026-09-16",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
+    },
     {
       "id": "694cea3f25db",
       "teamId": "yankees",
