@@ -297,26 +297,32 @@ Sunday in November.
 Use the Central date, or the countdown counts to the wrong day.
 
 Teams with `"espn": null` get their record, schedule and results from research in the
-next step instead. There are three, and none is on ESPN:
+next step instead. There are four, and none is on ESPN:
 
-- **IUP Crimson Hawks** volleyball, Division II. Use IUP athletics.
-- **Warren Easton Fighting Eagles** football, a New Orleans high school in the LHSAA.
-  MaxPreps slug `warren-easton-fighting-eagles`. On Steve's report.
-- **Brother Martin Crusaders** football, also New Orleans and also LHSAA. MaxPreps slug
-  `brother-martin-crusaders`. On Kevin's report.
+| Team | Sport | MaxPreps slug | Report |
+| --- | --- | --- | --- |
+| IUP Crimson Hawks | Volleyball, Division II | — use IUP athletics | Steve |
+| Warren Easton Fighting Eagles | Football, LHSAA, New Orleans | `warren-easton-fighting-eagles` | Steve |
+| Brother Martin Crusaders | Football, LHSAA, New Orleans | `brother-martin-crusaders` | Kevin |
+| Flagler Palm Coast Bulldogs | Football, FHSAA, Bunnell FL | `flagler-palm-coast-bulldogs` | Kat |
 
-For the two high schools, MaxPreps carries the record, the schedule and the final
-scores, plus New Orleans prep coverage. Two cautions. A school's own athletics site may
-answer 200 for pages that do not exist, so do not trust a link from one without reading
-the page. And MaxPreps titles its pages with the **season** — "Football 26-27" — which
-is not a record; take the record from the game list if the two disagree.
+For the three high schools, MaxPreps carries the record, the schedule and the final
+scores, plus local coverage. Two cautions about reading it:
 
-These two play each other, and did on September 18. One game, written into both
-reports from opposite sides: a win for one is a loss for the other, and the score
-flips with it.
+- A school's own athletics site may answer 200 for pages that do not exist, so do not
+  trust a link from one without reading the page.
+- MaxPreps titles its pages with the **season** — "Football 26-27" — which is not a
+  record. Take the record from the game list if the two disagree.
 
-For a high school game, `venue` and `city` matter more than usual — half the point is
-knowing whether to drive. Kickoff is Central already; do not shift it.
+**Warren Easton and Brother Martin play each other**, and did on September 18. That is
+one game written into two reports from opposite sides: a win for one is a loss for the
+other, and the score flips with it.
+
+**Kickoff times.** The two New Orleans schools already play on a Central clock, so take
+those times as written. Flagler Palm Coast is in Florida and plays on an Eastern one —
+convert it to Central like any other out-of-zone game, and let the date follow the
+clock. For any high school game, `venue` and `city` matter more than usual: half the
+point is knowing whether to drive.
 
 A team in both feeds (the Saints, Florida, Tulane) is one ESPN lookup, written into
 both. Their records and schedules are identical; only the two files differ.

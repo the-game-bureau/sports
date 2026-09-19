@@ -217,6 +217,24 @@
           "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
         }
       ]
+    },
+    "flagler-palm-coast": {
+      "record": "4-0",
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Tocoi Creek",
+        "date": "2026-09-24",
+        "time": "6:00 PM",
+        "note": "Kickoff is 7:00 PM Eastern in Florida."
+      },
+      "lastGame": {
+        "result": "W",
+        "teamScore": 38,
+        "opponentScore": 15,
+        "opponent": "First Coast",
+        "date": "2026-09-11"
+      },
+      "news": []
     }
   }
 }
