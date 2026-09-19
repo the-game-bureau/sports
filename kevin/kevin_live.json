@@ -217,6 +217,24 @@
           "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
         }
       ]
+    },
+    "brother-martin": {
+      "record": "3-0",
+      "nextGame": {
+        "homeAway": "home",
+        "opponent": "Jesuit",
+        "date": "2026-09-25",
+        "time": "7:00 PM",
+        "note": "District game."
+      },
+      "lastGame": {
+        "result": "W",
+        "teamScore": 56,
+        "opponentScore": 6,
+        "opponent": "Warren Easton",
+        "date": "2026-09-18"
+      },
+      "news": []
     }
   }
 }

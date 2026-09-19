@@ -58,7 +58,7 @@ dropped The Current Radio Show from Kat's Tulane card.
 
 All three reports run in one pass. Steve follows the Saints, Florida, Tulane, Texas,
 IUP, Warren Easton and the Yankees; Kat and Kevin both follow the Saints, Florida,
-LSU, and Tulane.
+LSU, and Tulane, and Kevin also follows Brother Martin.
 Shared teams are researched once and written into every feed that carries them.
 
 | Field | Where it comes from |

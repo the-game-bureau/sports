@@ -9,7 +9,8 @@
       "florida",
       "law-order",
       "yahoo",
-      "lsu"
+      "lsu",
+      "brother-martin"
     ],
     "note": "Permanent settings: teams, colors, links, leagues. Personal Sports Page Bot never writes to this file — scores and news live in kevin_live.json.",
     "leagues": [
@@ -263,6 +264,36 @@
           "url": "https://lsusports.net/sports/fb/news"
         }
       ]
+    },
+    {
+      "id": "brother-martin",
+      "name": "Brother Martin Crusaders",
+      "shortName": "Brother Martin",
+      "sport": "High School Football",
+      "ball": "🏈",
+      "logo": "images/brother-martin.webp",
+      "colors": {
+        "primary": "#B20032",
+        "secondary": "#C9A227",
+        "banner": "#B20032",
+        "light": "#F4DBE2"
+      },
+      "espn": null,
+      "person": null,
+      "newsFocus": "Brother Martin Crusaders football — game results, district standings, and players in the news. LHSAA Division I, New Orleans. ESPN does not carry high school ball, so the record, next game and last result come from MaxPreps and local coverage.",
+      "newsPriority": 2,
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.maxpreps.com/la/new-orleans/brother-martin-crusaders/football/schedule/"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.maxpreps.com/la/new-orleans/brother-martin-crusaders/football/roster/"
+        }
+      ],
+      "offSeason": false,
+      "extraEvents": []
     }
   ]
 }
