@@ -331,6 +331,23 @@
       "nextGame": null,
       "lastGame": null,
       "news": []
+    },
+    "warren-easton": {
+      "record": "0-3",
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Zachary",
+        "date": "2026-09-25",
+        "time": "7:00 PM"
+      },
+      "lastGame": {
+        "result": "L",
+        "teamScore": 6,
+        "opponentScore": 56,
+        "opponent": "Brother Martin",
+        "date": "2026-09-18"
+      },
+      "news": []
     }
   }
 }

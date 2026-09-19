@@ -267,6 +267,40 @@
       "offSeason": false
     },
     {
+      "id": "warren-easton",
+      "name": "Warren Easton Fighting Eagles",
+      "shortName": "Warren Easton",
+      "sport": "High School Football",
+      "ball": "🏈",
+      "logo": "images/warren-easton.webp",
+      "colors": {
+        "primary": "#5C2D91",
+        "secondary": "#CFB53B",
+        "banner": "#5C2D91",
+        "light": "#E8E1EF"
+      },
+      "espn": null,
+      "person": null,
+      "newsFocus": "Warren Easton Fighting Eagles football — game results, district standings, and players in the news. LHSAA Class 4A, New Orleans. ESPN does not carry high school ball, so the record, next game and last result come from MaxPreps and local coverage.",
+      "newsPriority": 2,
+      "links": [
+        {
+          "label": "Full Schedule",
+          "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
+        },
+        {
+          "label": "Roster",
+          "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/roster/"
+        },
+        {
+          "label": "Team Page",
+          "url": "https://www.fightingeaglesports.org/"
+        }
+      ],
+      "offSeason": false,
+      "extraEvents": []
+    },
+    {
       "id": "yankees",
       "name": "New York Yankees",
       "shortName": "Yankees",

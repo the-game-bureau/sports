@@ -296,8 +296,18 @@ Sunday in November.
 **September 5, 9:30 PM** in New Orleans — a day earlier than the venue's own listing.
 Use the Central date, or the countdown counts to the wrong day.
 
-Teams with `"espn": null` — **IUP Crimson Hawks**, which ESPN does not carry because
-it is Division II — get their schedule and results from research in the next step.
+Teams with `"espn": null` get their record, schedule and results from research in the
+next step instead. There are two, and neither is on ESPN:
+
+- **IUP Crimson Hawks** volleyball, Division II. Use IUP athletics.
+- **Warren Easton Fighting Eagles** football, a New Orleans high school in the LHSAA.
+  Use MaxPreps, which carries the record, the schedule and the final scores, plus New
+  Orleans prep coverage. Their MaxPreps slug is `warren-easton-fighting-eagles`; the
+  school's own athletics site answers 200 for pages that do not exist, so do not trust
+  a link from it without reading the page.
+
+For a high school game, `venue` and `city` matter more than usual — half the point is
+knowing whether to drive. Kickoff is Central already; do not shift it.
 
 A team in both feeds (the Saints, Florida, Tulane) is one ESPN lookup, written into
 both. Their records and schedules are identical; only the two files differ.
