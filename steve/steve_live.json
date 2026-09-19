@@ -3,7 +3,7 @@
   "updated": "2026-09-19",
   "teams": {
     "tulane": {
-      "record": "1-1",
+      "record": "1-2",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Kansas State Wildcats",
@@ -20,13 +20,22 @@
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 28,
-        "opponentScore": 24,
-        "opponent": "South Alabama Jaguars",
-        "date": "2026-09-12"
+        "result": "L",
+        "teamScore": 20,
+        "opponentScore": 31,
+        "opponent": "Kansas State Wildcats",
+        "date": "2026-09-19"
       },
       "news": [
+        {
+          "id": "84e950e985e3",
+          "teamId": "tulane",
+          "headline": "Kansas State beats Tulane 31-20",
+          "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
+          "date": "2026-09-19",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
+        },
         {
           "id": "747a3de45231",
           "teamId": "tulane",
@@ -44,15 +53,6 @@
           "date": "2026-09-15",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
-        },
-        {
-          "id": "14892609081a",
-          "teamId": "tulane",
-          "headline": "Jaylin Lucas honored by the American Conference",
-          "summary": "The conference put Lucas on its weekly honor roll Monday for his 214 yards and a touchdown against South Alabama. He averaged 19.5 yards a carry, a conference record for a player with at least 10 carries in a game.",
-          "date": "2026-09-14",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
         }
       ]
     },
