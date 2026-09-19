@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-18",
+    "updated": "2026-09-19",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "46ac50bfc5c8",
+      "teamId": "yankees",
+      "headline": "Aaron Judge says his leg is nothing serious",
+      "summary": "Judge said the tightness in his lower right leg is a small thing that comes with getting back up to speed, and he does not expect to need any tests. He came out of Wednesday's game at Minnesota in the sixth inning as a precaution.",
+      "date": "2026-09-17",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-expects-090000439.html"
+    },
     {
       "id": "4e900be37d60",
       "teamId": "saints",
@@ -23,6 +32,15 @@
       "date": "2026-09-17",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-thursday"
+    },
+    {
+      "id": "cdc70c471a37",
+      "teamId": "yankees",
+      "headline": "Yankees lose in 13 innings at Minnesota",
+      "summary": "New York led three different times Wednesday and could not hold any of them, and the Twins won 5-4 on a single by Victor Caratini in the 13th inning. Anthony Volpe had two hits and two runs batted in, and the Yankees are now 88-64.",
+      "date": "2026-09-16",
+      "source": "Bronx Pinstripes",
+      "url": "https://bronxpinstripes.com/articles/2026-09-16-yankees-vs-twins-recap"
     },
     {
       "id": "54f545901971",
@@ -68,6 +86,15 @@
       "date": "2026-09-15",
       "source": "KALB / Associated Press",
       "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
+    },
+    {
+      "id": "5dce925fdf26",
+      "teamId": "texas",
+      "headline": "Arch Manning is the SEC offensive player of the week",
+      "summary": "The SEC gave Manning the award Monday for bringing Texas back from 20 points down against Ohio State. On the three fourth-quarter drives that won the game he threw for 125 yards and a touchdown and ran for 26 more.",
+      "date": "2026-09-14",
+      "source": "SEC",
+      "url": "https://www.secsports.com/news/2026/09/sec-football-players-of-the-week-sep-14"
     },
     {
       "id": "3448a7d37b6c",
@@ -383,6 +410,15 @@
       "date": "2026-09-09",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/game/_/gameId/401816870/rockies-yankees"
+    },
+    {
+      "id": "63f5b8cac876",
+      "teamId": "iup",
+      "headline": "Delaney Concannon wins a conference weekly award",
+      "summary": "Concannon had 49 kills and 52 digs across four wins at IUP's home tournament last weekend. She leads the Crimson Hawks with 105 kills through nine matches.",
+      "date": "2026-09-08",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/8/womens-volleyball-concannon-earns-psac-athlete-of-the-week-honors.aspx"
     },
     {
       "id": "9891c87c72fb",

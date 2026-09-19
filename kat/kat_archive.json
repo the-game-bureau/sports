@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-18",
+    "updated": "2026-09-19",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "07aa4f146688",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt practices and is upgraded to questionable",
+      "summary": "LSU's quarterback practiced with the team Thursday morning after being limited on Wednesday. The SEC report moved him from doubtful to questionable for Saturday night at Ole Miss.",
+      "date": "2026-09-17",
+      "source": "Louisiana Sports",
+      "url": "https://www.louisianasports.net/2026/09/17/lsu-qb-sam-leavitt-returns-to-practice-ahead-of-ole-miss/lsu-sports/"
+    },
     {
       "id": "4e900be37d60",
       "teamId": "saints",

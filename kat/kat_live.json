@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "teams": {
     "saints": {
       "record": "0-1",
@@ -136,13 +136,13 @@
       },
       "news": [
         {
-          "id": "07aa4f146688",
+          "id": "9749875ed757",
           "teamId": "lsu",
-          "headline": "Sam Leavitt practices and is upgraded to questionable",
-          "summary": "LSU's quarterback practiced with the team Thursday morning after being limited on Wednesday. The SEC report moved him from doubtful to questionable for Saturday night at Ole Miss.",
-          "date": "2026-09-17",
-          "source": "Louisiana Sports",
-          "url": "https://www.louisianasports.net/2026/09/17/lsu-qb-sam-leavitt-returns-to-practice-ahead-of-ole-miss/lsu-sports/"
+          "headline": "Sam Leavitt is off the injury report",
+          "summary": "LSU took its quarterback off the conference injury report Friday night, so he is set to start Saturday night at Ole Miss. He was listed as doubtful on Wednesday and questionable on Thursday.",
+          "date": "2026-09-18",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/lsu-qb-sam-leavitt-lane-kiffin-ole-miss-pete-golding/"
         },
         {
           "id": "7fb5707ccef2",

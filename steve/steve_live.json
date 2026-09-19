@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "teams": {
     "tulane": {
       "record": "1-1",
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "8dd0dcf20e25",
+          "teamId": "texas",
+          "headline": "Texas is the No. 1 team in the country",
+          "summary": "The Longhorns moved to the top of the Associated Press poll after beating Ohio State. They play UTSA at home Saturday night in Austin.",
+          "date": "2026-09-17",
+          "source": "Associated Press",
+          "url": "https://www.wral.com/news/ap/15a8c-back-to-no-1-and-back-to-the-field-for-arch-manning-and-texas-longhorns-against-utsa/"
+        },
+        {
           "id": "96ba5e40e427",
           "teamId": "texas",
           "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
@@ -152,15 +161,6 @@
           "date": "2026-09-15",
           "source": "KSAT / Associated Press",
           "url": "https://www.ksat.com/sports/2026/09/15/texas-qb-arch-manning-apologizes-to-espn-reporter-holly-rowe-for-laughing-about-fake-video-of-slap/"
-        },
-        {
-          "id": "5dce925fdf26",
-          "teamId": "texas",
-          "headline": "Arch Manning is the SEC offensive player of the week",
-          "summary": "The SEC gave Manning the award Monday for bringing Texas back from 20 points down against Ohio State. On the three fourth-quarter drives that won the game he threw for 125 yards and a touchdown and ran for 26 more.",
-          "date": "2026-09-14",
-          "source": "SEC",
-          "url": "https://www.secsports.com/news/2026/09/sec-football-players-of-the-week-sep-14"
         }
       ]
     },
@@ -219,30 +219,39 @@
       ]
     },
     "iup": {
-      "record": "8-3",
+      "record": "9-3",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Seton Hill",
-        "date": "2026-09-18",
+        "opponent": "Slippery Rock",
+        "date": "2026-09-25",
+        "utc": "2026-09-25T22:00Z",
         "time": "5:00 PM",
-        "venue": "Seton Hill University (PSAC)",
-        "city": "Greensburg, PA",
+        "venue": "Slippery Rock University (PSAC)",
+        "city": "Slippery Rock, PA",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Every IUP volleyball match is on the PSAC Sports Digital Network app. Tap this link on game day to watch."
-        },
-        "utc": "2026-09-18T22:00Z"
+        }
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
         "opponentScore": 0,
-        "opponent": "Millersville",
-        "date": "2026-09-11"
+        "opponent": "Seton Hill",
+        "date": "2026-09-18"
       },
       "news": [
+        {
+          "id": "59dc66e1ebd8",
+          "teamId": "iup",
+          "headline": "IUP sweeps Seton Hill in conference opener",
+          "summary": "The Crimson Hawks won 25-23, 25-22, 25-17 at Seton Hill on Friday in their first conference match of the year. Delaney Concannon and Kyra Schmidt each had 8 kills, and IUP is 9-3 and has not lost since August 29.",
+          "date": "2026-09-18",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/18/womens-volleyball-volleyball-sweeps-seton-hill-to-open-psac-west-play.aspx"
+        },
         {
           "id": "f18ba4436e07",
           "teamId": "iup",
@@ -260,26 +269,17 @@
           "date": "2026-09-11",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
-        },
-        {
-          "id": "63f5b8cac876",
-          "teamId": "iup",
-          "headline": "Delaney Concannon wins a conference weekly award",
-          "summary": "Concannon had 49 kills and 52 digs across four wins at IUP's home tournament last weekend. She leads the Crimson Hawks with 105 kills through nine matches.",
-          "date": "2026-09-08",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/8/womens-volleyball-concannon-earns-psac-athlete-of-the-week-honors.aspx"
         }
       ]
     },
     "yankees": {
-      "record": "88-64",
+      "record": "89-64",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-18",
-        "utc": "2026-09-19T01:40Z",
-        "time": "8:40 PM",
+        "date": "2026-09-19",
+        "utc": "2026-09-20T00:10Z",
+        "time": "7:10 PM",
         "venue": "Chase Field",
         "city": "Phoenix, AZ",
         "tv": {
@@ -290,30 +290,30 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 4,
-        "opponentScore": 5,
-        "opponent": "Minnesota Twins",
-        "date": "2026-09-16"
+        "result": "W",
+        "teamScore": 9,
+        "opponentScore": 2,
+        "opponent": "Arizona Diamondbacks",
+        "date": "2026-09-18"
       },
       "news": [
         {
-          "id": "46ac50bfc5c8",
+          "id": "5c4efa87e663",
           "teamId": "yankees",
-          "headline": "Aaron Judge says his leg is nothing serious",
-          "summary": "Judge said the tightness in his lower right leg is a small thing that comes with getting back up to speed, and he does not expect to need any tests. He came out of Wednesday's game at Minnesota in the sixth inning as a precaution.",
-          "date": "2026-09-17",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-news-aaron-judge-expects-090000439.html"
+          "headline": "Aaron Judge goes on the injured list",
+          "summary": "The Yankees put Judge on the injured list Friday with a strained right calf. He is expected to miss most of what is left of the regular season, which ends September 27.",
+          "date": "2026-09-18",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/aaron-judge-placed-on-injured-list-with-right-calf-strain-september-2026"
         },
         {
-          "id": "cdc70c471a37",
+          "id": "700345621fb2",
           "teamId": "yankees",
-          "headline": "Yankees lose in 13 innings at Minnesota",
-          "summary": "New York led three different times Wednesday and could not hold any of them, and the Twins won 5-4 on a single by Victor Caratini in the 13th inning. Anthony Volpe had two hits and two runs batted in, and the Yankees are now 88-64.",
-          "date": "2026-09-16",
-          "source": "Bronx Pinstripes",
-          "url": "https://bronxpinstripes.com/articles/2026-09-16-yankees-vs-twins-recap"
+          "headline": "Yankees score five in the first and beat Arizona",
+          "summary": "New York scored five runs in the first inning Friday night and won 9-2 at Arizona. Ben Rice hit his 39th home run of the year, and the Yankees are now 89-64.",
+          "date": "2026-09-18",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-ride-five-run-first-043933215.html"
         },
         {
           "id": "aa19a36b8c7e",
@@ -347,7 +347,17 @@
         "opponent": "Brother Martin",
         "date": "2026-09-18"
       },
-      "news": []
+      "news": [
+        {
+          "id": "e4cf2b8fba47",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton falls to Brother Martin",
+          "summary": "Brother Martin scored early and often Friday night and won 56-6. Warren Easton is 0-3 and plays at Zachary next Friday.",
+          "date": "2026-09-18",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/news/WwJfKp6iR0WiOA6z4gvuhw/football-recap-tough-loss-for-warren-easton.htm"
+        }
+      ]
     }
   }
 }
