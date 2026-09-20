@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "482b7034617e",
+          "teamId": "florida",
+          "headline": "Florida is ranked for the first time under Sumrall",
+          "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
+          "date": "2026-09-20",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "76a03d7459ef",
           "teamId": "florida",
           "headline": "Florida beats Auburn 44-39 and is 3-0",
@@ -98,15 +107,6 @@
           "date": "2026-09-16",
           "source": "The Independent Florida Alligator",
           "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
-        },
-        {
-          "id": "ba740716e925",
-          "teamId": "florida",
-          "headline": "Aaron Philo makes his first SEC start Saturday",
-          "summary": "Philo has thrown for 517 yards and five touchdowns in Florida's two wins and has completed more than 76 percent of his passes. Saturday at Auburn is his first road start and his first game against an SEC team.",
-          "date": "2026-09-15",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "355cab15b82c",
+          "teamId": "texas",
+          "headline": "Texas is still No. 1 with Tennessee next",
+          "summary": "The Longhorns kept the top spot in the new Associated Press Top 25 on Sunday after beating UTSA 30-6. They play Saturday morning at Tennessee, which is ranked No. 14.",
+          "date": "2026-09-20",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "c8046ea0ca74",
           "teamId": "texas",
           "headline": "Texas beats UTSA 30-6 in Austin",
@@ -143,15 +152,6 @@
           "date": "2026-09-19",
           "source": "Texas Public Radio / Associated Press",
           "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
-        },
-        {
-          "id": "8dd0dcf20e25",
-          "teamId": "texas",
-          "headline": "Texas is the No. 1 team in the country",
-          "summary": "The Longhorns moved to the top of the Associated Press poll after beating Ohio State. They play UTSA at home Saturday night in Austin.",
-          "date": "2026-09-17",
-          "source": "Associated Press",
-          "url": "https://www.wral.com/news/ap/15a8c-back-to-no-1-and-back-to-the-field-for-arch-manning-and-texas-longhorns-against-utsa/"
         },
         {
           "id": "96ba5e40e427",
@@ -165,7 +165,7 @@
       ]
     },
     "saints": {
-      "record": "0-1",
+      "record": "1-1",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Baltimore Ravens",
@@ -182,13 +182,22 @@
         }
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 30,
-        "opponentScore": 31,
-        "opponent": "Detroit Lions",
-        "date": "2026-09-13"
+        "result": "W",
+        "teamScore": 24,
+        "opponentScore": 17,
+        "opponent": "Baltimore Ravens",
+        "date": "2026-09-20"
       },
       "news": [
+        {
+          "id": "f7b9c936dcf4",
+          "teamId": "saints",
+          "headline": "Saints win at Baltimore 24-17",
+          "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
+          "date": "2026-09-20",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
+        },
         {
           "id": "ca10d4231e5f",
           "teamId": "saints",
@@ -206,15 +215,6 @@
           "date": "2026-09-18",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
-        },
-        {
-          "id": "d2222d2fd13a",
-          "teamId": "saints",
-          "headline": "Zach Wood goes on injured reserve",
-          "summary": "The Saints put Zach Wood, who snaps the ball on field goals and punts, on injured reserve Friday with a hurt calf. They also moved running back CJ Donaldson up from the practice squad to the main roster.",
-          "date": "2026-09-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cj-donaldson-scott-daly-saints-roster-moves-transaction-alert-september-18-2026"
         }
       ]
     },
@@ -232,7 +232,7 @@
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network app. Tap this link on game day to watch."
+          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day, or open the PSAC Sports Digital Network app on a phone, tablet or Roku."
         }
       },
       "lastGame": {

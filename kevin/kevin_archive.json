@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "d2222d2fd13a",
+      "teamId": "saints",
+      "headline": "Zach Wood goes on injured reserve",
+      "summary": "The Saints put Zach Wood, who snaps the ball on field goals and punts, on injured reserve Friday with a hurt calf. They also moved running back CJ Donaldson up from the practice squad to the main roster.",
+      "date": "2026-09-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cj-donaldson-scott-daly-saints-roster-moves-transaction-alert-september-18-2026"
+    },
+    {
+      "id": "7fb5707ccef2",
+      "teamId": "lsu",
+      "headline": "Ole Miss sues an LSU player over a broken deal",
+      "summary": "Ole Miss is suing LSU defensive end Princewill Umanmielen, who left Ole Miss in January and followed coach Lane Kiffin to Baton Rouge. Court papers were handed to him Tuesday outside the LSU football building, and Ole Miss is asking for about $550,000.",
+      "date": "2026-09-16",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-princewill-umanmielen-served-with-court-papers-in-ole-miss-lawsuit"
+    },
+    {
+      "id": "ba740716e925",
+      "teamId": "florida",
+      "headline": "Aaron Philo makes his first SEC start Saturday",
+      "summary": "Philo has thrown for 517 yards and five touchdowns in Florida's two wins and has completed more than 76 percent of his passes. Saturday at Auburn is his first road start and his first game against an SEC team.",
+      "date": "2026-09-15",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
+    },
+    {
       "id": "c6d04aa4d3fa",
       "teamId": "saints",
       "headline": "Alvin Kamara says he will play Sunday",
