@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-19",
+    "updated": "2026-09-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "0ae5f0974e4f",
+      "teamId": "florida",
+      "headline": "Sumrall goes to Auburn, where his family has ties",
+      "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
+      "date": "2026-09-15",
+      "source": "WCJB",
+      "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
+    },
+    {
+      "id": "cd55108b3864",
+      "teamId": "texas",
+      "headline": "Arch Manning apologizes to a TV reporter",
+      "summary": "A fake video made by a computer showed Texas coach Steve Sarkisian slapping ESPN reporter Holly Rowe, and Manning laughed about it when he was asked at Monday's news conference. He apologized on Tuesday and said there is nothing funny about it, and Rowe said she accepts his apology.",
+      "date": "2026-09-15",
+      "source": "KSAT / Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/15/texas-qb-arch-manning-apologizes-to-espn-reporter-holly-rowe-for-laughing-about-fake-video-of-slap/"
+    },
+    {
+      "id": "c6d04aa4d3fa",
+      "teamId": "saints",
+      "headline": "Alvin Kamara says he will play Sunday",
+      "summary": "Kamara hurt his knee in August and was told it would take about six weeks. He practiced in full two days in a row and said Thursday that he feels good and is playing at Baltimore.",
+      "date": "2026-09-17",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
+    },
+    {
+      "id": "aa19a36b8c7e",
+      "teamId": "yankees",
+      "headline": "Clarke Schmidt pitches for the first time in 14 months",
+      "summary": "The Yankees brought the pitcher back Wednesday, about 14 months after elbow surgery. He came into the game at Minnesota in the seventh inning and struck out two, and infielder Oswaldo Cabrera was dropped from the roster to make room.",
+      "date": "2026-09-16",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/clarke-schmidt-activated-oswaldo-cabrera-designated-for-assignment"
+    },
     {
       "id": "14892609081a",
       "teamId": "tulane",

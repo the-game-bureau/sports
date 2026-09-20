@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "teams": {
     "saints": {
       "record": "0-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "ca10d4231e5f",
+          "teamId": "saints",
+          "headline": "Cam Jordan plays his first game of the year",
+          "summary": "The Saints said Saturday that defensive end Cam Jordan is cleared to play Sunday at Baltimore, his first game this season. Alvin Kamara is back too, and the defense has to handle Lamar Jackson and Derrick Henry.",
+          "date": "2026-09-19",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-defense-prepares-for-ravens-challenge-cam-jordan-set-to-return-new-orleans-news-headlines-9-19-2026"
+        },
+        {
           "id": "29bb646104a5",
           "teamId": "saints",
           "headline": "Olave and Young are questionable for Sunday",
@@ -44,43 +53,43 @@
           "date": "2026-09-18",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cj-donaldson-scott-daly-saints-roster-moves-transaction-alert-september-18-2026"
-        },
-        {
-          "id": "c6d04aa4d3fa",
-          "teamId": "saints",
-          "headline": "Alvin Kamara says he will play Sunday",
-          "summary": "Kamara hurt his knee in August and was told it would take about six weeks. He practiced in full two days in a row and said Thursday that he feels good and is playing at Baltimore.",
-          "date": "2026-09-17",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
         }
       ]
     },
     "florida": {
-      "record": "2-0",
+      "record": "3-0",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Auburn Tigers",
-        "date": "2026-09-19",
-        "utc": "2026-09-19T23:00Z",
-        "time": "6:00 PM",
-        "venue": "Jordan-Hare Stadium",
-        "city": "Auburn, AL",
+        "homeAway": "home",
+        "opponent": "Ole Miss Rebels",
+        "date": "2026-09-26",
+        "utc": "2026-09-26T19:30Z",
+        "time": "2:30 PM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ABC (WGNO 26)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         }
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 52,
-        "opponentScore": 3,
-        "opponent": "Campbell Fighting Camels",
-        "date": "2026-09-12"
+        "teamScore": 44,
+        "opponentScore": 39,
+        "opponent": "Auburn Tigers",
+        "date": "2026-09-19"
       },
       "news": [
+        {
+          "id": "76a03d7459ef",
+          "teamId": "florida",
+          "headline": "Florida beats Auburn 44-39 and is 3-0",
+          "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
+          "date": "2026-09-19",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
+        },
         {
           "id": "d2e56917eb4a",
           "teamId": "florida",
@@ -98,28 +107,19 @@
           "date": "2026-09-15",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
-        },
-        {
-          "id": "0ae5f0974e4f",
-          "teamId": "florida",
-          "headline": "Sumrall goes to Auburn, where his family has ties",
-          "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
-          "date": "2026-09-15",
-          "source": "WCJB",
-          "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
         }
       ]
     },
     "lsu": {
-      "record": "2-0",
+      "record": "2-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Ole Miss Rebels",
-        "date": "2026-09-19",
-        "utc": "2026-09-19T23:30Z",
+        "homeAway": "home",
+        "opponent": "Texas A&M Aggies",
+        "date": "2026-09-26",
+        "utc": "2026-09-26T23:30Z",
         "time": "6:30 PM",
-        "venue": "Vaught-Hemingway Stadium",
-        "city": "Oxford, MS",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
@@ -128,13 +128,22 @@
         }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 45,
-        "opponentScore": 14,
-        "opponent": "Louisiana Tech Bulldogs",
-        "date": "2026-09-12"
+        "result": "L",
+        "teamScore": 24,
+        "opponentScore": 32,
+        "opponent": "Ole Miss Rebels",
+        "date": "2026-09-19"
       },
       "news": [
+        {
+          "id": "45d5d8df3614",
+          "teamId": "lsu",
+          "headline": "Ole Miss holds off LSU 32-24",
+          "summary": "LSU trailed 24-7 at halftime Saturday night in Oxford, came back to tie the game, then gave up a touchdown and a two-point play. A fourth-down pass was picked off in the end zone at the end, and LSU is 2-1.",
+          "date": "2026-09-19",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/09/20/footballs-comeback-falls-short-vs-ole-miss-loses-32-24"
+        },
         {
           "id": "9749875ed757",
           "teamId": "lsu",
@@ -152,33 +161,24 @@
           "date": "2026-09-16",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/lsu/football/lsu-princewill-umanmielen-served-with-court-papers-in-ole-miss-lawsuit"
-        },
-        {
-          "id": "236454f09513",
-          "teamId": "lsu",
-          "headline": "Lane Kiffin says Ed Orgeron is doing better",
-          "summary": "Orgeron, who helps LSU with recruiting and defense, has been away from the team for about a month with an illness. Kiffin said Monday that it was scary for a while and that Orgeron is feeling better and still checking in on the team.",
-          "date": "2026-09-15",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/lsu/football/lane-kiffin-shares-update-on-ed-orgerons-health"
         }
       ]
     },
     "tulane": {
       "record": "1-2",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Kansas State Wildcats",
-        "date": "2026-09-19",
-        "utc": "2026-09-19T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Bill Snyder Family Stadium",
-        "city": "Manhattan, KS",
+        "homeAway": "home",
+        "opponent": "Southern Miss Golden Eagles",
+        "date": "2026-09-26",
+        "utc": "2026-09-26T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "ESPN2",
-          "logo": "images/espn2.webp",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {

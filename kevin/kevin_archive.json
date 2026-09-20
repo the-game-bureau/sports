@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-19",
+    "updated": "2026-09-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "c6d04aa4d3fa",
+      "teamId": "saints",
+      "headline": "Alvin Kamara says he will play Sunday",
+      "summary": "Kamara hurt his knee in August and was told it would take about six weeks. He practiced in full two days in a row and said Thursday that he feels good and is playing at Baltimore.",
+      "date": "2026-09-17",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
+    },
+    {
+      "id": "0ae5f0974e4f",
+      "teamId": "florida",
+      "headline": "Sumrall goes to Auburn, where his family has ties",
+      "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
+      "date": "2026-09-15",
+      "source": "WCJB",
+      "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
+    },
+    {
+      "id": "236454f09513",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin says Ed Orgeron is doing better",
+      "summary": "Orgeron, who helps LSU with recruiting and defense, has been away from the team for about a month with an illness. Kiffin said Monday that it was scary for a while and that Orgeron is feeling better and still checking in on the team.",
+      "date": "2026-09-15",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lane-kiffin-shares-update-on-ed-orgerons-health"
+    },
     {
       "id": "14892609081a",
       "teamId": "tulane",
