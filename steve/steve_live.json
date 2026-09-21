@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "0dacb9141b79",
+          "teamId": "texas",
+          "headline": "Sarkisian tells Arch Manning to be himself",
+          "summary": "Coach Steve Sarkisian said Monday that Manning ran with the ball too often in Saturday's win and should pick his spots better. He also said he does not want Manning trying to play like Peyton, Eli or Archie: “Arch Manning is plenty good enough for us to put us in position to win.”",
+          "date": "2026-09-21",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/texas/football/steve-sarkisian-makes-clear-his-message-to-arch-manning-ahead-of-tennessee"
+        },
+        {
           "id": "57a5c11907c2",
           "teamId": "texas",
           "headline": "Colin Simmons leaves the UTSA game in a boot",
@@ -152,15 +161,6 @@
           "date": "2026-09-20",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "c8046ea0ca74",
-          "teamId": "texas",
-          "headline": "Texas beats UTSA 30-6 in Austin",
-          "summary": "Arch Manning threw two early touchdown passes to Cam Coleman and the Texas defense held UTSA to 143 yards Saturday night. Manning was 16 of 32 for 161 yards, and the Longhorns are 3-0 with a trip to Tennessee next.",
-          "date": "2026-09-19",
-          "source": "Texas Public Radio / Associated Press",
-          "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
         }
       ]
     },
