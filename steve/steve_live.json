@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "07d5cb1c66d1",
+          "teamId": "tulane",
+          "headline": "Cooper Helmke sets the Tulane field goal record",
+          "summary": "Helmke's 58-yard kick at Kansas State on Saturday is the longest in school history, one yard past the mark Cairo Santos set in 2012. The redshirt freshman missed all of last season with a back injury and a hip injury.",
+          "date": "2026-09-20",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
+        },
+        {
           "id": "84e950e985e3",
           "teamId": "tulane",
           "headline": "Kansas State beats Tulane 31-20",
@@ -44,15 +53,6 @@
           "date": "2026-09-15",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
-        },
-        {
-          "id": "eeffbbd13d33",
-          "teamId": "tulane",
-          "headline": "Two Tulane players hurt with Kansas State next",
-          "summary": "Coach Will Hall said Tuesday that linebacker Chris Rodgers is getting a second opinion and that the team is still finding out how long tight end Ty Thompson will be out. Tulane plays Saturday morning at Kansas State, which is 2-0.",
-          "date": "2026-09-15",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "4f244da34bde",
+          "teamId": "saints",
+          "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
+          "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
+          "date": "2026-09-21",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
+        },
+        {
           "id": "f7b9c936dcf4",
           "teamId": "saints",
           "headline": "Saints win at Baltimore 24-17",
@@ -206,15 +215,6 @@
           "date": "2026-09-19",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-saints-defense-prepares-for-ravens-challenge-cam-jordan-set-to-return-new-orleans-news-headlines-9-19-2026"
-        },
-        {
-          "id": "29bb646104a5",
-          "teamId": "saints",
-          "headline": "Olave and Young are questionable for Sunday",
-          "summary": "The Saints' final report Friday listed receiver Chris Olave with a hamstring problem and pass rusher Chase Young with a calf problem, so both are uncertain at Baltimore. Alvin Kamara and Cam Jordan have no injury tag and are set to play.",
-          "date": "2026-09-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
         }
       ]
     },

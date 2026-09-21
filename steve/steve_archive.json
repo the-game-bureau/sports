@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "29bb646104a5",
+      "teamId": "saints",
+      "headline": "Olave and Young are questionable for Sunday",
+      "summary": "The Saints' final report Friday listed receiver Chris Olave with a hamstring problem and pass rusher Chase Young with a calf problem, so both are uncertain at Baltimore. Alvin Kamara and Cam Jordan have no injury tag and are set to play.",
+      "date": "2026-09-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
+    },
+    {
+      "id": "eeffbbd13d33",
+      "teamId": "tulane",
+      "headline": "Two Tulane players hurt with Kansas State next",
+      "summary": "Coach Will Hall said Tuesday that linebacker Chris Rodgers is getting a second opinion and that the team is still finding out how long tight end Ty Thompson will be out. Tulane plays Saturday morning at Kansas State, which is 2-0.",
+      "date": "2026-09-15",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
+    },
+    {
       "id": "96ba5e40e427",
       "teamId": "texas",
       "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
