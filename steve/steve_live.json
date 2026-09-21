@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "teams": {
     "tulane": {
       "record": "1-2",
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "57a5c11907c2",
+          "teamId": "texas",
+          "headline": "Colin Simmons leaves the UTSA game in a boot",
+          "summary": "Texas pass rusher Colin Simmons sat out the second half of Saturday's win and watched from the sideline in a walking boot. Coach Steve Sarkisian said taking him out was a precaution and that he expects Simmons back for Saturday's game at Tennessee.",
+          "date": "2026-09-20",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/texas/article/texas-edge-colin-simmons-leaves-saturdays-game-vs-utsa-and-is-wearing-a-protective-walking-boot-290203637/"
+        },
+        {
           "id": "355cab15b82c",
           "teamId": "texas",
           "headline": "Texas is still No. 1 with Tennessee next",
@@ -152,28 +161,19 @@
           "date": "2026-09-19",
           "source": "Texas Public Radio / Associated Press",
           "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
-        },
-        {
-          "id": "96ba5e40e427",
-          "teamId": "texas",
-          "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
-          "summary": "Coach Steve Sarkisian said Thursday that running back Derrek Cooper will play Saturday against UTSA. Cooper sprained his ankle in the opener and sat out the Ohio State game, and tight end Nick Townsend, who hurt his knee in that game, is not expected to play.",
-          "date": "2026-09-17",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/steve-sarkisian-provides-injury-updates-for-nick-townsend-derrek-cooper/"
         }
       ]
     },
     "saints": {
       "record": "1-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Baltimore Ravens",
-        "date": "2026-09-20",
-        "utc": "2026-09-20T17:00Z",
-        "time": "12:00 PM",
-        "venue": "M&T Bank Stadium",
-        "city": "Baltimore, MD",
+        "homeAway": "home",
+        "opponent": "Las Vegas Raiders",
+        "date": "2026-09-27",
+        "utc": "2026-09-27T20:25Z",
+        "time": "3:25 PM",
+        "venue": "Caesars Superdome",
+        "city": "New Orleans, LA",
         "tv": {
           "name": "WWL 4 (CBS)",
           "logo": "",
@@ -273,30 +273,39 @@
       ]
     },
     "yankees": {
-      "record": "89-65",
+      "record": "89-66",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-20",
-        "utc": "2026-09-20T20:10Z",
-        "time": "3:10 PM",
-        "venue": "Chase Field",
-        "city": "Phoenix, AZ",
+        "homeAway": "home",
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-09-22",
+        "utc": "2026-09-22T17:05Z",
+        "time": "12:05 PM",
+        "venue": "Yankee Stadium",
+        "city": "Bronx, NY",
         "tv": {
-          "name": "YES / DBACKS.TV",
-          "logo": "",
+          "name": "ESPN Unlimited / YES",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         }
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 3,
-        "opponentScore": 5,
+        "teamScore": 4,
+        "opponentScore": 8,
         "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-19"
+        "date": "2026-09-20"
       },
       "news": [
+        {
+          "id": "c643303058c3",
+          "teamId": "yankees",
+          "headline": "Arizona beats the Yankees 8-4 on a grand slam",
+          "summary": "The Yankees hit three home runs in the third inning Sunday off Corbin Burnes, but Nolan Arenado hit a grand slam in the fifth and Arizona won 8-4. New York is 89-66 and opens a four-game home series against Tampa Bay on Tuesday.",
+          "date": "2026-09-20",
+          "source": "Associated Press",
+          "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
+        },
         {
           "id": "969b60ab17db",
           "teamId": "yankees",
@@ -314,15 +323,6 @@
           "date": "2026-09-18",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/aaron-judge-placed-on-injured-list-with-right-calf-strain-september-2026"
-        },
-        {
-          "id": "700345621fb2",
-          "teamId": "yankees",
-          "headline": "Yankees score five in the first and beat Arizona",
-          "summary": "New York scored five runs in the first inning Friday night and won 9-2 at Arizona. Ben Rice hit his 39th home run of the year, and the Yankees are now 89-64.",
-          "date": "2026-09-18",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-ride-five-run-first-043933215.html"
         }
       ]
     },

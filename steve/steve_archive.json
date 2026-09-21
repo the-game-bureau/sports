@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-20",
+    "updated": "2026-09-21",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "96ba5e40e427",
+      "teamId": "texas",
+      "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
+      "summary": "Coach Steve Sarkisian said Thursday that running back Derrek Cooper will play Saturday against UTSA. Cooper sprained his ankle in the opener and sat out the Ohio State game, and tight end Nick Townsend, who hurt his knee in that game, is not expected to play.",
+      "date": "2026-09-17",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/steve-sarkisian-provides-injury-updates-for-nick-townsend-derrek-cooper/"
+    },
+    {
+      "id": "700345621fb2",
+      "teamId": "yankees",
+      "headline": "Yankees score five in the first and beat Arizona",
+      "summary": "New York scored five runs in the first inning Friday night and won 9-2 at Arizona. Ben Rice hit his 39th home run of the year, and the Yankees are now 89-64.",
+      "date": "2026-09-18",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-ride-five-run-first-043933215.html"
+    },
     {
       "id": "d2222d2fd13a",
       "teamId": "saints",

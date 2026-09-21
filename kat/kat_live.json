@@ -1,17 +1,17 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "teams": {
     "saints": {
       "record": "1-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Baltimore Ravens",
-        "date": "2026-09-20",
-        "utc": "2026-09-20T17:00Z",
-        "time": "12:00 PM",
-        "venue": "M&T Bank Stadium",
-        "city": "Baltimore, MD",
+        "homeAway": "home",
+        "opponent": "Las Vegas Raiders",
+        "date": "2026-09-27",
+        "utc": "2026-09-27T20:25Z",
+        "time": "3:25 PM",
+        "venue": "Caesars Superdome",
+        "city": "New Orleans, LA",
         "tv": {
           "name": "WWL 4 (CBS)",
           "logo": "",
