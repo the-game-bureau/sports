@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-21",
+    "updated": "2026-09-22",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f7b9c936dcf4",
+      "teamId": "saints",
+      "headline": "Saints win at Baltimore 24-17",
+      "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
+      "date": "2026-09-20",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
+    },
+    {
+      "id": "ca10d4231e5f",
+      "teamId": "saints",
+      "headline": "Cam Jordan plays his first game of the year",
+      "summary": "The Saints said Saturday that defensive end Cam Jordan is cleared to play Sunday at Baltimore, his first game this season. Alvin Kamara is back too, and the defense has to handle Lamar Jackson and Derrick Henry.",
+      "date": "2026-09-19",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-defense-prepares-for-ravens-challenge-cam-jordan-set-to-return-new-orleans-news-headlines-9-19-2026"
+    },
     {
       "id": "c8046ea0ca74",
       "teamId": "texas",
@@ -16,6 +34,15 @@
       "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
     },
     {
+      "id": "5c4efa87e663",
+      "teamId": "yankees",
+      "headline": "Aaron Judge goes on the injured list",
+      "summary": "The Yankees put Judge on the injured list Friday with a strained right calf. He is expected to miss most of what is left of the regular season, which ends September 27.",
+      "date": "2026-09-18",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/aaron-judge-placed-on-injured-list-with-right-calf-strain-september-2026"
+    },
+    {
       "id": "29bb646104a5",
       "teamId": "saints",
       "headline": "Olave and Young are questionable for Sunday",
@@ -23,24 +50,6 @@
       "date": "2026-09-18",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-friday"
-    },
-    {
-      "id": "eeffbbd13d33",
-      "teamId": "tulane",
-      "headline": "Two Tulane players hurt with Kansas State next",
-      "summary": "Coach Will Hall said Tuesday that linebacker Chris Rodgers is getting a second opinion and that the team is still finding out how long tight end Ty Thompson will be out. Tulane plays Saturday morning at Kansas State, which is 2-0.",
-      "date": "2026-09-15",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
-    },
-    {
-      "id": "96ba5e40e427",
-      "teamId": "texas",
-      "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
-      "summary": "Coach Steve Sarkisian said Thursday that running back Derrek Cooper will play Saturday against UTSA. Cooper sprained his ankle in the opener and sat out the Ohio State game, and tight end Nick Townsend, who hurt his knee in that game, is not expected to play.",
-      "date": "2026-09-17",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/steve-sarkisian-provides-injury-updates-for-nick-townsend-derrek-cooper/"
     },
     {
       "id": "700345621fb2",
@@ -61,6 +70,15 @@
       "url": "https://www.neworleanssaints.com/news/cj-donaldson-scott-daly-saints-roster-moves-transaction-alert-september-18-2026"
     },
     {
+      "id": "96ba5e40e427",
+      "teamId": "texas",
+      "headline": "Derrek Cooper is back for Texas, Nick Townsend is not",
+      "summary": "Coach Steve Sarkisian said Thursday that running back Derrek Cooper will play Saturday against UTSA. Cooper sprained his ankle in the opener and sat out the Ohio State game, and tight end Nick Townsend, who hurt his knee in that game, is not expected to play.",
+      "date": "2026-09-17",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/steve-sarkisian-provides-injury-updates-for-nick-townsend-derrek-cooper/"
+    },
+    {
       "id": "8dd0dcf20e25",
       "teamId": "texas",
       "headline": "Texas is the No. 1 team in the country",
@@ -70,33 +88,6 @@
       "url": "https://www.wral.com/news/ap/15a8c-back-to-no-1-and-back-to-the-field-for-arch-manning-and-texas-longhorns-against-utsa/"
     },
     {
-      "id": "ba740716e925",
-      "teamId": "florida",
-      "headline": "Aaron Philo makes his first SEC start Saturday",
-      "summary": "Philo has thrown for 517 yards and five touchdowns in Florida's two wins and has completed more than 76 percent of his passes. Saturday at Auburn is his first road start and his first game against an SEC team.",
-      "date": "2026-09-15",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
-    },
-    {
-      "id": "0ae5f0974e4f",
-      "teamId": "florida",
-      "headline": "Sumrall goes to Auburn, where his family has ties",
-      "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
-      "date": "2026-09-15",
-      "source": "WCJB",
-      "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
-    },
-    {
-      "id": "cd55108b3864",
-      "teamId": "texas",
-      "headline": "Arch Manning apologizes to a TV reporter",
-      "summary": "A fake video made by a computer showed Texas coach Steve Sarkisian slapping ESPN reporter Holly Rowe, and Manning laughed about it when he was asked at Monday's news conference. He apologized on Tuesday and said there is nothing funny about it, and Rowe said she accepts his apology.",
-      "date": "2026-09-15",
-      "source": "KSAT / Associated Press",
-      "url": "https://www.ksat.com/sports/2026/09/15/texas-qb-arch-manning-apologizes-to-espn-reporter-holly-rowe-for-laughing-about-fake-video-of-slap/"
-    },
-    {
       "id": "c6d04aa4d3fa",
       "teamId": "saints",
       "headline": "Alvin Kamara says he will play Sunday",
@@ -104,24 +95,6 @@
       "date": "2026-09-17",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/running-back-alvin-kamara-ready-to-make-season-debut-for-new-orleans-saints"
-    },
-    {
-      "id": "aa19a36b8c7e",
-      "teamId": "yankees",
-      "headline": "Clarke Schmidt pitches for the first time in 14 months",
-      "summary": "The Yankees brought the pitcher back Wednesday, about 14 months after elbow surgery. He came into the game at Minnesota in the seventh inning and struck out two, and infielder Oswaldo Cabrera was dropped from the roster to make room.",
-      "date": "2026-09-16",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/clarke-schmidt-activated-oswaldo-cabrera-designated-for-assignment"
-    },
-    {
-      "id": "14892609081a",
-      "teamId": "tulane",
-      "headline": "Jaylin Lucas honored by the American Conference",
-      "summary": "The conference put Lucas on its weekly honor roll Monday for his 214 yards and a touchdown against South Alabama. He averaged 19.5 yards a carry, a conference record for a player with at least 10 carries in a game.",
-      "date": "2026-09-14",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
     },
     {
       "id": "46ac50bfc5c8",
@@ -149,6 +122,24 @@
       "date": "2026-09-17",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-baltimore-ravens-vs-new-orleans-saints-2026-nfl-week-2-thursday"
+    },
+    {
+      "id": "d2e56917eb4a",
+      "teamId": "florida",
+      "headline": "Florida will wait on Eric Singleton for Saturday",
+      "summary": "Florida listed receiver Eric Singleton as questionable on Wednesday for the game at Auburn, the school he played for last season. He hurt his ankle on September 5 and will dress and try to play, and lineman Emmanuel Oyebadejo is questionable too.",
+      "date": "2026-09-16",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
+    },
+    {
+      "id": "aa19a36b8c7e",
+      "teamId": "yankees",
+      "headline": "Clarke Schmidt pitches for the first time in 14 months",
+      "summary": "The Yankees brought the pitcher back Wednesday, about 14 months after elbow surgery. He came into the game at Minnesota in the seventh inning and struck out two, and infielder Oswaldo Cabrera was dropped from the roster to make room.",
+      "date": "2026-09-16",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/clarke-schmidt-activated-oswaldo-cabrera-designated-for-assignment"
     },
     {
       "id": "cdc70c471a37",
@@ -187,6 +178,42 @@
       "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
     },
     {
+      "id": "eeffbbd13d33",
+      "teamId": "tulane",
+      "headline": "Two Tulane players hurt with Kansas State next",
+      "summary": "Coach Will Hall said Tuesday that linebacker Chris Rodgers is getting a second opinion and that the team is still finding out how long tight end Ty Thompson will be out. Tulane plays Saturday morning at Kansas State, which is 2-0.",
+      "date": "2026-09-15",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/hall-prepares-for-kansas-state-speaks-to-injury-concern-01m2k774rgg5"
+    },
+    {
+      "id": "ba740716e925",
+      "teamId": "florida",
+      "headline": "Aaron Philo makes his first SEC start Saturday",
+      "summary": "Philo has thrown for 517 yards and five touchdowns in Florida's two wins and has completed more than 76 percent of his passes. Saturday at Auburn is his first road start and his first game against an SEC team.",
+      "date": "2026-09-15",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/qb-philo-ready-first-test-gators-open-sec-play-auburn-01m2maee915f"
+    },
+    {
+      "id": "0ae5f0974e4f",
+      "teamId": "florida",
+      "headline": "Sumrall goes to Auburn, where his family has ties",
+      "summary": "Coach Jon Sumrall grew up in Alabama and his wife went to Auburn, so he was asked about family cheering against him Saturday. He said Florida pays his mortgage, and the Gators are going for their first 3-0 start since 2019.",
+      "date": "2026-09-15",
+      "source": "WCJB",
+      "url": "https://www.wcjb.com/2026/09/15/sumrall-sounds-off-auburn-family-history-ahead-matchup-plains/"
+    },
+    {
+      "id": "cd55108b3864",
+      "teamId": "texas",
+      "headline": "Arch Manning apologizes to a TV reporter",
+      "summary": "A fake video made by a computer showed Texas coach Steve Sarkisian slapping ESPN reporter Holly Rowe, and Manning laughed about it when he was asked at Monday's news conference. He apologized on Tuesday and said there is nothing funny about it, and Rowe said she accepts his apology.",
+      "date": "2026-09-15",
+      "source": "KSAT / Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/15/texas-qb-arch-manning-apologizes-to-espn-reporter-holly-rowe-for-laughing-about-fake-video-of-slap/"
+    },
+    {
       "id": "694cea3f25db",
       "teamId": "yankees",
       "headline": "Max Fried wins for the first time since April",
@@ -203,6 +230,15 @@
       "date": "2026-09-15",
       "source": "KALB / Associated Press",
       "url": "https://www.kalb.com/2026/09/15/saints-enter-week-2-emboldened-by-their-dramatic-near-comeback-detroit/"
+    },
+    {
+      "id": "14892609081a",
+      "teamId": "tulane",
+      "headline": "Jaylin Lucas honored by the American Conference",
+      "summary": "The conference put Lucas on its weekly honor roll Monday for his 214 yards and a touchdown against South Alabama. He averaged 19.5 yards a carry, a conference record for a player with at least 10 carries in a game.",
+      "date": "2026-09-14",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-running-back-jaylin-lucas-honored-by-american-conference/"
     },
     {
       "id": "5dce925fdf26",

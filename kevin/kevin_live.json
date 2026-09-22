@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "teams": {
     "saints": {
       "record": "1-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "1cc79091225e",
+          "teamId": "saints",
+          "headline": "Asim Richards takes over at left tackle",
+          "summary": "Richards finished Sunday's win in Baltimore after Kelvin Banks hurt his ankle, and coach Kellen Moore said he held his own against the Ravens' best pass rusher. Moore said Richards will take as many practice snaps as he can this week.",
+          "date": "2026-09-21",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
+        },
+        {
           "id": "4f244da34bde",
           "teamId": "saints",
           "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
@@ -37,22 +46,13 @@
           "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
         },
         {
-          "id": "f7b9c936dcf4",
+          "id": "19cf7cba8aa8",
           "teamId": "saints",
-          "headline": "Saints win at Baltimore 24-17",
-          "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
+          "headline": "Tyler Shough has the most yards since Drew Brees",
+          "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
           "date": "2026-09-20",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
-        },
-        {
-          "id": "ca10d4231e5f",
-          "teamId": "saints",
-          "headline": "Cam Jordan plays his first game of the year",
-          "summary": "The Saints said Saturday that defensive end Cam Jordan is cleared to play Sunday at Baltimore, his first game this season. Alvin Kamara is back too, and the defense has to handle Lamar Jackson and Derrick Henry.",
-          "date": "2026-09-19",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-defense-prepares-for-ravens-challenge-cam-jordan-set-to-return-new-orleans-news-headlines-9-19-2026"
+          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "ddccf9519ce3",
+          "teamId": "florida",
+          "headline": "Eric Singleton might play Saturday against Ole Miss",
+          "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
+          "date": "2026-09-21",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
+        },
+        {
           "id": "482b7034617e",
           "teamId": "florida",
           "headline": "Florida is ranked for the first time under Sumrall",
@@ -98,15 +107,6 @@
           "date": "2026-09-19",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
-        },
-        {
-          "id": "d2e56917eb4a",
-          "teamId": "florida",
-          "headline": "Florida will wait on Eric Singleton for Saturday",
-          "summary": "Florida listed receiver Eric Singleton as questionable on Wednesday for the game at Auburn, the school he played for last season. He hurt his ankle on September 5 and will dress and try to play, and lineman Emmanuel Oyebadejo is questionable too.",
-          "date": "2026-09-16",
-          "source": "The Independent Florida Alligator",
-          "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
         }
       ]
     },
@@ -145,6 +145,15 @@
           "url": "https://www.tigerrag.com/lsu-db-dashawn-spears-done-for-year-with-knee-injury-but-treydez-green-expected-back-after-missing-games/"
         },
         {
+          "id": "143faa7d9451",
+          "teamId": "lsu",
+          "headline": "Trey'Dez Green did not tear a knee ligament",
+          "summary": "LSU's tight end was carted off Saturday night at Ole Miss, but a scan showed no torn ligaments and he does not need surgery. He will miss some games, and the team has not said when he will be back.",
+          "date": "2026-09-20",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/lsu-dashawn-spears-acl-injury-treydez-green/"
+        },
+        {
           "id": "44492ddf2cc0",
           "teamId": "lsu",
           "headline": "LSU drops to No. 10 after the loss",
@@ -152,15 +161,6 @@
           "date": "2026-09-20",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "45d5d8df3614",
-          "teamId": "lsu",
-          "headline": "Ole Miss holds off LSU 32-24",
-          "summary": "LSU trailed 24-7 at halftime Saturday night in Oxford, came back to tie the game, then gave up a touchdown and a two-point play. A fourth-down pass was picked off in the end zone at the end, and LSU is 2-1.",
-          "date": "2026-09-19",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/09/20/footballs-comeback-falls-short-vs-ole-miss-loses-32-24"
         }
       ]
     },

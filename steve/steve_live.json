@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "teams": {
     "tulane": {
       "record": "1-2",
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "ddccf9519ce3",
+          "teamId": "florida",
+          "headline": "Eric Singleton might play Saturday against Ole Miss",
+          "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
+          "date": "2026-09-21",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
+        },
+        {
           "id": "482b7034617e",
           "teamId": "florida",
           "headline": "Florida is ranked for the first time under Sumrall",
@@ -98,15 +107,6 @@
           "date": "2026-09-19",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
-        },
-        {
-          "id": "d2e56917eb4a",
-          "teamId": "florida",
-          "headline": "Florida will wait on Eric Singleton for Saturday",
-          "summary": "Florida listed receiver Eric Singleton as questionable on Wednesday for the game at Auburn, the school he played for last season. He hurt his ankle on September 5 and will dress and try to play, and lineman Emmanuel Oyebadejo is questionable too.",
-          "date": "2026-09-16",
-          "source": "The Independent Florida Alligator",
-          "url": "https://www.alligator.org/article/2026/09/florida-injury-report-auburn"
         }
       ]
     },
@@ -190,6 +190,15 @@
       },
       "news": [
         {
+          "id": "1cc79091225e",
+          "teamId": "saints",
+          "headline": "Asim Richards takes over at left tackle",
+          "summary": "Richards finished Sunday's win in Baltimore after Kelvin Banks hurt his ankle, and coach Kellen Moore said he held his own against the Ravens' best pass rusher. Moore said Richards will take as many practice snaps as he can this week.",
+          "date": "2026-09-21",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
+        },
+        {
           "id": "4f244da34bde",
           "teamId": "saints",
           "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
@@ -199,22 +208,13 @@
           "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
         },
         {
-          "id": "f7b9c936dcf4",
+          "id": "19cf7cba8aa8",
           "teamId": "saints",
-          "headline": "Saints win at Baltimore 24-17",
-          "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
+          "headline": "Tyler Shough has the most yards since Drew Brees",
+          "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
           "date": "2026-09-20",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
-        },
-        {
-          "id": "ca10d4231e5f",
-          "teamId": "saints",
-          "headline": "Cam Jordan plays his first game of the year",
-          "summary": "The Saints said Saturday that defensive end Cam Jordan is cleared to play Sunday at Baltimore, his first game this season. Alvin Kamara is back too, and the defense has to handle Lamar Jackson and Derrick Henry.",
-          "date": "2026-09-19",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-defense-prepares-for-ravens-challenge-cam-jordan-set-to-return-new-orleans-news-headlines-9-19-2026"
+          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
         }
       ]
     },
@@ -229,10 +229,10 @@
         "venue": "Slippery Rock University (PSAC)",
         "city": "Slippery Rock, PA",
         "tv": {
-          "name": "PSAC Sports Digital Network app",
+          "name": "the PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day, or open the PSAC Sports Digital Network app on a phone, tablet or Roku."
+          "url": "https://psacsportsdigitalnetwork.com/slipperyrock/",
+          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day, or open the free app on a phone, tablet, Roku or Apple TV."
         }
       },
       "lastGame": {
@@ -287,7 +287,8 @@
           "logo": "images/espnplus.webp",
           "url": "",
           "note": "On ESPN Unlimited (comes with YouTube TV)"
-        }
+        },
+        "note": "This is a makeup of a game that was rained out in May. The Yankees and Rays play again tonight at 6:05 PM."
       },
       "lastGame": {
         "result": "L",
@@ -307,6 +308,15 @@
           "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
         },
         {
+          "id": "ef04e1444595",
+          "teamId": "yankees",
+          "headline": "Aaron Judge hopes to be back for the playoffs",
+          "summary": "Judge said he would like to return by the postseason after going on the injured list with a strained right calf. Manager Aaron Boone would not say when Judge will play again.",
+          "date": "2026-09-19",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/49983428/judge-hopes-back-october-no-line-return"
+        },
+        {
           "id": "969b60ab17db",
           "teamId": "yankees",
           "headline": "Yankees lose on a ninth-inning home run",
@@ -314,15 +324,6 @@
           "date": "2026-09-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-walked-off-diamondbacks-5-034757220.html"
-        },
-        {
-          "id": "5c4efa87e663",
-          "teamId": "yankees",
-          "headline": "Aaron Judge goes on the injured list",
-          "summary": "The Yankees put Judge on the injured list Friday with a strained right calf. He is expected to miss most of what is left of the regular season, which ends September 27.",
-          "date": "2026-09-18",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/aaron-judge-placed-on-injured-list-with-right-calf-strain-september-2026"
         }
       ]
     },
