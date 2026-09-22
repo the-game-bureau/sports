@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "969b60ab17db",
+      "teamId": "yankees",
+      "headline": "Yankees lose on a ninth-inning home run",
+      "summary": "Pavin Smith hit a two-run home run in the ninth inning Saturday night and Arizona beat the Yankees 5-3. New York is 89-65 and plays the last game of the series Sunday afternoon.",
+      "date": "2026-09-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-walked-off-diamondbacks-5-034757220.html"
+    },
+    {
       "id": "f7b9c936dcf4",
       "teamId": "saints",
       "headline": "Saints win at Baltimore 24-17",

@@ -238,6 +238,15 @@
       },
       "news": [
         {
+          "id": "f954114ceb5e",
+          "teamId": "flagler-palm-coast",
+          "headline": "Ehimen Ajede is the heart of the 4-0 Bulldogs",
+          "summary": "The Palm Coast Observer wrote about the senior running back on Monday. He has run for 613 yards and nine touchdowns in four games, an average of nine yards every time he carries the ball.",
+          "date": "2026-09-21",
+          "source": "Palm Coast Observer",
+          "url": "https://www.observerlocalnews.com/news/2026/sep/21/flagler-palm-coasts-he-man-a-selfless-leader-on-and-off-the-field/"
+        },
+        {
           "id": "8b15b9ef0af4",
           "teamId": "flagler-palm-coast",
           "headline": "Flagler Palm Coast wins again and is 4-0",

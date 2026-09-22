@@ -273,31 +273,40 @@
       ]
     },
     "yankees": {
-      "record": "89-66",
+      "record": "90-66",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Tampa Bay Rays",
         "date": "2026-09-22",
-        "utc": "2026-09-22T17:05Z",
-        "time": "12:05 PM",
+        "utc": "2026-09-22T23:05Z",
+        "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "ESPN Unlimited / YES",
-          "logo": "images/espnplus.webp",
+          "name": "TBS",
+          "logo": "",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
+          "note": "On YouTube TV"
         },
-        "note": "This is a makeup of a game that was rained out in May. The Yankees and Rays play again tonight at 6:05 PM."
+        "note": "This is the second game of a day-night doubleheader. The Yankees won the afternoon game 2-0."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 4,
-        "opponentScore": 8,
-        "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-20"
+        "result": "W",
+        "teamScore": 2,
+        "opponentScore": 0,
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-09-22"
       },
       "news": [
+        {
+          "id": "aa3dd3e5df85",
+          "teamId": "yankees",
+          "headline": "Yankees shut out the Rays 2-0",
+          "summary": "Carlos Rodon pitched eight scoreless innings Tuesday afternoon and Cody Bellinger hit a two-run home run. The Yankees are 90-66, and the win kept Tampa Bay from clinching the division title.",
+          "date": "2026-09-22",
+          "source": "Field Level Media",
+          "url": "https://fieldlevelmedia.com/mlb/yankees-hold-off-rays-celebration-with-win-in-doubleheader-opener/"
+        },
         {
           "id": "c643303058c3",
           "teamId": "yankees",
@@ -315,15 +324,6 @@
           "date": "2026-09-19",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/49983428/judge-hopes-back-october-no-line-return"
-        },
-        {
-          "id": "969b60ab17db",
-          "teamId": "yankees",
-          "headline": "Yankees lose on a ninth-inning home run",
-          "summary": "Pavin Smith hit a two-run home run in the ninth inning Saturday night and Arizona beat the Yankees 5-3. New York is 89-65 and plays the last game of the series Sunday afternoon.",
-          "date": "2026-09-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-walked-off-diamondbacks-5-034757220.html"
         }
       ]
     },
