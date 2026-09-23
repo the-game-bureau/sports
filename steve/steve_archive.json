@@ -2,10 +2,55 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-22",
+    "updated": "2026-09-23",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "76a03d7459ef",
+      "teamId": "florida",
+      "headline": "Florida beats Auburn 44-39 and is 3-0",
+      "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
+      "date": "2026-09-19",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
+    },
+    {
+      "id": "355cab15b82c",
+      "teamId": "texas",
+      "headline": "Texas is still No. 1 with Tennessee next",
+      "summary": "The Longhorns kept the top spot in the new Associated Press Top 25 on Sunday after beating UTSA 30-6. They play Saturday morning at Tennessee, which is ranked No. 14.",
+      "date": "2026-09-20",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "19cf7cba8aa8",
+      "teamId": "saints",
+      "headline": "Tyler Shough has the most yards since Drew Brees",
+      "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
+      "date": "2026-09-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
+    },
+    {
+      "id": "c643303058c3",
+      "teamId": "yankees",
+      "headline": "Arizona beats the Yankees 8-4 on a grand slam",
+      "summary": "The Yankees hit three home runs in the third inning Sunday off Corbin Burnes, but Nolan Arenado hit a grand slam in the fifth and Arizona won 8-4. New York is 89-66 and opens a four-game home series against Tampa Bay on Tuesday.",
+      "date": "2026-09-20",
+      "source": "Associated Press",
+      "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
+    },
+    {
+      "id": "ef04e1444595",
+      "teamId": "yankees",
+      "headline": "Aaron Judge hopes to be back for the playoffs",
+      "summary": "Judge said he would like to return by the postseason after going on the injured list with a strained right calf. Manager Aaron Boone would not say when Judge will play again.",
+      "date": "2026-09-19",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/49983428/judge-hopes-back-october-no-line-return"
+    },
     {
       "id": "969b60ab17db",
       "teamId": "yankees",
