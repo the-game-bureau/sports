@@ -674,6 +674,30 @@
 
         .archive-btn:active { background: #ccc; }
 
+        /* ── Live Games ── */
+        .live-games {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 32px;
+        }
+
+        .live-games-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 66px;
+            padding: 16px 20px;
+            color: #111;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+        }
+
+        .live-games-btn:active { background: #ccc; }
+
         /* ── Refresh ── */
         .refresh-btn {
             display: block;
@@ -886,7 +910,7 @@
             body { background: #fff !important; }
             .container { max-width: 100%; padding: 0; }
             .team-navigation, .refresh-btn, .updated, .carousel, .lightbox,
-            .archive-btn { display: none !important; }
+            .archive-btn, .live-games { display: none !important; }
             .league { break-inside: avoid; margin-top: 8px; }
             .league-body { padding: 6px 9px 8px; }
             .league-name { font-size: 11pt; }
@@ -1028,6 +1052,11 @@
             <div class="today" id="todayLine"></div>
             <div class="team-navigation" id="teamNav"></div>
         </div>
+
+        <section class="live-games">
+            <div class="sport-label"><span class="ball">🏈</span><span>Live Games</span></div>
+            <a class="live-games-btn" href="ticker/">Football Ticker &rarr;</a>
+        </section>
 
         <div class="teams-grid" id="teams">
             <div class="message">Loading today's report&hellip;</div>
