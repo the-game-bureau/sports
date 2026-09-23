@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "teams": {
     "saints": {
       "record": "1-1",
@@ -28,6 +28,24 @@
       },
       "news": [
         {
+          "id": "0f227d0fb88e",
+          "teamId": "saints",
+          "headline": "Kelvin Banks is placed on injured reserve",
+          "summary": "The Saints moved their starting left tackle to injured reserve on Wednesday. He hurt his ankle in Sunday's win at Baltimore and has to miss at least the next four games.",
+          "date": "2026-09-23",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-open-raiders-week-with-several-key-players-limited-or-sidelined-wednesday/"
+        },
+        {
+          "id": "4fad5c2db3f4",
+          "teamId": "saints",
+          "headline": "Three Saints sit out Wednesday's practice",
+          "summary": "Barion Brown, Martin Emerson and Christen Miller all missed practice Wednesday with injuries. Travis Etienne and Chase Young were on the field but did only part of the work.",
+          "date": "2026-09-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-wednesday"
+        },
+        {
           "id": "1cc79091225e",
           "teamId": "saints",
           "headline": "Asim Richards takes over at left tackle",
@@ -35,24 +53,6 @@
           "date": "2026-09-21",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
-        },
-        {
-          "id": "4f244da34bde",
-          "teamId": "saints",
-          "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
-          "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
-          "date": "2026-09-21",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
-        },
-        {
-          "id": "19cf7cba8aa8",
-          "teamId": "saints",
-          "headline": "Tyler Shough has the most yards since Drew Brees",
-          "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
-          "date": "2026-09-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "95c1759432a5",
+          "teamId": "florida",
+          "headline": "Florida's game with Ole Miss is sold out",
+          "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 21st home game in a row that Florida has sold out.",
+          "date": "2026-09-23",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/23/football-sold-out-ole-miss-game-marks-21st-straight-sellout-for-gators"
+        },
+        {
           "id": "ddccf9519ce3",
           "teamId": "florida",
           "headline": "Eric Singleton might play Saturday against Ole Miss",
@@ -98,15 +107,6 @@
           "date": "2026-09-20",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "76a03d7459ef",
-          "teamId": "florida",
-          "headline": "Florida beats Auburn 44-39 and is 3-0",
-          "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
-          "date": "2026-09-19",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
         }
       ]
     },
@@ -190,6 +190,24 @@
       },
       "news": [
         {
+          "id": "96300739ca3f",
+          "teamId": "tulane",
+          "headline": "Jackson Courville is up for a scholar award",
+          "summary": "Tulane kicker Jackson Courville is one of 206 semifinalists for the Campbell Trophy. It goes to the college football player who does the best job in class, on the field and as a leader.",
+          "date": "2026-09-23",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/jackson-courville-tulane-semifinalist-nff-campbell-trophy/"
+        },
+        {
+          "id": "003f10d7e3a1",
+          "teamId": "tulane",
+          "headline": "William Hudlow named one of the week's best punters",
+          "summary": "Tulane punter William Hudlow made the Ray Guy Award's weekly list of the eight best punters in the country. He punted five times for 203 yards at Kansas State, and his longest went 51 yards.",
+          "date": "2026-09-21",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-william-hudlow-named-ray-guy-award-rays-8-week-three-honoree/"
+        },
+        {
           "id": "07d5cb1c66d1",
           "teamId": "tulane",
           "headline": "Cooper Helmke sets the Tulane field goal record",
@@ -197,24 +215,6 @@
           "date": "2026-09-20",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
-        },
-        {
-          "id": "84e950e985e3",
-          "teamId": "tulane",
-          "headline": "Kansas State beats Tulane 31-20",
-          "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
-          "date": "2026-09-19",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
-        },
-        {
-          "id": "747a3de45231",
-          "teamId": "tulane",
-          "headline": "Dickson Agu honored after a 14-tackle game",
-          "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
-          "date": "2026-09-15",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
         }
       ]
     }

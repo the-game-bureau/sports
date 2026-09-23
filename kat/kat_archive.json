@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-22",
+    "updated": "2026-09-23",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4f244da34bde",
+      "teamId": "saints",
+      "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
+      "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
+      "date": "2026-09-21",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
+    },
+    {
+      "id": "19cf7cba8aa8",
+      "teamId": "saints",
+      "headline": "Tyler Shough has the most yards since Drew Brees",
+      "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
+      "date": "2026-09-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
+    },
     {
       "id": "f7b9c936dcf4",
       "teamId": "saints",
@@ -14,6 +32,24 @@
       "date": "2026-09-20",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
+    },
+    {
+      "id": "76a03d7459ef",
+      "teamId": "florida",
+      "headline": "Florida beats Auburn 44-39 and is 3-0",
+      "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
+      "date": "2026-09-19",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
+    },
+    {
+      "id": "84e950e985e3",
+      "teamId": "tulane",
+      "headline": "Kansas State beats Tulane 31-20",
+      "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
+      "date": "2026-09-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
     },
     {
       "id": "ca10d4231e5f",
@@ -140,6 +176,15 @@
       "date": "2026-09-16",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
+    },
+    {
+      "id": "747a3de45231",
+      "teamId": "tulane",
+      "headline": "Dickson Agu honored after a 14-tackle game",
+      "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
+      "date": "2026-09-15",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
     },
     {
       "id": "eeffbbd13d33",

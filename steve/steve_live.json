@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "teams": {
     "tulane": {
       "record": "1-2",
@@ -28,6 +28,24 @@
       },
       "news": [
         {
+          "id": "96300739ca3f",
+          "teamId": "tulane",
+          "headline": "Jackson Courville is up for a scholar award",
+          "summary": "Tulane kicker Jackson Courville is one of 206 semifinalists for the Campbell Trophy. It goes to the college football player who does the best job in class, on the field and as a leader.",
+          "date": "2026-09-23",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/jackson-courville-tulane-semifinalist-nff-campbell-trophy/"
+        },
+        {
+          "id": "003f10d7e3a1",
+          "teamId": "tulane",
+          "headline": "William Hudlow named one of the week's best punters",
+          "summary": "Tulane punter William Hudlow made the Ray Guy Award's weekly list of the eight best punters in the country. He punted five times for 203 yards at Kansas State, and his longest went 51 yards.",
+          "date": "2026-09-21",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-william-hudlow-named-ray-guy-award-rays-8-week-three-honoree/"
+        },
+        {
           "id": "07d5cb1c66d1",
           "teamId": "tulane",
           "headline": "Cooper Helmke sets the Tulane field goal record",
@@ -35,24 +53,6 @@
           "date": "2026-09-20",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
-        },
-        {
-          "id": "84e950e985e3",
-          "teamId": "tulane",
-          "headline": "Kansas State beats Tulane 31-20",
-          "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
-          "date": "2026-09-19",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
-        },
-        {
-          "id": "747a3de45231",
-          "teamId": "tulane",
-          "headline": "Dickson Agu honored after a 14-tackle game",
-          "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
-          "date": "2026-09-15",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "95c1759432a5",
+          "teamId": "florida",
+          "headline": "Florida's game with Ole Miss is sold out",
+          "summary": "Every ticket is gone for Saturday afternoon's game in Gainesville. It is the 21st home game in a row that Florida has sold out.",
+          "date": "2026-09-23",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/23/football-sold-out-ole-miss-game-marks-21st-straight-sellout-for-gators"
+        },
+        {
           "id": "ddccf9519ce3",
           "teamId": "florida",
           "headline": "Eric Singleton might play Saturday against Ole Miss",
@@ -98,15 +107,6 @@
           "date": "2026-09-20",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "76a03d7459ef",
-          "teamId": "florida",
-          "headline": "Florida beats Auburn 44-39 and is 3-0",
-          "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
-          "date": "2026-09-19",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "93475c9dee76",
+          "teamId": "texas",
+          "headline": "College GameDay is going to Knoxville",
+          "summary": "ESPN's Saturday morning show will come from Tennessee's campus before Texas plays there at 11:00 AM. Both teams have won all three of their games.",
+          "date": "2026-09-21",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/texas/football/college-gameday-heading-to-knoxville-for-tennessee-vs-texas"
+        },
+        {
           "id": "0dacb9141b79",
           "teamId": "texas",
           "headline": "Sarkisian tells Arch Manning to be himself",
@@ -152,15 +161,6 @@
           "date": "2026-09-20",
           "source": "247Sports",
           "url": "https://247sports.com/college/texas/article/texas-edge-colin-simmons-leaves-saturdays-game-vs-utsa-and-is-wearing-a-protective-walking-boot-290203637/"
-        },
-        {
-          "id": "355cab15b82c",
-          "teamId": "texas",
-          "headline": "Texas is still No. 1 with Tennessee next",
-          "summary": "The Longhorns kept the top spot in the new Associated Press Top 25 on Sunday after beating UTSA 30-6. They play Saturday morning at Tennessee, which is ranked No. 14.",
-          "date": "2026-09-20",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -190,6 +190,24 @@
       },
       "news": [
         {
+          "id": "0f227d0fb88e",
+          "teamId": "saints",
+          "headline": "Kelvin Banks is placed on injured reserve",
+          "summary": "The Saints moved their starting left tackle to injured reserve on Wednesday. He hurt his ankle in Sunday's win at Baltimore and has to miss at least the next four games.",
+          "date": "2026-09-23",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-open-raiders-week-with-several-key-players-limited-or-sidelined-wednesday/"
+        },
+        {
+          "id": "4fad5c2db3f4",
+          "teamId": "saints",
+          "headline": "Three Saints sit out Wednesday's practice",
+          "summary": "Barion Brown, Martin Emerson and Christen Miller all missed practice Wednesday with injuries. Travis Etienne and Chase Young were on the field but did only part of the work.",
+          "date": "2026-09-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-wednesday"
+        },
+        {
           "id": "1cc79091225e",
           "teamId": "saints",
           "headline": "Asim Richards takes over at left tackle",
@@ -197,24 +215,6 @@
           "date": "2026-09-21",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
-        },
-        {
-          "id": "4f244da34bde",
-          "teamId": "saints",
-          "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
-          "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
-          "date": "2026-09-21",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
-        },
-        {
-          "id": "19cf7cba8aa8",
-          "teamId": "saints",
-          "headline": "Tyler Shough has the most yards since Drew Brees",
-          "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
-          "date": "2026-09-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
         }
       ]
     },
@@ -232,7 +232,7 @@
           "name": "the PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/slipperyrock/",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day, or open the free app on a phone, tablet, Roku or Apple TV."
+          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. On game day, tap this link, or open the free PSAC Sports Digital Network app on a phone, tablet, Roku or Apple TV."
         }
       },
       "lastGame": {
@@ -273,57 +273,56 @@
       ]
     },
     "yankees": {
-      "record": "90-66",
+      "record": "90-67",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Tampa Bay Rays",
-        "date": "2026-09-22",
-        "utc": "2026-09-22T23:05Z",
+        "date": "2026-09-23",
+        "utc": "2026-09-23T23:05Z",
         "time": "6:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "TBS",
+          "name": "Prime Video",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
-        },
-        "note": "This is the second game of a day-night doubleheader. The Yankees won the afternoon game 2-0."
+          "note": "Not on YouTube TV — this one streams on Amazon Prime Video."
+        }
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 2,
-        "opponentScore": 0,
+        "result": "L",
+        "teamScore": 1,
+        "opponentScore": 6,
         "opponent": "Tampa Bay Rays",
         "date": "2026-09-22"
       },
       "news": [
         {
+          "id": "22bef0771544",
+          "teamId": "yankees",
+          "headline": "Yankees will host a playoff series next week",
+          "summary": "New York finished as the top wild card team in the American League, so the first playoff round starts at Yankee Stadium. Game one is Tuesday night.",
+          "date": "2026-09-23",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-playoff-schedule-wild-card-140142295.html"
+        },
+        {
+          "id": "287b71bb7f39",
+          "teamId": "yankees",
+          "headline": "Rays beat the Yankees 6-1 and win the division",
+          "summary": "Tampa Bay won Tuesday night's game at Yankee Stadium and finished first in the American League East. The Yankees had taken the afternoon game of the doubleheader 2-0.",
+          "date": "2026-09-22",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/mlb/rays/onsi/rays-clinch-al-east-title-beating-yankees-in-nightcap"
+        },
+        {
           "id": "aa3dd3e5df85",
           "teamId": "yankees",
           "headline": "Yankees shut out the Rays 2-0",
-          "summary": "Carlos Rodon pitched eight scoreless innings Tuesday afternoon and Cody Bellinger hit a two-run home run. The Yankees are 90-66, and the win kept Tampa Bay from clinching the division title.",
+          "summary": "Carlos Rodon pitched eight scoreless innings Tuesday afternoon and Cody Bellinger hit a two-run home run. It was the first game of a doubleheader, and the Rays came back to win the night game.",
           "date": "2026-09-22",
           "source": "Field Level Media",
           "url": "https://fieldlevelmedia.com/mlb/yankees-hold-off-rays-celebration-with-win-in-doubleheader-opener/"
-        },
-        {
-          "id": "c643303058c3",
-          "teamId": "yankees",
-          "headline": "Arizona beats the Yankees 8-4 on a grand slam",
-          "summary": "The Yankees hit three home runs in the third inning Sunday off Corbin Burnes, but Nolan Arenado hit a grand slam in the fifth and Arizona won 8-4. New York is 89-66 and opens a four-game home series against Tampa Bay on Tuesday.",
-          "date": "2026-09-20",
-          "source": "Associated Press",
-          "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
-        },
-        {
-          "id": "ef04e1444595",
-          "teamId": "yankees",
-          "headline": "Aaron Judge hopes to be back for the playoffs",
-          "summary": "Judge said he would like to return by the postseason after going on the injured list with a strained right calf. Manager Aaron Boone would not say when Judge will play again.",
-          "date": "2026-09-19",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/49983428/judge-hopes-back-october-no-line-return"
         }
       ]
     },
