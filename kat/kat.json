@@ -318,36 +318,6 @@
           "url": "https://www.nola.com/sports/tulane/"
         }
       ]
-    },
-    {
-      "id": "flagler-palm-coast",
-      "name": "Flagler Palm Coast Bulldogs",
-      "shortName": "Flagler Palm Coast",
-      "sport": "High School Football",
-      "ball": "🏈",
-      "logo": "images/flagler-palm-coast.webp",
-      "colors": {
-        "primary": "#006733",
-        "secondary": "#FFFFFF",
-        "banner": "#006733",
-        "light": "#DFEDE5"
-      },
-      "espn": null,
-      "person": null,
-      "newsFocus": "Flagler Palm Coast Bulldogs football — game results, district standings, and players in the news. Bunnell, Florida, in Flagler County. ESPN does not carry high school ball, so the record, next game and last result come from MaxPreps and Flagler County coverage.",
-      "newsPriority": 2,
-      "links": [
-        {
-          "label": "Full Schedule",
-          "url": "https://www.maxpreps.com/fl/palm-coast/flagler-palm-coast-bulldogs/football/schedule/"
-        },
-        {
-          "label": "Roster",
-          "url": "https://www.maxpreps.com/fl/palm-coast/flagler-palm-coast-bulldogs/football/roster/"
-        }
-      ],
-      "offSeason": false,
-      "extraEvents": []
     }
   ]
 }

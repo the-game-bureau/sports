@@ -297,16 +297,15 @@ Sunday in November.
 Use the Central date, or the countdown counts to the wrong day.
 
 Teams with `"espn": null` get their record, schedule and results from research in the
-next step instead. There are four, and none is on ESPN:
+next step instead. There are three, and none is on ESPN:
 
 | Team | Sport | MaxPreps slug | Report |
 | --- | --- | --- | --- |
 | IUP Crimson Hawks | Volleyball, Division II | — use IUP athletics | Steve |
 | Warren Easton Fighting Eagles | Football, LHSAA, New Orleans | `warren-easton-fighting-eagles` | Steve |
 | Brother Martin Crusaders | Football, LHSAA, New Orleans | `brother-martin-crusaders` | Kevin |
-| Flagler Palm Coast Bulldogs | Football, FHSAA, Bunnell FL | `flagler-palm-coast-bulldogs` | Kat |
 
-For the three high schools, MaxPreps carries the record, the schedule and the final
+For the two high schools, MaxPreps carries the record, the schedule and the final
 scores, plus local coverage. Two cautions about reading it:
 
 - A school's own athletics site may answer 200 for pages that do not exist, so do not
@@ -319,9 +318,7 @@ one game written into two reports from opposite sides: a win for one is a loss f
 other, and the score flips with it.
 
 **Kickoff times.** The two New Orleans schools already play on a Central clock, so take
-those times as written. Flagler Palm Coast is in Florida and plays on an Eastern one —
-convert it to Central like any other out-of-zone game, and let the date follow the
-clock. For any high school game, `venue` and `city` matter more than usual: half the
+those times as written. For any high school game, `venue` and `city` matter more than usual: half the
 point is knowing whether to drive.
 
 A team in both feeds (the Saints, Florida, Tulane) is one ESPN lookup, written into

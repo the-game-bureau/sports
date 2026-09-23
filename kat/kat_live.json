@@ -217,45 +217,6 @@
           "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
         }
       ]
-    },
-    "flagler-palm-coast": {
-      "record": "4-0",
-      "nextGame": {
-        "homeAway": "away",
-        "opponent": "Tocoi Creek",
-        "date": "2026-09-24",
-        "time": "6:00 PM",
-        "note": "District game. Kickoff is 7:00 PM Eastern in Florida.",
-        "venue": "Tocoi Creek High School",
-        "city": "St. Augustine, FL"
-      },
-      "lastGame": {
-        "result": "W",
-        "teamScore": 38,
-        "opponentScore": 15,
-        "opponent": "First Coast",
-        "date": "2026-09-11"
-      },
-      "news": [
-        {
-          "id": "f954114ceb5e",
-          "teamId": "flagler-palm-coast",
-          "headline": "Ehimen Ajede is the heart of the 4-0 Bulldogs",
-          "summary": "The Palm Coast Observer wrote about the senior running back on Monday. He has run for 613 yards and nine touchdowns in four games, an average of nine yards every time he carries the ball.",
-          "date": "2026-09-21",
-          "source": "Palm Coast Observer",
-          "url": "https://www.observerlocalnews.com/news/2026/sep/21/flagler-palm-coasts-he-man-a-selfless-leader-on-and-off-the-field/"
-        },
-        {
-          "id": "8b15b9ef0af4",
-          "teamId": "flagler-palm-coast",
-          "headline": "Flagler Palm Coast wins again and is 4-0",
-          "summary": "The Bulldogs beat First Coast 38-15 at home on September 11 and have not lost this season. Ehimen Ajede ran for 131 yards and a touchdown, and Jacobelli caught two touchdown passes.",
-          "date": "2026-09-11",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/fl/football/game/first-coast-jacksonville-vs-flagler-palm-coast/9-11-2026/?c=827b8ce4-c514-4c7b-ae88-ebe35594c361"
-        }
-      ]
     }
   }
 }
