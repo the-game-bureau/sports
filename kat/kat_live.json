@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-22",
+  "updated": "2026-09-24",
   "teams": {
     "saints": {
       "record": "1-1",
@@ -28,6 +28,22 @@
       },
       "news": [
         {
+          "id": "7040671229d1",
+          "headline": "Kelvin Banks goes on injured reserve",
+          "summary": "The Saints put left tackle Kelvin Banks Jr. on injured reserve Wednesday after his ankle surgery, and signed long snapper Cal Adomitis. Banks is allowed to come back after four games.",
+          "date": "2026-09-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/cal-adomitas-saints-roster-moves-transaction-alert-september-23-2026"
+        },
+        {
+          "id": "3cde3fdfdfb5",
+          "headline": "Three Saints sit out Wednesday's practice",
+          "summary": "Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller did not practice Wednesday. Chase Young and Travis Etienne took part but were limited, four days before the Raiders come to the Superdome.",
+          "date": "2026-09-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/team/injury-report/"
+        },
+        {
           "id": "1cc79091225e",
           "teamId": "saints",
           "headline": "Asim Richards takes over at left tackle",
@@ -35,24 +51,6 @@
           "date": "2026-09-21",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
-        },
-        {
-          "id": "4f244da34bde",
-          "teamId": "saints",
-          "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
-          "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
-          "date": "2026-09-21",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
-        },
-        {
-          "id": "19cf7cba8aa8",
-          "teamId": "saints",
-          "headline": "Tyler Shough has the most yards since Drew Brees",
-          "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
-          "date": "2026-09-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
         }
       ]
     },
@@ -82,6 +80,14 @@
       },
       "news": [
         {
+          "id": "36ed46520ef7",
+          "headline": "Saturday's Ole Miss game is sold out",
+          "summary": "Florida has sold every ticket for Saturday afternoon's game against Ole Miss in Gainesville. It is the 21st home game in a row the Gators have sold out.",
+          "date": "2026-09-23",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/23/football-sold-out-ole-miss-game-marks-21st-straight-sellout-for-gators"
+        },
+        {
           "id": "ddccf9519ce3",
           "teamId": "florida",
           "headline": "Eric Singleton might play Saturday against Ole Miss",
@@ -98,15 +104,6 @@
           "date": "2026-09-20",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "76a03d7459ef",
-          "teamId": "florida",
-          "headline": "Florida beats Auburn 44-39 and is 3-0",
-          "summary": "Jadan Baugh ran for 162 yards and three touchdowns Saturday night at Auburn, and Aaron Philo threw for 202 more. Auburn scored twice late, but Florida held on and is 3-0 for the first time since 2019.",
-          "date": "2026-09-19",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
         }
       ]
     },
@@ -136,6 +133,14 @@
       },
       "news": [
         {
+          "id": "d39eca780995",
+          "headline": "LSU will be short three players Saturday",
+          "summary": "Tight end Trey'Dez Green, safety DaShawn Spears and receiver Phillip Wright are all listed out for Saturday night's game against Texas A&M. Cornerback Ja'Keem Jackson is doubtful and safety Tamarcus Cooley is questionable.",
+          "date": "2026-09-23",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/texas-am/article/texas-am-lsu-availability-report-terry-bussey-jamarion-morrow-290353372/"
+        },
+        {
           "id": "12ea2adb4eee",
           "teamId": "lsu",
           "headline": "LSU loses Dashawn Spears for the season",
@@ -152,15 +157,6 @@
           "date": "2026-09-20",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/lsu-dashawn-spears-acl-injury-treydez-green/"
-        },
-        {
-          "id": "44492ddf2cc0",
-          "teamId": "lsu",
-          "headline": "LSU drops to No. 10 after the loss",
-          "summary": "LSU went from No. 7 to No. 10 in the new Associated Press Top 25 on Sunday after losing 32-24 at Ole Miss. The Tigers are 2-1 and host Texas A&M on Saturday night in Baton Rouge.",
-          "date": "2026-09-20",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -190,6 +186,14 @@
       },
       "news": [
         {
+          "id": "125dc8207db0",
+          "headline": "Will Hall faces his old team Saturday",
+          "summary": "Tulane coach Will Hall meets Southern Miss on Saturday at Yulman Stadium. He used to be the head coach at Southern Miss, and quarterback Kadin Semonza said the Green Wave want to win this one for him.",
+          "date": "2026-09-23",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/chips-shoulders-abound-tulane-ahead-190033147.html"
+        },
+        {
           "id": "07d5cb1c66d1",
           "teamId": "tulane",
           "headline": "Cooper Helmke sets the Tulane field goal record",
@@ -206,15 +210,6 @@
           "date": "2026-09-19",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
-        },
-        {
-          "id": "747a3de45231",
-          "teamId": "tulane",
-          "headline": "Dickson Agu honored after a 14-tackle game",
-          "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
-          "date": "2026-09-15",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
         }
       ]
     }
