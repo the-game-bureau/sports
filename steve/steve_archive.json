@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "504fa950f775",
+      "headline": "Rays win the second game of the doubleheader",
+      "summary": "Tampa Bay beat the Yankees 6-1 on Tuesday night in the Bronx. The Yankees had won the afternoon game 2-0.",
+      "date": "2026-09-22",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401817034",
+      "teamId": "yankees"
+    },
+    {
+      "id": "1cc79091225e",
+      "teamId": "saints",
+      "headline": "Asim Richards takes over at left tackle",
+      "summary": "Richards finished Sunday's win in Baltimore after Kelvin Banks hurt his ankle, and coach Kellen Moore said he held his own against the Ravens' best pass rusher. Moore said Richards will take as many practice snaps as he can this week.",
+      "date": "2026-09-21",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
+    },
+    {
+      "id": "57a5c11907c2",
+      "teamId": "texas",
+      "headline": "Colin Simmons leaves the UTSA game in a boot",
+      "summary": "Texas pass rusher Colin Simmons sat out the second half of Saturday's win and watched from the sideline in a walking boot. Coach Steve Sarkisian said taking him out was a precaution and that he expects Simmons back for Saturday's game at Tennessee.",
+      "date": "2026-09-20",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/texas/article/texas-edge-colin-simmons-leaves-saturdays-game-vs-utsa-and-is-wearing-a-protective-walking-boot-290203637/"
+    },
+    {
+      "id": "84e950e985e3",
+      "teamId": "tulane",
+      "headline": "Kansas State beats Tulane 31-20",
+      "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
+      "date": "2026-09-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
+    },
+    {
       "id": "ef04e1444595",
       "teamId": "yankees",
       "headline": "Aaron Judge hopes to be back for the playoffs",

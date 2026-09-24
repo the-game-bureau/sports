@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "1cc79091225e",
+      "teamId": "saints",
+      "headline": "Asim Richards takes over at left tackle",
+      "summary": "Richards finished Sunday's win in Baltimore after Kelvin Banks hurt his ankle, and coach Kellen Moore said he held his own against the Ravens' best pass rusher. Moore said Richards will take as many practice snaps as he can this week.",
+      "date": "2026-09-21",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
+    },
+    {
+      "id": "84e950e985e3",
+      "teamId": "tulane",
+      "headline": "Kansas State beats Tulane 31-20",
+      "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
+      "date": "2026-09-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
+    },
+    {
       "id": "747a3de45231",
       "teamId": "tulane",
       "headline": "Dickson Agu honored after a 14-tackle game",

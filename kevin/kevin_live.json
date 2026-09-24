@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "ee71034dc6f5",
+          "teamId": "saints",
+          "headline": "Chase Young practices fully on Thursday",
+          "summary": "The Saints pass rusher took part in all of Thursday's practice, and safety Jonas Sanker and lineman Nathan Shepherd did too. Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller sat out again, and running back Travis Etienne was limited.",
+          "date": "2026-09-24",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
+        },
+        {
           "id": "7040671229d1",
           "headline": "Kelvin Banks goes on injured reserve",
           "summary": "The Saints put left tackle Kelvin Banks Jr. on injured reserve Wednesday after his ankle surgery, and signed long snapper Cal Adomitis. Banks is allowed to come back after four games.",
@@ -42,15 +51,6 @@
           "date": "2026-09-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/team/injury-report/"
-        },
-        {
-          "id": "1cc79091225e",
-          "teamId": "saints",
-          "headline": "Asim Richards takes over at left tackle",
-          "summary": "Richards finished Sunday's win in Baltimore after Kelvin Banks hurt his ankle, and coach Kellen Moore said he held his own against the Ravens' best pass rusher. Moore said Richards will take as many practice snaps as he can this week.",
-          "date": "2026-09-21",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
         }
       ]
     },
@@ -186,6 +186,15 @@
       },
       "news": [
         {
+          "id": "0a9fdf5dc6d9",
+          "teamId": "tulane",
+          "headline": "Jamauri McClure misses another game",
+          "summary": "Tulane's running back will sit out Saturday's game against Southern Miss with a foot injury, and he has not played at all this season. The Green Wave have a bye next week and hope he can come back October 10 at Army.",
+          "date": "2026-09-24",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
+        },
+        {
           "id": "125dc8207db0",
           "headline": "Will Hall faces his old team Saturday",
           "summary": "Tulane coach Will Hall meets Southern Miss on Saturday at Yulman Stadium. He used to be the head coach at Southern Miss, and quarterback Kadin Semonza said the Green Wave want to win this one for him.",
@@ -201,15 +210,6 @@
           "date": "2026-09-20",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
-        },
-        {
-          "id": "84e950e985e3",
-          "teamId": "tulane",
-          "headline": "Kansas State beats Tulane 31-20",
-          "summary": "Tulane scored on its opening drive Saturday morning, but Kansas State quarterback Avery Johnson ran for 152 yards and two touchdowns and the Wildcats pulled away. Kicker Cooper Helmke made a 58-yard field goal, the longest in Tulane history, and the Green Wave are now 1-2.",
-          "date": "2026-09-19",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-battles-but-falls-31-20-to-dynamic-johnson-kansas-state/"
         }
       ]
     },
