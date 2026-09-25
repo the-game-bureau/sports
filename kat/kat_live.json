@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "teams": {
     "saints": {
       "record": "1-1",
@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "5adfd3c26d4b",
+          "teamId": "saints",
+          "headline": "Cam Jordan is back on the field",
+          "summary": "Cam Jordan hurt his hamstring in training camp and missed the first game of the season. He played Sunday at Baltimore and made two tackles in the win.",
+          "date": "2026-09-24",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
+        },
+        {
           "id": "ee71034dc6f5",
           "teamId": "saints",
           "headline": "Chase Young practices fully on Thursday",
@@ -43,14 +52,6 @@
           "date": "2026-09-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cal-adomitas-saints-roster-moves-transaction-alert-september-23-2026"
-        },
-        {
-          "id": "3cde3fdfdfb5",
-          "headline": "Three Saints sit out Wednesday's practice",
-          "summary": "Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller did not practice Wednesday. Chase Young and Travis Etienne took part but were limited, four days before the Raiders come to the Superdome.",
-          "date": "2026-09-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/team/injury-report/"
         }
       ]
     },
@@ -80,6 +81,15 @@
       },
       "news": [
         {
+          "id": "366d05026c70",
+          "teamId": "florida",
+          "headline": "Only one Gator is on the injury list",
+          "summary": "Receiver Eric Singleton is still listed as questionable for Saturday with a hurt ankle. No other Florida player is on the list, so the rest of the team is healthy for Ole Miss.",
+          "date": "2026-09-24",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
+        },
+        {
           "id": "36ed46520ef7",
           "headline": "Saturday's Ole Miss game is sold out",
           "summary": "Florida has sold every ticket for Saturday afternoon's game against Ole Miss in Gainesville. It is the 21st home game in a row the Gators have sold out.",
@@ -95,15 +105,6 @@
           "date": "2026-09-21",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
-        },
-        {
-          "id": "482b7034617e",
-          "teamId": "florida",
-          "headline": "Florida is ranked for the first time under Sumrall",
-          "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
-          "date": "2026-09-20",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -133,6 +134,15 @@
       },
       "news": [
         {
+          "id": "f43f7bb60c60",
+          "teamId": "lsu",
+          "headline": "Tamarcus Cooley is cleared to play Saturday",
+          "summary": "Safety Tamarcus Cooley came off the injury list Thursday night, so he can play against Texas A&M. Tight end Trey'Dez Green and receiver Phillip Wright are still out.",
+          "date": "2026-09-24",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-safety-tamarcus-cooley-off-latest-injury-report-so-he-is-available-for-texas-am/"
+        },
+        {
           "id": "d39eca780995",
           "headline": "LSU will be short three players Saturday",
           "summary": "Tight end Trey'Dez Green, safety DaShawn Spears and receiver Phillip Wright are all listed out for Saturday night's game against Texas A&M. Cornerback Ja'Keem Jackson is doubtful and safety Tamarcus Cooley is questionable.",
@@ -148,15 +158,6 @@
           "date": "2026-09-21",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lsu-db-dashawn-spears-done-for-year-with-knee-injury-but-treydez-green-expected-back-after-missing-games/"
-        },
-        {
-          "id": "143faa7d9451",
-          "teamId": "lsu",
-          "headline": "Trey'Dez Green did not tear a knee ligament",
-          "summary": "LSU's tight end was carted off Saturday night at Ole Miss, but a scan showed no torn ligaments and he does not need surgery. He will miss some games, and the team has not said when he will be back.",
-          "date": "2026-09-20",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/lsu-dashawn-spears-acl-injury-treydez-green/"
         }
       ]
     },

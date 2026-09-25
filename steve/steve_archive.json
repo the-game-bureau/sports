@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-24",
+    "updated": "2026-09-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3cde3fdfdfb5",
+      "headline": "Three Saints sit out Wednesday's practice",
+      "summary": "Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller did not practice Wednesday. Chase Young and Travis Etienne took part but were limited, four days before the Raiders come to the Superdome.",
+      "date": "2026-09-23",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/team/injury-report/",
+      "teamId": "saints"
+    },
+    {
+      "id": "86bc27992b8a",
+      "headline": "Yankees will host their first playoff series",
+      "summary": "New York has clinched home field for the American League Wild Card Series. The best-of-three series starts Tuesday, September 29, at Yankee Stadium.",
+      "date": "2026-09-22",
+      "source": "BVM Sports",
+      "url": "https://bvmsports.com/2026/09/22/yanks-lose-to-rays-but-clinch-home-field-in-wild-card-series/",
+      "teamId": "yankees"
+    },
+    {
+      "id": "0dacb9141b79",
+      "teamId": "texas",
+      "headline": "Sarkisian tells Arch Manning to be himself",
+      "summary": "Coach Steve Sarkisian said Monday that Manning ran with the ball too often in Saturday's win and should pick his spots better. He also said he does not want Manning trying to play like Peyton, Eli or Archie: “Arch Manning is plenty good enough for us to put us in position to win.”",
+      "date": "2026-09-21",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/steve-sarkisian-makes-clear-his-message-to-arch-manning-ahead-of-tennessee"
+    },
+    {
+      "id": "482b7034617e",
+      "teamId": "florida",
+      "headline": "Florida is ranked for the first time under Sumrall",
+      "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
+      "date": "2026-09-20",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+    },
     {
       "id": "504fa950f775",
       "headline": "Rays win the second game of the doubleheader",

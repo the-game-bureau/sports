@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-24",
+    "updated": "2026-09-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3cde3fdfdfb5",
+      "headline": "Three Saints sit out Wednesday's practice",
+      "summary": "Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller did not practice Wednesday. Chase Young and Travis Etienne took part but were limited, four days before the Raiders come to the Superdome.",
+      "date": "2026-09-23",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/team/injury-report/",
+      "teamId": "saints"
+    },
+    {
+      "id": "482b7034617e",
+      "teamId": "florida",
+      "headline": "Florida is ranked for the first time under Sumrall",
+      "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
+      "date": "2026-09-20",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "143faa7d9451",
+      "teamId": "lsu",
+      "headline": "Trey'Dez Green did not tear a knee ligament",
+      "summary": "LSU's tight end was carted off Saturday night at Ole Miss, but a scan showed no torn ligaments and he does not need surgery. He will miss some games, and the team has not said when he will be back.",
+      "date": "2026-09-20",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/lsu-dashawn-spears-acl-injury-treydez-green/"
+    },
     {
       "id": "1cc79091225e",
       "teamId": "saints",

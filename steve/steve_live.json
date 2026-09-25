@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "teams": {
     "tulane": {
       "record": "1-2",
@@ -81,6 +81,15 @@
       },
       "news": [
         {
+          "id": "366d05026c70",
+          "teamId": "florida",
+          "headline": "Only one Gator is on the injury list",
+          "summary": "Receiver Eric Singleton is still listed as questionable for Saturday with a hurt ankle. No other Florida player is on the list, so the rest of the team is healthy for Ole Miss.",
+          "date": "2026-09-24",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
+        },
+        {
           "id": "36ed46520ef7",
           "headline": "Saturday's Ole Miss game is sold out",
           "summary": "Florida has sold every ticket for Saturday afternoon's game against Ole Miss in Gainesville. It is the 21st home game in a row the Gators have sold out.",
@@ -96,15 +105,6 @@
           "date": "2026-09-21",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
-        },
-        {
-          "id": "482b7034617e",
-          "teamId": "florida",
-          "headline": "Florida is ranked for the first time under Sumrall",
-          "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
-          "date": "2026-09-20",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -134,6 +134,15 @@
       },
       "news": [
         {
+          "id": "b47bcafa5238",
+          "teamId": "texas",
+          "headline": "Colin Simmons is cleared to play at Tennessee",
+          "summary": "Colin Simmons hurt his foot last week against UTSA, but he is off the injury list and can play Saturday. Tight end Nick Townsend is out and running back Hollywood Smothers is still questionable.",
+          "date": "2026-09-24",
+          "source": "Orangebloods",
+          "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
+        },
+        {
           "id": "29f26319993f",
           "teamId": "texas",
           "headline": "Arch Manning plays at Neyland Stadium for the first time",
@@ -149,15 +158,6 @@
           "date": "2026-09-23",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/texas/football/texas-tennessee-injury-report-features-concerning-news-for-longhorns"
-        },
-        {
-          "id": "0dacb9141b79",
-          "teamId": "texas",
-          "headline": "Sarkisian tells Arch Manning to be himself",
-          "summary": "Coach Steve Sarkisian said Monday that Manning ran with the ball too often in Saturday's win and should pick his spots better. He also said he does not want Manning trying to play like Peyton, Eli or Archie: “Arch Manning is plenty good enough for us to put us in position to win.”",
-          "date": "2026-09-21",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/steve-sarkisian-makes-clear-his-message-to-arch-manning-ahead-of-tennessee"
         }
       ]
     },
@@ -187,6 +187,15 @@
       },
       "news": [
         {
+          "id": "5adfd3c26d4b",
+          "teamId": "saints",
+          "headline": "Cam Jordan is back on the field",
+          "summary": "Cam Jordan hurt his hamstring in training camp and missed the first game of the season. He played Sunday at Baltimore and made two tackles in the win.",
+          "date": "2026-09-24",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
+        },
+        {
           "id": "ee71034dc6f5",
           "teamId": "saints",
           "headline": "Chase Young practices fully on Thursday",
@@ -202,14 +211,6 @@
           "date": "2026-09-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cal-adomitas-saints-roster-moves-transaction-alert-september-23-2026"
-        },
-        {
-          "id": "3cde3fdfdfb5",
-          "headline": "Three Saints sit out Wednesday's practice",
-          "summary": "Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller did not practice Wednesday. Chase Young and Travis Etienne took part but were limited, four days before the Raiders come to the Superdome.",
-          "date": "2026-09-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/team/injury-report/"
         }
       ]
     },
@@ -227,7 +228,7 @@
           "name": "the PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/slipperyrock/",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day, or open the free app on a phone, tablet, Roku or Apple TV."
+          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the free PSAC Sports Digital Network app on a phone, tablet, Roku or Apple TV."
         }
       },
       "lastGame": {
@@ -268,13 +269,14 @@
       ]
     },
     "yankees": {
-      "record": "91-67",
+      "record": "92-67",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-24",
-        "utc": "2026-09-24T23:05Z",
-        "time": "6:05 PM",
+        "opponent": "Baltimore Orioles",
+        "date": "2026-09-25",
+        "utc": "2026-09-25T20:05Z",
+        "time": "3:05 PM",
+        "note": "First of two games today.",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
@@ -286,12 +288,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 9,
-        "opponentScore": 2,
+        "teamScore": 6,
+        "opponentScore": 4,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-09-23"
+        "date": "2026-09-24"
       },
       "news": [
+        {
+          "id": "1645c3c762d6",
+          "teamId": "yankees",
+          "headline": "Yankees come back to beat the Rays 6-4",
+          "summary": "New York fell behind 4-0 on Thursday night and scored six times to win it. Rookie George Lombard Jr. drove in three runs, including a two-run home run in the eighth inning.",
+          "date": "2026-09-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401817064"
+        },
         {
           "id": "f463424f0bcc",
           "teamId": "yankees",
@@ -308,14 +319,6 @@
           "date": "2026-09-23",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap/_/gameId/401817049"
-        },
-        {
-          "id": "86bc27992b8a",
-          "headline": "Yankees will host their first playoff series",
-          "summary": "New York has clinched home field for the American League Wild Card Series. The best-of-three series starts Tuesday, September 29, at Yankee Stadium.",
-          "date": "2026-09-22",
-          "source": "BVM Sports",
-          "url": "https://bvmsports.com/2026/09/22/yanks-lose-to-rays-but-clinch-home-field-in-wild-card-series/"
         }
       ]
     },
