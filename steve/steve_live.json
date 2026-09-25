@@ -187,6 +187,15 @@
       },
       "news": [
         {
+          "id": "10bec9052258",
+          "teamId": "saints",
+          "headline": "Two Saints are out for Sunday's home game",
+          "summary": "Receiver Barion Brown and lineman Christen Miller will not play against the Raiders. Cornerback Martin Emerson practiced for the first time this week and is listed as a maybe.",
+          "date": "2026-09-25",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
+        },
+        {
           "id": "5adfd3c26d4b",
           "teamId": "saints",
           "headline": "Cam Jordan is back on the field",
@@ -203,14 +212,6 @@
           "date": "2026-09-24",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
-        },
-        {
-          "id": "7040671229d1",
-          "headline": "Kelvin Banks goes on injured reserve",
-          "summary": "The Saints put left tackle Kelvin Banks Jr. on injured reserve Wednesday after his ankle surgery, and signed long snapper Cal Adomitis. Banks is allowed to come back after four games.",
-          "date": "2026-09-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cal-adomitas-saints-roster-moves-transaction-alert-september-23-2026"
         }
       ]
     },
@@ -276,7 +277,7 @@
         "date": "2026-09-25",
         "utc": "2026-09-25T20:05Z",
         "time": "3:05 PM",
-        "note": "First of two games today.",
+        "note": "First of two games today. The second one starts about 6:05 PM.",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
@@ -295,6 +296,15 @@
       },
       "news": [
         {
+          "id": "f9a7bd6b426d",
+          "teamId": "yankees",
+          "headline": "Yankees play two today because of the storm",
+          "summary": "A big storm is coming to New York this weekend, so Saturday's game was called off and moved up to today. The Yankees and the Orioles play at 3:05 PM our time and again about 6:05 PM.",
+          "date": "2026-09-25",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
+        },
+        {
           "id": "1645c3c762d6",
           "teamId": "yankees",
           "headline": "Yankees come back to beat the Rays 6-4",
@@ -311,14 +321,6 @@
           "date": "2026-09-24",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-says-plans-000724700.html"
-        },
-        {
-          "id": "a71c60714aba",
-          "headline": "Yankees beat the Rays 9-2",
-          "summary": "Ben Rice hit two home runs Wednesday night, his 40th and 41st of the year. Ryan McMahon added a grand slam and drove in five runs.",
-          "date": "2026-09-23",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401817049"
         }
       ]
     },
