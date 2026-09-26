@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "5cff9fb06f45",
+          "teamId": "saints",
+          "headline": "Saints add two receivers for Sunday",
+          "summary": "The Saints moved receivers Kevin Austin Jr. and Jalen Moreno-Cropper up from the practice squad Saturday so they can play against the Raiders. Barion Brown, one of the team's receivers, is out with an injury.",
+          "date": "2026-09-26",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
+        },
+        {
           "id": "10bec9052258",
           "teamId": "saints",
           "headline": "Two Saints are out for Sunday's home game",
@@ -44,15 +53,6 @@
           "date": "2026-09-24",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
-        },
-        {
-          "id": "ee71034dc6f5",
-          "teamId": "saints",
-          "headline": "Chase Young practices fully on Thursday",
-          "summary": "The Saints pass rusher took part in all of Thursday's practice, and safety Jonas Sanker and lineman Nathan Shepherd did too. Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller sat out again, and running back Travis Etienne was limited.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
         }
       ]
     },

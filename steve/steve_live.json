@@ -109,7 +109,7 @@
       ]
     },
     "texas": {
-      "record": "3-0",
+      "record": "4-0",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Tennessee Volunteers",
@@ -127,12 +127,21 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 30,
-        "opponentScore": 6,
-        "opponent": "UTSA Roadrunners",
-        "date": "2026-09-19"
+        "teamScore": 20,
+        "opponentScore": 17,
+        "opponent": "Tennessee Volunteers",
+        "date": "2026-09-26"
       },
       "news": [
+        {
+          "id": "e3540655e07b",
+          "teamId": "texas",
+          "headline": "Texas holds off Tennessee 20-17",
+          "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
+          "date": "2026-09-26",
+          "source": "Associated Press",
+          "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
+        },
         {
           "id": "b47bcafa5238",
           "teamId": "texas",
@@ -150,14 +159,6 @@
           "date": "2026-09-24",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/arch-manning-texas-intense-pressure-001458167.html"
-        },
-        {
-          "id": "9bd8b9aba187",
-          "headline": "Hollywood Smothers is questionable for Tennessee",
-          "summary": "Texas listed running back Hollywood Smothers as questionable for Saturday's game at Tennessee. He leads the Longhorns in rushing this season.",
-          "date": "2026-09-23",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/texas-tennessee-injury-report-features-concerning-news-for-longhorns"
         }
       ]
     },
@@ -187,6 +188,15 @@
       },
       "news": [
         {
+          "id": "5cff9fb06f45",
+          "teamId": "saints",
+          "headline": "Saints add two receivers for Sunday",
+          "summary": "The Saints moved receivers Kevin Austin Jr. and Jalen Moreno-Cropper up from the practice squad Saturday so they can play against the Raiders. Barion Brown, one of the team's receivers, is out with an injury.",
+          "date": "2026-09-26",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
+        },
+        {
           "id": "10bec9052258",
           "teamId": "saints",
           "headline": "Two Saints are out for Sunday's home game",
@@ -203,20 +213,11 @@
           "date": "2026-09-24",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
-        },
-        {
-          "id": "ee71034dc6f5",
-          "teamId": "saints",
-          "headline": "Chase Young practices fully on Thursday",
-          "summary": "The Saints pass rusher took part in all of Thursday's practice, and safety Jonas Sanker and lineman Nathan Shepherd did too. Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller sat out again, and running back Travis Etienne was limited.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
         }
       ]
     },
     "iup": {
-      "record": "10-3",
+      "record": "11-3",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Clarion",
@@ -235,11 +236,20 @@
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 1,
-        "opponent": "Slippery Rock",
-        "date": "2026-09-25"
+        "opponentScore": 2,
+        "opponent": "Clarion",
+        "date": "2026-09-26"
       },
       "news": [
+        {
+          "id": "84cf7a5d549a",
+          "teamId": "iup",
+          "headline": "IUP wins a five-set thriller at Clarion",
+          "summary": "The Crimson Hawks won 25-19, 19-25, 23-25, 25-22, 15-9 on Saturday afternoon for their tenth win in a row. Delaney Concannon had 17 kills and 18 digs, and IUP is 11-3 and unbeaten in the conference.",
+          "date": "2026-09-26",
+          "source": "Clarion Athletics",
+          "url": "https://clariongoldeneagles.com/boxscore.aspx?id=12635&path=wvball"
+        },
         {
           "id": "6f9d63c2f0a5",
           "teamId": "iup",
@@ -248,15 +258,6 @@
           "date": "2026-09-25",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/9/25/womens-volleyball-volleyball-extends-win-streak-to-nine-with-four-set-victory-at-slippery-rock.aspx"
-        },
-        {
-          "id": "59dc66e1ebd8",
-          "teamId": "iup",
-          "headline": "IUP sweeps Seton Hill in conference opener",
-          "summary": "The Crimson Hawks won 25-23, 25-22, 25-17 at Seton Hill on Friday in their first conference match of the year. Delaney Concannon and Kyra Schmidt each had 8 kills, and IUP is 9-3 and has not lost since August 29.",
-          "date": "2026-09-18",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/18/womens-volleyball-volleyball-sweeps-seton-hill-to-open-psac-west-play.aspx"
         },
         {
           "id": "f18ba4436e07",
@@ -275,8 +276,8 @@
         "homeAway": "home",
         "opponent": "Baltimore Orioles",
         "date": "2026-09-27",
-        "utc": "2026-09-27T19:20Z",
-        "time": "2:20 PM",
+        "utc": "2026-09-27T17:05Z",
+        "time": "12:05 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
