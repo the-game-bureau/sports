@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "teams": {
     "tulane": {
       "record": "1-2",
@@ -216,30 +216,39 @@
       ]
     },
     "iup": {
-      "record": "9-3",
+      "record": "10-3",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Slippery Rock",
-        "date": "2026-09-25",
-        "utc": "2026-09-25T22:00Z",
-        "time": "5:00 PM",
-        "venue": "Slippery Rock University (PSAC)",
-        "city": "Slippery Rock, PA",
+        "opponent": "Clarion",
+        "date": "2026-09-26",
+        "utc": "2026-09-26T18:00Z",
+        "time": "1:00 PM",
+        "venue": "Clarion University (PSAC)",
+        "city": "Clarion, PA",
         "tv": {
-          "name": "the PSAC Sports Digital Network app",
+          "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/slipperyrock/",
-          "note": "Every IUP volleyball match is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the free PSAC Sports Digital Network app on a phone, tablet, Roku or Apple TV."
+          "url": "https://psacsportsdigitalnetwork.com/clarion/",
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, and it is free. Tap this link today to watch the Clarion match, or open the app on a phone, a tablet, Roku or Apple TV."
         }
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "Seton Hill",
-        "date": "2026-09-18"
+        "opponentScore": 1,
+        "opponent": "Slippery Rock",
+        "date": "2026-09-25"
       },
       "news": [
+        {
+          "id": "6f9d63c2f0a5",
+          "teamId": "iup",
+          "headline": "IUP wins its ninth match in a row",
+          "summary": "The Crimson Hawks beat Slippery Rock 3-1 on Friday night and have not lost since August 29. Charlotte Potvin had 14 kills without a single miss, and IUP is now 10-3.",
+          "date": "2026-09-25",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/25/womens-volleyball-volleyball-extends-win-streak-to-nine-with-four-set-victory-at-slippery-rock.aspx"
+        },
         {
           "id": "59dc66e1ebd8",
           "teamId": "iup",
@@ -257,27 +266,17 @@
           "date": "2026-09-11",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
-        },
-        {
-          "id": "5eea72b0eecd",
-          "teamId": "iup",
-          "headline": "IUP wins twice in West Virginia",
-          "summary": "The Crimson Hawks beat Shepherd and then Millersville on Friday and did not lose a set in either match. IUP has now won seven in a row and is 8-3.",
-          "date": "2026-09-11",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
         }
       ]
     },
     "yankees": {
-      "record": "92-67",
+      "record": "93-68",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Baltimore Orioles",
-        "date": "2026-09-25",
-        "utc": "2026-09-25T20:05Z",
-        "time": "3:05 PM",
-        "note": "First of two games today. The second one starts about 6:05 PM.",
+        "date": "2026-09-27",
+        "utc": "2026-09-27T19:20Z",
+        "time": "2:20 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
@@ -290,28 +289,28 @@
       "lastGame": {
         "result": "W",
         "teamScore": 6,
-        "opponentScore": 4,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-24"
+        "opponentScore": 3,
+        "opponent": "Baltimore Orioles",
+        "date": "2026-09-25"
       },
       "news": [
         {
-          "id": "f9a7bd6b426d",
+          "id": "ab0140061cd1",
           "teamId": "yankees",
-          "headline": "Yankees play two today because of the storm",
-          "summary": "A big storm is coming to New York this weekend, so Saturday's game was called off and moved up to today. The Yankees and the Orioles play at 3:05 PM our time and again about 6:05 PM.",
+          "headline": "Yankees split two games with Baltimore",
+          "summary": "Baltimore won the first game 10-2 on Friday, and the Yankees came back to win the second one 6-3. Spencer Jones and Anthony Volpe both drove in runs in a three-run sixth inning.",
           "date": "2026-09-25",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
+          "url": "https://sports.yahoo.com/articles/yankees-pitchers-strike-whopping-17-025757395.html"
         },
         {
-          "id": "1645c3c762d6",
+          "id": "0cae52af6054",
           "teamId": "yankees",
-          "headline": "Yankees come back to beat the Rays 6-4",
-          "summary": "New York fell behind 4-0 on Thursday night and scored six times to win it. Rookie George Lombard Jr. drove in three runs, including a two-run home run in the eighth inning.",
-          "date": "2026-09-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401817064"
+          "headline": "Yankees will play the Red Sox on Tuesday",
+          "summary": "Boston made the playoffs on Friday, so the Yankees will host the Red Sox at Yankee Stadium starting Tuesday. It is the second year in a row the two teams have met in the first round.",
+          "date": "2026-09-25",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-vs-red-sox-al-195025556.html"
         },
         {
           "id": "f463424f0bcc",
@@ -331,23 +330,33 @@
       "news": []
     },
     "warren-easton": {
-      "record": "0-3",
+      "record": "0-4",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Zachary",
-        "date": "2026-09-25",
-        "time": "7:00 PM",
-        "city": "Zachary, LA",
-        "venue": "Zachary High School"
+        "opponent": "Riverdale",
+        "date": "2026-10-01",
+        "time": "6:30 PM",
+        "venue": "Joe Yenni Stadium",
+        "city": "Metairie, LA",
+        "note": "Thursday night game."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 6,
-        "opponentScore": 56,
-        "opponent": "Brother Martin",
-        "date": "2026-09-18"
+        "teamScore": 28,
+        "opponentScore": 49,
+        "opponent": "Zachary",
+        "date": "2026-09-25"
       },
       "news": [
+        {
+          "id": "04d91df13f04",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton loses at Zachary",
+          "summary": "Zachary won 49-28 on Friday night. Warren Easton is 0-4 and plays at Riverdale on Thursday, October 1.",
+          "date": "2026-09-25",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-zachary/9-25-2026/?c=7af1b934-8db0-48cb-876f-c2b6f93a5ed8"
+        },
         {
           "id": "e4cf2b8fba47",
           "teamId": "warren-easton",

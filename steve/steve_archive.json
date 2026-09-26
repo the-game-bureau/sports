@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-25",
+    "updated": "2026-09-26",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "1645c3c762d6",
+      "teamId": "yankees",
+      "headline": "Yankees come back to beat the Rays 6-4",
+      "summary": "New York fell behind 4-0 on Thursday night and scored six times to win it. Rookie George Lombard Jr. drove in three runs, including a two-run home run in the eighth inning.",
+      "date": "2026-09-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap/_/gameId/401817064"
+    },
+    {
+      "id": "f9a7bd6b426d",
+      "teamId": "yankees",
+      "headline": "Yankees play two today because of the storm",
+      "summary": "A big storm is coming to New York this weekend, so Saturday's game was called off and moved up to today. The Yankees and the Orioles play at 3:05 PM our time and again about 6:05 PM.",
+      "date": "2026-09-25",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
+    },
+    {
+      "id": "5eea72b0eecd",
+      "teamId": "iup",
+      "headline": "IUP wins twice in West Virginia",
+      "summary": "The Crimson Hawks beat Shepherd and then Millersville on Friday and did not lose a set in either match. IUP has now won seven in a row and is 8-3.",
+      "date": "2026-09-11",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
+    },
     {
       "id": "a71c60714aba",
       "headline": "Yankees beat the Rays 9-2",

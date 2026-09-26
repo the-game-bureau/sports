@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-25",
+    "updated": "2026-09-26",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "df5005c082f4",
+      "teamId": "brother-martin",
+      "headline": "Tonight's Jesuit game will be shown live",
+      "summary": "Brother Martin plays Jesuit at 7:00 tonight at Tad Gormley Stadium, and both teams are 3-0. Crescent City Sports and GCSEN will carry the game live, starting at 6:50.",
+      "date": "2026-09-24",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/crescent-city-sports-gcsen-to-broadcast-jesuit-brother-martin-district-opener-friday/"
+    },
     {
       "id": "7040671229d1",
       "headline": "Kelvin Banks goes on injured reserve",

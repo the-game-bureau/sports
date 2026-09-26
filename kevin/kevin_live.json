@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "teams": {
     "saints": {
       "record": "1-1",
@@ -216,32 +216,32 @@
       ]
     },
     "brother-martin": {
-      "record": "3-0",
+      "record": "4-0",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Jesuit",
-        "date": "2026-09-25",
+        "opponent": "Edna Karr",
+        "date": "2026-10-02",
         "time": "7:00 PM",
-        "note": "District game.",
         "venue": "Tad Gormley Stadium",
-        "city": "New Orleans, LA"
+        "city": "New Orleans, LA",
+        "note": "District game."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 56,
-        "opponentScore": 6,
-        "opponent": "Warren Easton",
-        "date": "2026-09-18"
+        "teamScore": 24,
+        "opponentScore": 22,
+        "opponent": "Jesuit",
+        "date": "2026-09-25"
       },
       "news": [
         {
-          "id": "df5005c082f4",
+          "id": "e6ff59528cb2",
           "teamId": "brother-martin",
-          "headline": "Tonight's Jesuit game will be shown live",
-          "summary": "Brother Martin plays Jesuit at 7:00 tonight at Tad Gormley Stadium, and both teams are 3-0. Crescent City Sports and GCSEN will carry the game live, starting at 6:50.",
-          "date": "2026-09-24",
+          "headline": "Brother Martin holds off Jesuit 24-22",
+          "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
+          "date": "2026-09-25",
           "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/crescent-city-sports-gcsen-to-broadcast-jesuit-brother-martin-district-opener-friday/"
+          "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
         },
         {
           "id": "d3b911840e72",
