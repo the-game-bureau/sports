@@ -1,32 +1,42 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "teams": {
     "tulane": {
-      "record": "1-2",
+      "record": "2-2",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Southern Miss Golden Eagles",
-        "date": "2026-09-26",
-        "utc": "2026-09-26T23:00Z",
-        "time": "6:00 PM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Army Black Knights",
+        "date": "2026-10-10",
+        "utc": "2026-10-10T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Michie Stadium",
+        "city": "West Point, NY",
         "tv": {
-          "name": "ESPN+",
-          "logo": "images/espnplus.webp",
+          "name": "CBS Sports Network",
+          "logo": "",
           "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
-        }
+          "note": "On YouTube TV"
+        },
+        "note": "Tulane has a bye this coming Saturday."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 20,
-        "opponentScore": 31,
-        "opponent": "Kansas State Wildcats",
-        "date": "2026-09-19"
+        "result": "W",
+        "teamScore": 24,
+        "opponentScore": 21,
+        "opponent": "Southern Miss Golden Eagles",
+        "date": "2026-09-26"
       },
       "news": [
+        {
+          "id": "86066cc43421",
+          "teamId": "tulane",
+          "headline": "Tulane wins the Battle for the Bell 24-21",
+          "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+          "date": "2026-09-26",
+          "source": "Fox 8 (WVUE)",
+          "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+        },
         {
           "id": "0a9fdf5dc6d9",
           "teamId": "tulane",
@@ -35,14 +45,6 @@
           "date": "2026-09-24",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
-        },
-        {
-          "id": "125dc8207db0",
-          "headline": "Will Hall faces his old team Saturday",
-          "summary": "Tulane coach Will Hall meets Southern Miss on Saturday at Yulman Stadium. He used to be the head coach at Southern Miss, and quarterback Kadin Semonza said the Green Wave want to win this one for him.",
-          "date": "2026-09-23",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/chips-shoulders-abound-tulane-ahead-190033147.html"
         },
         {
           "id": "07d5cb1c66d1",
@@ -56,15 +58,15 @@
       ]
     },
     "florida": {
-      "record": "3-0",
+      "record": "4-0",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Ole Miss Rebels",
-        "date": "2026-09-26",
-        "utc": "2026-09-26T19:30Z",
+        "homeAway": "away",
+        "opponent": "Missouri Tigers",
+        "date": "2026-10-03",
+        "utc": "2026-10-03T19:30Z",
         "time": "2:30 PM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "venue": "Memorial Stadium",
+        "city": "Columbia, MO",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
@@ -74,12 +76,30 @@
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 44,
-        "opponentScore": 39,
-        "opponent": "Auburn Tigers",
-        "date": "2026-09-19"
+        "teamScore": 52,
+        "opponentScore": 28,
+        "opponent": "Ole Miss Rebels",
+        "date": "2026-09-26"
       },
       "news": [
+        {
+          "id": "034f6e28f526",
+          "teamId": "florida",
+          "headline": "Florida runs over Ole Miss 52-28",
+          "summary": "Jadan Baugh ran for 142 yards and three touchdowns Saturday afternoon in Gainesville as Florida beat the fourth-ranked Rebels. The Gators are 4-0 for the first time since 2019.",
+          "date": "2026-09-26",
+          "source": "Associated Press",
+          "url": "https://www.ksat.com/sports/2026/09/26/jadan-baugh-and-no-21-florida-run-roughshod-over-4th-ranked-ole-miss-52-28/"
+        },
+        {
+          "id": "b147a5d289a0",
+          "teamId": "florida",
+          "headline": "Eric Singleton plays again and catches a long pass",
+          "summary": "Singleton had not played since he hurt his ankle in the first game of the year. He caught one pass for 38 yards against Ole Miss, the longest catch Florida had all day.",
+          "date": "2026-09-26",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
+        },
         {
           "id": "366d05026c70",
           "teamId": "florida",
@@ -88,23 +108,6 @@
           "date": "2026-09-24",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
-        },
-        {
-          "id": "36ed46520ef7",
-          "headline": "Saturday's Ole Miss game is sold out",
-          "summary": "Florida has sold every ticket for Saturday afternoon's game against Ole Miss in Gainesville. It is the 21st home game in a row the Gators have sold out.",
-          "date": "2026-09-23",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/23/football-sold-out-ole-miss-game-marks-21st-straight-sellout-for-gators"
-        },
-        {
-          "id": "ddccf9519ce3",
-          "teamId": "florida",
-          "headline": "Eric Singleton might play Saturday against Ole Miss",
-          "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
-          "date": "2026-09-21",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
         }
       ]
     },
@@ -112,18 +115,19 @@
       "record": "4-0",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Tennessee Volunteers",
-        "date": "2026-09-26",
-        "utc": "2026-09-26T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Neyland Stadium",
-        "city": "Knoxville, TN",
+        "opponent": "Oklahoma Sooners",
+        "date": "2026-10-10",
+        "utc": "2026-10-10T19:30Z",
+        "time": "2:30 PM",
+        "venue": "Cotton Bowl",
+        "city": "Dallas, TX",
         "tv": {
-          "name": "ABC (WGNO 26)",
+          "name": "ABC or ESPN",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
-        }
+          "note": "On YouTube TV. The channel has not been picked yet."
+        },
+        "note": "Texas has a bye this coming Saturday."
       },
       "lastGame": {
         "result": "W",
@@ -219,19 +223,20 @@
     "iup": {
       "record": "11-3",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Clarion",
-        "date": "2026-09-26",
-        "utc": "2026-09-26T18:00Z",
-        "time": "1:00 PM",
-        "venue": "Clarion University (PSAC)",
-        "city": "Clarion, PA",
+        "homeAway": "home",
+        "opponent": "California (PA)",
+        "date": "2026-10-02",
+        "utc": "2026-10-02T22:00Z",
+        "time": "5:00 PM",
+        "venue": "Kovalchick Convention & Athletic Complex",
+        "city": "Indiana, PA",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/clarion/",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, and it is free. Tap this link today to watch the Clarion match, or open the app on a phone, a tablet, Roku or Apple TV."
-        }
+          "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
+          "note": "Every IUP volleyball game is shown on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the app on a phone, a tablet, Roku or Apple TV."
+        },
+        "note": "Dig Pink game at home."
       },
       "lastGame": {
         "result": "W",
@@ -296,13 +301,13 @@
       },
       "news": [
         {
-          "id": "ab0140061cd1",
+          "id": "966e6468784c",
           "teamId": "yankees",
-          "headline": "Yankees split two games with Baltimore",
-          "summary": "Baltimore won the first game 10-2 on Friday, and the Yankees came back to win the second one 6-3. Spencer Jones and Anthony Volpe both drove in runs in a three-run sixth inning.",
+          "headline": "Clarke Schmidt goes on the injured list",
+          "summary": "The Yankees put the pitcher on the injured list Friday with a nerve problem in his right arm, so he will not pitch in the playoff series against Boston. Manager Aaron Boone said Schmidt should be able to train normally over the winter.",
           "date": "2026-09-25",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-pitchers-strike-whopping-17-025757395.html"
+          "url": "https://sports.yahoo.com/articles/yankees-playoff-roster-updates-judge-004358342.html"
         },
         {
           "id": "0cae52af6054",

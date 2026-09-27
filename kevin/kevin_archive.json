@@ -2,10 +2,55 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-09-26",
+    "updated": "2026-09-27",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "12ea2adb4eee",
+      "teamId": "lsu",
+      "headline": "LSU loses Dashawn Spears for the season",
+      "summary": "Coach Lane Kiffin said Monday that defensive back Dashawn Spears tore a knee ligament at Ole Miss and is done for the year. Tight end Trey'Dez Green, who leads the team in receiving yards, will miss Saturday's game against Texas A&M with a knee injury of his own.",
+      "date": "2026-09-21",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-db-dashawn-spears-done-for-year-with-knee-injury-but-treydez-green-expected-back-after-missing-games/"
+    },
+    {
+      "id": "d39eca780995",
+      "headline": "LSU will be short three players Saturday",
+      "summary": "Tight end Trey'Dez Green, safety DaShawn Spears and receiver Phillip Wright are all listed out for Saturday night's game against Texas A&M. Cornerback Ja'Keem Jackson is doubtful and safety Tamarcus Cooley is questionable.",
+      "date": "2026-09-23",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/texas-am/article/texas-am-lsu-availability-report-terry-bussey-jamarion-morrow-290353372/",
+      "teamId": "lsu"
+    },
+    {
+      "id": "ddccf9519ce3",
+      "teamId": "florida",
+      "headline": "Eric Singleton might play Saturday against Ole Miss",
+      "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
+      "date": "2026-09-21",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
+    },
+    {
+      "id": "36ed46520ef7",
+      "headline": "Saturday's Ole Miss game is sold out",
+      "summary": "Florida has sold every ticket for Saturday afternoon's game against Ole Miss in Gainesville. It is the 21st home game in a row the Gators have sold out.",
+      "date": "2026-09-23",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/23/football-sold-out-ole-miss-game-marks-21st-straight-sellout-for-gators",
+      "teamId": "florida"
+    },
+    {
+      "id": "125dc8207db0",
+      "headline": "Will Hall faces his old team Saturday",
+      "summary": "Tulane coach Will Hall meets Southern Miss on Saturday at Yulman Stadium. He used to be the head coach at Southern Miss, and quarterback Kadin Semonza said the Green Wave want to win this one for him.",
+      "date": "2026-09-23",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/chips-shoulders-abound-tulane-ahead-190033147.html",
+      "teamId": "tulane"
+    },
     {
       "id": "ee71034dc6f5",
       "teamId": "saints",
