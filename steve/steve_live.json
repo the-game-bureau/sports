@@ -83,6 +83,15 @@
       },
       "news": [
         {
+          "id": "e63f38f534cd",
+          "teamId": "florida",
+          "headline": "Florida jumps to No. 8 in the new rankings",
+          "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
+          "date": "2026-09-27",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "034f6e28f526",
           "teamId": "florida",
           "headline": "Florida runs over Ole Miss 52-28",
@@ -99,15 +108,6 @@
           "date": "2026-09-26",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
-        },
-        {
-          "id": "366d05026c70",
-          "teamId": "florida",
-          "headline": "Only one Gator is on the injury list",
-          "summary": "Receiver Eric Singleton is still listed as questionable for Saturday with a hurt ankle. No other Florida player is on the list, so the rest of the team is healthy for Ole Miss.",
-          "date": "2026-09-24",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
         }
       ]
     },
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "f1b801be2768",
+          "teamId": "texas",
+          "headline": "Texas stays No. 1 in the new rankings",
+          "summary": "The Longhorns kept the top spot in the Associated Press poll after winning 20-17 at Tennessee. They are 4-0 and play Oklahoma in Dallas on October 10.",
+          "date": "2026-09-27",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "e3540655e07b",
           "teamId": "texas",
           "headline": "Texas holds off Tennessee 20-17",
@@ -154,15 +163,6 @@
           "date": "2026-09-24",
           "source": "Orangebloods",
           "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
-        },
-        {
-          "id": "29f26319993f",
-          "teamId": "texas",
-          "headline": "Arch Manning plays at Neyland Stadium for the first time",
-          "summary": "Manning said he has never been to Knoxville, where his uncle Peyton played, and that he is excited for the noise. Texas is ranked No. 1 and plays No. 14 Tennessee there Saturday morning.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/arch-manning-texas-intense-pressure-001458167.html"
         }
       ]
     },
@@ -192,6 +192,15 @@
       },
       "news": [
         {
+          "id": "6c49b20c606e",
+          "teamId": "saints",
+          "headline": "Seven Saints are out against the Raiders",
+          "summary": "Receiver Barion Brown, cornerback Martin Emerson Jr. and five other players are inactive for Sunday's game in the Superdome. Las Vegas tight end Brock Bowers is playing for the first time this season.",
+          "date": "2026-09-27",
+          "source": "Saints On SI",
+          "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
+        },
+        {
           "id": "5cff9fb06f45",
           "teamId": "saints",
           "headline": "Saints add two receivers for Sunday",
@@ -208,15 +217,6 @@
           "date": "2026-09-25",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
-        },
-        {
-          "id": "5adfd3c26d4b",
-          "teamId": "saints",
-          "headline": "Cam Jordan is back on the field",
-          "summary": "Cam Jordan hurt his hamstring in training camp and missed the first game of the season. He played Sunday at Baltimore and made two tackles in the win.",
-          "date": "2026-09-24",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
         }
       ]
     },
@@ -279,18 +279,19 @@
       "record": "93-68",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Baltimore Orioles",
-        "date": "2026-09-27",
-        "utc": "2026-09-27T17:05Z",
-        "time": "12:05 PM",
+        "opponent": "Boston Red Sox",
+        "date": "2026-09-29",
+        "utc": "2026-09-30T00:00Z",
+        "time": "7:00 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
         "tv": {
-          "name": "YES Network",
+          "name": "WDSU 6 (NBC)",
           "logo": "",
           "url": "",
-          "note": "Not on YouTube TV — stream on MLB.TV"
-        }
+          "note": "On YouTube TV"
+        },
+        "note": "Game 1 of the playoff series with Boston."
       },
       "lastGame": {
         "result": "W",
@@ -301,6 +302,24 @@
       },
       "news": [
         {
+          "id": "6bca6818b4e3",
+          "teamId": "yankees",
+          "headline": "Rain calls off the last game of the season",
+          "summary": "Sunday's game with Baltimore was called off and will not be made up. The Yankees finish the regular season 93-68 and start the playoffs Tuesday.",
+          "date": "2026-09-27",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/orioles-yankees-september-27-game-canceled-due-to-weather"
+        },
+        {
+          "id": "2e1a1cd65973",
+          "teamId": "yankees",
+          "headline": "Cam Schlittler will pitch Game 1 against Boston",
+          "summary": "He starts Tuesday night's playoff opener at Yankee Stadium. Max Fried pitches Game 2, and Gerrit Cole would pitch Game 3 if the series goes that far.",
+          "date": "2026-09-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50044091/yankees-give-schlittler-game-1-wild-card-series-start-red-sox"
+        },
+        {
           "id": "966e6468784c",
           "teamId": "yankees",
           "headline": "Clarke Schmidt goes on the injured list",
@@ -308,24 +327,6 @@
           "date": "2026-09-25",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-playoff-roster-updates-judge-004358342.html"
-        },
-        {
-          "id": "0cae52af6054",
-          "teamId": "yankees",
-          "headline": "Yankees will play the Red Sox on Tuesday",
-          "summary": "Boston made the playoffs on Friday, so the Yankees will host the Red Sox at Yankee Stadium starting Tuesday. It is the second year in a row the two teams have met in the first round.",
-          "date": "2026-09-25",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-vs-red-sox-al-195025556.html"
-        },
-        {
-          "id": "f463424f0bcc",
-          "teamId": "yankees",
-          "headline": "Aaron Judge aims for Game 1 on Tuesday",
-          "summary": "Judge said the plan is to have his body ready for the first playoff game at Yankee Stadium on Tuesday. He has been out since September 16 with a calf strain, and manager Aaron Boone said the team is getting ready to play without him.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-says-plans-000724700.html"
         }
       ]
     },

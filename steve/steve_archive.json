@@ -7,6 +7,51 @@
   },
   "items": [
     {
+      "id": "f463424f0bcc",
+      "teamId": "yankees",
+      "headline": "Aaron Judge aims for Game 1 on Tuesday",
+      "summary": "Judge said the plan is to have his body ready for the first playoff game at Yankee Stadium on Tuesday. He has been out since September 16 with a calf strain, and manager Aaron Boone said the team is getting ready to play without him.",
+      "date": "2026-09-24",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-says-plans-000724700.html"
+    },
+    {
+      "id": "0cae52af6054",
+      "teamId": "yankees",
+      "headline": "Yankees will play the Red Sox on Tuesday",
+      "summary": "Boston made the playoffs on Friday, so the Yankees will host the Red Sox at Yankee Stadium starting Tuesday. It is the second year in a row the two teams have met in the first round.",
+      "date": "2026-09-25",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-vs-red-sox-al-195025556.html"
+    },
+    {
+      "id": "5adfd3c26d4b",
+      "teamId": "saints",
+      "headline": "Cam Jordan is back on the field",
+      "summary": "Cam Jordan hurt his hamstring in training camp and missed the first game of the season. He played Sunday at Baltimore and made two tackles in the win.",
+      "date": "2026-09-24",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
+    },
+    {
+      "id": "29f26319993f",
+      "teamId": "texas",
+      "headline": "Arch Manning plays at Neyland Stadium for the first time",
+      "summary": "Manning said he has never been to Knoxville, where his uncle Peyton played, and that he is excited for the noise. Texas is ranked No. 1 and plays No. 14 Tennessee there Saturday morning.",
+      "date": "2026-09-24",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/arch-manning-texas-intense-pressure-001458167.html"
+    },
+    {
+      "id": "366d05026c70",
+      "teamId": "florida",
+      "headline": "Only one Gator is on the injury list",
+      "summary": "Receiver Eric Singleton is still listed as questionable for Saturday with a hurt ankle. No other Florida player is on the list, so the rest of the team is healthy for Ole Miss.",
+      "date": "2026-09-24",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
+    },
+    {
       "id": "ab0140061cd1",
       "teamId": "yankees",
       "headline": "Yankees split two games with Baltimore",

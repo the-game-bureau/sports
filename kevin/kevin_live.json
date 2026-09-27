@@ -28,6 +28,15 @@
       },
       "news": [
         {
+          "id": "6c49b20c606e",
+          "teamId": "saints",
+          "headline": "Seven Saints are out against the Raiders",
+          "summary": "Receiver Barion Brown, cornerback Martin Emerson Jr. and five other players are inactive for Sunday's game in the Superdome. Las Vegas tight end Brock Bowers is playing for the first time this season.",
+          "date": "2026-09-27",
+          "source": "Saints On SI",
+          "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
+        },
+        {
           "id": "5cff9fb06f45",
           "teamId": "saints",
           "headline": "Saints add two receivers for Sunday",
@@ -44,15 +53,6 @@
           "date": "2026-09-25",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
-        },
-        {
-          "id": "5adfd3c26d4b",
-          "teamId": "saints",
-          "headline": "Cam Jordan is back on the field",
-          "summary": "Cam Jordan hurt his hamstring in training camp and missed the first game of the season. He played Sunday at Baltimore and made two tackles in the win.",
-          "date": "2026-09-24",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cam-jordan-getting-back-in-rhythm-for-new-orleans-saints-after-extended-injury-absence"
         }
       ]
     },
@@ -82,6 +82,15 @@
       },
       "news": [
         {
+          "id": "e63f38f534cd",
+          "teamId": "florida",
+          "headline": "Florida jumps to No. 8 in the new rankings",
+          "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
+          "date": "2026-09-27",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "034f6e28f526",
           "teamId": "florida",
           "headline": "Florida runs over Ole Miss 52-28",
@@ -98,15 +107,6 @@
           "date": "2026-09-26",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
-        },
-        {
-          "id": "366d05026c70",
-          "teamId": "florida",
-          "headline": "Only one Gator is on the injury list",
-          "summary": "Receiver Eric Singleton is still listed as questionable for Saturday with a hurt ankle. No other Florida player is on the list, so the rest of the team is healthy for Ole Miss.",
-          "date": "2026-09-24",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
         }
       ]
     },
@@ -136,6 +136,15 @@
       },
       "news": [
         {
+          "id": "b07ef7a6fde9",
+          "teamId": "lsu",
+          "headline": "LSU is No. 11 in the new rankings",
+          "summary": "The Tigers are 11th in the Associated Press poll after beating Texas A&M 35-6 on Saturday. They host McNeese on Saturday night in Baton Rouge.",
+          "date": "2026-09-27",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+        },
+        {
           "id": "c9cc51d2b259",
           "teamId": "lsu",
           "headline": "Sam Leavitt hurt his hamstring but says he is fine",
@@ -152,15 +161,6 @@
           "date": "2026-09-26",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/09/26/lsu-vs-texas-am-live-updates-tiger-stadium/"
-        },
-        {
-          "id": "f43f7bb60c60",
-          "teamId": "lsu",
-          "headline": "Tamarcus Cooley is cleared to play Saturday",
-          "summary": "Safety Tamarcus Cooley came off the injury list Thursday night, so he can play against Texas A&M. Tight end Trey'Dez Green and receiver Phillip Wright are still out.",
-          "date": "2026-09-24",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-safety-tamarcus-cooley-off-latest-injury-report-so-he-is-available-for-texas-am/"
         }
       ]
     },
