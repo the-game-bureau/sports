@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "b147a5d289a0",
+      "teamId": "florida",
+      "headline": "Eric Singleton plays again and catches a long pass",
+      "summary": "Singleton had not played since he hurt his ankle in the first game of the year. He caught one pass for 38 yards against Ole Miss, the longest catch Florida had all day.",
+      "date": "2026-09-26",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
+    },
+    {
+      "id": "10bec9052258",
+      "teamId": "saints",
+      "headline": "Two Saints are out for Sunday's home game",
+      "summary": "Receiver Barion Brown and lineman Christen Miller will not play against the Raiders. Cornerback Martin Emerson practiced for the first time this week and is listed as a maybe.",
+      "date": "2026-09-25",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
+    },
     {
       "id": "f463424f0bcc",
       "teamId": "yankees",

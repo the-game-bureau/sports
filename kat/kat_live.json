@@ -1,32 +1,42 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "teams": {
     "saints": {
-      "record": "1-1",
+      "record": "1-2",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Las Vegas Raiders",
-        "date": "2026-09-27",
-        "utc": "2026-09-27T20:25Z",
-        "time": "3:25 PM",
+        "opponent": "Atlanta Falcons",
+        "date": "2026-10-05",
+        "utc": "2026-10-06T00:15Z",
+        "time": "7:15 PM",
         "venue": "Caesars Superdome",
         "city": "New Orleans, LA",
         "tv": {
-          "name": "WWL 4 (CBS)",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
-        }
+        },
+        "note": "Monday night game."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 24,
-        "opponentScore": 17,
-        "opponent": "Baltimore Ravens",
-        "date": "2026-09-20"
+        "result": "L",
+        "teamScore": 27,
+        "opponentScore": 35,
+        "opponent": "Las Vegas Raiders",
+        "date": "2026-09-27"
       },
       "news": [
+        {
+          "id": "c01a8e182d90",
+          "teamId": "saints",
+          "headline": "Raiders beat the Saints 35-27 in the home opener",
+          "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
+          "date": "2026-09-27",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
+        },
         {
           "id": "6c49b20c606e",
           "teamId": "saints",
@@ -44,15 +54,6 @@
           "date": "2026-09-26",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
-        },
-        {
-          "id": "10bec9052258",
-          "teamId": "saints",
-          "headline": "Two Saints are out for Sunday's home game",
-          "summary": "Receiver Barion Brown and lineman Christen Miller will not play against the Raiders. Cornerback Martin Emerson practiced for the first time this week and is listed as a maybe.",
-          "date": "2026-09-25",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
         }
       ]
     },
@@ -82,6 +83,15 @@
       },
       "news": [
         {
+          "id": "6265dd9a66b1",
+          "teamId": "florida",
+          "headline": "Jon Sumrall says Vernell Brown's knee is not torn",
+          "summary": "Brown left Saturday's win over Ole Miss in the second quarter, and the coach said it was a small knee tweak with nothing torn. Bailey Stockton hurt his back on a hit but should not be out long.",
+          "date": "2026-09-27",
+          "source": "Florida Gators On SI",
+          "url": "https://www.si.com/college/florida/football/sumrall-updates-vernell-brown-iii-bailey-stockton-injuries-vs-ole-miss-01m3gvbvt9tc"
+        },
+        {
           "id": "e63f38f534cd",
           "teamId": "florida",
           "headline": "Florida jumps to No. 8 in the new rankings",
@@ -98,15 +108,6 @@
           "date": "2026-09-26",
           "source": "Associated Press",
           "url": "https://www.ksat.com/sports/2026/09/26/jadan-baugh-and-no-21-florida-run-roughshod-over-4th-ranked-ole-miss-52-28/"
-        },
-        {
-          "id": "b147a5d289a0",
-          "teamId": "florida",
-          "headline": "Eric Singleton plays again and catches a long pass",
-          "summary": "Singleton had not played since he hurt his ankle in the first game of the year. He caught one pass for 38 yards against Ole Miss, the longest catch Florida had all day.",
-          "date": "2026-09-26",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
         }
       ]
     },
