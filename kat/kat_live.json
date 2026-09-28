@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "193a29f5ffed",
+          "teamId": "saints",
+          "headline": "Travis Etienne will miss time with a hurt hamstring",
+          "summary": "The Saints running back grabbed at his left hamstring after a 16-yard run in the third quarter Sunday and did not come back. Coach Kellen Moore said Monday that Etienne will not play against Atlanta next Monday night and did not say how long he will be out.",
+          "date": "2026-09-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+        },
+        {
+          "id": "06658723a2e8",
+          "teamId": "saints",
+          "headline": "The league explains the fumble that turned Sunday's game",
+          "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
+          "date": "2026-09-28",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
+        },
+        {
           "id": "c01a8e182d90",
           "teamId": "saints",
           "headline": "Raiders beat the Saints 35-27 in the home opener",
@@ -36,24 +54,6 @@
           "date": "2026-09-27",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
-        },
-        {
-          "id": "6c49b20c606e",
-          "teamId": "saints",
-          "headline": "Seven Saints are out against the Raiders",
-          "summary": "Receiver Barion Brown, cornerback Martin Emerson Jr. and five other players are inactive for Sunday's game in the Superdome. Las Vegas tight end Brock Bowers is playing for the first time this season.",
-          "date": "2026-09-27",
-          "source": "Saints On SI",
-          "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
-        },
-        {
-          "id": "5cff9fb06f45",
-          "teamId": "saints",
-          "headline": "Saints add two receivers for Sunday",
-          "summary": "The Saints moved receivers Kevin Austin Jr. and Jalen Moreno-Cropper up from the practice squad Saturday so they can play against the Raiders. Barion Brown, one of the team's receivers, is out with an injury.",
-          "date": "2026-09-26",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
         }
       ]
     },
@@ -83,13 +83,22 @@
       },
       "news": [
         {
-          "id": "6265dd9a66b1",
+          "id": "848cb4e4128d",
           "teamId": "florida",
-          "headline": "Jon Sumrall says Vernell Brown's knee is not torn",
-          "summary": "Brown left Saturday's win over Ole Miss in the second quarter, and the coach said it was a small knee tweak with nothing torn. Bailey Stockton hurt his back on a hit but should not be out long.",
-          "date": "2026-09-27",
-          "source": "Florida Gators On SI",
-          "url": "https://www.si.com/college/florida/football/sumrall-updates-vernell-brown-iii-bailey-stockton-injuries-vs-ole-miss-01m3gvbvt9tc"
+          "headline": "Jadan Baugh wins the top offensive award in the SEC",
+          "summary": "The conference named Baugh its offensive player of the week after he ran for 142 yards and three touchdowns against Ole Miss. Two more Gators were honored: London Montgomery on special teams and Bryce Lovett on the offensive line.",
+          "date": "2026-09-28",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
+        },
+        {
+          "id": "586d146f3c3b",
+          "teamId": "florida",
+          "headline": "Vernell Brown is expected to play at Missouri",
+          "summary": "Tests on the knee Brown hurt Saturday came back clean, and coach Jon Sumrall said the news was great and he could be back this week. Eric Singleton, who missed two games with a sprained ankle, will practice fully.",
+          "date": "2026-09-28",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
         },
         {
           "id": "e63f38f534cd",
@@ -99,15 +108,6 @@
           "date": "2026-09-27",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "034f6e28f526",
-          "teamId": "florida",
-          "headline": "Florida runs over Ole Miss 52-28",
-          "summary": "Jadan Baugh ran for 142 yards and three touchdowns Saturday afternoon in Gainesville as Florida beat the fourth-ranked Rebels. The Gators are 4-0 for the first time since 2019.",
-          "date": "2026-09-26",
-          "source": "Associated Press",
-          "url": "https://www.ksat.com/sports/2026/09/26/jadan-baugh-and-no-21-florida-run-roughshod-over-4th-ranked-ole-miss-52-28/"
         }
       ]
     },
@@ -137,6 +137,24 @@
       },
       "news": [
         {
+          "id": "072eb0bc93e2",
+          "teamId": "lsu",
+          "headline": "Whit Weeks breaks his leg and is out indefinitely",
+          "summary": "The LSU linebacker broke his lower right leg in Saturday's win over Texas A&M and left the field on crutches. Coach Lane Kiffin said Weeks will be out a long while but may still come back late in the season.",
+          "date": "2026-09-28",
+          "source": "American Press",
+          "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
+        },
+        {
+          "id": "8a5909fb3fd9",
+          "teamId": "lsu",
+          "headline": "Deuce Geralds is the SEC freshman of the week",
+          "summary": "The conference gave its weekly freshman award to the LSU defensive tackle for his part in Saturday's 35-6 win over Texas A&M. He is the only LSU player honored this week.",
+          "date": "2026-09-28",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/jadan-baugh-headlines-secs-players-of-the-week-for-week-4/"
+        },
+        {
           "id": "b07ef7a6fde9",
           "teamId": "lsu",
           "headline": "LSU is No. 11 in the new rankings",
@@ -144,24 +162,6 @@
           "date": "2026-09-27",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "c9cc51d2b259",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt hurt his hamstring but says he is fine",
-          "summary": "LSU's quarterback said he pulled a hamstring in the second quarter and sat out a few plays while backup Landen Clark ran in two touchdowns. Coach Lane Kiffin said he did not yet know how bad the injury is.",
-          "date": "2026-09-27",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lane-kiffin-clarifies-why-sam-070815475.html"
-        },
-        {
-          "id": "88031f4a577c",
-          "teamId": "lsu",
-          "headline": "LSU beats Texas A&M 35-6",
-          "summary": "Sam Leavitt threw for 312 yards and two touchdowns Saturday night in Tiger Stadium, and Jackson Harris caught both of them and gained 163 yards. LSU held Texas A&M to six points and no touchdowns.",
-          "date": "2026-09-26",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/09/26/lsu-vs-texas-am-live-updates-tiger-stadium/"
         }
       ]
     },
@@ -192,6 +192,15 @@
       },
       "news": [
         {
+          "id": "f149d570921b",
+          "teamId": "tulane",
+          "headline": "Maurice Turner wins the conference weekly award",
+          "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
+          "date": "2026-09-28",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+        },
+        {
           "id": "86066cc43421",
           "teamId": "tulane",
           "headline": "Tulane wins the Battle for the Bell 24-21",
@@ -208,15 +217,6 @@
           "date": "2026-09-24",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
-        },
-        {
-          "id": "07d5cb1c66d1",
-          "teamId": "tulane",
-          "headline": "Cooper Helmke sets the Tulane field goal record",
-          "summary": "Helmke's 58-yard kick at Kansas State on Saturday is the longest in school history, one yard past the mark Cairo Santos set in 2012. The redshirt freshman missed all of last season with a back injury and a hip injury.",
-          "date": "2026-09-20",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
         }
       ]
     }

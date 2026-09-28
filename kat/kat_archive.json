@@ -7,6 +7,69 @@
   },
   "items": [
     {
+      "id": "6c49b20c606e",
+      "teamId": "saints",
+      "headline": "Seven Saints are out against the Raiders",
+      "summary": "Receiver Barion Brown, cornerback Martin Emerson Jr. and five other players are inactive for Sunday's game in the Superdome. Las Vegas tight end Brock Bowers is playing for the first time this season.",
+      "date": "2026-09-27",
+      "source": "Saints On SI",
+      "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
+    },
+    {
+      "id": "6265dd9a66b1",
+      "teamId": "florida",
+      "headline": "Jon Sumrall says Vernell Brown's knee is not torn",
+      "summary": "Brown left Saturday's win over Ole Miss in the second quarter, and the coach said it was a small knee tweak with nothing torn. Bailey Stockton hurt his back on a hit but should not be out long.",
+      "date": "2026-09-27",
+      "source": "Florida Gators On SI",
+      "url": "https://www.si.com/college/florida/football/sumrall-updates-vernell-brown-iii-bailey-stockton-injuries-vs-ole-miss-01m3gvbvt9tc"
+    },
+    {
+      "id": "c9cc51d2b259",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt hurt his hamstring but says he is fine",
+      "summary": "LSU's quarterback said he pulled a hamstring in the second quarter and sat out a few plays while backup Landen Clark ran in two touchdowns. Coach Lane Kiffin said he did not yet know how bad the injury is.",
+      "date": "2026-09-27",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lane-kiffin-clarifies-why-sam-070815475.html"
+    },
+    {
+      "id": "5cff9fb06f45",
+      "teamId": "saints",
+      "headline": "Saints add two receivers for Sunday",
+      "summary": "The Saints moved receivers Kevin Austin Jr. and Jalen Moreno-Cropper up from the practice squad Saturday so they can play against the Raiders. Barion Brown, one of the team's receivers, is out with an injury.",
+      "date": "2026-09-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
+    },
+    {
+      "id": "034f6e28f526",
+      "teamId": "florida",
+      "headline": "Florida runs over Ole Miss 52-28",
+      "summary": "Jadan Baugh ran for 142 yards and three touchdowns Saturday afternoon in Gainesville as Florida beat the fourth-ranked Rebels. The Gators are 4-0 for the first time since 2019.",
+      "date": "2026-09-26",
+      "source": "Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/26/jadan-baugh-and-no-21-florida-run-roughshod-over-4th-ranked-ole-miss-52-28/"
+    },
+    {
+      "id": "88031f4a577c",
+      "teamId": "lsu",
+      "headline": "LSU beats Texas A&M 35-6",
+      "summary": "Sam Leavitt threw for 312 yards and two touchdowns Saturday night in Tiger Stadium, and Jackson Harris caught both of them and gained 163 yards. LSU held Texas A&M to six points and no touchdowns.",
+      "date": "2026-09-26",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/09/26/lsu-vs-texas-am-live-updates-tiger-stadium/"
+    },
+    {
+      "id": "07d5cb1c66d1",
+      "teamId": "tulane",
+      "headline": "Cooper Helmke sets the Tulane field goal record",
+      "summary": "Helmke's 58-yard kick at Kansas State on Saturday is the longest in school history, one yard past the mark Cairo Santos set in 2012. The redshirt freshman missed all of last season with a back injury and a hip injury.",
+      "date": "2026-09-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
+    },
+    {
       "id": "b147a5d289a0",
       "teamId": "florida",
       "headline": "Eric Singleton plays again and catches a long pass",
