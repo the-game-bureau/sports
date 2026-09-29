@@ -193,13 +193,13 @@
       },
       "news": [
         {
-          "id": "193a29f5ffed",
+          "id": "5ba2f5efa1aa",
           "teamId": "saints",
-          "headline": "Travis Etienne will miss time with a hurt hamstring",
-          "summary": "The Saints running back grabbed at his left hamstring after a 16-yard run in the third quarter Sunday and did not come back. Coach Kellen Moore said Monday that Etienne will not play against Atlanta next Monday night and did not say how long he will be out.",
-          "date": "2026-09-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+          "headline": "Travis Etienne will not play Monday night",
+          "summary": "Coach Kellen Moore said Etienne is out against Atlanta because of his hurt hamstring. Alvin Kamara will be the main running back, with Kendre Miller and rookie C.J. Donaldson helping.",
+          "date": "2026-09-29",
+          "source": "Saints On SI",
+          "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
         },
         {
           "id": "06658723a2e8",
@@ -303,13 +303,13 @@
       },
       "news": [
         {
-          "id": "ee3fddc1cb1a",
+          "id": "ca61a697c522",
           "teamId": "yankees",
-          "headline": "Aaron Judge is getting closer to playing",
-          "summary": "Manager Aaron Boone said Monday that Judge is making progress, took swings in the cage Sunday and ran on a treadmill Monday. Judge has been out since September 16 with a strained calf, and the Yankees have not said yet whether he will be on the roster for Tuesday's playoff opener.",
-          "date": "2026-09-28",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/mlb/news/yankees-aaron-judge-injury-wild-card-series-roster-progress/"
+          "headline": "Aaron Judge will not play against Boston",
+          "summary": "The Yankees left Judge off the roster for the playoff series because his right calf is still hurt. He has not played since September 16.",
+          "date": "2026-09-29",
+          "source": "Yankees On SI",
+          "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
         },
         {
           "id": "6bca6818b4e3",

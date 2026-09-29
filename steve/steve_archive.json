@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "ee3fddc1cb1a",
+      "teamId": "yankees",
+      "headline": "Aaron Judge is getting closer to playing",
+      "summary": "Manager Aaron Boone said Monday that Judge is making progress, took swings in the cage Sunday and ran on a treadmill Monday. Judge has been out since September 16 with a strained calf, and the Yankees have not said yet whether he will be on the roster for Tuesday's playoff opener.",
+      "date": "2026-09-28",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/mlb/news/yankees-aaron-judge-injury-wild-card-series-roster-progress/"
+    },
+    {
+      "id": "193a29f5ffed",
+      "teamId": "saints",
+      "headline": "Travis Etienne will miss time with a hurt hamstring",
+      "summary": "The Saints running back grabbed at his left hamstring after a 16-yard run in the third quarter Sunday and did not come back. Coach Kellen Moore said Monday that Etienne will not play against Atlanta next Monday night and did not say how long he will be out.",
+      "date": "2026-09-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+    },
+    {
       "id": "6265dd9a66b1",
       "teamId": "florida",
       "headline": "Jon Sumrall says Vernell Brown's knee is not torn",
