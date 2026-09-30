@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "1e77afaaa6a7",
+          "teamId": "tulane",
+          "headline": "Freshman Trace Johnson takes over at quarterback",
+          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+          "date": "2026-09-28",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+        },
+        {
           "id": "f149d570921b",
           "teamId": "tulane",
           "headline": "Maurice Turner wins the conference weekly award",
@@ -45,15 +54,6 @@
           "date": "2026-09-26",
           "source": "Fox 8 (WVUE)",
           "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
-        },
-        {
-          "id": "0a9fdf5dc6d9",
-          "teamId": "tulane",
-          "headline": "Jamauri McClure misses another game",
-          "summary": "Tulane's running back will sit out Saturday's game against Southern Miss with a foot injury, and he has not played at all this season. The Green Wave have a bye next week and hope he can come back October 10 at Army.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
         }
       ]
     },
@@ -312,6 +312,15 @@
           "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
         },
         {
+          "id": "593a52994b3f",
+          "teamId": "yankees",
+          "headline": "Giancarlo Stanton is back for the playoffs",
+          "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
+          "date": "2026-09-29",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
+        },
+        {
           "id": "ca61a697c522",
           "teamId": "yankees",
           "headline": "Aaron Judge will not play against Boston",
@@ -319,15 +328,6 @@
           "date": "2026-09-29",
           "source": "Yankees On SI",
           "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
-        },
-        {
-          "id": "6bca6818b4e3",
-          "teamId": "yankees",
-          "headline": "Rain calls off the last game of the season",
-          "summary": "Sunday's game with Baltimore was called off and will not be made up. The Yankees finish the regular season 93-68 and start the playoffs Tuesday.",
-          "date": "2026-09-27",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/orioles-yankees-september-27-game-canceled-due-to-weather"
         }
       ]
     },

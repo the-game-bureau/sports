@@ -192,6 +192,15 @@
       },
       "news": [
         {
+          "id": "1e77afaaa6a7",
+          "teamId": "tulane",
+          "headline": "Freshman Trace Johnson takes over at quarterback",
+          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+          "date": "2026-09-28",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+        },
+        {
           "id": "f149d570921b",
           "teamId": "tulane",
           "headline": "Maurice Turner wins the conference weekly award",
@@ -208,15 +217,6 @@
           "date": "2026-09-26",
           "source": "Fox 8 (WVUE)",
           "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
-        },
-        {
-          "id": "0a9fdf5dc6d9",
-          "teamId": "tulane",
-          "headline": "Jamauri McClure misses another game",
-          "summary": "Tulane's running back will sit out Saturday's game against Southern Miss with a foot injury, and he has not played at all this season. The Green Wave have a bye next week and hope he can come back October 10 at Army.",
-          "date": "2026-09-24",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
         }
       ]
     }

@@ -7,15 +7,6 @@
   },
   "items": [
     {
-      "id": "2e1a1cd65973",
-      "teamId": "yankees",
-      "headline": "Cam Schlittler will pitch Game 1 against Boston",
-      "summary": "He starts Tuesday night's playoff opener at Yankee Stadium. Max Fried pitches Game 2, and Gerrit Cole would pitch Game 3 if the series goes that far.",
-      "date": "2026-09-27",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/50044091/yankees-give-schlittler-game-1-wild-card-series-start-red-sox"
-    },
-    {
       "id": "ee3fddc1cb1a",
       "teamId": "yankees",
       "headline": "Aaron Judge is getting closer to playing",
@@ -32,6 +23,24 @@
       "date": "2026-09-28",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+    },
+    {
+      "id": "6bca6818b4e3",
+      "teamId": "yankees",
+      "headline": "Rain calls off the last game of the season",
+      "summary": "Sunday's game with Baltimore was called off and will not be made up. The Yankees finish the regular season 93-68 and start the playoffs Tuesday.",
+      "date": "2026-09-27",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/orioles-yankees-september-27-game-canceled-due-to-weather"
+    },
+    {
+      "id": "2e1a1cd65973",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler will pitch Game 1 against Boston",
+      "summary": "He starts Tuesday night's playoff opener at Yankee Stadium. Max Fried pitches Game 2, and Gerrit Cole would pitch Game 3 if the series goes that far.",
+      "date": "2026-09-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50044091/yankees-give-schlittler-game-1-wild-card-series-start-red-sox"
     },
     {
       "id": "6265dd9a66b1",
@@ -70,6 +79,15 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-3-elevations"
     },
     {
+      "id": "b147a5d289a0",
+      "teamId": "florida",
+      "headline": "Eric Singleton plays again and catches a long pass",
+      "summary": "Singleton had not played since he hurt his ankle in the first game of the year. He caught one pass for 38 yards against Ole Miss, the longest catch Florida had all day.",
+      "date": "2026-09-26",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
+    },
+    {
       "id": "6f9d63c2f0a5",
       "teamId": "iup",
       "headline": "IUP wins its ninth match in a row",
@@ -88,24 +106,6 @@
       "url": "https://sports.yahoo.com/articles/yankees-playoff-roster-updates-judge-004358342.html"
     },
     {
-      "id": "07d5cb1c66d1",
-      "teamId": "tulane",
-      "headline": "Cooper Helmke sets the Tulane field goal record",
-      "summary": "Helmke's 58-yard kick at Kansas State on Saturday is the longest in school history, one yard past the mark Cairo Santos set in 2012. The redshirt freshman missed all of last season with a back injury and a hip injury.",
-      "date": "2026-09-20",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
-    },
-    {
-      "id": "b147a5d289a0",
-      "teamId": "florida",
-      "headline": "Eric Singleton plays again and catches a long pass",
-      "summary": "Singleton had not played since he hurt his ankle in the first game of the year. He caught one pass for 38 yards against Ole Miss, the longest catch Florida had all day.",
-      "date": "2026-09-26",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
-    },
-    {
       "id": "10bec9052258",
       "teamId": "saints",
       "headline": "Two Saints are out for Sunday's home game",
@@ -115,15 +115,6 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-las-vegas-raiders-vs-new-orleans-saints-2026-nfl-week-3-friday"
     },
     {
-      "id": "f463424f0bcc",
-      "teamId": "yankees",
-      "headline": "Aaron Judge aims for Game 1 on Tuesday",
-      "summary": "Judge said the plan is to have his body ready for the first playoff game at Yankee Stadium on Tuesday. He has been out since September 16 with a calf strain, and manager Aaron Boone said the team is getting ready to play without him.",
-      "date": "2026-09-24",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-says-plans-000724700.html"
-    },
-    {
       "id": "0cae52af6054",
       "teamId": "yankees",
       "headline": "Yankees will play the Red Sox on Tuesday",
@@ -131,6 +122,42 @@
       "date": "2026-09-25",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/yankees-vs-red-sox-al-195025556.html"
+    },
+    {
+      "id": "ab0140061cd1",
+      "teamId": "yankees",
+      "headline": "Yankees split two games with Baltimore",
+      "summary": "Baltimore won the first game 10-2 on Friday, and the Yankees came back to win the second one 6-3. Spencer Jones and Anthony Volpe both drove in runs in a three-run sixth inning.",
+      "date": "2026-09-25",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-pitchers-strike-whopping-17-025757395.html"
+    },
+    {
+      "id": "f9a7bd6b426d",
+      "teamId": "yankees",
+      "headline": "Yankees play two today because of the storm",
+      "summary": "A big storm is coming to New York this weekend, so Saturday's game was called off and moved up to today. The Yankees and the Orioles play at 3:05 PM our time and again about 6:05 PM.",
+      "date": "2026-09-25",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
+    },
+    {
+      "id": "0a9fdf5dc6d9",
+      "teamId": "tulane",
+      "headline": "Jamauri McClure misses another game",
+      "summary": "Tulane's running back will sit out Saturday's game against Southern Miss with a foot injury, and he has not played at all this season. The Green Wave have a bye next week and hope he can come back October 10 at Army.",
+      "date": "2026-09-24",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-news-green-wave-dealt-151531726.html"
+    },
+    {
+      "id": "f463424f0bcc",
+      "teamId": "yankees",
+      "headline": "Aaron Judge aims for Game 1 on Tuesday",
+      "summary": "Judge said the plan is to have his body ready for the first playoff game at Yankee Stadium on Tuesday. He has been out since September 16 with a calf strain, and manager Aaron Boone said the team is getting ready to play without him.",
+      "date": "2026-09-24",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-aaron-judge-says-plans-000724700.html"
     },
     {
       "id": "5adfd3c26d4b",
@@ -160,22 +187,22 @@
       "url": "https://www.wruf.com/headlines/2026/09/24/gators-injury-report-eric-singleton-jr-watch-again/"
     },
     {
-      "id": "ab0140061cd1",
-      "teamId": "yankees",
-      "headline": "Yankees split two games with Baltimore",
-      "summary": "Baltimore won the first game 10-2 on Friday, and the Yankees came back to win the second one 6-3. Spencer Jones and Anthony Volpe both drove in runs in a three-run sixth inning.",
-      "date": "2026-09-25",
+      "id": "ee71034dc6f5",
+      "teamId": "saints",
+      "headline": "Chase Young practices fully on Thursday",
+      "summary": "The Saints pass rusher took part in all of Thursday's practice, and safety Jonas Sanker and lineman Nathan Shepherd did too. Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller sat out again, and running back Travis Etienne was limited.",
+      "date": "2026-09-24",
       "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/yankees-pitchers-strike-whopping-17-025757395.html"
+      "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
     },
     {
-      "id": "ddccf9519ce3",
-      "teamId": "florida",
-      "headline": "Eric Singleton might play Saturday against Ole Miss",
-      "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
-      "date": "2026-09-21",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
+      "id": "1645c3c762d6",
+      "teamId": "yankees",
+      "headline": "Yankees come back to beat the Rays 6-4",
+      "summary": "New York fell behind 4-0 on Thursday night and scored six times to win it. Rookie George Lombard Jr. drove in three runs, including a two-run home run in the eighth inning.",
+      "date": "2026-09-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap/_/gameId/401817064"
     },
     {
       "id": "36ed46520ef7",
@@ -196,24 +223,6 @@
       "teamId": "tulane"
     },
     {
-      "id": "ee71034dc6f5",
-      "teamId": "saints",
-      "headline": "Chase Young practices fully on Thursday",
-      "summary": "The Saints pass rusher took part in all of Thursday's practice, and safety Jonas Sanker and lineman Nathan Shepherd did too. Receiver Barion Brown, cornerback Martin Emerson and lineman Christen Miller sat out again, and running back Travis Etienne was limited.",
-      "date": "2026-09-24",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/learned-updated-saints-vs-raiders-202717421.html"
-    },
-    {
-      "id": "59dc66e1ebd8",
-      "teamId": "iup",
-      "headline": "IUP sweeps Seton Hill in conference opener",
-      "summary": "The Crimson Hawks won 25-23, 25-22, 25-17 at Seton Hill on Friday in their first conference match of the year. Delaney Concannon and Kyra Schmidt each had 8 kills, and IUP is 9-3 and has not lost since August 29.",
-      "date": "2026-09-18",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/9/18/womens-volleyball-volleyball-sweeps-seton-hill-to-open-psac-west-play.aspx"
-    },
-    {
       "id": "9bd8b9aba187",
       "headline": "Hollywood Smothers is questionable for Tennessee",
       "summary": "Texas listed running back Hollywood Smothers as questionable for Saturday's game at Tennessee. He leads the Longhorns in rushing this season.",
@@ -221,33 +230,6 @@
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/texas/football/texas-tennessee-injury-report-features-concerning-news-for-longhorns",
       "teamId": "texas"
-    },
-    {
-      "id": "1645c3c762d6",
-      "teamId": "yankees",
-      "headline": "Yankees come back to beat the Rays 6-4",
-      "summary": "New York fell behind 4-0 on Thursday night and scored six times to win it. Rookie George Lombard Jr. drove in three runs, including a two-run home run in the eighth inning.",
-      "date": "2026-09-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap/_/gameId/401817064"
-    },
-    {
-      "id": "f9a7bd6b426d",
-      "teamId": "yankees",
-      "headline": "Yankees play two today because of the storm",
-      "summary": "A big storm is coming to New York this weekend, so Saturday's game was called off and moved up to today. The Yankees and the Orioles play at 3:05 PM our time and again about 6:05 PM.",
-      "date": "2026-09-25",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
-    },
-    {
-      "id": "5eea72b0eecd",
-      "teamId": "iup",
-      "headline": "IUP wins twice in West Virginia",
-      "summary": "The Crimson Hawks beat Shepherd and then Millersville on Friday and did not lose a set in either match. IUP has now won seven in a row and is 8-3.",
-      "date": "2026-09-11",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
     },
     {
       "id": "a71c60714aba",
@@ -286,24 +268,6 @@
       "teamId": "yankees"
     },
     {
-      "id": "0dacb9141b79",
-      "teamId": "texas",
-      "headline": "Sarkisian tells Arch Manning to be himself",
-      "summary": "Coach Steve Sarkisian said Monday that Manning ran with the ball too often in Saturday's win and should pick his spots better. He also said he does not want Manning trying to play like Peyton, Eli or Archie: “Arch Manning is plenty good enough for us to put us in position to win.”",
-      "date": "2026-09-21",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/texas/football/steve-sarkisian-makes-clear-his-message-to-arch-manning-ahead-of-tennessee"
-    },
-    {
-      "id": "482b7034617e",
-      "teamId": "florida",
-      "headline": "Florida is ranked for the first time under Sumrall",
-      "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
-      "date": "2026-09-20",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-    },
-    {
       "id": "504fa950f775",
       "headline": "Rays win the second game of the doubleheader",
       "summary": "Tampa Bay beat the Yankees 6-1 on Tuesday night in the Bronx. The Yankees had won the afternoon game 2-0.",
@@ -311,6 +275,33 @@
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/game/_/gameId/401817034",
       "teamId": "yankees"
+    },
+    {
+      "id": "aa3dd3e5df85",
+      "teamId": "yankees",
+      "headline": "Yankees shut out the Rays 2-0",
+      "summary": "Carlos Rodon pitched eight scoreless innings Tuesday afternoon and Cody Bellinger hit a two-run home run. The Yankees are 90-66, and the win kept Tampa Bay from clinching the division title.",
+      "date": "2026-09-22",
+      "source": "Field Level Media",
+      "url": "https://fieldlevelmedia.com/mlb/yankees-hold-off-rays-celebration-with-win-in-doubleheader-opener/"
+    },
+    {
+      "id": "ddccf9519ce3",
+      "teamId": "florida",
+      "headline": "Eric Singleton might play Saturday against Ole Miss",
+      "summary": "Coach Jon Sumrall said Monday that the receiver did more in practice than he has done since he hurt his ankle on September 5. Sumrall said they will warm Singleton up Saturday and play him if he is ready.",
+      "date": "2026-09-21",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-eric-singleton-jr-play-164230879.html"
+    },
+    {
+      "id": "0dacb9141b79",
+      "teamId": "texas",
+      "headline": "Sarkisian tells Arch Manning to be himself",
+      "summary": "Coach Steve Sarkisian said Monday that Manning ran with the ball too often in Saturday's win and should pick his spots better. He also said he does not want Manning trying to play like Peyton, Eli or Archie: “Arch Manning is plenty good enough for us to put us in position to win.”",
+      "date": "2026-09-21",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/steve-sarkisian-makes-clear-his-message-to-arch-manning-ahead-of-tennessee"
     },
     {
       "id": "1cc79091225e",
@@ -322,6 +313,33 @@
       "url": "https://www.neworleanssaints.com/news/left-tackle-asim-richards-was-ready-for-the-moment-in-sundays-win-over-ravens"
     },
     {
+      "id": "4f244da34bde",
+      "teamId": "saints",
+      "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
+      "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
+      "date": "2026-09-21",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
+    },
+    {
+      "id": "07d5cb1c66d1",
+      "teamId": "tulane",
+      "headline": "Cooper Helmke sets the Tulane field goal record",
+      "summary": "Helmke's 58-yard kick at Kansas State on Saturday is the longest in school history, one yard past the mark Cairo Santos set in 2012. The redshirt freshman missed all of last season with a back injury and a hip injury.",
+      "date": "2026-09-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/tulane/news/tulane-s-helmke-works-through-injuries-sets-school-fg-record-01m2zk2yv9xc"
+    },
+    {
+      "id": "482b7034617e",
+      "teamId": "florida",
+      "headline": "Florida is ranked for the first time under Sumrall",
+      "summary": "The Gators are No. 21 in the new Associated Press Top 25, which came out Sunday, after their 44-39 win at Auburn. It is the first time Florida has been ranked since Jon Sumrall became the coach.",
+      "date": "2026-09-20",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+    },
+    {
       "id": "57a5c11907c2",
       "teamId": "texas",
       "headline": "Colin Simmons leaves the UTSA game in a boot",
@@ -329,6 +347,42 @@
       "date": "2026-09-20",
       "source": "247Sports",
       "url": "https://247sports.com/college/texas/article/texas-edge-colin-simmons-leaves-saturdays-game-vs-utsa-and-is-wearing-a-protective-walking-boot-290203637/"
+    },
+    {
+      "id": "c643303058c3",
+      "teamId": "yankees",
+      "headline": "Arizona beats the Yankees 8-4 on a grand slam",
+      "summary": "The Yankees hit three home runs in the third inning Sunday off Corbin Burnes, but Nolan Arenado hit a grand slam in the fifth and Arizona won 8-4. New York is 89-66 and opens a four-game home series against Tampa Bay on Tuesday.",
+      "date": "2026-09-20",
+      "source": "Associated Press",
+      "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
+    },
+    {
+      "id": "19cf7cba8aa8",
+      "teamId": "saints",
+      "headline": "Tyler Shough has the most yards since Drew Brees",
+      "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
+      "date": "2026-09-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
+    },
+    {
+      "id": "355cab15b82c",
+      "teamId": "texas",
+      "headline": "Texas is still No. 1 with Tennessee next",
+      "summary": "The Longhorns kept the top spot in the new Associated Press Top 25 on Sunday after beating UTSA 30-6. They play Saturday morning at Tennessee, which is ranked No. 14.",
+      "date": "2026-09-20",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "f7b9c936dcf4",
+      "teamId": "saints",
+      "headline": "Saints win at Baltimore 24-17",
+      "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
+      "date": "2026-09-20",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
     },
     {
       "id": "84e950e985e3",
@@ -349,51 +403,6 @@
       "url": "https://www.espn.com/mlb/story/_/id/49983428/judge-hopes-back-october-no-line-return"
     },
     {
-      "id": "c643303058c3",
-      "teamId": "yankees",
-      "headline": "Arizona beats the Yankees 8-4 on a grand slam",
-      "summary": "The Yankees hit three home runs in the third inning Sunday off Corbin Burnes, but Nolan Arenado hit a grand slam in the fifth and Arizona won 8-4. New York is 89-66 and opens a four-game home series against Tampa Bay on Tuesday.",
-      "date": "2026-09-20",
-      "source": "Associated Press",
-      "url": "https://www.wral.com/news/ap/62160-arenado-hits-grand-slam-in-the-diamondbacks-8-4-victory-over-the-yankees/"
-    },
-    {
-      "id": "aa3dd3e5df85",
-      "teamId": "yankees",
-      "headline": "Yankees shut out the Rays 2-0",
-      "summary": "Carlos Rodon pitched eight scoreless innings Tuesday afternoon and Cody Bellinger hit a two-run home run. The Yankees are 90-66, and the win kept Tampa Bay from clinching the division title.",
-      "date": "2026-09-22",
-      "source": "Field Level Media",
-      "url": "https://fieldlevelmedia.com/mlb/yankees-hold-off-rays-celebration-with-win-in-doubleheader-opener/"
-    },
-    {
-      "id": "19cf7cba8aa8",
-      "teamId": "saints",
-      "headline": "Tyler Shough has the most yards since Drew Brees",
-      "summary": "Shough has thrown for 662 yards in the Saints' first two games. No Saints quarterback has started a season with more since Drew Brees threw for 669 in 2009.",
-      "date": "2026-09-20",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-2-baltimore-ravens-vs-new-orleans-saints-game-notes"
-    },
-    {
-      "id": "4f244da34bde",
-      "teamId": "saints",
-      "headline": "Kelvin Banks needs ankle surgery after Sunday's win",
-      "summary": "The Saints' starting left tackle was hurt in the third quarter at Baltimore and was carted off the field. He is having surgery on the ankle and will be out for a while, with Asim Richards taking his place.",
-      "date": "2026-09-21",
-      "source": "CBS Sports",
-      "url": "https://www.cbssports.com/nfl/news/saints-kelvin-banks-jr-suffers-ankle-injury/"
-    },
-    {
-      "id": "355cab15b82c",
-      "teamId": "texas",
-      "headline": "Texas is still No. 1 with Tennessee next",
-      "summary": "The Longhorns kept the top spot in the new Associated Press Top 25 on Sunday after beating UTSA 30-6. They play Saturday morning at Tennessee, which is ranked No. 14.",
-      "date": "2026-09-20",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-09-20/ole-miss-enters-top-five-latest-ap-top-25-college-football-rankings"
-    },
-    {
       "id": "76a03d7459ef",
       "teamId": "florida",
       "headline": "Florida beats Auburn 44-39 and is 3-0",
@@ -403,15 +412,6 @@
       "url": "https://www.si.com/college/florida/football/baugh-rushes-162-yards-3-tds-gators-beat-auburn-01m2y98k5bzh"
     },
     {
-      "id": "747a3de45231",
-      "teamId": "tulane",
-      "headline": "Dickson Agu honored after a 14-tackle game",
-      "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
-      "date": "2026-09-15",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
-    },
-    {
       "id": "969b60ab17db",
       "teamId": "yankees",
       "headline": "Yankees lose on a ninth-inning home run",
@@ -419,15 +419,6 @@
       "date": "2026-09-19",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/yankees-walked-off-diamondbacks-5-034757220.html"
-    },
-    {
-      "id": "f7b9c936dcf4",
-      "teamId": "saints",
-      "headline": "Saints win at Baltimore 24-17",
-      "summary": "New Orleans trailed 14-6 at halftime Sunday and scored 18 points after the break to beat the Ravens. Tyler Shough completed 27 of 34 passes for 252 yards, and Julian Blackmon intercepted Lamar Jackson in the last minute to end it.",
-      "date": "2026-09-20",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/saints-take-major-step-forward-with-road-win-over-ravens/"
     },
     {
       "id": "ca10d4231e5f",
@@ -446,6 +437,15 @@
       "date": "2026-09-19",
       "source": "Texas Public Radio / Associated Press",
       "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
+    },
+    {
+      "id": "59dc66e1ebd8",
+      "teamId": "iup",
+      "headline": "IUP sweeps Seton Hill in conference opener",
+      "summary": "The Crimson Hawks won 25-23, 25-22, 25-17 at Seton Hill on Friday in their first conference match of the year. Delaney Concannon and Kyra Schmidt each had 8 kills, and IUP is 9-3 and has not lost since August 29.",
+      "date": "2026-09-18",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/18/womens-volleyball-volleyball-sweeps-seton-hill-to-open-psac-west-play.aspx"
     },
     {
       "id": "5c4efa87e663",
@@ -590,6 +590,15 @@
       "date": "2026-09-16",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-long-snapper-zach-wood-expected-to-miss-at-least-4-games-with-calf-strain/"
+    },
+    {
+      "id": "747a3de45231",
+      "teamId": "tulane",
+      "headline": "Dickson Agu honored after a 14-tackle game",
+      "summary": "Agu made 14 tackles in Saturday's win over South Alabama, the most by a Tulane player in a game since 2023. On Tuesday he was named one of six national comeback players of the week, a year after a knee injury cost him most of last season.",
+      "date": "2026-09-15",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulanes-dickson-agu-honored-as-a-comeback-player-of-the-week/"
     },
     {
       "id": "eeffbbd13d33",
@@ -869,6 +878,15 @@
       "date": "2026-09-12",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
+    },
+    {
+      "id": "5eea72b0eecd",
+      "teamId": "iup",
+      "headline": "IUP wins twice in West Virginia",
+      "summary": "The Crimson Hawks beat Shepherd and then Millersville on Friday and did not lose a set in either match. IUP has now won seven in a row and is 8-3.",
+      "date": "2026-09-11",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/shepherd/boxscore/15074"
     },
     {
       "id": "1b05d109bcd3",
