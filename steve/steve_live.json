@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -281,8 +281,8 @@
       "nextGame": {
         "homeAway": "home",
         "opponent": "Boston Red Sox",
-        "date": "2026-09-29",
-        "utc": "2026-09-30T00:00Z",
+        "date": "2026-09-30",
+        "utc": "2026-10-01T00:00Z",
         "time": "7:00 PM",
         "venue": "Yankee Stadium",
         "city": "Bronx, NY",
@@ -292,16 +292,25 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Game 1 of the playoff series with Boston."
+        "note": "Game 2 of the playoff series with Boston. New York leads 1-0 and a win ends it."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 6,
-        "opponentScore": 3,
-        "opponent": "Baltimore Orioles",
-        "date": "2026-09-25"
+        "teamScore": 9,
+        "opponentScore": 0,
+        "opponent": "Boston Red Sox",
+        "date": "2026-09-29"
       },
       "news": [
+        {
+          "id": "bd1329d86108",
+          "teamId": "yankees",
+          "headline": "Yankees shut out Boston 9-0 in Game 1",
+          "summary": "Cam Schlittler struck out 10 and gave up two hits in six and a third innings Tuesday night at Yankee Stadium, and Ben Rice hit two home runs, one of them a grand slam. The Yankees lead the best-of-three series 1-0 and can finish it Wednesday night, with Max Fried pitching.",
+          "date": "2026-09-29",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
+        },
         {
           "id": "ca61a697c522",
           "teamId": "yankees",
@@ -319,15 +328,6 @@
           "date": "2026-09-27",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/orioles-yankees-september-27-game-canceled-due-to-weather"
-        },
-        {
-          "id": "2e1a1cd65973",
-          "teamId": "yankees",
-          "headline": "Cam Schlittler will pitch Game 1 against Boston",
-          "summary": "He starts Tuesday night's playoff opener at Yankee Stadium. Max Fried pitches Game 2, and Gerrit Cole would pitch Game 3 if the series goes that far.",
-          "date": "2026-09-27",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/50044091/yankees-give-schlittler-game-1-wild-card-series-start-red-sox"
         }
       ]
     },

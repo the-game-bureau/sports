@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "b07ef7a6fde9",
+      "teamId": "lsu",
+      "headline": "LSU is No. 11 in the new rankings",
+      "summary": "The Tigers are 11th in the Associated Press poll after beating Texas A&M 35-6 on Saturday. They host McNeese on Saturday night in Baton Rouge.",
+      "date": "2026-09-27",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+    },
     {
       "id": "193a29f5ffed",
       "teamId": "saints",

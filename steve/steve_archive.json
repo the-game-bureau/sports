@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "2e1a1cd65973",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler will pitch Game 1 against Boston",
+      "summary": "He starts Tuesday night's playoff opener at Yankee Stadium. Max Fried pitches Game 2, and Gerrit Cole would pitch Game 3 if the series goes that far.",
+      "date": "2026-09-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50044091/yankees-give-schlittler-game-1-wild-card-series-start-red-sox"
+    },
     {
       "id": "ee3fddc1cb1a",
       "teamId": "yankees",
