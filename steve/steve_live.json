@@ -193,6 +193,24 @@
       },
       "news": [
         {
+          "id": "04c1c312fdc0",
+          "teamId": "saints",
+          "headline": "Four Saints defenders sat out Thursday practice",
+          "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
+          "date": "2026-10-01",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+        },
+        {
+          "id": "97de7482c197",
+          "teamId": "saints",
+          "headline": "Travis Etienne goes on injured reserve",
+          "summary": "The Saints moved Travis Etienne to injured reserve on Thursday because of his hurt hamstring, so he will be out for a while. They signed running back Ulysses Bentley IV to the practice squad, and Alvin Kamara will do most of the running.",
+          "date": "2026-10-01",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
+        },
+        {
           "id": "e583c759392e",
           "teamId": "saints",
           "headline": "Monday night marks 20 years since the Superdome reopened",
@@ -200,24 +218,6 @@
           "date": "2026-09-30",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
-        },
-        {
-          "id": "5ba2f5efa1aa",
-          "teamId": "saints",
-          "headline": "Travis Etienne will not play Monday night",
-          "summary": "Coach Kellen Moore said Etienne is out against Atlanta because of his hurt hamstring. Alvin Kamara will be the main running back, with Kendre Miller and rookie C.J. Donaldson helping.",
-          "date": "2026-09-29",
-          "source": "Saints On SI",
-          "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
-        },
-        {
-          "id": "06658723a2e8",
-          "teamId": "saints",
-          "headline": "The league explains the fumble that turned Sunday's game",
-          "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
-          "date": "2026-09-28",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the app on a phone, a tablet, Roku or Apple TV."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the PSAC Sports Digital Network app on a phone, a tablet, Roku, Apple TV or Fire TV."
         },
         "note": "Dig Pink game at home."
       },
@@ -247,6 +247,15 @@
         "date": "2026-09-26"
       },
       "news": [
+        {
+          "id": "f18ba4436e07",
+          "teamId": "iup",
+          "headline": "Peyton Belcher has her best day of the season",
+          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
+          "date": "2026-09-11",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
+        },
         {
           "id": "7a8be8e86fe1",
           "teamId": "iup",
@@ -264,15 +273,6 @@
           "date": "2026-09-26",
           "source": "Clarion Athletics",
           "url": "https://clariongoldeneagles.com/boxscore.aspx?id=12635&path=wvball"
-        },
-        {
-          "id": "f18ba4436e07",
-          "teamId": "iup",
-          "headline": "Peyton Belcher has her best day of the season",
-          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
-          "date": "2026-09-11",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         }
       ]
     },
@@ -292,7 +292,7 @@
           "url": "",
           "note": "On YouTube TV. Also shown on truTV."
         },
-        "note": "Game 1 of the next round. New York swept Boston to get here."
+        "note": "Game 1 of the next round. It is best of five, and Tampa Bay won more games than anybody else in the American League."
       },
       "lastGame": {
         "result": "W",
@@ -346,7 +346,7 @@
         "time": "4:30 PM",
         "venue": "Joe Yenni Stadium",
         "city": "Metairie, LA",
-        "note": "Thursday night game. Kickoff was moved up from 6:30 to 4:30."
+        "note": "Thursday afternoon game. Kickoff is 4:30, moved up from 6:30."
       },
       "lastGame": {
         "result": "L",
@@ -356,15 +356,6 @@
         "date": "2026-09-25"
       },
       "news": [
-        {
-          "id": "6d1151a385db",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton's game at Riverdale moves to 4:30",
-          "summary": "Rain is expected Saturday, so the two schools moved Thursday's kickoff from 6:30 to 4:30. The game is at Joe Yenni Stadium in Metairie.",
-          "date": "2026-09-30",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/rummel-john-curtis-football-game-moved-to-thursday-night-set-to-air-on-106-7-the-ticket/"
-        },
         {
           "id": "04d91df13f04",
           "teamId": "warren-easton",

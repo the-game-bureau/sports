@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "04c1c312fdc0",
+          "teamId": "saints",
+          "headline": "Four Saints defenders sat out Thursday practice",
+          "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
+          "date": "2026-10-01",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+        },
+        {
+          "id": "97de7482c197",
+          "teamId": "saints",
+          "headline": "Travis Etienne goes on injured reserve",
+          "summary": "The Saints moved Travis Etienne to injured reserve on Thursday because of his hurt hamstring, so he will be out for a while. They signed running back Ulysses Bentley IV to the practice squad, and Alvin Kamara will do most of the running.",
+          "date": "2026-10-01",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
+        },
+        {
           "id": "e583c759392e",
           "teamId": "saints",
           "headline": "Monday night marks 20 years since the Superdome reopened",
@@ -36,24 +54,6 @@
           "date": "2026-09-30",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
-        },
-        {
-          "id": "5ba2f5efa1aa",
-          "teamId": "saints",
-          "headline": "Travis Etienne will not play Monday night",
-          "summary": "Coach Kellen Moore said Etienne is out against Atlanta because of his hurt hamstring. Alvin Kamara will be the main running back, with Kendre Miller and rookie C.J. Donaldson helping.",
-          "date": "2026-09-29",
-          "source": "Saints On SI",
-          "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
-        },
-        {
-          "id": "06658723a2e8",
-          "teamId": "saints",
-          "headline": "The league explains the fumble that turned Sunday's game",
-          "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
-          "date": "2026-09-28",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
         }
       ]
     },

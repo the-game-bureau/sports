@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "5ba2f5efa1aa",
+      "teamId": "saints",
+      "headline": "Travis Etienne will not play Monday night",
+      "summary": "Coach Kellen Moore said Etienne is out against Atlanta because of his hurt hamstring. Alvin Kamara will be the main running back, with Kendre Miller and rookie C.J. Donaldson helping.",
+      "date": "2026-09-29",
+      "source": "Saints On SI",
+      "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
+    },
+    {
+      "id": "06658723a2e8",
+      "teamId": "saints",
+      "headline": "The league explains the fumble that turned Sunday's game",
+      "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
+      "date": "2026-09-28",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
+    },
+    {
       "id": "ca61a697c522",
       "teamId": "yankees",
       "headline": "Aaron Judge will not play against Boston",
