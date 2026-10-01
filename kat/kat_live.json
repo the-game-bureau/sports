@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "teams": {
     "saints": {
       "record": "1-2",
@@ -16,7 +16,7 @@
           "name": "ESPN",
           "logo": "images/espn.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On YouTube TV. Also on WDSU 6 here in New Orleans."
         },
         "note": "Monday night game."
       },
@@ -28,6 +28,15 @@
         "date": "2026-09-27"
       },
       "news": [
+        {
+          "id": "e583c759392e",
+          "teamId": "saints",
+          "headline": "Monday night marks 20 years since the Superdome reopened",
+          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+          "date": "2026-09-30",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+        },
         {
           "id": "5ba2f5efa1aa",
           "teamId": "saints",
@@ -45,15 +54,6 @@
           "date": "2026-09-28",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
-        },
-        {
-          "id": "c01a8e182d90",
-          "teamId": "saints",
-          "headline": "Raiders beat the Saints 35-27 in the home opener",
-          "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
-          "date": "2026-09-27",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
         }
       ]
     },
@@ -83,6 +83,15 @@
       },
       "news": [
         {
+          "id": "df787d226872",
+          "teamId": "florida",
+          "headline": "Two Florida receivers are questionable for Saturday",
+          "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
+          "date": "2026-09-30",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
+        },
+        {
           "id": "848cb4e4128d",
           "teamId": "florida",
           "headline": "Jadan Baugh wins the top offensive award in the SEC",
@@ -99,15 +108,6 @@
           "date": "2026-09-28",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
-        },
-        {
-          "id": "e63f38f534cd",
-          "teamId": "florida",
-          "headline": "Florida jumps to No. 8 in the new rankings",
-          "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
-          "date": "2026-09-27",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -137,6 +137,15 @@
       },
       "news": [
         {
+          "id": "7731be150cc7",
+          "teamId": "lsu",
+          "headline": "Trey'Dez Green hopes to play again on November 7",
+          "summary": "The tight end hurt his knee against Ole Miss and does not need surgery. He is aiming to come back for the Alabama game in Baton Rouge on November 7.",
+          "date": "2026-09-29",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/lsu-injury-report-sam-leavitt-125429077.html"
+        },
+        {
           "id": "118200f963d8",
           "teamId": "lsu",
           "headline": "Sam Leavitt hurt his hamstring and may sit Saturday",
@@ -153,15 +162,6 @@
           "date": "2026-09-28",
           "source": "American Press",
           "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
-        },
-        {
-          "id": "8a5909fb3fd9",
-          "teamId": "lsu",
-          "headline": "Deuce Geralds is the SEC freshman of the week",
-          "summary": "The conference gave its weekly freshman award to the LSU defensive tackle for his part in Saturday's 35-6 win over Texas A&M. He is the only LSU player honored this week.",
-          "date": "2026-09-28",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jadan-baugh-headlines-secs-players-of-the-week-for-week-4/"
         }
       ]
     },

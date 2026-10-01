@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-09-30",
+    "updated": "2026-10-01",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "ca61a697c522",
+      "teamId": "yankees",
+      "headline": "Aaron Judge will not play against Boston",
+      "summary": "The Yankees left Judge off the roster for the playoff series because his right calf is still hurt. He has not played since September 16.",
+      "date": "2026-09-29",
+      "source": "Yankees On SI",
+      "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
+    },
+    {
+      "id": "b47bcafa5238",
+      "teamId": "texas",
+      "headline": "Colin Simmons is cleared to play at Tennessee",
+      "summary": "Colin Simmons hurt his foot last week against UTSA, but he is off the injury list and can play Saturday. Tight end Nick Townsend is out and running back Hollywood Smothers is still questionable.",
+      "date": "2026-09-24",
+      "source": "Orangebloods",
+      "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
+    },
+    {
+      "id": "e63f38f534cd",
+      "teamId": "florida",
+      "headline": "Florida jumps to No. 8 in the new rankings",
+      "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
+      "date": "2026-09-27",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "c01a8e182d90",
+      "teamId": "saints",
+      "headline": "Raiders beat the Saints 35-27 in the home opener",
+      "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
+      "date": "2026-09-27",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
+    },
     {
       "id": "ee3fddc1cb1a",
       "teamId": "yankees",

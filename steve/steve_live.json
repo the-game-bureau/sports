@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -83,6 +83,15 @@
       },
       "news": [
         {
+          "id": "df787d226872",
+          "teamId": "florida",
+          "headline": "Two Florida receivers are questionable for Saturday",
+          "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
+          "date": "2026-09-30",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
+        },
+        {
           "id": "848cb4e4128d",
           "teamId": "florida",
           "headline": "Jadan Baugh wins the top offensive award in the SEC",
@@ -99,15 +108,6 @@
           "date": "2026-09-28",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
-        },
-        {
-          "id": "e63f38f534cd",
-          "teamId": "florida",
-          "headline": "Florida jumps to No. 8 in the new rankings",
-          "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
-          "date": "2026-09-27",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "2c709e12b07c",
+          "teamId": "texas",
+          "headline": "Arch Manning turns up at a middle school game",
+          "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
+          "date": "2026-09-30",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
+        },
+        {
           "id": "f1b801be2768",
           "teamId": "texas",
           "headline": "Texas stays No. 1 in the new rankings",
@@ -154,15 +163,6 @@
           "date": "2026-09-26",
           "source": "Associated Press",
           "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
-        },
-        {
-          "id": "b47bcafa5238",
-          "teamId": "texas",
-          "headline": "Colin Simmons is cleared to play at Tennessee",
-          "summary": "Colin Simmons hurt his foot last week against UTSA, but he is off the injury list and can play Saturday. Tight end Nick Townsend is out and running back Hollywood Smothers is still questionable.",
-          "date": "2026-09-24",
-          "source": "Orangebloods",
-          "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
         }
       ]
     },
@@ -180,7 +180,7 @@
           "name": "ESPN",
           "logo": "images/espn.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On YouTube TV. Also on WDSU 6 here in New Orleans."
         },
         "note": "Monday night game."
       },
@@ -192,6 +192,15 @@
         "date": "2026-09-27"
       },
       "news": [
+        {
+          "id": "e583c759392e",
+          "teamId": "saints",
+          "headline": "Monday night marks 20 years since the Superdome reopened",
+          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+          "date": "2026-09-30",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+        },
         {
           "id": "5ba2f5efa1aa",
           "teamId": "saints",
@@ -209,15 +218,6 @@
           "date": "2026-09-28",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
-        },
-        {
-          "id": "c01a8e182d90",
-          "teamId": "saints",
-          "headline": "Raiders beat the Saints 35-27 in the home opener",
-          "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
-          "date": "2026-09-27",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
         }
       ]
     },
@@ -279,29 +279,38 @@
     "yankees": {
       "record": "93-68",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Boston Red Sox",
-        "date": "2026-09-30",
-        "utc": "2026-10-01T00:00Z",
-        "time": "7:00 PM",
-        "venue": "Yankee Stadium",
-        "city": "Bronx, NY",
+        "homeAway": "away",
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-10-03",
+        "utc": "2026-10-03T22:30Z",
+        "time": "5:30 PM",
+        "venue": "Tropicana Field",
+        "city": "St. Petersburg, FL",
         "tv": {
-          "name": "WDSU 6 (NBC)",
+          "name": "TBS",
           "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On YouTube TV. Also shown on truTV."
         },
-        "note": "Game 2 of the playoff series with Boston. New York leads 1-0 and a win ends it."
+        "note": "Game 1 of the next round. New York swept Boston to get here."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 9,
-        "opponentScore": 0,
+        "opponentScore": 2,
         "opponent": "Boston Red Sox",
-        "date": "2026-09-29"
+        "date": "2026-09-30"
       },
       "news": [
+        {
+          "id": "077f9549209e",
+          "teamId": "yankees",
+          "headline": "Yankees beat Boston 9-2 and win the series",
+          "summary": "Max Fried pitched well and Cody Bellinger drove in four runs Wednesday night, including a three-run homer. New York won both games against Boston and now plays Tampa Bay on Saturday.",
+          "date": "2026-09-30",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/sports/mlb/new-york-yankees-romp-red-sox-sweep-al-wild-card-series-rcna600855"
+        },
         {
           "id": "bd1329d86108",
           "teamId": "yankees",
@@ -319,15 +328,6 @@
           "date": "2026-09-29",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
-        },
-        {
-          "id": "ca61a697c522",
-          "teamId": "yankees",
-          "headline": "Aaron Judge will not play against Boston",
-          "summary": "The Yankees left Judge off the roster for the playoff series because his right calf is still hurt. He has not played since September 16.",
-          "date": "2026-09-29",
-          "source": "Yankees On SI",
-          "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
         }
       ]
     },
@@ -343,10 +343,10 @@
         "homeAway": "away",
         "opponent": "Riverdale",
         "date": "2026-10-01",
-        "time": "6:30 PM",
+        "time": "4:30 PM",
         "venue": "Joe Yenni Stadium",
         "city": "Metairie, LA",
-        "note": "Thursday night game."
+        "note": "Thursday night game. Kickoff was moved up from 6:30 to 4:30."
       },
       "lastGame": {
         "result": "L",
@@ -356,6 +356,15 @@
         "date": "2026-09-25"
       },
       "news": [
+        {
+          "id": "6d1151a385db",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton's game at Riverdale moves to 4:30",
+          "summary": "Rain is expected Saturday, so the two schools moved Thursday's kickoff from 6:30 to 4:30. The game is at Joe Yenni Stadium in Metairie.",
+          "date": "2026-09-30",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/rummel-john-curtis-football-game-moved-to-thursday-night-set-to-air-on-106-7-the-ticket/"
+        },
         {
           "id": "04d91df13f04",
           "teamId": "warren-easton",
