@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "teams": {
     "saints": {
       "record": "1-2",
@@ -47,13 +47,13 @@
           "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
         },
         {
-          "id": "e583c759392e",
+          "id": "d246a5ea844b",
           "teamId": "saints",
-          "headline": "Monday night marks 20 years since the Superdome reopened",
-          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
-          "date": "2026-09-30",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+          "headline": "Alvin Kamara and Kendre Miller take over the running",
+          "summary": "Travis Etienne is out for at least four games, so coach Kellen Moore said Kamara and Kendre Miller will split most of the carries. “I think Alvin and Kendre will handle that load really well,” Moore said.",
+          "date": "2026-10-01",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/travis-etienne-ir-saints-alvin-kamara-2026/"
         }
       ]
     },
@@ -137,6 +137,15 @@
       },
       "news": [
         {
+          "id": "4395818a5bcd",
+          "teamId": "lsu",
+          "headline": "Landen Clark is likely to start for LSU on Saturday",
+          "summary": "Sam Leavitt hurt his hamstring against Texas A&M and is not expected to play against McNeese. Coach Lane Kiffin has not named a starter, so backup Landen Clark should get the job.",
+          "date": "2026-10-02",
+          "source": "Shreveport-Bossier Journal",
+          "url": "https://shreveportbossierjournal.com/2026/10/02/outcome-not-in-doubt-but-cloudy-qb-situation-is-as-lsu-hosts-mcneese-saturday/"
+        },
+        {
           "id": "7731be150cc7",
           "teamId": "lsu",
           "headline": "Trey'Dez Green hopes to play again on November 7",
@@ -153,15 +162,6 @@
           "date": "2026-09-28",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/key-lsu-players-sit-mcneese-202312451.html"
-        },
-        {
-          "id": "072eb0bc93e2",
-          "teamId": "lsu",
-          "headline": "Whit Weeks breaks his leg and is out indefinitely",
-          "summary": "The LSU linebacker broke his lower right leg in Saturday's win over Texas A&M and left the field on crutches. Coach Lane Kiffin said Weeks will be out a long while but may still come back late in the season.",
-          "date": "2026-09-28",
-          "source": "American Press",
-          "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
         }
       ]
     },
@@ -249,6 +249,15 @@
           "url": "https://www.brothermartin.com/athletics/football/"
         },
         {
+          "id": "cacd8b05576f",
+          "teamId": "brother-martin",
+          "headline": "Karr brings a 31-game winning streak to Hammond",
+          "summary": "Brother Martin plays Edna Karr on Friday night, and Karr has not lost a game in 31 tries. Brother Martin is now ranked fourth among the big New Orleans schools after beating Jesuit.",
+          "date": "2026-10-01",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/magnificent-11-new-orleans-high-school-football-week-5/"
+        },
+        {
           "id": "6d8ec4456096",
           "teamId": "brother-martin",
           "headline": "Brother Martin moves up to fifth in the state",
@@ -256,15 +265,6 @@
           "date": "2026-09-27",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/karr-north-desoto-st-james-calvary-baptist-riverside-remain-atop-ccs-week-5-state-rankings/"
-        },
-        {
-          "id": "e6ff59528cb2",
-          "teamId": "brother-martin",
-          "headline": "Brother Martin holds off Jesuit 24-22",
-          "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
-          "date": "2026-09-25",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
         }
       ]
     }

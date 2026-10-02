@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "e6ff59528cb2",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin holds off Jesuit 24-22",
+      "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
+      "date": "2026-09-25",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
+    },
+    {
+      "id": "072eb0bc93e2",
+      "teamId": "lsu",
+      "headline": "Whit Weeks breaks his leg and is out indefinitely",
+      "summary": "The LSU linebacker broke his lower right leg in Saturday's win over Texas A&M and left the field on crutches. Coach Lane Kiffin said Weeks will be out a long while but may still come back late in the season.",
+      "date": "2026-09-28",
+      "source": "American Press",
+      "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
+    },
+    {
+      "id": "e583c759392e",
+      "teamId": "saints",
+      "headline": "Monday night marks 20 years since the Superdome reopened",
+      "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+      "date": "2026-09-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",

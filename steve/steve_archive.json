@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "593a52994b3f",
+      "teamId": "yankees",
+      "headline": "Giancarlo Stanton is back for the playoffs",
+      "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
+      "date": "2026-09-29",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
+    },
+    {
+      "id": "bd1329d86108",
+      "teamId": "yankees",
+      "headline": "Yankees shut out Boston 9-0 in Game 1",
+      "summary": "Cam Schlittler struck out 10 and gave up two hits in six and a third innings Tuesday night at Yankee Stadium, and Ben Rice hit two home runs, one of them a grand slam. The Yankees lead the best-of-three series 1-0 and can finish it Wednesday night, with Max Fried pitching.",
+      "date": "2026-09-29",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
+    },
+    {
+      "id": "e3540655e07b",
+      "teamId": "texas",
+      "headline": "Texas holds off Tennessee 20-17",
+      "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
+      "date": "2026-09-26",
+      "source": "Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
+    },
+    {
+      "id": "e583c759392e",
+      "teamId": "saints",
+      "headline": "Monday night marks 20 years since the Superdome reopened",
+      "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+      "date": "2026-09-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",

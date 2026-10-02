@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -147,6 +147,15 @@
           "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
         },
         {
+          "id": "183b1ca2d0f9",
+          "teamId": "texas",
+          "headline": "Arch Manning makes TIME's list of 100 rising stars",
+          "summary": "TIME magazine put the Texas quarterback on its 2026 TIME100 Next list this week. The piece about him was written by the actor Matthew McConaughey, a Texas fan.",
+          "date": "2026-09-30",
+          "source": "Bleacher Report",
+          "url": "https://bleacherreport.com/articles/25505008-arch-manning-olivia-miles-tyrese-maxey-among-athletes-named-time100-next-2026-list"
+        },
+        {
           "id": "f1b801be2768",
           "teamId": "texas",
           "headline": "Texas stays No. 1 in the new rankings",
@@ -154,15 +163,6 @@
           "date": "2026-09-27",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "e3540655e07b",
-          "teamId": "texas",
-          "headline": "Texas holds off Tennessee 20-17",
-          "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
-          "date": "2026-09-26",
-          "source": "Associated Press",
-          "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
         }
       ]
     },
@@ -211,13 +211,13 @@
           "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
         },
         {
-          "id": "e583c759392e",
+          "id": "d246a5ea844b",
           "teamId": "saints",
-          "headline": "Monday night marks 20 years since the Superdome reopened",
-          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
-          "date": "2026-09-30",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+          "headline": "Alvin Kamara and Kendre Miller take over the running",
+          "summary": "Travis Etienne is out for at least four games, so coach Kellen Moore said Kamara and Kendre Miller will split most of the carries. “I think Alvin and Kendre will handle that load really well,” Moore said.",
+          "date": "2026-10-01",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/nfl/news/travis-etienne-ir-saints-alvin-kamara-2026/"
         }
       ]
     },
@@ -303,6 +303,24 @@
       },
       "news": [
         {
+          "id": "df48c50c2678",
+          "teamId": "yankees",
+          "headline": "Gerrit Cole will pitch Game 1 against Tampa Bay",
+          "summary": "The Yankees named Cole their starter for Saturday night's opener on Friday morning. He went 1-1 with a 2.50 earned run average in three starts against the Rays this season.",
+          "date": "2026-10-02",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-rays-pitching-matchups-for-2026-alds"
+        },
+        {
+          "id": "c65903c1ded1",
+          "teamId": "yankees",
+          "headline": "Yankees still have not decided about Aaron Judge",
+          "summary": "Judge has not played since he strained his calf on September 16. Manager Aaron Boone said Friday that the team has until Saturday morning to decide whether Judge is on the roster for this round.",
+          "date": "2026-10-02",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50086265/yankees-waiting-decide-aaron-judge-availability-alds"
+        },
+        {
           "id": "077f9549209e",
           "teamId": "yankees",
           "headline": "Yankees beat Boston 9-2 and win the series",
@@ -310,24 +328,6 @@
           "date": "2026-09-30",
           "source": "NBC News",
           "url": "https://www.nbcnews.com/sports/mlb/new-york-yankees-romp-red-sox-sweep-al-wild-card-series-rcna600855"
-        },
-        {
-          "id": "bd1329d86108",
-          "teamId": "yankees",
-          "headline": "Yankees shut out Boston 9-0 in Game 1",
-          "summary": "Cam Schlittler struck out 10 and gave up two hits in six and a third innings Tuesday night at Yankee Stadium, and Ben Rice hit two home runs, one of them a grand slam. The Yankees lead the best-of-three series 1-0 and can finish it Wednesday night, with Max Fried pitching.",
-          "date": "2026-09-29",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
-        },
-        {
-          "id": "593a52994b3f",
-          "teamId": "yankees",
-          "headline": "Giancarlo Stanton is back for the playoffs",
-          "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
-          "date": "2026-09-29",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
         }
       ]
     },
@@ -338,24 +338,33 @@
       "news": []
     },
     "warren-easton": {
-      "record": "0-4",
+      "record": "1-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Riverdale",
-        "date": "2026-10-01",
-        "time": "4:30 PM",
-        "venue": "Joe Yenni Stadium",
-        "city": "Metairie, LA",
-        "note": "Thursday afternoon game. Kickoff is 4:30, moved up from 6:30."
+        "homeAway": "home",
+        "opponent": "L.W. Higgins",
+        "date": "2026-10-10",
+        "time": "3:00 PM",
+        "venue": "Pan American Stadium",
+        "city": "New Orleans, LA",
+        "note": "Saturday afternoon game in City Park. Kickoff is 3:00."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 28,
-        "opponentScore": 49,
-        "opponent": "Zachary",
-        "date": "2026-09-25"
+        "result": "W",
+        "teamScore": 50,
+        "opponentScore": 0,
+        "opponent": "Riverdale",
+        "date": "2026-10-01"
       },
       "news": [
+        {
+          "id": "0ccc0d804060",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton wins its first game, 50-0",
+          "summary": "The Eagles shut out Riverdale on Thursday afternoon at Joe Yenni Stadium in Metairie. It is their first win of the season and the most points they have scored all year.",
+          "date": "2026-10-01",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/news/SKAGZZ70s0KyvlMO8khang/football-recap-warren-easton-skates-past-riverdale-with-ease.htm"
+        },
         {
           "id": "04d91df13f04",
           "teamId": "warren-easton",
