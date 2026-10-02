@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "593a52994b3f",
+      "teamId": "yankees",
+      "headline": "Giancarlo Stanton is back for the playoffs",
+      "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
+      "date": "2026-09-29",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
+    },
+    {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",

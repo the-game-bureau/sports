@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "6d8ec4456096",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin moves up to fifth in the state",
+      "summary": "Crescent City Sports has the 4-0 Crusaders fifth among Louisiana's Class 5A teams after Friday's 24-22 win over Jesuit. Brother Martin plays Edna Karr at Tad Gormley Stadium on Friday night.",
+      "date": "2026-09-27",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/karr-north-desoto-st-james-calvary-baptist-riverside-remain-atop-ccs-week-5-state-rankings/"
+    },
+    {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+    },
+    {
+      "id": "118200f963d8",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt hurt his hamstring and may sit Saturday",
+      "summary": "LSU's quarterback tweaked his left hamstring in Saturday's win over Texas A&M. Coach Lane Kiffin said he will be extremely cautious this week and has not decided whether Leavitt plays against McNeese.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/key-lsu-players-sit-mcneese-202312451.html"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "e339e12f95ca",
+          "teamId": "tulane",
+          "headline": "Tulane's quarterback job is open again",
+          "summary": "Kadin Semonza and true freshman Trace Johnson are both in the running after Johnson finished Saturday's win. Tulane is off this Saturday, so the coaches have the bye week to settle it before conference play starts at Army on October 10.",
+          "date": "2026-10-01",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-opens-quarterback-competition-critical-170042467.html"
+        },
+        {
           "id": "1e77afaaa6a7",
           "teamId": "tulane",
           "headline": "Freshman Trace Johnson takes over at quarterback",
@@ -45,15 +54,6 @@
           "date": "2026-09-28",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
-        },
-        {
-          "id": "86066cc43421",
-          "teamId": "tulane",
-          "headline": "Tulane wins the Battle for the Bell 24-21",
-          "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-          "date": "2026-09-26",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
         }
       ]
     },
@@ -248,15 +248,6 @@
       },
       "news": [
         {
-          "id": "f18ba4436e07",
-          "teamId": "iup",
-          "headline": "Peyton Belcher has her best day of the season",
-          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
-          "date": "2026-09-11",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
-        },
-        {
           "id": "7a8be8e86fe1",
           "teamId": "iup",
           "headline": "Charlotte Potvin wins the PSAC weekly award",
@@ -273,6 +264,15 @@
           "date": "2026-09-26",
           "source": "Clarion Athletics",
           "url": "https://clariongoldeneagles.com/boxscore.aspx?id=12635&path=wvball"
+        },
+        {
+          "id": "f18ba4436e07",
+          "teamId": "iup",
+          "headline": "Peyton Belcher has her best day of the season",
+          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
+          "date": "2026-09-11",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         }
       ]
     },
@@ -303,6 +303,15 @@
       },
       "news": [
         {
+          "id": "245266e1d95d",
+          "teamId": "yankees",
+          "headline": "Gerrit Cole is lined up for Game 1",
+          "summary": "Manager Aaron Boone said Cole is lined up to pitch Saturday's opener at Tampa Bay. The Rays will start Drew Rasmussen, and the first pitch is 5:30 in the evening here.",
+          "date": "2026-10-01",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-rays-pitching-matchups-for-2026-alds"
+        },
+        {
           "id": "077f9549209e",
           "teamId": "yankees",
           "headline": "Yankees beat Boston 9-2 and win the series",
@@ -319,15 +328,6 @@
           "date": "2026-09-29",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
-        },
-        {
-          "id": "593a52994b3f",
-          "teamId": "yankees",
-          "headline": "Giancarlo Stanton is back for the playoffs",
-          "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
-          "date": "2026-09-29",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
         }
       ]
     },
@@ -338,24 +338,32 @@
       "news": []
     },
     "warren-easton": {
-      "record": "0-4",
+      "record": "1-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Riverdale",
-        "date": "2026-10-01",
-        "time": "4:30 PM",
-        "venue": "Joe Yenni Stadium",
-        "city": "Metairie, LA",
-        "note": "Thursday afternoon game. Kickoff is 4:30, moved up from 6:30."
+        "homeAway": "home",
+        "opponent": "L.W. Higgins",
+        "date": "2026-10-10",
+        "time": "3:00 PM",
+        "city": "New Orleans, LA",
+        "note": "Home game, Saturday afternoon. The stadium is not listed yet."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 28,
-        "opponentScore": 49,
-        "opponent": "Zachary",
-        "date": "2026-09-25"
+        "result": "W",
+        "teamScore": 50,
+        "opponentScore": 0,
+        "opponent": "Riverdale",
+        "date": "2026-10-01"
       },
       "news": [
+        {
+          "id": "0ccc0d804060",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton wins its first game, 50-0",
+          "summary": "The Eagles beat Riverdale 50-0 on Thursday at Joe Yenni Stadium in Metairie. It was their first win of the season and the most points they have scored all year.",
+          "date": "2026-10-01",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/news/SKAGZZ70s0KyvlMO8khang/football-recap-warren-easton-skates-past-riverdale-with-ease.htm"
+        },
         {
           "id": "04d91df13f04",
           "teamId": "warren-easton",
