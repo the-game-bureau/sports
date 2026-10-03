@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-01",
+  "updated": "2026-10-03",
   "teams": {
     "saints": {
       "record": "1-2",
@@ -29,13 +29,22 @@
       },
       "news": [
         {
-          "id": "04c1c312fdc0",
+          "id": "1bb2ce2a5c34",
           "teamId": "saints",
-          "headline": "Four Saints defenders sat out Thursday practice",
-          "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
-          "date": "2026-10-01",
+          "headline": "Kamara and Miller will carry the ball Monday night",
+          "summary": "Travis Etienne is hurt, so Alvin Kamara and Kendre Miller will do most of the running against Atlanta. Coach Kellen Moore said C.J. Donaldson will take the short, tough runs.",
+          "date": "2026-10-02",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-running-back-depth-being-tested-early"
+        },
+        {
+          "id": "2b47164e3aec",
+          "teamId": "saints",
+          "headline": "Trombone Shorty will play at halftime Monday night",
+          "summary": "Trombone Shorty and Orleans Avenue play at halftime, joined by Eric Church, Kirk Franklin, Juvenile, Cyril Neville and Ivan Neville. The Saints will also honor Steve Gleason and Curtis DeLoatch for the blocked punt twenty years ago.",
+          "date": "2026-10-02",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
         },
         {
           "id": "97de7482c197",
@@ -45,15 +54,6 @@
           "date": "2026-10-01",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
-        },
-        {
-          "id": "e583c759392e",
-          "teamId": "saints",
-          "headline": "Monday night marks 20 years since the Superdome reopened",
-          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
-          "date": "2026-09-30",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
         }
       ]
     },
@@ -83,6 +83,15 @@
       },
       "news": [
         {
+          "id": "4ee7bb752463",
+          "teamId": "florida",
+          "headline": "Vernell Brown is doubtful for the Missouri game",
+          "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
+          "date": "2026-10-02",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
+        },
+        {
           "id": "df787d226872",
           "teamId": "florida",
           "headline": "Two Florida receivers are questionable for Saturday",
@@ -99,15 +108,6 @@
           "date": "2026-09-28",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
-        },
-        {
-          "id": "586d146f3c3b",
-          "teamId": "florida",
-          "headline": "Vernell Brown is expected to play at Missouri",
-          "summary": "Tests on the knee Brown hurt Saturday came back clean, and coach Jon Sumrall said the news was great and he could be back this week. Eric Singleton, who missed two games with a sprained ankle, will practice fully.",
-          "date": "2026-09-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
         }
       ]
     },
@@ -137,6 +137,24 @@
       },
       "news": [
         {
+          "id": "b0384a86f2a6",
+          "teamId": "lsu",
+          "headline": "Winston Watkins leads LSU in catches",
+          "summary": "Watkins has 20 catches for 314 yards and two touchdowns in four games, more catches than anyone else on the team. He came to LSU from Ole Miss, and his cousin Sammy Watkins won a Super Bowl.",
+          "date": "2026-10-02",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/2/winston-watkins-jr-represents-the-next-generation-of-a-football-legacy"
+        },
+        {
+          "id": "7af8fda86819",
+          "teamId": "lsu",
+          "headline": "Landen Clark may start at quarterback Saturday",
+          "summary": "Sam Leavitt still has a sore hamstring, so LSU may rest him against McNeese and start Clark instead. Coach Lane Kiffin said Clark has done a great job and finds ways to make plays.",
+          "date": "2026-09-30",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lane-kiffin-has-full-faith-in-lsu-qb-landen-clark-if-sam-leavitt-sits"
+        },
+        {
           "id": "7731be150cc7",
           "teamId": "lsu",
           "headline": "Trey'Dez Green hopes to play again on November 7",
@@ -144,24 +162,6 @@
           "date": "2026-09-29",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/lsu-injury-report-sam-leavitt-125429077.html"
-        },
-        {
-          "id": "118200f963d8",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt hurt his hamstring and may sit Saturday",
-          "summary": "LSU's quarterback tweaked his left hamstring in Saturday's win over Texas A&M. Coach Lane Kiffin said he will be extremely cautious this week and has not decided whether Leavitt plays against McNeese.",
-          "date": "2026-09-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/key-lsu-players-sit-mcneese-202312451.html"
-        },
-        {
-          "id": "072eb0bc93e2",
-          "teamId": "lsu",
-          "headline": "Whit Weeks breaks his leg and is out indefinitely",
-          "summary": "The LSU linebacker broke his lower right leg in Saturday's win over Texas A&M and left the field on crutches. Coach Lane Kiffin said Weeks will be out a long while but may still come back late in the season.",
-          "date": "2026-09-28",
-          "source": "American Press",
-          "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
         }
       ]
     },
@@ -181,7 +181,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Tulane has a bye this coming Saturday."
+        "note": "Tulane is off this week."
       },
       "lastGame": {
         "result": "W",

@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-01",
+    "updated": "2026-10-03",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "04c1c312fdc0",
+      "teamId": "saints",
+      "headline": "Four Saints defenders sat out Thursday practice",
+      "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
+      "date": "2026-10-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+    },
+    {
+      "id": "e583c759392e",
+      "teamId": "saints",
+      "headline": "Monday night marks 20 years since the Superdome reopened",
+      "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+      "date": "2026-09-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+    },
+    {
+      "id": "bd1329d86108",
+      "teamId": "yankees",
+      "headline": "Yankees shut out Boston 9-0 in Game 1",
+      "summary": "Cam Schlittler struck out 10 and gave up two hits in six and a third innings Tuesday night at Yankee Stadium, and Ben Rice hit two home runs, one of them a grand slam. The Yankees lead the best-of-three series 1-0 and can finish it Wednesday night, with Max Fried pitching.",
+      "date": "2026-09-29",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
+    },
+    {
+      "id": "593a52994b3f",
+      "teamId": "yankees",
+      "headline": "Giancarlo Stanton is back for the playoffs",
+      "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
+      "date": "2026-09-29",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",
@@ -14,15 +50,6 @@
       "date": "2026-09-29",
       "source": "Saints On SI",
       "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
-    },
-    {
-      "id": "06658723a2e8",
-      "teamId": "saints",
-      "headline": "The league explains the fumble that turned Sunday's game",
-      "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
-      "date": "2026-09-28",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
     },
     {
       "id": "ca61a697c522",
@@ -34,31 +61,22 @@
       "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
     },
     {
-      "id": "b47bcafa5238",
-      "teamId": "texas",
-      "headline": "Colin Simmons is cleared to play at Tennessee",
-      "summary": "Colin Simmons hurt his foot last week against UTSA, but he is off the injury list and can play Saturday. Tight end Nick Townsend is out and running back Hollywood Smothers is still questionable.",
-      "date": "2026-09-24",
-      "source": "Orangebloods",
-      "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
-    },
-    {
-      "id": "e63f38f534cd",
+      "id": "586d146f3c3b",
       "teamId": "florida",
-      "headline": "Florida jumps to No. 8 in the new rankings",
-      "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
-      "date": "2026-09-27",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+      "headline": "Vernell Brown is expected to play at Missouri",
+      "summary": "Tests on the knee Brown hurt Saturday came back clean, and coach Jon Sumrall said the news was great and he could be back this week. Eric Singleton, who missed two games with a sprained ankle, will practice fully.",
+      "date": "2026-09-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
     },
     {
-      "id": "c01a8e182d90",
+      "id": "06658723a2e8",
       "teamId": "saints",
-      "headline": "Raiders beat the Saints 35-27 in the home opener",
-      "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
-      "date": "2026-09-27",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
+      "headline": "The league explains the fumble that turned Sunday's game",
+      "summary": "Tyler Shough lost the ball in the fourth quarter, Las Vegas picked it up, and the Raiders scored the touchdown that put them ahead. The league's replay boss said the ball came loose before Shough's arm moved forward, so it was a fumble, and Shough said he thought he had thrown it.",
+      "date": "2026-09-28",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-thought-my-arm-was-moving-forward-on-fourth-quarter-fumble"
     },
     {
       "id": "ee3fddc1cb1a",
@@ -77,6 +95,24 @@
       "date": "2026-09-28",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+    },
+    {
+      "id": "e63f38f534cd",
+      "teamId": "florida",
+      "headline": "Florida jumps to No. 8 in the new rankings",
+      "summary": "The Gators moved up 13 spots in the Associated Press poll after beating Ole Miss 52-28 on Saturday. It is the first time Florida has been in the top 10 in five years.",
+      "date": "2026-09-27",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "c01a8e182d90",
+      "teamId": "saints",
+      "headline": "Raiders beat the Saints 35-27 in the home opener",
+      "summary": "Tyler Shough threw four touchdown passes Sunday in the Superdome, and all four went to tight ends. The Saints then lost the ball four times in the fourth quarter and dropped to 1-2.",
+      "date": "2026-09-27",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
     },
     {
       "id": "6bca6818b4e3",
@@ -113,6 +149,15 @@
       "date": "2026-09-27",
       "source": "Saints On SI",
       "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
+    },
+    {
+      "id": "84cf7a5d549a",
+      "teamId": "iup",
+      "headline": "IUP wins a five-set thriller at Clarion",
+      "summary": "The Crimson Hawks won 25-19, 19-25, 23-25, 25-22, 15-9 on Saturday afternoon for their tenth win in a row. Delaney Concannon had 17 kills and 18 digs, and IUP is 11-3 and unbeaten in the conference.",
+      "date": "2026-09-26",
+      "source": "Clarion Athletics",
+      "url": "https://clariongoldeneagles.com/boxscore.aspx?id=12635&path=wvball"
     },
     {
       "id": "034f6e28f526",
@@ -194,6 +239,15 @@
       "date": "2026-09-25",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/time-yankees-vs-orioles-today-150200693.html"
+    },
+    {
+      "id": "b47bcafa5238",
+      "teamId": "texas",
+      "headline": "Colin Simmons is cleared to play at Tennessee",
+      "summary": "Colin Simmons hurt his foot last week against UTSA, but he is off the injury list and can play Saturday. Tight end Nick Townsend is out and running back Hollywood Smothers is still questionable.",
+      "date": "2026-09-24",
+      "source": "Orangebloods",
+      "url": "https://www.orangebloods.com/2026/09/24/texas-longhorn-football-injury-report-thursday/"
     },
     {
       "id": "0a9fdf5dc6d9",

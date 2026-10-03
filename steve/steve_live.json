@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-01",
+  "updated": "2026-10-03",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Tulane has a bye this coming Saturday."
+        "note": "Tulane is off this week."
       },
       "lastGame": {
         "result": "W",
@@ -83,6 +83,15 @@
       },
       "news": [
         {
+          "id": "4ee7bb752463",
+          "teamId": "florida",
+          "headline": "Vernell Brown is doubtful for the Missouri game",
+          "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
+          "date": "2026-10-02",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
+        },
+        {
           "id": "df787d226872",
           "teamId": "florida",
           "headline": "Two Florida receivers are questionable for Saturday",
@@ -99,15 +108,6 @@
           "date": "2026-09-28",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
-        },
-        {
-          "id": "586d146f3c3b",
-          "teamId": "florida",
-          "headline": "Vernell Brown is expected to play at Missouri",
-          "summary": "Tests on the knee Brown hurt Saturday came back clean, and coach Jon Sumrall said the news was great and he could be back this week. Eric Singleton, who missed two games with a sprained ankle, will practice fully.",
-          "date": "2026-09-28",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
         }
       ]
     },
@@ -127,7 +127,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Texas has a bye this coming Saturday."
+        "note": "Texas is off this week."
       },
       "lastGame": {
         "result": "W",
@@ -193,13 +193,22 @@
       },
       "news": [
         {
-          "id": "04c1c312fdc0",
+          "id": "1bb2ce2a5c34",
           "teamId": "saints",
-          "headline": "Four Saints defenders sat out Thursday practice",
-          "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
-          "date": "2026-10-01",
+          "headline": "Kamara and Miller will carry the ball Monday night",
+          "summary": "Travis Etienne is hurt, so Alvin Kamara and Kendre Miller will do most of the running against Atlanta. Coach Kellen Moore said C.J. Donaldson will take the short, tough runs.",
+          "date": "2026-10-02",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-running-back-depth-being-tested-early"
+        },
+        {
+          "id": "2b47164e3aec",
+          "teamId": "saints",
+          "headline": "Trombone Shorty will play at halftime Monday night",
+          "summary": "Trombone Shorty and Orleans Avenue play at halftime, joined by Eric Church, Kirk Franklin, Juvenile, Cyril Neville and Ivan Neville. The Saints will also honor Steve Gleason and Curtis DeLoatch for the blocked punt twenty years ago.",
+          "date": "2026-10-02",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
         },
         {
           "id": "97de7482c197",
@@ -209,42 +218,33 @@
           "date": "2026-10-01",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
-        },
-        {
-          "id": "e583c759392e",
-          "teamId": "saints",
-          "headline": "Monday night marks 20 years since the Superdome reopened",
-          "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
-          "date": "2026-09-30",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
         }
       ]
     },
     "iup": {
-      "record": "11-3",
+      "record": "12-3",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "California (PA)",
-        "date": "2026-10-02",
-        "utc": "2026-10-02T22:00Z",
-        "time": "5:00 PM",
-        "venue": "Kovalchick Convention & Athletic Complex",
-        "city": "Indiana, PA",
+        "homeAway": "away",
+        "opponent": "Pitt-Johnstown",
+        "date": "2026-10-03",
+        "utc": "2026-10-03T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Sports Center",
+        "city": "Johnstown, PA",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the PSAC Sports Digital Network app on a phone, a tablet, Roku, Apple TV or Fire TV."
+          "url": "https://psacsportsdigitalnetwork.com/pittjohnstownathletics/",
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the PSAC Sports Digital Network app on a phone, a tablet, Roku, Apple TV, Fire TV or Android TV."
         },
-        "note": "Dig Pink game at home."
+        "note": "Saturday morning match. IUP has won 11 in a row."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 2,
-        "opponent": "Clarion",
-        "date": "2026-09-26"
+        "opponentScore": 0,
+        "opponent": "California (PA)",
+        "date": "2026-10-02"
       },
       "news": [
         {
@@ -257,6 +257,15 @@
           "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         },
         {
+          "id": "630b0146bcb9",
+          "teamId": "iup",
+          "headline": "IUP sweeps California for its 11th win in a row",
+          "summary": "The Crimson Hawks won 25-18, 25-20, 25-23 at home on Friday. Jessica Neiman had 14 kills and Delaney Concannon had 13 kills and 14 digs, and IUP is 12-3 and still unbeaten in the conference.",
+          "date": "2026-10-02",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
+        },
+        {
           "id": "7a8be8e86fe1",
           "teamId": "iup",
           "headline": "Charlotte Potvin wins the PSAC weekly award",
@@ -264,15 +273,6 @@
           "date": "2026-09-28",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/9/28/football-potvin-bertrand-earn-psac-athlete-of-the-week-honors.aspx"
-        },
-        {
-          "id": "84cf7a5d549a",
-          "teamId": "iup",
-          "headline": "IUP wins a five-set thriller at Clarion",
-          "summary": "The Crimson Hawks won 25-19, 19-25, 23-25, 25-22, 15-9 on Saturday afternoon for their tenth win in a row. Delaney Concannon had 17 kills and 18 digs, and IUP is 11-3 and unbeaten in the conference.",
-          "date": "2026-09-26",
-          "source": "Clarion Athletics",
-          "url": "https://clariongoldeneagles.com/boxscore.aspx?id=12635&path=wvball"
         }
       ]
     },
@@ -303,6 +303,24 @@
       },
       "news": [
         {
+          "id": "d52e230c4a59",
+          "teamId": "yankees",
+          "headline": "Gerrit Cole starts Game 1 against Tampa Bay",
+          "summary": "Cole pitches Saturday night in St. Petersburg against the Rays' Drew Rasmussen. He did not pitch against Boston, so he is rested and lined up to open the series.",
+          "date": "2026-10-02",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/gerrit-cole-set-to-start-alds-game-1-for-yankees"
+        },
+        {
+          "id": "d4509906338d",
+          "teamId": "yankees",
+          "headline": "Aaron Judge is not in the lineup for Game 1",
+          "summary": "Judge is still getting over a strained right calf and has not run the bases yet. Ben Rice will bat first and Cody Bellinger second instead.",
+          "date": "2026-10-02",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-vs-rays-alds-game-1-starting-lineups-pitching-matchup"
+        },
+        {
           "id": "077f9549209e",
           "teamId": "yankees",
           "headline": "Yankees beat Boston 9-2 and win the series",
@@ -310,24 +328,6 @@
           "date": "2026-09-30",
           "source": "NBC News",
           "url": "https://www.nbcnews.com/sports/mlb/new-york-yankees-romp-red-sox-sweep-al-wild-card-series-rcna600855"
-        },
-        {
-          "id": "bd1329d86108",
-          "teamId": "yankees",
-          "headline": "Yankees shut out Boston 9-0 in Game 1",
-          "summary": "Cam Schlittler struck out 10 and gave up two hits in six and a third innings Tuesday night at Yankee Stadium, and Ben Rice hit two home runs, one of them a grand slam. The Yankees lead the best-of-three series 1-0 and can finish it Wednesday night, with Max Fried pitching.",
-          "date": "2026-09-29",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/red-sox-lose-to-yankees-al-wild-card-series-game-1-2026"
-        },
-        {
-          "id": "593a52994b3f",
-          "teamId": "yankees",
-          "headline": "Giancarlo Stanton is back for the playoffs",
-          "summary": "Stanton had not played since April 24 because he strained both of his calves, but the Yankees put him on the roster for the series with Boston. He is expected to be used mostly as a pinch hitter.",
-          "date": "2026-09-29",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-announce-full-wild-card-184954710.html"
         }
       ]
     },
@@ -338,24 +338,32 @@
       "news": []
     },
     "warren-easton": {
-      "record": "0-4",
+      "record": "1-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Riverdale",
-        "date": "2026-10-01",
-        "time": "4:30 PM",
-        "venue": "Joe Yenni Stadium",
-        "city": "Metairie, LA",
-        "note": "Thursday afternoon game. Kickoff is 4:30, moved up from 6:30."
+        "homeAway": "home",
+        "opponent": "L.W. Higgins",
+        "date": "2026-10-10",
+        "time": "3:00 PM",
+        "city": "New Orleans, LA",
+        "note": "Saturday afternoon home game. The stadium has not been posted yet."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 28,
-        "opponentScore": 49,
-        "opponent": "Zachary",
-        "date": "2026-09-25"
+        "result": "W",
+        "teamScore": 50,
+        "opponentScore": 0,
+        "opponent": "Riverdale",
+        "date": "2026-10-01"
       },
       "news": [
+        {
+          "id": "aeafd08016a4",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton wins its first game, 50-0",
+          "summary": "The Eagles shut out Riverdale 50-0 on Thursday in Jefferson for their first win of the year. Warren Easton is now 1-4.",
+          "date": "2026-10-01",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/la/football/game/riverdale-jefferson-vs-warren-easton-fighting-eagles-new-orleans/10-1-2026/?c=08327747-47c5-42c6-a503-b6264a9bd7d6"
+        },
         {
           "id": "04d91df13f04",
           "teamId": "warren-easton",

@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-01",
+    "updated": "2026-10-03",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "04c1c312fdc0",
+      "teamId": "saints",
+      "headline": "Four Saints defenders sat out Thursday practice",
+      "summary": "Linebackers Kaden Elliss and Pete Werner and pass rushers Carl Granderson and Anfernee Jennings did not practice on Thursday. The Saints do not play until Monday night, so they have extra days to get healthy.",
+      "date": "2026-10-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+    },
+    {
+      "id": "e583c759392e",
+      "teamId": "saints",
+      "headline": "Monday night marks 20 years since the Superdome reopened",
+      "summary": "The Saints will honor the 2006 team Monday night when Atlanta comes to town. Twenty years ago that team came back to the Superdome after Hurricane Katrina and beat the Falcons 23-3, and Steve Gleason blocked a punt for a touchdown.",
+      "date": "2026-09-30",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
+    },
     {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",
@@ -14,6 +32,33 @@
       "date": "2026-09-29",
       "source": "Saints On SI",
       "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
+    },
+    {
+      "id": "586d146f3c3b",
+      "teamId": "florida",
+      "headline": "Vernell Brown is expected to play at Missouri",
+      "summary": "Tests on the knee Brown hurt Saturday came back clean, and coach Jon Sumrall said the news was great and he could be back this week. Eric Singleton, who missed two games with a sprained ankle, will practice fully.",
+      "date": "2026-09-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50052698/gators-leading-receiver-brown-expected-play-vs-missouri"
+    },
+    {
+      "id": "118200f963d8",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt hurt his hamstring and may sit Saturday",
+      "summary": "LSU's quarterback tweaked his left hamstring in Saturday's win over Texas A&M. Coach Lane Kiffin said he will be extremely cautious this week and has not decided whether Leavitt plays against McNeese.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/key-lsu-players-sit-mcneese-202312451.html"
+    },
+    {
+      "id": "072eb0bc93e2",
+      "teamId": "lsu",
+      "headline": "Whit Weeks breaks his leg and is out indefinitely",
+      "summary": "The LSU linebacker broke his lower right leg in Saturday's win over Texas A&M and left the field on crutches. Coach Lane Kiffin said Weeks will be out a long while but may still come back late in the season.",
+      "date": "2026-09-28",
+      "source": "American Press",
+      "url": "https://americanpress.com/2026/09/28/lsu-linebacker-whit-weeks-has-a-broken-lower-right-leg-and-an-uncertain-recovery-timeline/"
     },
     {
       "id": "06658723a2e8",
@@ -34,6 +79,15 @@
       "url": "https://www.saturdaydownsouth.com/news/college-football/jadan-baugh-headlines-secs-players-of-the-week-for-week-4/"
     },
     {
+      "id": "193a29f5ffed",
+      "teamId": "saints",
+      "headline": "Travis Etienne will miss time with a hurt hamstring",
+      "summary": "The Saints running back grabbed at his left hamstring after a 16-yard run in the third quarter Sunday and did not come back. Coach Kellen Moore said Monday that Etienne will not play against Atlanta next Monday night and did not say how long he will be out.",
+      "date": "2026-09-28",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+    },
+    {
       "id": "e63f38f534cd",
       "teamId": "florida",
       "headline": "Florida jumps to No. 8 in the new rankings",
@@ -50,15 +104,6 @@
       "date": "2026-09-27",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/2026-nfl-week-3-las-vegas-raiders-vs-new-orleans-saints-game-recap"
-    },
-    {
-      "id": "193a29f5ffed",
-      "teamId": "saints",
-      "headline": "Travis Etienne will miss time with a hurt hamstring",
-      "summary": "The Saints running back grabbed at his left hamstring after a 16-yard run in the third quarter Sunday and did not come back. Coach Kellen Moore said Monday that Etienne will not play against Atlanta next Monday night and did not say how long he will be out.",
-      "date": "2026-09-28",
-      "source": "ESPN",
-      "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
     },
     {
       "id": "b07ef7a6fde9",
