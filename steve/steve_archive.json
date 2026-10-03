@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "d4509906338d",
+      "teamId": "yankees",
+      "headline": "Aaron Judge is not in the lineup for Game 1",
+      "summary": "Judge is still getting over a strained right calf and has not run the bases yet. Ben Rice will bat first and Cody Bellinger second instead.",
+      "date": "2026-10-02",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/yankees-vs-rays-alds-game-1-starting-lineups-pitching-matchup"
+    },
+    {
+      "id": "97de7482c197",
+      "teamId": "saints",
+      "headline": "Travis Etienne goes on injured reserve",
+      "summary": "The Saints moved Travis Etienne to injured reserve on Thursday because of his hurt hamstring, so he will be out for a while. They signed running back Ulysses Bentley IV to the practice squad, and Alvin Kamara will do most of the running.",
+      "date": "2026-10-01",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
+    },
+    {
       "id": "04c1c312fdc0",
       "teamId": "saints",
       "headline": "Four Saints defenders sat out Thursday practice",
@@ -59,6 +77,15 @@
       "date": "2026-09-29",
       "source": "Yankees On SI",
       "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
+    },
+    {
+      "id": "7a8be8e86fe1",
+      "teamId": "iup",
+      "headline": "Charlotte Potvin wins the PSAC weekly award",
+      "summary": "Potvin had 28 kills on 46 swings in IUP's two wins last weekend and blocked 10 and a half balls in nine sets. She hit .636 in Friday's win at Slippery Rock, and IUP has now won ten in a row.",
+      "date": "2026-09-28",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/28/football-potvin-bertrand-earn-psac-athlete-of-the-week-honors.aspx"
     },
     {
       "id": "586d146f3c3b",

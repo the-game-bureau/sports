@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "b6f919c08341",
+          "teamId": "saints",
+          "headline": "Three Saints defenders are out Monday night",
+          "summary": "Kaden Elliss, Carl Granderson and Anfernee Jennings will all miss the Atlanta game with calf, ankle and knee injuries. Pete Werner and tight end Noah Fant might play.",
+          "date": "2026-10-03",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/team/injury-report/"
+        },
+        {
           "id": "1bb2ce2a5c34",
           "teamId": "saints",
           "headline": "Kamara and Miller will carry the ball Monday night",
@@ -45,15 +54,6 @@
           "date": "2026-10-02",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
-        },
-        {
-          "id": "97de7482c197",
-          "teamId": "saints",
-          "headline": "Travis Etienne goes on injured reserve",
-          "summary": "The Saints moved Travis Etienne to injured reserve on Thursday because of his hurt hamstring, so he will be out for a while. They signed running back Ulysses Bentley IV to the practice squad, and Alvin Kamara will do most of the running.",
-          "date": "2026-10-01",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
         }
       ]
     },
@@ -63,8 +63,8 @@
         "homeAway": "away",
         "opponent": "Missouri Tigers",
         "date": "2026-10-03",
-        "utc": "2026-10-03T19:30Z",
-        "time": "2:30 PM",
+        "utc": "2026-10-03T19:50Z",
+        "time": "2:50 PM",
         "venue": "Memorial Stadium",
         "city": "Columbia, MO",
         "tv": {

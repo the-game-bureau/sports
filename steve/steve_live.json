@@ -63,8 +63,8 @@
         "homeAway": "away",
         "opponent": "Missouri Tigers",
         "date": "2026-10-03",
-        "utc": "2026-10-03T19:30Z",
-        "time": "2:30 PM",
+        "utc": "2026-10-03T19:50Z",
+        "time": "2:50 PM",
         "venue": "Memorial Stadium",
         "city": "Columbia, MO",
         "tv": {
@@ -193,6 +193,15 @@
       },
       "news": [
         {
+          "id": "b6f919c08341",
+          "teamId": "saints",
+          "headline": "Three Saints defenders are out Monday night",
+          "summary": "Kaden Elliss, Carl Granderson and Anfernee Jennings will all miss the Atlanta game with calf, ankle and knee injuries. Pete Werner and tight end Noah Fant might play.",
+          "date": "2026-10-03",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/team/injury-report/"
+        },
+        {
           "id": "1bb2ce2a5c34",
           "teamId": "saints",
           "headline": "Kamara and Miller will carry the ball Monday night",
@@ -209,42 +218,32 @@
           "date": "2026-10-02",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
-        },
-        {
-          "id": "97de7482c197",
-          "teamId": "saints",
-          "headline": "Travis Etienne goes on injured reserve",
-          "summary": "The Saints moved Travis Etienne to injured reserve on Thursday because of his hurt hamstring, so he will be out for a while. They signed running back Ulysses Bentley IV to the practice squad, and Alvin Kamara will do most of the running.",
-          "date": "2026-10-01",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/ulysses-bentley-iv-david-ojabo-saints-roster-moves-transaction-alert-october-1-2026"
         }
       ]
     },
     "iup": {
-      "record": "12-3",
+      "record": "12-4",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Pitt-Johnstown",
-        "date": "2026-10-03",
-        "utc": "2026-10-03T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Sports Center",
-        "city": "Johnstown, PA",
+        "opponent": "Edinboro",
+        "date": "2026-10-09",
+        "time": "5:00 PM",
+        "venue": "McComb Fieldhouse",
+        "city": "Edinboro, PA",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/pittjohnstownathletics/",
+          "url": "https://psacsportsdigitalnetwork.com/gofightingscots/",
           "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the PSAC Sports Digital Network app on a phone, a tablet, Roku, Apple TV, Fire TV or Android TV."
         },
-        "note": "Saturday morning match. IUP has won 11 in a row."
+        "note": "Friday evening match at Edinboro."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "California (PA)",
-        "date": "2026-10-02"
+        "result": "L",
+        "teamScore": 2,
+        "opponentScore": 3,
+        "opponent": "Pitt-Johnstown",
+        "date": "2026-10-03"
       },
       "news": [
         {
@@ -257,6 +256,15 @@
           "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         },
         {
+          "id": "663ec5832c06",
+          "teamId": "iup",
+          "headline": "IUP loses in five sets and its streak ends",
+          "summary": "Pitt-Johnstown won the fifth set 15-11 on Saturday in Johnstown to take the match 3-2. It is IUP's first loss since August, after 11 wins in a row, and the Crimson Hawks are now 12-4.",
+          "date": "2026-10-03",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/university-of-pittsburgh-at-johnstown/boxscore/15035"
+        },
+        {
           "id": "630b0146bcb9",
           "teamId": "iup",
           "headline": "IUP sweeps California for its 11th win in a row",
@@ -264,15 +272,6 @@
           "date": "2026-10-02",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
-        },
-        {
-          "id": "7a8be8e86fe1",
-          "teamId": "iup",
-          "headline": "Charlotte Potvin wins the PSAC weekly award",
-          "summary": "Potvin had 28 kills on 46 swings in IUP's two wins last weekend and blocked 10 and a half balls in nine sets. She hit .636 in Friday's win at Slippery Rock, and IUP has now won ten in a row.",
-          "date": "2026-09-28",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/28/football-potvin-bertrand-earn-psac-athlete-of-the-week-honors.aspx"
         }
       ]
     },
@@ -303,6 +302,15 @@
       },
       "news": [
         {
+          "id": "e59f36ccd5e1",
+          "teamId": "yankees",
+          "headline": "Aaron Judge will miss the whole Tampa Bay series",
+          "summary": "The Yankees left Judge off their 26-man roster on Saturday because his strained right calf is still not ready. He has not played since September 16.",
+          "date": "2026-10-03",
+          "source": "Fox Sports",
+          "url": "https://www.foxsports.com/stories/mlb/aaron-judge-injury-update-yankees-roster-rays-stats"
+        },
+        {
           "id": "d52e230c4a59",
           "teamId": "yankees",
           "headline": "Gerrit Cole starts Game 1 against Tampa Bay",
@@ -310,15 +318,6 @@
           "date": "2026-10-02",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/gerrit-cole-set-to-start-alds-game-1-for-yankees"
-        },
-        {
-          "id": "d4509906338d",
-          "teamId": "yankees",
-          "headline": "Aaron Judge is not in the lineup for Game 1",
-          "summary": "Judge is still getting over a strained right calf and has not run the bases yet. Ben Rice will bat first and Cody Bellinger second instead.",
-          "date": "2026-10-02",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/yankees-vs-rays-alds-game-1-starting-lineups-pitching-matchup"
         },
         {
           "id": "077f9549209e",
