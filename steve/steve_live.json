@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff."
+        "note": "Late morning kickoff. It is homecoming at Florida."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-10-03"
       },
       "news": [
+        {
+          "id": "5e97dc159215",
+          "teamId": "florida",
+          "headline": "Florida falls to No. 16 in the new rankings",
+          "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+          "date": "2026-10-04",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+        },
         {
           "id": "1107e0367359",
           "teamId": "florida",

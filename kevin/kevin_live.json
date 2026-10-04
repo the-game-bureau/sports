@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff."
+        "note": "Late morning kickoff. It is homecoming at Florida."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-10-03"
       },
       "news": [
+        {
+          "id": "5e97dc159215",
+          "teamId": "florida",
+          "headline": "Florida falls to No. 16 in the new rankings",
+          "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+          "date": "2026-10-04",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+        },
         {
           "id": "1107e0367359",
           "teamId": "florida",
@@ -129,6 +138,15 @@
       },
       "news": [
         {
+          "id": "2a2f3f0dec71",
+          "teamId": "lsu",
+          "headline": "LSU moves back into the top 10",
+          "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
+          "date": "2026-10-04",
+          "source": "Fox 8 (WVUE)",
+          "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
+        },
+        {
           "id": "5c60736835b9",
           "teamId": "lsu",
           "headline": "LSU beats McNeese 63-14",
@@ -145,15 +163,6 @@
           "date": "2026-10-03",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/10/03/lsu-vs-mcneese-no-11-tigers-host-cowboys-tiger-stadium/"
-        },
-        {
-          "id": "b0384a86f2a6",
-          "teamId": "lsu",
-          "headline": "Winston Watkins leads LSU in catches",
-          "summary": "Watkins has 20 catches for 314 yards and two touchdowns in four games, more catches than anyone else on the team. He came to LSU from Ole Miss, and his cousin Sammy Watkins won a Super Bowl.",
-          "date": "2026-10-02",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/2/winston-watkins-jr-represents-the-next-generation-of-a-football-legacy"
         }
       ]
     },
