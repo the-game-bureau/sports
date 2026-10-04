@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4ee7bb752463",
+      "teamId": "florida",
+      "headline": "Vernell Brown is doubtful for the Missouri game",
+      "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
+      "date": "2026-10-02",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
+    },
     {
       "id": "97de7482c197",
       "teamId": "saints",
@@ -34,6 +43,24 @@
       "url": "https://www.brothermartin.com/athletics/football/"
     },
     {
+      "id": "df787d226872",
+      "teamId": "florida",
+      "headline": "Two Florida receivers are questionable for Saturday",
+      "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
+      "date": "2026-09-30",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
+    },
+    {
+      "id": "7af8fda86819",
+      "teamId": "lsu",
+      "headline": "Landen Clark may start at quarterback Saturday",
+      "summary": "Sam Leavitt still has a sore hamstring, so LSU may rest him against McNeese and start Clark instead. Coach Lane Kiffin said Clark has done a great job and finds ways to make plays.",
+      "date": "2026-09-30",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lane-kiffin-has-full-faith-in-lsu-qb-landen-clark-if-sam-leavitt-sits"
+    },
+    {
       "id": "e583c759392e",
       "teamId": "saints",
       "headline": "Monday night marks 20 years since the Superdome reopened",
@@ -43,6 +70,15 @@
       "url": "https://www.neworleanssaints.com/news/saints-falcons-monday-night-football-20th-anniversary-superdome-entertainment-halftime"
     },
     {
+      "id": "7731be150cc7",
+      "teamId": "lsu",
+      "headline": "Trey'Dez Green hopes to play again on November 7",
+      "summary": "The tight end hurt his knee against Ole Miss and does not need surgery. He is aiming to come back for the Alabama game in Baton Rouge on November 7.",
+      "date": "2026-09-29",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lsu-injury-report-sam-leavitt-125429077.html"
+    },
+    {
       "id": "5ba2f5efa1aa",
       "teamId": "saints",
       "headline": "Travis Etienne will not play Monday night",
@@ -50,6 +86,15 @@
       "date": "2026-09-29",
       "source": "Saints On SI",
       "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
+    },
+    {
+      "id": "848cb4e4128d",
+      "teamId": "florida",
+      "headline": "Jadan Baugh wins the top offensive award in the SEC",
+      "summary": "The conference named Baugh its offensive player of the week after he ran for 142 yards and three touchdowns against Ole Miss. Two more Gators were honored: London Montgomery on special teams and Bryce Lovett on the offensive line.",
+      "date": "2026-09-28",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
     },
     {
       "id": "586d146f3c3b",

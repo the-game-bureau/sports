@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4ee7bb752463",
+      "teamId": "florida",
+      "headline": "Vernell Brown is doubtful for the Missouri game",
+      "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
+      "date": "2026-10-02",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
+    },
+    {
+      "id": "d52e230c4a59",
+      "teamId": "yankees",
+      "headline": "Gerrit Cole starts Game 1 against Tampa Bay",
+      "summary": "Cole pitches Saturday night in St. Petersburg against the Rays' Drew Rasmussen. He did not pitch against Boston, so he is rested and lined up to open the series.",
+      "date": "2026-10-02",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/gerrit-cole-set-to-start-alds-game-1-for-yankees"
+    },
     {
       "id": "d4509906338d",
       "teamId": "yankees",
@@ -32,6 +50,24 @@
       "date": "2026-10-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+    },
+    {
+      "id": "df787d226872",
+      "teamId": "florida",
+      "headline": "Two Florida receivers are questionable for Saturday",
+      "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
+      "date": "2026-09-30",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
+    },
+    {
+      "id": "077f9549209e",
+      "teamId": "yankees",
+      "headline": "Yankees beat Boston 9-2 and win the series",
+      "summary": "Max Fried pitched well and Cody Bellinger drove in four runs Wednesday night, including a three-run homer. New York won both games against Boston and now plays Tampa Bay on Saturday.",
+      "date": "2026-09-30",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/sports/mlb/new-york-yankees-romp-red-sox-sweep-al-wild-card-series-rcna600855"
     },
     {
       "id": "e583c759392e",
@@ -77,6 +113,15 @@
       "date": "2026-09-29",
       "source": "Yankees On SI",
       "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
+    },
+    {
+      "id": "848cb4e4128d",
+      "teamId": "florida",
+      "headline": "Jadan Baugh wins the top offensive award in the SEC",
+      "summary": "The conference named Baugh its offensive player of the week after he ran for 142 yards and three touchdowns against Ole Miss. Two more Gators were honored: London Montgomery on special teams and Bryce Lovett on the offensive line.",
+      "date": "2026-09-28",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
     },
     {
       "id": "7a8be8e86fe1",

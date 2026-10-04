@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Tulane is off this week."
+        "note": "Saturday morning kickoff at West Point."
       },
       "lastGame": {
         "result": "W",
@@ -58,56 +58,48 @@
       ]
     },
     "florida": {
-      "record": "4-0",
+      "record": "4-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Missouri Tigers",
-        "date": "2026-10-03",
-        "utc": "2026-10-03T19:50Z",
-        "time": "2:50 PM",
-        "venue": "Memorial Stadium",
-        "city": "Columbia, MO",
+        "homeAway": "home",
+        "opponent": "South Carolina Gamecocks",
+        "date": "2026-10-10",
+        "utc": "2026-10-10T16:45Z",
+        "time": "11:45 AM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
         "tv": {
-          "name": "ABC (WGNO 26)",
+          "name": "SEC Network",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
-        }
+        },
+        "note": "Late morning kickoff."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 52,
-        "opponentScore": 28,
-        "opponent": "Ole Miss Rebels",
-        "date": "2026-09-26"
+        "result": "L",
+        "teamScore": 17,
+        "opponentScore": 45,
+        "opponent": "Missouri Tigers",
+        "date": "2026-10-03"
       },
       "news": [
         {
-          "id": "4ee7bb752463",
+          "id": "1107e0367359",
           "teamId": "florida",
-          "headline": "Vernell Brown is doubtful for the Missouri game",
-          "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
-          "date": "2026-10-02",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
+          "headline": "Jon Sumrall says the loss starts with him",
+          "summary": "The Florida coach called Saturday's game embarrassing in every part and said the blame starts with the coaching and with him. He also said his team still has growing up to do.",
+          "date": "2026-10-04",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
         },
         {
-          "id": "df787d226872",
+          "id": "52f722d7af21",
           "teamId": "florida",
-          "headline": "Two Florida receivers are questionable for Saturday",
-          "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
-          "date": "2026-09-30",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
-        },
-        {
-          "id": "848cb4e4128d",
-          "teamId": "florida",
-          "headline": "Jadan Baugh wins the top offensive award in the SEC",
-          "summary": "The conference named Baugh its offensive player of the week after he ran for 142 yards and three touchdowns against Ole Miss. Two more Gators were honored: London Montgomery on special teams and Bryce Lovett on the offensive line.",
-          "date": "2026-09-28",
+          "headline": "Missouri beats Florida 45-17",
+          "summary": "Missouri scored 35 points in a row Saturday in Columbia and ran for 211 yards with Jamal Roberts alone. It is Florida's first loss of the year, and the Gators are 4-1.",
+          "date": "2026-10-03",
           "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
+          "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
         }
       ]
     },
@@ -127,7 +119,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Texas is off this week."
+        "note": "The Red River game against Oklahoma, played in Dallas."
       },
       "lastGame": {
         "result": "W",
@@ -234,7 +226,7 @@
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/gofightingscots/",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap this link on game day to watch, or open the PSAC Sports Digital Network app on a phone, a tablet, Roku, Apple TV, Fire TV or Android TV."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app. Tap this link on game day, or open the app on a phone, a tablet, Roku, Apple TV, Fire TV or Android TV."
         },
         "note": "Friday evening match at Edinboro."
       },
@@ -280,9 +272,9 @@
       "nextGame": {
         "homeAway": "away",
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-03",
-        "utc": "2026-10-03T22:30Z",
-        "time": "5:30 PM",
+        "date": "2026-10-05",
+        "utc": "2026-10-06T00:00Z",
+        "time": "7:00 PM",
         "venue": "Tropicana Field",
         "city": "St. Petersburg, FL",
         "tv": {
@@ -291,16 +283,34 @@
           "url": "",
           "note": "On YouTube TV. Also shown on truTV."
         },
-        "note": "Game 1 of the next round. It is best of five, and Tampa Bay won more games than anybody else in the American League."
+        "note": "Game 2. Tampa Bay leads the series one game to none, and the first team to three wins goes on."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 9,
-        "opponentScore": 2,
-        "opponent": "Boston Red Sox",
-        "date": "2026-09-30"
+        "result": "L",
+        "teamScore": 0,
+        "opponentScore": 1,
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-10-03"
       },
       "news": [
+        {
+          "id": "e216da7d6dfa",
+          "teamId": "yankees",
+          "headline": "Cam Schlittler pitches Game 2 on Monday night",
+          "summary": "The Yankees give the ball to Schlittler on Monday night in St. Petersburg, with Freddy Peralta going for Tampa Bay. New York is down one game to none in a series that goes to three wins.",
+          "date": "2026-10-04",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/game/_/gameId/401907986"
+        },
+        {
+          "id": "359948185c91",
+          "teamId": "yankees",
+          "headline": "Yankees get one hit and lose Game 1",
+          "summary": "Tampa Bay's Drew Rasmussen did not allow a hit until the eighth inning Saturday night and struck out 10. Jonathan Aranda's home run in the third was the only run, and Gerrit Cole gave up just that one run in five innings.",
+          "date": "2026-10-03",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50095644/rasmussen-nearly-perfect-vs-yankees-rays-take-alds-game-1"
+        },
         {
           "id": "e59f36ccd5e1",
           "teamId": "yankees",
@@ -309,24 +319,6 @@
           "date": "2026-10-03",
           "source": "Fox Sports",
           "url": "https://www.foxsports.com/stories/mlb/aaron-judge-injury-update-yankees-roster-rays-stats"
-        },
-        {
-          "id": "d52e230c4a59",
-          "teamId": "yankees",
-          "headline": "Gerrit Cole starts Game 1 against Tampa Bay",
-          "summary": "Cole pitches Saturday night in St. Petersburg against the Rays' Drew Rasmussen. He did not pitch against Boston, so he is rested and lined up to open the series.",
-          "date": "2026-10-02",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/gerrit-cole-set-to-start-alds-game-1-for-yankees"
-        },
-        {
-          "id": "077f9549209e",
-          "teamId": "yankees",
-          "headline": "Yankees beat Boston 9-2 and win the series",
-          "summary": "Max Fried pitched well and Cody Bellinger drove in four runs Wednesday night, including a three-run homer. New York won both games against Boston and now plays Tampa Bay on Saturday.",
-          "date": "2026-09-30",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/sports/mlb/new-york-yankees-romp-red-sox-sweep-al-wild-card-series-rcna600855"
         }
       ]
     },
@@ -344,7 +336,7 @@
         "date": "2026-10-10",
         "time": "3:00 PM",
         "city": "New Orleans, LA",
-        "note": "Saturday afternoon home game. The stadium has not been posted yet."
+        "note": "Saturday afternoon home game, and a district game. The stadium has not been posted yet."
       },
       "lastGame": {
         "result": "W",

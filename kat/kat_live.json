@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "teams": {
     "saints": {
       "record": "1-2",
@@ -58,84 +58,94 @@
       ]
     },
     "florida": {
-      "record": "4-0",
-      "nextGame": {
-        "homeAway": "away",
-        "opponent": "Missouri Tigers",
-        "date": "2026-10-03",
-        "utc": "2026-10-03T19:50Z",
-        "time": "2:50 PM",
-        "venue": "Memorial Stadium",
-        "city": "Columbia, MO",
-        "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV"
-        }
-      },
-      "lastGame": {
-        "result": "W",
-        "teamScore": 52,
-        "opponentScore": 28,
-        "opponent": "Ole Miss Rebels",
-        "date": "2026-09-26"
-      },
-      "news": [
-        {
-          "id": "4ee7bb752463",
-          "teamId": "florida",
-          "headline": "Vernell Brown is doubtful for the Missouri game",
-          "summary": "Florida's leading receiver hurt his right knee against Ole Miss and is listed as doubtful for Saturday. Bailey Stockton is probable, so the Gators should have him back.",
-          "date": "2026-10-02",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/florida/article/florida-gators-football-week-5-availability-report-vernell-brown-iii-doubtful-290721919/"
-        },
-        {
-          "id": "df787d226872",
-          "teamId": "florida",
-          "headline": "Two Florida receivers are questionable for Saturday",
-          "summary": "Vernell Brown III has a mild knee strain and Bailey Stockton has a sore back, and both are listed as questionable at Missouri. Coach Jon Sumrall said neither injury is serious.",
-          "date": "2026-09-30",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/09/30/gators-injury-report-two-florida-receivers-questionable/"
-        },
-        {
-          "id": "848cb4e4128d",
-          "teamId": "florida",
-          "headline": "Jadan Baugh wins the top offensive award in the SEC",
-          "summary": "The conference named Baugh its offensive player of the week after he ran for 142 yards and three touchdowns against Ole Miss. Two more Gators were honored: London Montgomery on special teams and Bryce Lovett on the offensive line.",
-          "date": "2026-09-28",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/9/28/football-gators-trio-secures-sec-weekly-honors"
-        }
-      ]
-    },
-    "lsu": {
-      "record": "3-1",
+      "record": "4-1",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "McNeese Cowboys",
-        "date": "2026-10-03",
-        "utc": "2026-10-03T23:45Z",
-        "time": "6:45 PM",
-        "venue": "Tiger Stadium",
-        "city": "Baton Rouge, LA",
+        "opponent": "South Carolina Gamecocks",
+        "date": "2026-10-10",
+        "utc": "2026-10-10T16:45Z",
+        "time": "11:45 AM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
         "tv": {
           "name": "SEC Network",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
+        },
+        "note": "Late morning kickoff."
+      },
+      "lastGame": {
+        "result": "L",
+        "teamScore": 17,
+        "opponentScore": 45,
+        "opponent": "Missouri Tigers",
+        "date": "2026-10-03"
+      },
+      "news": [
+        {
+          "id": "1107e0367359",
+          "teamId": "florida",
+          "headline": "Jon Sumrall says the loss starts with him",
+          "summary": "The Florida coach called Saturday's game embarrassing in every part and said the blame starts with the coaching and with him. He also said his team still has growing up to do.",
+          "date": "2026-10-04",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
+        },
+        {
+          "id": "52f722d7af21",
+          "teamId": "florida",
+          "headline": "Missouri beats Florida 45-17",
+          "summary": "Missouri scored 35 points in a row Saturday in Columbia and ran for 211 yards with Jamal Roberts alone. It is Florida's first loss of the year, and the Gators are 4-1.",
+          "date": "2026-10-03",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
+        }
+      ]
+    },
+    "lsu": {
+      "record": "4-1",
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Kentucky Wildcats",
+        "date": "2026-10-10",
+        "utc": "2026-10-10T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Kroger Field",
+        "city": "Lexington, KY",
+        "tv": {
+          "name": "ESPN",
+          "logo": "images/espn.webp",
+          "url": "",
+          "note": "On YouTube TV"
         }
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 35,
-        "opponentScore": 6,
-        "opponent": "Texas A&M Aggies",
-        "date": "2026-09-26"
+        "teamScore": 63,
+        "opponentScore": 14,
+        "opponent": "McNeese Cowboys",
+        "date": "2026-10-03"
       },
       "news": [
+        {
+          "id": "5c60736835b9",
+          "teamId": "lsu",
+          "headline": "LSU beats McNeese 63-14",
+          "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
+          "date": "2026-10-03",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
+        },
+        {
+          "id": "4cc2c4071645",
+          "teamId": "lsu",
+          "headline": "Sam Leavitt throws three touchdowns and rests",
+          "summary": "Leavitt's sore hamstring kept him from running, but he completed 18 of 23 passes for 176 yards and three touchdowns before Landen Clark finished the game. LSU is 4-1 and plays at Kentucky on Saturday.",
+          "date": "2026-10-03",
+          "source": "WAFB",
+          "url": "https://www.wafb.com/2026/10/03/lsu-vs-mcneese-no-11-tigers-host-cowboys-tiger-stadium/"
+        },
         {
           "id": "b0384a86f2a6",
           "teamId": "lsu",
@@ -144,24 +154,6 @@
           "date": "2026-10-02",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/2/winston-watkins-jr-represents-the-next-generation-of-a-football-legacy"
-        },
-        {
-          "id": "7af8fda86819",
-          "teamId": "lsu",
-          "headline": "Landen Clark may start at quarterback Saturday",
-          "summary": "Sam Leavitt still has a sore hamstring, so LSU may rest him against McNeese and start Clark instead. Coach Lane Kiffin said Clark has done a great job and finds ways to make plays.",
-          "date": "2026-09-30",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/lsu/football/lane-kiffin-has-full-faith-in-lsu-qb-landen-clark-if-sam-leavitt-sits"
-        },
-        {
-          "id": "7731be150cc7",
-          "teamId": "lsu",
-          "headline": "Trey'Dez Green hopes to play again on November 7",
-          "summary": "The tight end hurt his knee against Ole Miss and does not need surgery. He is aiming to come back for the Alabama game in Baton Rouge on November 7.",
-          "date": "2026-09-29",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lsu-injury-report-sam-leavitt-125429077.html"
         }
       ]
     },
@@ -181,7 +173,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Tulane is off this week."
+        "note": "Saturday morning kickoff at West Point."
       },
       "lastGame": {
         "result": "W",
