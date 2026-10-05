@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "1bb2ce2a5c34",
+      "teamId": "saints",
+      "headline": "Kamara and Miller will carry the ball Monday night",
+      "summary": "Travis Etienne is hurt, so Alvin Kamara and Kendre Miller will do most of the running against Atlanta. Coach Kellen Moore said C.J. Donaldson will take the short, tough runs.",
+      "date": "2026-10-02",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-running-back-depth-being-tested-early"
+    },
     {
       "id": "4ee7bb752463",
       "teamId": "florida",

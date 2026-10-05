@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "teams": {
     "saints": {
       "record": "1-2",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV. Also on WDSU 6 here in New Orleans."
         },
-        "note": "Monday night game."
+        "note": "Monday night game in the Superdome, 20 years after it reopened."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "504c9ccf8715",
+          "teamId": "saints",
+          "headline": "Irma Thomas will sing before Monday night's game",
+          "summary": "Irma Thomas will sing the national anthem in the Superdome, and ESPN will open its broadcast with Anthony Mackie telling the story of the 2006 game. Steve Gleason and Drew Brees will both appear, 20 years after the Superdome reopened.",
+          "date": "2026-10-04",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/espn-wants-to-make-sure-monday-s-broadcast-tells-new-orleans-story-the-right-way"
+        },
+        {
           "id": "b6f919c08341",
           "teamId": "saints",
           "headline": "Three Saints defenders are out Monday night",
@@ -36,15 +45,6 @@
           "date": "2026-10-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/team/injury-report/"
-        },
-        {
-          "id": "1bb2ce2a5c34",
-          "teamId": "saints",
-          "headline": "Kamara and Miller will carry the ball Monday night",
-          "summary": "Travis Etienne is hurt, so Alvin Kamara and Kendre Miller will do most of the running against Atlanta. Coach Kellen Moore said C.J. Donaldson will take the short, tough runs.",
-          "date": "2026-10-02",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-running-back-depth-being-tested-early"
         },
         {
           "id": "2b47164e3aec",
