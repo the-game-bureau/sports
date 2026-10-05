@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "aa72c1649b7a",
+          "teamId": "saints",
+          "headline": "Saints add two players for Monday night",
+          "summary": "The Saints moved edge rusher Fadil Diggs and linebacker Jackson Sirmon up from the practice squad for the Atlanta game, so both can play tonight. The Saints have been thin at linebacker all week with Kaden Elliss and Anfernee Jennings hurt.",
+          "date": "2026-10-05",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-4-elevations"
+        },
+        {
           "id": "504c9ccf8715",
           "teamId": "saints",
           "headline": "Irma Thomas will sing before Monday night's game",
@@ -45,15 +54,6 @@
           "date": "2026-10-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/team/injury-report/"
-        },
-        {
-          "id": "2b47164e3aec",
-          "teamId": "saints",
-          "headline": "Trombone Shorty will play at halftime Monday night",
-          "summary": "Trombone Shorty and Orleans Avenue play at halftime, joined by Eric Church, Kirk Franklin, Juvenile, Cyril Neville and Ivan Neville. The Saints will also honor Steve Gleason and Curtis DeLoatch for the blocked punt twenty years ago.",
-          "date": "2026-10-02",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "39cf16453c8b",
+          "teamId": "florida",
+          "headline": "Sumrall says the Gators will regroup",
+          "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+          "date": "2026-10-05",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
+        },
+        {
           "id": "5e97dc159215",
           "teamId": "florida",
           "headline": "Florida falls to No. 16 in the new rankings",
@@ -100,15 +109,6 @@
           "date": "2026-10-04",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
-        },
-        {
-          "id": "52f722d7af21",
-          "teamId": "florida",
-          "headline": "Missouri beats Florida 45-17",
-          "summary": "Missouri scored 35 points in a row Saturday in Columbia and ran for 211 yards with Jamal Roberts alone. It is Florida's first loss of the year, and the Gators are 4-1.",
-          "date": "2026-10-03",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
         }
       ]
     },
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "95bdc025a4cc",
+          "teamId": "lsu",
+          "headline": "LSU's homecoming game will be on ABC or ESPN",
+          "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
+          "date": "2026-10-05",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
+        },
+        {
           "id": "2a2f3f0dec71",
           "teamId": "lsu",
           "headline": "LSU moves back into the top 10",
@@ -154,15 +163,6 @@
           "date": "2026-10-03",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
-        },
-        {
-          "id": "4cc2c4071645",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt throws three touchdowns and rests",
-          "summary": "Leavitt's sore hamstring kept him from running, but he completed 18 of 23 passes for 176 yards and three touchdowns before Landen Clark finished the game. LSU is 4-1 and plays at Kentucky on Saturday.",
-          "date": "2026-10-03",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/10/03/lsu-vs-mcneese-no-11-tigers-host-cowboys-tiger-stadium/"
         }
       ]
     },

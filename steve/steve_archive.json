@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "52f722d7af21",
+      "teamId": "florida",
+      "headline": "Missouri beats Florida 45-17",
+      "summary": "Missouri scored 35 points in a row Saturday in Columbia and ran for 211 yards with Jamal Roberts alone. It is Florida's first loss of the year, and the Gators are 4-1.",
+      "date": "2026-10-03",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
+    },
+    {
+      "id": "2b47164e3aec",
+      "teamId": "saints",
+      "headline": "Trombone Shorty will play at halftime Monday night",
+      "summary": "Trombone Shorty and Orleans Avenue play at halftime, joined by Eric Church, Kirk Franklin, Juvenile, Cyril Neville and Ivan Neville. The Saints will also honor Steve Gleason and Curtis DeLoatch for the blocked punt twenty years ago.",
+      "date": "2026-10-02",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
+    },
+    {
       "id": "1bb2ce2a5c34",
       "teamId": "saints",
       "headline": "Kamara and Miller will carry the ball Monday night",

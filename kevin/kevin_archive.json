@@ -7,6 +7,51 @@
   },
   "items": [
     {
+      "id": "52f722d7af21",
+      "teamId": "florida",
+      "headline": "Missouri beats Florida 45-17",
+      "summary": "Missouri scored 35 points in a row Saturday in Columbia and ran for 211 yards with Jamal Roberts alone. It is Florida's first loss of the year, and the Gators are 4-1.",
+      "date": "2026-10-03",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
+    },
+    {
+      "id": "4cc2c4071645",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt throws three touchdowns and rests",
+      "summary": "Leavitt's sore hamstring kept him from running, but he completed 18 of 23 passes for 176 yards and three touchdowns before Landen Clark finished the game. LSU is 4-1 and plays at Kentucky on Saturday.",
+      "date": "2026-10-03",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/10/03/lsu-vs-mcneese-no-11-tigers-host-cowboys-tiger-stadium/"
+    },
+    {
+      "id": "2b47164e3aec",
+      "teamId": "saints",
+      "headline": "Trombone Shorty will play at halftime Monday night",
+      "summary": "Trombone Shorty and Orleans Avenue play at halftime, joined by Eric Church, Kirk Franklin, Juvenile, Cyril Neville and Ivan Neville. The Saints will also honor Steve Gleason and Curtis DeLoatch for the blocked punt twenty years ago.",
+      "date": "2026-10-02",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
+    },
+    {
+      "id": "6d8ec4456096",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin moves up to fifth in the state",
+      "summary": "Crescent City Sports has the 4-0 Crusaders fifth among Louisiana's Class 5A teams after Friday's 24-22 win over Jesuit. Brother Martin plays Edna Karr at Tad Gormley Stadium on Friday night.",
+      "date": "2026-09-27",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/karr-north-desoto-st-james-calvary-baptist-riverside-remain-atop-ccs-week-5-state-rankings/"
+    },
+    {
+      "id": "e6ff59528cb2",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin holds off Jesuit 24-22",
+      "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
+      "date": "2026-09-25",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
+    },
+    {
       "id": "1bb2ce2a5c34",
       "teamId": "saints",
       "headline": "Kamara and Miller will carry the ball Monday night",
