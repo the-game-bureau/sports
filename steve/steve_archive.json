@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-05",
+    "updated": "2026-10-06",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "aa72c1649b7a",
+      "teamId": "saints",
+      "headline": "Saints add two players for Monday night",
+      "summary": "The Saints moved edge rusher Fadil Diggs and linebacker Jackson Sirmon up from the practice squad for the Atlanta game, so both can play tonight. The Saints have been thin at linebacker all week with Kaden Elliss and Anfernee Jennings hurt.",
+      "date": "2026-10-05",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-4-elevations"
+    },
+    {
+      "id": "504c9ccf8715",
+      "teamId": "saints",
+      "headline": "Irma Thomas will sing before Monday night's game",
+      "summary": "Irma Thomas will sing the national anthem in the Superdome, and ESPN will open its broadcast with Anthony Mackie telling the story of the 2006 game. Steve Gleason and Drew Brees will both appear, 20 years after the Superdome reopened.",
+      "date": "2026-10-04",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/espn-wants-to-make-sure-monday-s-broadcast-tells-new-orleans-story-the-right-way"
+    },
+    {
+      "id": "1107e0367359",
+      "teamId": "florida",
+      "headline": "Jon Sumrall says the loss starts with him",
+      "summary": "The Florida coach called Saturday's game embarrassing in every part and said the blame starts with the coaching and with him. He also said his team still has growing up to do.",
+      "date": "2026-10-04",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
+    },
+    {
+      "id": "b6f919c08341",
+      "teamId": "saints",
+      "headline": "Three Saints defenders are out Monday night",
+      "summary": "Kaden Elliss, Carl Granderson and Anfernee Jennings will all miss the Atlanta game with calf, ankle and knee injuries. Pete Werner and tight end Noah Fant might play.",
+      "date": "2026-10-03",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/team/injury-report/"
+    },
+    {
+      "id": "359948185c91",
+      "teamId": "yankees",
+      "headline": "Yankees get one hit and lose Game 1",
+      "summary": "Tampa Bay's Drew Rasmussen did not allow a hit until the eighth inning Saturday night and struck out 10. Jonathan Aranda's home run in the third was the only run, and Gerrit Cole gave up just that one run in five innings.",
+      "date": "2026-10-03",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50095644/rasmussen-nearly-perfect-vs-yankees-rays-take-alds-game-1"
+    },
+    {
+      "id": "e59f36ccd5e1",
+      "teamId": "yankees",
+      "headline": "Aaron Judge will miss the whole Tampa Bay series",
+      "summary": "The Yankees left Judge off their 26-man roster on Saturday because his strained right calf is still not ready. He has not played since September 16.",
+      "date": "2026-10-03",
+      "source": "Fox Sports",
+      "url": "https://www.foxsports.com/stories/mlb/aaron-judge-injury-update-yankees-roster-rays-stats"
+    },
     {
       "id": "52f722d7af21",
       "teamId": "florida",
