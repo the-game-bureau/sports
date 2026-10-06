@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "e216da7d6dfa",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler pitches Game 2 on Monday night",
+      "summary": "The Yankees give the ball to Schlittler on Monday night in St. Petersburg, with Freddy Peralta going for Tampa Bay. New York is down one game to none in a series that goes to three wins.",
+      "date": "2026-10-04",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401907986"
+    },
+    {
+      "id": "e3540655e07b",
+      "teamId": "texas",
+      "headline": "Texas holds off Tennessee 20-17",
+      "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
+      "date": "2026-09-26",
+      "source": "Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
+    },
+    {
+      "id": "3b2f2be6beb9",
+      "teamId": "saints",
+      "headline": "Marcus Davenport retires after eight seasons",
+      "summary": "Davenport was the Saints' first-round pick in 2018 and played his first five seasons in New Orleans, where he had 22 of his 25 career sacks. He is 30, and injuries kept him off the field for much of his career.",
+      "date": "2026-10-05",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/former-saints-first-round-pick-marcus-davenport-announces-retirement/"
+    },
+    {
       "id": "aa72c1649b7a",
       "teamId": "saints",
       "headline": "Saints add two players for Monday night",

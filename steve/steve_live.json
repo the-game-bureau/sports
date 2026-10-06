@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "4bc96414207a",
+          "teamId": "texas",
+          "headline": "Texas is healthier after its week off",
+          "summary": "Coach Steve Sarkisian said Monday the Longhorns are healthier than they were a week ago. Texas did not play last weekend and meets Oklahoma in Dallas on Saturday.",
+          "date": "2026-10-05",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
+        },
+        {
           "id": "2c709e12b07c",
           "teamId": "texas",
           "headline": "Arch Manning turns up at a middle school game",
@@ -155,15 +164,6 @@
           "date": "2026-09-27",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
-        },
-        {
-          "id": "e3540655e07b",
-          "teamId": "texas",
-          "headline": "Texas holds off Tennessee 20-17",
-          "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
-          "date": "2026-09-26",
-          "source": "Associated Press",
-          "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "9a51773b928c",
+          "teamId": "saints",
+          "headline": "Saints do not know yet if Kaden Elliss can play",
+          "summary": "Coach Kellen Moore said Tuesday he will have to wait and see whether the linebacker can practice this week. Elliss has a hurt calf and missed Monday night's loss, when Atlanta ran for 205 yards.",
+          "date": "2026-10-06",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
+        },
+        {
           "id": "ea661fa0ffb3",
           "teamId": "saints",
           "headline": "Atlanta beats the Saints 45-24",
@@ -210,15 +219,6 @@
           "date": "2026-10-06",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/2026-nfl-week-4-atlanta-falcons-vs-new-orleans-saints-game-quotes"
-        },
-        {
-          "id": "3b2f2be6beb9",
-          "teamId": "saints",
-          "headline": "Marcus Davenport retires after eight seasons",
-          "summary": "Davenport was the Saints' first-round pick in 2018 and played his first five seasons in New Orleans, where he had 22 of his 25 career sacks. He is 30, and injuries kept him off the field for much of his career.",
-          "date": "2026-10-05",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/former-saints-first-round-pick-marcus-davenport-announces-retirement/"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "PSAC Sports Digital Network",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/gofightingscots",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, and it is free. Tap right here on game day. Edinboro is the home team, so this match plays on their channel."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network, and it is free. The app is on Roku, Apple TV, Fire TV, iPhone and Android, or tap right here on game day. Edinboro is the home team, so this match plays on their channel."
         },
         "note": "Friday evening match at Edinboro."
       },
@@ -292,7 +292,7 @@
           "url": "",
           "note": "On YouTube TV. Also shown on truTV."
         },
-        "note": "Game 3, back home in New York. Tampa Bay leads the series two games to none, so the Yankees have to win tonight to keep playing."
+        "note": "Game 3, back home in New York. Tampa Bay leads the series two games to none, so the Yankees have to win Wednesday night to keep playing. Max Fried pitches for New York."
       },
       "lastGame": {
         "result": "L",
@@ -302,6 +302,15 @@
         "date": "2026-10-05"
       },
       "news": [
+        {
+          "id": "3a1138c556a9",
+          "teamId": "yankees",
+          "headline": "Max Fried pitches Game 3 on Wednesday night",
+          "summary": "Manager Aaron Boone is giving Fried the ball Wednesday night at Yankee Stadium with the Yankees down two games to none. Nick Martinez pitches for Tampa Bay, and a loss ends New York's season.",
+          "date": "2026-10-06",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/max-fried-yankees-starter-against-rays-in-game-3-2026-alds"
+        },
         {
           "id": "ed036b1a4629",
           "teamId": "yankees",
@@ -319,15 +328,6 @@
           "date": "2026-10-06",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/50113752/yankees-rookie-spencer-jones-flies-catwalk-game-2"
-        },
-        {
-          "id": "e216da7d6dfa",
-          "teamId": "yankees",
-          "headline": "Cam Schlittler pitches Game 2 on Monday night",
-          "summary": "The Yankees give the ball to Schlittler on Monday night in St. Petersburg, with Freddy Peralta going for Tampa Bay. New York is down one game to none in a series that goes to three wins.",
-          "date": "2026-10-04",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/game/_/gameId/401907986"
         }
       ]
     },
@@ -342,10 +342,10 @@
       "nextGame": {
         "homeAway": "home",
         "opponent": "L.W. Higgins",
-        "date": "2026-10-10",
-        "time": "3:00 PM",
+        "date": "2026-10-08",
+        "time": "7:30 PM",
         "city": "New Orleans, LA",
-        "note": "Saturday afternoon home game, and a district game. The stadium has not been posted yet."
+        "note": "Thursday night home game, and a district game. The stadium has not been posted yet."
       },
       "lastGame": {
         "result": "W",

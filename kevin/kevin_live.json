@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "9a51773b928c",
+          "teamId": "saints",
+          "headline": "Saints do not know yet if Kaden Elliss can play",
+          "summary": "Coach Kellen Moore said Tuesday he will have to wait and see whether the linebacker can practice this week. Elliss has a hurt calf and missed Monday night's loss, when Atlanta ran for 205 yards.",
+          "date": "2026-10-06",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
+        },
+        {
           "id": "ea661fa0ffb3",
           "teamId": "saints",
           "headline": "Atlanta beats the Saints 45-24",
@@ -45,15 +54,6 @@
           "date": "2026-10-06",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/2026-nfl-week-4-atlanta-falcons-vs-new-orleans-saints-game-quotes"
-        },
-        {
-          "id": "3b2f2be6beb9",
-          "teamId": "saints",
-          "headline": "Marcus Davenport retires after eight seasons",
-          "summary": "Davenport was the Saints' first-round pick in 2018 and played his first five seasons in New Orleans, where he had 22 of his 25 career sacks. He is 30, and injuries kept him off the field for much of his career.",
-          "date": "2026-10-05",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/former-saints-first-round-pick-marcus-davenport-announces-retirement/"
         }
       ]
     },
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "10d3e23a1dda",
+          "teamId": "lsu",
+          "headline": "Sam Leavitt says he will be ready on Saturday",
+          "summary": "The LSU quarterback told reporters Tuesday that his sore hamstring feels really good and he will be 100 percent by Saturday. He played through it the last two games.",
+          "date": "2026-10-06",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
+        },
+        {
           "id": "95bdc025a4cc",
           "teamId": "lsu",
           "headline": "LSU's homecoming game will be on ABC or ESPN",
@@ -154,15 +163,6 @@
           "date": "2026-10-04",
           "source": "Fox 8 (WVUE)",
           "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
-        },
-        {
-          "id": "5c60736835b9",
-          "teamId": "lsu",
-          "headline": "LSU beats McNeese 63-14",
-          "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
-          "date": "2026-10-03",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
         }
       ]
     },
