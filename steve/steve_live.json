@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "784a5655c1b8",
+          "teamId": "tulane",
+          "headline": "Jamauri McClure is back for the Army game",
+          "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
+          "date": "2026-10-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+        },
+        {
           "id": "1e77afaaa6a7",
           "teamId": "tulane",
           "headline": "Freshman Trace Johnson takes over at quarterback",
@@ -45,15 +54,6 @@
           "date": "2026-09-28",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
-        },
-        {
-          "id": "86066cc43421",
-          "teamId": "tulane",
-          "headline": "Tulane wins the Battle for the Bell 24-21",
-          "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-          "date": "2026-09-26",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "91535f5d6e69",
+          "teamId": "texas",
+          "headline": "Oklahoma's coach calls Arch Manning a great player",
+          "summary": "Brent Venables said Manning has a cannon for an arm and no weaknesses in his game. The two teams play Saturday afternoon in Dallas.",
+          "date": "2026-10-07",
+          "source": "ClutchPoints",
+          "url": "https://clutchpoints.com/ncaa-football/oklahoma-football-news-brent-venables-gives-arch-manning-glowing-praise-red-river-showdown"
+        },
+        {
           "id": "4bc96414207a",
           "teamId": "texas",
           "headline": "Texas is healthier after its week off",
@@ -155,15 +164,6 @@
           "date": "2026-09-30",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
-        },
-        {
-          "id": "f1b801be2768",
-          "teamId": "texas",
-          "headline": "Texas stays No. 1 in the new rankings",
-          "summary": "The Longhorns kept the top spot in the Associated Press poll after winning 20-17 at Tennessee. They are 4-0 and play Oklahoma in Dallas on October 10.",
-          "date": "2026-09-27",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in the Superdome."
+        "note": "Sunday noon kickoff in the Superdome. Minnesota has won all four of its games."
       },
       "lastGame": {
         "result": "L",
@@ -194,6 +194,24 @@
       },
       "news": [
         {
+          "id": "4b073ab30ca5",
+          "teamId": "saints",
+          "headline": "Minnesota is not sure Justin Jefferson can play",
+          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+          "date": "2026-10-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+        },
+        {
+          "id": "d64a9518b5a7",
+          "teamId": "saints",
+          "headline": "Alvin Kamara scores his 89th career touchdown",
+          "summary": "Kamara ran for two touchdowns in Monday night's loss to Atlanta. That is 89 for his career, which ties him with former Saint Jimmy Graham for 44th on the all-time list.",
+          "date": "2026-10-06",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
+        },
+        {
           "id": "9a51773b928c",
           "teamId": "saints",
           "headline": "Saints do not know yet if Kaden Elliss can play",
@@ -201,24 +219,6 @@
           "date": "2026-10-06",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
-        },
-        {
-          "id": "ea661fa0ffb3",
-          "teamId": "saints",
-          "headline": "Atlanta beats the Saints 45-24",
-          "summary": "Atlanta ran for 205 yards and five touchdowns Monday night in the Superdome, and the Saints never got closer than seven points. Alvin Kamara ran for two short touchdowns, and New Orleans is now 1-3.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
-        },
-        {
-          "id": "4d4cce35ba14",
-          "teamId": "saints",
-          "headline": "Tyler Shough hurt his hand in the loss",
-          "summary": "Coach Kellen Moore said the quarterback's hand swelled up after he was hit Monday night, but he does not think it changed the way Shough played. Moore called it a really disappointing game and said the Saints did not do enough in any part of it.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-4-atlanta-falcons-vs-new-orleans-saints-game-quotes"
         }
       ]
     },
@@ -235,9 +235,9 @@
           "name": "PSAC Sports Digital Network",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/gofightingscots",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network, and it is free. The app is on Roku, Apple TV, Fire TV, iPhone and Android, or tap right here on game day. Edinboro is the home team, so this match plays on their channel."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, and it is free. Get the app on Roku, Apple TV, Fire TV, iPhone or Android, or just tap here on game day. Edinboro is the home team, so this match plays on their channel."
         },
-        "note": "Friday evening match at Edinboro."
+        "note": "Friday evening match at Edinboro. Five o'clock our time, six o'clock theirs."
       },
       "lastGame": {
         "result": "L",
@@ -292,7 +292,7 @@
           "url": "",
           "note": "On YouTube TV. Also shown on truTV."
         },
-        "note": "Game 3, back home in New York. Tampa Bay leads the series two games to none, so the Yankees have to win Wednesday night to keep playing. Max Fried pitches for New York."
+        "note": "Game 3, back home in New York. Tampa Bay leads the series two games to none, so the Yankees have to win Wednesday night to keep playing. Max Fried pitches for New York and Nick Martinez pitches for Tampa Bay."
       },
       "lastGame": {
         "result": "L",
@@ -302,6 +302,15 @@
         "date": "2026-10-05"
       },
       "news": [
+        {
+          "id": "354e5dd18f9f",
+          "teamId": "yankees",
+          "headline": "Yankees shuffle the batting order for Game 3",
+          "summary": "Ben Rice hits first and Anthony Volpe hits last against Tampa Bay on Wednesday night. Aaron Boone used the same nine hitters in the first two games and the Yankees lost both.",
+          "date": "2026-10-07",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/rays-vs-yankees-alds-game-3-starting-lineups-and-pitching-matchup"
+        },
         {
           "id": "3a1138c556a9",
           "teamId": "yankees",
@@ -319,15 +328,6 @@
           "date": "2026-10-06",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/50114618/rays-take-advantage-error-prone-yankees-win-alds-game-2"
-        },
-        {
-          "id": "821178f516af",
-          "teamId": "yankees",
-          "headline": "Spencer Jones hits a fly ball off the catwalk",
-          "summary": "The Yankees rookie hit a towering fly ball in the second inning Monday night that struck one of the catwalks hanging over the field at Tropicana Field. It came down in right field, and Victor Mesa Jr. caught it for an out.",
-          "date": "2026-10-06",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/50113752/yankees-rookie-spencer-jones-flies-catwalk-game-2"
         }
       ]
     },
@@ -345,7 +345,8 @@
         "date": "2026-10-08",
         "time": "7:30 PM",
         "city": "New Orleans, LA",
-        "note": "Thursday night home game, and a district game. The stadium has not been posted yet."
+        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Saturday because of the weather.",
+        "venue": "Pan American Stadium"
       },
       "lastGame": {
         "result": "W",
@@ -355,6 +356,15 @@
         "date": "2026-10-01"
       },
       "news": [
+        {
+          "id": "883cdcf3ffd4",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton's game moves up to Thursday night",
+          "summary": "The Eagles now host Higgins on Thursday at 7:30 at Pan American Stadium instead of Saturday afternoon. It was moved because a tropical storm may reach southeast Louisiana this weekend.",
+          "date": "2026-10-06",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/st-augustine-holy-cross-warren-easton-higgins-games-moved-to-thursday/"
+        },
         {
           "id": "aeafd08016a4",
           "teamId": "warren-easton",
@@ -372,15 +382,6 @@
           "date": "2026-09-25",
           "source": "MaxPreps",
           "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-zachary/9-25-2026/?c=7af1b934-8db0-48cb-876f-c2b6f93a5ed8"
-        },
-        {
-          "id": "e4cf2b8fba47",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton falls to Brother Martin",
-          "summary": "Brother Martin scored early and often Friday night and won 56-6. Warren Easton is 0-3 and plays at Zachary next Friday.",
-          "date": "2026-09-18",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/news/WwJfKp6iR0WiOA6z4gvuhw/football-recap-tough-loss-for-warren-easton.htm"
         }
       ]
     }

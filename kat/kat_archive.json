@@ -2,10 +2,46 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-06",
+    "updated": "2026-10-07",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "2a2f3f0dec71",
+      "teamId": "lsu",
+      "headline": "LSU moves back into the top 10",
+      "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
+      "date": "2026-10-04",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
+    },
+    {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+    },
+    {
+      "id": "4d4cce35ba14",
+      "teamId": "saints",
+      "headline": "Tyler Shough hurt his hand in the loss",
+      "summary": "Coach Kellen Moore said the quarterback's hand swelled up after he was hit Monday night, but he does not think it changed the way Shough played. Moore called it a really disappointing game and said the Saints did not do enough in any part of it.",
+      "date": "2026-10-06",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/2026-nfl-week-4-atlanta-falcons-vs-new-orleans-saints-game-quotes"
+    },
+    {
+      "id": "ea661fa0ffb3",
+      "teamId": "saints",
+      "headline": "Atlanta beats the Saints 45-24",
+      "summary": "Atlanta ran for 205 yards and five touchdowns Monday night in the Superdome, and the Saints never got closer than seven points. Alvin Kamara ran for two short touchdowns, and New Orleans is now 1-3.",
+      "date": "2026-10-06",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
+    },
     {
       "id": "5c60736835b9",
       "teamId": "lsu",

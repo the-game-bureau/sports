@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "teams": {
     "saints": {
       "record": "1-3",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in the Superdome."
+        "note": "Sunday noon kickoff in the Superdome. Minnesota has won all four of its games."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "4b073ab30ca5",
+          "teamId": "saints",
+          "headline": "Minnesota is not sure Justin Jefferson can play",
+          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+          "date": "2026-10-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+        },
+        {
+          "id": "d64a9518b5a7",
+          "teamId": "saints",
+          "headline": "Alvin Kamara scores his 89th career touchdown",
+          "summary": "Kamara ran for two touchdowns in Monday night's loss to Atlanta. That is 89 for his career, which ties him with former Saint Jimmy Graham for 44th on the all-time list.",
+          "date": "2026-10-06",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
+        },
+        {
           "id": "9a51773b928c",
           "teamId": "saints",
           "headline": "Saints do not know yet if Kaden Elliss can play",
@@ -36,24 +54,6 @@
           "date": "2026-10-06",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
-        },
-        {
-          "id": "ea661fa0ffb3",
-          "teamId": "saints",
-          "headline": "Atlanta beats the Saints 45-24",
-          "summary": "Atlanta ran for 205 yards and five touchdowns Monday night in the Superdome, and the Saints never got closer than seven points. Alvin Kamara ran for two short touchdowns, and New Orleans is now 1-3.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
-        },
-        {
-          "id": "4d4cce35ba14",
-          "teamId": "saints",
-          "headline": "Tyler Shough hurt his hand in the loss",
-          "summary": "Coach Kellen Moore said the quarterback's hand swelled up after he was hit Monday night, but he does not think it changed the way Shough played. Moore called it a really disappointing game and said the Saints did not do enough in any part of it.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/2026-nfl-week-4-atlanta-falcons-vs-new-orleans-saints-game-quotes"
         }
       ]
     },
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "4e3ebc216a8e",
+          "teamId": "lsu",
+          "headline": "LSU loses two leaders for the rest of the year",
+          "summary": "Linebacker Whit Weeks broke his right leg and tight end Trey'Dez Green is also done for the season. Coach Lane Kiffin said he would feel really good about his team if not for those two injuries.",
+          "date": "2026-10-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/lane-kiffins-high-hopes-lsu-200004517.html"
+        },
+        {
           "id": "10d3e23a1dda",
           "teamId": "lsu",
           "headline": "Sam Leavitt says he will be ready on Saturday",
@@ -154,15 +163,6 @@
           "date": "2026-10-05",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
-        },
-        {
-          "id": "2a2f3f0dec71",
-          "teamId": "lsu",
-          "headline": "LSU moves back into the top 10",
-          "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
-          "date": "2026-10-04",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
         }
       ]
     },
@@ -193,6 +193,15 @@
       },
       "news": [
         {
+          "id": "784a5655c1b8",
+          "teamId": "tulane",
+          "headline": "Jamauri McClure is back for the Army game",
+          "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
+          "date": "2026-10-06",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+        },
+        {
           "id": "1e77afaaa6a7",
           "teamId": "tulane",
           "headline": "Freshman Trace Johnson takes over at quarterback",
@@ -209,15 +218,6 @@
           "date": "2026-09-28",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
-        },
-        {
-          "id": "86066cc43421",
-          "teamId": "tulane",
-          "headline": "Tulane wins the Battle for the Bell 24-21",
-          "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-          "date": "2026-09-26",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
         }
       ]
     }
