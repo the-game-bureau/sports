@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "b987f8aae13c",
+          "teamId": "florida",
+          "headline": "Sumrall says South Carolina has the most talent yet",
+          "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+          "date": "2026-10-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
+        },
+        {
           "id": "7bf791f3720a",
           "teamId": "florida",
           "headline": "Jadan Baugh apologizes to his coach",
@@ -100,15 +109,6 @@
           "date": "2026-10-05",
           "source": "The Independent Florida Alligator",
           "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
-        },
-        {
-          "id": "5e97dc159215",
-          "teamId": "florida",
-          "headline": "Florida falls to No. 16 in the new rankings",
-          "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
-          "date": "2026-10-04",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -194,6 +194,24 @@
       },
       "news": [
         {
+          "id": "eca436bb4a4f",
+          "teamId": "saints",
+          "headline": "Alvin Kamara sits out practice with a sore back",
+          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
+          "date": "2026-10-07",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+        },
+        {
+          "id": "84827777c7d8",
+          "teamId": "saints",
+          "headline": "Tyler Shough does not practice with a hurt hand",
+          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
+          "date": "2026-10-07",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+        },
+        {
           "id": "4b073ab30ca5",
           "teamId": "saints",
           "headline": "Minnesota is not sure Justin Jefferson can play",
@@ -201,24 +219,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
-        },
-        {
-          "id": "d64a9518b5a7",
-          "teamId": "saints",
-          "headline": "Alvin Kamara scores his 89th career touchdown",
-          "summary": "Kamara ran for two touchdowns in Monday night's loss to Atlanta. That is 89 for his career, which ties him with former Saint Jimmy Graham for 44th on the all-time list.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
-        },
-        {
-          "id": "9a51773b928c",
-          "teamId": "saints",
-          "headline": "Saints do not know yet if Kaden Elliss can play",
-          "summary": "Coach Kellen Moore said Tuesday he will have to wait and see whether the linebacker can practice this week. Elliss has a hurt calf and missed Monday night's loss, when Atlanta ran for 205 yards.",
-          "date": "2026-10-06",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "PSAC Sports Digital Network",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/gofightingscots",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, and it is free. Get the app on Roku, Apple TV, Fire TV, iPhone or Android, or just tap here on game day. Edinboro is the home team, so this match plays on their channel."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free to get on Roku, Apple TV, Fire TV, iPhone or Android, or just tap here on game day. Edinboro is the home team, so this match plays on their channel."
         },
         "note": "Friday evening match at Edinboro. Five o'clock our time, six o'clock theirs."
       },
@@ -345,7 +345,7 @@
         "date": "2026-10-08",
         "time": "7:30 PM",
         "city": "New Orleans, LA",
-        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Saturday because of the weather.",
+        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Saturday afternoon because a tropical storm is coming. Saint Augustine and Holy Cross play there first at 3:00, so this is the second game of the night.",
         "venue": "Pan American Stadium"
       },
       "lastGame": {

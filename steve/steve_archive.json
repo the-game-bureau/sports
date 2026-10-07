@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "5e97dc159215",
+      "teamId": "florida",
+      "headline": "Florida falls to No. 16 in the new rankings",
+      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+      "date": "2026-10-04",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "9a51773b928c",
+      "teamId": "saints",
+      "headline": "Saints do not know yet if Kaden Elliss can play",
+      "summary": "Coach Kellen Moore said Tuesday he will have to wait and see whether the linebacker can practice this week. Elliss has a hurt calf and missed Monday night's loss, when Atlanta ran for 205 yards.",
+      "date": "2026-10-06",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
+    },
+    {
+      "id": "d64a9518b5a7",
+      "teamId": "saints",
+      "headline": "Alvin Kamara scores his 89th career touchdown",
+      "summary": "Kamara ran for two touchdowns in Monday night's loss to Atlanta. That is 89 for his career, which ties him with former Saint Jimmy Graham for 44th on the all-time list.",
+      "date": "2026-10-06",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
+    },
+    {
       "id": "e4cf2b8fba47",
       "teamId": "warren-easton",
       "headline": "Warren Easton falls to Brother Martin",

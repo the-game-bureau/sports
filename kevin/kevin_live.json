@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "eca436bb4a4f",
+          "teamId": "saints",
+          "headline": "Alvin Kamara sits out practice with a sore back",
+          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
+          "date": "2026-10-07",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+        },
+        {
+          "id": "84827777c7d8",
+          "teamId": "saints",
+          "headline": "Tyler Shough does not practice with a hurt hand",
+          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
+          "date": "2026-10-07",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+        },
+        {
           "id": "4b073ab30ca5",
           "teamId": "saints",
           "headline": "Minnesota is not sure Justin Jefferson can play",
@@ -36,24 +54,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
-        },
-        {
-          "id": "d64a9518b5a7",
-          "teamId": "saints",
-          "headline": "Alvin Kamara scores his 89th career touchdown",
-          "summary": "Kamara ran for two touchdowns in Monday night's loss to Atlanta. That is 89 for his career, which ties him with former Saint Jimmy Graham for 44th on the all-time list.",
-          "date": "2026-10-06",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
-        },
-        {
-          "id": "9a51773b928c",
-          "teamId": "saints",
-          "headline": "Saints do not know yet if Kaden Elliss can play",
-          "summary": "Coach Kellen Moore said Tuesday he will have to wait and see whether the linebacker can practice this week. Elliss has a hurt calf and missed Monday night's loss, when Atlanta ran for 205 yards.",
-          "date": "2026-10-06",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "b987f8aae13c",
+          "teamId": "florida",
+          "headline": "Sumrall says South Carolina has the most talent yet",
+          "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+          "date": "2026-10-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
+        },
+        {
           "id": "7bf791f3720a",
           "teamId": "florida",
           "headline": "Jadan Baugh apologizes to his coach",
@@ -100,15 +109,6 @@
           "date": "2026-10-05",
           "source": "The Independent Florida Alligator",
           "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
-        },
-        {
-          "id": "5e97dc159215",
-          "teamId": "florida",
-          "headline": "Florida falls to No. 16 in the new rankings",
-          "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
-          "date": "2026-10-04",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
         }
       ]
     },
@@ -138,15 +138,6 @@
       },
       "news": [
         {
-          "id": "4e3ebc216a8e",
-          "teamId": "lsu",
-          "headline": "LSU loses two leaders for the rest of the year",
-          "summary": "Linebacker Whit Weeks broke his right leg and tight end Trey'Dez Green is also done for the season. Coach Lane Kiffin said he would feel really good about his team if not for those two injuries.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lane-kiffins-high-hopes-lsu-200004517.html"
-        },
-        {
           "id": "10d3e23a1dda",
           "teamId": "lsu",
           "headline": "Sam Leavitt says he will be ready on Saturday",
@@ -163,6 +154,15 @@
           "date": "2026-10-05",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
+        },
+        {
+          "id": "3be85c6cd2d1",
+          "teamId": "lsu",
+          "headline": "Green and Weeks could play again this season",
+          "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
+          "date": "2026-10-05",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
         }
       ]
     },
@@ -241,6 +241,15 @@
       },
       "news": [
         {
+          "id": "b7d764709a2c",
+          "teamId": "brother-martin",
+          "headline": "Brother Martin and Rummel still play Friday afternoon",
+          "summary": "A tropical storm pushed many New Orleans games up to Thursday, but this one did not move. Brother Martin plays Archbishop Rummel on Friday at 3:30 in the afternoon at Tad Gormley Stadium.",
+          "date": "2026-10-07",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/brother-martin-rummel-stays-friday-afternoon-ben-franklin-central-private-and-morris-jeff-newman-now-thursday/"
+        },
+        {
           "id": "227c4a06c361",
           "teamId": "brother-martin",
           "headline": "Brother Martin pitcher Chance Pecoraro picks Tulane",
@@ -257,15 +266,6 @@
           "date": "2026-10-04",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/ocs-moves-atop-class-1a-other-no-1-steady-in-ccs-state-top-10-rankings/"
-        },
-        {
-          "id": "a938d551f34d",
-          "teamId": "brother-martin",
-          "headline": "Edna Karr beats Brother Martin 25-21",
-          "summary": "Karr won Friday night in Hammond after Ty Williams caught two passes on defense in the fourth quarter, one of them run back for a touchdown. Brother Martin is now 4-1.",
-          "date": "2026-10-02",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/ty-williams-late-interceptions-lift-edna-karr-past-brother-martin-25-21/"
         }
       ]
     }
