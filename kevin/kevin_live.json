@@ -29,31 +29,31 @@
       },
       "news": [
         {
-          "id": "eca436bb4a4f",
+          "id": "0c23c2b07c53",
           "teamId": "saints",
-          "headline": "Alvin Kamara sits out practice with a sore back",
-          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
-          "date": "2026-10-07",
+          "headline": "Alvin Kamara and Chris Olave are back at practice",
+          "summary": "Both of them sat out Wednesday and both were back on Thursday on a limited basis. Receiver Barion Brown practiced again too, three days before the Vikings game.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "84827777c7d8",
+          "id": "36e0151a9169",
           "teamId": "saints",
-          "headline": "Tyler Shough does not practice with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
-          "date": "2026-10-07",
+          "headline": "Tyler Shough practices with his hurt hand",
+          "summary": "The quarterback took a full practice Thursday after being limited earlier in the week with a sore left hand. He is listed as hurt but he is working.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "4b073ab30ca5",
+          "id": "05855b05d86a",
           "teamId": "saints",
-          "headline": "Minnesota is not sure Justin Jefferson can play",
-          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+          "headline": "Minnesota signs Odell Beckham Jr.",
+          "summary": "The Vikings added the New Orleans native and former LSU receiver to their practice squad on Wednesday. He is not on their main roster, so they would have to move him up for him to play in the Superdome on Sunday.",
+          "date": "2026-10-07",
+          "source": "Minnesota Vikings",
+          "url": "https://www.vikings.com/news/odell-beckham-jr-practice-squad-roster-moves"
         }
       ]
     },
@@ -93,13 +93,13 @@
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
         },
         {
-          "id": "1e600475f879",
+          "id": "2948f1dd7d12",
           "teamId": "florida",
-          "headline": "Vernell Brown III is cleared to practice again",
-          "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-          "date": "2026-10-05",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+          "headline": "Vernell Brown III might play Saturday",
+          "summary": "Florida lists the receiver as questionable against South Carolina, a step up from doubtful last week. Coach Jon Sumrall said Brown is cleared to practice and heading the right way.",
+          "date": "2026-10-07",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/10/florida-injury-report-south-carolina"
         },
         {
           "id": "7bf791f3720a",
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "4bc0cb2faa34",
+          "teamId": "lsu",
+          "headline": "Five LSU players are out for Kentucky",
+          "summary": "Linebackers Whit Weeks and Charles Ross, tight end Trey'Dez Green, safety Dashawn Spears and receiver Phillip Wright are all hurt and will not play Saturday. Coach Lane Kiffin has said Green could be back sooner than people expected.",
+          "date": "2026-10-07",
+          "source": "Sports Illustrated",
+          "url": "https://si.com/college/lsu/football/five-lsu-players-ruled-out-on-first-injury-report-vs-kentucky"
+        },
+        {
           "id": "10d3e23a1dda",
           "teamId": "lsu",
           "headline": "Sam Leavitt says he will be ready on Saturday",
@@ -147,22 +156,13 @@
           "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
         },
         {
-          "id": "95bdc025a4cc",
+          "id": "bb571a115c9e",
           "teamId": "lsu",
-          "headline": "LSU's homecoming game will be on ABC or ESPN",
-          "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
-          "date": "2026-10-05",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
-        },
-        {
-          "id": "3be85c6cd2d1",
-          "teamId": "lsu",
-          "headline": "Green and Weeks could play again this season",
-          "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
-          "date": "2026-10-05",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
+          "headline": "Kentucky's stadium is sold out for LSU",
+          "summary": "Kentucky said Tuesday that every ticket for Saturday's game is gone, and asked its fans to wear blue. Kickoff is 6:00 our time on ESPN.",
+          "date": "2026-10-06",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/kentucky-announces-sell-out-crowd-for-marquee-game-vs-lsu/"
         }
       ]
     },
@@ -193,6 +193,15 @@
       },
       "news": [
         {
+          "id": "6916c450154a",
+          "teamId": "tulane",
+          "headline": "Tulane has not named its quarterback for Army",
+          "summary": "Coach Will Hall would not say this week whether Kadin Semonza or freshman Trace Johnson starts Saturday at West Point. Semonza has started the last three games.",
+          "date": "2026-10-08",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-football-opens-american-conference-play-at-army/"
+        },
+        {
           "id": "784a5655c1b8",
           "teamId": "tulane",
           "headline": "Jamauri McClure is back for the Army game",
@@ -200,15 +209,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
-        },
-        {
-          "id": "1e77afaaa6a7",
-          "teamId": "tulane",
-          "headline": "Freshman Trace Johnson takes over at quarterback",
-          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-          "date": "2026-09-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
         },
         {
           "id": "f149d570921b",

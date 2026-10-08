@@ -7,22 +7,31 @@
   },
   "items": [
     {
-      "id": "39cf16453c8b",
-      "teamId": "florida",
-      "headline": "Sumrall says the Gators will regroup",
-      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
-      "date": "2026-10-05",
-      "source": "The Independent Florida Alligator",
-      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
+      "id": "eca436bb4a4f",
+      "teamId": "saints",
+      "headline": "Alvin Kamara sits out practice with a sore back",
+      "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
+      "date": "2026-10-07",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
     },
     {
-      "id": "5e97dc159215",
-      "teamId": "florida",
-      "headline": "Florida falls to No. 16 in the new rankings",
-      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
-      "date": "2026-10-04",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+      "id": "84827777c7d8",
+      "teamId": "saints",
+      "headline": "Tyler Shough does not practice with a hurt hand",
+      "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
+      "date": "2026-10-07",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+    },
+    {
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
     },
     {
       "id": "9a51773b928c",
@@ -43,24 +52,6 @@
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
     },
     {
-      "id": "2a2f3f0dec71",
-      "teamId": "lsu",
-      "headline": "LSU moves back into the top 10",
-      "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
-      "date": "2026-10-04",
-      "source": "Fox 8 (WVUE)",
-      "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
-    },
-    {
-      "id": "86066cc43421",
-      "teamId": "tulane",
-      "headline": "Tulane wins the Battle for the Bell 24-21",
-      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-      "date": "2026-09-26",
-      "source": "Fox 8 (WVUE)",
-      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
-    },
-    {
       "id": "4d4cce35ba14",
       "teamId": "saints",
       "headline": "Tyler Shough hurt his hand in the loss",
@@ -79,13 +70,40 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
     },
     {
-      "id": "5c60736835b9",
+      "id": "1e600475f879",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is cleared to practice again",
+      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
+      "date": "2026-10-05",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+    },
+    {
+      "id": "95bdc025a4cc",
       "teamId": "lsu",
-      "headline": "LSU beats McNeese 63-14",
-      "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
-      "date": "2026-10-03",
+      "headline": "LSU's homecoming game will be on ABC or ESPN",
+      "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
+      "date": "2026-10-05",
       "source": "LSU Athletics",
-      "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
+      "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
+    },
+    {
+      "id": "3be85c6cd2d1",
+      "teamId": "lsu",
+      "headline": "Green and Weeks could play again this season",
+      "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
+      "date": "2026-10-05",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
+    },
+    {
+      "id": "39cf16453c8b",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators will regroup",
+      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+      "date": "2026-10-05",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
     },
     {
       "id": "3b2f2be6beb9",
@@ -106,6 +124,24 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-4-elevations"
     },
     {
+      "id": "5e97dc159215",
+      "teamId": "florida",
+      "headline": "Florida falls to No. 16 in the new rankings",
+      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+      "date": "2026-10-04",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "2a2f3f0dec71",
+      "teamId": "lsu",
+      "headline": "LSU moves back into the top 10",
+      "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
+      "date": "2026-10-04",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
+    },
+    {
       "id": "504c9ccf8715",
       "teamId": "saints",
       "headline": "Irma Thomas will sing before Monday night's game",
@@ -122,6 +158,15 @@
       "date": "2026-10-04",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
+    },
+    {
+      "id": "5c60736835b9",
+      "teamId": "lsu",
+      "headline": "LSU beats McNeese 63-14",
+      "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
+      "date": "2026-10-03",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
     },
     {
       "id": "b6f919c08341",
@@ -250,6 +295,15 @@
       "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
     },
     {
+      "id": "1e77afaaa6a7",
+      "teamId": "tulane",
+      "headline": "Freshman Trace Johnson takes over at quarterback",
+      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+    },
+    {
       "id": "848cb4e4128d",
       "teamId": "florida",
       "headline": "Jadan Baugh wins the top offensive award in the SEC",
@@ -365,6 +419,15 @@
       "date": "2026-09-27",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/lane-kiffin-clarifies-why-sam-070815475.html"
+    },
+    {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
     },
     {
       "id": "5cff9fb06f45",

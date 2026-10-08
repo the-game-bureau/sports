@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "6916c450154a",
+          "teamId": "tulane",
+          "headline": "Tulane has not named its quarterback for Army",
+          "summary": "Coach Will Hall would not say this week whether Kadin Semonza or freshman Trace Johnson starts Saturday at West Point. Semonza has started the last three games.",
+          "date": "2026-10-08",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-football-opens-american-conference-play-at-army/"
+        },
+        {
           "id": "784a5655c1b8",
           "teamId": "tulane",
           "headline": "Jamauri McClure is back for the Army game",
@@ -36,15 +45,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
-        },
-        {
-          "id": "1e77afaaa6a7",
-          "teamId": "tulane",
-          "headline": "Freshman Trace Johnson takes over at quarterback",
-          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-          "date": "2026-09-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
         },
         {
           "id": "f149d570921b",
@@ -93,13 +93,13 @@
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
         },
         {
-          "id": "1e600475f879",
+          "id": "2948f1dd7d12",
           "teamId": "florida",
-          "headline": "Vernell Brown III is cleared to practice again",
-          "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-          "date": "2026-10-05",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+          "headline": "Vernell Brown III might play Saturday",
+          "summary": "Florida lists the receiver as questionable against South Carolina, a step up from doubtful last week. Coach Jon Sumrall said Brown is cleared to practice and heading the right way.",
+          "date": "2026-10-07",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/10/florida-injury-report-south-carolina"
         },
         {
           "id": "7bf791f3720a",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "e53b64b95637",
+          "teamId": "texas",
+          "headline": "Texas is close to full strength for Oklahoma",
+          "summary": "Only four Texas players are on this week's injury list, and tight end Nick Townsend moved up from out to probable. Oklahoma has 13 players listed.",
+          "date": "2026-10-08",
+          "source": "Hook'em Headlines",
+          "url": "https://hookemheadlines.com/oklahoma-sooners-ever-lengthy-sec-availability-report-may-point-to-larger-issue-for-texas-longhorns-rival"
+        },
+        {
           "id": "91535f5d6e69",
           "teamId": "texas",
           "headline": "Oklahoma's coach calls Arch Manning a great player",
@@ -155,15 +164,6 @@
           "date": "2026-10-05",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
-        },
-        {
-          "id": "2c709e12b07c",
-          "teamId": "texas",
-          "headline": "Arch Manning turns up at a middle school game",
-          "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
-          "date": "2026-09-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
         }
       ]
     },
@@ -194,31 +194,31 @@
       },
       "news": [
         {
-          "id": "eca436bb4a4f",
+          "id": "0c23c2b07c53",
           "teamId": "saints",
-          "headline": "Alvin Kamara sits out practice with a sore back",
-          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
-          "date": "2026-10-07",
+          "headline": "Alvin Kamara and Chris Olave are back at practice",
+          "summary": "Both of them sat out Wednesday and both were back on Thursday on a limited basis. Receiver Barion Brown practiced again too, three days before the Vikings game.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "84827777c7d8",
+          "id": "36e0151a9169",
           "teamId": "saints",
-          "headline": "Tyler Shough does not practice with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
-          "date": "2026-10-07",
+          "headline": "Tyler Shough practices with his hurt hand",
+          "summary": "The quarterback took a full practice Thursday after being limited earlier in the week with a sore left hand. He is listed as hurt but he is working.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "4b073ab30ca5",
+          "id": "05855b05d86a",
           "teamId": "saints",
-          "headline": "Minnesota is not sure Justin Jefferson can play",
-          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+          "headline": "Minnesota signs Odell Beckham Jr.",
+          "summary": "The Vikings added the New Orleans native and former LSU receiver to their practice squad on Wednesday. He is not on their main roster, so they would have to move him up for him to play in the Superdome on Sunday.",
+          "date": "2026-10-07",
+          "source": "Minnesota Vikings",
+          "url": "https://www.vikings.com/news/odell-beckham-jr-practice-squad-roster-moves"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "PSAC Sports Digital Network",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/gofightingscots",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free to get on Roku, Apple TV, Fire TV, iPhone or Android, or just tap here on game day. Edinboro is the home team, so this match plays on their channel."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. Tap here on game day and it plays in your web browser, on a phone or on a computer. Edinboro is the home team, so this match is on their channel."
         },
         "note": "Friday evening match at Edinboro. Five o'clock our time, six o'clock theirs."
       },
@@ -330,7 +330,7 @@
         "date": "2026-10-08",
         "time": "7:30 PM",
         "city": "New Orleans, LA",
-        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Saturday afternoon because a tropical storm is coming. Saint Augustine and Holy Cross play there first at 3:00, so this is the second game of the night.",
+        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Friday night at Tad Gormley Stadium because a tropical storm is coming this weekend. Saint Augustine and Holy Cross play there first, so this is the second game of the night.",
         "venue": "Pan American Stadium"
       },
       "lastGame": {
