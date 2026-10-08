@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "39cf16453c8b",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators will regroup",
+      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+      "date": "2026-10-05",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
+    },
     {
       "id": "5e97dc159215",
       "teamId": "florida",

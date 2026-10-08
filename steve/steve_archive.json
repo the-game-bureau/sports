@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "354e5dd18f9f",
+      "teamId": "yankees",
+      "headline": "Yankees shuffle the batting order for Game 3",
+      "summary": "Ben Rice hits first and Anthony Volpe hits last against Tampa Bay on Wednesday night. Aaron Boone used the same nine hitters in the first two games and the Yankees lost both.",
+      "date": "2026-10-07",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/rays-vs-yankees-alds-game-3-starting-lineups-and-pitching-matchup"
+    },
+    {
+      "id": "3a1138c556a9",
+      "teamId": "yankees",
+      "headline": "Max Fried pitches Game 3 on Wednesday night",
+      "summary": "Manager Aaron Boone is giving Fried the ball Wednesday night at Yankee Stadium with the Yankees down two games to none. Nick Martinez pitches for Tampa Bay, and a loss ends New York's season.",
+      "date": "2026-10-06",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/max-fried-yankees-starter-against-rays-in-game-3-2026-alds"
+    },
+    {
+      "id": "ed036b1a4629",
+      "teamId": "yankees",
+      "headline": "Tampa Bay beats the Yankees 5-2",
+      "summary": "The Yankees made four errors Monday night in St. Petersburg and Tampa Bay scored four runs in the fifth inning. Ben Rice hit two home runs for New York, which now has to win three games in a row to stay alive.",
+      "date": "2026-10-06",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50114618/rays-take-advantage-error-prone-yankees-win-alds-game-2"
+    },
+    {
+      "id": "39cf16453c8b",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators will regroup",
+      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+      "date": "2026-10-05",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
+    },
     {
       "id": "5e97dc159215",
       "teamId": "florida",

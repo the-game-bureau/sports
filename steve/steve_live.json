@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -93,6 +93,15 @@
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
         },
         {
+          "id": "1e600475f879",
+          "teamId": "florida",
+          "headline": "Vernell Brown III is cleared to practice again",
+          "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
+          "date": "2026-10-05",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+        },
+        {
           "id": "7bf791f3720a",
           "teamId": "florida",
           "headline": "Jadan Baugh apologizes to his coach",
@@ -100,15 +109,6 @@
           "date": "2026-10-05",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
-        },
-        {
-          "id": "39cf16453c8b",
-          "teamId": "florida",
-          "headline": "Sumrall says the Gators will regroup",
-          "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
-          "date": "2026-10-05",
-          "source": "The Independent Florida Alligator",
-          "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
         }
       ]
     },
@@ -278,56 +278,41 @@
     },
     "yankees": {
       "record": "93-68",
-      "nextGame": {
-        "homeAway": "home",
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-10-07",
-        "utc": "2026-10-08T00:00Z",
-        "time": "7:00 PM",
-        "venue": "Yankee Stadium",
-        "city": "Bronx, NY",
-        "tv": {
-          "name": "TBS",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV. Also shown on truTV."
-        },
-        "note": "Game 3, back home in New York. Tampa Bay leads the series two games to none, so the Yankees have to win Wednesday night to keep playing. Max Fried pitches for New York and Nick Martinez pitches for Tampa Bay."
-      },
+      "nextGame": null,
       "lastGame": {
         "result": "L",
-        "teamScore": 2,
-        "opponentScore": 5,
+        "teamScore": 3,
+        "opponentScore": 4,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-05"
+        "date": "2026-10-07"
       },
       "news": [
         {
-          "id": "354e5dd18f9f",
+          "id": "95e078e157f2",
           "teamId": "yankees",
-          "headline": "Yankees shuffle the batting order for Game 3",
-          "summary": "Ben Rice hits first and Anthony Volpe hits last against Tampa Bay on Wednesday night. Aaron Boone used the same nine hitters in the first two games and the Yankees lost both.",
+          "headline": "Tampa Bay beats the Yankees 4-3 and ends their season",
+          "summary": "Tampa Bay won Wednesday night at Yankee Stadium to take the series three games to none. The Yankees are out of the playoffs, and it is 17 years since they last won the World Series.",
           "date": "2026-10-07",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/rays-vs-yankees-alds-game-3-starting-lineups-and-pitching-matchup"
-        },
-        {
-          "id": "3a1138c556a9",
-          "teamId": "yankees",
-          "headline": "Max Fried pitches Game 3 on Wednesday night",
-          "summary": "Manager Aaron Boone is giving Fried the ball Wednesday night at Yankee Stadium with the Yankees down two games to none. Nick Martinez pitches for Tampa Bay, and a loss ends New York's season.",
-          "date": "2026-10-06",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/max-fried-yankees-starter-against-rays-in-game-3-2026-alds"
-        },
-        {
-          "id": "ed036b1a4629",
-          "teamId": "yankees",
-          "headline": "Tampa Bay beats the Yankees 5-2",
-          "summary": "The Yankees made four errors Monday night in St. Petersburg and Tampa Bay scored four runs in the fifth inning. Ben Rice hit two home runs for New York, which now has to win three games in a row to stay alive.",
-          "date": "2026-10-06",
           "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/50114618/rays-take-advantage-error-prone-yankees-win-alds-game-2"
+          "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
+        },
+        {
+          "id": "db893f2c4e42",
+          "teamId": "yankees",
+          "headline": "A fan reaches over the wall and takes away a home run",
+          "summary": "Anthony Volpe hit a ball to left field in the sixth inning that would have tied the game at 4-4. A fan leaned over the wall and caught it, so the umpires gave Volpe a double instead and only one run scored.",
+          "date": "2026-10-07",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50129842/fan-interference-denies-yankees-game-tying-hr-vs-rays"
+        },
+        {
+          "id": "8980d0caf1fb",
+          "teamId": "yankees",
+          "headline": "Aaron Judge says the Yankees should go all in",
+          "summary": "Judge strained a calf in September and watched the whole playoff series from the dugout. He said afterward that the team should go all in and add players for next year.",
+          "date": "2026-10-07",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50131001/aaron-judge-reacts-yankees-postseason-elimination-rays"
         }
       ]
     },
