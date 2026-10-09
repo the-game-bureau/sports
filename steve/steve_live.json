@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "3fe54705e336",
+          "teamId": "florida",
+          "headline": "Vernell Brown is still a question mark for Saturday",
+          "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
+          "date": "2026-10-07",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
+        },
+        {
           "id": "b987f8aae13c",
           "teamId": "florida",
           "headline": "Sumrall says South Carolina has the most talent yet",
@@ -91,15 +100,6 @@
           "date": "2026-10-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
-        },
-        {
-          "id": "1e600475f879",
-          "teamId": "florida",
-          "headline": "Vernell Brown III is cleared to practice again",
-          "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-          "date": "2026-10-05",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
         },
         {
           "id": "7bf791f3720a",
@@ -194,22 +194,22 @@
       },
       "news": [
         {
-          "id": "eca436bb4a4f",
+          "id": "041ba949863f",
           "teamId": "saints",
-          "headline": "Alvin Kamara sits out practice with a sore back",
-          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
-          "date": "2026-10-07",
+          "headline": "Alvin Kamara is back at practice",
+          "summary": "Kamara missed Wednesday with a sore back, then practiced Thursday on a limited basis. Receiver Chris Olave was back too, limited with a sore foot.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "84827777c7d8",
+          "id": "cbcd1a13acd7",
           "teamId": "saints",
-          "headline": "Tyler Shough does not practice with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
-          "date": "2026-10-07",
+          "headline": "Tyler Shough practices in full and plans to play",
+          "summary": "The Saints quarterback hurt his left hand this week, but he took part in all of Thursday's practice. He says he expects to play Sunday against Minnesota.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
           "id": "4b073ab30ca5",
@@ -323,32 +323,32 @@
       "news": []
     },
     "warren-easton": {
-      "record": "1-4",
+      "record": "2-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "L.W. Higgins",
-        "date": "2026-10-08",
-        "time": "7:30 PM",
-        "city": "New Orleans, LA",
-        "note": "Thursday night home game at Pan American Stadium in City Park, and a district game. It was moved up from Saturday afternoon because a tropical storm is coming. Saint Augustine and Holy Cross play there first at 3:00, so this is the second game of the night.",
-        "venue": "Pan American Stadium"
+        "homeAway": "away",
+        "opponent": "East Jefferson",
+        "date": "2026-10-15",
+        "time": "6:30 PM",
+        "venue": "Joe Yenni Stadium, East Jefferson High School",
+        "city": "Metairie, LA",
+        "note": "Thursday night road game in Metairie, and a district game. Warren Easton has won two in a row."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 50,
-        "opponentScore": 0,
-        "opponent": "Riverdale",
-        "date": "2026-10-01"
+        "teamScore": 29,
+        "opponentScore": 6,
+        "opponent": "L.W. Higgins",
+        "date": "2026-10-08"
       },
       "news": [
         {
-          "id": "883cdcf3ffd4",
+          "id": "52ac232029b8",
           "teamId": "warren-easton",
-          "headline": "Warren Easton's game moves up to Thursday night",
-          "summary": "The Eagles now host Higgins on Thursday at 7:30 at Pan American Stadium instead of Saturday afternoon. It was moved because a tropical storm may reach southeast Louisiana this weekend.",
-          "date": "2026-10-06",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/st-augustine-holy-cross-warren-easton-higgins-games-moved-to-thursday/"
+          "headline": "Warren Easton wins again, 29-6 over Higgins",
+          "summary": "The Eagles beat L.W. Higgins on Thursday night at Pan American Stadium for their second win in a row. Their defense has given up only six points in those two games.",
+          "date": "2026-10-08",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
         },
         {
           "id": "aeafd08016a4",

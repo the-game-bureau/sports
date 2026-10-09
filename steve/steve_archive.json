@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "883cdcf3ffd4",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton's game moves up to Thursday night",
+      "summary": "The Eagles now host Higgins on Thursday at 7:30 at Pan American Stadium instead of Saturday afternoon. It was moved because a tropical storm may reach southeast Louisiana this weekend.",
+      "date": "2026-10-06",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/st-augustine-holy-cross-warren-easton-higgins-games-moved-to-thursday/"
+    },
+    {
+      "id": "84827777c7d8",
+      "teamId": "saints",
+      "headline": "Tyler Shough does not practice with a hurt hand",
+      "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
+      "date": "2026-10-07",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+    },
+    {
+      "id": "eca436bb4a4f",
+      "teamId": "saints",
+      "headline": "Alvin Kamara sits out practice with a sore back",
+      "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
+      "date": "2026-10-07",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+    },
+    {
+      "id": "1e600475f879",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is cleared to practice again",
+      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
+      "date": "2026-10-05",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+    },
     {
       "id": "354e5dd18f9f",
       "teamId": "yankees",

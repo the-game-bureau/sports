@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "teams": {
     "saints": {
       "record": "1-3",
@@ -29,22 +29,22 @@
       },
       "news": [
         {
-          "id": "eca436bb4a4f",
+          "id": "041ba949863f",
           "teamId": "saints",
-          "headline": "Alvin Kamara sits out practice with a sore back",
-          "summary": "Kamara did not practice on Wednesday because his back is sore. Coach Kellen Moore said the knee that bothered Kamara on Monday night was checked and is fine.",
-          "date": "2026-10-07",
+          "headline": "Alvin Kamara is back at practice",
+          "summary": "Kamara missed Wednesday with a sore back, then practiced Thursday on a limited basis. Receiver Chris Olave was back too, limited with a sore foot.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
-          "id": "84827777c7d8",
+          "id": "cbcd1a13acd7",
           "teamId": "saints",
-          "headline": "Tyler Shough does not practice with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand in Monday night's loss and did not practice on Wednesday. Chris Olave, Kaden Elliss and Barion Brown also sat out.",
-          "date": "2026-10-07",
+          "headline": "Tyler Shough practices in full and plans to play",
+          "summary": "The Saints quarterback hurt his left hand this week, but he took part in all of Thursday's practice. He says he expects to play Sunday against Minnesota.",
+          "date": "2026-10-08",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         },
         {
           "id": "4b073ab30ca5",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "3fe54705e336",
+          "teamId": "florida",
+          "headline": "Vernell Brown is still a question mark for Saturday",
+          "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
+          "date": "2026-10-07",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
+        },
+        {
           "id": "b987f8aae13c",
           "teamId": "florida",
           "headline": "Sumrall says South Carolina has the most talent yet",
@@ -91,15 +100,6 @@
           "date": "2026-10-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
-        },
-        {
-          "id": "1e600475f879",
-          "teamId": "florida",
-          "headline": "Vernell Brown III is cleared to practice again",
-          "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-          "date": "2026-10-05",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
         },
         {
           "id": "7bf791f3720a",
@@ -138,6 +138,15 @@
       },
       "news": [
         {
+          "id": "0755613ec0c6",
+          "teamId": "lsu",
+          "headline": "LSU will be without five players at Kentucky",
+          "summary": "Linebacker Whit Weeks and tight end Trey'Dez Green are among the five Tigers ruled out for Saturday. Quarterback Sam Leavitt is not on the injury list at all.",
+          "date": "2026-10-08",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/kentucky-vs-lsu-injury-report-002718826.html"
+        },
+        {
           "id": "10d3e23a1dda",
           "teamId": "lsu",
           "headline": "Sam Leavitt says he will be ready on Saturday",
@@ -145,15 +154,6 @@
           "date": "2026-10-06",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
-        },
-        {
-          "id": "95bdc025a4cc",
-          "teamId": "lsu",
-          "headline": "LSU's homecoming game will be on ABC or ESPN",
-          "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
-          "date": "2026-10-05",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
         },
         {
           "id": "3be85c6cd2d1",
