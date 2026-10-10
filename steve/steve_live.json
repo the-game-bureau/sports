@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "teams": {
     "tulane": {
       "record": "2-2",
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "21c71860093a",
+          "teamId": "saints",
+          "headline": "Three Saints are ruled out for Sunday",
+          "summary": "Kaden Elliss, Anfernee Jennings and Jeremiah Wright will not play against Minnesota. Alvin Kamara practiced again Friday and is still a maybe, while Tyler Shough has no injury tag at all and is clear to play.",
+          "date": "2026-10-09",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-rule-out-trio-on-friday-injury-report-ahead-of-vikings-game/"
+        },
+        {
           "id": "041ba949863f",
           "teamId": "saints",
           "headline": "Alvin Kamara is back at practice",
@@ -210,41 +219,32 @@
           "date": "2026-10-08",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
-        },
-        {
-          "id": "4b073ab30ca5",
-          "teamId": "saints",
-          "headline": "Minnesota is not sure Justin Jefferson can play",
-          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
         }
       ]
     },
     "iup": {
-      "record": "12-4",
+      "record": "13-4",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Edinboro",
-        "date": "2026-10-09",
-        "time": "5:00 PM",
-        "venue": "McComb Fieldhouse",
-        "city": "Edinboro, PA",
+        "opponent": "Gannon",
+        "date": "2026-10-10",
+        "time": "1:00 PM",
+        "venue": "Highmark Events Center",
+        "city": "Erie, PA",
         "tv": {
           "name": "PSAC Sports Digital Network",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/gofightingscots",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free to get on Roku, Apple TV, Fire TV, iPhone or Android, or just tap here on game day. Edinboro is the home team, so this match plays on their channel."
+          "url": "https://psacsportsdigitalnetwork.com/gannonsports/?B=4096453",
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free on Roku, Apple TV, Fire TV, iPhone and Android, or just tap here on game day. Gannon is the home team, so this match plays on their channel."
         },
-        "note": "Friday evening match at Edinboro. Five o'clock our time, six o'clock theirs."
+        "note": "Saturday afternoon match at Gannon. One o'clock our time, two o'clock theirs."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 2,
-        "opponentScore": 3,
-        "opponent": "Pitt-Johnstown",
-        "date": "2026-10-03"
+        "result": "W",
+        "teamScore": 3,
+        "opponentScore": 0,
+        "opponent": "Edinboro",
+        "date": "2026-10-09"
       },
       "news": [
         {
@@ -257,6 +257,15 @@
           "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         },
         {
+          "id": "5ee5a399dbc3",
+          "teamId": "iup",
+          "headline": "IUP sweeps Edinboro on the road",
+          "summary": "IUP won all three sets at Edinboro on Friday night, 26-24, 25-19 and 25-23. Jessica Neiman led the team with 9 kills, and the Crimson Hawks are now 13-4 overall and 7-1 in conference play.",
+          "date": "2026-10-09",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/9/womens-volleyball-balanced-attack-leads-iup-to-road-sweep-of-edinboro.aspx"
+        },
+        {
           "id": "663ec5832c06",
           "teamId": "iup",
           "headline": "IUP loses in five sets and its streak ends",
@@ -264,15 +273,6 @@
           "date": "2026-10-03",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/university-of-pittsburgh-at-johnstown/boxscore/15035"
-        },
-        {
-          "id": "630b0146bcb9",
-          "teamId": "iup",
-          "headline": "IUP sweeps California for its 11th win in a row",
-          "summary": "The Crimson Hawks won 25-18, 25-20, 25-23 at home on Friday. Jessica Neiman had 14 kills and Delaney Concannon had 13 kills and 14 digs, and IUP is 12-3 and still unbeaten in the conference.",
-          "date": "2026-10-02",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
         }
       ]
     },

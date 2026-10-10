@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "teams": {
     "saints": {
       "record": "1-3",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "21c71860093a",
+          "teamId": "saints",
+          "headline": "Three Saints are ruled out for Sunday",
+          "summary": "Kaden Elliss, Anfernee Jennings and Jeremiah Wright will not play against Minnesota. Alvin Kamara practiced again Friday and is still a maybe, while Tyler Shough has no injury tag at all and is clear to play.",
+          "date": "2026-10-09",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-rule-out-trio-on-friday-injury-report-ahead-of-vikings-game/"
+        },
+        {
           "id": "041ba949863f",
           "teamId": "saints",
           "headline": "Alvin Kamara is back at practice",
@@ -45,15 +54,6 @@
           "date": "2026-10-08",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
-        },
-        {
-          "id": "4b073ab30ca5",
-          "teamId": "saints",
-          "headline": "Minnesota is not sure Justin Jefferson can play",
-          "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
         }
       ]
     },

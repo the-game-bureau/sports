@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+    },
     {
       "id": "95bdc025a4cc",
       "teamId": "lsu",

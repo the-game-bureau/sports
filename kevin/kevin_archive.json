@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "b7d764709a2c",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin and Rummel still play Friday afternoon",
+      "summary": "A tropical storm pushed many New Orleans games up to Thursday, but this one did not move. Brother Martin plays Archbishop Rummel on Friday at 3:30 in the afternoon at Tad Gormley Stadium.",
+      "date": "2026-10-07",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/brother-martin-rummel-stays-friday-afternoon-ben-franklin-central-private-and-morris-jeff-newman-now-thursday/"
+    },
+    {
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+    },
     {
       "id": "95bdc025a4cc",
       "teamId": "lsu",

@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-09",
+    "updated": "2026-10-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "630b0146bcb9",
+      "teamId": "iup",
+      "headline": "IUP sweeps California for its 11th win in a row",
+      "summary": "The Crimson Hawks won 25-18, 25-20, 25-23 at home on Friday. Jessica Neiman had 14 kills and Delaney Concannon had 13 kills and 14 digs, and IUP is 12-3 and still unbeaten in the conference.",
+      "date": "2026-10-02",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
+    },
+    {
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+    },
     {
       "id": "883cdcf3ffd4",
       "teamId": "warren-easton",
