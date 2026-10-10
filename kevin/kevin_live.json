@@ -38,6 +38,15 @@
           "url": "https://crescentcitysports.com/saints-rule-out-trio-on-friday-injury-report-ahead-of-vikings-game/"
         },
         {
+          "id": "a77e2a1dc605",
+          "teamId": "saints",
+          "headline": "Chris Olave is set to play Sunday",
+          "summary": "ESPN's Saints reporter says receiver Chris Olave is good to go against Minnesota. He was limited in practice this week with a sore foot.",
+          "date": "2026-10-09",
+          "source": "ESPN",
+          "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
+        },
+        {
           "id": "041ba949863f",
           "teamId": "saints",
           "headline": "Alvin Kamara is back at practice",
@@ -45,20 +54,11 @@
           "date": "2026-10-08",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
-        },
-        {
-          "id": "cbcd1a13acd7",
-          "teamId": "saints",
-          "headline": "Tyler Shough practices in full and plans to play",
-          "summary": "The Saints quarterback hurt his left hand this week, but he took part in all of Thursday's practice. He says he expects to play Sunday against Minnesota.",
-          "date": "2026-10-08",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
         }
       ]
     },
     "florida": {
-      "record": "4-1",
+      "record": "4-2",
       "nextGame": {
         "homeAway": "home",
         "opponent": "South Carolina Gamecocks",
@@ -77,12 +77,21 @@
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 17,
-        "opponentScore": 45,
-        "opponent": "Missouri Tigers",
-        "date": "2026-10-03"
+        "teamScore": 19,
+        "opponentScore": 38,
+        "opponent": "South Carolina Gamecocks",
+        "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "77c1bf12579d",
+          "teamId": "florida",
+          "headline": "South Carolina beats Florida 38-19 at home",
+          "summary": "South Carolina quarterback LaNorris Sellers threw four touchdown passes and ran for another in Gainesville on Saturday. It is Florida's second lopsided loss in a row, and the home crowd booed coach Jon Sumrall.",
+          "date": "2026-10-10",
+          "source": "ESPN",
+          "url": "http://www.espn.com/ncf/recap?gameId=401856714"
+        },
         {
           "id": "3fe54705e336",
           "teamId": "florida",
@@ -100,15 +109,6 @@
           "date": "2026-10-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
-        },
-        {
-          "id": "7bf791f3720a",
-          "teamId": "florida",
-          "headline": "Jadan Baugh apologizes to his coach",
-          "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
-          "date": "2026-10-05",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
         }
       ]
     },
@@ -167,7 +167,7 @@
       ]
     },
     "tulane": {
-      "record": "2-2",
+      "record": "2-3",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Army Black Knights",
@@ -185,13 +185,22 @@
         "note": "Saturday morning kickoff at West Point."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 24,
-        "opponentScore": 21,
-        "opponent": "Southern Miss Golden Eagles",
-        "date": "2026-09-26"
+        "result": "L",
+        "teamScore": 17,
+        "opponentScore": 20,
+        "opponent": "Army Black Knights",
+        "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "2c7f55c1c2c1",
+          "teamId": "tulane",
+          "headline": "Army beats Tulane 20-17 on the last play",
+          "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
+          "date": "2026-10-10",
+          "source": "ESPN",
+          "url": "http://www.espn.com/ncf/recap?gameId=401862795"
+        },
         {
           "id": "784a5655c1b8",
           "teamId": "tulane",
@@ -209,15 +218,6 @@
           "date": "2026-09-28",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
-        },
-        {
-          "id": "f149d570921b",
-          "teamId": "tulane",
-          "headline": "Maurice Turner wins the conference weekly award",
-          "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
-          "date": "2026-09-28",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
         }
       ]
     },

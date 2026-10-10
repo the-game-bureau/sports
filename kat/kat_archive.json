@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "cbcd1a13acd7",
+      "teamId": "saints",
+      "headline": "Tyler Shough practices in full and plans to play",
+      "summary": "The Saints quarterback hurt his left hand this week, but he took part in all of Thursday's practice. He says he expects to play Sunday against Minnesota.",
+      "date": "2026-10-08",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
+    },
+    {
+      "id": "7bf791f3720a",
+      "teamId": "florida",
+      "headline": "Jadan Baugh apologizes to his coach",
+      "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
+      "date": "2026-10-05",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
+    },
+    {
+      "id": "f149d570921b",
+      "teamId": "tulane",
+      "headline": "Maurice Turner wins the conference weekly award",
+      "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
+      "date": "2026-09-28",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+    },
+    {
       "id": "4b073ab30ca5",
       "teamId": "saints",
       "headline": "Minnesota is not sure Justin Jefferson can play",
