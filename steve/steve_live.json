@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "f16260e71888",
+          "teamId": "texas",
+          "headline": "Texas falls from first to seventh",
+          "summary": "Texas was the number one team in the country until Oklahoma beat them 27-24 on Saturday. The new Associated Press poll puts Texas seventh and Georgia first.",
+          "date": "2026-10-11",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/rankings"
+        },
+        {
           "id": "bb3754447261",
           "teamId": "texas",
           "headline": "Oklahoma beats Texas 27-24 in Dallas",
@@ -155,44 +164,53 @@
           "date": "2026-10-10",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-mannings-two-fourth-quarter-interceptions-doom-texas-in-loss-to-oklahoma"
-        },
-        {
-          "id": "91535f5d6e69",
-          "teamId": "texas",
-          "headline": "Oklahoma's coach calls Arch Manning a great player",
-          "summary": "Brent Venables said Manning has a cannon for an arm and no weaknesses in his game. The two teams play Saturday afternoon in Dallas.",
-          "date": "2026-10-07",
-          "source": "ClutchPoints",
-          "url": "https://clutchpoints.com/ncaa-football/oklahoma-football-news-brent-venables-gives-arch-manning-glowing-praise-red-river-showdown"
         }
       ]
     },
     "saints": {
-      "record": "1-3",
+      "record": "1-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Minnesota Vikings",
-        "date": "2026-10-11",
-        "utc": "2026-10-11T17:00Z",
+        "homeAway": "away",
+        "opponent": "New York Giants",
+        "date": "2026-10-18",
+        "utc": "2026-10-18T17:00Z",
         "time": "12:00 PM",
-        "venue": "Caesars Superdome",
-        "city": "New Orleans, LA",
+        "venue": "MetLife Stadium",
+        "city": "East Rutherford, NJ",
         "tv": {
           "name": "Fox 8 (WVUE)",
           "logo": "images/fox8.png",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in the Superdome. Minnesota has won all four of its games."
+        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 24,
-        "opponentScore": 45,
-        "opponent": "Atlanta Falcons",
-        "date": "2026-10-05"
+        "teamScore": 13,
+        "opponentScore": 23,
+        "opponent": "Minnesota Vikings",
+        "date": "2026-10-11"
       },
       "news": [
+        {
+          "id": "ae2f565a2b6c",
+          "teamId": "saints",
+          "headline": "Minnesota beats the Saints 23-13",
+          "summary": "The Saints gained only 142 yards in the Superdome on Sunday, and Tyler Shough threw two interceptions. New Orleans has now lost three home games in a row and is 1-4.",
+          "date": "2026-10-11",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401872987"
+        },
+        {
+          "id": "6cf4c5c5be5a",
+          "teamId": "saints",
+          "headline": "Drew Brees is in the Ring of Honor",
+          "summary": "The Saints put Drew Brees in their Ring of Honor at halftime on Sunday and gave him his Pro Football Hall of Fame ring. He is the ninth man the team has honored that way.",
+          "date": "2026-10-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/game-day/2026/reg-week5/vikings-at-saints/recap"
+        },
         {
           "id": "c127227979e6",
           "teamId": "saints",
@@ -201,24 +219,6 @@
           "date": "2026-10-09",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
-        },
-        {
-          "id": "21c71860093a",
-          "teamId": "saints",
-          "headline": "Three Saints are ruled out for Sunday",
-          "summary": "Kaden Elliss, Anfernee Jennings and Jeremiah Wright will not play against Minnesota. Alvin Kamara practiced again Friday and is still a maybe, while Tyler Shough has no injury tag at all and is clear to play.",
-          "date": "2026-10-09",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/saints-rule-out-trio-on-friday-injury-report-ahead-of-vikings-game/"
-        },
-        {
-          "id": "92ed30c4eeeb",
-          "teamId": "saints",
-          "headline": "Drew Brees joins the Ring of Honor on Sunday",
-          "summary": "The Saints will honor Drew Brees at halftime of Sunday's game in the Superdome. He gets his Hall of Fame ring and becomes the ninth man in the team's Ring of Honor, and fans walking in get a Brees banner.",
-          "date": "2026-10-09",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/drew-brees-ring-of-honor-induction-oct-11-caesars-superdome"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "Mountain East TV",
           "logo": "",
           "url": "https://mountaineast.tv/watch/151",
-          "note": "Every IUP conference match is on the PSAC Sports Digital Network app, free on Roku, Apple TV, Fire TV, iPhone and Android. Wheeling is not a conference school, so this one plays on Wheeling's own channel. Tap here on game day."
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app — free on Roku, Apple TV, Fire TV, iPhone and Android, or at psacsportsdigitalnetwork.com. Wheeling is not a conference school, so this one match plays on Wheeling's own channel. Tap here on game day."
         },
         "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs."
       },
