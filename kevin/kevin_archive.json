@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-10",
+    "updated": "2026-10-11",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "a77e2a1dc605",
+      "teamId": "saints",
+      "headline": "Chris Olave is set to play Sunday",
+      "summary": "ESPN's Saints reporter says receiver Chris Olave is good to go against Minnesota. He was limited in practice this week with a sore foot.",
+      "date": "2026-10-09",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
+    },
+    {
+      "id": "b987f8aae13c",
+      "teamId": "florida",
+      "headline": "Sumrall says South Carolina has the most talent yet",
+      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+      "date": "2026-10-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
+    },
+    {
+      "id": "3be85c6cd2d1",
+      "teamId": "lsu",
+      "headline": "Green and Weeks could play again this season",
+      "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
+      "date": "2026-10-05",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
+    },
     {
       "id": "041ba949863f",
       "teamId": "saints",

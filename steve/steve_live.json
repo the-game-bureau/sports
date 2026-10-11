@@ -1,24 +1,24 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "teams": {
     "tulane": {
       "record": "2-3",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Army Black Knights",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Michie Stadium",
-        "city": "West Point, NY",
+        "homeAway": "home",
+        "opponent": "Memphis Tigers",
+        "date": "2026-10-16",
+        "utc": "2026-10-16T23:30Z",
+        "time": "6:30 PM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "CBS Sports Network",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning kickoff at West Point."
+        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games."
       },
       "lastGame": {
         "result": "L",
@@ -60,20 +60,20 @@
     "florida": {
       "record": "4-2",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "South Carolina Gamecocks",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T16:45Z",
-        "time": "11:45 AM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Texas Longhorns",
+        "date": "2026-10-17",
+        "utc": "2026-10-17T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Darrell K Royal-Texas Memorial Stadium",
+        "city": "Austin, TX",
         "tv": {
-          "name": "SEC Network",
+          "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff. It is homecoming at Florida."
+        "note": "Late morning kickoff in Austin against Texas."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "f0d056c2158f",
+          "teamId": "florida",
+          "headline": "Sumrall says South Carolina won the battle up front",
+          "summary": "Jon Sumrall said South Carolina's defensive line beat Florida's line for most of the day. He said he was frustrated with every part of the 38-19 loss.",
+          "date": "2026-10-10",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
+        },
         {
           "id": "77c1bf12579d",
           "teamId": "florida",
@@ -100,44 +109,53 @@
           "date": "2026-10-07",
           "source": "247Sports",
           "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
-        },
-        {
-          "id": "b987f8aae13c",
-          "teamId": "florida",
-          "headline": "Sumrall says South Carolina has the most talent yet",
-          "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
-          "date": "2026-10-07",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
         }
       ]
     },
     "texas": {
-      "record": "4-0",
+      "record": "4-1",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Oklahoma Sooners",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T19:30Z",
-        "time": "2:30 PM",
-        "venue": "Cotton Bowl",
-        "city": "Dallas, TX",
+        "homeAway": "home",
+        "opponent": "Florida Gators",
+        "date": "2026-10-17",
+        "utc": "2026-10-17T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Darrell K Royal-Texas Memorial Stadium",
+        "city": "Austin, TX",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "The Red River game against Oklahoma, played in Dallas."
+        "note": "Home game against Florida at eleven in the morning."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 20,
-        "opponentScore": 17,
-        "opponent": "Tennessee Volunteers",
-        "date": "2026-09-26"
+        "result": "L",
+        "teamScore": 24,
+        "opponentScore": 27,
+        "opponent": "Oklahoma Sooners",
+        "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "bb3754447261",
+          "teamId": "texas",
+          "headline": "Oklahoma beats Texas 27-24 in Dallas",
+          "summary": "Oklahoma kicked a field goal as time ran out to win the Red River game. Texas led 17-7 at halftime and lost for the first time this year.",
+          "date": "2026-10-10",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/oklahoma-stuns-no-1-texas-002314793.html"
+        },
+        {
+          "id": "4abf08f672a4",
+          "teamId": "texas",
+          "headline": "Arch Manning throws two interceptions late",
+          "summary": "Both came in the fourth quarter, and Oklahoma ran one back for a touchdown that put the Sooners ahead. Manning had thrown two touchdown passes earlier in the game.",
+          "date": "2026-10-10",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-mannings-two-fourth-quarter-interceptions-doom-texas-in-loss-to-oklahoma"
+        },
         {
           "id": "91535f5d6e69",
           "teamId": "texas",
@@ -146,24 +164,6 @@
           "date": "2026-10-07",
           "source": "ClutchPoints",
           "url": "https://clutchpoints.com/ncaa-football/oklahoma-football-news-brent-venables-gives-arch-manning-glowing-praise-red-river-showdown"
-        },
-        {
-          "id": "4bc96414207a",
-          "teamId": "texas",
-          "headline": "Texas is healthier after its week off",
-          "summary": "Coach Steve Sarkisian said Monday the Longhorns are healthier than they were a week ago. Texas did not play last weekend and meets Oklahoma in Dallas on Saturday.",
-          "date": "2026-10-05",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
-        },
-        {
-          "id": "2c709e12b07c",
-          "teamId": "texas",
-          "headline": "Arch Manning turns up at a middle school game",
-          "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
-          "date": "2026-09-30",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "c127227979e6",
+          "teamId": "saints",
+          "headline": "Mike Ditka has died at 86",
+          "summary": "Ditka coached the Saints from 1997 to 1999 and is in the Pro Football Hall of Fame. The team said his kindness and his personality left a lasting mark in New Orleans.",
+          "date": "2026-10-09",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
+        },
+        {
           "id": "21c71860093a",
           "teamId": "saints",
           "headline": "Three Saints are ruled out for Sunday",
@@ -210,15 +219,6 @@
           "date": "2026-10-09",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/drew-brees-ring-of-honor-induction-oct-11-caesars-superdome"
-        },
-        {
-          "id": "a77e2a1dc605",
-          "teamId": "saints",
-          "headline": "Chris Olave is set to play Sunday",
-          "summary": "ESPN's Saints reporter says receiver Chris Olave is good to go against Minnesota. He was limited in practice this week with a sore foot.",
-          "date": "2026-10-09",
-          "source": "ESPN",
-          "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
         }
       ]
     },
@@ -226,18 +226,18 @@
       "record": "14-4",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Gannon",
-        "date": "2026-10-10",
-        "time": "1:00 PM",
-        "venue": "Highmark Events Center",
-        "city": "Erie, PA",
+        "opponent": "Wheeling",
+        "date": "2026-10-13",
+        "time": "5:00 PM",
+        "venue": "Alma Grace McDonough Center",
+        "city": "Wheeling, WV",
         "tv": {
-          "name": "PSAC Sports Digital Network",
+          "name": "Mountain East TV",
           "logo": "",
-          "url": "https://psacsportsdigitalnetwork.com/gannonsports/?B=4096453",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free on Roku, Apple TV, Fire TV, iPhone and Android, or just tap here on game day. Gannon is the home team, so this match plays on their channel."
+          "url": "https://mountaineast.tv/watch/151",
+          "note": "Every IUP conference match is on the PSAC Sports Digital Network app, free on Roku, Apple TV, Fire TV, iPhone and Android. Wheeling is not a conference school, so this one plays on Wheeling's own channel. Tap here on game day."
         },
-        "note": "Saturday afternoon match at Gannon. One o'clock our time, two o'clock theirs."
+        "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs."
       },
       "lastGame": {
         "result": "W",

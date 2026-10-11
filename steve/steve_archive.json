@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-10",
+    "updated": "2026-10-11",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "a77e2a1dc605",
+      "teamId": "saints",
+      "headline": "Chris Olave is set to play Sunday",
+      "summary": "ESPN's Saints reporter says receiver Chris Olave is good to go against Minnesota. He was limited in practice this week with a sore foot.",
+      "date": "2026-10-09",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
+    },
+    {
+      "id": "b987f8aae13c",
+      "teamId": "florida",
+      "headline": "Sumrall says South Carolina has the most talent yet",
+      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+      "date": "2026-10-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
+    },
+    {
+      "id": "4bc96414207a",
+      "teamId": "texas",
+      "headline": "Texas is healthier after its week off",
+      "summary": "Coach Steve Sarkisian said Monday the Longhorns are healthier than they were a week ago. Texas did not play last weekend and meets Oklahoma in Dallas on Saturday.",
+      "date": "2026-10-05",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
+    },
+    {
+      "id": "2c709e12b07c",
+      "teamId": "texas",
+      "headline": "Arch Manning turns up at a middle school game",
+      "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
+      "date": "2026-09-30",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
+    },
     {
       "id": "041ba949863f",
       "teamId": "saints",

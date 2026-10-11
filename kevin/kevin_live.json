@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "teams": {
     "saints": {
       "record": "1-3",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "c127227979e6",
+          "teamId": "saints",
+          "headline": "Mike Ditka has died at 86",
+          "summary": "Ditka coached the Saints from 1997 to 1999 and is in the Pro Football Hall of Fame. The team said his kindness and his personality left a lasting mark in New Orleans.",
+          "date": "2026-10-09",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
+        },
+        {
           "id": "21c71860093a",
           "teamId": "saints",
           "headline": "Three Saints are ruled out for Sunday",
@@ -45,35 +54,26 @@
           "date": "2026-10-09",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/drew-brees-ring-of-honor-induction-oct-11-caesars-superdome"
-        },
-        {
-          "id": "a77e2a1dc605",
-          "teamId": "saints",
-          "headline": "Chris Olave is set to play Sunday",
-          "summary": "ESPN's Saints reporter says receiver Chris Olave is good to go against Minnesota. He was limited in practice this week with a sore foot.",
-          "date": "2026-10-09",
-          "source": "ESPN",
-          "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
         }
       ]
     },
     "florida": {
       "record": "4-2",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "South Carolina Gamecocks",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T16:45Z",
-        "time": "11:45 AM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Texas Longhorns",
+        "date": "2026-10-17",
+        "utc": "2026-10-17T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Darrell K Royal-Texas Memorial Stadium",
+        "city": "Austin, TX",
         "tv": {
-          "name": "SEC Network",
+          "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff. It is homecoming at Florida."
+        "note": "Late morning kickoff in Austin against Texas."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "f0d056c2158f",
+          "teamId": "florida",
+          "headline": "Sumrall says South Carolina won the battle up front",
+          "summary": "Jon Sumrall said South Carolina's defensive line beat Florida's line for most of the day. He said he was frustrated with every part of the 38-19 loss.",
+          "date": "2026-10-10",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
+        },
         {
           "id": "77c1bf12579d",
           "teamId": "florida",
@@ -100,43 +109,44 @@
           "date": "2026-10-07",
           "source": "247Sports",
           "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
-        },
-        {
-          "id": "b987f8aae13c",
-          "teamId": "florida",
-          "headline": "Sumrall says South Carolina has the most talent yet",
-          "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
-          "date": "2026-10-07",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
         }
       ]
     },
     "lsu": {
-      "record": "4-1",
+      "record": "4-2",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Kentucky Wildcats",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T23:00Z",
-        "time": "6:00 PM",
-        "venue": "Kroger Field",
-        "city": "Lexington, KY",
+        "homeAway": "home",
+        "opponent": "Mississippi State Bulldogs",
+        "date": "2026-10-17",
+        "utc": "2026-10-17T16:00Z",
+        "time": "11:00 AM",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
         "tv": {
           "name": "ESPN",
           "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
-        }
+        },
+        "note": "Late morning home game in Baton Rouge. Mississippi State is 4-1."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 63,
-        "opponentScore": 14,
-        "opponent": "McNeese Cowboys",
-        "date": "2026-10-03"
+        "result": "L",
+        "teamScore": 34,
+        "opponentScore": 35,
+        "opponent": "Kentucky Wildcats",
+        "date": "2026-10-10"
       },
       "news": [
+        {
+          "id": "ea2285c94120",
+          "teamId": "lsu",
+          "headline": "Kentucky beats LSU 35-34 in overtime",
+          "summary": "Kentucky scored in overtime and then went for two points instead of kicking, and made it. LSU is now 4-2.",
+          "date": "2026-10-10",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/11/football-falls-to-kentucky-in-ot-35-34"
+        },
         {
           "id": "0755613ec0c6",
           "teamId": "lsu",
@@ -154,35 +164,26 @@
           "date": "2026-10-06",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
-        },
-        {
-          "id": "3be85c6cd2d1",
-          "teamId": "lsu",
-          "headline": "Green and Weeks could play again this season",
-          "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
-          "date": "2026-10-05",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
         }
       ]
     },
     "tulane": {
       "record": "2-3",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Army Black Knights",
-        "date": "2026-10-10",
-        "utc": "2026-10-10T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Michie Stadium",
-        "city": "West Point, NY",
+        "homeAway": "home",
+        "opponent": "Memphis Tigers",
+        "date": "2026-10-16",
+        "utc": "2026-10-16T23:30Z",
+        "time": "6:30 PM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "CBS Sports Network",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning kickoff at West Point."
+        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games."
       },
       "lastGame": {
         "result": "L",
