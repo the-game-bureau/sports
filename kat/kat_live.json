@@ -84,6 +84,24 @@
       },
       "news": [
         {
+          "id": "5c534dca8811",
+          "teamId": "florida",
+          "headline": "Vernell Brown III will miss the Texas game",
+          "summary": "Coach Jon Sumrall said Monday that the receiver is not expected to play Saturday at Texas. Sumrall said Brown is trying hard to get back on the field.",
+          "date": "2026-10-12",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/10/jon-sumrall-press-conference-texas-26"
+        },
+        {
+          "id": "1ec68cba681c",
+          "teamId": "florida",
+          "headline": "Florida takes a star receiver away from Texas",
+          "summary": "Easton Royal, a receiver at Brother Martin High School in New Orleans, switched his college choice from Texas to Florida on Sunday. He is rated one of the best high school receivers in the country and plans to play for the Gators.",
+          "date": "2026-10-11",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+        },
+        {
           "id": "036995f12f16",
           "teamId": "florida",
           "headline": "Florida drops out of the rankings",
@@ -91,24 +109,6 @@
           "date": "2026-10-11",
           "source": "Associated Press",
           "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
-        },
-        {
-          "id": "f0d056c2158f",
-          "teamId": "florida",
-          "headline": "Sumrall says South Carolina won the battle up front",
-          "summary": "Jon Sumrall said South Carolina's defensive line beat Florida's line for most of the day. He said he was frustrated with every part of the 38-19 loss.",
-          "date": "2026-10-10",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
-        },
-        {
-          "id": "77c1bf12579d",
-          "teamId": "florida",
-          "headline": "South Carolina beats Florida 38-19 at home",
-          "summary": "South Carolina quarterback LaNorris Sellers threw four touchdown passes and ran for another in Gainesville on Saturday. It is Florida's second lopsided loss in a row, and the home crowd booed coach Jon Sumrall.",
-          "date": "2026-10-10",
-          "source": "ESPN",
-          "url": "http://www.espn.com/ncf/recap?gameId=401856714"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "3dd253456d63",
+          "teamId": "lsu",
+          "headline": "Mississippi State's quarterback may miss the LSU game",
+          "summary": "Kamario Taylor hurt his foot against Alabama on October 3 and walked off in a boot. His coach said Monday that the team will know more on Wednesday, before Saturday's game in Baton Rouge.",
+          "date": "2026-10-12",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/mississippi-state-quarterback-kamario-taylors-injury-status-for-lsu-game-awaiting-update/"
+        },
+        {
           "id": "f9842bfb5549",
           "teamId": "lsu",
           "headline": "LSU drops to 22nd in the new poll",
@@ -155,15 +164,6 @@
           "date": "2026-10-10",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/11/football-falls-to-kentucky-in-ot-35-34"
-        },
-        {
-          "id": "0755613ec0c6",
-          "teamId": "lsu",
-          "headline": "LSU will be without five players at Kentucky",
-          "summary": "Linebacker Whit Weeks and tight end Trey'Dez Green are among the five Tigers ruled out for Saturday. Quarterback Sam Leavitt is not on the injury list at all.",
-          "date": "2026-10-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/kentucky-vs-lsu-injury-report-002718826.html"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "0962d6515f46",
+          "teamId": "tulane",
+          "headline": "Tulane's last game is set for November 28",
+          "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
+          "date": "2026-10-12",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
+        },
+        {
           "id": "2c7f55c1c2c1",
           "teamId": "tulane",
           "headline": "Army beats Tulane 20-17 on the last play",
@@ -210,15 +219,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
-        },
-        {
-          "id": "1e77afaaa6a7",
-          "teamId": "tulane",
-          "headline": "Freshman Trace Johnson takes over at quarterback",
-          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-          "date": "2026-09-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
         }
       ]
     }

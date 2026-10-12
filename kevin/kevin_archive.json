@@ -7,6 +7,51 @@
   },
   "items": [
     {
+      "id": "227c4a06c361",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin pitcher Chance Pecoraro picks Tulane",
+      "summary": "Pecoraro, a junior pitcher at Brother Martin, said he will play baseball at Tulane. He was 3-0 with a 1.90 earned run average last spring and now throws 90 to 92 miles an hour.",
+      "date": "2026-10-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/baseball-recruiting-brother-martins-pecoraro-to-tulane-john-curtis-dufrene-to-ole-miss/"
+    },
+    {
+      "id": "0755613ec0c6",
+      "teamId": "lsu",
+      "headline": "LSU will be without five players at Kentucky",
+      "summary": "Linebacker Whit Weeks and tight end Trey'Dez Green are among the five Tigers ruled out for Saturday. Quarterback Sam Leavitt is not on the injury list at all.",
+      "date": "2026-10-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/kentucky-vs-lsu-injury-report-002718826.html"
+    },
+    {
+      "id": "77c1bf12579d",
+      "teamId": "florida",
+      "headline": "South Carolina beats Florida 38-19 at home",
+      "summary": "South Carolina quarterback LaNorris Sellers threw four touchdown passes and ran for another in Gainesville on Saturday. It is Florida's second lopsided loss in a row, and the home crowd booed coach Jon Sumrall.",
+      "date": "2026-10-10",
+      "source": "ESPN",
+      "url": "http://www.espn.com/ncf/recap?gameId=401856714"
+    },
+    {
+      "id": "f0d056c2158f",
+      "teamId": "florida",
+      "headline": "Sumrall says South Carolina won the battle up front",
+      "summary": "Jon Sumrall said South Carolina's defensive line beat Florida's line for most of the day. He said he was frustrated with every part of the 38-19 loss.",
+      "date": "2026-10-10",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
+    },
+    {
+      "id": "1e77afaaa6a7",
+      "teamId": "tulane",
+      "headline": "Freshman Trace Johnson takes over at quarterback",
+      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+    },
+    {
       "id": "c127227979e6",
       "teamId": "saints",
       "headline": "Mike Ditka has died at 86",

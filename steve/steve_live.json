@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "0962d6515f46",
+          "teamId": "tulane",
+          "headline": "Tulane's last game is set for November 28",
+          "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
+          "date": "2026-10-12",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
+        },
+        {
           "id": "2c7f55c1c2c1",
           "teamId": "tulane",
           "headline": "Army beats Tulane 20-17 on the last play",
@@ -45,15 +54,6 @@
           "date": "2026-10-06",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
-        },
-        {
-          "id": "1e77afaaa6a7",
-          "teamId": "tulane",
-          "headline": "Freshman Trace Johnson takes over at quarterback",
-          "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-          "date": "2026-09-28",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
         }
       ]
     },
@@ -84,6 +84,24 @@
       },
       "news": [
         {
+          "id": "5c534dca8811",
+          "teamId": "florida",
+          "headline": "Vernell Brown III will miss the Texas game",
+          "summary": "Coach Jon Sumrall said Monday that the receiver is not expected to play Saturday at Texas. Sumrall said Brown is trying hard to get back on the field.",
+          "date": "2026-10-12",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/10/jon-sumrall-press-conference-texas-26"
+        },
+        {
+          "id": "1ec68cba681c",
+          "teamId": "florida",
+          "headline": "Florida takes a star receiver away from Texas",
+          "summary": "Easton Royal, a receiver at Brother Martin High School in New Orleans, switched his college choice from Texas to Florida on Sunday. He is rated one of the best high school receivers in the country and plans to play for the Gators.",
+          "date": "2026-10-11",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+        },
+        {
           "id": "036995f12f16",
           "teamId": "florida",
           "headline": "Florida drops out of the rankings",
@@ -91,24 +109,6 @@
           "date": "2026-10-11",
           "source": "Associated Press",
           "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
-        },
-        {
-          "id": "f0d056c2158f",
-          "teamId": "florida",
-          "headline": "Sumrall says South Carolina won the battle up front",
-          "summary": "Jon Sumrall said South Carolina's defensive line beat Florida's line for most of the day. He said he was frustrated with every part of the 38-19 loss.",
-          "date": "2026-10-10",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
-        },
-        {
-          "id": "77c1bf12579d",
-          "teamId": "florida",
-          "headline": "South Carolina beats Florida 38-19 at home",
-          "summary": "South Carolina quarterback LaNorris Sellers threw four touchdown passes and ran for another in Gainesville on Saturday. It is Florida's second lopsided loss in a row, and the home crowd booed coach Jon Sumrall.",
-          "date": "2026-10-10",
-          "source": "ESPN",
-          "url": "http://www.espn.com/ncf/recap?gameId=401856714"
         }
       ]
     },
@@ -139,6 +139,24 @@
       },
       "news": [
         {
+          "id": "8b1314dab28e",
+          "teamId": "texas",
+          "headline": "Sarkisian defends Arch Manning",
+          "summary": "Coach Steve Sarkisian said Monday that fans judge Manning harder because of his family name. He said if the name were off the jersey, people would be praising him.",
+          "date": "2026-10-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50168104/manning-name-leading-outsized-criticism-arch"
+        },
+        {
+          "id": "138df60b418f",
+          "teamId": "texas",
+          "headline": "Texas loses a star receiver to Florida",
+          "summary": "Easton Royal, a New Orleans high school receiver who had promised to come to Texas, switched to Florida on Sunday. The news came hours after the Longhorns lost to Oklahoma.",
+          "date": "2026-10-11",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+        },
+        {
           "id": "f16260e71888",
           "teamId": "texas",
           "headline": "Texas falls from first to seventh",
@@ -146,24 +164,6 @@
           "date": "2026-10-11",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/rankings"
-        },
-        {
-          "id": "bb3754447261",
-          "teamId": "texas",
-          "headline": "Oklahoma beats Texas 27-24 in Dallas",
-          "summary": "Oklahoma kicked a field goal as time ran out to win the Red River game. Texas led 17-7 at halftime and lost for the first time this year.",
-          "date": "2026-10-10",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/oklahoma-stuns-no-1-texas-002314793.html"
-        },
-        {
-          "id": "4abf08f672a4",
-          "teamId": "texas",
-          "headline": "Arch Manning throws two interceptions late",
-          "summary": "Both came in the fourth quarter, and Oklahoma ran one back for a touchdown that put the Sooners ahead. Manning had thrown two touchdown passes earlier in the game.",
-          "date": "2026-10-10",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-mannings-two-fourth-quarter-interceptions-doom-texas-in-loss-to-oklahoma"
         }
       ]
     },
@@ -235,9 +235,9 @@
           "name": "Mountain East TV",
           "logo": "",
           "url": "https://mountaineast.tv/watch/151",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app — free on Roku, Apple TV, Fire TV, iPhone and Android, or at psacsportsdigitalnetwork.com. Wheeling is not a conference school, so this one match plays on Wheeling's own channel. Tap here on game day."
+          "note": "Wheeling is not a conference school, so this match is on their channel. Every IUP home game is on the PSAC Sports Digital Network app, at psacsportsdigitalnetwork.com/iupathletics"
         },
-        "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs."
+        "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs. Wheeling has won 12 games and lost 6."
       },
       "lastGame": {
         "result": "W",
@@ -257,6 +257,15 @@
           "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
         },
         {
+          "id": "fede3d06f81b",
+          "teamId": "iup",
+          "headline": "Delaney Concannon wins a conference award",
+          "summary": "The outside hitter had 27 digs in two road wins last weekend, including 16 against Gannon, more than anyone on either team. The conference named her its West Division defensive athlete of the week on Monday.",
+          "date": "2026-10-12",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/12/womens-volleyball-concannon-earns-psac-west-defensive-athlete-of-the-week-honors.aspx"
+        },
+        {
           "id": "23456c7ae59b",
           "teamId": "iup",
           "headline": "IUP sweeps Gannon in Erie",
@@ -264,15 +273,6 @@
           "date": "2026-10-10",
           "source": "Gannon Athletics",
           "url": "https://gannonsports.com/sports/womens-volleyball/stats/2026/iup/boxscore/12725"
-        },
-        {
-          "id": "5ee5a399dbc3",
-          "teamId": "iup",
-          "headline": "IUP sweeps Edinboro on the road",
-          "summary": "IUP won all three sets at Edinboro on Friday night, 26-24, 25-19 and 25-23. Jessica Neiman led the team with 9 kills, and the Crimson Hawks are now 13-4 overall and 7-1 in conference play.",
-          "date": "2026-10-09",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/9/womens-volleyball-balanced-attack-leads-iup-to-road-sweep-of-edinboro.aspx"
         }
       ]
     },
