@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "teams": {
     "tulane": {
       "record": "2-3",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "036995f12f16",
+          "teamId": "florida",
+          "headline": "Florida drops out of the rankings",
+          "summary": "Florida had been ranked 16th in the country, but Saturday's loss to South Carolina pushed the Gators out of the Associated Press top 25 on Sunday. It was their second bad loss in a row.",
+          "date": "2026-10-11",
+          "source": "Associated Press",
+          "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
+        },
+        {
           "id": "f0d056c2158f",
           "teamId": "florida",
           "headline": "Sumrall says South Carolina won the battle up front",
@@ -100,15 +109,6 @@
           "date": "2026-10-10",
           "source": "ESPN",
           "url": "http://www.espn.com/ncf/recap?gameId=401856714"
-        },
-        {
-          "id": "3fe54705e336",
-          "teamId": "florida",
-          "headline": "Vernell Brown is still a question mark for Saturday",
-          "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
-          "date": "2026-10-07",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
         }
       ]
     },
@@ -212,13 +212,13 @@
           "url": "https://www.neworleanssaints.com/game-day/2026/reg-week5/vikings-at-saints/recap"
         },
         {
-          "id": "c127227979e6",
+          "id": "7fa6b72980e5",
           "teamId": "saints",
-          "headline": "Mike Ditka has died at 86",
-          "summary": "Ditka coached the Saints from 1997 to 1999 and is in the Pro Football Hall of Fame. The team said his kindness and his personality left a lasting mark in New Orleans.",
-          "date": "2026-10-09",
+          "headline": "Jonas Sanker runs a fumble back 87 yards",
+          "summary": "Sanker scooped up a Minnesota fumble in the third quarter and ran 87 yards for a touchdown that tied the game at 13. It was the second longest fumble return in Saints history, and New Orleans did not score again after it.",
+          "date": "2026-10-11",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-search-for-victory-remains-elusive"
         }
       ]
     },

@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "c127227979e6",
+      "teamId": "saints",
+      "headline": "Mike Ditka has died at 86",
+      "summary": "Ditka coached the Saints from 1997 to 1999 and is in the Pro Football Hall of Fame. The team said his kindness and his personality left a lasting mark in New Orleans.",
+      "date": "2026-10-09",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
+    },
+    {
+      "id": "3fe54705e336",
+      "teamId": "florida",
+      "headline": "Vernell Brown is still a question mark for Saturday",
+      "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
+      "date": "2026-10-07",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
+    },
+    {
+      "id": "2fe56729ecf8",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin slips to seventh in the state",
+      "summary": "Crescent City Sports now has the 4-1 Crusaders seventh among Louisiana's Class 5A teams, down from fifth, after Friday's loss to Edna Karr. Karr is 5-0 and first.",
+      "date": "2026-10-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/ocs-moves-atop-class-1a-other-no-1-steady-in-ccs-state-top-10-rankings/"
+    },
     {
       "id": "21c71860093a",
       "teamId": "saints",
