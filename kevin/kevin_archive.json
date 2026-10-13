@@ -2,10 +2,55 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "6cf4c5c5be5a",
+      "teamId": "saints",
+      "headline": "Drew Brees is in the Ring of Honor",
+      "summary": "The Saints put Drew Brees in their Ring of Honor at halftime on Sunday and gave him his Pro Football Hall of Fame ring. He is the ninth man the team has honored that way.",
+      "date": "2026-10-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/game-day/2026/reg-week5/vikings-at-saints/recap"
+    },
+    {
+      "id": "7fa6b72980e5",
+      "teamId": "saints",
+      "headline": "Jonas Sanker runs a fumble back 87 yards",
+      "summary": "Sanker scooped up a Minnesota fumble in the third quarter and ran 87 yards for a touchdown that tied the game at 13. It was the second longest fumble return in Saints history, and New Orleans did not score again after it.",
+      "date": "2026-10-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-search-for-victory-remains-elusive"
+    },
+    {
+      "id": "036995f12f16",
+      "teamId": "florida",
+      "headline": "Florida drops out of the rankings",
+      "summary": "Florida had been ranked 16th in the country, but Saturday's loss to South Carolina pushed the Gators out of the Associated Press top 25 on Sunday. It was their second bad loss in a row.",
+      "date": "2026-10-11",
+      "source": "Associated Press",
+      "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
+    },
+    {
+      "id": "ea2285c94120",
+      "teamId": "lsu",
+      "headline": "Kentucky beats LSU 35-34 in overtime",
+      "summary": "Kentucky scored in overtime and then went for two points instead of kicking, and made it. LSU is now 4-2.",
+      "date": "2026-10-10",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/11/football-falls-to-kentucky-in-ot-35-34"
+    },
+    {
+      "id": "784a5655c1b8",
+      "teamId": "tulane",
+      "headline": "Jamauri McClure is back for the Army game",
+      "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+    },
     {
       "id": "227c4a06c361",
       "teamId": "brother-martin",

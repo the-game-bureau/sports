@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "teams": {
     "saints": {
       "record": "1-4",
@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "c3a56a9d2262",
+          "teamId": "saints",
+          "headline": "Jordyn Tyson will not practice this week",
+          "summary": "Coach Kellen Moore said Monday that the Saints do not expect their rookie receiver to practice this week, so he will not play Sunday at the Giants. Tyson hurt a hamstring in August and has not played a game yet.",
+          "date": "2026-10-12",
+          "source": "NOLA.com",
+          "url": "https://www.nola.com/sports/saints/saints-do-not-expect-rookie-wr-jordyn-tyson-to-practice-this-week-as-ir-stint/article_fe2ac4d3-d164-4c13-b5a1-0b533db7a8f9.html"
+        },
+        {
+          "id": "b3e7a7878835",
+          "teamId": "saints",
+          "headline": "Tyler Shough hurt his left hand",
+          "summary": "The Saints quarterback hurt his left hand in Atlanta a week earlier, wore a glove on it Sunday and handed the ball off with his right hand instead. Asked if the hand is broken, he said he was not sure he could answer that, and said it did not bother him.",
+          "date": "2026-10-11",
+          "source": "NOLA.com",
+          "url": "https://www.nola.com/sports/saints/saints-qb-tyler-shough-was-asked-if-his-left-hand-is-broken-here-s-what/article_e98de28a-fe36-4a31-b504-bce3af5f4933.html"
+        },
+        {
           "id": "ae2f565a2b6c",
           "teamId": "saints",
           "headline": "Minnesota beats the Saints 23-13",
@@ -36,24 +54,6 @@
           "date": "2026-10-11",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/recap/_/gameId/401872987"
-        },
-        {
-          "id": "6cf4c5c5be5a",
-          "teamId": "saints",
-          "headline": "Drew Brees is in the Ring of Honor",
-          "summary": "The Saints put Drew Brees in their Ring of Honor at halftime on Sunday and gave him his Pro Football Hall of Fame ring. He is the ninth man the team has honored that way.",
-          "date": "2026-10-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/game-day/2026/reg-week5/vikings-at-saints/recap"
-        },
-        {
-          "id": "7fa6b72980e5",
-          "teamId": "saints",
-          "headline": "Jonas Sanker runs a fumble back 87 yards",
-          "summary": "Sanker scooped up a Minnesota fumble in the third quarter and ran 87 yards for a touchdown that tied the game at 13. It was the second longest fumble return in Saints history, and New Orleans did not score again after it.",
-          "date": "2026-10-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-search-for-victory-remains-elusive"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "861b4f416638",
+          "teamId": "florida",
+          "headline": "Sumrall takes a bigger hand in the defense",
+          "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
+          "date": "2026-10-12",
+          "source": "Saturday Down South",
+          "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
+        },
+        {
           "id": "5c534dca8811",
           "teamId": "florida",
           "headline": "Vernell Brown III will miss the Texas game",
@@ -100,15 +109,6 @@
           "date": "2026-10-11",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
-        },
-        {
-          "id": "036995f12f16",
-          "teamId": "florida",
-          "headline": "Florida drops out of the rankings",
-          "summary": "Florida had been ranked 16th in the country, but Saturday's loss to South Carolina pushed the Gators out of the Associated Press top 25 on Sunday. It was their second bad loss in a row.",
-          "date": "2026-10-11",
-          "source": "Associated Press",
-          "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "8627daaeeba4",
+          "teamId": "lsu",
+          "headline": "LSU sends a touchdown play to the league office",
+          "summary": "Coach Lane Kiffin said Monday he sent the tape of Kentucky's short fourth-down touchdown to the conference office and had not heard back. He also thought officials missed a block in the back on a 55-yard punt return, but said the calls even out over time.",
+          "date": "2026-10-12",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lane-kiffin-turns-in-controversial-tush-push-td-to-sec-but-says-officiating-over-time-evens-out/"
+        },
+        {
           "id": "3dd253456d63",
           "teamId": "lsu",
           "headline": "Mississippi State's quarterback may miss the LSU game",
@@ -155,15 +164,6 @@
           "date": "2026-10-11",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/rankings"
-        },
-        {
-          "id": "ea2285c94120",
-          "teamId": "lsu",
-          "headline": "Kentucky beats LSU 35-34 in overtime",
-          "summary": "Kentucky scored in overtime and then went for two points instead of kicking, and made it. LSU is now 4-2.",
-          "date": "2026-10-10",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/11/football-falls-to-kentucky-in-ot-35-34"
         }
       ]
     },
@@ -212,13 +212,13 @@
           "url": "http://www.espn.com/ncf/recap?gameId=401862795"
         },
         {
-          "id": "784a5655c1b8",
+          "id": "b3fea2b6275b",
           "teamId": "tulane",
-          "headline": "Jamauri McClure is back for the Army game",
-          "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
-          "date": "2026-10-06",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+          "headline": "Tulane loses a starting lineman to injury",
+          "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
+          "date": "2026-10-10",
+          "source": "NOLA.com",
+          "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
         }
       ]
     },
