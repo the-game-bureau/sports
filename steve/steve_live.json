@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "d19ca95b665e",
+          "teamId": "saints",
+          "headline": "Saints owner says 1-4 is not good enough",
+          "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
+          "date": "2026-10-13",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+        },
+        {
           "id": "c3a56a9d2262",
           "teamId": "saints",
           "headline": "Jordyn Tyson will not practice this week",
@@ -210,15 +219,6 @@
           "date": "2026-10-11",
           "source": "NOLA.com",
           "url": "https://www.nola.com/sports/saints/saints-qb-tyler-shough-was-asked-if-his-left-hand-is-broken-here-s-what/article_e98de28a-fe36-4a31-b504-bce3af5f4933.html"
-        },
-        {
-          "id": "ae2f565a2b6c",
-          "teamId": "saints",
-          "headline": "Minnesota beats the Saints 23-13",
-          "summary": "The Saints gained only 142 yards in the Superdome on Sunday, and Tyler Shough threw two interceptions. New Orleans has now lost three home games in a row and is 1-4.",
-          "date": "2026-10-11",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/recap/_/gameId/401872987"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "name": "Mountain East TV",
           "logo": "",
           "url": "https://mountaineast.tv/watch/151",
-          "note": "All IUP volleyball is on the PSAC Sports Digital Network app, at psacsportsdigitalnetwork.com/iupathletics. Tonight is the one exception: Wheeling is not a conference school, so this match is on their channel"
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, free on your phone or your TV, and at psacsportsdigitalnetwork.com/iupathletics. Tonight is the one exception. Wheeling is not in IUP's conference, so this match is on Wheeling's own channel."
         },
         "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs. Wheeling has won 12 games and lost 6."
       },
@@ -331,7 +331,7 @@
         "time": "6:30 PM",
         "venue": "Joe Yenni Stadium, East Jefferson High School",
         "city": "Metairie, LA",
-        "note": "Thursday night road game in Metairie, and a district game. Warren Easton has won two in a row."
+        "note": "Thursday night road game in Metairie, and a district game. Warren Easton has won two in a row. East Jefferson has won one game and lost five."
       },
       "lastGame": {
         "result": "W",
