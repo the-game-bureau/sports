@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "296df4abda3d",
+          "teamId": "saints",
+          "headline": "Tyler Shough is back to full practice",
+          "summary": "The Saints quarterback hurt his left hand in Sunday's loss to Minnesota, and on Wednesday he took part in the whole practice. Receiver Chris Olave stayed out sick, and linebacker Kaden Elliss sat out with a sore calf.",
+          "date": "2026-10-14",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
+        },
+        {
           "id": "23b3cb79532b",
           "teamId": "saints",
           "headline": "Saints let their long snapper go",
@@ -45,15 +54,6 @@
           "date": "2026-10-13",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
-        },
-        {
-          "id": "c3a56a9d2262",
-          "teamId": "saints",
-          "headline": "Jordyn Tyson will not practice this week",
-          "summary": "Coach Kellen Moore said Monday that the Saints do not expect their rookie receiver to practice this week, so he will not play Sunday at the Giants. Tyson hurt a hamstring in August and has not played a game yet.",
-          "date": "2026-10-12",
-          "source": "NOLA.com",
-          "url": "https://www.nola.com/sports/saints/saints-do-not-expect-rookie-wr-jordyn-tyson-to-practice-this-week-as-ir-stint/article_fe2ac4d3-d164-4c13-b5a1-0b533db7a8f9.html"
         }
       ]
     },
@@ -84,6 +84,24 @@
       },
       "news": [
         {
+          "id": "c53b69a928e4",
+          "teamId": "florida",
+          "headline": "Florida may be without its quarterback at Texas",
+          "summary": "Aaron Philo hurt his shoulder in Saturday's loss to South Carolina, and he has done only part of practice this week. If he cannot play Saturday at Texas, Tramell Jones Jr. would start for the first time.",
+          "date": "2026-10-14",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/florida-qb-aaron-philo-injury-texas/"
+        },
+        {
+          "id": "241e8b1ba6d1",
+          "teamId": "florida",
+          "headline": "Vernell Brown III is practicing again",
+          "summary": "Florida's leading receiver has practiced all week after hurting his knee and missing the last two games. He has a real chance to play Saturday at Texas.",
+          "date": "2026-10-14",
+          "source": "Only Gators",
+          "url": "https://www.onlygators.com/10/14/2026/florida-qb-aaron-philos-status-in-question-vs-texas-wr-vernell-brown-iii-has-real-shot-to-play/"
+        },
+        {
           "id": "861b4f416638",
           "teamId": "florida",
           "headline": "Sumrall takes a bigger hand in the defense",
@@ -91,24 +109,6 @@
           "date": "2026-10-12",
           "source": "Saturday Down South",
           "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
-        },
-        {
-          "id": "5c534dca8811",
-          "teamId": "florida",
-          "headline": "Vernell Brown III will miss the Texas game",
-          "summary": "Coach Jon Sumrall said Monday that the receiver is not expected to play Saturday at Texas. Sumrall said Brown is trying hard to get back on the field.",
-          "date": "2026-10-12",
-          "source": "The Independent Florida Alligator",
-          "url": "https://www.alligator.org/article/2026/10/jon-sumrall-press-conference-texas-26"
-        },
-        {
-          "id": "1ec68cba681c",
-          "teamId": "florida",
-          "headline": "Florida takes a star receiver away from Texas",
-          "summary": "Easton Royal, a receiver at Brother Martin High School in New Orleans, switched his college choice from Texas to Florida on Sunday. He is rated one of the best high school receivers in the country and plans to play for the Gators.",
-          "date": "2026-10-11",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "20bee90b3540",
+          "teamId": "lsu",
+          "headline": "LSU gets $500,000 from Kentucky",
+          "summary": "Kentucky fans ran onto the field after beating LSU 35-34 on Saturday, which the league does not allow. The league fined Kentucky $500,000, and the rules send that money to LSU.",
+          "date": "2026-10-13",
+          "source": "WAFB",
+          "url": "https://www.wafb.com/2026/10/13/lsu-receive-500000-kentucky-after-overtime-loss-heres-why/"
+        },
+        {
           "id": "8627daaeeba4",
           "teamId": "lsu",
           "headline": "LSU sends a touchdown play to the league office",
@@ -155,15 +164,6 @@
           "date": "2026-10-12",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/mississippi-state-quarterback-kamario-taylors-injury-status-for-lsu-game-awaiting-update/"
-        },
-        {
-          "id": "f9842bfb5549",
-          "teamId": "lsu",
-          "headline": "LSU drops to 22nd in the new poll",
-          "summary": "LSU was tenth in the country before losing 35-34 at Kentucky on Saturday. The new Associated Press poll has the Tigers 22nd, and 16th-ranked Mississippi State comes to Baton Rouge on Saturday.",
-          "date": "2026-10-11",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/rankings"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "400b9963193c",
+          "teamId": "tulane",
+          "headline": "Tulane has not named a quarterback for Friday",
+          "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
+          "date": "2026-10-13",
+          "source": "Tulane On SI",
+          "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
+        },
+        {
           "id": "0962d6515f46",
           "teamId": "tulane",
           "headline": "Tulane's last game is set for November 28",
@@ -210,15 +219,6 @@
           "date": "2026-10-10",
           "source": "ESPN",
           "url": "http://www.espn.com/ncf/recap?gameId=401862795"
-        },
-        {
-          "id": "b3fea2b6275b",
-          "teamId": "tulane",
-          "headline": "Tulane loses a starting lineman to injury",
-          "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
-          "date": "2026-10-10",
-          "source": "NOLA.com",
-          "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
         }
       ]
     }
