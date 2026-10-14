@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "teams": {
     "saints": {
       "record": "1-4",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "23b3cb79532b",
+          "teamId": "saints",
+          "headline": "Saints let their long snapper go",
+          "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
+          "date": "2026-10-13",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+        },
+        {
           "id": "d19ca95b665e",
           "teamId": "saints",
           "headline": "Saints owner says 1-4 is not good enough",
@@ -45,15 +54,6 @@
           "date": "2026-10-12",
           "source": "NOLA.com",
           "url": "https://www.nola.com/sports/saints/saints-do-not-expect-rookie-wr-jordyn-tyson-to-practice-this-week-as-ir-stint/article_fe2ac4d3-d164-4c13-b5a1-0b533db7a8f9.html"
-        },
-        {
-          "id": "b3e7a7878835",
-          "teamId": "saints",
-          "headline": "Tyler Shough hurt his left hand",
-          "summary": "The Saints quarterback hurt his left hand in Atlanta a week earlier, wore a glove on it Sunday and handed the ball off with his right hand instead. Asked if the hand is broken, he said he was not sure he could answer that, and said it did not bother him.",
-          "date": "2026-10-11",
-          "source": "NOLA.com",
-          "url": "https://www.nola.com/sports/saints/saints-qb-tyler-shough-was-asked-if-his-left-hand-is-broken-here-s-what/article_e98de28a-fe36-4a31-b504-bce3af5f4933.html"
         }
       ]
     },
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games."
+        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games. Tulane is calling it Light it Uptown: the first 1,500 fans get light-up glasses, and there is a drone show at halftime and during the game."
       },
       "lastGame": {
         "result": "L",

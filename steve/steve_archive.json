@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f18ba4436e07",
+      "teamId": "iup",
+      "headline": "Peyton Belcher has her best day of the season",
+      "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
+      "date": "2026-09-11",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
+    },
+    {
+      "id": "23456c7ae59b",
+      "teamId": "iup",
+      "headline": "IUP sweeps Gannon in Erie",
+      "summary": "IUP won all three sets at Gannon on Saturday, 25-19, 25-12 and 25-19. Jessica Neiman led the team with 14 kills, and the Crimson Hawks are now 14-4.",
+      "date": "2026-10-10",
+      "source": "Gannon Athletics",
+      "url": "https://gannonsports.com/sports/womens-volleyball/stats/2026/iup/boxscore/12725"
+    },
+    {
+      "id": "b3e7a7878835",
+      "teamId": "saints",
+      "headline": "Tyler Shough hurt his left hand",
+      "summary": "The Saints quarterback hurt his left hand in Atlanta a week earlier, wore a glove on it Sunday and handed the ball off with his right hand instead. Asked if the hand is broken, he said he was not sure he could answer that, and said it did not bother him.",
+      "date": "2026-10-11",
+      "source": "NOLA.com",
+      "url": "https://www.nola.com/sports/saints/saints-qb-tyler-shough-was-asked-if-his-left-hand-is-broken-here-s-what/article_e98de28a-fe36-4a31-b504-bce3af5f4933.html"
+    },
     {
       "id": "ae2f565a2b6c",
       "teamId": "saints",

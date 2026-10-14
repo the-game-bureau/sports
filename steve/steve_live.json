@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "teams": {
     "tulane": {
       "record": "2-3",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games."
+        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games. Tulane is calling it Light it Uptown: the first 1,500 fans get light-up glasses, and there is a drone show at halftime and during the game."
       },
       "lastGame": {
         "result": "L",
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "23b3cb79532b",
+          "teamId": "saints",
+          "headline": "Saints let their long snapper go",
+          "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
+          "date": "2026-10-13",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+        },
+        {
           "id": "d19ca95b665e",
           "teamId": "saints",
           "headline": "Saints owner says 1-4 is not good enough",
@@ -210,51 +219,51 @@
           "date": "2026-10-12",
           "source": "NOLA.com",
           "url": "https://www.nola.com/sports/saints/saints-do-not-expect-rookie-wr-jordyn-tyson-to-practice-this-week-as-ir-stint/article_fe2ac4d3-d164-4c13-b5a1-0b533db7a8f9.html"
-        },
-        {
-          "id": "b3e7a7878835",
-          "teamId": "saints",
-          "headline": "Tyler Shough hurt his left hand",
-          "summary": "The Saints quarterback hurt his left hand in Atlanta a week earlier, wore a glove on it Sunday and handed the ball off with his right hand instead. Asked if the hand is broken, he said he was not sure he could answer that, and said it did not bother him.",
-          "date": "2026-10-11",
-          "source": "NOLA.com",
-          "url": "https://www.nola.com/sports/saints/saints-qb-tyler-shough-was-asked-if-his-left-hand-is-broken-here-s-what/article_e98de28a-fe36-4a31-b504-bce3af5f4933.html"
         }
       ]
     },
     "iup": {
-      "record": "14-4",
+      "record": "15-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Wheeling",
-        "date": "2026-10-13",
+        "homeAway": "home",
+        "opponent": "Seton Hill",
+        "date": "2026-10-16",
         "time": "5:00 PM",
-        "venue": "Alma Grace McDonough Center",
-        "city": "Wheeling, WV",
+        "venue": "Kovalchick Complex",
+        "city": "Indiana, PA",
         "tv": {
-          "name": "Mountain East TV",
+          "name": "PSAC Sports Digital Network",
           "logo": "",
-          "url": "https://mountaineast.tv/watch/151",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network app, free on your phone or your TV, and at psacsportsdigitalnetwork.com/iupathletics. Tonight is the one exception. Wheeling is not in IUP's conference, so this match is on Wheeling's own channel."
+          "url": "https://psacsportsdigitalnetwork.com/iupathletics",
+          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV. You can also watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
         },
-        "note": "Tuesday evening match at Wheeling. Five o'clock our time, six o'clock theirs. Wheeling has won 12 games and lost 6."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. Seton Hill has won 10 games and lost 7."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "Gannon",
-        "date": "2026-10-10"
+        "opponentScore": 2,
+        "opponent": "Wheeling",
+        "date": "2026-10-13"
       },
       "news": [
         {
-          "id": "f18ba4436e07",
+          "id": "ac11f287d110",
           "teamId": "iup",
-          "headline": "Peyton Belcher has her best day of the season",
-          "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
-          "date": "2026-09-11",
+          "headline": "Peyton Belcher plays her biggest match of the year",
+          "summary": "Peyton had 7 kills on 18 swings with 4 errors in Tuesday night's five-set win at Wheeling, and she added 2 digs and helped block two balls. She played four of the five sets, and those 7 kills are nearly half her total for the whole season.",
+          "date": "2026-10-13",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
+          "url": "https://iupathletics.com/boxscore.aspx?id=15038&path=wvball"
+        },
+        {
+          "id": "6a19ed65fbc6",
+          "teamId": "iup",
+          "headline": "IUP wins in five sets after losing the first two",
+          "summary": "IUP dropped the first two sets at Wheeling on Tuesday night and then won the last three, 25-23, 25-18 and 15-8. Charlotte Potvin led the way with 23 kills, and the Crimson Hawks are now 15-4 with three wins in a row.",
+          "date": "2026-10-13",
+          "source": "Wheeling Athletics",
+          "url": "https://wucardinals.com/news/2026/10/13/volleyball-falls-in-five-set-battle-with-iup.aspx"
         },
         {
           "id": "fede3d06f81b",
@@ -264,15 +273,6 @@
           "date": "2026-10-12",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/10/12/womens-volleyball-concannon-earns-psac-west-defensive-athlete-of-the-week-honors.aspx"
-        },
-        {
-          "id": "23456c7ae59b",
-          "teamId": "iup",
-          "headline": "IUP sweeps Gannon in Erie",
-          "summary": "IUP won all three sets at Gannon on Saturday, 25-19, 25-12 and 25-19. Jessica Neiman led the team with 14 kills, and the Crimson Hawks are now 14-4.",
-          "date": "2026-10-10",
-          "source": "Gannon Athletics",
-          "url": "https://gannonsports.com/sports/womens-volleyball/stats/2026/iup/boxscore/12725"
         }
       ]
     },
