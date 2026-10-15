@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "138df60b418f",
+      "teamId": "texas",
+      "headline": "Texas loses a star receiver to Florida",
+      "summary": "Easton Royal, a New Orleans high school receiver who had promised to come to Texas, switched to Florida on Sunday. The news came hours after the Longhorns lost to Oklahoma.",
+      "date": "2026-10-11",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+    },
+    {
+      "id": "d19ca95b665e",
+      "teamId": "saints",
+      "headline": "Saints owner says 1-4 is not good enough",
+      "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
+      "date": "2026-10-13",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+    },
+    {
+      "id": "23b3cb79532b",
+      "teamId": "saints",
+      "headline": "Saints let their long snapper go",
+      "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
+      "date": "2026-10-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+    },
     {
       "id": "c3a56a9d2262",
       "teamId": "saints",

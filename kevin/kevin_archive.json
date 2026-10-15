@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3dd253456d63",
+      "teamId": "lsu",
+      "headline": "Mississippi State's quarterback may miss the LSU game",
+      "summary": "Kamario Taylor hurt his foot against Alabama on October 3 and walked off in a boot. His coach said Monday that the team will know more on Wednesday, before Saturday's game in Baton Rouge.",
+      "date": "2026-10-12",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/mississippi-state-quarterback-kamario-taylors-injury-status-for-lsu-game-awaiting-update/"
+    },
+    {
+      "id": "d19ca95b665e",
+      "teamId": "saints",
+      "headline": "Saints owner says 1-4 is not good enough",
+      "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
+      "date": "2026-10-13",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+    },
+    {
+      "id": "23b3cb79532b",
+      "teamId": "saints",
+      "headline": "Saints let their long snapper go",
+      "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
+      "date": "2026-10-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+    },
     {
       "id": "c3a56a9d2262",
       "teamId": "saints",

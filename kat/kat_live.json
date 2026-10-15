@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "teams": {
     "saints": {
       "record": "1-4",
@@ -38,22 +38,22 @@
           "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
         },
         {
-          "id": "23b3cb79532b",
+          "id": "fc78db56e2ea",
           "teamId": "saints",
-          "headline": "Saints let their long snapper go",
-          "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
-          "date": "2026-10-13",
+          "headline": "Coach Moore says the owner speaks for everyone",
+          "summary": "Owner Gayle Benson said this week that the Saints' 1-4 start is not acceptable, and coach Kellen Moore said Wednesday that she speaks for the whole team. Quarterback Tyler Shough said the players expected that message and want to make her proud.",
+          "date": "2026-10-14",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-united-on-disappointment-of-slow-start"
         },
         {
-          "id": "d19ca95b665e",
+          "id": "4316b6c4e006",
           "teamId": "saints",
-          "headline": "Saints owner says 1-4 is not good enough",
-          "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
-          "date": "2026-10-13",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+          "headline": "The Saints' long snapper is practicing again",
+          "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
+          "date": "2026-10-14",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "c3a771619b03",
+          "teamId": "lsu",
+          "headline": "Mississippi State's quarterback is a maybe for Saturday",
+          "summary": "The league's Wednesday injury list has quarterback Kamario Taylor and leading runner Fluff Bothwell both listed as questionable, with a toe injury and an ankle injury. LSU will again be without tight end Trey'Dez Green and linebacker Whit Weeks.",
+          "date": "2026-10-14",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/mississippi-state-qb-kamario-taylor-is-questionable-for-lsu-as-is-leading-rusher-fluff-bothwell/"
+        },
+        {
           "id": "20bee90b3540",
           "teamId": "lsu",
           "headline": "LSU gets $500,000 from Kentucky",
@@ -155,15 +164,6 @@
           "date": "2026-10-12",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lane-kiffin-turns-in-controversial-tush-push-td-to-sec-but-says-officiating-over-time-evens-out/"
-        },
-        {
-          "id": "3dd253456d63",
-          "teamId": "lsu",
-          "headline": "Mississippi State's quarterback may miss the LSU game",
-          "summary": "Kamario Taylor hurt his foot against Alabama on October 3 and walked off in a boot. His coach said Monday that the team will know more on Wednesday, before Saturday's game in Baton Rouge.",
-          "date": "2026-10-12",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/mississippi-state-quarterback-kamario-taylors-injury-status-for-lsu-game-awaiting-update/"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "teams": {
     "tulane": {
       "record": "2-3",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "bbac70912ae9",
+          "teamId": "texas",
+          "headline": "Texas is close to full strength for Florida",
+          "summary": "The league's Wednesday injury list has one Texas player out for Saturday, offensive lineman Jaydon Chatman. Defensive lineman Justus Terry is expected to play, and Florida's quarterback Aaron Philo is listed as a maybe.",
+          "date": "2026-10-14",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/texas/article/texas-dt-justus-terry-probable-florida-starting-qb-aaron-philo-questionable-on-wednesdays-sec-injury-report-291280392/"
+        },
+        {
           "id": "83e28c07eb54",
           "teamId": "texas",
           "headline": "Texas and Ole Miss will start at 6:30",
@@ -155,15 +164,6 @@
           "date": "2026-10-12",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50168104/manning-name-leading-outsized-criticism-arch"
-        },
-        {
-          "id": "138df60b418f",
-          "teamId": "texas",
-          "headline": "Texas loses a star receiver to Florida",
-          "summary": "Easton Royal, a New Orleans high school receiver who had promised to come to Texas, switched to Florida on Sunday. The news came hours after the Longhorns lost to Oklahoma.",
-          "date": "2026-10-11",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
         }
       ]
     },
@@ -203,22 +203,22 @@
           "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
         },
         {
-          "id": "23b3cb79532b",
+          "id": "fc78db56e2ea",
           "teamId": "saints",
-          "headline": "Saints let their long snapper go",
-          "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
-          "date": "2026-10-13",
+          "headline": "Coach Moore says the owner speaks for everyone",
+          "summary": "Owner Gayle Benson said this week that the Saints' 1-4 start is not acceptable, and coach Kellen Moore said Wednesday that she speaks for the whole team. Quarterback Tyler Shough said the players expected that message and want to make her proud.",
+          "date": "2026-10-14",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-united-on-disappointment-of-slow-start"
         },
         {
-          "id": "d19ca95b665e",
+          "id": "4316b6c4e006",
           "teamId": "saints",
-          "headline": "Saints owner says 1-4 is not good enough",
-          "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
-          "date": "2026-10-13",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+          "headline": "The Saints' long snapper is practicing again",
+          "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
+          "date": "2026-10-14",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
         }
       ]
     },
