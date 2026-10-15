@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "8627daaeeba4",
+      "teamId": "lsu",
+      "headline": "LSU sends a touchdown play to the league office",
+      "summary": "Coach Lane Kiffin said Monday he sent the tape of Kentucky's short fourth-down touchdown to the conference office and had not heard back. He also thought officials missed a block in the back on a 55-yard punt return, but said the calls even out over time.",
+      "date": "2026-10-12",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lane-kiffin-turns-in-controversial-tush-push-td-to-sec-but-says-officiating-over-time-evens-out/"
+    },
+    {
+      "id": "861b4f416638",
+      "teamId": "florida",
+      "headline": "Sumrall takes a bigger hand in the defense",
+      "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
+      "date": "2026-10-12",
+      "source": "Saturday Down South",
+      "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
+    },
+    {
+      "id": "4316b6c4e006",
+      "teamId": "saints",
+      "headline": "The Saints' long snapper is practicing again",
+      "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
+      "date": "2026-10-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
+    },
+    {
       "id": "3dd253456d63",
       "teamId": "lsu",
       "headline": "Mississippi State's quarterback may miss the LSU game",

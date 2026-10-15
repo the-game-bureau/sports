@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "8b1314dab28e",
+      "teamId": "texas",
+      "headline": "Sarkisian defends Arch Manning",
+      "summary": "Coach Steve Sarkisian said Monday that fans judge Manning harder because of his family name. He said if the name were off the jersey, people would be praising him.",
+      "date": "2026-10-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50168104/manning-name-leading-outsized-criticism-arch"
+    },
+    {
+      "id": "861b4f416638",
+      "teamId": "florida",
+      "headline": "Sumrall takes a bigger hand in the defense",
+      "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
+      "date": "2026-10-12",
+      "source": "Saturday Down South",
+      "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
+    },
+    {
+      "id": "4316b6c4e006",
+      "teamId": "saints",
+      "headline": "The Saints' long snapper is practicing again",
+      "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
+      "date": "2026-10-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
+    },
+    {
       "id": "138df60b418f",
       "teamId": "texas",
       "headline": "Texas loses a star receiver to Florida",

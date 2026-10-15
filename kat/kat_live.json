@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "7ffcf7fac98c",
+          "teamId": "saints",
+          "headline": "Chris Olave has not practiced this week",
+          "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
+          "date": "2026-10-15",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+        },
+        {
           "id": "296df4abda3d",
           "teamId": "saints",
           "headline": "Tyler Shough is back to full practice",
@@ -45,15 +54,6 @@
           "date": "2026-10-14",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-united-on-disappointment-of-slow-start"
-        },
-        {
-          "id": "4316b6c4e006",
-          "teamId": "saints",
-          "headline": "The Saints' long snapper is practicing again",
-          "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
-          "date": "2026-10-14",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "542c8244c655",
+          "teamId": "florida",
+          "headline": "Tramell Jones is ready if Philo cannot go",
+          "summary": "Florida still lists quarterback Aaron Philo as questionable for Saturday at Texas with a hurt shoulder. If he cannot play, sophomore Tramell Jones Jr. will start in his place, and he has only played this year in games that were already decided.",
+          "date": "2026-10-15",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/15/football-carters-corner-philo-questionable-jones-ready-as-gators-prepare-for-texas-jon-sumrall-aaron-philo-tramell-jones"
+        },
+        {
           "id": "c53b69a928e4",
           "teamId": "florida",
           "headline": "Florida may be without its quarterback at Texas",
@@ -100,15 +109,6 @@
           "date": "2026-10-14",
           "source": "Only Gators",
           "url": "https://www.onlygators.com/10/14/2026/florida-qb-aaron-philos-status-in-question-vs-texas-wr-vernell-brown-iii-has-real-shot-to-play/"
-        },
-        {
-          "id": "861b4f416638",
-          "teamId": "florida",
-          "headline": "Sumrall takes a bigger hand in the defense",
-          "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
-          "date": "2026-10-12",
-          "source": "Saturday Down South",
-          "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "4be0e6799b59",
+          "teamId": "lsu",
+          "headline": "Another LSU linebacker may miss Saturday",
+          "summary": "Tylen Singleton is listed as questionable for the Mississippi State game. LSU has already lost Charles Ross II for the year and expects to be without Whit Weeks for most of it.",
+          "date": "2026-10-14",
+          "source": "LSU Tigers On SI",
+          "url": "https://www.si.com/college/lsu/football/lsu-dealing-with-another-lb-injury-before-mississippi-state-game"
+        },
+        {
           "id": "c3a771619b03",
           "teamId": "lsu",
           "headline": "Mississippi State's quarterback is a maybe for Saturday",
@@ -155,15 +164,6 @@
           "date": "2026-10-13",
           "source": "WAFB",
           "url": "https://www.wafb.com/2026/10/13/lsu-receive-500000-kentucky-after-overtime-loss-heres-why/"
-        },
-        {
-          "id": "8627daaeeba4",
-          "teamId": "lsu",
-          "headline": "LSU sends a touchdown play to the league office",
-          "summary": "Coach Lane Kiffin said Monday he sent the tape of Kentucky's short fourth-down touchdown to the conference office and had not heard back. He also thought officials missed a block in the back on a 55-yard punt return, but said the calls even out over time.",
-          "date": "2026-10-12",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lane-kiffin-turns-in-controversial-tush-push-td-to-sec-but-says-officiating-over-time-evens-out/"
         }
       ]
     },
