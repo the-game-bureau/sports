@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "fc78db56e2ea",
+      "teamId": "saints",
+      "headline": "Coach Moore says the owner speaks for everyone",
+      "summary": "Owner Gayle Benson said this week that the Saints' 1-4 start is not acceptable, and coach Kellen Moore said Wednesday that she speaks for the whole team. Quarterback Tyler Shough said the players expected that message and want to make her proud.",
+      "date": "2026-10-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-united-on-disappointment-of-slow-start"
+    },
+    {
+      "id": "296df4abda3d",
+      "teamId": "saints",
+      "headline": "Tyler Shough is back to full practice",
+      "summary": "The Saints quarterback hurt his left hand in Sunday's loss to Minnesota, and on Wednesday he took part in the whole practice. Receiver Chris Olave stayed out sick, and linebacker Kaden Elliss sat out with a sore calf.",
+      "date": "2026-10-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
+    },
+    {
+      "id": "7ffcf7fac98c",
+      "teamId": "saints",
+      "headline": "Chris Olave has not practiced this week",
+      "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
+      "date": "2026-10-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
       "id": "8b1314dab28e",
       "teamId": "texas",
       "headline": "Sarkisian defends Arch Manning",

@@ -29,31 +29,31 @@
       },
       "news": [
         {
-          "id": "7ffcf7fac98c",
+          "id": "bf65c6e2050e",
           "teamId": "saints",
-          "headline": "Chris Olave has not practiced this week",
-          "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
-          "date": "2026-10-15",
+          "headline": "Chris Olave practiced Friday and may play",
+          "summary": "The Saints' best receiver was sick and missed practice Wednesday and Thursday. He took part in some of Friday's practice, and the team lists him as a maybe for Sunday's game at the Giants.",
+          "date": "2026-10-16",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
         },
         {
-          "id": "296df4abda3d",
+          "id": "4fe082e0eaa5",
           "teamId": "saints",
-          "headline": "Tyler Shough is back to full practice",
-          "summary": "The Saints quarterback hurt his left hand in Sunday's loss to Minnesota, and on Wednesday he took part in the whole practice. Receiver Chris Olave stayed out sick, and linebacker Kaden Elliss sat out with a sore calf.",
-          "date": "2026-10-14",
+          "headline": "Two Saints defenders will miss Sunday's game",
+          "summary": "Linebacker Kaden Elliss has a sore calf and Anfernee Jennings has a hurt knee, and neither one practiced this week. Running back Alvin Kamara is a maybe with a sore back.",
+          "date": "2026-10-16",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
         },
         {
-          "id": "fc78db56e2ea",
+          "id": "a7dc4c4648ff",
           "teamId": "saints",
-          "headline": "Coach Moore says the owner speaks for everyone",
-          "summary": "Owner Gayle Benson said this week that the Saints' 1-4 start is not acceptable, and coach Kellen Moore said Wednesday that she speaks for the whole team. Quarterback Tyler Shough said the players expected that message and want to make her proud.",
-          "date": "2026-10-14",
+          "headline": "Jameis Winston is the Giants' quarterback now",
+          "summary": "Winston played four years for the Saints and now starts for New York, after the Giants' young quarterback Jaxson Dart got hurt. The Giants have won two games and tied one in the games he has started, and Saints coaches spent this week saying good things about him.",
+          "date": "2026-10-16",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-united-on-disappointment-of-slow-start"
+          "url": "https://www.neworleanssaints.com/news/former-new-orleans-saints-quarterback-jameis-winston-helping-to-energize-the-giants"
         }
       ]
     },
@@ -228,10 +228,10 @@
         "homeAway": "home",
         "opponent": "St. Augustine",
         "date": "2026-10-23",
-        "time": "7:30 PM",
+        "time": "7:00 PM",
         "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Friday night home game at Tad Gormley Stadium in City Park, and a district game. Brother Martin has won five games and lost two."
+        "note": "Friday night home game at Tad Gormley Stadium in City Park, and a district game. Seven o'clock kickoff. Brother Martin has won five games and lost two."
       },
       "lastGame": {
         "result": "W",
