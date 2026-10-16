@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "teams": {
     "saints": {
       "record": "1-4",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "97239190c89a",
+          "teamId": "lsu",
+          "headline": "LSU will be missing five players Saturday",
+          "summary": "Thursday's league injury list has tight end Trey'Dez Green, linebackers Whit Weeks and Charles Ross II, safety Dashawn Spears and receiver Phillip Wright III all out against Mississippi State. Linebacker Tylen Singleton went from questionable to doubtful.",
+          "date": "2026-10-15",
+          "source": "LSU Tigers On SI",
+          "url": "https://www.si.com/college/lsu/football/lsu-tigers-receive-bad-news-on-latest-injury-report-vs-mississippi-state"
+        },
+        {
           "id": "4be0e6799b59",
           "teamId": "lsu",
           "headline": "Another LSU linebacker may miss Saturday",
@@ -155,15 +164,6 @@
           "date": "2026-10-14",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/mississippi-state-qb-kamario-taylor-is-questionable-for-lsu-as-is-leading-rusher-fluff-bothwell/"
-        },
-        {
-          "id": "20bee90b3540",
-          "teamId": "lsu",
-          "headline": "LSU gets $500,000 from Kentucky",
-          "summary": "Kentucky fans ran onto the field after beating LSU 35-34 on Saturday, which the league does not allow. The league fined Kentucky $500,000, and the rules send that money to LSU.",
-          "date": "2026-10-13",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/10/13/lsu-receive-500000-kentucky-after-overtime-loss-heres-why/"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "6fcd2981a379",
+          "teamId": "tulane",
+          "headline": "Two Tulane defensive linemen are day to day",
+          "summary": "Coach Will Hall said Kam Hamilton was hurt in the fourth quarter at Army and that Ed Smith IV did not play in that game. Hall called both of them day to day before Friday night's game with Memphis.",
+          "date": "2026-10-14",
+          "source": "Tulane On SI",
+          "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
+        },
+        {
           "id": "400b9963193c",
           "teamId": "tulane",
           "headline": "Tulane has not named a quarterback for Friday",
@@ -210,37 +219,37 @@
           "date": "2026-10-12",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
-        },
-        {
-          "id": "2c7f55c1c2c1",
-          "teamId": "tulane",
-          "headline": "Army beats Tulane 20-17 on the last play",
-          "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
-          "date": "2026-10-10",
-          "source": "ESPN",
-          "url": "http://www.espn.com/ncf/recap?gameId=401862795"
         }
       ]
     },
     "brother-martin": {
-      "record": "4-2",
+      "record": "5-2",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "John Curtis Christian",
-        "date": "2026-10-15",
-        "time": "7:00 PM",
-        "venue": "John Curtis Christian School",
-        "city": "River Ridge, LA",
-        "note": "Thursday night road game in River Ridge, and a district game. John Curtis has won two games and lost four, and has lost three in a row."
+        "homeAway": "home",
+        "opponent": "St. Augustine",
+        "date": "2026-10-23",
+        "time": "7:30 PM",
+        "venue": "Tad Gormley Stadium",
+        "city": "New Orleans, LA",
+        "note": "Friday night home game at Tad Gormley Stadium in City Park, and a district game. Brother Martin has won five games and lost two."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 10,
-        "opponentScore": 33,
-        "opponent": "Archbishop Rummel",
-        "date": "2026-10-09"
+        "result": "W",
+        "teamScore": 36,
+        "opponentScore": 28,
+        "opponent": "John Curtis Christian",
+        "date": "2026-10-15"
       },
       "news": [
+        {
+          "id": "6b9c9cba37ad",
+          "teamId": "brother-martin",
+          "headline": "Brother Martin comes back to beat John Curtis 36-28",
+          "summary": "Brother Martin trailed 21-9 on Thursday night in River Ridge and then scored 27 points in the fourth quarter to win. Its defense took the ball away seven times, and Easton Royal scored twice and set two school records.",
+          "date": "2026-10-15",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/points-of-turnovers-fuel-brother-martins-victory-over-john-curtis/"
+        },
         {
           "id": "c9880c0512fc",
           "teamId": "brother-martin",
@@ -258,15 +267,6 @@
           "date": "2026-10-10",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/st-charles-catholic-back-to-top-spot-in-ccs-top-10-rankings/"
-        },
-        {
-          "id": "e2cf6a20ebb4",
-          "teamId": "brother-martin",
-          "headline": "Rummel beats Brother Martin 33-10",
-          "summary": "Brother Martin kicked a field goal to start Friday afternoon at Tad Gormley Stadium, then lost two fumbles and never caught up. It is a second loss in a row and Brother Martin is now 4-2.",
-          "date": "2026-10-09",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/rummel-turns-over-brother-martin-rolls-to-33-10-victory/"
         }
       ]
     }

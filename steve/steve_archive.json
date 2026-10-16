@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -95,6 +95,33 @@
       "date": "2026-10-10",
       "source": "NOLA.com",
       "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
+    },
+    {
+      "id": "2c7f55c1c2c1",
+      "teamId": "tulane",
+      "headline": "Army beats Tulane 20-17 on the last play",
+      "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
+      "date": "2026-10-10",
+      "source": "ESPN",
+      "url": "http://www.espn.com/ncf/recap?gameId=401862795"
+    },
+    {
+      "id": "db893f2c4e42",
+      "teamId": "yankees",
+      "headline": "A fan reaches over the wall and takes away a home run",
+      "summary": "Anthony Volpe hit a ball to left field in the sixth inning that would have tied the game at 4-4. A fan leaned over the wall and caught it, so the umpires gave Volpe a double instead and only one run scored.",
+      "date": "2026-10-07",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50129842/fan-interference-denies-yankees-game-tying-hr-vs-rays"
+    },
+    {
+      "id": "04d91df13f04",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton loses at Zachary",
+      "summary": "Zachary won 49-28 on Friday night. Warren Easton is 0-4 and plays at Riverdale on Thursday, October 1.",
+      "date": "2026-09-25",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-zachary/9-25-2026/?c=7af1b934-8db0-48cb-876f-c2b6f93a5ed8"
     },
     {
       "id": "f18ba4436e07",

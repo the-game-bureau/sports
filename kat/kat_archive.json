@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "20bee90b3540",
+      "teamId": "lsu",
+      "headline": "LSU gets $500,000 from Kentucky",
+      "summary": "Kentucky fans ran onto the field after beating LSU 35-34 on Saturday, which the league does not allow. The league fined Kentucky $500,000, and the rules send that money to LSU.",
+      "date": "2026-10-13",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/10/13/lsu-receive-500000-kentucky-after-overtime-loss-heres-why/"
+    },
     {
       "id": "8627daaeeba4",
       "teamId": "lsu",
@@ -158,6 +167,15 @@
       "date": "2026-10-10",
       "source": "LSU Athletics",
       "url": "https://lsusports.net/news/2026/10/11/football-falls-to-kentucky-in-ot-35-34"
+    },
+    {
+      "id": "2c7f55c1c2c1",
+      "teamId": "tulane",
+      "headline": "Army beats Tulane 20-17 on the last play",
+      "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
+      "date": "2026-10-10",
+      "source": "ESPN",
+      "url": "http://www.espn.com/ncf/recap?gameId=401862795"
     },
     {
       "id": "784a5655c1b8",
