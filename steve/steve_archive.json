@@ -7,6 +7,60 @@
   },
   "items": [
     {
+      "id": "273af59e8a4f",
+      "teamId": "florida",
+      "headline": "Florida expected to start Tramell Jones at Texas",
+      "summary": "Aaron Philo hurt his shoulder, so Florida is expected to start backup Tramell Jones in Austin today. It would be the first start of his college career, and the team said it would decide Saturday morning.",
+      "date": "2026-10-16",
+      "source": "Gators Wire",
+      "url": "https://sports.yahoo.com/articles/report-florida-expected-start-tramell-000234785.html"
+    },
+    {
+      "id": "542c8244c655",
+      "teamId": "florida",
+      "headline": "Tramell Jones is ready if Philo cannot go",
+      "summary": "Florida still lists quarterback Aaron Philo as questionable for Saturday at Texas with a hurt shoulder. If he cannot play, sophomore Tramell Jones Jr. will start in his place, and he has only played this year in games that were already decided.",
+      "date": "2026-10-15",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/15/football-carters-corner-philo-questionable-jones-ready-as-gators-prepare-for-texas-jon-sumrall-aaron-philo-tramell-jones"
+    },
+    {
+      "id": "5fa5c957efe0",
+      "teamId": "texas",
+      "headline": "Sarkisian wants Arch Manning to run more",
+      "summary": "Coach Steve Sarkisian said he would like to see his quarterback carry the ball more often. Manning has run for 102 yards and no touchdowns in five games this year, after 399 yards and 10 touchdowns last year.",
+      "date": "2026-10-15",
+      "source": "Orangebloods",
+      "url": "https://www.orangebloods.com/2026/10/15/texas-longhorn-football-sarkisian-arch-manning-running-more/"
+    },
+    {
+      "id": "241e8b1ba6d1",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is practicing again",
+      "summary": "Florida's leading receiver has practiced all week after hurting his knee and missing the last two games. He has a real chance to play Saturday at Texas.",
+      "date": "2026-10-14",
+      "source": "Only Gators",
+      "url": "https://www.onlygators.com/10/14/2026/florida-qb-aaron-philos-status-in-question-vs-texas-wr-vernell-brown-iii-has-real-shot-to-play/"
+    },
+    {
+      "id": "bbac70912ae9",
+      "teamId": "texas",
+      "headline": "Texas is close to full strength for Florida",
+      "summary": "The league's Wednesday injury list has one Texas player out for Saturday, offensive lineman Jaydon Chatman. Defensive lineman Justus Terry is expected to play, and Florida's quarterback Aaron Philo is listed as a maybe.",
+      "date": "2026-10-14",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/texas/article/texas-dt-justus-terry-probable-florida-starting-qb-aaron-philo-questionable-on-wednesdays-sec-injury-report-291280392/"
+    },
+    {
+      "id": "83e28c07eb54",
+      "teamId": "texas",
+      "headline": "Texas and Ole Miss will start at 6:30",
+      "summary": "The conference set Texas's home game against Ole Miss for Saturday, October 24, at 6:30 in the evening on ABC. It is the second of three straight home games in Austin.",
+      "date": "2026-10-12",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-football/105754/texas-longhorns-ole-miss-rebels-game-time-television"
+    },
+    {
       "id": "6fcd2981a379",
       "teamId": "tulane",
       "headline": "Two Tulane defensive linemen are day to day",

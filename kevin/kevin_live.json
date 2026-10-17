@@ -58,7 +58,7 @@
       ]
     },
     "florida": {
-      "record": "4-2",
+      "record": "5-2",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Texas Longhorns",
@@ -76,44 +76,44 @@
         "note": "Late morning kickoff in Austin against Texas."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 19,
-        "opponentScore": 38,
-        "opponent": "South Carolina Gamecocks",
-        "date": "2026-10-10"
+        "result": "W",
+        "teamScore": 27,
+        "opponentScore": 24,
+        "opponent": "Texas Longhorns",
+        "date": "2026-10-17"
       },
       "news": [
         {
-          "id": "273af59e8a4f",
+          "id": "7f30dd642845",
           "teamId": "florida",
-          "headline": "Florida expected to start Tramell Jones at Texas",
-          "summary": "Aaron Philo hurt his shoulder, so Florida is expected to start backup Tramell Jones in Austin today. It would be the first start of his college career, and the team said it would decide Saturday morning.",
-          "date": "2026-10-16",
-          "source": "Gators Wire",
-          "url": "https://sports.yahoo.com/articles/report-florida-expected-start-tramell-000234785.html"
+          "headline": "Florida beats Texas 27-24",
+          "summary": "Florida was losing 17-3 in the second quarter and then scored 24 points in a row to win in Austin. The Gators are 5-2, and it is their first win at a top-10 team on the road since 2012.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
         },
         {
-          "id": "542c8244c655",
+          "id": "23fa2985393b",
           "teamId": "florida",
-          "headline": "Tramell Jones is ready if Philo cannot go",
-          "summary": "Florida still lists quarterback Aaron Philo as questionable for Saturday at Texas with a hurt shoulder. If he cannot play, sophomore Tramell Jones Jr. will start in his place, and he has only played this year in games that were already decided.",
-          "date": "2026-10-15",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/15/football-carters-corner-philo-questionable-jones-ready-as-gators-prepare-for-texas-jon-sumrall-aaron-philo-tramell-jones"
+          "headline": "Tramell Jones wins his first start for Florida",
+          "summary": "Jones threw two touchdown passes to Lacota Dippre and completed 22 of his 35 throws for 155 yards. He started because Aaron Philo is hurt.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
         },
         {
-          "id": "241e8b1ba6d1",
+          "id": "fa834e4c0cac",
           "teamId": "florida",
-          "headline": "Vernell Brown III is practicing again",
-          "summary": "Florida's leading receiver has practiced all week after hurting his knee and missing the last two games. He has a real chance to play Saturday at Texas.",
-          "date": "2026-10-14",
-          "source": "Only Gators",
-          "url": "https://www.onlygators.com/10/14/2026/florida-qb-aaron-philos-status-in-question-vs-texas-wr-vernell-brown-iii-has-real-shot-to-play/"
+          "headline": "Florida's defense sacks Arch Manning five times",
+          "summary": "Florida held Texas under 300 yards and sacked the Texas quarterback five times. The last sack knocked the ball loose and ended Texas's final drive.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
         }
       ]
     },
     "lsu": {
-      "record": "4-2",
+      "record": "5-2",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Mississippi State Bulldogs",
@@ -131,39 +131,39 @@
         "note": "Late morning home game in Baton Rouge. Mississippi State is 4-1."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 34,
-        "opponentScore": 35,
-        "opponent": "Kentucky Wildcats",
-        "date": "2026-10-10"
+        "result": "W",
+        "teamScore": 31,
+        "opponentScore": 0,
+        "opponent": "Mississippi State Bulldogs",
+        "date": "2026-10-17"
       },
       "news": [
         {
-          "id": "d686fb5027bd",
+          "id": "90eb3970290f",
           "teamId": "lsu",
-          "headline": "Mississippi State's quarterback is doubtful for Saturday",
-          "summary": "Friday's final injury report lists Mississippi State quarterback Kamario Taylor as doubtful, along with Fluff Bothwell, their leading runner. LSU linebacker Tylen Singleton is doubtful too.",
-          "date": "2026-10-16",
-          "source": "And The Valley Shook",
-          "url": "https://www.andthevalleyshook.com/lsu-tigers-football/54366/fridays-lsu-tigers-vs-mississippi-state-injury-report-taylor-downgraded-to-doubtful"
+          "headline": "LSU shuts out Mississippi State 31-0",
+          "summary": "LSU scored three touchdowns in the first half and never let Mississippi State score at all. It is the first time LSU has shut out a Southeastern Conference team since 2007.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
         },
         {
-          "id": "97239190c89a",
+          "id": "575cb318f6b7",
           "teamId": "lsu",
-          "headline": "LSU will be missing five players Saturday",
-          "summary": "Thursday's league injury list has tight end Trey'Dez Green, linebackers Whit Weeks and Charles Ross II, safety Dashawn Spears and receiver Phillip Wright III all out against Mississippi State. Linebacker Tylen Singleton went from questionable to doubtful.",
-          "date": "2026-10-15",
-          "source": "LSU Tigers On SI",
-          "url": "https://www.si.com/college/lsu/football/lsu-tigers-receive-bad-news-on-latest-injury-report-vs-mississippi-state"
+          "headline": "Sam Leavitt throws four touchdown passes",
+          "summary": "Leavitt completed 31 of his 38 passes for 289 yards and did not throw an interception. It was the first game all season he did not throw one.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
         },
         {
-          "id": "4be0e6799b59",
+          "id": "f3bf986727d6",
           "teamId": "lsu",
-          "headline": "Another LSU linebacker may miss Saturday",
-          "summary": "Tylen Singleton is listed as questionable for the Mississippi State game. LSU has already lost Charles Ross II for the year and expects to be without Whit Weeks for most of it.",
-          "date": "2026-10-14",
-          "source": "LSU Tigers On SI",
-          "url": "https://www.si.com/college/lsu/football/lsu-dealing-with-another-lb-injury-before-mississippi-state-game"
+          "headline": "Jackson Harris leaves the game with a leg injury",
+          "summary": "Harris caught six passes for 85 yards and two touchdowns before he left in the third quarter with what looked like a left leg injury. Pass rusher Princewill Umanmielen also left early with a head injury.",
+          "date": "2026-10-17",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
         }
       ]
     },

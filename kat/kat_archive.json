@@ -7,6 +7,60 @@
   },
   "items": [
     {
+      "id": "273af59e8a4f",
+      "teamId": "florida",
+      "headline": "Florida expected to start Tramell Jones at Texas",
+      "summary": "Aaron Philo hurt his shoulder, so Florida is expected to start backup Tramell Jones in Austin today. It would be the first start of his college career, and the team said it would decide Saturday morning.",
+      "date": "2026-10-16",
+      "source": "Gators Wire",
+      "url": "https://sports.yahoo.com/articles/report-florida-expected-start-tramell-000234785.html"
+    },
+    {
+      "id": "d686fb5027bd",
+      "teamId": "lsu",
+      "headline": "Mississippi State's quarterback is doubtful for Saturday",
+      "summary": "Friday's final injury report lists Mississippi State quarterback Kamario Taylor as doubtful, along with Fluff Bothwell, their leading runner. LSU linebacker Tylen Singleton is doubtful too.",
+      "date": "2026-10-16",
+      "source": "And The Valley Shook",
+      "url": "https://www.andthevalleyshook.com/lsu-tigers-football/54366/fridays-lsu-tigers-vs-mississippi-state-injury-report-taylor-downgraded-to-doubtful"
+    },
+    {
+      "id": "542c8244c655",
+      "teamId": "florida",
+      "headline": "Tramell Jones is ready if Philo cannot go",
+      "summary": "Florida still lists quarterback Aaron Philo as questionable for Saturday at Texas with a hurt shoulder. If he cannot play, sophomore Tramell Jones Jr. will start in his place, and he has only played this year in games that were already decided.",
+      "date": "2026-10-15",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/15/football-carters-corner-philo-questionable-jones-ready-as-gators-prepare-for-texas-jon-sumrall-aaron-philo-tramell-jones"
+    },
+    {
+      "id": "97239190c89a",
+      "teamId": "lsu",
+      "headline": "LSU will be missing five players Saturday",
+      "summary": "Thursday's league injury list has tight end Trey'Dez Green, linebackers Whit Weeks and Charles Ross II, safety Dashawn Spears and receiver Phillip Wright III all out against Mississippi State. Linebacker Tylen Singleton went from questionable to doubtful.",
+      "date": "2026-10-15",
+      "source": "LSU Tigers On SI",
+      "url": "https://www.si.com/college/lsu/football/lsu-tigers-receive-bad-news-on-latest-injury-report-vs-mississippi-state"
+    },
+    {
+      "id": "241e8b1ba6d1",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is practicing again",
+      "summary": "Florida's leading receiver has practiced all week after hurting his knee and missing the last two games. He has a real chance to play Saturday at Texas.",
+      "date": "2026-10-14",
+      "source": "Only Gators",
+      "url": "https://www.onlygators.com/10/14/2026/florida-qb-aaron-philos-status-in-question-vs-texas-wr-vernell-brown-iii-has-real-shot-to-play/"
+    },
+    {
+      "id": "4be0e6799b59",
+      "teamId": "lsu",
+      "headline": "Another LSU linebacker may miss Saturday",
+      "summary": "Tylen Singleton is listed as questionable for the Mississippi State game. LSU has already lost Charles Ross II for the year and expects to be without Whit Weeks for most of it.",
+      "date": "2026-10-14",
+      "source": "LSU Tigers On SI",
+      "url": "https://www.si.com/college/lsu/football/lsu-dealing-with-another-lb-injury-before-mississippi-state-game"
+    },
+    {
       "id": "6fcd2981a379",
       "teamId": "tulane",
       "headline": "Two Tulane defensive linemen are day to day",
