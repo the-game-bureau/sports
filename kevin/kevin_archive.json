@@ -2,10 +2,55 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "6fcd2981a379",
+      "teamId": "tulane",
+      "headline": "Two Tulane defensive linemen are day to day",
+      "summary": "Coach Will Hall said Kam Hamilton was hurt in the fourth quarter at Army and that Ed Smith IV did not play in that game. Hall called both of them day to day before Friday night's game with Memphis.",
+      "date": "2026-10-14",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
+    },
+    {
+      "id": "400b9963193c",
+      "teamId": "tulane",
+      "headline": "Tulane has not named a quarterback for Friday",
+      "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
+      "date": "2026-10-13",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
+    },
+    {
+      "id": "0962d6515f46",
+      "teamId": "tulane",
+      "headline": "Tulane's last game is set for November 28",
+      "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
+      "date": "2026-10-12",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
+    },
+    {
+      "id": "c53b69a928e4",
+      "teamId": "florida",
+      "headline": "Florida may be without its quarterback at Texas",
+      "summary": "Aaron Philo hurt his shoulder in Saturday's loss to South Carolina, and he has done only part of practice this week. If he cannot play Saturday at Texas, Tramell Jones Jr. would start for the first time.",
+      "date": "2026-10-14",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/florida-qb-aaron-philo-injury-texas/"
+    },
+    {
+      "id": "c3a771619b03",
+      "teamId": "lsu",
+      "headline": "Mississippi State's quarterback is a maybe for Saturday",
+      "summary": "The league's Wednesday injury list has quarterback Kamario Taylor and leading runner Fluff Bothwell both listed as questionable, with a toe injury and an ankle injury. LSU will again be without tight end Trey'Dez Green and linebacker Whit Weeks.",
+      "date": "2026-10-14",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/mississippi-state-qb-kamario-taylor-is-questionable-for-lsu-as-is-leading-rusher-fluff-bothwell/"
+    },
     {
       "id": "fc78db56e2ea",
       "teamId": "saints",

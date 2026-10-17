@@ -1,59 +1,59 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "teams": {
     "tulane": {
-      "record": "2-3",
+      "record": "3-3",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Memphis Tigers",
-        "date": "2026-10-16",
-        "utc": "2026-10-16T23:30Z",
-        "time": "6:30 PM",
+        "opponent": "UTSA Roadrunners",
+        "date": "2026-10-24",
+        "utc": "2026-10-25T00:00Z",
+        "time": "7:00 PM",
         "venue": "Yulman Stadium",
         "city": "New Orleans, LA",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ESPNU",
+          "logo": "images/espnu.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Friday night home game at Yulman Stadium. Memphis has won five of its six games. Tulane is calling it Light it Uptown: the first 1,500 fans get light-up glasses, and there is a drone show at halftime and during the game."
+        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won five of its six games."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 17,
-        "opponentScore": 20,
-        "opponent": "Army Black Knights",
-        "date": "2026-10-10"
+        "result": "W",
+        "teamScore": 31,
+        "opponentScore": 17,
+        "opponent": "Memphis Tigers",
+        "date": "2026-10-16"
       },
       "news": [
         {
-          "id": "6fcd2981a379",
+          "id": "6cc840717c91",
           "teamId": "tulane",
-          "headline": "Two Tulane defensive linemen are day to day",
-          "summary": "Coach Will Hall said Kam Hamilton was hurt in the fourth quarter at Army and that Ed Smith IV did not play in that game. Hall called both of them day to day before Friday night's game with Memphis.",
-          "date": "2026-10-14",
-          "source": "Tulane On SI",
-          "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
-        },
-        {
-          "id": "400b9963193c",
-          "teamId": "tulane",
-          "headline": "Tulane has not named a quarterback for Friday",
-          "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
-          "date": "2026-10-13",
-          "source": "Tulane On SI",
-          "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
-        },
-        {
-          "id": "0962d6515f46",
-          "teamId": "tulane",
-          "headline": "Tulane's last game is set for November 28",
-          "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
-          "date": "2026-10-12",
+          "headline": "Tulane beats Memphis 31-17",
+          "summary": "Tulane won at home Friday night, 31-17 over Memphis. The defense took the ball away six times, and it is Tulane's first win in conference play this year.",
+          "date": "2026-10-16",
           "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
+          "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
+        },
+        {
+          "id": "2efec4914559",
+          "teamId": "tulane",
+          "headline": "TJ Smith runs an interception back for a touchdown",
+          "summary": "Right before halftime, TJ Smith caught a Memphis pass and ran it back 76 yards for a touchdown. That put Tulane ahead 23-10, and it is the first touchdown the Tulane defense has scored this year.",
+          "date": "2026-10-16",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-rides-defensive-takeaways-to-31-17-win-over-memphis/"
+        },
+        {
+          "id": "6ce123b81a9a",
+          "teamId": "tulane",
+          "headline": "Trace Johnson wins his first start",
+          "summary": "Freshman Trace Johnson started at quarterback for the first time and Tulane won. He completed 11 of 21 passes for 165 yards, with a 38-yard touchdown to Destyn Hill and one interception.",
+          "date": "2026-10-16",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862801"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "273af59e8a4f",
+          "teamId": "florida",
+          "headline": "Florida expected to start Tramell Jones at Texas",
+          "summary": "Aaron Philo hurt his shoulder, so Florida is expected to start backup Tramell Jones in Austin today. It would be the first start of his college career, and the team said it would decide Saturday morning.",
+          "date": "2026-10-16",
+          "source": "Gators Wire",
+          "url": "https://sports.yahoo.com/articles/report-florida-expected-start-tramell-000234785.html"
+        },
+        {
           "id": "542c8244c655",
           "teamId": "florida",
           "headline": "Tramell Jones is ready if Philo cannot go",
@@ -91,15 +100,6 @@
           "date": "2026-10-15",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/15/football-carters-corner-philo-questionable-jones-ready-as-gators-prepare-for-texas-jon-sumrall-aaron-philo-tramell-jones"
-        },
-        {
-          "id": "c53b69a928e4",
-          "teamId": "florida",
-          "headline": "Florida may be without its quarterback at Texas",
-          "summary": "Aaron Philo hurt his shoulder in Saturday's loss to South Carolina, and he has done only part of practice this week. If he cannot play Saturday at Texas, Tramell Jones Jr. would start for the first time.",
-          "date": "2026-10-14",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/florida-qb-aaron-philo-injury-texas/"
         },
         {
           "id": "241e8b1ba6d1",
@@ -223,13 +223,13 @@
       ]
     },
     "iup": {
-      "record": "15-4",
+      "record": "16-4",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Seton Hill",
-        "date": "2026-10-16",
+        "opponent": "Clarion",
+        "date": "2026-10-23",
         "time": "5:00 PM",
-        "venue": "Memorial Field House",
+        "venue": "Kovalchick Complex",
         "city": "Indiana, PA",
         "tv": {
           "name": "PSAC Sports Digital Network",
@@ -237,16 +237,25 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV. You can also watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
         },
-        "note": "Friday night home game at the Memorial Field House. Five o'clock our time, six o'clock theirs. Seton Hill has won 10 games and lost 7. Every IUP volleyball game, including this one, is on the free PSAC Sports Digital Network app."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP beat Clarion in five sets back in September. Every IUP volleyball game, including this one, is on the free PSAC Sports Digital Network app."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 2,
-        "opponent": "Wheeling",
-        "date": "2026-10-13"
+        "opponentScore": 1,
+        "opponent": "Seton Hill",
+        "date": "2026-10-16"
       },
       "news": [
+        {
+          "id": "b872a3503820",
+          "teamId": "iup",
+          "headline": "IUP beats Seton Hill in four sets",
+          "summary": "IUP won at home Friday night by scores of 25-16, 25-21, 21-25 and 25-21. Jessica Neiman led the way with 16 kills, and the Crimson Hawks have now won 16 matches.",
+          "date": "2026-10-16",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/16/womens-volleyball-iup-takes-down-seton-hill-in-four-sets-for-16th-victory.aspx"
+        },
         {
           "id": "ac11f287d110",
           "teamId": "iup",
@@ -264,15 +273,6 @@
           "date": "2026-10-13",
           "source": "Wheeling Athletics",
           "url": "https://wucardinals.com/news/2026/10/13/volleyball-falls-in-five-set-battle-with-iup.aspx"
-        },
-        {
-          "id": "fede3d06f81b",
-          "teamId": "iup",
-          "headline": "Delaney Concannon wins a conference award",
-          "summary": "The outside hitter had 27 digs in two road wins last weekend, including 16 against Gannon, more than anyone on either team. The conference named her its West Division defensive athlete of the week on Monday.",
-          "date": "2026-10-12",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/12/womens-volleyball-concannon-earns-psac-west-defensive-athlete-of-the-week-honors.aspx"
         }
       ]
     },
