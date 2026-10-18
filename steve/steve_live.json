@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "teams": {
     "tulane": {
       "record": "3-3",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won five of its six games."
+        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
@@ -61,19 +61,19 @@
       "record": "5-2",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Texas Longhorns",
-        "date": "2026-10-17",
-        "utc": "2026-10-17T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Darrell K Royal-Texas Memorial Stadium",
-        "city": "Austin, TX",
+        "opponent": "Georgia Bulldogs",
+        "date": "2026-10-31",
+        "utc": "2026-10-31T19:30Z",
+        "time": "2:30 PM",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta, GA",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff in Austin against Texas."
+        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. The Gators are off this coming Saturday, so this is their next game. Georgia has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
@@ -116,10 +116,10 @@
       "record": "4-2",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Florida Gators",
-        "date": "2026-10-17",
-        "utc": "2026-10-17T16:00Z",
-        "time": "11:00 AM",
+        "opponent": "Ole Miss Rebels",
+        "date": "2026-10-24",
+        "utc": "2026-10-24T23:30Z",
+        "time": "6:30 PM",
         "venue": "Darrell K Royal-Texas Memorial Stadium",
         "city": "Austin, TX",
         "tv": {
@@ -128,7 +128,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Home game against Florida at eleven in the morning."
+        "note": "Saturday night home game in Austin. Half past six our time. Ole Miss has won five games and lost one."
       },
       "lastGame": {
         "result": "L",
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one."
+        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one, and they lead their division."
       },
       "lastGame": {
         "result": "L",
@@ -193,6 +193,15 @@
         "date": "2026-10-11"
       },
       "news": [
+        {
+          "id": "aa106b4f89d3",
+          "teamId": "saints",
+          "headline": "Saints get their long snapper back and add a receiver",
+          "summary": "The Saints took long snapper Zach Wood off the injured list on Saturday, so he can play at the Giants. They also moved receiver Cedric Tillman up to the game roster for Sunday.",
+          "date": "2026-10-17",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-6-elevations-giants-2026"
+        },
         {
           "id": "bf65c6e2050e",
           "teamId": "saints",
@@ -210,15 +219,6 @@
           "date": "2026-10-16",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
-        },
-        {
-          "id": "a7dc4c4648ff",
-          "teamId": "saints",
-          "headline": "Jameis Winston is the Giants' quarterback now",
-          "summary": "Winston played four years for the Saints and now starts for New York, after the Giants' young quarterback Jaxson Dart got hurt. The Giants have won two games and tied one in the games he has started, and Saints coaches spent this week saying good things about him.",
-          "date": "2026-10-16",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/former-new-orleans-saints-quarterback-jameis-winston-helping-to-energize-the-giants"
         }
       ]
     },
@@ -232,12 +232,12 @@
         "venue": "Kovalchick Complex",
         "city": "Indiana, PA",
         "tv": {
-          "name": "PSAC Sports Digital Network",
+          "name": "the free PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
-          "note": "Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV. You can also watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+          "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP beat Clarion in five sets back in September. Every IUP volleyball game, including this one, is on the free PSAC Sports Digital Network app."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP beat Clarion in five sets back in September. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
       },
       "lastGame": {
         "result": "W",

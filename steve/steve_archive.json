@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-17",
+    "updated": "2026-10-18",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "a7dc4c4648ff",
+      "teamId": "saints",
+      "headline": "Jameis Winston is the Giants' quarterback now",
+      "summary": "Winston played four years for the Saints and now starts for New York, after the Giants' young quarterback Jaxson Dart got hurt. The Giants have won two games and tied one in the games he has started, and Saints coaches spent this week saying good things about him.",
+      "date": "2026-10-16",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/former-new-orleans-saints-quarterback-jameis-winston-helping-to-energize-the-giants"
+    },
     {
       "id": "273af59e8a4f",
       "teamId": "florida",

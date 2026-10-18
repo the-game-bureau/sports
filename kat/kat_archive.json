@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-17",
+    "updated": "2026-10-18",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f3bf986727d6",
+      "teamId": "lsu",
+      "headline": "Jackson Harris leaves the game with a leg injury",
+      "summary": "Harris caught six passes for 85 yards and two touchdowns before he left in the third quarter with what looked like a left leg injury. Pass rusher Princewill Umanmielen also left early with a head injury.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
+    },
+    {
+      "id": "a7dc4c4648ff",
+      "teamId": "saints",
+      "headline": "Jameis Winston is the Giants' quarterback now",
+      "summary": "Winston played four years for the Saints and now starts for New York, after the Giants' young quarterback Jaxson Dart got hurt. The Giants have won two games and tied one in the games he has started, and Saints coaches spent this week saying good things about him.",
+      "date": "2026-10-16",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/former-new-orleans-saints-quarterback-jameis-winston-helping-to-energize-the-giants"
+    },
     {
       "id": "273af59e8a4f",
       "teamId": "florida",

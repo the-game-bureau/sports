@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "teams": {
     "saints": {
       "record": "1-4",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one."
+        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one, and they lead their division."
       },
       "lastGame": {
         "result": "L",
@@ -28,6 +28,15 @@
         "date": "2026-10-11"
       },
       "news": [
+        {
+          "id": "aa106b4f89d3",
+          "teamId": "saints",
+          "headline": "Saints get their long snapper back and add a receiver",
+          "summary": "The Saints took long snapper Zach Wood off the injured list on Saturday, so he can play at the Giants. They also moved receiver Cedric Tillman up to the game roster for Sunday.",
+          "date": "2026-10-17",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-6-elevations-giants-2026"
+        },
         {
           "id": "bf65c6e2050e",
           "teamId": "saints",
@@ -45,15 +54,6 @@
           "date": "2026-10-16",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
-        },
-        {
-          "id": "a7dc4c4648ff",
-          "teamId": "saints",
-          "headline": "Jameis Winston is the Giants' quarterback now",
-          "summary": "Winston played four years for the Saints and now starts for New York, after the Giants' young quarterback Jaxson Dart got hurt. The Giants have won two games and tied one in the games he has started, and Saints coaches spent this week saying good things about him.",
-          "date": "2026-10-16",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/former-new-orleans-saints-quarterback-jameis-winston-helping-to-energize-the-giants"
         }
       ]
     },
@@ -61,19 +61,19 @@
       "record": "5-2",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Texas Longhorns",
-        "date": "2026-10-17",
-        "utc": "2026-10-17T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Darrell K Royal-Texas Memorial Stadium",
-        "city": "Austin, TX",
+        "opponent": "Georgia Bulldogs",
+        "date": "2026-10-31",
+        "utc": "2026-10-31T19:30Z",
+        "time": "2:30 PM",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta, GA",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Late morning kickoff in Austin against Texas."
+        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. The Gators are off this coming Saturday, so this is their next game. Georgia has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
@@ -115,20 +115,20 @@
     "lsu": {
       "record": "5-2",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Mississippi State Bulldogs",
-        "date": "2026-10-17",
-        "utc": "2026-10-17T16:00Z",
+        "homeAway": "away",
+        "opponent": "Auburn Tigers",
+        "date": "2026-10-24",
+        "utc": "2026-10-24T16:00Z",
         "time": "11:00 AM",
-        "venue": "Tiger Stadium",
-        "city": "Baton Rouge, LA",
+        "venue": "Jordan-Hare Stadium",
+        "city": "Auburn, AL",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ABC or ESPN",
+          "logo": "",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "The channel is not set yet. Both are on YouTube TV."
         },
-        "note": "Late morning home game in Baton Rouge. Mississippi State is 4-1."
+        "note": "Saturday morning game at Auburn. Eleven o'clock kickoff. Auburn has won four games and lost two. The network has not been announced yet, but it will be ABC or ESPN."
       },
       "lastGame": {
         "result": "W",
@@ -138,6 +138,15 @@
         "date": "2026-10-17"
       },
       "news": [
+        {
+          "id": "174094feb809",
+          "teamId": "lsu",
+          "headline": "Jackson Harris walked off without a boot",
+          "summary": "LSU's receiver hurt his leg in the third quarter Saturday and went to the medical tent. He walked to the locker room on his own, with no boot and no crutches, and LSU's radio reporter said the injury did not look serious.",
+          "date": "2026-10-17",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-wr-jackson-harris-exits-game-versus-mississippi-state/"
+        },
         {
           "id": "90eb3970290f",
           "teamId": "lsu",
@@ -155,15 +164,6 @@
           "date": "2026-10-17",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
-        },
-        {
-          "id": "f3bf986727d6",
-          "teamId": "lsu",
-          "headline": "Jackson Harris leaves the game with a leg injury",
-          "summary": "Harris caught six passes for 85 yards and two touchdowns before he left in the third quarter with what looked like a left leg injury. Pass rusher Princewill Umanmielen also left early with a head injury.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
         }
       ]
     },
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won five of its six games."
+        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
