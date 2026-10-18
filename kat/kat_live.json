@@ -3,57 +3,57 @@
   "updated": "2026-10-18",
   "teams": {
     "saints": {
-      "record": "1-4",
+      "record": "2-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "New York Giants",
-        "date": "2026-10-18",
-        "utc": "2026-10-18T17:00Z",
-        "time": "12:00 PM",
-        "venue": "MetLife Stadium",
-        "city": "East Rutherford, NJ",
+        "homeAway": "home",
+        "opponent": "Pittsburgh Steelers",
+        "date": "2026-10-25",
+        "utc": "2026-10-25T13:30Z",
+        "time": "8:30 AM",
+        "venue": "Stade de France",
+        "city": "Saint-Denis, France",
         "tv": {
-          "name": "Fox 8 (WVUE)",
-          "logo": "images/fox8.png",
+          "name": "NFL Network",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday noon kickoff in New Jersey. The Giants have won three games, lost one and tied one, and they lead their division."
+        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints are the home team even though the game is played in France. Pittsburgh has won four games and lost two."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 13,
-        "opponentScore": 23,
-        "opponent": "Minnesota Vikings",
-        "date": "2026-10-11"
+        "result": "W",
+        "teamScore": 34,
+        "opponentScore": 27,
+        "opponent": "New York Giants",
+        "date": "2026-10-18"
       },
       "news": [
         {
-          "id": "aa106b4f89d3",
+          "id": "0a19db6bf893",
           "teamId": "saints",
-          "headline": "Saints get their long snapper back and add a receiver",
-          "summary": "The Saints took long snapper Zach Wood off the injured list on Saturday, so he can play at the Giants. They also moved receiver Cedric Tillman up to the game roster for Sunday.",
-          "date": "2026-10-17",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-6-elevations-giants-2026"
+          "headline": "Saints win at the Giants, 34-27",
+          "summary": "The Saints were losing 10-0 and then scored 34 points in a row to win in New Jersey. It ends three straight losses and makes their record two wins and four losses.",
+          "date": "2026-10-18",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401873000"
         },
         {
-          "id": "bf65c6e2050e",
+          "id": "29976793ba8a",
           "teamId": "saints",
-          "headline": "Chris Olave practiced Friday and may play",
-          "summary": "The Saints' best receiver was sick and missed practice Wednesday and Thursday. He took part in some of Friday's practice, and the team lists him as a maybe for Sunday's game at the Giants.",
-          "date": "2026-10-16",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
+          "headline": "Tyler Shough scores four touchdowns",
+          "summary": "Shough threw touchdown passes to Bryce Lance, Alvin Kamara and Chris Olave, and ran one in himself. He completed 16 of his 30 throws for 144 yards and did not throw an interception.",
+          "date": "2026-10-18",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/boxscore/_/gameId/401873000"
         },
         {
-          "id": "4fe082e0eaa5",
+          "id": "a1a05f239c53",
           "teamId": "saints",
-          "headline": "Two Saints defenders will miss Sunday's game",
-          "summary": "Linebacker Kaden Elliss has a sore calf and Anfernee Jennings has a hurt knee, and neither one practiced this week. Running back Alvin Kamara is a maybe with a sore back.",
-          "date": "2026-10-16",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
+          "headline": "Next Sunday's game in Paris is still on",
+          "summary": "The Saints play the Pittsburgh Steelers in France next Sunday morning, and the league says that game is going ahead as planned. The team flies to Paris right after today's game.",
+          "date": "2026-10-18",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "f656092a8372",
+          "teamId": "florida",
+          "headline": "Florida is ranked again at No. 20",
+          "summary": "Beating Texas put the Gators back in the Associated Press Top 25 for the first time this season, at number 20. Texas fell to number 19.",
+          "date": "2026-10-18",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+        },
+        {
           "id": "7f30dd642845",
           "teamId": "florida",
           "headline": "Florida beats Texas 27-24",
@@ -100,15 +109,6 @@
           "date": "2026-10-17",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
-        },
-        {
-          "id": "fa834e4c0cac",
-          "teamId": "florida",
-          "headline": "Florida's defense sacks Arch Manning five times",
-          "summary": "Florida held Texas under 300 yards and sacked the Texas quarterback five times. The last sack knocked the ball loose and ended Texas's final drive.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
         }
       ]
     },
@@ -123,12 +123,12 @@
         "venue": "Jordan-Hare Stadium",
         "city": "Auburn, AL",
         "tv": {
-          "name": "ABC or ESPN",
+          "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
-          "note": "The channel is not set yet. Both are on YouTube TV."
+          "note": "On YouTube TV"
         },
-        "note": "Saturday morning game at Auburn. Eleven o'clock kickoff. Auburn has won four games and lost two. The network has not been announced yet, but it will be ABC or ESPN."
+        "note": "Saturday morning game at Auburn. Eleven o'clock kickoff on ABC. Auburn has won four games and lost two."
       },
       "lastGame": {
         "result": "W",
@@ -139,13 +139,13 @@
       },
       "news": [
         {
-          "id": "174094feb809",
+          "id": "9f77aa64ea9c",
           "teamId": "lsu",
-          "headline": "Jackson Harris walked off without a boot",
-          "summary": "LSU's receiver hurt his leg in the third quarter Saturday and went to the medical tent. He walked to the locker room on his own, with no boot and no crutches, and LSU's radio reporter said the injury did not look serious.",
-          "date": "2026-10-17",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-wr-jackson-harris-exits-game-versus-mississippi-state/"
+          "headline": "LSU moves up to No. 18",
+          "summary": "Shutting out Mississippi State moved LSU up four spots in the Associated Press Top 25, from 22nd to 18th. The Tigers have won five games and lost two.",
+          "date": "2026-10-18",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/18/oct-18-football-national-rankings"
         },
         {
           "id": "90eb3970290f",
