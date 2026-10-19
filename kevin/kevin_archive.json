@@ -7,15 +7,6 @@
   },
   "items": [
     {
-      "id": "575cb318f6b7",
-      "teamId": "lsu",
-      "headline": "Sam Leavitt throws four touchdown passes",
-      "summary": "Leavitt completed 31 of his 38 passes for 289 yards and did not throw an interception. It was the first game all season he did not throw one.",
-      "date": "2026-10-17",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
-    },
-    {
       "id": "a1a05f239c53",
       "teamId": "saints",
       "headline": "Next Sunday's game in Paris is still on",
@@ -23,6 +14,24 @@
       "date": "2026-10-18",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
+    {
+      "id": "23fa2985393b",
+      "teamId": "florida",
+      "headline": "Tramell Jones wins his first start for Florida",
+      "summary": "Jones threw two touchdown passes to Lacota Dippre and completed 22 of his 35 throws for 155 yards. He started because Aaron Philo is hurt.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
+    },
+    {
+      "id": "575cb318f6b7",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt throws four touchdown passes",
+      "summary": "Leavitt completed 31 of his 38 passes for 289 yards and did not throw an interception. It was the first game all season he did not throw one.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
     },
     {
       "id": "f3bf986727d6",
@@ -59,6 +68,15 @@
       "date": "2026-10-17",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/lsu-wr-jackson-harris-exits-game-versus-mississippi-state/"
+    },
+    {
+      "id": "6ce123b81a9a",
+      "teamId": "tulane",
+      "headline": "Trace Johnson wins his first start",
+      "summary": "Freshman Trace Johnson started at quarterback for the first time and Tulane won. He completed 11 of 21 passes for 165 yards, with a 38-yard touchdown to Destyn Hill and one interception.",
+      "date": "2026-10-16",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862801"
     },
     {
       "id": "a7dc4c4648ff",
@@ -124,6 +142,15 @@
       "url": "https://www.si.com/college/lsu/football/lsu-tigers-receive-bad-news-on-latest-injury-report-vs-mississippi-state"
     },
     {
+      "id": "7ffcf7fac98c",
+      "teamId": "saints",
+      "headline": "Chris Olave has not practiced this week",
+      "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
+      "date": "2026-10-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
       "id": "241e8b1ba6d1",
       "teamId": "florida",
       "headline": "Vernell Brown III is practicing again",
@@ -149,24 +176,6 @@
       "date": "2026-10-14",
       "source": "Tulane On SI",
       "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
-    },
-    {
-      "id": "400b9963193c",
-      "teamId": "tulane",
-      "headline": "Tulane has not named a quarterback for Friday",
-      "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
-      "date": "2026-10-13",
-      "source": "Tulane On SI",
-      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
-    },
-    {
-      "id": "0962d6515f46",
-      "teamId": "tulane",
-      "headline": "Tulane's last game is set for November 28",
-      "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
-      "date": "2026-10-12",
-      "source": "Tulane Athletics",
-      "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
     },
     {
       "id": "c53b69a928e4",
@@ -205,13 +214,22 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
     },
     {
-      "id": "7ffcf7fac98c",
+      "id": "4316b6c4e006",
       "teamId": "saints",
-      "headline": "Chris Olave has not practiced this week",
-      "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
-      "date": "2026-10-15",
+      "headline": "The Saints' long snapper is practicing again",
+      "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
+      "date": "2026-10-14",
       "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+      "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
+    },
+    {
+      "id": "400b9963193c",
+      "teamId": "tulane",
+      "headline": "Tulane has not named a quarterback for Friday",
+      "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
+      "date": "2026-10-13",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
     },
     {
       "id": "20bee90b3540",
@@ -221,6 +239,33 @@
       "date": "2026-10-13",
       "source": "WAFB",
       "url": "https://www.wafb.com/2026/10/13/lsu-receive-500000-kentucky-after-overtime-loss-heres-why/"
+    },
+    {
+      "id": "d19ca95b665e",
+      "teamId": "saints",
+      "headline": "Saints owner says 1-4 is not good enough",
+      "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
+      "date": "2026-10-13",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
+    },
+    {
+      "id": "23b3cb79532b",
+      "teamId": "saints",
+      "headline": "Saints let their long snapper go",
+      "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
+      "date": "2026-10-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+    },
+    {
+      "id": "0962d6515f46",
+      "teamId": "tulane",
+      "headline": "Tulane's last game is set for November 28",
+      "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
+      "date": "2026-10-12",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
     },
     {
       "id": "8627daaeeba4",
@@ -241,15 +286,6 @@
       "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
     },
     {
-      "id": "4316b6c4e006",
-      "teamId": "saints",
-      "headline": "The Saints' long snapper is practicing again",
-      "summary": "Zach Wood practiced Wednesday for the first time since he hurt his calf. He is the long snapper who handles the ball on every punt and every field goal, and he can rejoin the team when he is ready to play.",
-      "date": "2026-10-14",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
-    },
-    {
       "id": "3dd253456d63",
       "teamId": "lsu",
       "headline": "Mississippi State's quarterback may miss the LSU game",
@@ -257,24 +293,6 @@
       "date": "2026-10-12",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/mississippi-state-quarterback-kamario-taylors-injury-status-for-lsu-game-awaiting-update/"
-    },
-    {
-      "id": "d19ca95b665e",
-      "teamId": "saints",
-      "headline": "Saints owner says 1-4 is not good enough",
-      "summary": "Gayle Benson told a New Orleans club on Tuesday that the Saints' 1-4 start is not acceptable to her. She said the fault starts with her, and that she will make the decisions it takes to make the team better.",
-      "date": "2026-10-13",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/video-gayle-benson-addresses-saints-1-4-start-at-new-orleans-quarterback-club/"
-    },
-    {
-      "id": "23b3cb79532b",
-      "teamId": "saints",
-      "headline": "Saints let their long snapper go",
-      "summary": "The Saints ended long snapper Cal Adomitis's contract on Tuesday and brought back cornerback Decamerion Richardson. A long snapper handles the ball on every punt and every field goal.",
-      "date": "2026-10-13",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
     },
     {
       "id": "c3a56a9d2262",
@@ -311,15 +329,6 @@
       "date": "2026-10-11",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/rankings"
-    },
-    {
-      "id": "b3fea2b6275b",
-      "teamId": "tulane",
-      "headline": "Tulane loses a starting lineman to injury",
-      "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
-      "date": "2026-10-10",
-      "source": "NOLA.com",
-      "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
     },
     {
       "id": "b3e7a7878835",
@@ -367,6 +376,24 @@
       "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
     },
     {
+      "id": "e9f3ee19aaed",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin drops out of the state top 10",
+      "summary": "Friday's loss to Rummel moved Brother Martin out of the Crescent City Sports top 10 for the biggest class. The Crusaders are 4-2 and play at John Curtis on Thursday.",
+      "date": "2026-10-10",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/st-charles-catholic-back-to-top-spot-in-ccs-top-10-rankings/"
+    },
+    {
+      "id": "b3fea2b6275b",
+      "teamId": "tulane",
+      "headline": "Tulane loses a starting lineman to injury",
+      "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
+      "date": "2026-10-10",
+      "source": "NOLA.com",
+      "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
+    },
+    {
       "id": "ea2285c94120",
       "teamId": "lsu",
       "headline": "Kentucky beats LSU 35-34 in overtime",
@@ -383,42 +410,6 @@
       "date": "2026-10-10",
       "source": "ESPN",
       "url": "http://www.espn.com/ncf/recap?gameId=401862795"
-    },
-    {
-      "id": "e2cf6a20ebb4",
-      "teamId": "brother-martin",
-      "headline": "Rummel beats Brother Martin 33-10",
-      "summary": "Brother Martin kicked a field goal to start Friday afternoon at Tad Gormley Stadium, then lost two fumbles and never caught up. It is a second loss in a row and Brother Martin is now 4-2.",
-      "date": "2026-10-09",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/rummel-turns-over-brother-martin-rolls-to-33-10-victory/"
-    },
-    {
-      "id": "784a5655c1b8",
-      "teamId": "tulane",
-      "headline": "Jamauri McClure is back for the Army game",
-      "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
-      "date": "2026-10-06",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
-    },
-    {
-      "id": "227c4a06c361",
-      "teamId": "brother-martin",
-      "headline": "Brother Martin pitcher Chance Pecoraro picks Tulane",
-      "summary": "Pecoraro, a junior pitcher at Brother Martin, said he will play baseball at Tulane. He was 3-0 with a 1.90 earned run average last spring and now throws 90 to 92 miles an hour.",
-      "date": "2026-10-04",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/baseball-recruiting-brother-martins-pecoraro-to-tulane-john-curtis-dufrene-to-ole-miss/"
-    },
-    {
-      "id": "0755613ec0c6",
-      "teamId": "lsu",
-      "headline": "LSU will be without five players at Kentucky",
-      "summary": "Linebacker Whit Weeks and tight end Trey'Dez Green are among the five Tigers ruled out for Saturday. Quarterback Sam Leavitt is not on the injury list at all.",
-      "date": "2026-10-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/kentucky-vs-lsu-injury-report-002718826.html"
     },
     {
       "id": "77c1bf12579d",
@@ -439,13 +430,13 @@
       "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
     },
     {
-      "id": "1e77afaaa6a7",
-      "teamId": "tulane",
-      "headline": "Freshman Trace Johnson takes over at quarterback",
-      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-      "date": "2026-09-28",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+      "id": "e2cf6a20ebb4",
+      "teamId": "brother-martin",
+      "headline": "Rummel beats Brother Martin 33-10",
+      "summary": "Brother Martin kicked a field goal to start Friday afternoon at Tad Gormley Stadium, then lost two fumbles and never caught up. It is a second loss in a row and Brother Martin is now 4-2.",
+      "date": "2026-10-09",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/rummel-turns-over-brother-martin-rolls-to-33-10-victory/"
     },
     {
       "id": "c127227979e6",
@@ -455,24 +446,6 @@
       "date": "2026-10-09",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
-    },
-    {
-      "id": "3fe54705e336",
-      "teamId": "florida",
-      "headline": "Vernell Brown is still a question mark for Saturday",
-      "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
-      "date": "2026-10-07",
-      "source": "247Sports",
-      "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
-    },
-    {
-      "id": "2fe56729ecf8",
-      "teamId": "brother-martin",
-      "headline": "Brother Martin slips to seventh in the state",
-      "summary": "Crescent City Sports now has the 4-1 Crusaders seventh among Louisiana's Class 5A teams, down from fifth, after Friday's loss to Edna Karr. Karr is 5-0 and first.",
-      "date": "2026-10-04",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/ocs-moves-atop-class-1a-other-no-1-steady-in-ccs-state-top-10-rankings/"
     },
     {
       "id": "21c71860093a",
@@ -493,15 +466,6 @@
       "url": "https://www.neworleanssaints.com/news/drew-brees-ring-of-honor-induction-oct-11-caesars-superdome"
     },
     {
-      "id": "10d3e23a1dda",
-      "teamId": "lsu",
-      "headline": "Sam Leavitt says he will be ready on Saturday",
-      "summary": "The LSU quarterback told reporters Tuesday that his sore hamstring feels really good and he will be 100 percent by Saturday. He played through it the last two games.",
-      "date": "2026-10-06",
-      "source": "Tiger Rag",
-      "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
-    },
-    {
       "id": "a77e2a1dc605",
       "teamId": "saints",
       "headline": "Chris Olave is set to play Sunday",
@@ -511,22 +475,13 @@
       "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
     },
     {
-      "id": "b987f8aae13c",
-      "teamId": "florida",
-      "headline": "Sumrall says South Carolina has the most talent yet",
-      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
-      "date": "2026-10-07",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
-    },
-    {
-      "id": "3be85c6cd2d1",
+      "id": "0755613ec0c6",
       "teamId": "lsu",
-      "headline": "Green and Weeks could play again this season",
-      "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
-      "date": "2026-10-05",
-      "source": "Tiger Rag",
-      "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
+      "headline": "LSU will be without five players at Kentucky",
+      "summary": "Linebacker Whit Weeks and tight end Trey'Dez Green are among the five Tigers ruled out for Saturday. Quarterback Sam Leavitt is not on the injury list at all.",
+      "date": "2026-10-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/kentucky-vs-lsu-injury-report-002718826.html"
     },
     {
       "id": "041ba949863f",
@@ -547,22 +502,22 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
     },
     {
-      "id": "7bf791f3720a",
+      "id": "3fe54705e336",
       "teamId": "florida",
-      "headline": "Jadan Baugh apologizes to his coach",
-      "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
-      "date": "2026-10-05",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
+      "headline": "Vernell Brown is still a question mark for Saturday",
+      "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
+      "date": "2026-10-07",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
     },
     {
-      "id": "f149d570921b",
-      "teamId": "tulane",
-      "headline": "Maurice Turner wins the conference weekly award",
-      "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
-      "date": "2026-09-28",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+      "id": "b987f8aae13c",
+      "teamId": "florida",
+      "headline": "Sumrall says South Carolina has the most talent yet",
+      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+      "date": "2026-10-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
     },
     {
       "id": "b7d764709a2c",
@@ -572,33 +527,6 @@
       "date": "2026-10-07",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/brother-martin-rummel-stays-friday-afternoon-ben-franklin-central-private-and-morris-jeff-newman-now-thursday/"
-    },
-    {
-      "id": "4b073ab30ca5",
-      "teamId": "saints",
-      "headline": "Minnesota is not sure Justin Jefferson can play",
-      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-      "date": "2026-10-06",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
-    },
-    {
-      "id": "95bdc025a4cc",
-      "teamId": "lsu",
-      "headline": "LSU's homecoming game will be on ABC or ESPN",
-      "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
-      "date": "2026-10-05",
-      "source": "LSU Athletics",
-      "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
-    },
-    {
-      "id": "1e600475f879",
-      "teamId": "florida",
-      "headline": "Vernell Brown III is cleared to practice again",
-      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-      "date": "2026-10-05",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
     },
     {
       "id": "84827777c7d8",
@@ -619,31 +547,31 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
     },
     {
-      "id": "39cf16453c8b",
-      "teamId": "florida",
-      "headline": "Sumrall says the Gators will regroup",
-      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
-      "date": "2026-10-05",
-      "source": "The Independent Florida Alligator",
-      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
+      "id": "784a5655c1b8",
+      "teamId": "tulane",
+      "headline": "Jamauri McClure is back for the Army game",
+      "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
     },
     {
-      "id": "a938d551f34d",
-      "teamId": "brother-martin",
-      "headline": "Edna Karr beats Brother Martin 25-21",
-      "summary": "Karr won Friday night in Hammond after Ty Williams caught two passes on defense in the fourth quarter, one of them run back for a touchdown. Brother Martin is now 4-1.",
-      "date": "2026-10-02",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/ty-williams-late-interceptions-lift-edna-karr-past-brother-martin-25-21/"
+      "id": "10d3e23a1dda",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt says he will be ready on Saturday",
+      "summary": "The LSU quarterback told reporters Tuesday that his sore hamstring feels really good and he will be 100 percent by Saturday. He played through it the last two games.",
+      "date": "2026-10-06",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-qb-sam-leavitt-plans-to-be-100-percent-by-saturdayafter-super-light-hamstring-thing/"
     },
     {
-      "id": "5e97dc159215",
-      "teamId": "florida",
-      "headline": "Florida falls to No. 16 in the new rankings",
-      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
-      "date": "2026-10-04",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
     },
     {
       "id": "9a51773b928c",
@@ -664,24 +592,6 @@
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
     },
     {
-      "id": "2a2f3f0dec71",
-      "teamId": "lsu",
-      "headline": "LSU moves back into the top 10",
-      "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
-      "date": "2026-10-04",
-      "source": "Fox 8 (WVUE)",
-      "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
-    },
-    {
-      "id": "86066cc43421",
-      "teamId": "tulane",
-      "headline": "Tulane wins the Battle for the Bell 24-21",
-      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-      "date": "2026-09-26",
-      "source": "Fox 8 (WVUE)",
-      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
-    },
-    {
       "id": "4d4cce35ba14",
       "teamId": "saints",
       "headline": "Tyler Shough hurt his hand in the loss",
@@ -700,13 +610,49 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
     },
     {
-      "id": "5c60736835b9",
+      "id": "3be85c6cd2d1",
       "teamId": "lsu",
-      "headline": "LSU beats McNeese 63-14",
-      "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
-      "date": "2026-10-03",
+      "headline": "Green and Weeks could play again this season",
+      "summary": "Coach Lane Kiffin said tight end Trey'Dez Green has his knee brace off and is getting closer, but will miss a third straight game on Saturday. Linebacker Whit Weeks had surgery on a broken leg and has a chance to come back late in the year.",
+      "date": "2026-10-05",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-tight-end-treydez-green-closer-to-return-but-no-target-date-yet/"
+    },
+    {
+      "id": "7bf791f3720a",
+      "teamId": "florida",
+      "headline": "Jadan Baugh apologizes to his coach",
+      "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
+      "date": "2026-10-05",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
+    },
+    {
+      "id": "95bdc025a4cc",
+      "teamId": "lsu",
+      "headline": "LSU's homecoming game will be on ABC or ESPN",
+      "summary": "LSU hosts Mississippi State on Saturday, October 17 at 11 in the morning for homecoming. The league will pick between ABC and ESPN after this weekend's games.",
+      "date": "2026-10-05",
       "source": "LSU Athletics",
-      "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
+      "url": "https://lsusports.net/news/2026/10/5/lsu-football-homecoming-game-to-air-on-abc-or-espn"
+    },
+    {
+      "id": "1e600475f879",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is cleared to practice again",
+      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
+      "date": "2026-10-05",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+    },
+    {
+      "id": "39cf16453c8b",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators will regroup",
+      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+      "date": "2026-10-05",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
     },
     {
       "id": "3b2f2be6beb9",
@@ -727,6 +673,42 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-4-elevations"
     },
     {
+      "id": "227c4a06c361",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin pitcher Chance Pecoraro picks Tulane",
+      "summary": "Pecoraro, a junior pitcher at Brother Martin, said he will play baseball at Tulane. He was 3-0 with a 1.90 earned run average last spring and now throws 90 to 92 miles an hour.",
+      "date": "2026-10-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/baseball-recruiting-brother-martins-pecoraro-to-tulane-john-curtis-dufrene-to-ole-miss/"
+    },
+    {
+      "id": "2fe56729ecf8",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin slips to seventh in the state",
+      "summary": "Crescent City Sports now has the 4-1 Crusaders seventh among Louisiana's Class 5A teams, down from fifth, after Friday's loss to Edna Karr. Karr is 5-0 and first.",
+      "date": "2026-10-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/ocs-moves-atop-class-1a-other-no-1-steady-in-ccs-state-top-10-rankings/"
+    },
+    {
+      "id": "5e97dc159215",
+      "teamId": "florida",
+      "headline": "Florida falls to No. 16 in the new rankings",
+      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+      "date": "2026-10-04",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "2a2f3f0dec71",
+      "teamId": "lsu",
+      "headline": "LSU moves back into the top 10",
+      "summary": "The Tigers are No. 10 in the Associated Press poll released Sunday, one spot higher after beating McNeese 63-14. LSU plays at Kentucky on Saturday.",
+      "date": "2026-10-04",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/10/04/lsu-back-no-10-ap-top-25-college-football-poll-after-63-14-rout-mcneese/"
+    },
+    {
       "id": "504c9ccf8715",
       "teamId": "saints",
       "headline": "Irma Thomas will sing before Monday night's game",
@@ -743,6 +725,15 @@
       "date": "2026-10-04",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
+    },
+    {
+      "id": "5c60736835b9",
+      "teamId": "lsu",
+      "headline": "LSU beats McNeese 63-14",
+      "summary": "LSU gained 731 yards Saturday night in Tiger Stadium and five different players ran for a touchdown. Harlem Berry had 125 yards on the ground, the first 100-yard game of his career.",
+      "date": "2026-10-03",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/3/football-dominates-mcneese-63-14-behind-historic-offensive-night"
     },
     {
       "id": "b6f919c08341",
@@ -772,6 +763,15 @@
       "url": "https://www.wafb.com/2026/10/03/lsu-vs-mcneese-no-11-tigers-host-cowboys-tiger-stadium/"
     },
     {
+      "id": "a938d551f34d",
+      "teamId": "brother-martin",
+      "headline": "Edna Karr beats Brother Martin 25-21",
+      "summary": "Karr won Friday night in Hammond after Ty Williams caught two passes on defense in the fourth quarter, one of them run back for a touchdown. Brother Martin is now 4-1.",
+      "date": "2026-10-02",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/ty-williams-late-interceptions-lift-edna-karr-past-brother-martin-25-21/"
+    },
+    {
       "id": "2b47164e3aec",
       "teamId": "saints",
       "headline": "Trombone Shorty will play at halftime Monday night",
@@ -779,24 +779,6 @@
       "date": "2026-10-02",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-vs-falcons-2026-nfl-week-4-gameday-guide"
-    },
-    {
-      "id": "6d8ec4456096",
-      "teamId": "brother-martin",
-      "headline": "Brother Martin moves up to fifth in the state",
-      "summary": "Crescent City Sports has the 4-0 Crusaders fifth among Louisiana's Class 5A teams after Friday's 24-22 win over Jesuit. Brother Martin plays Edna Karr at Tad Gormley Stadium on Friday night.",
-      "date": "2026-09-27",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/karr-north-desoto-st-james-calvary-baptist-riverside-remain-atop-ccs-week-5-state-rankings/"
-    },
-    {
-      "id": "e6ff59528cb2",
-      "teamId": "brother-martin",
-      "headline": "Brother Martin holds off Jesuit 24-22",
-      "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
-      "date": "2026-09-25",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
     },
     {
       "id": "1bb2ce2a5c34",
@@ -898,6 +880,24 @@
       "url": "https://www.si.com/nfl/saints/onsi/saints-rb-travis-etienne-ruled-out-vs-falcons-with-hamstring-injury-01m3n2vknt9h"
     },
     {
+      "id": "1e77afaaa6a7",
+      "teamId": "tulane",
+      "headline": "Freshman Trace Johnson takes over at quarterback",
+      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+    },
+    {
+      "id": "f149d570921b",
+      "teamId": "tulane",
+      "headline": "Maurice Turner wins the conference weekly award",
+      "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
+      "date": "2026-09-28",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+    },
+    {
       "id": "848cb4e4128d",
       "teamId": "florida",
       "headline": "Jadan Baugh wins the top offensive award in the SEC",
@@ -961,6 +961,15 @@
       "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
     },
     {
+      "id": "6d8ec4456096",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin moves up to fifth in the state",
+      "summary": "Crescent City Sports has the 4-0 Crusaders fifth among Louisiana's Class 5A teams after Friday's 24-22 win over Jesuit. Brother Martin plays Edna Karr at Tad Gormley Stadium on Friday night.",
+      "date": "2026-09-27",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/karr-north-desoto-st-james-calvary-baptist-riverside-remain-atop-ccs-week-5-state-rankings/"
+    },
+    {
       "id": "e63f38f534cd",
       "teamId": "florida",
       "headline": "Florida jumps to No. 8 in the new rankings",
@@ -1015,6 +1024,15 @@
       "url": "https://sports.yahoo.com/articles/lane-kiffin-clarifies-why-sam-070815475.html"
     },
     {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+    },
+    {
       "id": "5cff9fb06f45",
       "teamId": "saints",
       "headline": "Saints add two receivers for Sunday",
@@ -1049,6 +1067,15 @@
       "date": "2026-09-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
+    },
+    {
+      "id": "e6ff59528cb2",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin holds off Jesuit 24-22",
+      "summary": "Easton Royal scored twice and then ran 16 yards for the first down that let Brother Martin run out the clock Friday night at Tad Gormley Stadium. The Crusaders are 4-0 and host Edna Karr next Friday.",
+      "date": "2026-09-25",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/replay-royal-brother-martin-hold-off-jesuit/"
     },
     {
       "id": "10bec9052258",

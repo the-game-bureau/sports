@@ -16,6 +16,24 @@
       "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
     },
     {
+      "id": "23fa2985393b",
+      "teamId": "florida",
+      "headline": "Tramell Jones wins his first start for Florida",
+      "summary": "Jones threw two touchdown passes to Lacota Dippre and completed 22 of his 35 throws for 155 yards. He started because Aaron Philo is hurt.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
+    },
+    {
+      "id": "4c5506c1662e",
+      "teamId": "texas",
+      "headline": "Steve Sarkisian says he will look at everything",
+      "summary": "The Texas coach said after the game that his team is not playing good football and that he will look at everything, including who plays quarterback and his own play calling. Texas ran only 50 plays on offense, its fewest since he took the job.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50203108/texas-evaluate-everything-loss-florida"
+    },
+    {
       "id": "fa834e4c0cac",
       "teamId": "florida",
       "headline": "Florida's defense sacks Arch Manning five times",
@@ -50,6 +68,15 @@
       "date": "2026-10-17",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-6-elevations-giants-2026"
+    },
+    {
+      "id": "6ce123b81a9a",
+      "teamId": "tulane",
+      "headline": "Trace Johnson wins his first start",
+      "summary": "Freshman Trace Johnson started at quarterback for the first time and Tulane won. He completed 11 of 21 passes for 165 yards, with a 38-yard touchdown to Destyn Hill and one interception.",
+      "date": "2026-10-16",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862801"
     },
     {
       "id": "a7dc4c4648ff",
@@ -106,6 +133,15 @@
       "url": "https://www.orangebloods.com/2026/10/15/texas-longhorn-football-sarkisian-arch-manning-running-more/"
     },
     {
+      "id": "7ffcf7fac98c",
+      "teamId": "saints",
+      "headline": "Chris Olave has not practiced this week",
+      "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
+      "date": "2026-10-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
       "id": "241e8b1ba6d1",
       "teamId": "florida",
       "headline": "Vernell Brown III is practicing again",
@@ -124,15 +160,6 @@
       "url": "https://247sports.com/college/texas/article/texas-dt-justus-terry-probable-florida-starting-qb-aaron-philo-questionable-on-wednesdays-sec-injury-report-291280392/"
     },
     {
-      "id": "83e28c07eb54",
-      "teamId": "texas",
-      "headline": "Texas and Ole Miss will start at 6:30",
-      "summary": "The conference set Texas's home game against Ole Miss for Saturday, October 24, at 6:30 in the evening on ABC. It is the second of three straight home games in Austin.",
-      "date": "2026-10-12",
-      "source": "Burnt Orange Nation",
-      "url": "https://www.burntorangenation.com/texas-longhorns-football/105754/texas-longhorns-ole-miss-rebels-game-time-television"
-    },
-    {
       "id": "6fcd2981a379",
       "teamId": "tulane",
       "headline": "Two Tulane defensive linemen are day to day",
@@ -142,24 +169,6 @@
       "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
     },
     {
-      "id": "400b9963193c",
-      "teamId": "tulane",
-      "headline": "Tulane has not named a quarterback for Friday",
-      "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
-      "date": "2026-10-13",
-      "source": "Tulane On SI",
-      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
-    },
-    {
-      "id": "0962d6515f46",
-      "teamId": "tulane",
-      "headline": "Tulane's last game is set for November 28",
-      "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
-      "date": "2026-10-12",
-      "source": "Tulane Athletics",
-      "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
-    },
-    {
       "id": "c53b69a928e4",
       "teamId": "florida",
       "headline": "Florida may be without its quarterback at Texas",
@@ -167,15 +176,6 @@
       "date": "2026-10-14",
       "source": "CBS Sports",
       "url": "https://www.cbssports.com/college-football/news/florida-qb-aaron-philo-injury-texas/"
-    },
-    {
-      "id": "fede3d06f81b",
-      "teamId": "iup",
-      "headline": "Delaney Concannon wins a conference award",
-      "summary": "The outside hitter had 27 digs in two road wins last weekend, including 16 against Gannon, more than anyone on either team. The conference named her its West Division defensive athlete of the week on Monday.",
-      "date": "2026-10-12",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/10/12/womens-volleyball-concannon-earns-psac-west-defensive-athlete-of-the-week-honors.aspx"
     },
     {
       "id": "fc78db56e2ea",
@@ -196,33 +196,6 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-wednesday"
     },
     {
-      "id": "7ffcf7fac98c",
-      "teamId": "saints",
-      "headline": "Chris Olave has not practiced this week",
-      "summary": "The Saints' best receiver sat out practice Wednesday and Thursday because he is sick. Defensive lineman Nathan Shepherd is out sick too, and the Saints play at the Giants on Sunday.",
-      "date": "2026-10-15",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
-    },
-    {
-      "id": "8b1314dab28e",
-      "teamId": "texas",
-      "headline": "Sarkisian defends Arch Manning",
-      "summary": "Coach Steve Sarkisian said Monday that fans judge Manning harder because of his family name. He said if the name were off the jersey, people would be praising him.",
-      "date": "2026-10-12",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50168104/manning-name-leading-outsized-criticism-arch"
-    },
-    {
-      "id": "861b4f416638",
-      "teamId": "florida",
-      "headline": "Sumrall takes a bigger hand in the defense",
-      "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
-      "date": "2026-10-12",
-      "source": "Saturday Down South",
-      "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
-    },
-    {
       "id": "4316b6c4e006",
       "teamId": "saints",
       "headline": "The Saints' long snapper is practicing again",
@@ -232,13 +205,22 @@
       "url": "https://www.neworleanssaints.com/news/kevin-austin-jr-jarquez-hunter-zach-wood-saints-roster-moves-transaction-alert-october-14-2026"
     },
     {
-      "id": "138df60b418f",
-      "teamId": "texas",
-      "headline": "Texas loses a star receiver to Florida",
-      "summary": "Easton Royal, a New Orleans high school receiver who had promised to come to Texas, switched to Florida on Sunday. The news came hours after the Longhorns lost to Oklahoma.",
-      "date": "2026-10-11",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+      "id": "6a19ed65fbc6",
+      "teamId": "iup",
+      "headline": "IUP wins in five sets after losing the first two",
+      "summary": "IUP dropped the first two sets at Wheeling on Tuesday night and then won the last three, 25-23, 25-18 and 15-8. Charlotte Potvin led the way with 23 kills, and the Crimson Hawks are now 15-4 with three wins in a row.",
+      "date": "2026-10-13",
+      "source": "Wheeling Athletics",
+      "url": "https://wucardinals.com/news/2026/10/13/volleyball-falls-in-five-set-battle-with-iup.aspx"
+    },
+    {
+      "id": "400b9963193c",
+      "teamId": "tulane",
+      "headline": "Tulane has not named a quarterback for Friday",
+      "summary": "Coach Will Hall said Tuesday that the job is open and that Tulane has to play better at quarterback. Three players have taken turns there this season.",
+      "date": "2026-10-13",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-opens-up-on-preparing-for-memphis-provides-dl-injury-updates-01m4v4hnaym2"
     },
     {
       "id": "d19ca95b665e",
@@ -259,6 +241,51 @@
       "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
     },
     {
+      "id": "83e28c07eb54",
+      "teamId": "texas",
+      "headline": "Texas and Ole Miss will start at 6:30",
+      "summary": "The conference set Texas's home game against Ole Miss for Saturday, October 24, at 6:30 in the evening on ABC. It is the second of three straight home games in Austin.",
+      "date": "2026-10-12",
+      "source": "Burnt Orange Nation",
+      "url": "https://www.burntorangenation.com/texas-longhorns-football/105754/texas-longhorns-ole-miss-rebels-game-time-television"
+    },
+    {
+      "id": "0962d6515f46",
+      "teamId": "tulane",
+      "headline": "Tulane's last game is set for November 28",
+      "summary": "The conference picked Saturday, November 28, for Tulane's trip to South Florida. The kickoff time and the TV channel will be announced about two weeks before the game.",
+      "date": "2026-10-12",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/12/footballs-date-announced-for-south-florida"
+    },
+    {
+      "id": "fede3d06f81b",
+      "teamId": "iup",
+      "headline": "Delaney Concannon wins a conference award",
+      "summary": "The outside hitter had 27 digs in two road wins last weekend, including 16 against Gannon, more than anyone on either team. The conference named her its West Division defensive athlete of the week on Monday.",
+      "date": "2026-10-12",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/12/womens-volleyball-concannon-earns-psac-west-defensive-athlete-of-the-week-honors.aspx"
+    },
+    {
+      "id": "8b1314dab28e",
+      "teamId": "texas",
+      "headline": "Sarkisian defends Arch Manning",
+      "summary": "Coach Steve Sarkisian said Monday that fans judge Manning harder because of his family name. He said if the name were off the jersey, people would be praising him.",
+      "date": "2026-10-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50168104/manning-name-leading-outsized-criticism-arch"
+    },
+    {
+      "id": "861b4f416638",
+      "teamId": "florida",
+      "headline": "Sumrall takes a bigger hand in the defense",
+      "summary": "Jon Sumrall said Monday that he is working with the Florida defense more day to day after South Carolina scored 38 points in Gainesville. He said he is not taking the defense over from Brad White and still has a lot of confidence in that staff.",
+      "date": "2026-10-12",
+      "source": "Saturday Down South",
+      "url": "https://saturdaydownsouth.com/news/college-football/jon-sumrall-increases-involvement-with-florida-defense-after-south-carolina-debacle"
+    },
+    {
       "id": "c3a56a9d2262",
       "teamId": "saints",
       "headline": "Jordyn Tyson will not practice this week",
@@ -277,6 +304,15 @@
       "url": "https://www.alligator.org/article/2026/10/jon-sumrall-press-conference-texas-26"
     },
     {
+      "id": "138df60b418f",
+      "teamId": "texas",
+      "headline": "Texas loses a star receiver to Florida",
+      "summary": "Easton Royal, a New Orleans high school receiver who had promised to come to Texas, switched to Florida on Sunday. The news came hours after the Longhorns lost to Oklahoma.",
+      "date": "2026-10-11",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
+    },
+    {
       "id": "1ec68cba681c",
       "teamId": "florida",
       "headline": "Florida takes a star receiver away from Texas",
@@ -284,60 +320,6 @@
       "date": "2026-10-11",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/50159015/easton-royal-top-wr-27-flips-florida-texas"
-    },
-    {
-      "id": "b3fea2b6275b",
-      "teamId": "tulane",
-      "headline": "Tulane loses a starting lineman to injury",
-      "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
-      "date": "2026-10-10",
-      "source": "NOLA.com",
-      "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
-    },
-    {
-      "id": "2c7f55c1c2c1",
-      "teamId": "tulane",
-      "headline": "Army beats Tulane 20-17 on the last play",
-      "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
-      "date": "2026-10-10",
-      "source": "ESPN",
-      "url": "http://www.espn.com/ncf/recap?gameId=401862795"
-    },
-    {
-      "id": "db893f2c4e42",
-      "teamId": "yankees",
-      "headline": "A fan reaches over the wall and takes away a home run",
-      "summary": "Anthony Volpe hit a ball to left field in the sixth inning that would have tied the game at 4-4. A fan leaned over the wall and caught it, so the umpires gave Volpe a double instead and only one run scored.",
-      "date": "2026-10-07",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/50129842/fan-interference-denies-yankees-game-tying-hr-vs-rays"
-    },
-    {
-      "id": "04d91df13f04",
-      "teamId": "warren-easton",
-      "headline": "Warren Easton loses at Zachary",
-      "summary": "Zachary won 49-28 on Friday night. Warren Easton is 0-4 and plays at Riverdale on Thursday, October 1.",
-      "date": "2026-09-25",
-      "source": "MaxPreps",
-      "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-zachary/9-25-2026/?c=7af1b934-8db0-48cb-876f-c2b6f93a5ed8"
-    },
-    {
-      "id": "f18ba4436e07",
-      "teamId": "iup",
-      "headline": "Peyton Belcher has her best day of the season",
-      "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
-      "date": "2026-09-11",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
-    },
-    {
-      "id": "23456c7ae59b",
-      "teamId": "iup",
-      "headline": "IUP sweeps Gannon in Erie",
-      "summary": "IUP won all three sets at Gannon on Saturday, 25-19, 25-12 and 25-19. Jessica Neiman led the team with 14 kills, and the Crimson Hawks are now 14-4.",
-      "date": "2026-10-10",
-      "source": "Gannon Athletics",
-      "url": "https://gannonsports.com/sports/womens-volleyball/stats/2026/iup/boxscore/12725"
     },
     {
       "id": "b3e7a7878835",
@@ -394,22 +376,31 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-search-for-victory-remains-elusive"
     },
     {
-      "id": "784a5655c1b8",
+      "id": "b3fea2b6275b",
       "teamId": "tulane",
-      "headline": "Jamauri McClure is back for the Army game",
-      "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
-      "date": "2026-10-06",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+      "headline": "Tulane loses a starting lineman to injury",
+      "summary": "Nose tackle Kam Hamilton was helped off the field early in the fourth quarter at Army with a leg injury and did not come back. Coach Will Hall said he does not know how long Hamilton will be out, and Tulane was already missing its other starting inside lineman.",
+      "date": "2026-10-10",
+      "source": "NOLA.com",
+      "url": "https://www.nola.com/sports/tulane/tulane-loses-key-defender-to-injury-late-against-army/article_4464a33f-537c-4f06-a720-9fb22314cd9d.html"
     },
     {
-      "id": "5ee5a399dbc3",
+      "id": "2c7f55c1c2c1",
+      "teamId": "tulane",
+      "headline": "Army beats Tulane 20-17 on the last play",
+      "summary": "Army kicked a field goal as time ran out at West Point on Saturday. Tulane had tied the game late on a 39-yard touchdown pass from Kadin Semonza to Jaylin Lucas, and hosts Memphis next Friday night.",
+      "date": "2026-10-10",
+      "source": "ESPN",
+      "url": "http://www.espn.com/ncf/recap?gameId=401862795"
+    },
+    {
+      "id": "23456c7ae59b",
       "teamId": "iup",
-      "headline": "IUP sweeps Edinboro on the road",
-      "summary": "IUP won all three sets at Edinboro on Friday night, 26-24, 25-19 and 25-23. Jessica Neiman led the team with 9 kills, and the Crimson Hawks are now 13-4 overall and 7-1 in conference play.",
-      "date": "2026-10-09",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/10/9/womens-volleyball-balanced-attack-leads-iup-to-road-sweep-of-edinboro.aspx"
+      "headline": "IUP sweeps Gannon in Erie",
+      "summary": "IUP won all three sets at Gannon on Saturday, 25-19, 25-12 and 25-19. Jessica Neiman led the team with 14 kills, and the Crimson Hawks are now 14-4.",
+      "date": "2026-10-10",
+      "source": "Gannon Athletics",
+      "url": "https://gannonsports.com/sports/womens-volleyball/stats/2026/iup/boxscore/12725"
     },
     {
       "id": "4abf08f672a4",
@@ -448,13 +439,13 @@
       "url": "https://247sports.com/college/florida/article/florida-football-gators-quotes-transcript-jon-sumrall-recap-south-carolina-gamecocks-291105899/"
     },
     {
-      "id": "1e77afaaa6a7",
-      "teamId": "tulane",
-      "headline": "Freshman Trace Johnson takes over at quarterback",
-      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
-      "date": "2026-09-28",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+      "id": "5ee5a399dbc3",
+      "teamId": "iup",
+      "headline": "IUP sweeps Edinboro on the road",
+      "summary": "IUP won all three sets at Edinboro on Friday night, 26-24, 25-19 and 25-23. Jessica Neiman led the team with 9 kills, and the Crimson Hawks are now 13-4 overall and 7-1 in conference play.",
+      "date": "2026-10-09",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/9/womens-volleyball-balanced-attack-leads-iup-to-road-sweep-of-edinboro.aspx"
     },
     {
       "id": "c127227979e6",
@@ -464,15 +455,6 @@
       "date": "2026-10-09",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/mike-ditka-saints-head-coach-nfl-death"
-    },
-    {
-      "id": "3fe54705e336",
-      "teamId": "florida",
-      "headline": "Vernell Brown is still a question mark for Saturday",
-      "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
-      "date": "2026-10-07",
-      "source": "247Sports",
-      "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
     },
     {
       "id": "21c71860093a",
@@ -493,15 +475,6 @@
       "url": "https://www.neworleanssaints.com/news/drew-brees-ring-of-honor-induction-oct-11-caesars-superdome"
     },
     {
-      "id": "91535f5d6e69",
-      "teamId": "texas",
-      "headline": "Oklahoma's coach calls Arch Manning a great player",
-      "summary": "Brent Venables said Manning has a cannon for an arm and no weaknesses in his game. The two teams play Saturday afternoon in Dallas.",
-      "date": "2026-10-07",
-      "source": "ClutchPoints",
-      "url": "https://clutchpoints.com/ncaa-football/oklahoma-football-news-brent-venables-gives-arch-manning-glowing-praise-red-river-showdown"
-    },
-    {
       "id": "a77e2a1dc605",
       "teamId": "saints",
       "headline": "Chris Olave is set to play Sunday",
@@ -509,33 +482,6 @@
       "date": "2026-10-09",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
-    },
-    {
-      "id": "b987f8aae13c",
-      "teamId": "florida",
-      "headline": "Sumrall says South Carolina has the most talent yet",
-      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
-      "date": "2026-10-07",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
-    },
-    {
-      "id": "4bc96414207a",
-      "teamId": "texas",
-      "headline": "Texas is healthier after its week off",
-      "summary": "Coach Steve Sarkisian said Monday the Longhorns are healthier than they were a week ago. Texas did not play last weekend and meets Oklahoma in Dallas on Saturday.",
-      "date": "2026-10-05",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
-    },
-    {
-      "id": "2c709e12b07c",
-      "teamId": "texas",
-      "headline": "Arch Manning turns up at a middle school game",
-      "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
-      "date": "2026-09-30",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
     },
     {
       "id": "041ba949863f",
@@ -556,58 +502,40 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
     },
     {
-      "id": "7bf791f3720a",
-      "teamId": "florida",
-      "headline": "Jadan Baugh apologizes to his coach",
-      "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
-      "date": "2026-10-05",
+      "id": "db893f2c4e42",
+      "teamId": "yankees",
+      "headline": "A fan reaches over the wall and takes away a home run",
+      "summary": "Anthony Volpe hit a ball to left field in the sixth inning that would have tied the game at 4-4. A fan leaned over the wall and caught it, so the umpires gave Volpe a double instead and only one run scored.",
+      "date": "2026-10-07",
       "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
+      "url": "https://www.espn.com/mlb/story/_/id/50129842/fan-interference-denies-yankees-game-tying-hr-vs-rays"
     },
     {
-      "id": "663ec5832c06",
-      "teamId": "iup",
-      "headline": "IUP loses in five sets and its streak ends",
-      "summary": "Pitt-Johnstown won the fifth set 15-11 on Saturday in Johnstown to take the match 3-2. It is IUP's first loss since August, after 11 wins in a row, and the Crimson Hawks are now 12-4.",
-      "date": "2026-10-03",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/university-of-pittsburgh-at-johnstown/boxscore/15035"
+      "id": "3fe54705e336",
+      "teamId": "florida",
+      "headline": "Vernell Brown is still a question mark for Saturday",
+      "summary": "Florida's leading receiver hurt his knee and sat out the Missouri game. This week's team report lists him as questionable for South Carolina.",
+      "date": "2026-10-07",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/article/florida-football-gators-availability-report-south-carolina-update-uf-injuries-vernell-brown-bryce-thornton-290978449/"
     },
     {
-      "id": "f149d570921b",
-      "teamId": "tulane",
-      "headline": "Maurice Turner wins the conference weekly award",
-      "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
-      "date": "2026-09-28",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+      "id": "91535f5d6e69",
+      "teamId": "texas",
+      "headline": "Oklahoma's coach calls Arch Manning a great player",
+      "summary": "Brent Venables said Manning has a cannon for an arm and no weaknesses in his game. The two teams play Saturday afternoon in Dallas.",
+      "date": "2026-10-07",
+      "source": "ClutchPoints",
+      "url": "https://clutchpoints.com/ncaa-football/oklahoma-football-news-brent-venables-gives-arch-manning-glowing-praise-red-river-showdown"
     },
     {
-      "id": "630b0146bcb9",
-      "teamId": "iup",
-      "headline": "IUP sweeps California for its 11th win in a row",
-      "summary": "The Crimson Hawks won 25-18, 25-20, 25-23 at home on Friday. Jessica Neiman had 14 kills and Delaney Concannon had 13 kills and 14 digs, and IUP is 12-3 and still unbeaten in the conference.",
-      "date": "2026-10-02",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
-    },
-    {
-      "id": "4b073ab30ca5",
-      "teamId": "saints",
-      "headline": "Minnesota is not sure Justin Jefferson can play",
-      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
-      "date": "2026-10-06",
+      "id": "b987f8aae13c",
+      "teamId": "florida",
+      "headline": "Sumrall says South Carolina has the most talent yet",
+      "summary": "Coach Jon Sumrall said South Carolina is the best group of players Florida has faced this year, even though the Gamecocks have lost three games. They come to Florida on Saturday for homecoming.",
+      "date": "2026-10-07",
       "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
-    },
-    {
-      "id": "883cdcf3ffd4",
-      "teamId": "warren-easton",
-      "headline": "Warren Easton's game moves up to Thursday night",
-      "summary": "The Eagles now host Higgins on Thursday at 7:30 at Pan American Stadium instead of Saturday afternoon. It was moved because a tropical storm may reach southeast Louisiana this weekend.",
-      "date": "2026-10-06",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/st-augustine-holy-cross-warren-easton-higgins-games-moved-to-thursday/"
+      "url": "https://sports.yahoo.com/articles/gamecocks-best-talent-team-florida-183200211.html"
     },
     {
       "id": "84827777c7d8",
@@ -628,15 +556,6 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-wednesday"
     },
     {
-      "id": "1e600475f879",
-      "teamId": "florida",
-      "headline": "Vernell Brown III is cleared to practice again",
-      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
-      "date": "2026-10-05",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
-    },
-    {
       "id": "354e5dd18f9f",
       "teamId": "yankees",
       "headline": "Yankees shuffle the batting order for Game 3",
@@ -644,6 +563,33 @@
       "date": "2026-10-07",
       "source": "MLB.com",
       "url": "https://www.mlb.com/news/rays-vs-yankees-alds-game-3-starting-lineups-and-pitching-matchup"
+    },
+    {
+      "id": "784a5655c1b8",
+      "teamId": "tulane",
+      "headline": "Jamauri McClure is back for the Army game",
+      "summary": "McClure hurt his left foot in August and has not played all season. Tulane expects its best running back on the field Saturday at Army.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-prepares-army-option-welcomes-180716918.html"
+    },
+    {
+      "id": "4b073ab30ca5",
+      "teamId": "saints",
+      "headline": "Minnesota is not sure Justin Jefferson can play",
+      "summary": "Jefferson is the Vikings' best receiver and he has a sprained ankle. Their coach said Tuesday the ankle is getting better but would not promise he plays Sunday in New Orleans.",
+      "date": "2026-10-06",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/could-miss-another-week-still-213017113.html"
+    },
+    {
+      "id": "883cdcf3ffd4",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton's game moves up to Thursday night",
+      "summary": "The Eagles now host Higgins on Thursday at 7:30 at Pan American Stadium instead of Saturday afternoon. It was moved because a tropical storm may reach southeast Louisiana this weekend.",
+      "date": "2026-10-06",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/st-augustine-holy-cross-warren-easton-higgins-games-moved-to-thursday/"
     },
     {
       "id": "3a1138c556a9",
@@ -664,24 +610,6 @@
       "url": "https://www.espn.com/mlb/story/_/id/50114618/rays-take-advantage-error-prone-yankees-win-alds-game-2"
     },
     {
-      "id": "39cf16453c8b",
-      "teamId": "florida",
-      "headline": "Sumrall says the Gators will regroup",
-      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
-      "date": "2026-10-05",
-      "source": "The Independent Florida Alligator",
-      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
-    },
-    {
-      "id": "5e97dc159215",
-      "teamId": "florida",
-      "headline": "Florida falls to No. 16 in the new rankings",
-      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
-      "date": "2026-10-04",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
-    },
-    {
       "id": "9a51773b928c",
       "teamId": "saints",
       "headline": "Saints do not know yet if Kaden Elliss can play",
@@ -700,15 +628,6 @@
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-reflect-on-monday-night-matchup-alvin-kamara-climbs-career-touchdown-ranks-new-orleans-news-headlines-10-6-2026"
     },
     {
-      "id": "e4cf2b8fba47",
-      "teamId": "warren-easton",
-      "headline": "Warren Easton falls to Brother Martin",
-      "summary": "Brother Martin scored early and often Friday night and won 56-6. Warren Easton is 0-3 and plays at Zachary next Friday.",
-      "date": "2026-09-18",
-      "source": "MaxPreps",
-      "url": "https://www.maxpreps.com/news/WwJfKp6iR0WiOA6z4gvuhw/football-recap-tough-loss-for-warren-easton.htm"
-    },
-    {
       "id": "821178f516af",
       "teamId": "yankees",
       "headline": "Spencer Jones hits a fly ball off the catwalk",
@@ -716,24 +635,6 @@
       "date": "2026-10-06",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/story/_/id/50113752/yankees-rookie-spencer-jones-flies-catwalk-game-2"
-    },
-    {
-      "id": "f1b801be2768",
-      "teamId": "texas",
-      "headline": "Texas stays No. 1 in the new rankings",
-      "summary": "The Longhorns kept the top spot in the Associated Press poll after winning 20-17 at Tennessee. They are 4-0 and play Oklahoma in Dallas on October 10.",
-      "date": "2026-09-27",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
-    },
-    {
-      "id": "86066cc43421",
-      "teamId": "tulane",
-      "headline": "Tulane wins the Battle for the Bell 24-21",
-      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
-      "date": "2026-09-26",
-      "source": "Fox 8 (WVUE)",
-      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
     },
     {
       "id": "4d4cce35ba14",
@@ -754,22 +655,40 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-struggle-in-every-phase-in-lopsided-domecoming-anniversary-loss-to-atlanta"
     },
     {
-      "id": "e216da7d6dfa",
-      "teamId": "yankees",
-      "headline": "Cam Schlittler pitches Game 2 on Monday night",
-      "summary": "The Yankees give the ball to Schlittler on Monday night in St. Petersburg, with Freddy Peralta going for Tampa Bay. New York is down one game to none in a series that goes to three wins.",
-      "date": "2026-10-04",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401907986"
+      "id": "4bc96414207a",
+      "teamId": "texas",
+      "headline": "Texas is healthier after its week off",
+      "summary": "Coach Steve Sarkisian said Monday the Longhorns are healthier than they were a week ago. Texas did not play last weekend and meets Oklahoma in Dallas on Saturday.",
+      "date": "2026-10-05",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/steve-sarkisian-sees-oklahoma-familiar-210004936.html"
     },
     {
-      "id": "e3540655e07b",
-      "teamId": "texas",
-      "headline": "Texas holds off Tennessee 20-17",
-      "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
-      "date": "2026-09-26",
-      "source": "Associated Press",
-      "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
+      "id": "7bf791f3720a",
+      "teamId": "florida",
+      "headline": "Jadan Baugh apologizes to his coach",
+      "summary": "The Florida running back sent coach Jon Sumrall a text message Sunday to say he was sorry for how he played in the 45-17 loss at Missouri. Baugh carried the ball 12 times for 13 yards in that game.",
+      "date": "2026-10-05",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50110281/gators-rb-baugh-apologizes-sumrall-performance-loss"
+    },
+    {
+      "id": "1e600475f879",
+      "teamId": "florida",
+      "headline": "Vernell Brown III is cleared to practice again",
+      "summary": "The Florida receiver hurt his knee against Ole Miss and missed the loss at Missouri. Coach Jon Sumrall said Monday that Brown can run and practice, but he is not sure yet whether Brown plays Saturday against South Carolina.",
+      "date": "2026-10-05",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-shares-update-on-injured-florida-wr-vernell-brown-iii-after-missed-game/"
+    },
+    {
+      "id": "39cf16453c8b",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators will regroup",
+      "summary": "Coach Jon Sumrall told reporters Monday that he hates losing more than he likes winning, and that the team has to recalibrate and keep moving forward. Running back Jadan Baugh got only 13 yards on 12 carries at Missouri.",
+      "date": "2026-10-05",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/10/sumrall-previews-south-carolina-26"
     },
     {
       "id": "3b2f2be6beb9",
@@ -790,6 +709,24 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-roster-moves-announced-transactions-2026-nfl-week-4-elevations"
     },
     {
+      "id": "5e97dc159215",
+      "teamId": "florida",
+      "headline": "Florida falls to No. 16 in the new rankings",
+      "summary": "The Gators dropped eight spots in the Associated Press poll on Sunday after losing at Missouri. Missouri is now ranked 14th, two spots ahead of Florida.",
+      "date": "2026-10-04",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-10-04/top-five-holds-alabama-rises-latest-ap-top-25-college-football-rankings"
+    },
+    {
+      "id": "e216da7d6dfa",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler pitches Game 2 on Monday night",
+      "summary": "The Yankees give the ball to Schlittler on Monday night in St. Petersburg, with Freddy Peralta going for Tampa Bay. New York is down one game to none in a series that goes to three wins.",
+      "date": "2026-10-04",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/game/_/gameId/401907986"
+    },
+    {
       "id": "504c9ccf8715",
       "teamId": "saints",
       "headline": "Irma Thomas will sing before Monday night's game",
@@ -806,6 +743,15 @@
       "date": "2026-10-04",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/five-key-quotes-from-jon-sumrall-after-florida-s-loss-to-missouri-01m425bgad6v"
+    },
+    {
+      "id": "663ec5832c06",
+      "teamId": "iup",
+      "headline": "IUP loses in five sets and its streak ends",
+      "summary": "Pitt-Johnstown won the fifth set 15-11 on Saturday in Johnstown to take the match 3-2. It is IUP's first loss since August, after 11 wins in a row, and the Crimson Hawks are now 12-4.",
+      "date": "2026-10-03",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/university-of-pittsburgh-at-johnstown/boxscore/15035"
     },
     {
       "id": "b6f919c08341",
@@ -842,6 +788,15 @@
       "date": "2026-10-03",
       "source": "Florida Gators",
       "url": "https://floridagators.com/news/2026/10/3/football-final-florida-vs-missouri-quick-slant-oct-4-2026"
+    },
+    {
+      "id": "630b0146bcb9",
+      "teamId": "iup",
+      "headline": "IUP sweeps California for its 11th win in a row",
+      "summary": "The Crimson Hawks won 25-18, 25-20, 25-23 at home on Friday. Jessica Neiman had 14 kills and Delaney Concannon had 13 kills and 14 digs, and IUP is 12-3 and still unbeaten in the conference.",
+      "date": "2026-10-02",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/2/womens-volleyball-volleyball-sweeps-cal-pa-for-11th-straight-victory.aspx"
     },
     {
       "id": "2b47164e3aec",
@@ -907,6 +862,15 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
     },
     {
+      "id": "2c709e12b07c",
+      "teamId": "texas",
+      "headline": "Arch Manning turns up at a middle school game",
+      "summary": "With Texas off this week, Manning went to a middle school football game in Austin on Monday night and spent time with the players. Texas is 4-0 and plays Oklahoma in Dallas on October 10.",
+      "date": "2026-09-30",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/texas-longhorns-qb-arch-manning-205954091.html"
+    },
+    {
       "id": "df787d226872",
       "teamId": "florida",
       "headline": "Two Florida receivers are questionable for Saturday",
@@ -970,6 +934,24 @@
       "url": "https://www.si.com/mlb/yankees/onsi/yankees-decision-aaron-judge-s-status-al-wild-card-series-01m3pq6y2x80"
     },
     {
+      "id": "1e77afaaa6a7",
+      "teamId": "tulane",
+      "headline": "Freshman Trace Johnson takes over at quarterback",
+      "summary": "Kadin Semonza threw an interception early in the fourth quarter on Saturday, so coach Will Hall sent in true freshman Trace Johnson. Johnson completed 2 of 5 passes for 35 yards and ran the offense while Tulane scored the last 10 points to win.",
+      "date": "2026-09-28",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-clutches-hall-gets-revenge-020833035.html"
+    },
+    {
+      "id": "f149d570921b",
+      "teamId": "tulane",
+      "headline": "Maurice Turner wins the conference weekly award",
+      "summary": "Turner carried the ball 12 times for 200 yards and two touchdowns in Saturday's 24-21 win over Southern Miss, including the 74-yard run that put Tulane ahead. It is the first weekly honor of his career.",
+      "date": "2026-09-28",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-running-back-maurice-turner-honored-for-200-yard-night-by-american-conference/"
+    },
+    {
       "id": "848cb4e4128d",
       "teamId": "florida",
       "headline": "Jadan Baugh wins the top offensive award in the SEC",
@@ -1022,6 +1004,15 @@
       "date": "2026-09-28",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50054057/saints-rb-travis-etienne-jr-sit-hamstring-injury"
+    },
+    {
+      "id": "f1b801be2768",
+      "teamId": "texas",
+      "headline": "Texas stays No. 1 in the new rankings",
+      "summary": "The Longhorns kept the top spot in the Associated Press poll after winning 20-17 at Tennessee. They are 4-0 and play Oklahoma in Dallas on October 10.",
+      "date": "2026-09-27",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/football/article/2026-09-27/florida-flies-top-10-latest-ap-top-25-college-football-rankings"
     },
     {
       "id": "e63f38f534cd",
@@ -1078,6 +1069,24 @@
       "url": "https://www.si.com/nfl/saints/onsi/saints-raiders-announce-inactives-vegas-tight-end-to-start-01m3j5yzc4z3"
     },
     {
+      "id": "86066cc43421",
+      "teamId": "tulane",
+      "headline": "Tulane wins the Battle for the Bell 24-21",
+      "summary": "Maurice Turner ran for 200 yards Saturday at Yulman Stadium, and his 74-yard touchdown run with 5:26 left put Tulane ahead. TJ Smith then blocked a Southern Miss field goal to save the win for coach Will Hall against his old team.",
+      "date": "2026-09-26",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/09/27/maurice-turner-rushes-200-yards-2-tds-tulane-survives-southern-miss-24-21/"
+    },
+    {
+      "id": "e3540655e07b",
+      "teamId": "texas",
+      "headline": "Texas holds off Tennessee 20-17",
+      "summary": "Raleek Brown ran for two touchdowns Saturday in Knoxville, and his 4-yard run with 5:41 left was the one that won it. Colin Simmons had five sacks to tie the Texas record, and the Longhorns are 4-0.",
+      "date": "2026-09-26",
+      "source": "Associated Press",
+      "url": "https://www.ksat.com/sports/2026/09/26/colin-simmons-ties-program-record-with-5-sacks-as-no-1-texas-beats-no-14-tennessee-20-17/"
+    },
+    {
       "id": "84cf7a5d549a",
       "teamId": "iup",
       "headline": "IUP wins a five-set thriller at Clarion",
@@ -1112,6 +1121,15 @@
       "date": "2026-09-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856699"
+    },
+    {
+      "id": "04d91df13f04",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton loses at Zachary",
+      "summary": "Zachary won 49-28 on Friday night. Warren Easton is 0-4 and plays at Riverdale on Thursday, October 1.",
+      "date": "2026-09-25",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-zachary/9-25-2026/?c=7af1b934-8db0-48cb-876f-c2b6f93a5ed8"
     },
     {
       "id": "6f9d63c2f0a5",
@@ -1472,6 +1490,15 @@
       "date": "2026-09-19",
       "source": "Texas Public Radio / Associated Press",
       "url": "https://www.tpr.org/sports/2026-09-19/arch-manning-no-1-texas-sleepwalk-through-win-over-penalty-prone-utsa"
+    },
+    {
+      "id": "e4cf2b8fba47",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton falls to Brother Martin",
+      "summary": "Brother Martin scored early and often Friday night and won 56-6. Warren Easton is 0-3 and plays at Zachary next Friday.",
+      "date": "2026-09-18",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/news/WwJfKp6iR0WiOA6z4gvuhw/football-recap-tough-loss-for-warren-easton.htm"
     },
     {
       "id": "59dc66e1ebd8",
@@ -1913,6 +1940,15 @@
       "date": "2026-09-12",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-prepares-to-coach-against-former-team-in-detroit-lions"
+    },
+    {
+      "id": "f18ba4436e07",
+      "teamId": "iup",
+      "headline": "Peyton Belcher has her best day of the season",
+      "summary": "Peyton had 8 kills in Friday's win over Millersville, more than anyone else on the team. It is the most she has had in a match this year, and she missed on only one of her 14 swings.",
+      "date": "2026-09-11",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/9/11/womens-volleyball-volleyball-dominates-psac-crossover-with-pair-of-sweeps.aspx"
     },
     {
       "id": "5eea72b0eecd",

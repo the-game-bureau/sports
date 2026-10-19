@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "b5936504717f",
+          "teamId": "tulane",
+          "headline": "Kevin Adams III wins a conference award",
+          "summary": "Adams had nine tackles, two interceptions and a fumble recovery in Friday's win over Memphis. The American Conference named him its best defensive player of the week on Monday.",
+          "date": "2026-10-19",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
+        },
+        {
           "id": "6cc840717c91",
           "teamId": "tulane",
           "headline": "Tulane beats Memphis 31-17",
@@ -45,15 +54,6 @@
           "date": "2026-10-16",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-rides-defensive-takeaways-to-31-17-win-over-memphis/"
-        },
-        {
-          "id": "6ce123b81a9a",
-          "teamId": "tulane",
-          "headline": "Trace Johnson wins his first start",
-          "summary": "Freshman Trace Johnson started at quarterback for the first time and Tulane won. He completed 11 of 21 passes for 165 yards, with a 38-yard touchdown to Destyn Hill and one interception.",
-          "date": "2026-10-16",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862801"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "2f65842d947b",
+          "teamId": "florida",
+          "headline": "LJ McCray wins an award for the Texas game",
+          "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
+          "date": "2026-10-19",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
+        },
+        {
           "id": "f656092a8372",
           "teamId": "florida",
           "headline": "Florida is ranked again at No. 20",
@@ -100,15 +109,6 @@
           "date": "2026-10-17",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
-        },
-        {
-          "id": "23fa2985393b",
-          "teamId": "florida",
-          "headline": "Tramell Jones wins his first start for Florida",
-          "summary": "Jones threw two touchdown passes to Lacota Dippre and completed 22 of his 35 throws for 155 yards. He started because Aaron Philo is hurt.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "100bf66ca1dd",
+          "teamId": "texas",
+          "headline": "Arch Manning will keep starting at quarterback",
+          "summary": "Coach Steve Sarkisian said Monday that Manning is still his starter and that Manning can play better for them. Texas has lost two games in a row.",
+          "date": "2026-10-19",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/college-football/news/arch-manning-remains-the-starter-at-texas-despite-struggles-and-2-game-skid"
+        },
+        {
           "id": "a03203dae5ee",
           "teamId": "texas",
           "headline": "Texas drops to No. 19 in the rankings",
@@ -155,15 +164,6 @@
           "date": "2026-10-17",
           "source": "Texas Athletics",
           "url": "https://texassports.com/news/2026/10/17/no-7-6-football-falls-to-florida-at-home-27-24"
-        },
-        {
-          "id": "4c5506c1662e",
-          "teamId": "texas",
-          "headline": "Steve Sarkisian says he will look at everything",
-          "summary": "The Texas coach said after the game that his team is not playing good football and that he will look at everything, including who plays quarterback and his own play calling. Texas ran only 50 plays on offense, its fewest since he took the job.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50203108/texas-evaluate-everything-loss-florida"
         }
       ]
     },
@@ -248,6 +248,15 @@
       },
       "news": [
         {
+          "id": "b783cee5c3fe",
+          "teamId": "iup",
+          "headline": "Charlotte Potvin is the conference player of the week",
+          "summary": "Potvin had 32 kills in IUP's two wins last week, including a season-high 23 at Wheeling. The conference named her the best player in its western half on Monday.",
+          "date": "2026-10-19",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-potvin-named-psac-west-athlete-of-the-week-after-dominant-offensive-stretch.aspx"
+        },
+        {
           "id": "b872a3503820",
           "teamId": "iup",
           "headline": "IUP beats Seton Hill in four sets",
@@ -264,15 +273,6 @@
           "date": "2026-10-13",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/boxscore.aspx?id=15038&path=wvball"
-        },
-        {
-          "id": "6a19ed65fbc6",
-          "teamId": "iup",
-          "headline": "IUP wins in five sets after losing the first two",
-          "summary": "IUP dropped the first two sets at Wheeling on Tuesday night and then won the last three, 25-23, 25-18 and 15-8. Charlotte Potvin led the way with 23 kills, and the Crimson Hawks are now 15-4 with three wins in a row.",
-          "date": "2026-10-13",
-          "source": "Wheeling Athletics",
-          "url": "https://wucardinals.com/news/2026/10/13/volleyball-falls-in-five-set-battle-with-iup.aspx"
         }
       ]
     },

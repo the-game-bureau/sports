@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "2f65842d947b",
+          "teamId": "florida",
+          "headline": "LJ McCray wins an award for the Texas game",
+          "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
+          "date": "2026-10-19",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
+        },
+        {
           "id": "f656092a8372",
           "teamId": "florida",
           "headline": "Florida is ranked again at No. 20",
@@ -100,15 +109,6 @@
           "date": "2026-10-17",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
-        },
-        {
-          "id": "23fa2985393b",
-          "teamId": "florida",
-          "headline": "Tramell Jones wins his first start for Florida",
-          "summary": "Jones threw two touchdown passes to Lacota Dippre and completed 22 of his 35 throws for 155 yards. He started because Aaron Philo is hurt.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856724"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "b5936504717f",
+          "teamId": "tulane",
+          "headline": "Kevin Adams III wins a conference award",
+          "summary": "Adams had nine tackles, two interceptions and a fumble recovery in Friday's win over Memphis. The American Conference named him its best defensive player of the week on Monday.",
+          "date": "2026-10-19",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
+        },
+        {
           "id": "6cc840717c91",
           "teamId": "tulane",
           "headline": "Tulane beats Memphis 31-17",
@@ -210,15 +219,6 @@
           "date": "2026-10-16",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-rides-defensive-takeaways-to-31-17-win-over-memphis/"
-        },
-        {
-          "id": "6ce123b81a9a",
-          "teamId": "tulane",
-          "headline": "Trace Johnson wins his first start",
-          "summary": "Freshman Trace Johnson started at quarterback for the first time and Tulane won. He completed 11 of 21 passes for 165 yards, with a 38-yard touchdown to Destyn Hill and one interception.",
-          "date": "2026-10-16",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862801"
         }
       ]
     },
@@ -242,6 +242,15 @@
       },
       "news": [
         {
+          "id": "200a79e8027d",
+          "teamId": "brother-martin",
+          "headline": "Brother Martin moves up to No. 7 in the state",
+          "summary": "The Crusaders are 7th in this week's Class 5A rankings after beating John Curtis. St. Augustine, which comes to town Friday night, is ranked 3rd and has not lost a game.",
+          "date": "2026-10-19",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/2026-lswa-high-school-football-polls-post-week-7/"
+        },
+        {
           "id": "6b9c9cba37ad",
           "teamId": "brother-martin",
           "headline": "Brother Martin comes back to beat John Curtis 36-28",
@@ -258,15 +267,6 @@
           "date": "2026-10-11",
           "source": "247Sports",
           "url": "https://247sports.com/college/florida/longformarticle/florida-football-gators-recruiting-commitment-five-star-easton-royal-wide-receiver-290628223/"
-        },
-        {
-          "id": "e9f3ee19aaed",
-          "teamId": "brother-martin",
-          "headline": "Brother Martin drops out of the state top 10",
-          "summary": "Friday's loss to Rummel moved Brother Martin out of the Crescent City Sports top 10 for the biggest class. The Crusaders are 4-2 and play at John Curtis on Thursday.",
-          "date": "2026-10-10",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/st-charles-catholic-back-to-top-spot-in-ccs-top-10-rankings/"
         }
       ]
     }
