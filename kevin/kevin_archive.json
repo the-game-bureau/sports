@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-18",
+    "updated": "2026-10-19",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "575cb318f6b7",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt throws four touchdown passes",
+      "summary": "Leavitt completed 31 of his 38 passes for 289 yards and did not throw an interception. It was the first game all season he did not throw one.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
+    },
+    {
+      "id": "a1a05f239c53",
+      "teamId": "saints",
+      "headline": "Next Sunday's game in Paris is still on",
+      "summary": "The Saints play the Pittsburgh Steelers in France next Sunday morning, and the league says that game is going ahead as planned. The team flies to Paris right after today's game.",
+      "date": "2026-10-18",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
     {
       "id": "f3bf986727d6",
       "teamId": "lsu",

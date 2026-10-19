@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "teams": {
     "saints": {
       "record": "2-4",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints are the home team even though the game is played in France. Pittsburgh has won four games and lost two."
+        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints are the home team even though the game is played in France. The league says the game is going ahead as planned. Pittsburgh has won four games and lost two."
       },
       "lastGame": {
         "result": "W",
@@ -28,6 +28,15 @@
         "date": "2026-10-18"
       },
       "news": [
+        {
+          "id": "e9e6abde13a2",
+          "teamId": "saints",
+          "headline": "Alvin Kamara joins a club of six in NFL history",
+          "summary": "Kamara caught a 31-yard touchdown pass in Sunday's win at the Giants, and that catch pushed him past 5,000 catching yards for his career. He is only the sixth player in league history with 5,000 yards rushing and 5,000 yards catching.",
+          "date": "2026-10-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/alvin-kamara-sixth-player-nfl-history-5000-yards-rushing-receiving"
+        },
         {
           "id": "0a19db6bf893",
           "teamId": "saints",
@@ -45,15 +54,6 @@
           "date": "2026-10-18",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/boxscore/_/gameId/401873000"
-        },
-        {
-          "id": "a1a05f239c53",
-          "teamId": "saints",
-          "headline": "Next Sunday's game in Paris is still on",
-          "summary": "The Saints play the Pittsburgh Steelers in France next Sunday morning, and the league says that game is going ahead as planned. The team flies to Paris right after today's game.",
-          "date": "2026-10-18",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "41bdd8c7ac7f",
+          "teamId": "lsu",
+          "headline": "Lane Kiffin says Jackson Harris will be fine",
+          "summary": "Harris hurt his ankle in Saturday's shutout win and the LSU coach said afterward, \"I think he'll be fine.\" Kiffin had no update on pass rusher Princewill Umanmielen, who left in the first quarter with a head injury.",
+          "date": "2026-10-18",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-injured-wr-jackson-harris-will-be-fine-lane-kiffin-says-princewill-umanmielen-likely-questionable/"
+        },
+        {
           "id": "9f77aa64ea9c",
           "teamId": "lsu",
           "headline": "LSU moves up to No. 18",
@@ -155,15 +164,6 @@
           "date": "2026-10-17",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
-        },
-        {
-          "id": "575cb318f6b7",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt throws four touchdown passes",
-          "summary": "Leavitt completed 31 of his 38 passes for 289 yards and did not throw an interception. It was the first game all season he did not throw one.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856720"
         }
       ]
     },

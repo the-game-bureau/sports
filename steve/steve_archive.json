@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-18",
+    "updated": "2026-10-19",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "a1a05f239c53",
+      "teamId": "saints",
+      "headline": "Next Sunday's game in Paris is still on",
+      "summary": "The Saints play the Pittsburgh Steelers in France next Sunday morning, and the league says that game is going ahead as planned. The team flies to Paris right after today's game.",
+      "date": "2026-10-18",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
     {
       "id": "fa834e4c0cac",
       "teamId": "florida",
