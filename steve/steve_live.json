@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "teams": {
     "tulane": {
       "record": "3-3",
@@ -194,13 +194,22 @@
       },
       "news": [
         {
-          "id": "e9e6abde13a2",
+          "id": "78f0581451ce",
           "teamId": "saints",
-          "headline": "Alvin Kamara joins a club of six in NFL history",
-          "summary": "Kamara caught a 31-yard touchdown pass in Sunday's win at the Giants, and that catch pushed him past 5,000 catching yards for his career. He is only the sixth player in league history with 5,000 yards rushing and 5,000 yards catching.",
-          "date": "2026-10-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/alvin-kamara-sixth-player-nfl-history-5000-yards-rushing-receiving"
+          "headline": "Tyler Shough is playing with a hurt hand",
+          "summary": "The Saints quarterback hurt his left hand, which is not the hand he throws with. He has not missed a game, and he says the hand is getting better every day.",
+          "date": "2026-10-19",
+          "source": "NFL.com",
+          "url": "https://www.nfl.com/videos/tyler-shough-on-hand-injury-it-s-getting-better-every-single-day"
+        },
+        {
+          "id": "6562af5072b6",
+          "teamId": "saints",
+          "headline": "Two hurt Saints made the trip to Paris",
+          "summary": "Linebacker Kaden Elliss and receiver Jordyn Tyson both flew to France with the team. Coach Kellen Moore said they made the trip, but neither one is sure to play on Sunday.",
+          "date": "2026-10-19",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
         },
         {
           "id": "0a19db6bf893",
@@ -210,15 +219,6 @@
           "date": "2026-10-18",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/recap/_/gameId/401873000"
-        },
-        {
-          "id": "29976793ba8a",
-          "teamId": "saints",
-          "headline": "Tyler Shough scores four touchdowns",
-          "summary": "Shough threw touchdown passes to Bryce Lance, Alvin Kamara and Chris Olave, and ran one in himself. He completed 16 of his 30 throws for 144 yards and did not throw an interception.",
-          "date": "2026-10-18",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/boxscore/_/gameId/401873000"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP beat Clarion in five sets back in September. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won four matches in a row, and beat Clarion in five sets back in September. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
       },
       "lastGame": {
         "result": "W",
@@ -330,7 +330,8 @@
         "date": "2026-10-24",
         "time": "3:00 PM",
         "city": "New Orleans, LA",
-        "note": "Saturday afternoon home game, and a district game. West Jefferson has won three games and lost three, and like Warren Easton it has won all three of its district games. The stadium has not been posted yet."
+        "note": "Saturday afternoon home game at Pan American Stadium in City Park, and a district game. Three o'clock kickoff. Warren Easton has won all three of its district games. West Jefferson has won three games and lost four, and lost to Bonnabel last week.",
+        "venue": "Pan American Stadium"
       },
       "lastGame": {
         "result": "W",

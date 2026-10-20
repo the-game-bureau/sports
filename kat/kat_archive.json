@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-19",
+    "updated": "2026-10-20",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "29976793ba8a",
+      "teamId": "saints",
+      "headline": "Tyler Shough scores four touchdowns",
+      "summary": "Shough threw touchdown passes to Bryce Lance, Alvin Kamara and Chris Olave, and ran one in himself. He completed 16 of his 30 throws for 144 yards and did not throw an interception.",
+      "date": "2026-10-18",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/boxscore/_/gameId/401873000"
+    },
+    {
+      "id": "e9e6abde13a2",
+      "teamId": "saints",
+      "headline": "Alvin Kamara joins a club of six in NFL history",
+      "summary": "Kamara caught a 31-yard touchdown pass in Sunday's win at the Giants, and that catch pushed him past 5,000 catching yards for his career. He is only the sixth player in league history with 5,000 yards rushing and 5,000 yards catching.",
+      "date": "2026-10-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/alvin-kamara-sixth-player-nfl-history-5000-yards-rushing-receiving"
+    },
     {
       "id": "a1a05f239c53",
       "teamId": "saints",
