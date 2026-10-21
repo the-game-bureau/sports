@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "0a19db6bf893",
+      "teamId": "saints",
+      "headline": "Saints win at the Giants, 34-27",
+      "summary": "The Saints were losing 10-0 and then scored 34 points in a row to win in New Jersey. It ends three straight losses and makes their record two wins and four losses.",
+      "date": "2026-10-18",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/recap/_/gameId/401873000"
+    },
     {
       "id": "29976793ba8a",
       "teamId": "saints",
@@ -32,6 +41,15 @@
       "date": "2026-10-18",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
+    {
+      "id": "867a5e1b0b41",
+      "teamId": "texas",
+      "headline": "Texas loses at home to Florida, 27-24",
+      "summary": "Texas led 17-3 in the second quarter and did not score again until the fourth quarter. It is the second loss in a row for the Longhorns, who are now 4-2.",
+      "date": "2026-10-17",
+      "source": "Texas Athletics",
+      "url": "https://texassports.com/news/2026/10/17/no-7-6-football-falls-to-florida-at-home-27-24"
     },
     {
       "id": "23fa2985393b",
@@ -86,6 +104,24 @@
       "date": "2026-10-17",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-6-elevations-giants-2026"
+    },
+    {
+      "id": "2efec4914559",
+      "teamId": "tulane",
+      "headline": "TJ Smith runs an interception back for a touchdown",
+      "summary": "Right before halftime, TJ Smith caught a Memphis pass and ran it back 76 yards for a touchdown. That put Tulane ahead 23-10, and it is the first touchdown the Tulane defense has scored this year.",
+      "date": "2026-10-16",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-rides-defensive-takeaways-to-31-17-win-over-memphis/"
+    },
+    {
+      "id": "b872a3503820",
+      "teamId": "iup",
+      "headline": "IUP beats Seton Hill in four sets",
+      "summary": "IUP won at home Friday night by scores of 25-16, 25-21, 21-25 and 25-21. Jessica Neiman led the way with 16 kills, and the Crimson Hawks have now won 16 matches.",
+      "date": "2026-10-16",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/16/womens-volleyball-iup-takes-down-seton-hill-in-four-sets-for-16th-victory.aspx"
     },
     {
       "id": "6ce123b81a9a",

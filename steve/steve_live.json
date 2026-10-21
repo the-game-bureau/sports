@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "teams": {
     "tulane": {
       "record": "3-3",
@@ -38,6 +38,15 @@
           "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
         },
         {
+          "id": "cfb77e36db33",
+          "teamId": "tulane",
+          "headline": "Tulane's punter wins a national weekly award",
+          "summary": "William Hudlow punted six times for an average of 48 yards in the win over Memphis, including a 72-yarder that was the longest of his career. It is the third time this season the Ray Guy Award has named him one of the best punters of the week.",
+          "date": "2026-10-19",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-football-william-hudlow-earns-ray-guy-award-weekly-honor-for-third-time/"
+        },
+        {
           "id": "6cc840717c91",
           "teamId": "tulane",
           "headline": "Tulane beats Memphis 31-17",
@@ -45,15 +54,6 @@
           "date": "2026-10-16",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
-        },
-        {
-          "id": "2efec4914559",
-          "teamId": "tulane",
-          "headline": "TJ Smith runs an interception back for a touchdown",
-          "summary": "Right before halftime, TJ Smith caught a Memphis pass and ran it back 76 yards for a touchdown. That put Tulane ahead 23-10, and it is the first touchdown the Tulane defense has scored this year.",
-          "date": "2026-10-16",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-rides-defensive-takeaways-to-31-17-win-over-memphis/"
         }
       ]
     },
@@ -148,6 +148,15 @@
           "url": "https://www.nbcsports.com/college-football/news/arch-manning-remains-the-starter-at-texas-despite-struggles-and-2-game-skid"
         },
         {
+          "id": "75b77cc93db6",
+          "teamId": "texas",
+          "headline": "Colin Simmons is expected to miss a few weeks",
+          "summary": "A scan on Monday showed no serious damage to the ankle Simmons hurt against Florida. Texas's best pass rusher is still expected to be out a few weeks, and he will probably sit out Saturday's game against Ole Miss.",
+          "date": "2026-10-19",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/long-colin-simmons-latest-injury-165101722.html"
+        },
+        {
           "id": "a03203dae5ee",
           "teamId": "texas",
           "headline": "Texas drops to No. 19 in the rankings",
@@ -155,15 +164,6 @@
           "date": "2026-10-18",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
-        },
-        {
-          "id": "867a5e1b0b41",
-          "teamId": "texas",
-          "headline": "Texas loses at home to Florida, 27-24",
-          "summary": "Texas led 17-3 in the second quarter and did not score again until the fourth quarter. It is the second loss in a row for the Longhorns, who are now 4-2.",
-          "date": "2026-10-17",
-          "source": "Texas Athletics",
-          "url": "https://texassports.com/news/2026/10/17/no-7-6-football-falls-to-florida-at-home-27-24"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "cdae694beb85",
+          "teamId": "saints",
+          "headline": "The Saints are in Paris",
+          "summary": "The team flew straight from New York to France and landed Monday morning. They play the Pittsburgh Steelers on Sunday at Stade de France, just outside Paris.",
+          "date": "2026-10-20",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+        },
+        {
           "id": "78f0581451ce",
           "teamId": "saints",
           "headline": "Tyler Shough is playing with a hurt hand",
@@ -210,15 +219,6 @@
           "date": "2026-10-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
-        },
-        {
-          "id": "0a19db6bf893",
-          "teamId": "saints",
-          "headline": "Saints win at the Giants, 34-27",
-          "summary": "The Saints were losing 10-0 and then scored 34 points in a row to win in New Jersey. It ends three straight losses and makes their record two wins and four losses.",
-          "date": "2026-10-18",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/recap/_/gameId/401873000"
         }
       ]
     },
@@ -257,13 +257,13 @@
           "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-potvin-named-psac-west-athlete-of-the-week-after-dominant-offensive-stretch.aspx"
         },
         {
-          "id": "b872a3503820",
+          "id": "98ca228524f8",
           "teamId": "iup",
-          "headline": "IUP beats Seton Hill in four sets",
-          "summary": "IUP won at home Friday night by scores of 25-16, 25-21, 21-25 and 25-21. Jessica Neiman led the way with 16 kills, and the Crimson Hawks have now won 16 matches.",
-          "date": "2026-10-16",
+          "headline": "IUP is ranked second in its region",
+          "summary": "The ratings the NCAA uses to pick its tournament teams put IUP second in its region, behind only Gannon. The two teams are separated by less than a point.",
+          "date": "2026-10-19",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/16/womens-volleyball-iup-takes-down-seton-hill-in-four-sets-for-16th-victory.aspx"
+          "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-iup-volleyball-sits-no-2-in-atlantic-region-in-latest-npi-rankings.aspx"
         },
         {
           "id": "ac11f287d110",
