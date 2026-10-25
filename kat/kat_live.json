@@ -1,9 +1,9 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-21",
+  "updated": "2026-10-25",
   "teams": {
     "saints": {
-      "record": "2-4",
+      "record": "2-5",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Pittsburgh Steelers",
@@ -18,42 +18,42 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints are the home team even though the game is played in France. The league says the game is going ahead as planned. Pittsburgh has won four games and lost two."
+        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints lost 16-10. They are off next Sunday, and their next game is at home against Cleveland on November 8."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 34,
-        "opponentScore": 27,
-        "opponent": "New York Giants",
-        "date": "2026-10-18"
+        "result": "L",
+        "teamScore": 10,
+        "opponentScore": 16,
+        "opponent": "Pittsburgh Steelers",
+        "date": "2026-10-25"
       },
       "news": [
         {
-          "id": "cdae694beb85",
+          "id": "921e03d83637",
           "teamId": "saints",
-          "headline": "The Saints are in Paris",
-          "summary": "The team flew straight from New York to France and landed Monday morning. They play the Pittsburgh Steelers on Sunday at Stade de France, just outside Paris.",
-          "date": "2026-10-20",
+          "headline": "Steelers beat the Saints 16-10 in Paris",
+          "summary": "The Saints lost Sunday morning at Stade de France, in the first National Football League game ever played in France. They ran for only 18 yards all day, and they are now 2-5.",
+          "date": "2026-10-25",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
+        },
+        {
+          "id": "9d8278c001b8",
+          "teamId": "saints",
+          "headline": "An interception in the red zone turns the game",
+          "summary": "The Saints had driven to the Pittsburgh 10-yard line in the third quarter when Tyler Shough's pass was intercepted by Payton Wilson. Pittsburgh kicked a field goal on the next drive, and the Saints did not score again.",
+          "date": "2026-10-25",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
         },
         {
-          "id": "78f0581451ce",
+          "id": "081da5daf4ff",
           "teamId": "saints",
-          "headline": "Tyler Shough is playing with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand, which is not the hand he throws with. He has not missed a game, and he says the hand is getting better every day.",
-          "date": "2026-10-19",
-          "source": "NFL.com",
-          "url": "https://www.nfl.com/videos/tyler-shough-on-hand-injury-it-s-getting-better-every-single-day"
-        },
-        {
-          "id": "6562af5072b6",
-          "teamId": "saints",
-          "headline": "Two hurt Saints made the trip to Paris",
-          "summary": "Linebacker Kaden Elliss and receiver Jordyn Tyson both flew to France with the team. Coach Kellen Moore said they made the trip, but neither one is sure to play on Sunday.",
-          "date": "2026-10-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
+          "headline": "Daniel Carlson misses from 52 yards",
+          "summary": "The Saints kicker missed a field goal in the fourth quarter with his team down six points. It was his fourth miss in 11 tries this season.",
+          "date": "2026-10-25",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. The Gators are off this coming Saturday, so this is their next game. Georgia has won six games and lost one."
+        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. Half past two our time. Georgia is ranked third in the country and has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "3e5e0f841247",
+          "teamId": "florida",
+          "headline": "Florida moves up to No. 17",
+          "summary": "The Gators were off on Saturday and still moved up three spots in the Associated Press Top 25, from 20th to 17th. They play third-ranked Georgia in Atlanta on Saturday.",
+          "date": "2026-10-25",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+        },
+        {
           "id": "2f65842d947b",
           "teamId": "florida",
           "headline": "LJ McCray wins an award for the Texas game",
@@ -91,15 +100,6 @@
           "date": "2026-10-19",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
-        },
-        {
-          "id": "f656092a8372",
-          "teamId": "florida",
-          "headline": "Florida is ranked again at No. 20",
-          "summary": "Beating Texas put the Gators back in the Associated Press Top 25 for the first time this season, at number 20. Texas fell to number 19.",
-          "date": "2026-10-18",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         },
         {
           "id": "7f30dd642845",
@@ -113,86 +113,96 @@
       ]
     },
     "lsu": {
-      "record": "5-2",
+      "record": "6-2",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Auburn Tigers",
-        "date": "2026-10-24",
-        "utc": "2026-10-24T16:00Z",
-        "time": "11:00 AM",
-        "venue": "Jordan-Hare Stadium",
-        "city": "Auburn, AL",
-        "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV"
-        },
-        "note": "Saturday morning game at Auburn. Eleven o'clock kickoff on ABC. Auburn has won four games and lost two."
+        "homeAway": "home",
+        "opponent": "Alabama Crimson Tide",
+        "date": "2026-11-07",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
+        "note": "Saturday home game against Alabama in Baton Rouge. The kickoff time and the television channel have not been announced yet. LSU is off this coming Saturday. Alabama is ranked 10th in the country and has won six games and lost two."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 31,
-        "opponentScore": 0,
-        "opponent": "Mississippi State Bulldogs",
-        "date": "2026-10-17"
+        "teamScore": 38,
+        "opponentScore": 17,
+        "opponent": "Auburn Tigers",
+        "date": "2026-10-24"
       },
       "news": [
         {
-          "id": "41bdd8c7ac7f",
+          "id": "abdf7b318e79",
           "teamId": "lsu",
-          "headline": "Lane Kiffin says Jackson Harris will be fine",
-          "summary": "Harris hurt his ankle in Saturday's shutout win and the LSU coach said afterward, \"I think he'll be fine.\" Kiffin had no update on pass rusher Princewill Umanmielen, who left in the first quarter with a head injury.",
-          "date": "2026-10-18",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-injured-wr-jackson-harris-will-be-fine-lane-kiffin-says-princewill-umanmielen-likely-questionable/"
+          "headline": "LSU moves up to No. 15",
+          "summary": "Beating Auburn moved LSU up three spots in the Associated Press Top 25, from 18th to 15th. The Tigers have won six games and lost two.",
+          "date": "2026-10-25",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         },
         {
-          "id": "9f77aa64ea9c",
+          "id": "cac6a526712e",
           "teamId": "lsu",
-          "headline": "LSU moves up to No. 18",
-          "summary": "Shutting out Mississippi State moved LSU up four spots in the Associated Press Top 25, from 22nd to 18th. The Tigers have won five games and lost two.",
-          "date": "2026-10-18",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/18/oct-18-football-national-rankings"
-        },
-        {
-          "id": "90eb3970290f",
-          "teamId": "lsu",
-          "headline": "LSU shuts out Mississippi State 31-0",
-          "summary": "LSU scored three touchdowns in the first half and never let Mississippi State score at all. It is the first time LSU has shut out a Southeastern Conference team since 2007.",
-          "date": "2026-10-17",
+          "headline": "LSU wins at Auburn 38-17",
+          "summary": "LSU scored on five of its first six drives Saturday and led 31-10 at halftime. The win ended a run of eight straight road losses in conference play.",
+          "date": "2026-10-24",
           "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856728"
+        },
+        {
+          "id": "fcc043b7979a",
+          "teamId": "lsu",
+          "headline": "Jackson Harris catches nine passes for 178 yards",
+          "summary": "Harris hurt his ankle a week ago and his coach said he would be fine. He caught two touchdown passes at Auburn, one of them a 12-yard throw he turned into a 70-yard run.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856728"
         }
       ]
     },
     "tulane": {
-      "record": "3-3",
+      "record": "3-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "UTSA Roadrunners",
-        "date": "2026-10-24",
-        "utc": "2026-10-25T00:00Z",
-        "time": "7:00 PM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Charlotte 49ers",
+        "date": "2026-10-30",
+        "utc": "2026-10-30T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Jerry Richardson Stadium",
+        "city": "Charlotte, NC",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN2",
+          "logo": "images/espn2.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won six games and lost one."
+        "note": "Friday night road game at Charlotte. Six o'clock our time. Charlotte has won one game and lost six."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 31,
-        "opponentScore": 17,
-        "opponent": "Memphis Tigers",
-        "date": "2026-10-16"
+        "result": "L",
+        "teamScore": 19,
+        "opponentScore": 42,
+        "opponent": "UTSA Roadrunners",
+        "date": "2026-10-24"
       },
       "news": [
+        {
+          "id": "0e4df6578860",
+          "teamId": "tulane",
+          "headline": "UTSA beats Tulane 42-19",
+          "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+        },
+        {
+          "id": "769372a93c24",
+          "teamId": "tulane",
+          "headline": "Anthony Rogers scores on the first play of the game",
+          "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+        },
         {
           "id": "b5936504717f",
           "teamId": "tulane",
@@ -201,24 +211,6 @@
           "date": "2026-10-19",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
-        },
-        {
-          "id": "cfb77e36db33",
-          "teamId": "tulane",
-          "headline": "Tulane's punter wins a national weekly award",
-          "summary": "William Hudlow punted six times for an average of 48 yards in the win over Memphis, including a 72-yarder that was the longest of his career. It is the third time this season the Ray Guy Award has named him one of the best punters of the week.",
-          "date": "2026-10-19",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-football-william-hudlow-earns-ray-guy-award-weekly-honor-for-third-time/"
-        },
-        {
-          "id": "6cc840717c91",
-          "teamId": "tulane",
-          "headline": "Tulane beats Memphis 31-17",
-          "summary": "Tulane won at home Friday night, 31-17 over Memphis. The defense took the ball away six times, and it is Tulane's first win in conference play this year.",
-          "date": "2026-10-16",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
         }
       ]
     }

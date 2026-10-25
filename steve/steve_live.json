@@ -1,33 +1,51 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-21",
+  "updated": "2026-10-25",
   "teams": {
     "tulane": {
-      "record": "3-3",
+      "record": "3-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "UTSA Roadrunners",
-        "date": "2026-10-24",
-        "utc": "2026-10-25T00:00Z",
-        "time": "7:00 PM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Charlotte 49ers",
+        "date": "2026-10-30",
+        "utc": "2026-10-30T23:00Z",
+        "time": "6:00 PM",
+        "venue": "Jerry Richardson Stadium",
+        "city": "Charlotte, NC",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN2",
+          "logo": "images/espn2.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game at Yulman Stadium. Seven o'clock kickoff. UTSA has won six games and lost one."
+        "note": "Friday night road game at Charlotte. Six o'clock our time. Charlotte has won one game and lost six."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 31,
-        "opponentScore": 17,
-        "opponent": "Memphis Tigers",
-        "date": "2026-10-16"
+        "result": "L",
+        "teamScore": 19,
+        "opponentScore": 42,
+        "opponent": "UTSA Roadrunners",
+        "date": "2026-10-24"
       },
       "news": [
+        {
+          "id": "0e4df6578860",
+          "teamId": "tulane",
+          "headline": "UTSA beats Tulane 42-19",
+          "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+        },
+        {
+          "id": "769372a93c24",
+          "teamId": "tulane",
+          "headline": "Anthony Rogers scores on the first play of the game",
+          "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+        },
         {
           "id": "b5936504717f",
           "teamId": "tulane",
@@ -36,24 +54,6 @@
           "date": "2026-10-19",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
-        },
-        {
-          "id": "cfb77e36db33",
-          "teamId": "tulane",
-          "headline": "Tulane's punter wins a national weekly award",
-          "summary": "William Hudlow punted six times for an average of 48 yards in the win over Memphis, including a 72-yarder that was the longest of his career. It is the third time this season the Ray Guy Award has named him one of the best punters of the week.",
-          "date": "2026-10-19",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-football-william-hudlow-earns-ray-guy-award-weekly-honor-for-third-time/"
-        },
-        {
-          "id": "6cc840717c91",
-          "teamId": "tulane",
-          "headline": "Tulane beats Memphis 31-17",
-          "summary": "Tulane won at home Friday night, 31-17 over Memphis. The defense took the ball away six times, and it is Tulane's first win in conference play this year.",
-          "date": "2026-10-16",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. The Gators are off this coming Saturday, so this is their next game. Georgia has won six games and lost one."
+        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. Half past two our time. Georgia is ranked third in the country and has won six games and lost one."
       },
       "lastGame": {
         "result": "W",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "3e5e0f841247",
+          "teamId": "florida",
+          "headline": "Florida moves up to No. 17",
+          "summary": "The Gators were off on Saturday and still moved up three spots in the Associated Press Top 25, from 20th to 17th. They play third-ranked Georgia in Atlanta on Saturday.",
+          "date": "2026-10-25",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+        },
+        {
           "id": "2f65842d947b",
           "teamId": "florida",
           "headline": "LJ McCray wins an award for the Texas game",
@@ -91,15 +100,6 @@
           "date": "2026-10-19",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
-        },
-        {
-          "id": "f656092a8372",
-          "teamId": "florida",
-          "headline": "Florida is ranked again at No. 20",
-          "summary": "Beating Texas put the Gators back in the Associated Press Top 25 for the first time this season, at number 20. Texas fell to number 19.",
-          "date": "2026-10-18",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         },
         {
           "id": "7f30dd642845",
@@ -113,31 +113,49 @@
       ]
     },
     "texas": {
-      "record": "4-2",
+      "record": "5-2",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Ole Miss Rebels",
-        "date": "2026-10-24",
-        "utc": "2026-10-24T23:30Z",
+        "opponent": "Mississippi State Bulldogs",
+        "date": "2026-10-31",
+        "utc": "2026-10-31T23:30Z",
         "time": "6:30 PM",
         "venue": "Darrell K Royal-Texas Memorial Stadium",
         "city": "Austin, TX",
         "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Austin. Half past six our time. Ole Miss is ranked 7th in the country and has won five games and lost one."
+        "note": "Saturday night home game in Austin. Half past six our time. Mississippi State has won four games and lost three."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 24,
+        "result": "W",
+        "teamScore": 34,
         "opponentScore": 27,
-        "opponent": "Florida Gators",
-        "date": "2026-10-17"
+        "opponent": "Ole Miss Rebels",
+        "date": "2026-10-24"
       },
       "news": [
+        {
+          "id": "7d934c41b427",
+          "teamId": "texas",
+          "headline": "Texas climbs to No. 11",
+          "summary": "Beating seventh-ranked Ole Miss moved Texas up eight spots in the Associated Press Top 25, from 19th to 11th. Texas has won five games and lost two.",
+          "date": "2026-10-25",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+        },
+        {
+          "id": "5fd8c06afef3",
+          "teamId": "texas",
+          "headline": "Texas beats Ole Miss 34-27",
+          "summary": "Texas led by 21 points and then let Ole Miss tie the game, but Arch Manning ran for the winning touchdown in the fourth quarter Saturday night in Austin. Ole Miss threw one last pass into the end zone and Texas intercepted it.",
+          "date": "2026-10-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856732"
+        },
         {
           "id": "100bf66ca1dd",
           "teamId": "texas",
@@ -146,29 +164,11 @@
           "date": "2026-10-19",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/college-football/news/arch-manning-remains-the-starter-at-texas-despite-struggles-and-2-game-skid"
-        },
-        {
-          "id": "75b77cc93db6",
-          "teamId": "texas",
-          "headline": "Colin Simmons is expected to miss a few weeks",
-          "summary": "A scan on Monday showed no serious damage to the ankle Simmons hurt against Florida. Texas's best pass rusher is still expected to be out a few weeks, and he will probably sit out Saturday's game against Ole Miss.",
-          "date": "2026-10-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/long-colin-simmons-latest-injury-165101722.html"
-        },
-        {
-          "id": "a03203dae5ee",
-          "teamId": "texas",
-          "headline": "Texas drops to No. 19 in the rankings",
-          "summary": "Losing at home to Florida dropped Texas from 7th to 19th in the Associated Press Top 25. Ole Miss, which comes to Austin on Saturday, is ranked 7th.",
-          "date": "2026-10-18",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         }
       ]
     },
     "saints": {
-      "record": "2-4",
+      "record": "2-5",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Pittsburgh Steelers",
@@ -183,51 +183,51 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints are the home team even though the game is played in France. The league says the game is going ahead as planned. Pittsburgh has won four games and lost two."
+        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints lost 16-10. They are off next Sunday, and their next game is at home against Cleveland on November 8."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 34,
-        "opponentScore": 27,
-        "opponent": "New York Giants",
-        "date": "2026-10-18"
+        "result": "L",
+        "teamScore": 10,
+        "opponentScore": 16,
+        "opponent": "Pittsburgh Steelers",
+        "date": "2026-10-25"
       },
       "news": [
         {
-          "id": "cdae694beb85",
+          "id": "921e03d83637",
           "teamId": "saints",
-          "headline": "The Saints are in Paris",
-          "summary": "The team flew straight from New York to France and landed Monday morning. They play the Pittsburgh Steelers on Sunday at Stade de France, just outside Paris.",
-          "date": "2026-10-20",
+          "headline": "Steelers beat the Saints 16-10 in Paris",
+          "summary": "The Saints lost Sunday morning at Stade de France, in the first National Football League game ever played in France. They ran for only 18 yards all day, and they are now 2-5.",
+          "date": "2026-10-25",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
+        },
+        {
+          "id": "9d8278c001b8",
+          "teamId": "saints",
+          "headline": "An interception in the red zone turns the game",
+          "summary": "The Saints had driven to the Pittsburgh 10-yard line in the third quarter when Tyler Shough's pass was intercepted by Payton Wilson. Pittsburgh kicked a field goal on the next drive, and the Saints did not score again.",
+          "date": "2026-10-25",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
         },
         {
-          "id": "78f0581451ce",
+          "id": "081da5daf4ff",
           "teamId": "saints",
-          "headline": "Tyler Shough is playing with a hurt hand",
-          "summary": "The Saints quarterback hurt his left hand, which is not the hand he throws with. He has not missed a game, and he says the hand is getting better every day.",
-          "date": "2026-10-19",
-          "source": "NFL.com",
-          "url": "https://www.nfl.com/videos/tyler-shough-on-hand-injury-it-s-getting-better-every-single-day"
-        },
-        {
-          "id": "6562af5072b6",
-          "teamId": "saints",
-          "headline": "Two hurt Saints made the trip to Paris",
-          "summary": "Linebacker Kaden Elliss and receiver Jordyn Tyson both flew to France with the team. Coach Kellen Moore said they made the trip, but neither one is sure to play on Sunday.",
-          "date": "2026-10-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
+          "headline": "Daniel Carlson misses from 52 yards",
+          "summary": "The Saints kicker missed a field goal in the fourth quarter with his team down six points. It was his fourth miss in 11 tries this season.",
+          "date": "2026-10-25",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
         }
       ]
     },
     "iup": {
-      "record": "16-4",
+      "record": "18-4",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Clarion",
-        "date": "2026-10-23",
+        "opponent": "Pittsburgh at Johnstown",
+        "date": "2026-10-30",
         "time": "5:00 PM",
         "venue": "Kovalchick Complex",
         "city": "Indiana, PA",
@@ -237,42 +237,42 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won four matches in a row, and beat Clarion in five sets back in September. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and is first in its half of the conference. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
         "opponentScore": 1,
-        "opponent": "Seton Hill",
-        "date": "2026-10-16"
+        "opponent": "Slippery Rock",
+        "date": "2026-10-24"
       },
       "news": [
         {
-          "id": "b783cee5c3fe",
+          "id": "b25fb9c8a46d",
           "teamId": "iup",
-          "headline": "Charlotte Potvin is the conference player of the week",
-          "summary": "Potvin had 32 kills in IUP's two wins last week, including a season-high 23 at Wheeling. The conference named her the best player in its western half on Monday.",
-          "date": "2026-10-19",
+          "headline": "IUP wins twice at home and is 18-4",
+          "summary": "The Crimson Hawks beat Clarion on Friday and Slippery Rock on Saturday, both in four sets. They have won six matches in a row and sit first in their half of the conference.",
+          "date": "2026-10-24",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-potvin-named-psac-west-athlete-of-the-week-after-dominant-offensive-stretch.aspx"
+          "url": "https://iupathletics.com/news/2026/10/24/womens-volleyball-iup-closes-senior-day-weekend-with-four-set-win-over-slippery-rock.aspx"
         },
         {
-          "id": "98ca228524f8",
+          "id": "c826a05190fe",
           "teamId": "iup",
-          "headline": "IUP is ranked second in its region",
-          "summary": "The ratings the NCAA uses to pick its tournament teams put IUP second in its region, behind only Gannon. The two teams are separated by less than a point.",
-          "date": "2026-10-19",
+          "headline": "Peyton Belcher helps block three balls against Clarion",
+          "summary": "Peyton played three of the four sets in Friday's win over Clarion and was in on three blocks. She had 3 kills on 14 swings with 4 errors.",
+          "date": "2026-10-23",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-iup-volleyball-sits-no-2-in-atlantic-region-in-latest-npi-rankings.aspx"
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/clarion/boxscore/15040"
         },
         {
-          "id": "ac11f287d110",
+          "id": "3643ddd5b204",
           "teamId": "iup",
-          "headline": "Peyton Belcher plays her biggest match of the year",
-          "summary": "Peyton had 7 kills on 18 swings with 4 errors in Tuesday night's five-set win at Wheeling, and she added 2 digs and helped block two balls. She played four of the five sets, and those 7 kills are nearly half her total for the whole season.",
-          "date": "2026-10-13",
+          "headline": "Delaney Concannon gets her 1,000th career dig",
+          "summary": "Concannon needed five digs to reach 1,000 and finished Friday's win over Clarion with 20. She also led IUP with 18 kills.",
+          "date": "2026-10-23",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/boxscore.aspx?id=15038&path=wvball"
+          "url": "https://iupathletics.com/news/2026/10/23/womens-volleyball-iup-takes-down-clarion-in-four-sets-concannon-reaches-1-000-career-digs.aspx"
         }
       ]
     },
@@ -323,24 +323,32 @@
       "news": []
     },
     "warren-easton": {
-      "record": "3-4",
+      "record": "4-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "West Jefferson",
-        "date": "2026-10-24",
-        "time": "3:00 PM",
-        "city": "New Orleans, LA",
-        "note": "Saturday afternoon home game at Pan American Stadium in City Park, and a district game. Three o'clock kickoff. Warren Easton has won all three of its district games. West Jefferson has won three games and lost four, and lost to Bonnabel last week.",
-        "venue": "Pan American Stadium"
+        "homeAway": "away",
+        "opponent": "John Ehret",
+        "date": "2026-10-29",
+        "time": "6:30 PM",
+        "city": "Marrero, LA",
+        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games and lost four, and has won all four of its district games. John Ehret has won four games and lost four, and lost to Bonnabel last week."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 22,
-        "opponentScore": 6,
-        "opponent": "East Jefferson",
-        "date": "2026-10-15"
+        "teamScore": 44,
+        "opponentScore": 0,
+        "opponent": "West Jefferson",
+        "date": "2026-10-24"
       },
       "news": [
+        {
+          "id": "98d0e962e687",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton shuts out West Jefferson 44-0",
+          "summary": "The Eagles won at home Saturday afternoon for their fourth win in a row. Warren Easton is 4-4 and has won all four of its district games.",
+          "date": "2026-10-24",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-west-jefferson-harvey/10-24-2026/?c=762b8881-6057-4239-996c-99f8aadd984a"
+        },
         {
           "id": "abf0cef08cfe",
           "teamId": "warren-easton",
@@ -358,15 +366,6 @@
           "date": "2026-10-08",
           "source": "MaxPreps",
           "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
-        },
-        {
-          "id": "aeafd08016a4",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton wins its first game, 50-0",
-          "summary": "The Eagles shut out Riverdale 50-0 on Thursday in Jefferson for their first win of the year. Warren Easton is now 1-4.",
-          "date": "2026-10-01",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/la/football/game/riverdale-jefferson-vs-warren-easton-fighting-eagles-new-orleans/10-1-2026/?c=08327747-47c5-42c6-a503-b6264a9bd7d6"
         }
       ]
     }

@@ -2,10 +2,73 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-21",
+    "updated": "2026-10-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "cdae694beb85",
+      "teamId": "saints",
+      "headline": "The Saints are in Paris",
+      "summary": "The team flew straight from New York to France and landed Monday morning. They play the Pittsburgh Steelers on Sunday at Stade de France, just outside Paris.",
+      "date": "2026-10-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "cfb77e36db33",
+      "teamId": "tulane",
+      "headline": "Tulane's punter wins a national weekly award",
+      "summary": "William Hudlow punted six times for an average of 48 yards in the win over Memphis, including a 72-yarder that was the longest of his career. It is the third time this season the Ray Guy Award has named him one of the best punters of the week.",
+      "date": "2026-10-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-football-william-hudlow-earns-ray-guy-award-weekly-honor-for-third-time/"
+    },
+    {
+      "id": "75b77cc93db6",
+      "teamId": "texas",
+      "headline": "Colin Simmons is expected to miss a few weeks",
+      "summary": "A scan on Monday showed no serious damage to the ankle Simmons hurt against Florida. Texas's best pass rusher is still expected to be out a few weeks, and he will probably sit out Saturday's game against Ole Miss.",
+      "date": "2026-10-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/long-colin-simmons-latest-injury-165101722.html"
+    },
+    {
+      "id": "78f0581451ce",
+      "teamId": "saints",
+      "headline": "Tyler Shough is playing with a hurt hand",
+      "summary": "The Saints quarterback hurt his left hand, which is not the hand he throws with. He has not missed a game, and he says the hand is getting better every day.",
+      "date": "2026-10-19",
+      "source": "NFL.com",
+      "url": "https://www.nfl.com/videos/tyler-shough-on-hand-injury-it-s-getting-better-every-single-day"
+    },
+    {
+      "id": "6562af5072b6",
+      "teamId": "saints",
+      "headline": "Two hurt Saints made the trip to Paris",
+      "summary": "Linebacker Kaden Elliss and receiver Jordyn Tyson both flew to France with the team. Coach Kellen Moore said they made the trip, but neither one is sure to play on Sunday.",
+      "date": "2026-10-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
+    },
+    {
+      "id": "b783cee5c3fe",
+      "teamId": "iup",
+      "headline": "Charlotte Potvin is the conference player of the week",
+      "summary": "Potvin had 32 kills in IUP's two wins last week, including a season-high 23 at Wheeling. The conference named her the best player in its western half on Monday.",
+      "date": "2026-10-19",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-potvin-named-psac-west-athlete-of-the-week-after-dominant-offensive-stretch.aspx"
+    },
+    {
+      "id": "98ca228524f8",
+      "teamId": "iup",
+      "headline": "IUP is ranked second in its region",
+      "summary": "The ratings the NCAA uses to pick its tournament teams put IUP second in its region, behind only Gannon. The two teams are separated by less than a point.",
+      "date": "2026-10-19",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/19/womens-volleyball-iup-volleyball-sits-no-2-in-atlantic-region-in-latest-npi-rankings.aspx"
+    },
     {
       "id": "0a19db6bf893",
       "teamId": "saints",
@@ -41,6 +104,24 @@
       "date": "2026-10-18",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
+    {
+      "id": "f656092a8372",
+      "teamId": "florida",
+      "headline": "Florida is ranked again at No. 20",
+      "summary": "Beating Texas put the Gators back in the Associated Press Top 25 for the first time this season, at number 20. Texas fell to number 19.",
+      "date": "2026-10-18",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+    },
+    {
+      "id": "a03203dae5ee",
+      "teamId": "texas",
+      "headline": "Texas drops to No. 19 in the rankings",
+      "summary": "Losing at home to Florida dropped Texas from 7th to 19th in the Associated Press Top 25. Ole Miss, which comes to Austin on Saturday, is ranked 7th.",
+      "date": "2026-10-18",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
     },
     {
       "id": "867a5e1b0b41",
@@ -169,6 +250,15 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
     },
     {
+      "id": "6cc840717c91",
+      "teamId": "tulane",
+      "headline": "Tulane beats Memphis 31-17",
+      "summary": "Tulane won at home Friday night, 31-17 over Memphis. The defense took the ball away six times, and it is Tulane's first win in conference play this year.",
+      "date": "2026-10-16",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
+    },
+    {
       "id": "542c8244c655",
       "teamId": "florida",
       "headline": "Tramell Jones is ready if Philo cannot go",
@@ -293,6 +383,15 @@
       "date": "2026-10-13",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/decamerion-richardson-saints-roster-moves-transaction-alert-october-13-2026"
+    },
+    {
+      "id": "ac11f287d110",
+      "teamId": "iup",
+      "headline": "Peyton Belcher plays her biggest match of the year",
+      "summary": "Peyton had 7 kills on 18 swings with 4 errors in Tuesday night's five-set win at Wheeling, and she added 2 digs and helped block two balls. She played four of the five sets, and those 7 kills are nearly half her total for the whole season.",
+      "date": "2026-10-13",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/boxscore.aspx?id=15038&path=wvball"
     },
     {
       "id": "83e28c07eb54",
@@ -914,6 +1013,15 @@
       "date": "2026-10-01",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-atlanta-falcons-vs-new-orleans-saints-2026-nfl-week-4-thursday"
+    },
+    {
+      "id": "aeafd08016a4",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton wins its first game, 50-0",
+      "summary": "The Eagles shut out Riverdale 50-0 on Thursday in Jefferson for their first win of the year. Warren Easton is now 1-4.",
+      "date": "2026-10-01",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/football/game/riverdale-jefferson-vs-warren-easton-fighting-eagles-new-orleans/10-1-2026/?c=08327747-47c5-42c6-a503-b6264a9bd7d6"
     },
     {
       "id": "2c709e12b07c",

@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-21",
+    "updated": "2026-10-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "cdae694beb85",
+      "teamId": "saints",
+      "headline": "The Saints are in Paris",
+      "summary": "The team flew straight from New York to France and landed Monday morning. They play the Pittsburgh Steelers on Sunday at Stade de France, just outside Paris.",
+      "date": "2026-10-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "78f0581451ce",
+      "teamId": "saints",
+      "headline": "Tyler Shough is playing with a hurt hand",
+      "summary": "The Saints quarterback hurt his left hand, which is not the hand he throws with. He has not missed a game, and he says the hand is getting better every day.",
+      "date": "2026-10-19",
+      "source": "NFL.com",
+      "url": "https://www.nfl.com/videos/tyler-shough-on-hand-injury-it-s-getting-better-every-single-day"
+    },
+    {
+      "id": "6562af5072b6",
+      "teamId": "saints",
+      "headline": "Two hurt Saints made the trip to Paris",
+      "summary": "Linebacker Kaden Elliss and receiver Jordyn Tyson both flew to France with the team. Coach Kellen Moore said they made the trip, but neither one is sure to play on Sunday.",
+      "date": "2026-10-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-share-multiple-injury-updates-142136801.html"
+    },
+    {
+      "id": "cfb77e36db33",
+      "teamId": "tulane",
+      "headline": "Tulane's punter wins a national weekly award",
+      "summary": "William Hudlow punted six times for an average of 48 yards in the win over Memphis, including a 72-yarder that was the longest of his career. It is the third time this season the Ray Guy Award has named him one of the best punters of the week.",
+      "date": "2026-10-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-football-william-hudlow-earns-ray-guy-award-weekly-honor-for-third-time/"
+    },
     {
       "id": "0a19db6bf893",
       "teamId": "saints",
@@ -41,6 +77,33 @@
       "date": "2026-10-18",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest"
+    },
+    {
+      "id": "f656092a8372",
+      "teamId": "florida",
+      "headline": "Florida is ranked again at No. 20",
+      "summary": "Beating Texas put the Gators back in the Associated Press Top 25 for the first time this season, at number 20. Texas fell to number 19.",
+      "date": "2026-10-18",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+    },
+    {
+      "id": "41bdd8c7ac7f",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin says Jackson Harris will be fine",
+      "summary": "Harris hurt his ankle in Saturday's shutout win and the LSU coach said afterward, \"I think he'll be fine.\" Kiffin had no update on pass rusher Princewill Umanmielen, who left in the first quarter with a head injury.",
+      "date": "2026-10-18",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-injured-wr-jackson-harris-will-be-fine-lane-kiffin-says-princewill-umanmielen-likely-questionable/"
+    },
+    {
+      "id": "9f77aa64ea9c",
+      "teamId": "lsu",
+      "headline": "LSU moves up to No. 18",
+      "summary": "Shutting out Mississippi State moved LSU up four spots in the Associated Press Top 25, from 22nd to 18th. The Tigers have won five games and lost two.",
+      "date": "2026-10-18",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/18/oct-18-football-national-rankings"
     },
     {
       "id": "23fa2985393b",
@@ -95,6 +158,15 @@
       "date": "2026-10-17",
       "source": "Tiger Rag",
       "url": "https://www.tigerrag.com/lsu-wr-jackson-harris-exits-game-versus-mississippi-state/"
+    },
+    {
+      "id": "90eb3970290f",
+      "teamId": "lsu",
+      "headline": "LSU shuts out Mississippi State 31-0",
+      "summary": "LSU scored three touchdowns in the first half and never let Mississippi State score at all. It is the first time LSU has shut out a Southeastern Conference team since 2007.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856720"
     },
     {
       "id": "2efec4914559",
@@ -160,6 +232,15 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday"
     },
     {
+      "id": "6cc840717c91",
+      "teamId": "tulane",
+      "headline": "Tulane beats Memphis 31-17",
+      "summary": "Tulane won at home Friday night, 31-17 over Memphis. The defense took the ball away six times, and it is Tulane's first win in conference play this year.",
+      "date": "2026-10-16",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/16/football-forces-six-turnovers-in-31-17-conference-victory-over-memphis"
+    },
+    {
       "id": "542c8244c655",
       "teamId": "florida",
       "headline": "Tramell Jones is ready if Philo cannot go",
@@ -185,6 +266,15 @@
       "date": "2026-10-15",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
+      "id": "6b9c9cba37ad",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin comes back to beat John Curtis 36-28",
+      "summary": "Brother Martin trailed 21-9 on Thursday night in River Ridge and then scored 27 points in the fourth quarter to win. Its defense took the ball away seven times, and Easton Royal scored twice and set two school records.",
+      "date": "2026-10-15",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/points-of-turnovers-fuel-brother-martins-victory-over-john-curtis/"
     },
     {
       "id": "241e8b1ba6d1",
@@ -410,6 +500,15 @@
       "date": "2026-10-11",
       "source": "Associated Press",
       "url": "https://sports.yahoo.com/articles/florida-drops-ap-top-25-185117162.html"
+    },
+    {
+      "id": "c9880c0512fc",
+      "teamId": "brother-martin",
+      "headline": "Easton Royal picks Florida over Texas",
+      "summary": "The Brother Martin receiver had been committed to Texas since last November. He switched to Florida on Sunday, a day after a visit to the Florida campus.",
+      "date": "2026-10-11",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/florida/longformarticle/florida-football-gators-recruiting-commitment-five-star-easton-royal-wide-receiver-290628223/"
     },
     {
       "id": "e9f3ee19aaed",
