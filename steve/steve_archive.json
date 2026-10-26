@@ -16,6 +16,24 @@
       "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
     },
     {
+      "id": "5fd8c06afef3",
+      "teamId": "texas",
+      "headline": "Texas beats Ole Miss 34-27",
+      "summary": "Texas led by 21 points and then let Ole Miss tie the game, but Arch Manning ran for the winning touchdown in the fourth quarter Saturday night in Austin. Ole Miss threw one last pass into the end zone and Texas intercepted it.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856732"
+    },
+    {
+      "id": "3643ddd5b204",
+      "teamId": "iup",
+      "headline": "Delaney Concannon gets her 1,000th career dig",
+      "summary": "Concannon needed five digs to reach 1,000 and finished Friday's win over Clarion with 20. She also led IUP with 18 kills.",
+      "date": "2026-10-23",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/23/womens-volleyball-iup-takes-down-clarion-in-four-sets-concannon-reaches-1-000-career-digs.aspx"
+    },
+    {
       "id": "cdae694beb85",
       "teamId": "saints",
       "headline": "The Saints are in Paris",

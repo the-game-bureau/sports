@@ -118,9 +118,17 @@
         "homeAway": "home",
         "opponent": "Alabama Crimson Tide",
         "date": "2026-11-07",
+        "utc": "2026-11-07T20:30Z",
+        "time": "2:30 PM",
         "venue": "Tiger Stadium",
         "city": "Baton Rouge, LA",
-        "note": "Saturday home game against Alabama in Baton Rouge. The kickoff time and the television channel have not been announced yet. LSU is off this coming Saturday. Alabama is ranked 10th in the country and has won six games and lost two."
+        "tv": {
+          "name": "ABC (WGNO 26)",
+          "logo": "",
+          "url": "",
+          "note": "On YouTube TV"
+        },
+        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time. LSU is off this coming Saturday, so this game is two Saturdays away. Alabama is ranked 10th in the country and has won six games and lost two."
       },
       "lastGame": {
         "result": "W",
@@ -131,6 +139,24 @@
       },
       "news": [
         {
+          "id": "4eb227c9d786",
+          "teamId": "lsu",
+          "headline": "LSU and Alabama will play at 2:30 on ABC",
+          "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
+          "date": "2026-10-26",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
+        },
+        {
+          "id": "257a8fcc0263",
+          "teamId": "lsu",
+          "headline": "Sam Leavitt and Jordan Ross win conference awards",
+          "summary": "Leavitt threw for 378 yards and three touchdowns and ran for another score in Saturday's win at Auburn. Ross had two sacks in the same game, and the SEC honored both of them on Monday.",
+          "date": "2026-10-26",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
+        },
+        {
           "id": "abdf7b318e79",
           "teamId": "lsu",
           "headline": "LSU moves up to No. 15",
@@ -138,24 +164,6 @@
           "date": "2026-10-25",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
-        },
-        {
-          "id": "cac6a526712e",
-          "teamId": "lsu",
-          "headline": "LSU wins at Auburn 38-17",
-          "summary": "LSU scored on five of its first six drives Saturday and led 31-10 at halftime. The win ended a run of eight straight road losses in conference play.",
-          "date": "2026-10-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856728"
-        },
-        {
-          "id": "fcc043b7979a",
-          "teamId": "lsu",
-          "headline": "Jackson Harris catches nine passes for 178 yards",
-          "summary": "Harris hurt his ankle a week ago and his coach said he would be fine. He caught two touchdown passes at Auburn, one of them a 12-yard throw he turned into a 70-yard run.",
-          "date": "2026-10-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856728"
         }
       ]
     },
