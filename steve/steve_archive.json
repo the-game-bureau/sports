@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-25",
+    "updated": "2026-10-26",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "081da5daf4ff",
+      "teamId": "saints",
+      "headline": "Daniel Carlson misses from 52 yards",
+      "summary": "The Saints kicker missed a field goal in the fourth quarter with his team down six points. It was his fourth miss in 11 tries this season.",
+      "date": "2026-10-25",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
+    },
     {
       "id": "cdae694beb85",
       "teamId": "saints",
@@ -14,6 +23,15 @@
       "date": "2026-10-20",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "100bf66ca1dd",
+      "teamId": "texas",
+      "headline": "Arch Manning will keep starting at quarterback",
+      "summary": "Coach Steve Sarkisian said Monday that Manning is still his starter and that Manning can play better for them. Texas has lost two games in a row.",
+      "date": "2026-10-19",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/college-football/news/arch-manning-remains-the-starter-at-texas-despite-struggles-and-2-game-skid"
     },
     {
       "id": "cfb77e36db33",

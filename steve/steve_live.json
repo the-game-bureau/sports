@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "teams": {
     "tulane": {
       "record": "3-4",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "6aab755f8937",
+          "teamId": "texas",
+          "headline": "Texas loses Trevor Goosby for the rest of the season",
+          "summary": "Goosby hurt his left knee in the first quarter against Ole Miss on Saturday and was carted off the field. ESPN reported Sunday that the starting left tackle will miss the rest of the year.",
+          "date": "2026-10-25",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50280834/sources-texas-trevor-goosby-season-ending-knee-injury"
+        },
+        {
           "id": "7d934c41b427",
           "teamId": "texas",
           "headline": "Texas climbs to No. 11",
@@ -155,15 +164,6 @@
           "date": "2026-10-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856732"
-        },
-        {
-          "id": "100bf66ca1dd",
-          "teamId": "texas",
-          "headline": "Arch Manning will keep starting at quarterback",
-          "summary": "Coach Steve Sarkisian said Monday that Manning is still his starter and that Manning can play better for them. Texas has lost two games in a row.",
-          "date": "2026-10-19",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/college-football/news/arch-manning-remains-the-starter-at-texas-despite-struggles-and-2-game-skid"
         }
       ]
     },
@@ -171,19 +171,19 @@
       "record": "2-5",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Pittsburgh Steelers",
-        "date": "2026-10-25",
-        "utc": "2026-10-25T13:30Z",
-        "time": "8:30 AM",
-        "venue": "Stade de France",
-        "city": "Saint-Denis, France",
+        "opponent": "Cleveland Browns",
+        "date": "2026-11-08",
+        "utc": "2026-11-08T18:00Z",
+        "time": "12:00 PM",
+        "venue": "Caesars Superdome",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "NFL Network",
+          "name": "CBS (WWL 4)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday morning game in Paris, France. Half past eight our time. The Saints lost 16-10. They are off next Sunday, and their next game is at home against Cleveland on November 8."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time. The Saints are off this Sunday, so this game is two Sundays away. Cleveland has won five games and lost two."
       },
       "lastGame": {
         "result": "L",
@@ -203,19 +203,19 @@
           "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
         },
         {
+          "id": "dad2bc05c6b4",
+          "teamId": "saints",
+          "headline": "The Saints' running game hits a 33-year low",
+          "summary": "Not one Saints player ran for even 10 yards in Sunday's loss in Paris. The last time that happened to the team was 1993, and coach Kellen Moore said it is hard to win a game that way.",
+          "date": "2026-10-25",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50281161/tyler-shough-cant-save-new-orleans-saints-run-game-lows"
+        },
+        {
           "id": "9d8278c001b8",
           "teamId": "saints",
           "headline": "An interception in the red zone turns the game",
           "summary": "The Saints had driven to the Pittsburgh 10-yard line in the third quarter when Tyler Shough's pass was intercepted by Payton Wilson. Pittsburgh kicked a field goal on the next drive, and the Saints did not score again.",
-          "date": "2026-10-25",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
-        },
-        {
-          "id": "081da5daf4ff",
-          "teamId": "saints",
-          "headline": "Daniel Carlson misses from 52 yards",
-          "summary": "The Saints kicker missed a field goal in the fourth quarter with his team down six points. It was his fourth miss in 11 tries this season.",
           "date": "2026-10-25",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
