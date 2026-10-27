@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "teams": {
     "tulane": {
       "record": "3-4",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "91cb2d9e5841",
+          "teamId": "tulane",
+          "headline": "Tulane's Tulsa game is set for 11 in the morning",
+          "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
+          "date": "2026-10-26",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
+        },
+        {
           "id": "0e4df6578860",
           "teamId": "tulane",
           "headline": "UTSA beats Tulane 42-19",
@@ -45,15 +54,6 @@
           "date": "2026-10-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
-        },
-        {
-          "id": "b5936504717f",
-          "teamId": "tulane",
-          "headline": "Kevin Adams III wins a conference award",
-          "summary": "Adams had nine tackles, two interceptions and a fumble recovery in Friday's win over Memphis. The American Conference named him its best defensive player of the week on Monday.",
-          "date": "2026-10-19",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "9f3a20b55ad8",
+          "teamId": "florida",
+          "headline": "Florida has not named its quarterback for Georgia",
+          "summary": "Aaron Philo and Tramell Jones both took first-team snaps in Monday's practice. Coach Jon Sumrall said he will pick Saturday's starter later in the week.",
+          "date": "2026-10-26",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
+        },
+        {
           "id": "3e5e0f841247",
           "teamId": "florida",
           "headline": "Florida moves up to No. 17",
@@ -100,15 +109,6 @@
           "date": "2026-10-19",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
-        },
-        {
-          "id": "7f30dd642845",
-          "teamId": "florida",
-          "headline": "Florida beats Texas 27-24",
-          "summary": "Florida was losing 17-3 in the second quarter and then scored 24 points in a row to win in Austin. The Gators are 5-2, and it is their first win at a top-10 team on the road since 2012.",
-          "date": "2026-10-17",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "41d7841d2c98",
+          "teamId": "saints",
+          "headline": "The Saints are off this week and looking at everything",
+          "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
+          "date": "2026-10-26",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
+        },
+        {
           "id": "921e03d83637",
           "teamId": "saints",
           "headline": "Steelers beat the Saints 16-10 in Paris",
@@ -210,15 +219,6 @@
           "date": "2026-10-25",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/story/_/id/50281161/tyler-shough-cant-save-new-orleans-saints-run-game-lows"
-        },
-        {
-          "id": "9d8278c001b8",
-          "teamId": "saints",
-          "headline": "An interception in the red zone turns the game",
-          "summary": "The Saints had driven to the Pittsburgh 10-yard line in the third quarter when Tyler Shough's pass was intercepted by Payton Wilson. Pittsburgh kicked a field goal on the next drive, and the Saints did not score again.",
-          "date": "2026-10-25",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and is first in its half of the conference. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and leads its half of the conference at 9-1, and the Crimson Hawks have already earned a place in the conference tournament. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
       },
       "lastGame": {
         "result": "W",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "8725bf353304",
+          "teamId": "yankees",
+          "headline": "Cody Bellinger wins a fielding award for left field",
+          "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
+          "date": "2026-10-22",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
+        },
+        {
           "id": "2f90e7613c05",
           "teamId": "yankees",
           "headline": "Three Yankees are up for a Gold Glove",
@@ -304,15 +313,6 @@
           "date": "2026-10-07",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
-        },
-        {
-          "id": "8980d0caf1fb",
-          "teamId": "yankees",
-          "headline": "Aaron Judge says the Yankees should go all in",
-          "summary": "Judge strained a calf in September and watched the whole playoff series from the dugout. He said afterward that the team should go all in and add players for next year.",
-          "date": "2026-10-07",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/50131001/aaron-judge-reacts-yankees-postseason-elimination-rays"
         }
       ]
     },

@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "9d8278c001b8",
+      "teamId": "saints",
+      "headline": "An interception in the red zone turns the game",
+      "summary": "The Saints had driven to the Pittsburgh 10-yard line in the third quarter when Tyler Shough's pass was intercepted by Payton Wilson. Pittsburgh kicked a field goal on the next drive, and the Saints did not score again.",
+      "date": "2026-10-25",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
+    },
     {
       "id": "081da5daf4ff",
       "teamId": "saints",
@@ -41,6 +50,15 @@
       "date": "2026-10-20",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "b5936504717f",
+      "teamId": "tulane",
+      "headline": "Kevin Adams III wins a conference award",
+      "summary": "Adams had nine tackles, two interceptions and a fumble recovery in Friday's win over Memphis. The American Conference named him its best defensive player of the week on Monday.",
+      "date": "2026-10-19",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/19/footballs-kevin-adams-iii-honored-by-the-american-conference"
     },
     {
       "id": "78f0581451ce",
@@ -131,6 +149,15 @@
       "date": "2026-10-18",
       "source": "LSU Athletics",
       "url": "https://lsusports.net/news/2026/10/18/oct-18-football-national-rankings"
+    },
+    {
+      "id": "7f30dd642845",
+      "teamId": "florida",
+      "headline": "Florida beats Texas 27-24",
+      "summary": "Florida was losing 17-3 in the second quarter and then scored 24 points in a row to win in Austin. The Gators are 5-2, and it is their first win at a top-10 team on the road since 2012.",
+      "date": "2026-10-17",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856724"
     },
     {
       "id": "23fa2985393b",
