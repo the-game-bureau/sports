@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "b25fb9c8a46d",
+      "teamId": "iup",
+      "headline": "IUP wins twice at home and is 18-4",
+      "summary": "The Crimson Hawks beat Clarion on Friday and Slippery Rock on Saturday, both in four sets. They have won six matches in a row and sit first in their half of the conference.",
+      "date": "2026-10-24",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/24/womens-volleyball-iup-closes-senior-day-weekend-with-four-set-win-over-slippery-rock.aspx"
+    },
+    {
+      "id": "95e078e157f2",
+      "teamId": "yankees",
+      "headline": "Tampa Bay beats the Yankees 4-3 and ends their season",
+      "summary": "Tampa Bay won Wednesday night at Yankee Stadium to take the series three games to none. The Yankees are out of the playoffs, and it is 17 years since they last won the World Series.",
+      "date": "2026-10-07",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
+    },
+    {
       "id": "9d8278c001b8",
       "teamId": "saints",
       "headline": "An interception in the red zone turns the game",

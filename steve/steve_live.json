@@ -248,6 +248,15 @@
       },
       "news": [
         {
+          "id": "a8240df1e4e3",
+          "teamId": "iup",
+          "headline": "IUP moves up to 27th in the country",
+          "summary": "The Crimson Hawks climbed five spots, from 32nd to 27th, in the rankings the NCAA uses to pick teams for the national tournament. They are second in their region, behind Gannon.",
+          "date": "2026-10-26",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/10/26/womens-volleyball-iup-volleyball-moves-up-five-spots-in-latest-ncaa-npi-rankings.aspx"
+        },
+        {
           "id": "a752e931a625",
           "teamId": "iup",
           "headline": "Delaney Concannon is the conference player of the week",
@@ -255,15 +264,6 @@
           "date": "2026-10-26",
           "source": "PSAC",
           "url": "https://psacsports.org/news/2026/10/26/psac-womens-volleyball-athletes-of-the-week-9.aspx"
-        },
-        {
-          "id": "b25fb9c8a46d",
-          "teamId": "iup",
-          "headline": "IUP wins twice at home and is 18-4",
-          "summary": "The Crimson Hawks beat Clarion on Friday and Slippery Rock on Saturday, both in four sets. They have won six matches in a row and sit first in their half of the conference.",
-          "date": "2026-10-24",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/24/womens-volleyball-iup-closes-senior-day-weekend-with-four-set-win-over-slippery-rock.aspx"
         },
         {
           "id": "c826a05190fe",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "767845357c59",
+          "teamId": "yankees",
+          "headline": "Jorge Posada says he no longer feels welcome",
+          "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
+          "date": "2026-10-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
+        },
+        {
           "id": "8725bf353304",
           "teamId": "yankees",
           "headline": "Cody Bellinger wins a fielding award for left field",
@@ -304,15 +313,6 @@
           "date": "2026-10-14",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/2026-gold-glove-award-finalists"
-        },
-        {
-          "id": "95e078e157f2",
-          "teamId": "yankees",
-          "headline": "Tampa Bay beats the Yankees 4-3 and ends their season",
-          "summary": "Tampa Bay won Wednesday night at Yankee Stadium to take the series three games to none. The Yankees are out of the playoffs, and it is 17 years since they last won the World Series.",
-          "date": "2026-10-07",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
         }
       ]
     },
@@ -330,7 +330,7 @@
         "date": "2026-10-29",
         "time": "6:30 PM",
         "city": "Marrero, LA",
-        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games and lost four, and has won all four of its district games. John Ehret has won four games and lost four, and lost to Bonnabel last week."
+        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games and lost four, and has won all four of its district games. John Ehret has won four games and lost four, and lost 44-29 at Bonnabel last week."
       },
       "lastGame": {
         "result": "W",
