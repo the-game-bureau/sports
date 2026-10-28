@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "8cc9c2a4998e",
+          "teamId": "saints",
+          "headline": "Gayle Benson thanks the fans who went to Paris",
+          "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+          "date": "2026-10-28",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+        },
+        {
           "id": "41d7841d2c98",
           "teamId": "saints",
           "headline": "The Saints are off this week and looking at everything",
@@ -45,15 +54,6 @@
           "date": "2026-10-25",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
-        },
-        {
-          "id": "dad2bc05c6b4",
-          "teamId": "saints",
-          "headline": "The Saints' running game hits a 33-year low",
-          "summary": "Not one Saints player ran for even 10 yards in Sunday's loss in Paris. The last time that happened to the team was 1993, and coach Kellen Moore said it is hard to win a game that way.",
-          "date": "2026-10-25",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50281161/tyler-shough-cant-save-new-orleans-saints-run-game-lows"
         }
       ]
     },
@@ -93,6 +93,15 @@
           "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
         },
         {
+          "id": "de2e1ab04aa5",
+          "teamId": "florida",
+          "headline": "Florida's Oklahoma game is set for a night kickoff",
+          "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
+          "date": "2026-10-26",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
+        },
+        {
           "id": "3e5e0f841247",
           "teamId": "florida",
           "headline": "Florida moves up to No. 17",
@@ -100,15 +109,6 @@
           "date": "2026-10-25",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
-        },
-        {
-          "id": "2f65842d947b",
-          "teamId": "florida",
-          "headline": "LJ McCray wins an award for the Texas game",
-          "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
-          "date": "2026-10-19",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
         }
       ]
     },

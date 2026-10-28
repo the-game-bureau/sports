@@ -93,6 +93,15 @@
           "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
         },
         {
+          "id": "de2e1ab04aa5",
+          "teamId": "florida",
+          "headline": "Florida's Oklahoma game is set for a night kickoff",
+          "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
+          "date": "2026-10-26",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
+        },
+        {
           "id": "3e5e0f841247",
           "teamId": "florida",
           "headline": "Florida moves up to No. 17",
@@ -100,15 +109,6 @@
           "date": "2026-10-25",
           "source": "NCAA.com",
           "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
-        },
-        {
-          "id": "2f65842d947b",
-          "teamId": "florida",
-          "headline": "LJ McCray wins an award for the Texas game",
-          "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
-          "date": "2026-10-19",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "e4646e87bfd9",
+          "teamId": "texas",
+          "headline": "Rasheem Biles is up for the Butkus Award",
+          "summary": "The award goes to the best linebacker in college football. Biles is one of 15 players still in the running, and the list gets cut down to the finalists on November 20.",
+          "date": "2026-10-28",
+          "source": "Texas Longhorns",
+          "url": "https://texaslonghorns.com/news/2026/10/28/no-11-11-footballs-biles-named-butkus-award-semifinalist"
+        },
+        {
           "id": "d309d99adbd9",
           "teamId": "texas",
           "headline": "Rasheem Biles wins an award for the Ole Miss game",
@@ -155,15 +164,6 @@
           "date": "2026-10-25",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50280834/sources-texas-trevor-goosby-season-ending-knee-injury"
-        },
-        {
-          "id": "7d934c41b427",
-          "teamId": "texas",
-          "headline": "Texas climbs to No. 11",
-          "summary": "Beating seventh-ranked Ole Miss moved Texas up eight spots in the Associated Press Top 25, from 19th to 11th. Texas has won five games and lost two.",
-          "date": "2026-10-25",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "8cc9c2a4998e",
+          "teamId": "saints",
+          "headline": "Gayle Benson thanks the fans who went to Paris",
+          "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+          "date": "2026-10-28",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+        },
+        {
           "id": "41d7841d2c98",
           "teamId": "saints",
           "headline": "The Saints are off this week and looking at everything",
@@ -210,15 +219,6 @@
           "date": "2026-10-25",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
-        },
-        {
-          "id": "dad2bc05c6b4",
-          "teamId": "saints",
-          "headline": "The Saints' running game hits a 33-year low",
-          "summary": "Not one Saints player ran for even 10 yards in Sunday's loss in Paris. The last time that happened to the team was 1993, and coach Kellen Moore said it is hard to win a game that way.",
-          "date": "2026-10-25",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50281161/tyler-shough-cant-save-new-orleans-saints-run-game-lows"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and leads its half of the conference at 9-1, and the Crimson Hawks have already earned a place in the conference tournament. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network. The app is free: search PSAC on a phone, a Roku, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and leads its half of the conference at 9-1, and the Crimson Hawks have already earned a place in the conference tournament. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network, and the app is free. Search PSAC on a phone, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
       },
       "lastGame": {
         "result": "W",
@@ -297,6 +297,15 @@
           "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
         },
         {
+          "id": "4e0053041a68",
+          "teamId": "yankees",
+          "headline": "The Yankees keep their pitching coach for three more years",
+          "summary": "Matt Blake, who coaches the Yankees' pitchers, agreed to a new three-year deal. It keeps him with the team through the 2029 season.",
+          "date": "2026-10-25",
+          "source": "SNY",
+          "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
+        },
+        {
           "id": "8725bf353304",
           "teamId": "yankees",
           "headline": "Cody Bellinger wins a fielding award for left field",
@@ -304,15 +313,6 @@
           "date": "2026-10-22",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
-        },
-        {
-          "id": "2f90e7613c05",
-          "teamId": "yankees",
-          "headline": "Three Yankees are up for a Gold Glove",
-          "summary": "Catcher Austin Wells, left fielder Cody Bellinger and Jose Caballero were named finalists for this year's fielding awards on Wednesday. The winners are announced on November 1.",
-          "date": "2026-10-14",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/2026-gold-glove-award-finalists"
         }
       ]
     },
@@ -330,7 +330,7 @@
         "date": "2026-10-29",
         "time": "6:30 PM",
         "city": "Marrero, LA",
-        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games and lost four, and has won all four of its district games. John Ehret has won four games and lost four, and lost 44-29 at Bonnabel last week."
+        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games in a row and is in first place in its district at 4-0. John Ehret has won four games and lost four, is third in the district at 3-1, and lost 44-29 at Bonnabel last week."
       },
       "lastGame": {
         "result": "W",
