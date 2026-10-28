@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -50,6 +50,15 @@
       "date": "2026-10-20",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "200a79e8027d",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin moves up to No. 7 in the state",
+      "summary": "The Crusaders are 7th in this week's Class 5A rankings after beating John Curtis. St. Augustine, which comes to town Friday night, is ranked 3rd and has not lost a game.",
+      "date": "2026-10-19",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/2026-lswa-high-school-football-polls-post-week-7/"
     },
     {
       "id": "b5936504717f",

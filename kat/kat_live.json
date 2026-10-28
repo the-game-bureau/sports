@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "teams": {
     "saints": {
       "record": "2-5",
