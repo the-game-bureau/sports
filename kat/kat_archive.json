@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "9f3a20b55ad8",
+      "teamId": "florida",
+      "headline": "Florida has not named its quarterback for Georgia",
+      "summary": "Aaron Philo and Tramell Jones both took first-team snaps in Monday's practice. Coach Jon Sumrall said he will pick Saturday's starter later in the week.",
+      "date": "2026-10-26",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
+    },
+    {
+      "id": "0e4df6578860",
+      "teamId": "tulane",
+      "headline": "UTSA beats Tulane 42-19",
+      "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
+    {
       "id": "3e5e0f841247",
       "teamId": "florida",
       "headline": "Florida moves up to No. 17",

@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "f322e5cb42c8",
+          "teamId": "tulane",
+          "headline": "Tulane's freshman quarterback makes his first road start",
+          "summary": "Trace Johnson has started two games for Tulane, both at home. Friday night at Charlotte will be his first start on the road.",
+          "date": "2026-10-29",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
+        },
+        {
           "id": "c29c4c2b9c06",
           "teamId": "tulane",
           "headline": "Tulane will start its fifth different offensive line",
@@ -45,15 +54,6 @@
           "date": "2026-10-26",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
-        },
-        {
-          "id": "0e4df6578860",
-          "teamId": "tulane",
-          "headline": "UTSA beats Tulane 42-19",
-          "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
-          "date": "2026-10-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "d49e8729f986",
+          "teamId": "florida",
+          "headline": "Florida's leading receiver is likely to play at Georgia",
+          "summary": "Florida says Vernell Brown III will probably play Saturday against Georgia. He leads the team in catches and has been on the hurt list for four weeks with a knee injury.",
+          "date": "2026-10-29",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/10/29/gators-injury-report-both-quarterbacks-listed-ahead-of-georgia-game/"
+        },
+        {
           "id": "3cd8101b85f8",
           "teamId": "florida",
           "headline": "Both Florida quarterbacks are banged up for Georgia",
@@ -91,15 +100,6 @@
           "date": "2026-10-28",
           "source": "AP",
           "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
-        },
-        {
-          "id": "9f3a20b55ad8",
-          "teamId": "florida",
-          "headline": "Florida has not named its quarterback for Georgia",
-          "summary": "Aaron Philo and Tramell Jones both took first-team snaps in Monday's practice. Coach Jon Sumrall said he will pick Saturday's starter later in the week.",
-          "date": "2026-10-26",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
         },
         {
           "id": "de2e1ab04aa5",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "d15f6dec8160",
+          "teamId": "texas",
+          "headline": "Colin Simmons might play Saturday for Texas",
+          "summary": "Texas listed its best pass rusher as a maybe for Saturday night against Mississippi State. He hurt his ankle in the Florida game, and receiver Cam Coleman, who hurt a shoulder against Ole Miss, is expected to play.",
+          "date": "2026-10-29",
+          "source": "Saturday Down South",
+          "url": "https://saturdaydownsouth.com/news/college-football/texas-updates-status-of-colin-simmons-cam-coleman-ahead-of-mississippi-state-game"
+        },
+        {
           "id": "e4646e87bfd9",
           "teamId": "texas",
           "headline": "Rasheem Biles is up for the Butkus Award",
@@ -155,15 +164,6 @@
           "date": "2026-10-26",
           "source": "Texas Longhorns",
           "url": "https://texaslonghorns.com/news/2026/10/26/no-11-11-footballs-biles-named-sec-co-defensive-player-of-the-week"
-        },
-        {
-          "id": "6aab755f8937",
-          "teamId": "texas",
-          "headline": "Texas loses Trevor Goosby for the rest of the season",
-          "summary": "Goosby hurt his left knee in the first quarter against Ole Miss on Saturday and was carted off the field. ESPN reported Sunday that the starting left tackle will miss the rest of the year.",
-          "date": "2026-10-25",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50280834/sources-texas-trevor-goosby-season-ending-knee-injury"
         }
       ]
     },
