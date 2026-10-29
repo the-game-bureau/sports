@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "3e5e0f841247",
+      "teamId": "florida",
+      "headline": "Florida moves up to No. 17",
+      "summary": "The Gators were off on Saturday and still moved up three spots in the Associated Press Top 25, from 20th to 17th. They play third-ranked Georgia in Atlanta on Saturday.",
+      "date": "2026-10-25",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+    },
+    {
+      "id": "769372a93c24",
+      "teamId": "tulane",
+      "headline": "Anthony Rogers scores on the first play of the game",
+      "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
     {
       "id": "2f65842d947b",
       "teamId": "florida",

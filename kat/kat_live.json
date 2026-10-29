@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "3cd8101b85f8",
+          "teamId": "florida",
+          "headline": "Both Florida quarterbacks are banged up for Georgia",
+          "summary": "Florida listed Aaron Philo and Tramell Jones as questionable for Saturday's game at Georgia, which means neither one is certain to play. Coach Jon Sumrall said both are available and that he will pick the starter based on who is healthy.",
+          "date": "2026-10-28",
+          "source": "AP",
+          "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
+        },
+        {
           "id": "9f3a20b55ad8",
           "teamId": "florida",
           "headline": "Florida has not named its quarterback for Georgia",
@@ -100,15 +109,6 @@
           "date": "2026-10-26",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
-        },
-        {
-          "id": "3e5e0f841247",
-          "teamId": "florida",
-          "headline": "Florida moves up to No. 17",
-          "summary": "The Gators were off on Saturday and still moved up three spots in the Associated Press Top 25, from 20th to 17th. They play third-ranked Georgia in Atlanta on Saturday.",
-          "date": "2026-10-25",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "c29c4c2b9c06",
+          "teamId": "tulane",
+          "headline": "Tulane will start its fifth different offensive line",
+          "summary": "Coach Will Hall said the Green Wave will put out their fifth different starting offensive line of the season on Friday night at Charlotte. He said the group is really banged up, and young players who have not played much will have to fill in.",
+          "date": "2026-10-27",
+          "source": "Tulane On SI",
+          "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+        },
+        {
           "id": "91cb2d9e5841",
           "teamId": "tulane",
           "headline": "Tulane's Tulsa game is set for 11 in the morning",
@@ -207,15 +216,6 @@
           "teamId": "tulane",
           "headline": "UTSA beats Tulane 42-19",
           "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
-          "date": "2026-10-24",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
-        },
-        {
-          "id": "769372a93c24",
-          "teamId": "tulane",
-          "headline": "Anthony Rogers scores on the first play of the game",
-          "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
           "date": "2026-10-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
