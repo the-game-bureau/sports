@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "91cb2d9e5841",
+      "teamId": "tulane",
+      "headline": "Tulane's Tulsa game is set for 11 in the morning",
+      "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
+      "date": "2026-10-26",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
+    },
+    {
+      "id": "de2e1ab04aa5",
+      "teamId": "florida",
+      "headline": "Florida's Oklahoma game is set for a night kickoff",
+      "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
+      "date": "2026-10-26",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
+    },
+    {
+      "id": "8725bf353304",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger wins a fielding award for left field",
+      "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
+      "date": "2026-10-22",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
+    },
+    {
       "id": "52ac232029b8",
       "teamId": "warren-easton",
       "headline": "Warren Easton wins again, 29-6 over Higgins",

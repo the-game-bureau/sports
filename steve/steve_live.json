@@ -38,6 +38,15 @@
           "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
         },
         {
+          "id": "dc1fecc2685f",
+          "teamId": "tulane",
+          "headline": "Two Tulane running backs are banged up",
+          "summary": "Jamauri McClure hurt his foot again on his first carry against UTSA and ran the ball only four times. Maurice Turner did not play in that game at all.",
+          "date": "2026-10-29",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
+        },
+        {
           "id": "c29c4c2b9c06",
           "teamId": "tulane",
           "headline": "Tulane will start its fifth different offensive line",
@@ -45,15 +54,6 @@
           "date": "2026-10-27",
           "source": "Tulane On SI",
           "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
-        },
-        {
-          "id": "91cb2d9e5841",
-          "teamId": "tulane",
-          "headline": "Tulane's Tulsa game is set for 11 in the morning",
-          "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
-          "date": "2026-10-26",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "0455182c5782",
+          "teamId": "florida",
+          "headline": "Aaron Philo will start at quarterback for Florida",
+          "summary": "Florida will start Aaron Philo against Georgia on Saturday. He hurt his shoulder against South Carolina on October 10 and missed the Texas game, and Tramell Jones started that one instead.",
+          "date": "2026-10-30",
+          "source": "Gainesville Sun",
+          "url": "https://sports.yahoo.com/articles/florida-football-qb-aaron-philo-180754435.html"
+        },
+        {
           "id": "d49e8729f986",
           "teamId": "florida",
           "headline": "Florida's leading receiver is likely to play at Georgia",
@@ -100,15 +109,6 @@
           "date": "2026-10-28",
           "source": "AP",
           "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
-        },
-        {
-          "id": "de2e1ab04aa5",
-          "teamId": "florida",
-          "headline": "Florida's Oklahoma game is set for a night kickoff",
-          "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
-          "date": "2026-10-26",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
         }
       ]
     },
@@ -128,7 +128,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Austin. Half past six our time. Mississippi State has won four games and lost three."
+        "note": "Saturday night home game in Austin. Half past six our time. Mississippi State has won four games and lost three. Mississippi State will play without its starting quarterback, Kamario Taylor, who is out for the rest of the season with a foot injury."
       },
       "lastGame": {
         "result": "W",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "2061132c96c6",
+          "teamId": "yankees",
+          "headline": "Ten Yankees become free agents",
+          "summary": "Jazz Chisholm, Trent Grisham, Paul Goldschmidt, David Bednar and six other players filed for free agency on Thursday. Each of them is now free to sign with any team.",
+          "date": "2026-10-29",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/roster/transactions"
+        },
+        {
           "id": "767845357c59",
           "teamId": "yankees",
           "headline": "Jorge Posada says he no longer feels welcome",
@@ -304,15 +313,6 @@
           "date": "2026-10-25",
           "source": "SNY",
           "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
-        },
-        {
-          "id": "8725bf353304",
-          "teamId": "yankees",
-          "headline": "Cody Bellinger wins a fielding award for left field",
-          "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
-          "date": "2026-10-22",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
         }
       ]
     },
