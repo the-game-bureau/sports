@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "teams": {
     "tulane": {
       "record": "3-4",
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and leads its half of the conference at 9-1, and the Crimson Hawks have already earned a place in the conference tournament. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. Every IUP volleyball game is on the PSAC Sports Digital Network, and the app is free. Search PSAC on a phone, an Apple TV or a Fire TV, or watch in a browser at psacsportsdigitalnetwork.com/iupathletics."
+        "note": "Friday night home game at the Kovalchick Complex. Five o'clock our time, six o'clock theirs. IUP has won six matches in a row and leads its half of the conference at 9-1, and the Crimson Hawks have already earned a place in the conference tournament. Johnstown is the only team in that group that has beaten IUP this year, in five sets back on October 3. IUP plays again Saturday at California, Pennsylvania, at noon our time. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the channel link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
       },
       "lastGame": {
         "result": "W",
@@ -323,23 +323,32 @@
       "news": []
     },
     "warren-easton": {
-      "record": "4-4",
+      "record": "4-5",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "John Ehret",
-        "date": "2026-10-29",
-        "time": "6:30 PM",
-        "city": "Marrero, LA",
-        "note": "Thursday night road game in Marrero, and a district game. Half past six kickoff. Warren Easton has won four games in a row and is in first place in its district at 4-0. John Ehret has won four games and lost four, is third in the district at 3-1, and lost 44-29 at Bonnabel last week."
+        "homeAway": "home",
+        "opponent": "Bonnabel",
+        "date": "2026-11-05",
+        "time": "7:00 PM",
+        "city": "New Orleans, LA",
+        "note": "Thursday night home game, and a district game. Seven o'clock kickoff. This game decides the district. Bonnabel has won five games and lost three and leads the district at 4-0. Warren Easton is 4-1 in the district after Thursday's loss."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 44,
-        "opponentScore": 0,
-        "opponent": "West Jefferson",
-        "date": "2026-10-24"
+        "result": "L",
+        "teamScore": 18,
+        "opponentScore": 35,
+        "opponent": "John Ehret",
+        "date": "2026-10-29"
       },
       "news": [
+        {
+          "id": "2ddc5fe47db2",
+          "teamId": "warren-easton",
+          "headline": "John Ehret beats Warren Easton 35-18",
+          "summary": "Warren Easton lost Thursday night in Marrero. It was the Eagles' first district loss and it ended a four-game winning streak, and it drops them from first place in the district to third.",
+          "date": "2026-10-29",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
+        },
         {
           "id": "98d0e962e687",
           "teamId": "warren-easton",
@@ -357,15 +366,6 @@
           "date": "2026-10-15",
           "source": "MaxPreps",
           "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
-        },
-        {
-          "id": "52ac232029b8",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton wins again, 29-6 over Higgins",
-          "summary": "The Eagles beat L.W. Higgins on Thursday night at Pan American Stadium for their second win in a row. Their defense has given up only six points in those two games.",
-          "date": "2026-10-08",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
         }
       ]
     }

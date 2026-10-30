@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-29",
+    "updated": "2026-10-30",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "52ac232029b8",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton wins again, 29-6 over Higgins",
+      "summary": "The Eagles beat L.W. Higgins on Thursday night at Pan American Stadium for their second win in a row. Their defense has given up only six points in those two games.",
+      "date": "2026-10-08",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
+    },
     {
       "id": "9f3a20b55ad8",
       "teamId": "florida",
