@@ -2,18 +2,54 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "52ac232029b8",
-      "teamId": "warren-easton",
-      "headline": "Warren Easton wins again, 29-6 over Higgins",
-      "summary": "The Eagles beat L.W. Higgins on Thursday night at Pan American Stadium for their second win in a row. Their defense has given up only six points in those two games.",
-      "date": "2026-10-08",
-      "source": "MaxPreps",
-      "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
+      "id": "d15f6dec8160",
+      "teamId": "texas",
+      "headline": "Colin Simmons might play Saturday for Texas",
+      "summary": "Texas listed its best pass rusher as a maybe for Saturday night against Mississippi State. He hurt his ankle in the Florida game, and receiver Cam Coleman, who hurt a shoulder against Ole Miss, is expected to play.",
+      "date": "2026-10-29",
+      "source": "Saturday Down South",
+      "url": "https://saturdaydownsouth.com/news/college-football/texas-updates-status-of-colin-simmons-cam-coleman-ahead-of-mississippi-state-game"
+    },
+    {
+      "id": "f322e5cb42c8",
+      "teamId": "tulane",
+      "headline": "Tulane's freshman quarterback makes his first road start",
+      "summary": "Trace Johnson has started two games for Tulane, both at home. Friday night at Charlotte will be his first start on the road.",
+      "date": "2026-10-29",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
+    },
+    {
+      "id": "c29c4c2b9c06",
+      "teamId": "tulane",
+      "headline": "Tulane will start its fifth different offensive line",
+      "summary": "Coach Will Hall said the Green Wave will put out their fifth different starting offensive line of the season on Friday night at Charlotte. He said the group is really banged up, and young players who have not played much will have to fill in.",
+      "date": "2026-10-27",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+    },
+    {
+      "id": "91cb2d9e5841",
+      "teamId": "tulane",
+      "headline": "Tulane's Tulsa game is set for 11 in the morning",
+      "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
+      "date": "2026-10-26",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
+    },
+    {
+      "id": "a752e931a625",
+      "teamId": "iup",
+      "headline": "Delaney Concannon is the conference player of the week",
+      "summary": "Concannon had 35 kills and 30 digs in IUP's two home wins last weekend, and she reached 1,000 career digs along the way. The conference named her the best player in the western half of the league on Monday.",
+      "date": "2026-10-26",
+      "source": "PSAC",
+      "url": "https://psacsports.org/news/2026/10/26/psac-womens-volleyball-athletes-of-the-week-9.aspx"
     },
     {
       "id": "9f3a20b55ad8",
@@ -23,15 +59,6 @@
       "date": "2026-10-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
-    },
-    {
-      "id": "0e4df6578860",
-      "teamId": "tulane",
-      "headline": "UTSA beats Tulane 42-19",
-      "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
-      "date": "2026-10-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
     },
     {
       "id": "6aab755f8937",
@@ -52,24 +79,6 @@
       "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
     },
     {
-      "id": "769372a93c24",
-      "teamId": "tulane",
-      "headline": "Anthony Rogers scores on the first play of the game",
-      "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
-      "date": "2026-10-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
-    },
-    {
-      "id": "2f90e7613c05",
-      "teamId": "yankees",
-      "headline": "Three Yankees are up for a Gold Glove",
-      "summary": "Catcher Austin Wells, left fielder Cody Bellinger and Jose Caballero were named finalists for this year's fielding awards on Wednesday. The winners are announced on November 1.",
-      "date": "2026-10-14",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/2026-gold-glove-award-finalists"
-    },
-    {
       "id": "7d934c41b427",
       "teamId": "texas",
       "headline": "Texas climbs to No. 11",
@@ -79,15 +88,6 @@
       "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
     },
     {
-      "id": "2f65842d947b",
-      "teamId": "florida",
-      "headline": "LJ McCray wins an award for the Texas game",
-      "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
-      "date": "2026-10-19",
-      "source": "Florida Gators",
-      "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
-    },
-    {
       "id": "dad2bc05c6b4",
       "teamId": "saints",
       "headline": "The Saints' running game hits a 33-year low",
@@ -95,24 +95,6 @@
       "date": "2026-10-25",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/story/_/id/50281161/tyler-shough-cant-save-new-orleans-saints-run-game-lows"
-    },
-    {
-      "id": "b25fb9c8a46d",
-      "teamId": "iup",
-      "headline": "IUP wins twice at home and is 18-4",
-      "summary": "The Crimson Hawks beat Clarion on Friday and Slippery Rock on Saturday, both in four sets. They have won six matches in a row and sit first in their half of the conference.",
-      "date": "2026-10-24",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/10/24/womens-volleyball-iup-closes-senior-day-weekend-with-four-set-win-over-slippery-rock.aspx"
-    },
-    {
-      "id": "95e078e157f2",
-      "teamId": "yankees",
-      "headline": "Tampa Bay beats the Yankees 4-3 and ends their season",
-      "summary": "Tampa Bay won Wednesday night at Yankee Stadium to take the series three games to none. The Yankees are out of the playoffs, and it is 17 years since they last won the World Series.",
-      "date": "2026-10-07",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
     },
     {
       "id": "9d8278c001b8",
@@ -131,6 +113,33 @@
       "date": "2026-10-25",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
+    },
+    {
+      "id": "0e4df6578860",
+      "teamId": "tulane",
+      "headline": "UTSA beats Tulane 42-19",
+      "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
+    {
+      "id": "769372a93c24",
+      "teamId": "tulane",
+      "headline": "Anthony Rogers scores on the first play of the game",
+      "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
+    {
+      "id": "b25fb9c8a46d",
+      "teamId": "iup",
+      "headline": "IUP wins twice at home and is 18-4",
+      "summary": "The Crimson Hawks beat Clarion on Friday and Slippery Rock on Saturday, both in four sets. They have won six matches in a row and sit first in their half of the conference.",
+      "date": "2026-10-24",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/24/womens-volleyball-iup-closes-senior-day-weekend-with-four-set-win-over-slippery-rock.aspx"
     },
     {
       "id": "5fd8c06afef3",
@@ -158,6 +167,15 @@
       "date": "2026-10-20",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "2f65842d947b",
+      "teamId": "florida",
+      "headline": "LJ McCray wins an award for the Texas game",
+      "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
+      "date": "2026-10-19",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
     },
     {
       "id": "b5936504717f",
@@ -455,6 +473,15 @@
       "date": "2026-10-15",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
+      "id": "2f90e7613c05",
+      "teamId": "yankees",
+      "headline": "Three Yankees are up for a Gold Glove",
+      "summary": "Catcher Austin Wells, left fielder Cody Bellinger and Jose Caballero were named finalists for this year's fielding awards on Wednesday. The winners are announced on November 1.",
+      "date": "2026-10-14",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/2026-gold-glove-award-finalists"
     },
     {
       "id": "241e8b1ba6d1",
@@ -808,6 +835,15 @@
       "url": "https://www.espn.com/video/clip/_/id/50143028/chris-olave-good-go-vs-vikings"
     },
     {
+      "id": "52ac232029b8",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton wins again, 29-6 over Higgins",
+      "summary": "The Eagles beat L.W. Higgins on Thursday night at Pan American Stadium for their second win in a row. Their defense has given up only six points in those two games.",
+      "date": "2026-10-08",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/news/nn3Cr_6ew0eNeYHbhjoq_Q/football-recap-warren-easton-has-no-trouble-against-lw-higgins.htm"
+    },
+    {
       "id": "041ba949863f",
       "teamId": "saints",
       "headline": "Alvin Kamara is back at practice",
@@ -824,6 +860,15 @@
       "date": "2026-10-08",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-minnesota-vikings-vs-new-orleans-saints-2026-nfl-week-5-thursday"
+    },
+    {
+      "id": "95e078e157f2",
+      "teamId": "yankees",
+      "headline": "Tampa Bay beats the Yankees 4-3 and ends their season",
+      "summary": "Tampa Bay won Wednesday night at Yankee Stadium to take the series three games to none. The Yankees are out of the playoffs, and it is 17 years since they last won the World Series.",
+      "date": "2026-10-07",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/recap/_/gameId/401907987"
     },
     {
       "id": "8980d0caf1fb",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -168,57 +168,57 @@
       ]
     },
     "tulane": {
-      "record": "3-4",
+      "record": "4-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Charlotte 49ers",
-        "date": "2026-10-30",
-        "utc": "2026-10-30T23:00Z",
-        "time": "6:00 PM",
-        "venue": "Jerry Richardson Stadium",
-        "city": "Charlotte, NC",
+        "homeAway": "home",
+        "opponent": "Tulsa Golden Hurricane",
+        "date": "2026-11-07",
+        "utc": "2026-11-07T17:00Z",
+        "time": "11:00 AM",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
         "tv": {
-          "name": "ESPN2",
-          "logo": "images/espn2.webp",
+          "name": "ESPNU",
+          "logo": "images/espnu.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Friday night road game at Charlotte. Six o'clock our time. Charlotte has won one game and lost six."
+        "note": "Saturday morning home game at Yulman Stadium. Eleven o'clock our time. Tulane has won four games and lost four, and so has Tulsa."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 19,
-        "opponentScore": 42,
-        "opponent": "UTSA Roadrunners",
-        "date": "2026-10-24"
+        "result": "W",
+        "teamScore": 38,
+        "opponentScore": 31,
+        "opponent": "Charlotte 49ers",
+        "date": "2026-10-30"
       },
       "news": [
         {
-          "id": "f322e5cb42c8",
+          "id": "b98215fb8e28",
           "teamId": "tulane",
-          "headline": "Tulane's freshman quarterback makes his first road start",
-          "summary": "Trace Johnson has started two games for Tulane, both at home. Friday night at Charlotte will be his first start on the road.",
-          "date": "2026-10-29",
+          "headline": "Tulane beats Charlotte 38-31 in overtime",
+          "summary": "Tulane was behind by 10 points in the fourth quarter Friday night and tied the game with 10 seconds left. Dagan Bruno ran it in from the 1-yard line in overtime to win it, and the Green Wave are 4-4.",
+          "date": "2026-10-30",
           "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
+          "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
         },
         {
-          "id": "c29c4c2b9c06",
+          "id": "3681205be9c2",
           "teamId": "tulane",
-          "headline": "Tulane will start its fifth different offensive line",
-          "summary": "Coach Will Hall said the Green Wave will put out their fifth different starting offensive line of the season on Friday night at Charlotte. He said the group is really banged up, and young players who have not played much will have to fill in.",
-          "date": "2026-10-27",
+          "headline": "Trace Johnson ties the game with 10 seconds left",
+          "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
+          "date": "2026-10-30",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+        },
+        {
+          "id": "df93db07a250",
+          "teamId": "tulane",
+          "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
+          "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
+          "date": "2026-10-30",
           "source": "Tulane On SI",
-          "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
-        },
-        {
-          "id": "91cb2d9e5841",
-          "teamId": "tulane",
-          "headline": "Tulane's Tulsa game is set for 11 in the morning",
-          "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
-          "date": "2026-10-26",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
+          "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
         }
       ]
     }

@@ -2,10 +2,37 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f322e5cb42c8",
+      "teamId": "tulane",
+      "headline": "Tulane's freshman quarterback makes his first road start",
+      "summary": "Trace Johnson has started two games for Tulane, both at home. Friday night at Charlotte will be his first start on the road.",
+      "date": "2026-10-29",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
+    },
+    {
+      "id": "c29c4c2b9c06",
+      "teamId": "tulane",
+      "headline": "Tulane will start its fifth different offensive line",
+      "summary": "Coach Will Hall said the Green Wave will put out their fifth different starting offensive line of the season on Friday night at Charlotte. He said the group is really banged up, and young players who have not played much will have to fill in.",
+      "date": "2026-10-27",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+    },
+    {
+      "id": "91cb2d9e5841",
+      "teamId": "tulane",
+      "headline": "Tulane's Tulsa game is set for 11 in the morning",
+      "summary": "Tulane is home against Tulsa on Saturday, November 7. The game starts at 11 o'clock in the morning our time and is on ESPNU.",
+      "date": "2026-10-26",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/10/26/footballs-start-time-and-network-announced-for-tulsa"
+    },
     {
       "id": "9f3a20b55ad8",
       "teamId": "florida",
@@ -16,15 +43,6 @@
       "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
     },
     {
-      "id": "0e4df6578860",
-      "teamId": "tulane",
-      "headline": "UTSA beats Tulane 42-19",
-      "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
-      "date": "2026-10-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
-    },
-    {
       "id": "3e5e0f841247",
       "teamId": "florida",
       "headline": "Florida moves up to No. 17",
@@ -32,24 +50,6 @@
       "date": "2026-10-25",
       "source": "NCAA.com",
       "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
-    },
-    {
-      "id": "769372a93c24",
-      "teamId": "tulane",
-      "headline": "Anthony Rogers scores on the first play of the game",
-      "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
-      "date": "2026-10-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
-    },
-    {
-      "id": "2f65842d947b",
-      "teamId": "florida",
-      "headline": "LJ McCray wins an award for the Texas game",
-      "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
-      "date": "2026-10-19",
-      "source": "Florida Gators",
-      "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
     },
     {
       "id": "dad2bc05c6b4",
@@ -79,6 +79,24 @@
       "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
     },
     {
+      "id": "0e4df6578860",
+      "teamId": "tulane",
+      "headline": "UTSA beats Tulane 42-19",
+      "summary": "Tulane lost at home Saturday night. UTSA ran for five touchdowns, and Tulane is now 3-4.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
+    {
+      "id": "769372a93c24",
+      "teamId": "tulane",
+      "headline": "Anthony Rogers scores on the first play of the game",
+      "summary": "Rogers intercepted a UTSA pass on the first play from scrimmage Saturday and ran it back 22 yards for a touchdown. He had two interceptions in the game, but UTSA scored the next 28 points.",
+      "date": "2026-10-24",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862811"
+    },
+    {
       "id": "cac6a526712e",
       "teamId": "lsu",
       "headline": "LSU wins at Auburn 38-17",
@@ -104,6 +122,15 @@
       "date": "2026-10-20",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/morning-break-saints-arrive-in-paris-build-on-victory-over-giants-new-orleans-news-headlines-10-20-2026"
+    },
+    {
+      "id": "2f65842d947b",
+      "teamId": "florida",
+      "headline": "LJ McCray wins an award for the Texas game",
+      "summary": "McCray had a career-best one and a half sacks and four tackles in Saturday's win at Texas. The SEC named him its defensive lineman of the week on Monday.",
+      "date": "2026-10-19",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/19/football-mccray-tabbed-sec-defensive-lineman-of-the-week"
     },
     {
       "id": "b5936504717f",
