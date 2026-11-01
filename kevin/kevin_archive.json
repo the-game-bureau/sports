@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-10-31",
+    "updated": "2026-11-01",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "d49e8729f986",
+      "teamId": "florida",
+      "headline": "Florida's leading receiver is likely to play at Georgia",
+      "summary": "Florida says Vernell Brown III will probably play Saturday against Georgia. He leads the team in catches and has been on the hurt list for four weeks with a knee injury.",
+      "date": "2026-10-29",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/10/29/gators-injury-report-both-quarterbacks-listed-ahead-of-georgia-game/"
+    },
     {
       "id": "f322e5cb42c8",
       "teamId": "tulane",
@@ -16,6 +25,15 @@
       "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
     },
     {
+      "id": "3cd8101b85f8",
+      "teamId": "florida",
+      "headline": "Both Florida quarterbacks are banged up for Georgia",
+      "summary": "Florida listed Aaron Philo and Tramell Jones as questionable for Saturday's game at Georgia, which means neither one is certain to play. Coach Jon Sumrall said both are available and that he will pick the starter based on who is healthy.",
+      "date": "2026-10-28",
+      "source": "AP",
+      "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
+    },
+    {
       "id": "c29c4c2b9c06",
       "teamId": "tulane",
       "headline": "Tulane will start its fifth different offensive line",
@@ -23,6 +41,15 @@
       "date": "2026-10-27",
       "source": "Tulane On SI",
       "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+    },
+    {
+      "id": "de2e1ab04aa5",
+      "teamId": "florida",
+      "headline": "Florida's Oklahoma game is set for a night kickoff",
+      "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
+      "date": "2026-10-26",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
     },
     {
       "id": "91cb2d9e5841",
@@ -41,6 +68,15 @@
       "date": "2026-10-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
+    },
+    {
+      "id": "921e03d83637",
+      "teamId": "saints",
+      "headline": "Steelers beat the Saints 16-10 in Paris",
+      "summary": "The Saints lost Sunday morning at Stade de France, in the first National Football League game ever played in France. They ran for only 18 yards all day, and they are now 2-5.",
+      "date": "2026-10-25",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
     },
     {
       "id": "3e5e0f841247",

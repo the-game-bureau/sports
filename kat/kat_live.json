@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time. The Saints are off this Sunday, so this game is two Sundays away. Cleveland has won five games and lost two."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is next Sunday. The Saints had this Sunday off. Cleveland lost at Pittsburgh today and has won five games and lost three."
       },
       "lastGame": {
         "result": "L",
@@ -28,6 +28,15 @@
         "date": "2026-10-25"
       },
       "news": [
+        {
+          "id": "01f762c82a04",
+          "teamId": "saints",
+          "headline": "Kellen Moore gets a statue at Boise State",
+          "summary": "Boise State unveiled a bronze statue of the Saints head coach at its stadium on Saturday night. Moore played quarterback there and won 50 of his 53 starts.",
+          "date": "2026-10-31",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
+        },
         {
           "id": "8cc9c2a4998e",
           "teamId": "saints",
@@ -45,70 +54,61 @@
           "date": "2026-10-26",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
-        },
-        {
-          "id": "921e03d83637",
-          "teamId": "saints",
-          "headline": "Steelers beat the Saints 16-10 in Paris",
-          "summary": "The Saints lost Sunday morning at Stade de France, in the first National Football League game ever played in France. They ran for only 18 yards all day, and they are now 2-5.",
-          "date": "2026-10-25",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/recap/_/gameId/401873011"
         }
       ]
     },
     "florida": {
-      "record": "5-2",
+      "record": "5-3",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Georgia Bulldogs",
-        "date": "2026-10-31",
-        "utc": "2026-10-31T19:30Z",
-        "time": "2:30 PM",
-        "venue": "Mercedes-Benz Stadium",
-        "city": "Atlanta, GA",
+        "homeAway": "home",
+        "opponent": "Oklahoma Sooners",
+        "date": "2026-11-07",
+        "utc": "2026-11-08T00:45Z",
+        "time": "6:45 PM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
         "tv": {
-          "name": "ABC (WGNO 26)",
+          "name": "SEC Network",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Florida plays Georgia in Atlanta on Halloween afternoon. Half past two our time. Georgia is ranked third in the country and has won six games and lost one."
+        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Oklahoma has won four games and lost four."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 27,
-        "opponentScore": 24,
-        "opponent": "Texas Longhorns",
-        "date": "2026-10-17"
+        "result": "L",
+        "teamScore": 8,
+        "opponentScore": 27,
+        "opponent": "Georgia Bulldogs",
+        "date": "2026-10-31"
       },
       "news": [
         {
-          "id": "d49e8729f986",
+          "id": "d32605e74702",
           "teamId": "florida",
-          "headline": "Florida's leading receiver is likely to play at Georgia",
-          "summary": "Florida says Vernell Brown III will probably play Saturday against Georgia. He leads the team in catches and has been on the hurt list for four weeks with a knee injury.",
-          "date": "2026-10-29",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/10/29/gators-injury-report-both-quarterbacks-listed-ahead-of-georgia-game/"
-        },
-        {
-          "id": "3cd8101b85f8",
-          "teamId": "florida",
-          "headline": "Both Florida quarterbacks are banged up for Georgia",
-          "summary": "Florida listed Aaron Philo and Tramell Jones as questionable for Saturday's game at Georgia, which means neither one is certain to play. Coach Jon Sumrall said both are available and that he will pick the starter based on who is healthy.",
-          "date": "2026-10-28",
-          "source": "AP",
-          "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
-        },
-        {
-          "id": "de2e1ab04aa5",
-          "teamId": "florida",
-          "headline": "Florida's Oklahoma game is set for a night kickoff",
-          "summary": "Florida is home against Oklahoma on Saturday, November 7. The game starts at a quarter to seven in the evening our time and is on the SEC Network.",
-          "date": "2026-10-26",
+          "headline": "Georgia beats Florida 27-8",
+          "summary": "Florida lost the ball four times on Saturday, and one of those turnovers went back 66 yards for a Georgia touchdown. The Gators did not score until the fourth quarter and are now 5-3.",
+          "date": "2026-10-31",
           "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/26/football-florida-oklahoma-game-set-for-7-45-kick-on-sec-network"
+          "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
+        },
+        {
+          "id": "06c5704977ce",
+          "teamId": "florida",
+          "headline": "Florida used two quarterbacks against Georgia",
+          "summary": "Aaron Philo started and came out after throwing two interceptions early. Tramell Jones Jr. finished the game and ran in Florida's only touchdown.",
+          "date": "2026-10-31",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
+        },
+        {
+          "id": "f577d1ce06e9",
+          "teamId": "florida",
+          "headline": "Coach Sumrall tells Florida fans he is sorry",
+          "summary": "Jon Sumrall apologized to Florida fans after Saturday's loss. He said the team has to be a lot better in every part of the game.",
+          "date": "2026-10-31",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
         }
       ]
     },
@@ -128,7 +128,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time. LSU is off this coming Saturday, so this game is two Saturdays away. Alabama is ranked 10th in the country and has won six games and lost two."
+        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time, and it is this coming Saturday. LSU had last Saturday off. LSU is ranked 15th in the country and Alabama is ranked 9th. Alabama has won six games and lost two."
       },
       "lastGame": {
         "result": "W",
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning home game at Yulman Stadium. Eleven o'clock our time. Tulane has won four games and lost four, and so has Tulsa."
+        "note": "Saturday morning home game at Yulman Stadium, and it is Homecoming. Eleven o'clock our time. Tulane has won four games and lost four, and so has Tulsa."
       },
       "lastGame": {
         "result": "W",
