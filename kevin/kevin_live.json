@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "705240557ead",
+          "teamId": "saints",
+          "headline": "Saints let go of their run game coach",
+          "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
+          "date": "2026-11-02",
+          "source": "Saints Wire",
+          "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
+        },
+        {
           "id": "01f762c82a04",
           "teamId": "saints",
           "headline": "Kellen Moore gets a statue at Boise State",
@@ -45,15 +54,6 @@
           "date": "2026-10-28",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
-        },
-        {
-          "id": "41d7841d2c98",
-          "teamId": "saints",
-          "headline": "The Saints are off this week and looking at everything",
-          "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
-          "date": "2026-10-26",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "93692be44f3e",
+          "teamId": "florida",
+          "headline": "Sumrall will not say who starts at quarterback",
+          "summary": "Jon Sumrall said Monday he has a plan for Saturday against Oklahoma but would not name a starter. Florida's depth chart now lists Aaron Philo or Tramell Jones Jr. instead of one name.",
+          "date": "2026-11-02",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/11/florida-sumrall-starting-quarterback-oklahoma"
+        },
+        {
           "id": "d32605e74702",
           "teamId": "florida",
           "headline": "Georgia beats Florida 27-8",
@@ -100,15 +109,6 @@
           "date": "2026-10-31",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
-        },
-        {
-          "id": "f577d1ce06e9",
-          "teamId": "florida",
-          "headline": "Coach Sumrall tells Florida fans he is sorry",
-          "summary": "Jon Sumrall apologized to Florida fans after Saturday's loss. He said the team has to be a lot better in every part of the game.",
-          "date": "2026-10-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "b11a388bef63",
+          "teamId": "lsu",
+          "headline": "LSU and Alabama will not play next season",
+          "summary": "The two teams have played every year since 1964, but the new conference schedule leaves the game off for 2027. Coach Lane Kiffin called that sad on Monday and said money drives these decisions.",
+          "date": "2026-11-02",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50360298/kiffin-sad-annual-lsu-alabama-game-take-hiatus-2027"
+        },
+        {
           "id": "4eb227c9d786",
           "teamId": "lsu",
           "headline": "LSU and Alabama will play at 2:30 on ABC",
@@ -155,15 +164,6 @@
           "date": "2026-10-26",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
-        },
-        {
-          "id": "abdf7b318e79",
-          "teamId": "lsu",
-          "headline": "LSU moves up to No. 15",
-          "summary": "Beating Auburn moved LSU up three spots in the Associated Press Top 25, from 18th to 15th. The Tigers have won six games and lost two.",
-          "date": "2026-10-25",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
         }
       ]
     },

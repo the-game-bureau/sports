@@ -7,6 +7,51 @@
   },
   "items": [
     {
+      "id": "fb6147bffdfc",
+      "teamId": "iup",
+      "headline": "IUP comes back to beat Pitt-Johnstown in four sets",
+      "summary": "IUP lost the third set but won the other three at home Friday night, 3-1. It is the Crimson Hawks' seventh win in a row, it pays back the only conference match they have lost, and they are now 19-4.",
+      "date": "2026-10-30",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/30/womens-volleyball-iup-rallies-past-pitt-johnstown-for-four-set-victory.aspx"
+    },
+    {
+      "id": "8725bf353304",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger wins a fielding award for left field",
+      "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
+      "date": "2026-10-22",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
+    },
+    {
+      "id": "c381cfcb10d0",
+      "teamId": "texas",
+      "headline": "Rasheem Biles sacks the quarterback three times",
+      "summary": "Biles had three sacks against Mississippi State. On one of them the ball came loose, and Maraad Watson picked it up and ran 61 yards for a Texas touchdown.",
+      "date": "2026-10-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/immediate-takeaways-from-texas-longhorns-halloween-win-vs-mississippi-state"
+    },
+    {
+      "id": "f577d1ce06e9",
+      "teamId": "florida",
+      "headline": "Coach Sumrall tells Florida fans he is sorry",
+      "summary": "Jon Sumrall apologized to Florida fans after Saturday's loss. He said the team has to be a lot better in every part of the game.",
+      "date": "2026-10-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
+    },
+    {
+      "id": "41d7841d2c98",
+      "teamId": "saints",
+      "headline": "The Saints are off this week and looking at everything",
+      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
+      "date": "2026-10-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
+    },
+    {
       "id": "b0cdf02cd643",
       "teamId": "texas",
       "headline": "Colin Simmons will not play Saturday",

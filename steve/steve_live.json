@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "93692be44f3e",
+          "teamId": "florida",
+          "headline": "Sumrall will not say who starts at quarterback",
+          "summary": "Jon Sumrall said Monday he has a plan for Saturday against Oklahoma but would not name a starter. Florida's depth chart now lists Aaron Philo or Tramell Jones Jr. instead of one name.",
+          "date": "2026-11-02",
+          "source": "The Independent Florida Alligator",
+          "url": "https://www.alligator.org/article/2026/11/florida-sumrall-starting-quarterback-oklahoma"
+        },
+        {
           "id": "d32605e74702",
           "teamId": "florida",
           "headline": "Georgia beats Florida 27-8",
@@ -100,15 +109,6 @@
           "date": "2026-10-31",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
-        },
-        {
-          "id": "f577d1ce06e9",
-          "teamId": "florida",
-          "headline": "Coach Sumrall tells Florida fans he is sorry",
-          "summary": "Jon Sumrall apologized to Florida fans after Saturday's loss. He said the team has to be a lot better in every part of the game.",
-          "date": "2026-10-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "ed69b17f22eb",
+          "teamId": "texas",
+          "headline": "Texas will be short-handed at Missouri",
+          "summary": "Coach Steve Sarkisian said Monday that Texas lost a lot of players to injury in Saturday's win and that he does not know yet who will be able to play. Left tackle Trevor Goosby is out for the rest of the season.",
+          "date": "2026-11-02",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/injuries-keep-piling-texas-football-204542122.html"
+        },
+        {
           "id": "ef1878cde0c5",
           "teamId": "texas",
           "headline": "Texas beats Mississippi State 31-3",
@@ -155,15 +164,6 @@
           "date": "2026-10-31",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856737"
-        },
-        {
-          "id": "c381cfcb10d0",
-          "teamId": "texas",
-          "headline": "Rasheem Biles sacks the quarterback three times",
-          "summary": "Biles had three sacks against Mississippi State. On one of them the ball came loose, and Maraad Watson picked it up and ran 61 yards for a Texas touchdown.",
-          "date": "2026-10-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/immediate-takeaways-from-texas-longhorns-halloween-win-vs-mississippi-state"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "705240557ead",
+          "teamId": "saints",
+          "headline": "Saints let go of their run game coach",
+          "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
+          "date": "2026-11-02",
+          "source": "Saints Wire",
+          "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
+        },
+        {
           "id": "01f762c82a04",
           "teamId": "saints",
           "headline": "Kellen Moore gets a statue at Boise State",
@@ -210,15 +219,6 @@
           "date": "2026-10-28",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
-        },
-        {
-          "id": "41d7841d2c98",
-          "teamId": "saints",
-          "headline": "The Saints are off this week and looking at everything",
-          "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
-          "date": "2026-10-26",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
         }
       ]
     },
@@ -248,6 +248,15 @@
       },
       "news": [
         {
+          "id": "b37a4deb8d48",
+          "teamId": "iup",
+          "headline": "IUP's Jessica Neiman wins a conference weekly award",
+          "summary": "The conference named Neiman its West Division athlete of the week on Monday. She had 32 kills in IUP's two wins last weekend, 17 against Pitt-Johnstown and 15 at California.",
+          "date": "2026-11-02",
+          "source": "PSAC",
+          "url": "https://psacsports.org/news/2026/11/2/psac-womens-volleyball-athletes-of-the-week-10.aspx"
+        },
+        {
           "id": "bf9adab7ba7e",
           "teamId": "iup",
           "headline": "IUP sweeps California for its eighth win in a row",
@@ -255,15 +264,6 @@
           "date": "2026-10-31",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/news/2026/10/31/womens-volleyball-concannon-joins-1-000-1-000-club-as-iup-sweeps-california-pa.aspx"
-        },
-        {
-          "id": "fb6147bffdfc",
-          "teamId": "iup",
-          "headline": "IUP comes back to beat Pitt-Johnstown in four sets",
-          "summary": "IUP lost the third set but won the other three at home Friday night, 3-1. It is the Crimson Hawks' seventh win in a row, it pays back the only conference match they have lost, and they are now 19-4.",
-          "date": "2026-10-30",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/10/30/womens-volleyball-iup-rallies-past-pitt-johnstown-for-four-set-victory.aspx"
         },
         {
           "id": "c826a05190fe",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "edaec50efb07",
+          "teamId": "yankees",
+          "headline": "Cody Bellinger wins a Gold Glove in left field",
+          "summary": "Bellinger was named the best fielding left fielder in the American League on Sunday. It is the second Gold Glove of his career, and he is the first Yankee to win one in left field since 2016.",
+          "date": "2026-11-01",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/cody-bellinger-wins-2026-gold-glove-award"
+        },
+        {
           "id": "767845357c59",
           "teamId": "yankees",
           "headline": "Jorge Posada says he no longer feels welcome",
@@ -304,15 +313,6 @@
           "date": "2026-10-25",
           "source": "SNY",
           "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
-        },
-        {
-          "id": "8725bf353304",
-          "teamId": "yankees",
-          "headline": "Cody Bellinger wins a fielding award for left field",
-          "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
-          "date": "2026-10-22",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
         }
       ]
     },

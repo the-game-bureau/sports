@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "abdf7b318e79",
+      "teamId": "lsu",
+      "headline": "LSU moves up to No. 15",
+      "summary": "Beating Auburn moved LSU up three spots in the Associated Press Top 25, from 18th to 15th. The Tigers have won six games and lost two.",
+      "date": "2026-10-25",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
+    },
+    {
+      "id": "f577d1ce06e9",
+      "teamId": "florida",
+      "headline": "Coach Sumrall tells Florida fans he is sorry",
+      "summary": "Jon Sumrall apologized to Florida fans after Saturday's loss. He said the team has to be a lot better in every part of the game.",
+      "date": "2026-10-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
+    },
+    {
+      "id": "41d7841d2c98",
+      "teamId": "saints",
+      "headline": "The Saints are off this week and looking at everything",
+      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
+      "date": "2026-10-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
+    },
+    {
       "id": "d49e8729f986",
       "teamId": "florida",
       "headline": "Florida's leading receiver is likely to play at Georgia",
