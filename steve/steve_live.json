@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "teams": {
     "tulane": {
       "record": "4-4",
@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Oklahoma has won four games and lost four."
+        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Florida is ranked 25th in the country in the new poll. Oklahoma has won four games and lost four."
       },
       "lastGame": {
         "result": "L",
@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is next Sunday. The Saints had this Sunday off. Cleveland lost at Pittsburgh today and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh on Sunday and has won five games and lost three."
       },
       "lastGame": {
         "result": "L",
