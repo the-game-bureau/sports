@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-02",
+    "updated": "2026-11-03",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4e0053041a68",
+      "teamId": "yankees",
+      "headline": "The Yankees keep their pitching coach for three more years",
+      "summary": "Matt Blake, who coaches the Yankees' pitchers, agreed to a new three-year deal. It keeps him with the team through the 2029 season.",
+      "date": "2026-10-25",
+      "source": "SNY",
+      "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
+    },
+    {
+      "id": "06c5704977ce",
+      "teamId": "florida",
+      "headline": "Florida used two quarterbacks against Georgia",
+      "summary": "Aaron Philo started and came out after throwing two interceptions early. Tramell Jones Jr. finished the game and ran in Florida's only touchdown.",
+      "date": "2026-10-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
+    },
     {
       "id": "fb6147bffdfc",
       "teamId": "iup",

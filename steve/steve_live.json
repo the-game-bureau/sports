@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "teams": {
     "tulane": {
       "record": "4-4",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "dbfa33fc16e2",
+          "teamId": "florida",
+          "headline": "Vernell Brown has no return date after a setback",
+          "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
+          "date": "2026-11-02",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
+        },
+        {
           "id": "93692be44f3e",
           "teamId": "florida",
           "headline": "Sumrall will not say who starts at quarterback",
@@ -100,15 +109,6 @@
           "date": "2026-10-31",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
-        },
-        {
-          "id": "06c5704977ce",
-          "teamId": "florida",
-          "headline": "Florida used two quarterbacks against Georgia",
-          "summary": "Aaron Philo started and came out after throwing two interceptions early. Tramell Jones Jr. finished the game and ran in Florida's only touchdown.",
-          "date": "2026-10-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Memorial Field House. Five o'clock our time, six o'clock theirs. IUP has won eight matches in a row and is first in its half of the conference at 11-1. Edinboro has won eleven matches and lost thirteen. The next night IUP hosts Gannon, which is second at 10-2. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the channel link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
+        "note": "Friday night home game at the Memorial Field House. Five o'clock our time, six o'clock theirs. IUP has won eight matches in a row and is first in its half of the conference at 11-1, and it has already earned a spot in the conference tournament that starts November 9. Edinboro has won eleven matches and lost thirteen. The next night IUP hosts Gannon, which is second at 10-2. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the channel link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
       },
       "lastGame": {
         "result": "W",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "83fdf45eedbe",
+          "teamId": "yankees",
+          "headline": "Yankees make a big offer to keep David Bednar",
+          "summary": "The Yankees offered their closer a one-year deal worth $23.15 million on Monday, and he has until November 17 to take it or turn it down. They made no such offer to second baseman Jazz Chisholm, who can now sign with any team.",
+          "date": "2026-11-02",
+          "source": "Pinstripe Alley",
+          "url": "https://www.pinstripealley.com/yankees-news/213850/yankees-news-rumors-david-bednar-qualifying-offer-free-agency-jazz-chisholm"
+        },
+        {
           "id": "edaec50efb07",
           "teamId": "yankees",
           "headline": "Cody Bellinger wins a Gold Glove in left field",
@@ -304,15 +313,6 @@
           "date": "2026-10-27",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
-        },
-        {
-          "id": "4e0053041a68",
-          "teamId": "yankees",
-          "headline": "The Yankees keep their pitching coach for three more years",
-          "summary": "Matt Blake, who coaches the Yankees' pitchers, agreed to a new three-year deal. It keeps him with the team through the 2029 season.",
-          "date": "2026-10-25",
-          "source": "SNY",
-          "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
         }
       ]
     },
@@ -329,8 +329,9 @@
         "opponent": "Bonnabel",
         "date": "2026-11-05",
         "time": "7:00 PM",
+        "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Thursday night home game, and a district game. Seven o'clock kickoff. This game decides the district. Bonnabel has won six games and lost three and leads the district at 5-0. Warren Easton is 4-1 in the district and sits third, and a win here would pull the Eagles level with Bonnabel at the top."
+        "note": "Thursday night home game at Tad Gormley Stadium in City Park, and a district game. Seven o'clock kickoff. This game decides the district. Bonnabel has won six games and lost three and leads the district at 5-0. Warren Easton is 4-1 in the district and sits third, and a win here would pull the Eagles level with Bonnabel at the top."
       },
       "lastGame": {
         "result": "L",

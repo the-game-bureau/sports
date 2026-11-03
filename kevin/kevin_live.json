@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "dbfa33fc16e2",
+          "teamId": "florida",
+          "headline": "Vernell Brown has no return date after a setback",
+          "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
+          "date": "2026-11-02",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
+        },
+        {
           "id": "93692be44f3e",
           "teamId": "florida",
           "headline": "Sumrall will not say who starts at quarterback",
@@ -100,15 +109,6 @@
           "date": "2026-10-31",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
-        },
-        {
-          "id": "06c5704977ce",
-          "teamId": "florida",
-          "headline": "Florida used two quarterbacks against Georgia",
-          "summary": "Aaron Philo started and came out after throwing two interceptions early. Tramell Jones Jr. finished the game and ran in Florida's only touchdown.",
-          "date": "2026-10-31",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "9bc1bfab5d68",
+          "teamId": "lsu",
+          "headline": "Alabama may get five hurt players back for LSU",
+          "summary": "Alabama coach Kalen DeBoer said Monday that five injured players are headed in a good direction for Saturday's game in Baton Rouge, among them cornerback Zabien Brown. Lineman Desmond Umeozulu will still be out.",
+          "date": "2026-11-02",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/latest-injury-6-alabama-players-171641025.html"
+        },
+        {
           "id": "b11a388bef63",
           "teamId": "lsu",
           "headline": "LSU and Alabama will not play next season",
@@ -155,15 +164,6 @@
           "date": "2026-10-26",
           "source": "LSU Athletics",
           "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
-        },
-        {
-          "id": "257a8fcc0263",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt and Jordan Ross win conference awards",
-          "summary": "Leavitt threw for 378 yards and three touchdowns and ran for another score in Saturday's win at Auburn. Ross had two sacks in the same game, and the SEC honored both of them on Monday.",
-          "date": "2026-10-26",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
         }
       ]
     },
@@ -229,8 +229,9 @@
         "opponent": "Holy Cross",
         "date": "2026-11-06",
         "time": "7:00 PM",
+        "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Friday night home game on Elysian Fields Avenue, and a district game. Seven o'clock kickoff. Brother Martin has won six games and lost three. Holy Cross has won three and lost six. It is the last game on the Crusaders' schedule before the playoffs."
+        "note": "Friday night home game at Tad Gormley Stadium in City Park, and a district game. Seven o'clock kickoff. Brother Martin has won six games and lost three and is 3-3 in the district. Holy Cross has won three games and lost six. It is the last game on the Crusaders' schedule before the playoffs."
       },
       "lastGame": {
         "result": "W",

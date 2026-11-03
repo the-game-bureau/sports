@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-02",
+    "updated": "2026-11-03",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "257a8fcc0263",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt and Jordan Ross win conference awards",
+      "summary": "Leavitt threw for 378 yards and three touchdowns and ran for another score in Saturday's win at Auburn. Ross had two sacks in the same game, and the SEC honored both of them on Monday.",
+      "date": "2026-10-26",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
+    },
+    {
+      "id": "06c5704977ce",
+      "teamId": "florida",
+      "headline": "Florida used two quarterbacks against Georgia",
+      "summary": "Aaron Philo started and came out after throwing two interceptions early. Tramell Jones Jr. finished the game and ran in Florida's only touchdown.",
+      "date": "2026-10-31",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
+    },
     {
       "id": "abdf7b318e79",
       "teamId": "lsu",
