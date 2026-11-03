@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "4eb227c9d786",
+      "teamId": "lsu",
+      "headline": "LSU and Alabama will play at 2:30 on ABC",
+      "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
+      "date": "2026-10-26",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
+    },
+    {
+      "id": "8cc9c2a4998e",
+      "teamId": "saints",
+      "headline": "Gayle Benson thanks the fans who went to Paris",
+      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+      "date": "2026-10-28",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+    },
+    {
       "id": "257a8fcc0263",
       "teamId": "lsu",
       "headline": "Sam Leavitt and Jordan Ross win conference awards",

@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh on Sunday and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh last Sunday and has won five games and lost three. Before this game, Mark Ingram and Terron Armstead get their Saints Hall of Fame blazers on the field."
       },
       "lastGame": {
         "result": "L",
@@ -28,6 +28,15 @@
         "date": "2026-10-25"
       },
       "news": [
+        {
+          "id": "6fcfe496cbde",
+          "teamId": "saints",
+          "headline": "Mark Ingram and Terron Armstead join the Saints Hall of Fame",
+          "summary": "Running back Mark Ingram and left tackle Terron Armstead are the two newest members of the Saints Hall of Fame. They will be handed their Hall of Fame blazers on the field before Sunday's game against Cleveland.",
+          "date": "2026-11-03",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
+        },
         {
           "id": "705240557ead",
           "teamId": "saints",
@@ -45,15 +54,6 @@
           "date": "2026-10-31",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
-        },
-        {
-          "id": "8cc9c2a4998e",
-          "teamId": "saints",
-          "headline": "Gayle Benson thanks the fans who went to Paris",
-          "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
-          "date": "2026-10-28",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "2d72072cad2a",
+          "teamId": "lsu",
+          "headline": "LSU plays Texas next Saturday on ABC",
+          "summary": "The game after Alabama is at home against Texas, and it is on Channel 26 here. It starts either at 2:30 in the afternoon or 6:30 at night, and the time gets picked after this Saturday's games.",
+          "date": "2026-11-02",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/11/2/lsu-football-vs-texas-kickoff-time-on-abc-to-be-announced"
+        },
+        {
           "id": "9bc1bfab5d68",
           "teamId": "lsu",
           "headline": "Alabama may get five hurt players back for LSU",
@@ -155,15 +164,6 @@
           "date": "2026-11-02",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50360298/kiffin-sad-annual-lsu-alabama-game-take-hiatus-2027"
-        },
-        {
-          "id": "4eb227c9d786",
-          "teamId": "lsu",
-          "headline": "LSU and Alabama will play at 2:30 on ABC",
-          "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
-          "date": "2026-10-26",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
         }
       ]
     },

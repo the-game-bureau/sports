@@ -183,7 +183,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh on Sunday and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh last Sunday and has won five games and lost three. Before this game, Mark Ingram and Terron Armstead get their Saints Hall of Fame blazers on the field."
       },
       "lastGame": {
         "result": "L",
@@ -193,6 +193,15 @@
         "date": "2026-10-25"
       },
       "news": [
+        {
+          "id": "6fcfe496cbde",
+          "teamId": "saints",
+          "headline": "Mark Ingram and Terron Armstead join the Saints Hall of Fame",
+          "summary": "Running back Mark Ingram and left tackle Terron Armstead are the two newest members of the Saints Hall of Fame. They will be handed their Hall of Fame blazers on the field before Sunday's game against Cleveland.",
+          "date": "2026-11-03",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
+        },
         {
           "id": "705240557ead",
           "teamId": "saints",
@@ -210,15 +219,6 @@
           "date": "2026-10-31",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
-        },
-        {
-          "id": "8cc9c2a4998e",
-          "teamId": "saints",
-          "headline": "Gayle Benson thanks the fans who went to Paris",
-          "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
-          "date": "2026-10-28",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
         }
       ]
     },
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "9a70482f9582",
+          "teamId": "yankees",
+          "headline": "Cam Schlittler is a finalist for the Cy Young Award",
+          "summary": "The Yankees pitcher won 14 games and lost 6 this year, gave up fewer than two runs a game and struck out 239 batters. The award for the best pitcher in the American League is handed out November 11.",
+          "date": "2026-11-02",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/cam-schlittler-2026-al-cy-young-award-finalist"
+        },
+        {
           "id": "83fdf45eedbe",
           "teamId": "yankees",
           "headline": "Yankees make a big offer to keep David Bednar",
@@ -304,15 +313,6 @@
           "date": "2026-11-01",
           "source": "MLB.com",
           "url": "https://www.mlb.com/yankees/news/cody-bellinger-wins-2026-gold-glove-award"
-        },
-        {
-          "id": "767845357c59",
-          "teamId": "yankees",
-          "headline": "Jorge Posada says he no longer feels welcome",
-          "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
-          "date": "2026-10-27",
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
         }
       ]
     },

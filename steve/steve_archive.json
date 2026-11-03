@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "767845357c59",
+      "teamId": "yankees",
+      "headline": "Jorge Posada says he no longer feels welcome",
+      "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
+      "date": "2026-10-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
+    },
+    {
+      "id": "8cc9c2a4998e",
+      "teamId": "saints",
+      "headline": "Gayle Benson thanks the fans who went to Paris",
+      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+      "date": "2026-10-28",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+    },
+    {
       "id": "4e0053041a68",
       "teamId": "yankees",
       "headline": "The Yankees keep their pitching coach for three more years",
