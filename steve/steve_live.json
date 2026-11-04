@@ -38,6 +38,15 @@
           "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
         },
         {
+          "id": "e1d49504cbce",
+          "teamId": "tulane",
+          "headline": "TJ Smith wins a conference award for his kickoff return",
+          "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
+          "date": "2026-11-02",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
+        },
+        {
           "id": "b98215fb8e28",
           "teamId": "tulane",
           "headline": "Tulane beats Charlotte 38-31 in overtime",
@@ -45,15 +54,6 @@
           "date": "2026-10-30",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
-        },
-        {
-          "id": "3681205be9c2",
-          "teamId": "tulane",
-          "headline": "Trace Johnson ties the game with 10 seconds left",
-          "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
-          "date": "2026-10-30",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap?gameId=401862813"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "9ce0ff55dbe9",
+          "teamId": "texas",
+          "headline": "Colin Simmons is up for a national award",
+          "summary": "Texas said Wednesday that Simmons is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. He leads all of college football with ten and a half sacks even though he has missed the last two games hurt.",
+          "date": "2026-11-04",
+          "source": "Texas Athletics",
+          "url": "https://texaslonghorns.com/news/2026/11/4/no-10-11-footballs-simmons-named-lombardi-award-semifinalist"
+        },
+        {
           "id": "d7aaac0ad6aa",
           "teamId": "texas",
           "headline": "Texas is 7th in the first playoff rankings",
@@ -155,15 +164,6 @@
           "date": "2026-11-02",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/injuries-keep-piling-texas-football-204542122.html"
-        },
-        {
-          "id": "ef1878cde0c5",
-          "teamId": "texas",
-          "headline": "Texas beats Mississippi State 31-3",
-          "summary": "Texas led 17-0 at halftime on a touchdown pass, a field goal and a fumble run back for a score. The Longhorns have won six games and lost two.",
-          "date": "2026-10-31",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/10/31/no-11-11-football-downs-mississippi-state-31-3"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "1673a9e3e624",
+          "teamId": "saints",
+          "headline": "Cleveland's quarterback may miss Sunday's game",
+          "summary": "The Browns said Deshaun Watson is being checked for a concussion after a hit to the head in Sunday's loss at Pittsburgh. If he cannot play in the Superdome, Shedeur Sanders would start in his place.",
+          "date": "2026-11-04",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
+        },
+        {
           "id": "49e778878451",
           "teamId": "saints",
           "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
@@ -210,15 +219,6 @@
           "date": "2026-11-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
-        },
-        {
-          "id": "705240557ead",
-          "teamId": "saints",
-          "headline": "Saints let go of their run game coach",
-          "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
-          "date": "2026-11-02",
-          "source": "Saints Wire",
-          "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
         }
       ]
     },

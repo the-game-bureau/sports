@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "1673a9e3e624",
+          "teamId": "saints",
+          "headline": "Cleveland's quarterback may miss Sunday's game",
+          "summary": "The Browns said Deshaun Watson is being checked for a concussion after a hit to the head in Sunday's loss at Pittsburgh. If he cannot play in the Superdome, Shedeur Sanders would start in his place.",
+          "date": "2026-11-04",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
+        },
+        {
           "id": "49e778878451",
           "teamId": "saints",
           "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
@@ -45,15 +54,6 @@
           "date": "2026-11-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
-        },
-        {
-          "id": "705240557ead",
-          "teamId": "saints",
-          "headline": "Saints let go of their run game coach",
-          "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
-          "date": "2026-11-02",
-          "source": "Saints Wire",
-          "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "2cb8da626d5c",
+          "teamId": "lsu",
+          "headline": "Princewill Umanmielen is up for a national award",
+          "summary": "LSU's defensive end is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. Four finalists are named November 18 and the winner on December 9.",
+          "date": "2026-11-04",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
+        },
+        {
           "id": "e04f2d6cbfaa",
           "teamId": "lsu",
           "headline": "LSU is 14th in the first playoff rankings",
@@ -155,15 +164,6 @@
           "date": "2026-11-02",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/latest-injury-6-alabama-players-171641025.html"
-        },
-        {
-          "id": "b11a388bef63",
-          "teamId": "lsu",
-          "headline": "LSU and Alabama will not play next season",
-          "summary": "The two teams have played every year since 1964, but the new conference schedule leaves the game off for 2027. Coach Lane Kiffin called that sad on Monday and said money drives these decisions.",
-          "date": "2026-11-02",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50360298/kiffin-sad-annual-lsu-alabama-game-take-hiatus-2027"
         }
       ]
     },
@@ -203,6 +203,15 @@
           "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
         },
         {
+          "id": "e1d49504cbce",
+          "teamId": "tulane",
+          "headline": "TJ Smith wins a conference award for his kickoff return",
+          "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
+          "date": "2026-11-02",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
+        },
+        {
           "id": "b98215fb8e28",
           "teamId": "tulane",
           "headline": "Tulane beats Charlotte 38-31 in overtime",
@@ -210,28 +219,19 @@
           "date": "2026-10-30",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
-        },
-        {
-          "id": "3681205be9c2",
-          "teamId": "tulane",
-          "headline": "Trace Johnson ties the game with 10 seconds left",
-          "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
-          "date": "2026-10-30",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap?gameId=401862813"
         }
       ]
     },
     "brother-martin": {
       "record": "6-3",
       "nextGame": {
-        "homeAway": "home",
+        "homeAway": "away",
         "opponent": "Holy Cross",
         "date": "2026-11-06",
-        "time": "7:00 PM",
+        "time": "7:30 PM",
         "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Friday night home game at Tad Gormley Stadium in City Park, and a district game. Seven o'clock kickoff. Brother Martin has won six games and lost three and is 3-3 in the district. Holy Cross has won three games and lost six. It is the last game on the Crusaders' schedule before the playoffs."
+        "note": "Friday night road game against Holy Cross at Tad Gormley Stadium in City Park. Half past seven kickoff. Brother Martin has won six games and lost three and is 3-3 in the district. Holy Cross has won three games and lost six. It is the last game on the Crusaders' schedule before the playoffs."
       },
       "lastGame": {
         "result": "W",
@@ -245,7 +245,7 @@
           "id": "c7df566ddaff",
           "teamId": "brother-martin",
           "headline": "Brother Martin beats Chalmette 27-21",
-          "summary": "Brother Martin won a district game Friday night in Chalmette. The Crusaders are 6-3 and finish the regular season at home against Holy Cross next Friday.",
+          "summary": "Brother Martin won a district game Friday night in Chalmette. The Crusaders are 6-3 and finish the regular season on the road against Holy Cross next Friday.",
           "date": "2026-10-30",
           "source": "WGNO Fox 8 Friday Night Football",
           "url": "https://wgno.com/sports/fnf-week-9-brother-martin-posts-district-victory-over-chalmette-27-21/"

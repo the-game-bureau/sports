@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "3681205be9c2",
+      "teamId": "tulane",
+      "headline": "Trace Johnson ties the game with 10 seconds left",
+      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
+      "date": "2026-10-30",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+    },
+    {
+      "id": "b11a388bef63",
+      "teamId": "lsu",
+      "headline": "LSU and Alabama will not play next season",
+      "summary": "The two teams have played every year since 1964, but the new conference schedule leaves the game off for 2027. Coach Lane Kiffin called that sad on Monday and said money drives these decisions.",
+      "date": "2026-11-02",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50360298/kiffin-sad-annual-lsu-alabama-game-take-hiatus-2027"
+    },
+    {
+      "id": "705240557ead",
+      "teamId": "saints",
+      "headline": "Saints let go of their run game coach",
+      "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
+      "date": "2026-11-02",
+      "source": "Saints Wire",
+      "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
+    },
+    {
       "id": "01f762c82a04",
       "teamId": "saints",
       "headline": "Kellen Moore gets a statue at Boise State",

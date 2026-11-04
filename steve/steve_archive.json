@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "3681205be9c2",
+      "teamId": "tulane",
+      "headline": "Trace Johnson ties the game with 10 seconds left",
+      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
+      "date": "2026-10-30",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+    },
+    {
+      "id": "ef1878cde0c5",
+      "teamId": "texas",
+      "headline": "Texas beats Mississippi State 31-3",
+      "summary": "Texas led 17-0 at halftime on a touchdown pass, a field goal and a fumble run back for a score. The Longhorns have won six games and lost two.",
+      "date": "2026-10-31",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/10/31/no-11-11-football-downs-mississippi-state-31-3"
+    },
+    {
+      "id": "705240557ead",
+      "teamId": "saints",
+      "headline": "Saints let go of their run game coach",
+      "summary": "Coach Kellen Moore said Monday that T.J. Paganetti is out. Offensive line coach Brendan Nugent will run the running game from now on, and the Saints have had trouble running the ball all season.",
+      "date": "2026-11-02",
+      "source": "Saints Wire",
+      "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
+    },
+    {
       "id": "d32605e74702",
       "teamId": "florida",
       "headline": "Georgia beats Florida 27-8",
