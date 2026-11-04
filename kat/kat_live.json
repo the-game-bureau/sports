@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh on Sunday and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh last Sunday and has won five games and lost three."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,24 @@
       },
       "news": [
         {
+          "id": "49e778878451",
+          "teamId": "saints",
+          "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
+          "summary": "The two old Saints are honored at a luncheon in Kenner on Friday and at a party on Saturday. They get their Hall of Fame jackets on the field before Sunday's game in the Superdome.",
+          "date": "2026-11-03",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
+        },
+        {
+          "id": "e078ee30a3f5",
+          "teamId": "saints",
+          "headline": "Saints bring back running back Audric Estime",
+          "summary": "The Saints claimed Estime off waivers from Cleveland on Tuesday. He played for New Orleans last season, and to make room the team let go of kicker Daniel Carlson.",
+          "date": "2026-11-03",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
+        },
+        {
           "id": "705240557ead",
           "teamId": "saints",
           "headline": "Saints let go of their run game coach",
@@ -36,24 +54,6 @@
           "date": "2026-11-02",
           "source": "Saints Wire",
           "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
-        },
-        {
-          "id": "01f762c82a04",
-          "teamId": "saints",
-          "headline": "Kellen Moore gets a statue at Boise State",
-          "summary": "Boise State unveiled a bronze statue of the Saints head coach at its stadium on Saturday night. Moore played quarterback there and won 50 of his 53 starts.",
-          "date": "2026-10-31",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
-        },
-        {
-          "id": "8cc9c2a4998e",
-          "teamId": "saints",
-          "headline": "Gayle Benson thanks the fans who went to Paris",
-          "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
-          "date": "2026-10-28",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Florida is ranked 25th in the country in the new poll. Oklahoma has won four games and lost four."
+        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Florida is 24th in the first playoff rankings. Oklahoma has won four games and lost four."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-10-31"
       },
       "news": [
+        {
+          "id": "eeeae30223cb",
+          "teamId": "florida",
+          "headline": "Florida is 24th in the first playoff rankings",
+          "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Florida is 24th, and Oklahoma, the team the Gators play Saturday, is not in the top 25.",
+          "date": "2026-11-03",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
+        },
         {
           "id": "dbfa33fc16e2",
           "teamId": "florida",
@@ -100,15 +109,6 @@
           "date": "2026-11-02",
           "source": "The Independent Florida Alligator",
           "url": "https://www.alligator.org/article/2026/11/florida-sumrall-starting-quarterback-oklahoma"
-        },
-        {
-          "id": "d32605e74702",
-          "teamId": "florida",
-          "headline": "Georgia beats Florida 27-8",
-          "summary": "Florida lost the ball four times on Saturday, and one of those turnovers went back 66 yards for a Georgia touchdown. The Gators did not score until the fourth quarter and are now 5-3.",
-          "date": "2026-10-31",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
         }
       ]
     },
@@ -128,7 +128,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time, and it is this coming Saturday. LSU had last Saturday off. LSU is ranked 15th in the country and Alabama is ranked 9th. Alabama has won six games and lost two."
+        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time, and it is this coming Saturday. LSU had last Saturday off. LSU is 14th in the first playoff rankings and Alabama is 5th. Alabama has won six games and lost two."
       },
       "lastGame": {
         "result": "W",
@@ -138,6 +138,15 @@
         "date": "2026-10-24"
       },
       "news": [
+        {
+          "id": "e04f2d6cbfaa",
+          "teamId": "lsu",
+          "headline": "LSU is 14th in the first playoff rankings",
+          "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. LSU is 14th, and Alabama, which comes to Baton Rouge on Saturday, is 5th.",
+          "date": "2026-11-03",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
+        },
         {
           "id": "9bc1bfab5d68",
           "teamId": "lsu",
@@ -155,15 +164,6 @@
           "date": "2026-11-02",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50360298/kiffin-sad-annual-lsu-alabama-game-take-hiatus-2027"
-        },
-        {
-          "id": "4eb227c9d786",
-          "teamId": "lsu",
-          "headline": "LSU and Alabama will play at 2:30 on ABC",
-          "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
-          "date": "2026-10-26",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "50b08614156c",
+          "teamId": "tulane",
+          "headline": "Tulane punter William Hudlow is up for a national award",
+          "summary": "Hudlow is one of 65 players nominated for the Burlsworth Trophy, which goes to the best player who started college without a scholarship. He averages 47 yards a punt, the best in his conference.",
+          "date": "2026-11-03",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
+        },
+        {
           "id": "b98215fb8e28",
           "teamId": "tulane",
           "headline": "Tulane beats Charlotte 38-31 in overtime",
@@ -210,15 +219,6 @@
           "date": "2026-10-30",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap?gameId=401862813"
-        },
-        {
-          "id": "df93db07a250",
-          "teamId": "tulane",
-          "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
-          "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
-          "date": "2026-10-30",
-          "source": "Tulane On SI",
-          "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
         }
       ]
     }

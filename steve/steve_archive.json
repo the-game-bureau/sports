@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-03",
+    "updated": "2026-11-04",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "d32605e74702",
+      "teamId": "florida",
+      "headline": "Georgia beats Florida 27-8",
+      "summary": "Florida lost the ball four times on Saturday, and one of those turnovers went back 66 yards for a Georgia touchdown. The Gators did not score until the fourth quarter and are now 5-3.",
+      "date": "2026-10-31",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
+    },
+    {
+      "id": "49c86814618f",
+      "teamId": "texas",
+      "headline": "Arch Manning throws three touchdown passes",
+      "summary": "Arch Manning completed 16 of his 20 passes for 220 yards and three touchdowns on Saturday night. He threw them to Cam Coleman, Raleek Brown and Emmett Mosley V.",
+      "date": "2026-10-31",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/boxscore/_/gameId/401856737"
+    },
+    {
+      "id": "01f762c82a04",
+      "teamId": "saints",
+      "headline": "Kellen Moore gets a statue at Boise State",
+      "summary": "Boise State unveiled a bronze statue of the Saints head coach at its stadium on Saturday night. Moore played quarterback there and won 50 of his 53 starts.",
+      "date": "2026-10-31",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
+    },
+    {
+      "id": "df93db07a250",
+      "teamId": "tulane",
+      "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
+      "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
+      "date": "2026-10-30",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
+    },
+    {
+      "id": "8cc9c2a4998e",
+      "teamId": "saints",
+      "headline": "Gayle Benson thanks the fans who went to Paris",
+      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+      "date": "2026-10-28",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+    },
+    {
+      "id": "767845357c59",
+      "teamId": "yankees",
+      "headline": "Jorge Posada says he no longer feels welcome",
+      "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
+      "date": "2026-10-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
+    },
     {
       "id": "4e0053041a68",
       "teamId": "yankees",
