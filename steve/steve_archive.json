@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "49e778878451",
+      "teamId": "saints",
+      "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
+      "summary": "The two old Saints are honored at a luncheon in Kenner on Friday and at a party on Saturday. They get their Hall of Fame jackets on the field before Sunday's game in the Superdome.",
+      "date": "2026-11-03",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
+    },
+    {
       "id": "e078ee30a3f5",
       "teamId": "saints",
       "headline": "Saints bring back running back Audric Estime",
@@ -14,6 +23,15 @@
       "date": "2026-11-03",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
+    },
+    {
+      "id": "93692be44f3e",
+      "teamId": "florida",
+      "headline": "Sumrall will not say who starts at quarterback",
+      "summary": "Jon Sumrall said Monday he has a plan for Saturday against Oklahoma but would not name a starter. Florida's depth chart now lists Aaron Philo or Tramell Jones Jr. instead of one name.",
+      "date": "2026-11-02",
+      "source": "The Independent Florida Alligator",
+      "url": "https://www.alligator.org/article/2026/11/florida-sumrall-starting-quarterback-oklahoma"
     },
     {
       "id": "705240557ead",
@@ -50,6 +68,15 @@
       "date": "2026-11-01",
       "source": "MLB.com",
       "url": "https://www.mlb.com/yankees/news/cody-bellinger-wins-2026-gold-glove-award"
+    },
+    {
+      "id": "bf9adab7ba7e",
+      "teamId": "iup",
+      "headline": "IUP sweeps California for its eighth win in a row",
+      "summary": "IUP won in three sets on Saturday at California, Pennsylvania. Delaney Concannon had 12 kills and became the third player in school history with 1,000 kills and 1,000 digs.",
+      "date": "2026-10-31",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/31/womens-volleyball-concannon-joins-1-000-1-000-club-as-iup-sweeps-california-pa.aspx"
     },
     {
       "id": "ef1878cde0c5",
