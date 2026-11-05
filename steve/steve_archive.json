@@ -2,27 +2,18 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "3681205be9c2",
-      "teamId": "tulane",
-      "headline": "Trace Johnson ties the game with 10 seconds left",
-      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
-      "date": "2026-10-30",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
-    },
-    {
-      "id": "ef1878cde0c5",
-      "teamId": "texas",
-      "headline": "Texas beats Mississippi State 31-3",
-      "summary": "Texas led 17-0 at halftime on a touchdown pass, a field goal and a fumble run back for a score. The Longhorns have won six games and lost two.",
-      "date": "2026-10-31",
-      "source": "Texas Athletics",
-      "url": "https://texaslonghorns.com/news/2026/10/31/no-11-11-football-downs-mississippi-state-31-3"
+      "id": "e078ee30a3f5",
+      "teamId": "saints",
+      "headline": "Saints bring back running back Audric Estime",
+      "summary": "The Saints claimed Estime off waivers from Cleveland on Tuesday. He played for New Orleans last season, and to make room the team let go of kicker Daniel Carlson.",
+      "date": "2026-11-03",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
     },
     {
       "id": "705240557ead",
@@ -32,6 +23,42 @@
       "date": "2026-11-02",
       "source": "Saints Wire",
       "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
+    },
+    {
+      "id": "dbfa33fc16e2",
+      "teamId": "florida",
+      "headline": "Vernell Brown has no return date after a setback",
+      "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
+      "date": "2026-11-02",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
+    },
+    {
+      "id": "ed69b17f22eb",
+      "teamId": "texas",
+      "headline": "Texas will be short-handed at Missouri",
+      "summary": "Coach Steve Sarkisian said Monday that Texas lost a lot of players to injury in Saturday's win and that he does not know yet who will be able to play. Left tackle Trevor Goosby is out for the rest of the season.",
+      "date": "2026-11-02",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/injuries-keep-piling-texas-football-204542122.html"
+    },
+    {
+      "id": "edaec50efb07",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger wins a Gold Glove in left field",
+      "summary": "Bellinger was named the best fielding left fielder in the American League on Sunday. It is the second Gold Glove of his career, and he is the first Yankee to win one in left field since 2016.",
+      "date": "2026-11-01",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/cody-bellinger-wins-2026-gold-glove-award"
+    },
+    {
+      "id": "ef1878cde0c5",
+      "teamId": "texas",
+      "headline": "Texas beats Mississippi State 31-3",
+      "summary": "Texas led 17-0 at halftime on a touchdown pass, a field goal and a fumble run back for a score. The Longhorns have won six games and lost two.",
+      "date": "2026-10-31",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/10/31/no-11-11-football-downs-mississippi-state-31-3"
     },
     {
       "id": "d32605e74702",
@@ -61,42 +88,6 @@
       "url": "https://www.neworleanssaints.com/news/morning-break-kellen-moore-honored-at-boise-state-tyler-shough-earns-midseason-recognition-new-orleans-news-headlines-11-1-2026"
     },
     {
-      "id": "df93db07a250",
-      "teamId": "tulane",
-      "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
-      "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
-      "date": "2026-10-30",
-      "source": "Tulane On SI",
-      "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
-    },
-    {
-      "id": "8cc9c2a4998e",
-      "teamId": "saints",
-      "headline": "Gayle Benson thanks the fans who went to Paris",
-      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
-      "date": "2026-10-28",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
-    },
-    {
-      "id": "767845357c59",
-      "teamId": "yankees",
-      "headline": "Jorge Posada says he no longer feels welcome",
-      "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
-      "date": "2026-10-27",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
-    },
-    {
-      "id": "4e0053041a68",
-      "teamId": "yankees",
-      "headline": "The Yankees keep their pitching coach for three more years",
-      "summary": "Matt Blake, who coaches the Yankees' pitchers, agreed to a new three-year deal. It keeps him with the team through the 2029 season.",
-      "date": "2026-10-25",
-      "source": "SNY",
-      "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
-    },
-    {
       "id": "06c5704977ce",
       "teamId": "florida",
       "headline": "Florida used two quarterbacks against Georgia",
@@ -104,24 +95,6 @@
       "date": "2026-10-31",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
-    },
-    {
-      "id": "fb6147bffdfc",
-      "teamId": "iup",
-      "headline": "IUP comes back to beat Pitt-Johnstown in four sets",
-      "summary": "IUP lost the third set but won the other three at home Friday night, 3-1. It is the Crimson Hawks' seventh win in a row, it pays back the only conference match they have lost, and they are now 19-4.",
-      "date": "2026-10-30",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/10/30/womens-volleyball-iup-rallies-past-pitt-johnstown-for-four-set-victory.aspx"
-    },
-    {
-      "id": "8725bf353304",
-      "teamId": "yankees",
-      "headline": "Cody Bellinger wins a fielding award for left field",
-      "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
-      "date": "2026-10-22",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
     },
     {
       "id": "c381cfcb10d0",
@@ -142,13 +115,31 @@
       "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
     },
     {
-      "id": "41d7841d2c98",
-      "teamId": "saints",
-      "headline": "The Saints are off this week and looking at everything",
-      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
-      "date": "2026-10-26",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
+      "id": "3681205be9c2",
+      "teamId": "tulane",
+      "headline": "Trace Johnson ties the game with 10 seconds left",
+      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
+      "date": "2026-10-30",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+    },
+    {
+      "id": "df93db07a250",
+      "teamId": "tulane",
+      "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
+      "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
+      "date": "2026-10-30",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
+    },
+    {
+      "id": "fb6147bffdfc",
+      "teamId": "iup",
+      "headline": "IUP comes back to beat Pitt-Johnstown in four sets",
+      "summary": "IUP lost the third set but won the other three at home Friday night, 3-1. It is the Crimson Hawks' seventh win in a row, it pays back the only conference match they have lost, and they are now 19-4.",
+      "date": "2026-10-30",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/10/30/womens-volleyball-iup-rallies-past-pitt-johnstown-for-four-set-victory.aspx"
     },
     {
       "id": "b0cdf02cd643",
@@ -187,6 +178,15 @@
       "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
     },
     {
+      "id": "8cc9c2a4998e",
+      "teamId": "saints",
+      "headline": "Gayle Benson thanks the fans who went to Paris",
+      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+      "date": "2026-10-28",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+    },
+    {
       "id": "e4646e87bfd9",
       "teamId": "texas",
       "headline": "Rasheem Biles is up for the Butkus Award",
@@ -205,6 +205,15 @@
       "url": "https://sports.yahoo.com/articles/no-17-florida-lists-qbs-001416463.html"
     },
     {
+      "id": "767845357c59",
+      "teamId": "yankees",
+      "headline": "Jorge Posada says he no longer feels welcome",
+      "summary": "Posada played all 17 of his seasons for the Yankees and won five World Series with them. He said on a podcast this week that he does not feel welcome when he visits the team now, so he stays away.",
+      "date": "2026-10-27",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50300403/jorge-posada-says-feel-welcome-yankees"
+    },
+    {
       "id": "c29c4c2b9c06",
       "teamId": "tulane",
       "headline": "Tulane will start its fifth different offensive line",
@@ -212,6 +221,15 @@
       "date": "2026-10-27",
       "source": "Tulane On SI",
       "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+    },
+    {
+      "id": "41d7841d2c98",
+      "teamId": "saints",
+      "headline": "The Saints are off this week and looking at everything",
+      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
+      "date": "2026-10-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
     },
     {
       "id": "a8240df1e4e3",
@@ -266,6 +284,15 @@
       "date": "2026-10-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
+    },
+    {
+      "id": "4e0053041a68",
+      "teamId": "yankees",
+      "headline": "The Yankees keep their pitching coach for three more years",
+      "summary": "Matt Blake, who coaches the Yankees' pitchers, agreed to a new three-year deal. It keeps him with the team through the 2029 season.",
+      "date": "2026-10-25",
+      "source": "SNY",
+      "url": "https://sny.tv/articles/yankees-pitching-coach-matt-blake-three-year-contract-extension"
     },
     {
       "id": "921e03d83637",
@@ -374,6 +401,15 @@
       "date": "2026-10-23",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/10/23/womens-volleyball-iup-takes-down-clarion-in-four-sets-concannon-reaches-1-000-career-digs.aspx"
+    },
+    {
+      "id": "8725bf353304",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger wins a fielding award for left field",
+      "summary": "Bellinger won the Fielding Bible Award, which goes to the best fielder at each position in baseball. He got 14 of the 17 first-place votes, and it is the third one he has won.",
+      "date": "2026-10-22",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/fielding-bible-award-winners-for-2026"
     },
     {
       "id": "cdae694beb85",

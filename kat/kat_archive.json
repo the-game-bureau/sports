@@ -2,18 +2,18 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "3681205be9c2",
-      "teamId": "tulane",
-      "headline": "Trace Johnson ties the game with 10 seconds left",
-      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
-      "date": "2026-10-30",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+      "id": "e078ee30a3f5",
+      "teamId": "saints",
+      "headline": "Saints bring back running back Audric Estime",
+      "summary": "The Saints claimed Estime off waivers from Cleveland on Tuesday. He played for New Orleans last season, and to make room the team let go of kicker Daniel Carlson.",
+      "date": "2026-11-03",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
     },
     {
       "id": "b11a388bef63",
@@ -34,6 +34,24 @@
       "url": "https://sports.yahoo.com/articles/kellen-moore-says-saints-ask-175203014.html"
     },
     {
+      "id": "dbfa33fc16e2",
+      "teamId": "florida",
+      "headline": "Vernell Brown has no return date after a setback",
+      "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
+      "date": "2026-11-02",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
+    },
+    {
+      "id": "9bc1bfab5d68",
+      "teamId": "lsu",
+      "headline": "Alabama may get five hurt players back for LSU",
+      "summary": "Alabama coach Kalen DeBoer said Monday that five injured players are headed in a good direction for Saturday's game in Baton Rouge, among them cornerback Zabien Brown. Lineman Desmond Umeozulu will still be out.",
+      "date": "2026-11-02",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/latest-injury-6-alabama-players-171641025.html"
+    },
+    {
       "id": "01f762c82a04",
       "teamId": "saints",
       "headline": "Kellen Moore gets a statue at Boise State",
@@ -52,42 +70,6 @@
       "url": "https://floridagators.com/news/2026/10/31/football-final-georgia-27-florida-8-southeastern-conference-florida-georgia-game"
     },
     {
-      "id": "df93db07a250",
-      "teamId": "tulane",
-      "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
-      "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
-      "date": "2026-10-30",
-      "source": "Tulane On SI",
-      "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
-    },
-    {
-      "id": "8cc9c2a4998e",
-      "teamId": "saints",
-      "headline": "Gayle Benson thanks the fans who went to Paris",
-      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
-      "date": "2026-10-28",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
-    },
-    {
-      "id": "4eb227c9d786",
-      "teamId": "lsu",
-      "headline": "LSU and Alabama will play at 2:30 on ABC",
-      "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
-      "date": "2026-10-26",
-      "source": "LSU Athletics",
-      "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
-    },
-    {
-      "id": "257a8fcc0263",
-      "teamId": "lsu",
-      "headline": "Sam Leavitt and Jordan Ross win conference awards",
-      "summary": "Leavitt threw for 378 yards and three touchdowns and ran for another score in Saturday's win at Auburn. Ross had two sacks in the same game, and the SEC honored both of them on Monday.",
-      "date": "2026-10-26",
-      "source": "LSU Athletics",
-      "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
-    },
-    {
       "id": "06c5704977ce",
       "teamId": "florida",
       "headline": "Florida used two quarterbacks against Georgia",
@@ -95,15 +77,6 @@
       "date": "2026-10-31",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/why-florida-started-aaron-philo-over-tramell-jones-jr-qb-plans-after-loss-to-georgia-01m6c32hswsw"
-    },
-    {
-      "id": "abdf7b318e79",
-      "teamId": "lsu",
-      "headline": "LSU moves up to No. 15",
-      "summary": "Beating Auburn moved LSU up three spots in the Associated Press Top 25, from 18th to 15th. The Tigers have won six games and lost two.",
-      "date": "2026-10-25",
-      "source": "NCAA.com",
-      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
     },
     {
       "id": "f577d1ce06e9",
@@ -115,13 +88,22 @@
       "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
     },
     {
-      "id": "41d7841d2c98",
-      "teamId": "saints",
-      "headline": "The Saints are off this week and looking at everything",
-      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
-      "date": "2026-10-26",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
+      "id": "3681205be9c2",
+      "teamId": "tulane",
+      "headline": "Trace Johnson ties the game with 10 seconds left",
+      "summary": "Tulane's freshman quarterback threw an 11-yard touchdown pass to Cameron Roberts to make it 31-31. In his first start on the road he completed 28 of his 36 throws for 284 yards.",
+      "date": "2026-10-30",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap?gameId=401862813"
+    },
+    {
+      "id": "df93db07a250",
+      "teamId": "tulane",
+      "headline": "TJ Smith returns a kickoff 95 yards for a touchdown",
+      "summary": "Smith took a second-quarter kickoff 95 yards to the end zone and put Tulane ahead 14-10. Charlotte led 24-14 by halftime anyway, so Tulane had to come back again in the fourth quarter.",
+      "date": "2026-10-30",
+      "source": "Tulane On SI",
+      "url": "https://www.si.com/college/tulane/news/tulane-overcomes-demons-claims-ot-win-over-charlotte-38-31-01m67qq551h8"
     },
     {
       "id": "d49e8729f986",
@@ -142,6 +124,15 @@
       "url": "https://crescentcitysports.com/tulane-heads-to-charlotte-as-season-threatens-to-unravel/"
     },
     {
+      "id": "8cc9c2a4998e",
+      "teamId": "saints",
+      "headline": "Gayle Benson thanks the fans who went to Paris",
+      "summary": "The Saints owner wrote an open letter to everyone who made the trip to France for Sunday's game. She said the score did not go their way, but New Orleans was represented well.",
+      "date": "2026-10-28",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/gayle-benson-saints-owner-ceo-fans-letter-paris-france"
+    },
+    {
       "id": "3cd8101b85f8",
       "teamId": "florida",
       "headline": "Both Florida quarterbacks are banged up for Georgia",
@@ -158,6 +149,33 @@
       "date": "2026-10-27",
       "source": "Tulane On SI",
       "url": "https://www.si.com/college/tulane/news/hall-and-the-wave-more-motivated-than-ever-ahead-of-charlotte-matchup-01m5zfxk9czw"
+    },
+    {
+      "id": "4eb227c9d786",
+      "teamId": "lsu",
+      "headline": "LSU and Alabama will play at 2:30 on ABC",
+      "summary": "The conference set the kickoff time on Monday for the November 7 game in Baton Rouge. It is the first afternoon start for this game in Tiger Stadium since 2010.",
+      "date": "2026-10-26",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/26/lsu-football-vs-alabama-to-kickoff-on-abc"
+    },
+    {
+      "id": "257a8fcc0263",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt and Jordan Ross win conference awards",
+      "summary": "Leavitt threw for 378 yards and three touchdowns and ran for another score in Saturday's win at Auburn. Ross had two sacks in the same game, and the SEC honored both of them on Monday.",
+      "date": "2026-10-26",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/10/26/leavitt-ross-earn-sec-football-weekly-awards"
+    },
+    {
+      "id": "41d7841d2c98",
+      "teamId": "saints",
+      "headline": "The Saints are off this week and looking at everything",
+      "summary": "Coach Kellen Moore said the bye week is for a top-to-bottom look at the team, starting with its slow starts. The Saints have been outscored 44 to 6 in the first quarter this season.",
+      "date": "2026-10-26",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-bye-week-provides-opportunity-for-deep-self-evaluation-growth"
     },
     {
       "id": "de2e1ab04aa5",
@@ -185,6 +203,15 @@
       "date": "2026-10-26",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/story/_/id/50287876/florida-name-philo-jones-qb1-later-week"
+    },
+    {
+      "id": "abdf7b318e79",
+      "teamId": "lsu",
+      "headline": "LSU moves up to No. 15",
+      "summary": "Beating Auburn moved LSU up three spots in the Associated Press Top 25, from 18th to 15th. The Tigers have won six games and lost two.",
+      "date": "2026-10-25",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/rankings/football/fbs/associated-press"
     },
     {
       "id": "921e03d83637",

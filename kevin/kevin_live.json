@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -38,6 +38,15 @@
           "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
         },
         {
+          "id": "158c0ed2148f",
+          "teamId": "saints",
+          "headline": "Jordyn Tyson practices for the first time as a Saint",
+          "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
+          "date": "2026-11-04",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
+        },
+        {
           "id": "49e778878451",
           "teamId": "saints",
           "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
@@ -45,15 +54,6 @@
           "date": "2026-11-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
-        },
-        {
-          "id": "e078ee30a3f5",
-          "teamId": "saints",
-          "headline": "Saints bring back running back Audric Estime",
-          "summary": "The Saints claimed Estime off waivers from Cleveland on Tuesday. He played for New Orleans last season, and to make room the team let go of kicker Daniel Carlson.",
-          "date": "2026-11-03",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
         }
       ]
     },
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "22d9491585be",
+          "teamId": "florida",
+          "headline": "Florida suspends a starting defensive lineman",
+          "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
+          "date": "2026-11-04",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
+        },
+        {
           "id": "eeeae30223cb",
           "teamId": "florida",
           "headline": "Florida is 24th in the first playoff rankings",
@@ -91,15 +100,6 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
-        },
-        {
-          "id": "dbfa33fc16e2",
-          "teamId": "florida",
-          "headline": "Vernell Brown has no return date after a setback",
-          "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
-          "date": "2026-11-02",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
         },
         {
           "id": "93692be44f3e",
@@ -148,6 +148,15 @@
           "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
         },
         {
+          "id": "734be15034b9",
+          "teamId": "lsu",
+          "headline": "LSU linebacker Whit Weeks may play Saturday",
+          "summary": "Weeks has not played since he hurt his ankle in September and had surgery. The conference injury list on Wednesday moved him up to doubtful, the first sign he could be back for Alabama.",
+          "date": "2026-11-04",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/tennessee/article/lsu-tigers-football-sec-availability-report-whit-weeks-lane-kiffin-alabama-ryan-coleman-williams-292203741/"
+        },
+        {
           "id": "e04f2d6cbfaa",
           "teamId": "lsu",
           "headline": "LSU is 14th in the first playoff rankings",
@@ -155,15 +164,6 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
-        },
-        {
-          "id": "9bc1bfab5d68",
-          "teamId": "lsu",
-          "headline": "Alabama may get five hurt players back for LSU",
-          "summary": "Alabama coach Kalen DeBoer said Monday that five injured players are headed in a good direction for Saturday's game in Baton Rouge, among them cornerback Zabien Brown. Lineman Desmond Umeozulu will still be out.",
-          "date": "2026-11-02",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/latest-injury-6-alabama-players-171641025.html"
         }
       ]
     },

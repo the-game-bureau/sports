@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "teams": {
     "tulane": {
       "record": "4-4",
@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "22d9491585be",
+          "teamId": "florida",
+          "headline": "Florida suspends a starting defensive lineman",
+          "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
+          "date": "2026-11-04",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
+        },
+        {
           "id": "eeeae30223cb",
           "teamId": "florida",
           "headline": "Florida is 24th in the first playoff rankings",
@@ -91,15 +100,6 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
-        },
-        {
-          "id": "dbfa33fc16e2",
-          "teamId": "florida",
-          "headline": "Vernell Brown has no return date after a setback",
-          "summary": "Florida's best receiver hurt his knee again in practice last week, and there was more swelling than the team expected. Coach Jon Sumrall said Monday he does not know when Brown will play again this season.",
-          "date": "2026-11-02",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/football/gators-sumrall-chastises-vbiii-injury-criticism-he-s-doing-everything-in-his-power-to-play-football-01m6eygbkaq9"
         },
         {
           "id": "93692be44f3e",
@@ -148,6 +148,15 @@
           "url": "https://texaslonghorns.com/news/2026/11/4/no-10-11-footballs-simmons-named-lombardi-award-semifinalist"
         },
         {
+          "id": "239d188eca38",
+          "teamId": "texas",
+          "headline": "Texas running back Hollywood Smothers is out",
+          "summary": "Smothers had to leave Saturday's win over Mississippi State and will not play Saturday at Missouri. A report Wednesday said the team does not know when he will be back.",
+          "date": "2026-11-04",
+          "source": "Heavy",
+          "url": "https://heavy.com/sports/college-football/texas-longhorns/texas-hollywood-smothers-injury-update-missouri-no-timetable/"
+        },
+        {
           "id": "d7aaac0ad6aa",
           "teamId": "texas",
           "headline": "Texas is 7th in the first playoff rankings",
@@ -155,15 +164,6 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
-        },
-        {
-          "id": "ed69b17f22eb",
-          "teamId": "texas",
-          "headline": "Texas will be short-handed at Missouri",
-          "summary": "Coach Steve Sarkisian said Monday that Texas lost a lot of players to injury in Saturday's win and that he does not know yet who will be able to play. Left tackle Trevor Goosby is out for the rest of the season.",
-          "date": "2026-11-02",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/injuries-keep-piling-texas-football-204542122.html"
         }
       ]
     },
@@ -203,6 +203,15 @@
           "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
         },
         {
+          "id": "158c0ed2148f",
+          "teamId": "saints",
+          "headline": "Jordyn Tyson practices for the first time as a Saint",
+          "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
+          "date": "2026-11-04",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
+        },
+        {
           "id": "49e778878451",
           "teamId": "saints",
           "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
@@ -210,15 +219,6 @@
           "date": "2026-11-03",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/saints-hall-of-fame-induction-weekend-begins-friday"
-        },
-        {
-          "id": "e078ee30a3f5",
-          "teamId": "saints",
-          "headline": "Saints bring back running back Audric Estime",
-          "summary": "The Saints claimed Estime off waivers from Cleveland on Tuesday. He played for New Orleans last season, and to make room the team let go of kicker Daniel Carlson.",
-          "date": "2026-11-03",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
         }
       ]
     },
@@ -306,13 +306,13 @@
           "url": "https://www.pinstripealley.com/yankees-news/213850/yankees-news-rumors-david-bednar-qualifying-offer-free-agency-jazz-chisholm"
         },
         {
-          "id": "edaec50efb07",
+          "id": "64b1086b3082",
           "teamId": "yankees",
-          "headline": "Cody Bellinger wins a Gold Glove in left field",
-          "summary": "Bellinger was named the best fielding left fielder in the American League on Sunday. It is the second Gold Glove of his career, and he is the first Yankee to win one in left field since 2016.",
-          "date": "2026-11-01",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/yankees/news/cody-bellinger-wins-2026-gold-glove-award"
+          "headline": "Lou Piniella is up for the Hall of Fame",
+          "summary": "Piniella won two World Series rings playing for the Yankees in 1977 and 1978 and later managed them. He is one of eight managers and executives put on a Hall of Fame ballot Monday, and the vote is announced December 6.",
+          "date": "2026-11-02",
+          "source": "National Baseball Hall of Fame",
+          "url": "https://baseballhall.org/news/contemporary-baseball-era-committee-candidates-announced-for-consideration-for-class-of-2027"
         }
       ]
     },
