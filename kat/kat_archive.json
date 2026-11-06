@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "15c3abd90129",
+      "teamId": "saints",
+      "headline": "Alvin Kamara is back at practice for the Saints",
+      "summary": "Kamara sat out Wednesday's practice to rest his back and was back on the field Thursday, working on a limited basis. Running back C.J. Donaldson did not practice at all Thursday with a shoulder injury and a concussion.",
+      "date": "2026-11-05",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+    },
+    {
       "id": "158c0ed2148f",
       "teamId": "saints",
       "headline": "Jordyn Tyson practices for the first time as a Saint",
@@ -23,6 +32,15 @@
       "date": "2026-11-04",
       "source": "247Sports",
       "url": "https://247sports.com/college/tennessee/article/lsu-tigers-football-sec-availability-report-whit-weeks-lane-kiffin-alabama-ryan-coleman-williams-292203741/"
+    },
+    {
+      "id": "1673a9e3e624",
+      "teamId": "saints",
+      "headline": "Cleveland's quarterback may miss Sunday's game",
+      "summary": "The Browns said Deshaun Watson is being checked for a concussion after a hit to the head in Sunday's loss at Pittsburgh. If he cannot play in the Superdome, Shedeur Sanders would start in his place.",
+      "date": "2026-11-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
     },
     {
       "id": "49e778878451",

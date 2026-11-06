@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "15c3abd90129",
+      "teamId": "saints",
+      "headline": "Alvin Kamara is back at practice for the Saints",
+      "summary": "Kamara sat out Wednesday's practice to rest his back and was back on the field Thursday, working on a limited basis. Running back C.J. Donaldson did not practice at all Thursday with a shoulder injury and a concussion.",
+      "date": "2026-11-05",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+    },
+    {
       "id": "158c0ed2148f",
       "teamId": "saints",
       "headline": "Jordyn Tyson practices for the first time as a Saint",
@@ -23,6 +32,15 @@
       "date": "2026-11-04",
       "source": "Heavy",
       "url": "https://heavy.com/sports/college-football/texas-longhorns/texas-hollywood-smothers-injury-update-missouri-no-timetable/"
+    },
+    {
+      "id": "1673a9e3e624",
+      "teamId": "saints",
+      "headline": "Cleveland's quarterback may miss Sunday's game",
+      "summary": "The Browns said Deshaun Watson is being checked for a concussion after a hit to the head in Sunday's loss at Pittsburgh. If he cannot play in the Superdome, Shedeur Sanders would start in his place.",
+      "date": "2026-11-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
     },
     {
       "id": "d7aaac0ad6aa",
@@ -788,6 +806,15 @@
       "date": "2026-10-15",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-thursday"
+    },
+    {
+      "id": "abf0cef08cfe",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton wins a third district game, 22-6",
+      "summary": "The Eagles beat East Jefferson 22-6 on Thursday night in Metairie for their third win in a row. Warren Easton is 3-4 for the year and has won all three of its district games.",
+      "date": "2026-10-15",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
     },
     {
       "id": "2f90e7613c05",

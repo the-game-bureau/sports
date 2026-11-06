@@ -194,13 +194,22 @@
       },
       "news": [
         {
-          "id": "15c3abd90129",
+          "id": "e4c642242756",
           "teamId": "saints",
-          "headline": "Alvin Kamara is back at practice for the Saints",
-          "summary": "Kamara sat out Wednesday's practice to rest his back and was back on the field Thursday, working on a limited basis. Running back C.J. Donaldson did not practice at all Thursday with a shoulder injury and a concussion.",
-          "date": "2026-11-05",
+          "headline": "Alvin Kamara is set to play Sunday",
+          "summary": "Kamara practiced in full on Friday and the Saints gave him no injury designation for the Cleveland game, after he rested his back on Wednesday. Running back C.J. Donaldson is out with a shoulder injury and a concussion, and rookie receiver Jordyn Tyson is questionable for what would be his first NFL game.",
+          "date": "2026-11-06",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-friday"
+        },
+        {
+          "id": "cfe68fa7ca32",
+          "teamId": "saints",
+          "headline": "Cleveland rules out Deshaun Watson for Sunday",
+          "summary": "Browns coach Todd Monken said Friday that his quarterback will not play in the Superdome because of a concussion. Rookie Shedeur Sanders will start against the Saints instead.",
+          "date": "2026-11-06",
+          "source": "WWL",
+          "url": "https://www.audacy.com/wwl/local-sports/saints/saints-rule-out-a-rb-for-week-9-shedeur-sanders-will-start-for-browns"
         },
         {
           "id": "e546c31acab4",
@@ -210,15 +219,6 @@
           "date": "2026-11-05",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-saints-gear-up-for-week-9-charlie-smyth-set-to-kick-sunday-new-orleans-news-headlines-11-5-2026"
-        },
-        {
-          "id": "1673a9e3e624",
-          "teamId": "saints",
-          "headline": "Cleveland's quarterback may miss Sunday's game",
-          "summary": "The Browns said Deshaun Watson is being checked for a concussion after a hit to the head in Sunday's loss at Pittsburgh. If he cannot play in the Superdome, Shedeur Sanders would start in his place.",
-          "date": "2026-11-04",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
         }
       ]
     },
@@ -323,16 +323,25 @@
       "news": []
     },
     "warren-easton": {
-      "record": "4-5",
+      "record": "4-6",
       "nextGame": null,
       "lastGame": {
         "result": "L",
-        "teamScore": 18,
-        "opponentScore": 35,
-        "opponent": "John Ehret",
-        "date": "2026-10-29"
+        "teamScore": 28,
+        "opponentScore": 29,
+        "opponent": "Bonnabel",
+        "date": "2026-11-05"
       },
       "news": [
+        {
+          "id": "99e4596ad7af",
+          "teamId": "warren-easton",
+          "headline": "Bonnabel beats Warren Easton 29-28",
+          "summary": "The Eagles lost by one point at home Thursday night in the last game of their regular season. Warren Easton finishes the year 4-6, and the state playoff pairings are not out yet.",
+          "date": "2026-11-05",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/news/11HUjpXXJkWRklKmItVaSg/football-recap-warren-easton-comes-up-just-short-against-bonnabel.htm"
+        },
         {
           "id": "2ddc5fe47db2",
           "teamId": "warren-easton",
@@ -350,15 +359,6 @@
           "date": "2026-10-24",
           "source": "MaxPreps",
           "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-west-jefferson-harvey/10-24-2026/?c=762b8881-6057-4239-996c-99f8aadd984a"
-        },
-        {
-          "id": "abf0cef08cfe",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton wins a third district game, 22-6",
-          "summary": "The Eagles beat East Jefferson 22-6 on Thursday night in Metairie for their third win in a row. Warren Easton is 3-4 for the year and has won all three of its district games.",
-          "date": "2026-10-15",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
         }
       ]
     }
