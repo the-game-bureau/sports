@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "158c0ed2148f",
+      "teamId": "saints",
+      "headline": "Jordyn Tyson practices for the first time as a Saint",
+      "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
+      "date": "2026-11-04",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
+    },
+    {
+      "id": "239d188eca38",
+      "teamId": "texas",
+      "headline": "Texas running back Hollywood Smothers is out",
+      "summary": "Smothers had to leave Saturday's win over Mississippi State and will not play Saturday at Missouri. A report Wednesday said the team does not know when he will be back.",
+      "date": "2026-11-04",
+      "source": "Heavy",
+      "url": "https://heavy.com/sports/college-football/texas-longhorns/texas-hollywood-smothers-injury-update-missouri-no-timetable/"
+    },
+    {
+      "id": "d7aaac0ad6aa",
+      "teamId": "texas",
+      "headline": "Texas is 7th in the first playoff rankings",
+      "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Texas is 7th, and Missouri, the team the Longhorns play Saturday, is 18th.",
+      "date": "2026-11-03",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
+    },
+    {
+      "id": "64b1086b3082",
+      "teamId": "yankees",
+      "headline": "Lou Piniella is up for the Hall of Fame",
+      "summary": "Piniella won two World Series rings playing for the Yankees in 1977 and 1978 and later managed them. He is one of eight managers and executives put on a Hall of Fame ballot Monday, and the vote is announced December 6.",
+      "date": "2026-11-02",
+      "source": "National Baseball Hall of Fame",
+      "url": "https://baseballhall.org/news/contemporary-baseball-era-committee-candidates-announced-for-consideration-for-class-of-2027"
+    },
     {
       "id": "49e778878451",
       "teamId": "saints",

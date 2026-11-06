@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "teams": {
     "tulane": {
       "record": "4-4",
@@ -139,6 +139,24 @@
       },
       "news": [
         {
+          "id": "e4ef336c02cd",
+          "teamId": "texas",
+          "headline": "Hollywood Smothers is out for the rest of the season",
+          "summary": "Reports Thursday said the Texas running back tore a ligament in his knee and will not play again this year. He ran for 283 yards and two touchdowns, second most on the team.",
+          "date": "2026-11-05",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/"
+        },
+        {
+          "id": "8497429b4b46",
+          "teamId": "texas",
+          "headline": "Colin Simmons may play Saturday at Missouri",
+          "summary": "Texas listed its best defensive player as questionable on the conference injury report Wednesday night. He has missed the last two games with a sprained ankle, and the decision may not come until game time.",
+          "date": "2026-11-05",
+          "source": "247Sports",
+          "url": "https://247sports.com/college/texas/article/texas-injury-report-simmons-littleton-phillips-coleman-wingo-all-questionable-smothers-out-vs-missouri-292204056/"
+        },
+        {
           "id": "9ce0ff55dbe9",
           "teamId": "texas",
           "headline": "Colin Simmons is up for a national award",
@@ -146,24 +164,6 @@
           "date": "2026-11-04",
           "source": "Texas Athletics",
           "url": "https://texaslonghorns.com/news/2026/11/4/no-10-11-footballs-simmons-named-lombardi-award-semifinalist"
-        },
-        {
-          "id": "239d188eca38",
-          "teamId": "texas",
-          "headline": "Texas running back Hollywood Smothers is out",
-          "summary": "Smothers had to leave Saturday's win over Mississippi State and will not play Saturday at Missouri. A report Wednesday said the team does not know when he will be back.",
-          "date": "2026-11-04",
-          "source": "Heavy",
-          "url": "https://heavy.com/sports/college-football/texas-longhorns/texas-hollywood-smothers-injury-update-missouri-no-timetable/"
-        },
-        {
-          "id": "d7aaac0ad6aa",
-          "teamId": "texas",
-          "headline": "Texas is 7th in the first playoff rankings",
-          "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Texas is 7th, and Missouri, the team the Longhorns play Saturday, is 18th.",
-          "date": "2026-11-03",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "15c3abd90129",
+          "teamId": "saints",
+          "headline": "Alvin Kamara is back at practice for the Saints",
+          "summary": "Kamara sat out Wednesday's practice to rest his back and was back on the field Thursday, working on a limited basis. Running back C.J. Donaldson did not practice at all Thursday with a shoulder injury and a concussion.",
+          "date": "2026-11-05",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+        },
+        {
           "id": "e546c31acab4",
           "teamId": "saints",
           "headline": "Charlie Smyth will kick for the Saints on Sunday",
@@ -210,15 +219,6 @@
           "date": "2026-11-04",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
-        },
-        {
-          "id": "158c0ed2148f",
-          "teamId": "saints",
-          "headline": "Jordyn Tyson practices for the first time as a Saint",
-          "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
-          "date": "2026-11-04",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Memorial Field House. Five o'clock our time, six o'clock theirs. IUP has won eight matches in a row and is first in its half of the conference at 11-1, and it has already earned a spot in the conference tournament that starts November 9. Edinboro has won eleven matches and lost thirteen. The next night IUP hosts Gannon, which is second at 10-2. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the channel link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
+        "note": "Friday night home game at the Memorial Field House, and it is tonight. Five o'clock our time, six o'clock theirs. IUP has won eight matches in a row and is first in its half of the conference at 11-1, and it has already earned a spot in the conference tournament that starts November 9. Edinboro has won eleven matches and lost thirteen. Tomorrow night IUP hosts Gannon, which is second at 10-2. Every IUP volleyball game is on the free PSAC Sports Digital Network app, and it does not cost anything. Tap the channel link above on game day to watch tonight's match and tomorrow's. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
       },
       "lastGame": {
         "result": "W",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "2a9b39e4be3e",
+          "teamId": "yankees",
+          "headline": "Cody Bellinger is up for a Silver Slugger Award",
+          "summary": "Bellinger was named Thursday as one of nine American League outfielders in the running for the award that goes to the best hitter at each position. He was an All-Star this year and hit 17 home runs, and the winners are announced November 17.",
+          "date": "2026-11-05",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/2026-silver-slugger-award-finalists"
+        },
+        {
           "id": "9a70482f9582",
           "teamId": "yankees",
           "headline": "Cam Schlittler is a finalist for the Cy Young Award",
@@ -304,15 +313,6 @@
           "date": "2026-11-02",
           "source": "Pinstripe Alley",
           "url": "https://www.pinstripealley.com/yankees-news/213850/yankees-news-rumors-david-bednar-qualifying-offer-free-agency-jazz-chisholm"
-        },
-        {
-          "id": "64b1086b3082",
-          "teamId": "yankees",
-          "headline": "Lou Piniella is up for the Hall of Fame",
-          "summary": "Piniella won two World Series rings playing for the Yankees in 1977 and 1978 and later managed them. He is one of eight managers and executives put on a Hall of Fame ballot Monday, and the vote is announced December 6.",
-          "date": "2026-11-02",
-          "source": "National Baseball Hall of Fame",
-          "url": "https://baseballhall.org/news/contemporary-baseball-era-committee-candidates-announced-for-consideration-for-class-of-2027"
         }
       ]
     },
@@ -324,15 +324,7 @@
     },
     "warren-easton": {
       "record": "4-5",
-      "nextGame": {
-        "homeAway": "home",
-        "opponent": "Bonnabel",
-        "date": "2026-11-05",
-        "time": "7:00 PM",
-        "venue": "Tad Gormley Stadium",
-        "city": "New Orleans, LA",
-        "note": "Thursday night home game at Tad Gormley Stadium in City Park, and a district game. Seven o'clock kickoff. This game decides the district. Bonnabel has won six games and lost three and leads the district at 5-0. Warren Easton is 4-1 in the district and sits third, and a win here would pull the Eagles level with Bonnabel at the top."
-      },
+      "nextGame": null,
       "lastGame": {
         "result": "L",
         "teamScore": 18,

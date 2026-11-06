@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "158c0ed2148f",
+      "teamId": "saints",
+      "headline": "Jordyn Tyson practices for the first time as a Saint",
+      "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
+      "date": "2026-11-04",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
+    },
+    {
+      "id": "734be15034b9",
+      "teamId": "lsu",
+      "headline": "LSU linebacker Whit Weeks may play Saturday",
+      "summary": "Weeks has not played since he hurt his ankle in September and had surgery. The conference injury list on Wednesday moved him up to doubtful, the first sign he could be back for Alabama.",
+      "date": "2026-11-04",
+      "source": "247Sports",
+      "url": "https://247sports.com/college/tennessee/article/lsu-tigers-football-sec-availability-report-whit-weeks-lane-kiffin-alabama-ryan-coleman-williams-292203741/"
+    },
     {
       "id": "49e778878451",
       "teamId": "saints",

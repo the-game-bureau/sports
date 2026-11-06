@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "teams": {
     "saints": {
       "record": "2-5",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "15c3abd90129",
+          "teamId": "saints",
+          "headline": "Alvin Kamara is back at practice for the Saints",
+          "summary": "Kamara sat out Wednesday's practice to rest his back and was back on the field Thursday, working on a limited basis. Running back C.J. Donaldson did not practice at all Thursday with a shoulder injury and a concussion.",
+          "date": "2026-11-05",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+        },
+        {
           "id": "e546c31acab4",
           "teamId": "saints",
           "headline": "Charlie Smyth will kick for the Saints on Sunday",
@@ -45,15 +54,6 @@
           "date": "2026-11-04",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
-        },
-        {
-          "id": "158c0ed2148f",
-          "teamId": "saints",
-          "headline": "Jordyn Tyson practices for the first time as a Saint",
-          "summary": "Tyson was the Saints' first pick in the draft, but he hurt his hamstring in August and has not played a game yet. He practiced Wednesday for the first time, and coach Kellen Moore said later in the week he will decide whether Tyson plays Sunday against Cleveland.",
-          "date": "2026-11-04",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/rookie-receiver-jordyn-tyson-focused-on-making-nfl-debut-with-new-orleans-saints"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "43f0a24804d3",
+          "teamId": "lsu",
+          "headline": "Whit Weeks is now expected to miss the Alabama game",
+          "summary": "A CBS Sports reporter said Thursday that LSU does not expect its best linebacker to play Saturday. He broke a bone in his leg in late September, and the team had hoped he would be ready for this one.",
+          "date": "2026-11-05",
+          "source": "ClutchPoints",
+          "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-whit-weeks-miss-alabama-clash-working-back-leg-fracture"
+        },
+        {
           "id": "2cb8da626d5c",
           "teamId": "lsu",
           "headline": "Princewill Umanmielen is up for a national award",
@@ -146,15 +155,6 @@
           "date": "2026-11-04",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
-        },
-        {
-          "id": "734be15034b9",
-          "teamId": "lsu",
-          "headline": "LSU linebacker Whit Weeks may play Saturday",
-          "summary": "Weeks has not played since he hurt his ankle in September and had surgery. The conference injury list on Wednesday moved him up to doubtful, the first sign he could be back for Alabama.",
-          "date": "2026-11-04",
-          "source": "247Sports",
-          "url": "https://247sports.com/college/tennessee/article/lsu-tigers-football-sec-availability-report-whit-weeks-lane-kiffin-alabama-ryan-coleman-williams-292203741/"
         },
         {
           "id": "74f64cc5e5f2",
