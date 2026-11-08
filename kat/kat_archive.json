@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "e546c31acab4",
+      "teamId": "saints",
+      "headline": "Charlie Smyth will kick for the Saints on Sunday",
+      "summary": "Coach Kellen Moore said Wednesday that Smyth will handle the kicking against Cleveland. The Saints let their other kicker, Daniel Carlson, go on Tuesday.",
+      "date": "2026-11-05",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-gear-up-for-week-9-charlie-smyth-set-to-kick-sunday-new-orleans-news-headlines-11-5-2026"
+    },
     {
       "id": "15c3abd90129",
       "teamId": "saints",
@@ -14,6 +23,24 @@
       "date": "2026-11-05",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+    },
+    {
+      "id": "22d9491585be",
+      "teamId": "florida",
+      "headline": "Florida suspends a starting defensive lineman",
+      "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
+      "date": "2026-11-04",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
+    },
+    {
+      "id": "74f64cc5e5f2",
+      "teamId": "lsu",
+      "headline": "Sam Leavitt says his hamstring is healthy again",
+      "summary": "LSU's quarterback hurt it in September and had been running with the ball less because of it. He told reporters Tuesday that the week off let him run at full speed again, with Alabama coming to Baton Rouge Saturday.",
+      "date": "2026-11-04",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lsu-tigers-qb-sam-leavitt-151700279.html"
     },
     {
       "id": "158c0ed2148f",
@@ -43,6 +70,15 @@
       "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
     },
     {
+      "id": "eeeae30223cb",
+      "teamId": "florida",
+      "headline": "Florida is 24th in the first playoff rankings",
+      "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Florida is 24th, and Oklahoma, the team the Gators play Saturday, is not in the top 25.",
+      "date": "2026-11-03",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
+    },
+    {
       "id": "49e778878451",
       "teamId": "saints",
       "headline": "Mark Ingram and Terron Armstead enter the Saints Hall of Fame",
@@ -68,6 +104,15 @@
       "date": "2026-11-03",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
+    },
+    {
+      "id": "e1d49504cbce",
+      "teamId": "tulane",
+      "headline": "TJ Smith wins a conference award for his kickoff return",
+      "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
+      "date": "2026-11-02",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
     },
     {
       "id": "93692be44f3e",
@@ -149,6 +194,15 @@
       "date": "2026-10-31",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
+    },
+    {
+      "id": "b98215fb8e28",
+      "teamId": "tulane",
+      "headline": "Tulane beats Charlotte 38-31 in overtime",
+      "summary": "Tulane was behind by 10 points in the fourth quarter Friday night and tied the game with 10 seconds left. Dagan Bruno ran it in from the 1-yard line in overtime to win it, and the Green Wave are 4-4.",
+      "date": "2026-10-30",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
     },
     {
       "id": "3681205be9c2",

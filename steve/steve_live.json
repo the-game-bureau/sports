@@ -1,33 +1,51 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "teams": {
     "tulane": {
-      "record": "4-4",
+      "record": "4-5",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Tulsa Golden Hurricane",
-        "date": "2026-11-07",
-        "utc": "2026-11-07T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Rice Owls",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T19:00Z",
+        "time": "1:00 PM",
+        "venue": "First Community Stadium",
+        "city": "Houston, TX",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         },
-        "note": "Saturday morning home game at Yulman Stadium, and it is Homecoming. Eleven o'clock our time. Tulane has won four games and lost four, and so has Tulsa."
+        "note": "Saturday afternoon road game in Houston. One o'clock our time. Tulane has won four games and lost five. Rice has won four games and lost five too. Tulane needs two more wins to reach a bowl game."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 38,
-        "opponentScore": 31,
-        "opponent": "Charlotte 49ers",
-        "date": "2026-10-30"
+        "result": "L",
+        "teamScore": 10,
+        "opponentScore": 60,
+        "opponent": "Tulsa Golden Hurricane",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "d7ec9a510187",
+          "teamId": "tulane",
+          "headline": "Tulsa routs Tulane 60-10 at Homecoming",
+          "summary": "Tulsa led 32-0 at halftime and Tulane never got going, losing by 50 points in front of the Homecoming crowd at Yulman Stadium. It is the worst conference loss Tulane has ever had, and the Green Wave are now four wins and five losses.",
+          "date": "2026-11-07",
+          "source": "Fox 8",
+          "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
+        },
+        {
+          "id": "2824befc202b",
+          "teamId": "tulane",
+          "headline": "Tulane's athletic director calls the loss unacceptable",
+          "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
+          "date": "2026-11-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
+        },
         {
           "id": "50b08614156c",
           "teamId": "tulane",
@@ -36,53 +54,53 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
-        },
-        {
-          "id": "e1d49504cbce",
-          "teamId": "tulane",
-          "headline": "TJ Smith wins a conference award for his kickoff return",
-          "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
-          "date": "2026-11-02",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
-        },
-        {
-          "id": "b98215fb8e28",
-          "teamId": "tulane",
-          "headline": "Tulane beats Charlotte 38-31 in overtime",
-          "summary": "Tulane was behind by 10 points in the fourth quarter Friday night and tied the game with 10 seconds left. Dagan Bruno ran it in from the 1-yard line in overtime to win it, and the Green Wave are 4-4.",
-          "date": "2026-10-30",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
         }
       ]
     },
     "florida": {
-      "record": "5-3",
+      "record": "5-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Oklahoma Sooners",
-        "date": "2026-11-07",
-        "utc": "2026-11-08T00:45Z",
-        "time": "6:45 PM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Kentucky Wildcats",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T23:15Z",
+        "time": "5:15 PM",
+        "venue": "Kroger Field",
+        "city": "Lexington, KY",
         "tv": {
-          "name": "SEC Network",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Florida is 24th in the first playoff rankings. Oklahoma has won four games and lost four."
+        "note": "Saturday evening road game in Lexington, Kentucky. A quarter past five our time. Florida has won five games and lost four and needs one more win to reach a bowl game."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 8,
-        "opponentScore": 27,
-        "opponent": "Georgia Bulldogs",
-        "date": "2026-10-31"
+        "teamScore": 7,
+        "opponentScore": 23,
+        "opponent": "Oklahoma Sooners",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "a963378d3787",
+          "teamId": "florida",
+          "headline": "Oklahoma beats Florida 23-7 in Gainesville",
+          "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
+          "date": "2026-11-07",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
+        },
+        {
+          "id": "ed96a5bc9c19",
+          "teamId": "florida",
+          "headline": "Sumrall explains the fourth-down call that went wrong",
+          "summary": "Behind 13-7 late in the third quarter, Florida passed up a short field goal and threw on fourth down from the Oklahoma 17. Oklahoma caught the ball instead, and Coach Jon Sumrall said afterward his offense simply did not play well enough to win.",
+          "date": "2026-11-07",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/jon-sumrall-explains-4th-down-decision-in-gators-23-7-loss-to-sooners"
+        },
         {
           "id": "8c7837ec3be5",
           "teamId": "florida",
@@ -91,53 +109,44 @@
           "date": "2026-11-05",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma"
-        },
-        {
-          "id": "22d9491585be",
-          "teamId": "florida",
-          "headline": "Florida suspends a starting defensive lineman",
-          "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
-          "date": "2026-11-04",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
-        },
-        {
-          "id": "eeeae30223cb",
-          "teamId": "florida",
-          "headline": "Florida is 24th in the first playoff rankings",
-          "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Florida is 24th, and Oklahoma, the team the Gators play Saturday, is not in the top 25.",
-          "date": "2026-11-03",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
         }
       ]
     },
     "texas": {
-      "record": "6-2",
+      "record": "7-2",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Missouri Tigers",
-        "date": "2026-11-07",
-        "utc": "2026-11-07T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Memorial Stadium",
-        "city": "Columbia, MO",
+        "opponent": "LSU Tigers",
+        "date": "2026-11-14",
+        "utc": "2026-11-15T00:30Z",
+        "time": "6:30 PM",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ABC (WGNO 26)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning road game in Columbia, Missouri. Eleven o'clock our time. Texas is 7th in the first playoff rankings. Missouri is 18th in those rankings and has won six games and lost two."
+        "note": "Saturday night road game in Baton Rouge, about an hour up the road. Half past six our time. Texas has won seven games and lost two. LSU has won six and lost three."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 31,
-        "opponentScore": 3,
-        "opponent": "Mississippi State Bulldogs",
-        "date": "2026-10-31"
+        "teamScore": 34,
+        "opponentScore": 20,
+        "opponent": "Missouri Tigers",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "75fbf145250b",
+          "teamId": "texas",
+          "headline": "Texas beats Missouri 34-20 behind Arch Manning",
+          "summary": "Texas trailed most of the afternoon in Columbia and then scored 21 points in a row to win. Arch Manning completed 28 of his 38 passes for 297 yards and three touchdowns and did not throw an interception.",
+          "date": "2026-11-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/college-football/breaking-news/article/no-7-texas-takes-advantage-of-controversial-arch-manning-fumble-and-scores-21-straight-to-beat-no-18-missouri-34-20-204353800.html"
+        },
         {
           "id": "e4ef336c02cd",
           "teamId": "texas",
@@ -155,20 +164,11 @@
           "date": "2026-11-05",
           "source": "247Sports",
           "url": "https://247sports.com/college/texas/article/texas-injury-report-simmons-littleton-phillips-coleman-wingo-all-questionable-smothers-out-vs-missouri-292204056/"
-        },
-        {
-          "id": "9ce0ff55dbe9",
-          "teamId": "texas",
-          "headline": "Colin Simmons is up for a national award",
-          "summary": "Texas said Wednesday that Simmons is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. He leads all of college football with ten and a half sacks even though he has missed the last two games hurt.",
-          "date": "2026-11-04",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/11/4/no-10-11-footballs-simmons-named-lombardi-award-semifinalist"
         }
       ]
     },
     "saints": {
-      "record": "2-5",
+      "record": "3-5",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Cleveland Browns",
@@ -183,16 +183,25 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh last Sunday and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. It was today at noon, and the Saints won 23-22 in overtime. They were behind 13-9 with a minute to go, scored to take the lead, gave up a tying field goal with eight seconds left, then won it in overtime."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 10,
-        "opponentScore": 16,
-        "opponent": "Pittsburgh Steelers",
-        "date": "2026-10-25"
+        "result": "W",
+        "teamScore": 23,
+        "opponentScore": 22,
+        "opponent": "Cleveland Browns",
+        "date": "2026-11-08"
       },
       "news": [
+        {
+          "id": "3d4942d2c664",
+          "teamId": "saints",
+          "headline": "Saints beat Cleveland 23-22 in overtime",
+          "summary": "Tyler Shough threw a 15-yard touchdown to Juwan Johnson in overtime, and the Saints held on when Cleveland scored at the very end but missed its two-point try. It is the Saints' first home win of the season, and they are now three wins and five losses.",
+          "date": "2026-11-08",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
+        },
         {
           "id": "e4c642242756",
           "teamId": "saints",
@@ -210,24 +219,15 @@
           "date": "2026-11-06",
           "source": "WWL",
           "url": "https://www.audacy.com/wwl/local-sports/saints/saints-rule-out-a-rb-for-week-9-shedeur-sanders-will-start-for-browns"
-        },
-        {
-          "id": "e546c31acab4",
-          "teamId": "saints",
-          "headline": "Charlie Smyth will kick for the Saints on Sunday",
-          "summary": "Coach Kellen Moore said Wednesday that Smyth will handle the kicking against Cleveland. The Saints let their other kicker, Daniel Carlson, go on Tuesday.",
-          "date": "2026-11-05",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-gear-up-for-week-9-charlie-smyth-set-to-kick-sunday-new-orleans-news-headlines-11-5-2026"
         }
       ]
     },
     "iup": {
-      "record": "20-4",
+      "record": "21-5",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Edinboro",
-        "date": "2026-11-06",
+        "opponent": "the winner of East Stroudsburg and Kutztown",
+        "date": "2026-11-11",
         "time": "5:00 PM",
         "venue": "Memorial Field House",
         "city": "Indiana, PA",
@@ -237,42 +237,42 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Friday night home game at the Memorial Field House, and it is tonight. Five o'clock our time, six o'clock theirs. IUP has won eight matches in a row and is first in its half of the conference at 11-1, and it has already earned a spot in the conference tournament that starts November 9. Edinboro has won eleven matches and lost thirteen. Tomorrow night IUP hosts Gannon, which is second at 10-2. Every IUP volleyball game is on the free PSAC Sports Digital Network app, and it does not cost anything. Tap the channel link above on game day to watch tonight's match and tomorrow's. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser."
+        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. IUP finished first in its half of the conference, so it gets to play at home. East Stroudsburg and Kutztown play each other first, and whoever wins comes to Indiana. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it plays again Saturday, and the title match is Sunday."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "California (Pa.)",
-        "date": "2026-10-31"
+        "result": "L",
+        "teamScore": 1,
+        "opponentScore": 3,
+        "opponent": "Gannon",
+        "date": "2026-11-07"
       },
       "news": [
         {
-          "id": "b37a4deb8d48",
+          "id": "b00ada9e6a6f",
           "teamId": "iup",
-          "headline": "IUP's Jessica Neiman wins a conference weekly award",
-          "summary": "The conference named Neiman its West Division athlete of the week on Monday. She had 32 kills in IUP's two wins last weekend, 17 against Pitt-Johnstown and 15 at California.",
-          "date": "2026-11-02",
+          "headline": "Peyton Belcher had 6 kills against Gannon",
+          "summary": "Peyton was back on the court Saturday night for the first time since October 23. She played three of the four sets and had 6 kills on 23 swings with 3 errors, plus a block at the net.",
+          "date": "2026-11-07",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/gannon/boxscore/15045"
+        },
+        {
+          "id": "388e74385eb1",
+          "teamId": "iup",
+          "headline": "IUP finishes first in its half of the conference",
+          "summary": "IUP won 12 of its 14 conference matches, one more than Gannon, and finished on top. That earns the Crimson Hawks a home playoff match on Wednesday night.",
+          "date": "2026-11-07",
           "source": "PSAC",
-          "url": "https://psacsports.org/news/2026/11/2/psac-womens-volleyball-athletes-of-the-week-10.aspx"
+          "url": "https://psacsports.org/standings.aspx?path=wvball"
         },
         {
-          "id": "96de3859f4d6",
+          "id": "58c135d0a00b",
           "teamId": "iup",
-          "headline": "IUP volleyball is second in its region",
-          "summary": "The newest national numbers put IUP second in the Atlantic Region, behind only Gannon. Those numbers help decide who gets into the national tournament, and IUP hosts Gannon on Saturday.",
-          "date": "2026-11-02",
+          "headline": "Gannon beats IUP in four sets",
+          "summary": "IUP won the first set 27-25 and then lost the next three to end the regular season. The Crimson Hawks finished with 21 wins and 5 losses.",
+          "date": "2026-11-07",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/2/womens-volleyball-iup-volleyball-remains-no-2-in-atlantic-region-in-latest-ncaa-npi-rankings.aspx"
-        },
-        {
-          "id": "c826a05190fe",
-          "teamId": "iup",
-          "headline": "Peyton Belcher helps block three balls against Clarion",
-          "summary": "Peyton played three of the four sets in Friday's win over Clarion and was in on three blocks. She had 3 kills on 14 swings with 4 errors.",
-          "date": "2026-10-23",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/clarion/boxscore/15040"
+          "url": "https://iupathletics.com/news/2026/11/7/womens-volleyball-iup-volleyball-falls-to-gannon-in-four-sets-to-close-regular-season.aspx"
         }
       ]
     },
@@ -287,6 +287,15 @@
         "date": "2026-10-07"
       },
       "news": [
+        {
+          "id": "1c4e1205e69c",
+          "teamId": "yankees",
+          "headline": "Cody Bellinger wins the Platinum Glove",
+          "summary": "Bellinger won the Platinum Glove, which goes to the best fielder in the American League. He also won a Gold Glove for left field after saving 21 runs with his defense, more than any other left fielder in the league.",
+          "date": "2026-11-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/yankees-news-cody-bellinger-wins-050000964.html"
+        },
         {
           "id": "2a9b39e4be3e",
           "teamId": "yankees",
@@ -304,15 +313,6 @@
           "date": "2026-11-03",
           "source": "MLB.com",
           "url": "https://www.mlb.com/yankees/news/cam-schlittler-2026-al-cy-young-award-finalist"
-        },
-        {
-          "id": "83fdf45eedbe",
-          "teamId": "yankees",
-          "headline": "Yankees make a big offer to keep David Bednar",
-          "summary": "The Yankees offered their closer a one-year deal worth $23.15 million on Monday, and he has until November 17 to take it or turn it down. They made no such offer to second baseman Jazz Chisholm, who can now sign with any team.",
-          "date": "2026-11-02",
-          "source": "Pinstripe Alley",
-          "url": "https://www.pinstripealley.com/yankees-news/213850/yankees-news-rumors-david-bednar-qualifying-offer-free-agency-jazz-chisholm"
         }
       ]
     },
@@ -324,7 +324,13 @@
     },
     "warren-easton": {
       "record": "4-6",
-      "nextGame": null,
+      "nextGame": {
+        "homeAway": "away",
+        "opponent": "Evangel",
+        "venue": "Evangel Christian Academy",
+        "city": "Shreveport, LA",
+        "note": "First round of the state playoffs, on the road in Shreveport. That is a long drive, about five hours from New Orleans. Warren Easton is the 21st seed and Evangel is the 12th. The day and the kickoff time have not been set yet. First-round games are played Thursday, Friday or Saturday this week."
+      },
       "lastGame": {
         "result": "L",
         "teamScore": 28,
@@ -333,6 +339,15 @@
         "date": "2026-11-05"
       },
       "news": [
+        {
+          "id": "91ef82729766",
+          "teamId": "warren-easton",
+          "headline": "Warren Easton makes the playoffs and will travel to Shreveport",
+          "summary": "The state playoff brackets came out Sunday. Warren Easton is the 21st seed and plays at Evangel in Shreveport, which is the 12th seed.",
+          "date": "2026-11-08",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/heres-where-school-set-2026-201936486.html"
+        },
         {
           "id": "99e4596ad7af",
           "teamId": "warren-easton",
@@ -350,15 +365,6 @@
           "date": "2026-10-29",
           "source": "MaxPreps",
           "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
-        },
-        {
-          "id": "98d0e962e687",
-          "teamId": "warren-easton",
-          "headline": "Warren Easton shuts out West Jefferson 44-0",
-          "summary": "The Eagles won at home Saturday afternoon for their fourth win in a row. Warren Easton is 4-4 and has won all four of its district games.",
-          "date": "2026-10-24",
-          "source": "MaxPreps",
-          "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-west-jefferson-harvey/10-24-2026/?c=762b8881-6057-4239-996c-99f8aadd984a"
         }
       ]
     }

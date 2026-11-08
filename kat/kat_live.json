@@ -1,9 +1,9 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "teams": {
     "saints": {
-      "record": "2-5",
+      "record": "3-5",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Cleveland Browns",
@@ -18,16 +18,25 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Cleveland. Noon our time, and it is this coming Sunday. The Saints had last weekend off. Cleveland lost 27-6 at Pittsburgh last Sunday and has won five games and lost three."
+        "note": "Sunday home game in the Superdome against Cleveland. It was today at noon, and the Saints won 23-22 in overtime. They were behind 13-9 with a minute to go, scored to take the lead, gave up a tying field goal with eight seconds left, then won it in overtime."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 10,
-        "opponentScore": 16,
-        "opponent": "Pittsburgh Steelers",
-        "date": "2026-10-25"
+        "result": "W",
+        "teamScore": 23,
+        "opponentScore": 22,
+        "opponent": "Cleveland Browns",
+        "date": "2026-11-08"
       },
       "news": [
+        {
+          "id": "3d4942d2c664",
+          "teamId": "saints",
+          "headline": "Saints beat Cleveland 23-22 in overtime",
+          "summary": "Tyler Shough threw a 15-yard touchdown to Juwan Johnson in overtime, and the Saints held on when Cleveland scored at the very end but missed its two-point try. It is the Saints' first home win of the season, and they are now three wins and five losses.",
+          "date": "2026-11-08",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
+        },
         {
           "id": "e4c642242756",
           "teamId": "saints",
@@ -45,44 +54,53 @@
           "date": "2026-11-06",
           "source": "WWL",
           "url": "https://www.audacy.com/wwl/local-sports/saints/saints-rule-out-a-rb-for-week-9-shedeur-sanders-will-start-for-browns"
-        },
-        {
-          "id": "e546c31acab4",
-          "teamId": "saints",
-          "headline": "Charlie Smyth will kick for the Saints on Sunday",
-          "summary": "Coach Kellen Moore said Wednesday that Smyth will handle the kicking against Cleveland. The Saints let their other kicker, Daniel Carlson, go on Tuesday.",
-          "date": "2026-11-05",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-gear-up-for-week-9-charlie-smyth-set-to-kick-sunday-new-orleans-news-headlines-11-5-2026"
         }
       ]
     },
     "florida": {
-      "record": "5-3",
+      "record": "5-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Oklahoma Sooners",
-        "date": "2026-11-07",
-        "utc": "2026-11-08T00:45Z",
-        "time": "6:45 PM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Kentucky Wildcats",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T23:15Z",
+        "time": "5:15 PM",
+        "venue": "Kroger Field",
+        "city": "Lexington, KY",
         "tv": {
-          "name": "SEC Network",
-          "logo": "",
+          "name": "ESPN",
+          "logo": "images/espn.webp",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Gainesville. A quarter to seven our time. Florida is 24th in the first playoff rankings. Oklahoma has won four games and lost four."
+        "note": "Saturday evening road game in Lexington, Kentucky. A quarter past five our time. Florida has won five games and lost four and needs one more win to reach a bowl game."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 8,
-        "opponentScore": 27,
-        "opponent": "Georgia Bulldogs",
-        "date": "2026-10-31"
+        "teamScore": 7,
+        "opponentScore": 23,
+        "opponent": "Oklahoma Sooners",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "a963378d3787",
+          "teamId": "florida",
+          "headline": "Oklahoma beats Florida 23-7 in Gainesville",
+          "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
+          "date": "2026-11-07",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
+        },
+        {
+          "id": "ed96a5bc9c19",
+          "teamId": "florida",
+          "headline": "Sumrall explains the fourth-down call that went wrong",
+          "summary": "Behind 13-7 late in the third quarter, Florida passed up a short field goal and threw on fourth down from the Oklahoma 17. Oklahoma caught the ball instead, and Coach Jon Sumrall said afterward his offense simply did not play well enough to win.",
+          "date": "2026-11-07",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/jon-sumrall-explains-4th-down-decision-in-gators-23-7-loss-to-sooners"
+        },
         {
           "id": "8c7837ec3be5",
           "teamId": "florida",
@@ -91,35 +109,17 @@
           "date": "2026-11-05",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma"
-        },
-        {
-          "id": "22d9491585be",
-          "teamId": "florida",
-          "headline": "Florida suspends a starting defensive lineman",
-          "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
-          "date": "2026-11-04",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
-        },
-        {
-          "id": "eeeae30223cb",
-          "teamId": "florida",
-          "headline": "Florida is 24th in the first playoff rankings",
-          "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Florida is 24th, and Oklahoma, the team the Gators play Saturday, is not in the top 25.",
-          "date": "2026-11-03",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
         }
       ]
     },
     "lsu": {
-      "record": "6-2",
+      "record": "6-3",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "Alabama Crimson Tide",
-        "date": "2026-11-07",
-        "utc": "2026-11-07T20:30Z",
-        "time": "2:30 PM",
+        "opponent": "Texas Longhorns",
+        "date": "2026-11-14",
+        "utc": "2026-11-15T00:30Z",
+        "time": "6:30 PM",
         "venue": "Tiger Stadium",
         "city": "Baton Rouge, LA",
         "tv": {
@@ -128,16 +128,25 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon home game against Alabama in Baton Rouge. Half past two our time, and it is this coming Saturday. LSU had last Saturday off. LSU is 14th in the first playoff rankings and Alabama is 5th. Alabama has won six games and lost two."
+        "note": "Saturday night home game in Baton Rouge. Half past six our time. LSU has won six games and lost three. Texas has won seven and lost two."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 38,
-        "opponentScore": 17,
-        "opponent": "Auburn Tigers",
-        "date": "2026-10-24"
+        "result": "L",
+        "teamScore": 13,
+        "opponentScore": 31,
+        "opponent": "Alabama Crimson Tide",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "b14ca72f4ac5",
+          "teamId": "lsu",
+          "headline": "Alabama beats LSU 31-13 in Tiger Stadium",
+          "summary": "Sam Leavitt threw for 380 yards, but LSU missed on all four of its fourth-down tries and scored only 13 points. The Tigers are now six wins and three losses.",
+          "date": "2026-11-07",
+          "source": "WAFB",
+          "url": "https://www.wafb.com/2026/11/08/alabama-defeats-lsu-tiger-stadium-31-13/"
+        },
         {
           "id": "43f0a24804d3",
           "teamId": "lsu",
@@ -155,44 +164,53 @@
           "date": "2026-11-04",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
-        },
-        {
-          "id": "74f64cc5e5f2",
-          "teamId": "lsu",
-          "headline": "Sam Leavitt says his hamstring is healthy again",
-          "summary": "LSU's quarterback hurt it in September and had been running with the ball less because of it. He told reporters Tuesday that the week off let him run at full speed again, with Alabama coming to Baton Rouge Saturday.",
-          "date": "2026-11-04",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lsu-tigers-qb-sam-leavitt-151700279.html"
         }
       ]
     },
     "tulane": {
-      "record": "4-4",
+      "record": "4-5",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Tulsa Golden Hurricane",
-        "date": "2026-11-07",
-        "utc": "2026-11-07T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "Rice Owls",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T19:00Z",
+        "time": "1:00 PM",
+        "venue": "First Community Stadium",
+        "city": "Houston, TX",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         },
-        "note": "Saturday morning home game at Yulman Stadium, and it is Homecoming. Eleven o'clock our time. Tulane has won four games and lost four, and so has Tulsa."
+        "note": "Saturday afternoon road game in Houston. One o'clock our time. Tulane has won four games and lost five. Rice has won four games and lost five too. Tulane needs two more wins to reach a bowl game."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 38,
-        "opponentScore": 31,
-        "opponent": "Charlotte 49ers",
-        "date": "2026-10-30"
+        "result": "L",
+        "teamScore": 10,
+        "opponentScore": 60,
+        "opponent": "Tulsa Golden Hurricane",
+        "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "d7ec9a510187",
+          "teamId": "tulane",
+          "headline": "Tulsa routs Tulane 60-10 at Homecoming",
+          "summary": "Tulsa led 32-0 at halftime and Tulane never got going, losing by 50 points in front of the Homecoming crowd at Yulman Stadium. It is the worst conference loss Tulane has ever had, and the Green Wave are now four wins and five losses.",
+          "date": "2026-11-07",
+          "source": "Fox 8",
+          "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
+        },
+        {
+          "id": "2824befc202b",
+          "teamId": "tulane",
+          "headline": "Tulane's athletic director calls the loss unacceptable",
+          "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
+          "date": "2026-11-07",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
+        },
         {
           "id": "50b08614156c",
           "teamId": "tulane",
@@ -201,24 +219,6 @@
           "date": "2026-11-03",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
-        },
-        {
-          "id": "e1d49504cbce",
-          "teamId": "tulane",
-          "headline": "TJ Smith wins a conference award for his kickoff return",
-          "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
-          "date": "2026-11-02",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
-        },
-        {
-          "id": "b98215fb8e28",
-          "teamId": "tulane",
-          "headline": "Tulane beats Charlotte 38-31 in overtime",
-          "summary": "Tulane was behind by 10 points in the fourth quarter Friday night and tied the game with 10 seconds left. Dagan Bruno ran it in from the 1-yard line in overtime to win it, and the Green Wave are 4-4.",
-          "date": "2026-10-30",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
         }
       ]
     }

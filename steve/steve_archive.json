@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "e546c31acab4",
+      "teamId": "saints",
+      "headline": "Charlie Smyth will kick for the Saints on Sunday",
+      "summary": "Coach Kellen Moore said Wednesday that Smyth will handle the kicking against Cleveland. The Saints let their other kicker, Daniel Carlson, go on Tuesday.",
+      "date": "2026-11-05",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-gear-up-for-week-9-charlie-smyth-set-to-kick-sunday-new-orleans-news-headlines-11-5-2026"
+    },
     {
       "id": "15c3abd90129",
       "teamId": "saints",
@@ -14,6 +23,24 @@
       "date": "2026-11-05",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+    },
+    {
+      "id": "22d9491585be",
+      "teamId": "florida",
+      "headline": "Florida suspends a starting defensive lineman",
+      "summary": "The school said Wednesday that Jeramiah McCloud will sit out Saturday's game against Oklahoma, and gave his conduct as the reason. He has 22 tackles this season, and Florida will look at his case again after the game.",
+      "date": "2026-11-04",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/florida-starting-defender-suspended-for-saturdays-game-against-oklahoma/"
+    },
+    {
+      "id": "9ce0ff55dbe9",
+      "teamId": "texas",
+      "headline": "Colin Simmons is up for a national award",
+      "summary": "Texas said Wednesday that Simmons is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. He leads all of college football with ten and a half sacks even though he has missed the last two games hurt.",
+      "date": "2026-11-04",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/4/no-10-11-footballs-simmons-named-lombardi-award-semifinalist"
     },
     {
       "id": "158c0ed2148f",
@@ -43,6 +70,15 @@
       "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
     },
     {
+      "id": "eeeae30223cb",
+      "teamId": "florida",
+      "headline": "Florida is 24th in the first playoff rankings",
+      "summary": "The committee that picks the playoff teams put out its first rankings Tuesday night. Florida is 24th, and Oklahoma, the team the Gators play Saturday, is not in the top 25.",
+      "date": "2026-11-03",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
+    },
+    {
       "id": "d7aaac0ad6aa",
       "teamId": "texas",
       "headline": "Texas is 7th in the first playoff rankings",
@@ -50,15 +86,6 @@
       "date": "2026-11-03",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/miami-no-1-lsu-no-14-in-first-cfp-rankings/"
-    },
-    {
-      "id": "64b1086b3082",
-      "teamId": "yankees",
-      "headline": "Lou Piniella is up for the Hall of Fame",
-      "summary": "Piniella won two World Series rings playing for the Yankees in 1977 and 1978 and later managed them. He is one of eight managers and executives put on a Hall of Fame ballot Monday, and the vote is announced December 6.",
-      "date": "2026-11-02",
-      "source": "National Baseball Hall of Fame",
-      "url": "https://baseballhall.org/news/contemporary-baseball-era-committee-candidates-announced-for-consideration-for-class-of-2027"
     },
     {
       "id": "49e778878451",
@@ -77,6 +104,51 @@
       "date": "2026-11-03",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/saints-awarded-rb-audric-estime-waivers-terminate-k-daniel-carlson-roster-moves-11-3-2026"
+    },
+    {
+      "id": "e1d49504cbce",
+      "teamId": "tulane",
+      "headline": "TJ Smith wins a conference award for his kickoff return",
+      "summary": "The American Conference named Smith its special teams player of the week on Monday. He ran a kickoff back 95 yards for a touchdown at Charlotte with Tulane losing 10-7, the longest kickoff return by a Tulane player in two years.",
+      "date": "2026-11-02",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/2/footballs-tj-smith-and-dickson-agu-honored-by-the-american-conference"
+    },
+    {
+      "id": "b37a4deb8d48",
+      "teamId": "iup",
+      "headline": "IUP's Jessica Neiman wins a conference weekly award",
+      "summary": "The conference named Neiman its West Division athlete of the week on Monday. She had 32 kills in IUP's two wins last weekend, 17 against Pitt-Johnstown and 15 at California.",
+      "date": "2026-11-02",
+      "source": "PSAC",
+      "url": "https://psacsports.org/news/2026/11/2/psac-womens-volleyball-athletes-of-the-week-10.aspx"
+    },
+    {
+      "id": "96de3859f4d6",
+      "teamId": "iup",
+      "headline": "IUP volleyball is second in its region",
+      "summary": "The newest national numbers put IUP second in the Atlantic Region, behind only Gannon. Those numbers help decide who gets into the national tournament, and IUP hosts Gannon on Saturday.",
+      "date": "2026-11-02",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/2/womens-volleyball-iup-volleyball-remains-no-2-in-atlantic-region-in-latest-ncaa-npi-rankings.aspx"
+    },
+    {
+      "id": "83fdf45eedbe",
+      "teamId": "yankees",
+      "headline": "Yankees make a big offer to keep David Bednar",
+      "summary": "The Yankees offered their closer a one-year deal worth $23.15 million on Monday, and he has until November 17 to take it or turn it down. They made no such offer to second baseman Jazz Chisholm, who can now sign with any team.",
+      "date": "2026-11-02",
+      "source": "Pinstripe Alley",
+      "url": "https://www.pinstripealley.com/yankees-news/213850/yankees-news-rumors-david-bednar-qualifying-offer-free-agency-jazz-chisholm"
+    },
+    {
+      "id": "64b1086b3082",
+      "teamId": "yankees",
+      "headline": "Lou Piniella is up for the Hall of Fame",
+      "summary": "Piniella won two World Series rings playing for the Yankees in 1977 and 1978 and later managed them. He is one of eight managers and executives put on a Hall of Fame ballot Monday, and the vote is announced December 6.",
+      "date": "2026-11-02",
+      "source": "National Baseball Hall of Fame",
+      "url": "https://baseballhall.org/news/contemporary-baseball-era-committee-candidates-announced-for-consideration-for-class-of-2027"
     },
     {
       "id": "93692be44f3e",
@@ -194,6 +266,15 @@
       "date": "2026-10-31",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
+    },
+    {
+      "id": "b98215fb8e28",
+      "teamId": "tulane",
+      "headline": "Tulane beats Charlotte 38-31 in overtime",
+      "summary": "Tulane was behind by 10 points in the fourth quarter Friday night and tied the game with 10 seconds left. Dagan Bruno ran it in from the 1-yard line in overtime to win it, and the Green Wave are 4-4.",
+      "date": "2026-10-30",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-rescues-season-on-the-brink-rallies-to-stun-charlotte-in-overtime/"
     },
     {
       "id": "3681205be9c2",
@@ -439,6 +520,15 @@
       "url": "https://www.neworleanssaints.com/news/saints-fail-to-take-advantage-of-good-fortune-drop-16-10-decision-to-steelers-in-paris"
     },
     {
+      "id": "98d0e962e687",
+      "teamId": "warren-easton",
+      "headline": "Warren Easton shuts out West Jefferson 44-0",
+      "summary": "The Eagles won at home Saturday afternoon for their fourth win in a row. Warren Easton is 4-4 and has won all four of its district games.",
+      "date": "2026-10-24",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/football/game/warren-easton-fighting-eagles-new-orleans-vs-west-jefferson-harvey/10-24-2026/?c=762b8881-6057-4239-996c-99f8aadd984a"
+    },
+    {
       "id": "0e4df6578860",
       "teamId": "tulane",
       "headline": "UTSA beats Tulane 42-19",
@@ -473,6 +563,15 @@
       "date": "2026-10-24",
       "source": "ESPN",
       "url": "https://www.espn.com/college-football/recap/_/gameId/401856732"
+    },
+    {
+      "id": "c826a05190fe",
+      "teamId": "iup",
+      "headline": "Peyton Belcher helps block three balls against Clarion",
+      "summary": "Peyton played three of the four sets in Friday's win over Clarion and was in on three blocks. She had 3 kills on 14 swings with 4 errors.",
+      "date": "2026-10-23",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/clarion/boxscore/15040"
     },
     {
       "id": "3643ddd5b204",
