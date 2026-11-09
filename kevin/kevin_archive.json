@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "cfe68fa7ca32",
+      "teamId": "saints",
+      "headline": "Cleveland rules out Deshaun Watson for Sunday",
+      "summary": "Browns coach Todd Monken said Friday that his quarterback will not play in the Superdome because of a concussion. Rookie Shedeur Sanders will start against the Saints instead.",
+      "date": "2026-11-06",
+      "source": "WWL",
+      "url": "https://www.audacy.com/wwl/local-sports/saints/saints-rule-out-a-rb-for-week-9-shedeur-sanders-will-start-for-browns"
+    },
+    {
+      "id": "e4c642242756",
+      "teamId": "saints",
+      "headline": "Alvin Kamara is set to play Sunday",
+      "summary": "Kamara practiced in full on Friday and the Saints gave him no injury designation for the Cleveland game, after he rested his back on Wednesday. Running back C.J. Donaldson is out with a shoulder injury and a concussion, and rookie receiver Jordyn Tyson is questionable for what would be his first NFL game.",
+      "date": "2026-11-06",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-friday"
+    },
+    {
+      "id": "8c7837ec3be5",
+      "teamId": "florida",
+      "headline": "Florida plans to start Tramell Jones at quarterback",
+      "summary": "ESPN reported Thursday that Jones will start Saturday night against Oklahoma instead of Aaron Philo. Florida has not announced it, and Philo was pulled from the Georgia game after two interceptions.",
+      "date": "2026-11-05",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma"
+    },
     {
       "id": "e546c31acab4",
       "teamId": "saints",
