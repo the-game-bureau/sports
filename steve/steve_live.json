@@ -18,7 +18,7 @@
           "url": "",
           "note": "On ESPN Unlimited (comes with YouTube TV)"
         },
-        "note": "Saturday afternoon road game in Houston. One o'clock our time. Tulane has won four games and lost five. Rice has won four games and lost five too. Tulane needs two more wins to reach a bowl game."
+        "note": "Saturday afternoon road game in Houston. One o'clock our time. Tulane has won four games and lost five. Rice has won one game and lost eight. Tulane needs to win two of its last three games to reach a bowl game."
       },
       "lastGame": {
         "result": "L",
@@ -28,6 +28,15 @@
         "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "b380baf40370",
+          "teamId": "tulane",
+          "headline": "Tulane's coach takes the blame for the 60-10 loss",
+          "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
+          "date": "2026-11-08",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
+        },
         {
           "id": "d7ec9a510187",
           "teamId": "tulane",
@@ -45,15 +54,6 @@
           "date": "2026-11-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
-        },
-        {
-          "id": "50b08614156c",
-          "teamId": "tulane",
-          "headline": "Tulane punter William Hudlow is up for a national award",
-          "summary": "Hudlow is one of 65 players nominated for the Burlsworth Trophy, which goes to the best player who started college without a scholarship. He averages 47 yards a punt, the best in his conference.",
-          "date": "2026-11-03",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday evening road game in Lexington, Kentucky. A quarter past five our time. Florida has won five games and lost four and needs one more win to reach a bowl game."
+        "note": "Saturday evening road game in Lexington, Kentucky. A quarter past five our time. Florida has won five games and lost four and needs one more win to reach a bowl game. Kentucky has won seven games and lost two."
       },
       "lastGame": {
         "result": "L",
@@ -83,6 +83,15 @@
         "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "e656267dc6cd",
+          "teamId": "florida",
+          "headline": "Florida has not picked a quarterback for Kentucky",
+          "summary": "Coach Jon Sumrall said Monday that both of his quarterbacks practiced and that one of them will start Saturday, but he did not say which one. He also said Jeramiah McCloud, who was suspended for the Oklahoma game, is back and should play.",
+          "date": "2026-11-09",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
+        },
         {
           "id": "808191375a02",
           "teamId": "florida",
@@ -100,15 +109,6 @@
           "date": "2026-11-07",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
-        },
-        {
-          "id": "ed96a5bc9c19",
-          "teamId": "florida",
-          "headline": "Sumrall explains the fourth-down call that went wrong",
-          "summary": "Behind 13-7 late in the third quarter, Florida passed up a short field goal and threw on fourth down from the Oklahoma 17. Oklahoma caught the ball instead, and Coach Jon Sumrall said afterward his offense simply did not play well enough to win.",
-          "date": "2026-11-07",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/jon-sumrall-explains-4th-down-decision-in-gators-23-7-loss-to-sooners"
         }
       ]
     },
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "e8add8947ca4",
+          "teamId": "saints",
+          "headline": "Erik McCoy will miss time with his arm injury",
+          "summary": "Coach Kellen Moore said Monday that his center hurt his biceps against Cleveland and will be out for a while, but that he does not think McCoy needs surgery. Will Sherman took over at center on Sunday and is expected to keep the job.",
+          "date": "2026-11-09",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-09/moore-mccoy-to-miss-time-with-bicep-injury"
+        },
+        {
           "id": "3d4942d2c664",
           "teamId": "saints",
           "headline": "Saints beat Cleveland 23-22 in overtime",
@@ -210,15 +219,6 @@
           "date": "2026-11-08",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
-        },
-        {
-          "id": "ae1fb0065511",
-          "teamId": "saints",
-          "headline": "Center Erik McCoy hurt his arm on Sunday",
-          "summary": "McCoy hurt his biceps against Cleveland and did not come back for the end of the game. Coach Kellen Moore said the team would know more once the tests came back.",
-          "date": "2026-11-08",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. IUP finished first in its half of the conference, so it gets to play at home. East Stroudsburg and Kutztown play each other first, and whoever wins comes to Indiana. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it plays again Saturday, and the title match is Sunday."
+        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. IUP finished first in its half of the conference, so it gets to play at home. East Stroudsburg and Kutztown play each other tonight in East Stroudsburg, and whoever wins comes to Indiana. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it plays again Saturday, and the title match is Sunday."
       },
       "lastGame": {
         "result": "L",
@@ -329,7 +329,9 @@
         "opponent": "Evangel",
         "venue": "Evangel Christian Academy",
         "city": "Shreveport, LA",
-        "note": "First round of the state playoffs, on the road in Shreveport. That is a long drive, about five hours from New Orleans. Warren Easton is the 21st seed and Evangel is the 12th. The day and the kickoff time have not been set yet. First-round games are played Thursday, Friday or Saturday this week."
+        "note": "First round of the state playoffs on Friday night, on the road in Shreveport. Kickoff is seven o'clock. That is a long drive, about five hours from New Orleans. Warren Easton is the 21st seed and Evangel is the 12th. Evangel has won six games and lost four.",
+        "date": "2026-11-13",
+        "time": "7:00 PM"
       },
       "lastGame": {
         "result": "L",

@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "ae1fb0065511",
+      "teamId": "saints",
+      "headline": "Center Erik McCoy hurt his arm on Sunday",
+      "summary": "McCoy hurt his biceps against Cleveland and did not come back for the end of the game. Coach Kellen Moore said the team would know more once the tests came back.",
+      "date": "2026-11-08",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "ed96a5bc9c19",
+      "teamId": "florida",
+      "headline": "Sumrall explains the fourth-down call that went wrong",
+      "summary": "Behind 13-7 late in the third quarter, Florida passed up a short field goal and threw on fourth down from the Oklahoma 17. Oklahoma caught the ball instead, and Coach Jon Sumrall said afterward his offense simply did not play well enough to win.",
+      "date": "2026-11-07",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/jon-sumrall-explains-4th-down-decision-in-gators-23-7-loss-to-sooners"
+    },
+    {
       "id": "cfe68fa7ca32",
       "teamId": "saints",
       "headline": "Cleveland rules out Deshaun Watson for Sunday",
@@ -104,6 +122,15 @@
       "date": "2026-11-04",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
+    },
+    {
+      "id": "50b08614156c",
+      "teamId": "tulane",
+      "headline": "Tulane punter William Hudlow is up for a national award",
+      "summary": "Hudlow is one of 65 players nominated for the Burlsworth Trophy, which goes to the best player who started college without a scholarship. He averages 47 yards a punt, the best in his conference.",
+      "date": "2026-11-03",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulanes-william-hudlow-nominated-for-2026-burlsworth-trophy/"
     },
     {
       "id": "eeeae30223cb",
