@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "9a70482f9582",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler is a finalist for the Cy Young Award",
+      "summary": "Schlittler won 14 games and lost 6, and no pitcher in the American League gave up fewer runs. The award for the league's best pitcher is handed out November 11.",
+      "date": "2026-11-03",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/cam-schlittler-2026-al-cy-young-award-finalist"
+    },
+    {
+      "id": "121923c7cdf3",
+      "teamId": "texas",
+      "headline": "Colin Simmons played again after two games out",
+      "summary": "Simmons came back from an ankle injury at Missouri and played a small number of snaps. He still leads the country in sacks.",
+      "date": "2026-11-07",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50411883/arch-manning-defense-help-no-7-texas-rally-missouri"
+    },
+    {
+      "id": "75fbf145250b",
+      "teamId": "texas",
+      "headline": "Texas beats Missouri 34-20 behind Arch Manning",
+      "summary": "Texas trailed most of the afternoon in Columbia and then scored 21 points in a row to win. Arch Manning completed 28 of his 38 passes for 297 yards and three touchdowns and did not throw an interception.",
+      "date": "2026-11-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/college-football/breaking-news/article/no-7-texas-takes-advantage-of-controversial-arch-manning-fumble-and-scores-21-straight-to-beat-no-18-missouri-34-20-204353800.html"
+    },
+    {
+      "id": "808191375a02",
+      "teamId": "florida",
+      "headline": "Florida's game at Kentucky is set for Saturday evening",
+      "summary": "Kickoff in Lexington is a quarter past five our time. The game is on ESPN.",
+      "date": "2026-11-08",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/8/football-florida-kentucky-game-set-for-6-15-kick-on-espn"
+    },
+    {
       "id": "58ee2f7b5a80",
       "teamId": "saints",
       "headline": "Saints are tied for first in their division",
