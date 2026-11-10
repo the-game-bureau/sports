@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "teams": {
     "tulane": {
       "record": "4-5",
@@ -93,6 +93,15 @@
           "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
         },
         {
+          "id": "47438b273640",
+          "teamId": "florida",
+          "headline": "Jon Sumrall says he owns Florida's slide",
+          "summary": "Florida started the year with four straight wins and has now lost four of its last five. Coach Sumrall said Monday that the slide is on him and that he feels the players hear too much of the criticism.",
+          "date": "2026-11-09",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
+        },
+        {
           "id": "808191375a02",
           "teamId": "florida",
           "headline": "Florida's game at Kentucky is set for Saturday evening",
@@ -100,15 +109,6 @@
           "date": "2026-11-08",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/8/football-florida-kentucky-game-set-for-6-15-kick-on-espn"
-        },
-        {
-          "id": "a963378d3787",
-          "teamId": "florida",
-          "headline": "Oklahoma beats Florida 23-7 in Gainesville",
-          "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
-          "date": "2026-11-07",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "7a65ca22c893",
+          "teamId": "texas",
+          "headline": "Arch Manning plays down his trip home to Louisiana",
+          "summary": "Manning grew up in New Orleans and plays an hour up the road at LSU on Saturday. He said Monday that nobody in his family went to LSU and that the game is not about him.",
+          "date": "2026-11-09",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/arch-manning-shrugs-off-ties-to-louisiana-ahead-of-lsu-matchup-its-not-about-me/"
+        },
+        {
           "id": "75fbf145250b",
           "teamId": "texas",
           "headline": "Texas beats Missouri 34-20 behind Arch Manning",
@@ -155,15 +164,6 @@
           "date": "2026-11-07",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50411883/arch-manning-defense-help-no-7-texas-rally-missouri"
-        },
-        {
-          "id": "e4ef336c02cd",
-          "teamId": "texas",
-          "headline": "Hollywood Smothers is out for the rest of the season",
-          "summary": "Reports Thursday said the Texas running back tore a ligament in his knee and will not play again this year. He ran for 283 yards and two touchdowns, second most on the team.",
-          "date": "2026-11-05",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/"
         }
       ]
     },
@@ -203,6 +203,15 @@
           "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-09/moore-mccoy-to-miss-time-with-bicep-injury"
         },
         {
+          "id": "52ac3f7b3f3d",
+          "teamId": "saints",
+          "headline": "Saints trade Davon Godchaux to Jacksonville",
+          "summary": "The Saints sent defensive tackle Davon Godchaux to the Jacksonville Jaguars on Monday. He had started five of the eight games he played for New Orleans this year.",
+          "date": "2026-11-09",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/davon-godchaux-new-orleans-saints-roster-moves-transactions-2026-trade-deadline-11-9-2026"
+        },
+        {
           "id": "3d4942d2c664",
           "teamId": "saints",
           "headline": "Saints beat Cleveland 23-22 in overtime",
@@ -210,15 +219,6 @@
           "date": "2026-11-08",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
-        },
-        {
-          "id": "58ee2f7b5a80",
-          "teamId": "saints",
-          "headline": "Saints are tied for first in their division",
-          "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
-          "date": "2026-11-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
         }
       ]
     },
@@ -226,7 +226,7 @@
       "record": "21-5",
       "nextGame": {
         "homeAway": "home",
-        "opponent": "the winner of East Stroudsburg and Kutztown",
+        "opponent": "East Stroudsburg",
         "date": "2026-11-11",
         "time": "5:00 PM",
         "venue": "Memorial Field House",
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. IUP finished first in its half of the conference, so it gets to play at home. East Stroudsburg and Kutztown play each other tonight in East Stroudsburg, and whoever wins comes to Indiana. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it plays again Saturday, and the title match is Sunday."
+        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. The opponent is settled now: East Stroudsburg beat Kutztown in three sets on Monday night, so East Stroudsburg comes to Indiana. IUP finished first in its half of the conference, so it plays at home. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it hosts the rest of the tournament here, a match Saturday and the title match Sunday."
       },
       "lastGame": {
         "result": "L",
@@ -247,6 +247,15 @@
         "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "7277fdb107d7",
+          "teamId": "iup",
+          "headline": "IUP is ranked third in its region",
+          "summary": "The latest Division II rankings for the Atlantic Region put IUP third, behind Gannon and Shepherd. If IUP wins Wednesday it gets to host the rest of the conference tournament at home this weekend.",
+          "date": "2026-11-09",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/11/9/womens-volleyball-iup-volleyball-ranked-no-3-in-latest-atlantic-region-npi-rankings.aspx"
+        },
         {
           "id": "b00ada9e6a6f",
           "teamId": "iup",
@@ -264,15 +273,6 @@
           "date": "2026-11-07",
           "source": "PSAC",
           "url": "https://psacsports.org/standings.aspx?path=wvball"
-        },
-        {
-          "id": "58c135d0a00b",
-          "teamId": "iup",
-          "headline": "Gannon beats IUP in four sets",
-          "summary": "IUP won the first set 27-25 and then lost the next three to end the regular season. The Crimson Hawks finished with 21 wins and 5 losses.",
-          "date": "2026-11-07",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/7/womens-volleyball-iup-volleyball-falls-to-gannon-in-four-sets-to-close-regular-season.aspx"
         }
       ]
     },

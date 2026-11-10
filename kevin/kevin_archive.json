@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "58ee2f7b5a80",
+      "teamId": "saints",
+      "headline": "Saints are tied for first in their division",
+      "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
+    },
+    {
+      "id": "a963378d3787",
+      "teamId": "florida",
+      "headline": "Oklahoma beats Florida 23-7 in Gainesville",
+      "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
+      "date": "2026-11-07",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
+    },
+    {
+      "id": "2cb8da626d5c",
+      "teamId": "lsu",
+      "headline": "Princewill Umanmielen is up for a national award",
+      "summary": "LSU's defensive end is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. Four finalists are named November 18 and the winner on December 9.",
+      "date": "2026-11-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
+    },
     {
       "id": "ae1fb0065511",
       "teamId": "saints",

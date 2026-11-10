@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "58ee2f7b5a80",
+      "teamId": "saints",
+      "headline": "Saints are tied for first in their division",
+      "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
+    },
+    {
+      "id": "a963378d3787",
+      "teamId": "florida",
+      "headline": "Oklahoma beats Florida 23-7 in Gainesville",
+      "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
+      "date": "2026-11-07",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
+    },
+    {
+      "id": "58c135d0a00b",
+      "teamId": "iup",
+      "headline": "Gannon beats IUP in four sets",
+      "summary": "IUP won the first set 27-25 and then lost the next three to end the regular season. The Crimson Hawks finished with 21 wins and 5 losses.",
+      "date": "2026-11-07",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/7/womens-volleyball-iup-volleyball-falls-to-gannon-in-four-sets-to-close-regular-season.aspx"
+    },
+    {
+      "id": "e4ef336c02cd",
+      "teamId": "texas",
+      "headline": "Hollywood Smothers is out for the rest of the season",
+      "summary": "Reports Thursday said the Texas running back tore a ligament in his knee and will not play again this year. He ran for 283 yards and two touchdowns, second most on the team.",
+      "date": "2026-11-05",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/"
+    },
     {
       "id": "ae1fb0065511",
       "teamId": "saints",

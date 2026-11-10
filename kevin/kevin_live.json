@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "teams": {
     "saints": {
       "record": "3-5",
@@ -38,6 +38,15 @@
           "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-09/moore-mccoy-to-miss-time-with-bicep-injury"
         },
         {
+          "id": "52ac3f7b3f3d",
+          "teamId": "saints",
+          "headline": "Saints trade Davon Godchaux to Jacksonville",
+          "summary": "The Saints sent defensive tackle Davon Godchaux to the Jacksonville Jaguars on Monday. He had started five of the eight games he played for New Orleans this year.",
+          "date": "2026-11-09",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/davon-godchaux-new-orleans-saints-roster-moves-transactions-2026-trade-deadline-11-9-2026"
+        },
+        {
           "id": "3d4942d2c664",
           "teamId": "saints",
           "headline": "Saints beat Cleveland 23-22 in overtime",
@@ -45,15 +54,6 @@
           "date": "2026-11-08",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
-        },
-        {
-          "id": "58ee2f7b5a80",
-          "teamId": "saints",
-          "headline": "Saints are tied for first in their division",
-          "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
-          "date": "2026-11-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
         }
       ]
     },
@@ -93,6 +93,15 @@
           "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
         },
         {
+          "id": "47438b273640",
+          "teamId": "florida",
+          "headline": "Jon Sumrall says he owns Florida's slide",
+          "summary": "Florida started the year with four straight wins and has now lost four of its last five. Coach Sumrall said Monday that the slide is on him and that he feels the players hear too much of the criticism.",
+          "date": "2026-11-09",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
+        },
+        {
           "id": "808191375a02",
           "teamId": "florida",
           "headline": "Florida's game at Kentucky is set for Saturday evening",
@@ -100,15 +109,6 @@
           "date": "2026-11-08",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/8/football-florida-kentucky-game-set-for-6-15-kick-on-espn"
-        },
-        {
-          "id": "a963378d3787",
-          "teamId": "florida",
-          "headline": "Oklahoma beats Florida 23-7 in Gainesville",
-          "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
-          "date": "2026-11-07",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "85e8ff254c2c",
+          "teamId": "lsu",
+          "headline": "LSU and Texas meet for the first time since 2019",
+          "summary": "Saturday night in Baton Rouge is the first LSU game against Texas since 2019, when LSU won 45-38 and went on to win the national title. Coach Lane Kiffin told his players this week to put the Alabama loss behind them and not listen to the noise.",
+          "date": "2026-11-09",
+          "source": "Fox 8 (WVUE)",
+          "url": "https://www.fox8live.com/2026/11/09/lsu-tigers-texas-longhorns-matchup-first-time-since-2019/"
+        },
+        {
           "id": "b14ca72f4ac5",
           "teamId": "lsu",
           "headline": "Alabama beats LSU 31-13 in Tiger Stadium",
@@ -155,15 +164,6 @@
           "date": "2026-11-05",
           "source": "ClutchPoints",
           "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-whit-weeks-miss-alabama-clash-working-back-leg-fracture"
-        },
-        {
-          "id": "2cb8da626d5c",
-          "teamId": "lsu",
-          "headline": "Princewill Umanmielen is up for a national award",
-          "summary": "LSU's defensive end is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. Four finalists are named November 18 and the winner on December 9.",
-          "date": "2026-11-04",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
         }
       ]
     },
