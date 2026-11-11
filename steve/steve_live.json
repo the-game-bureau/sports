@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "a211d31350e3",
+          "teamId": "florida",
+          "headline": "Sumrall says Florida has not replaced its hurt receiver",
+          "summary": "Vernell Brown III leads Florida in catches and has been hurt since late September. Coach Jon Sumrall said this week that his staff has not done a good enough job of finding someone to take Brown's place.",
+          "date": "2026-11-10",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/jon-sumrall-admits-gators-havent-adjusted-to-major-offensive-loss"
+        },
+        {
           "id": "e656267dc6cd",
           "teamId": "florida",
           "headline": "Florida has not picked a quarterback for Kentucky",
@@ -91,15 +100,6 @@
           "date": "2026-11-09",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
-        },
-        {
-          "id": "47438b273640",
-          "teamId": "florida",
-          "headline": "Jon Sumrall says he owns Florida's slide",
-          "summary": "Florida started the year with four straight wins and has now lost four of its last five. Coach Sumrall said Monday that the slide is on him and that he feels the players hear too much of the criticism.",
-          "date": "2026-11-09",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
         },
         {
           "id": "010cb5fbc5a0",
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "a9424c151b01",
+          "teamId": "texas",
+          "headline": "LSU's coach has kind words for Arch Manning",
+          "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
+          "date": "2026-11-11",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
+        },
+        {
           "id": "0705c590a581",
           "teamId": "texas",
           "headline": "Arch Manning is still up for a national award",
@@ -146,15 +155,6 @@
           "date": "2026-11-10",
           "source": "Texas Athletics",
           "url": "https://texaslonghorns.com/news/2026/11/10/no-8-8-7-footballs-manning-named-to-davey-o-brien-quarterback-class-of-2026"
-        },
-        {
-          "id": "7a65ca22c893",
-          "teamId": "texas",
-          "headline": "Arch Manning plays down his trip home to Louisiana",
-          "summary": "Manning grew up in New Orleans and plays an hour up the road at LSU on Saturday. He said Monday that nobody in his family went to LSU and that the game is not about him.",
-          "date": "2026-11-09",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/arch-manning-shrugs-off-ties-to-louisiana-ahead-of-lsu-matchup-its-not-about-me/"
         },
         {
           "id": "4670ed2a9b5e",
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "c305eabcc498",
+          "teamId": "saints",
+          "headline": "Saints pick their team doctor for a military award",
+          "summary": "The Saints named head team orthopedist Dr. Stephen Choate as their nominee for the NFL's Salute to Service Award. He spent four years in the Air Force, rose to the rank of major, and has been the team's doctor for nine seasons.",
+          "date": "2026-11-11",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/dr-stephen-choate-saints-2026-nfl-salute-to-service-award-nominee-usaa"
+        },
+        {
           "id": "e8add8947ca4",
           "teamId": "saints",
           "headline": "Erik McCoy will miss time with his arm injury",
@@ -210,15 +219,6 @@
           "date": "2026-11-09",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/davon-godchaux-new-orleans-saints-roster-moves-transactions-2026-trade-deadline-11-9-2026"
-        },
-        {
-          "id": "3d4942d2c664",
-          "teamId": "saints",
-          "headline": "Saints beat Cleveland 23-22 in overtime",
-          "summary": "Tyler Shough threw a 15-yard touchdown to Juwan Johnson in overtime, and the Saints held on when Cleveland scored at the very end but missed its two-point try. It is the Saints' first home win of the season, and they are now three wins and five losses.",
-          "date": "2026-11-08",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
         }
       ]
     },
@@ -306,13 +306,13 @@
           "url": "https://www.mlbtraderumors.com/2026/11/max-fried-undergoes-surgery-to-remove-bone-spur-from-elbow-expected-to-be-ready-for-spring-training.html"
         },
         {
-          "id": "1c4e1205e69c",
+          "id": "c2ef596887e7",
           "teamId": "yankees",
-          "headline": "Cody Bellinger wins the Platinum Glove",
-          "summary": "Bellinger won the Platinum Glove, which goes to the best fielder in the American League. He also won a Gold Glove for left field after saving 21 runs with his defense, more than any other left fielder in the league.",
-          "date": "2026-11-07",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-news-cody-bellinger-wins-050000964.html"
+          "headline": "Giancarlo Stanton is staying with the Yankees",
+          "summary": "General manager Brian Cashman said Tuesday at the league's meetings that Stanton is not going anywhere and will be in spring training. Stanton played only 24 games this year because of calf injuries.",
+          "date": "2026-11-10",
+          "source": "Heavy Sports",
+          "url": "https://heavy.com/sports/mlb/new-york-yankees/announce-giancarlo-stanton-news-gm-meetings/"
         }
       ]
     },

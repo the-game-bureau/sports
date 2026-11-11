@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "47438b273640",
+      "teamId": "florida",
+      "headline": "Jon Sumrall says he owns Florida's slide",
+      "summary": "Florida started the year with four straight wins and has now lost four of its last five. Coach Sumrall said Monday that the slide is on him and that he feels the players hear too much of the criticism.",
+      "date": "2026-11-09",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
+    },
+    {
+      "id": "7a65ca22c893",
+      "teamId": "texas",
+      "headline": "Arch Manning plays down his trip home to Louisiana",
+      "summary": "Manning grew up in New Orleans and plays an hour up the road at LSU on Saturday. He said Monday that nobody in his family went to LSU and that the game is not about him.",
+      "date": "2026-11-09",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/arch-manning-shrugs-off-ties-to-louisiana-ahead-of-lsu-matchup-its-not-about-me/"
+    },
+    {
+      "id": "1c4e1205e69c",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger wins the Platinum Glove",
+      "summary": "Bellinger won the Platinum Glove, which goes to the best fielder in the American League. He also won a Gold Glove for left field after saving 21 runs with his defense, more than any other left fielder in the league.",
+      "date": "2026-11-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-news-cody-bellinger-wins-050000964.html"
+    },
+    {
+      "id": "3d4942d2c664",
+      "teamId": "saints",
+      "headline": "Saints beat Cleveland 23-22 in overtime",
+      "summary": "Tyler Shough threw a 15-yard touchdown to Juwan Johnson in overtime, and the Saints held on when Cleveland scored at the very end but missed its two-point try. It is the Saints' first home win of the season, and they are now three wins and five losses.",
+      "date": "2026-11-08",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
+    },
+    {
       "id": "808191375a02",
       "teamId": "florida",
       "headline": "Florida's game at Kentucky is set for Saturday evening",

@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "47438b273640",
+      "teamId": "florida",
+      "headline": "Jon Sumrall says he owns Florida's slide",
+      "summary": "Florida started the year with four straight wins and has now lost four of its last five. Coach Sumrall said Monday that the slide is on him and that he feels the players hear too much of the criticism.",
+      "date": "2026-11-09",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
+    },
+    {
+      "id": "43f0a24804d3",
+      "teamId": "lsu",
+      "headline": "Whit Weeks is now expected to miss the Alabama game",
+      "summary": "A CBS Sports reporter said Thursday that LSU does not expect its best linebacker to play Saturday. He broke a bone in his leg in late September, and the team had hoped he would be ready for this one.",
+      "date": "2026-11-05",
+      "source": "ClutchPoints",
+      "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-whit-weeks-miss-alabama-clash-working-back-leg-fracture"
+    },
+    {
+      "id": "3d4942d2c664",
+      "teamId": "saints",
+      "headline": "Saints beat Cleveland 23-22 in overtime",
+      "summary": "Tyler Shough threw a 15-yard touchdown to Juwan Johnson in overtime, and the Saints held on when Cleveland scored at the very end but missed its two-point try. It is the Saints' first home win of the season, and they are now three wins and five losses.",
+      "date": "2026-11-08",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints"
+    },
+    {
       "id": "808191375a02",
       "teamId": "florida",
       "headline": "Florida's game at Kentucky is set for Saturday evening",
