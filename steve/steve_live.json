@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "teams": {
     "tulane": {
       "record": "4-5",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "38b1b0472319",
+          "teamId": "tulane",
+          "headline": "Tulane's coach liked what he saw at Tuesday's practice",
+          "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
+          "date": "2026-11-10",
+          "source": "Tulane Green Wave On SI",
+          "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
+        },
+        {
           "id": "b380baf40370",
           "teamId": "tulane",
           "headline": "Tulane's coach takes the blame for the 60-10 loss",
@@ -45,15 +54,6 @@
           "date": "2026-11-07",
           "source": "Fox 8",
           "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
-        },
-        {
-          "id": "2824befc202b",
-          "teamId": "tulane",
-          "headline": "Tulane's athletic director calls the loss unacceptable",
-          "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
-          "date": "2026-11-07",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
         }
       ]
     },
@@ -232,12 +232,12 @@
         "venue": "Memorial Field House",
         "city": "Indiana, PA",
         "tv": {
-          "name": "the free PSAC Sports Digital Network app",
+          "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
-          "note": "Every IUP volleyball game is on here, free. Tap this on game day to watch."
+          "note": "Free. Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. East Stroudsburg beat Kutztown in three sets on Monday night, so East Stroudsburg comes to Indiana. IUP finished first in its half of the conference, so it plays at home. Every IUP volleyball game is on the free PSAC Sports Digital Network app, and it does not cost anything. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it hosts the rest of the tournament, but across campus at the Kovalchick Complex, not here. That would be a match Saturday at noon or half past two our time, and the title match Sunday at noon."
+        "note": "Wednesday night playoff match at home. Five o'clock our time, six o'clock theirs. East Stroudsburg beat Kutztown in three sets on Monday night, so East Stroudsburg comes to Indiana. IUP finished first in its half of the conference, so it plays at home. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Wednesday it hosts the rest of the tournament, but across campus at the Kovalchick Complex, not here. That would be a match Saturday at noon or half past two our time, and the title match Sunday at noon."
       },
       "lastGame": {
         "result": "L",
@@ -247,6 +247,15 @@
         "date": "2026-11-07"
       },
       "news": [
+        {
+          "id": "94f68d988732",
+          "teamId": "iup",
+          "headline": "Delaney Concannon joins a short list at IUP",
+          "summary": "Concannon is a senior who hits on the outside, and this season she became the third player in IUP history to reach 1,000 kills and 1,000 digs in a career. She is one of the team's main hitters at the net and she also plays defense in the back row.",
+          "date": "2026-11-10",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/11/10/womens-volleyball-iup-volleyball-prepares-to-host-psac-tournament-quarterfinals"
+        },
         {
           "id": "7277fdb107d7",
           "teamId": "iup",
@@ -264,15 +273,6 @@
           "date": "2026-11-07",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/gannon/boxscore/15045"
-        },
-        {
-          "id": "388e74385eb1",
-          "teamId": "iup",
-          "headline": "IUP finishes first in its half of the conference",
-          "summary": "IUP won 12 of its 14 conference matches, one more than Gannon, and finished on top. That earns the Crimson Hawks a home playoff match on Wednesday night.",
-          "date": "2026-11-07",
-          "source": "PSAC",
-          "url": "https://psacsports.org/standings.aspx?path=wvball"
         }
       ]
     },
@@ -297,6 +297,15 @@
           "url": "https://sports.yahoo.com/mlb/article/bob-boone-four-time-mlb-all-star-and-father-to-yankees-manager-aaron-boone-dies-at-78-140707438.html"
         },
         {
+          "id": "74d6bad688b5",
+          "teamId": "yankees",
+          "headline": "Max Fried had surgery on his pitching elbow",
+          "summary": "General manager Brian Cashman said Tuesday that a small piece of bone was taken out of the left-hander's elbow. The ligament was not touched, and Fried should start throwing again in December and be ready when spring training opens.",
+          "date": "2026-11-10",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/max-fried-undergoes-surgery-to-remove-bone-spur-from-elbow-expected-to-be-ready-for-spring-training.html"
+        },
+        {
           "id": "1c4e1205e69c",
           "teamId": "yankees",
           "headline": "Cody Bellinger wins the Platinum Glove",
@@ -304,15 +313,6 @@
           "date": "2026-11-07",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-news-cody-bellinger-wins-050000964.html"
-        },
-        {
-          "id": "2a9b39e4be3e",
-          "teamId": "yankees",
-          "headline": "Cody Bellinger is up for a Silver Slugger Award",
-          "summary": "Bellinger was named Thursday as one of nine American League outfielders in the running for the award that goes to the best hitter at each position. He was an All-Star this year and hit 17 home runs, and the winners are announced November 17.",
-          "date": "2026-11-05",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/yankees/news/2026-silver-slugger-award-finalists"
         }
       ]
     },

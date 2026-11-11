@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "teams": {
     "saints": {
       "record": "3-5",
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "38b1b0472319",
+          "teamId": "tulane",
+          "headline": "Tulane's coach liked what he saw at Tuesday's practice",
+          "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
+          "date": "2026-11-10",
+          "source": "Tulane Green Wave On SI",
+          "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
+        },
+        {
           "id": "b380baf40370",
           "teamId": "tulane",
           "headline": "Tulane's coach takes the blame for the 60-10 loss",
@@ -210,15 +219,6 @@
           "date": "2026-11-07",
           "source": "Fox 8",
           "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
-        },
-        {
-          "id": "2824befc202b",
-          "teamId": "tulane",
-          "headline": "Tulane's athletic director calls the loss unacceptable",
-          "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
-          "date": "2026-11-07",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
         }
       ]
     },

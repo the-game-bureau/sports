@@ -2,18 +2,54 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
     {
-      "id": "9a70482f9582",
-      "teamId": "yankees",
-      "headline": "Cam Schlittler is a finalist for the Cy Young Award",
-      "summary": "Schlittler won 14 games and lost 6, and no pitcher in the American League gave up fewer runs. The award for the league's best pitcher is handed out November 11.",
-      "date": "2026-11-03",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/yankees/news/cam-schlittler-2026-al-cy-young-award-finalist"
+      "id": "808191375a02",
+      "teamId": "florida",
+      "headline": "Florida's game at Kentucky is set for Saturday evening",
+      "summary": "Kickoff in Lexington is a quarter past five our time. The game is on ESPN.",
+      "date": "2026-11-08",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/8/football-florida-kentucky-game-set-for-6-15-kick-on-espn"
+    },
+    {
+      "id": "58ee2f7b5a80",
+      "teamId": "saints",
+      "headline": "Saints are tied for first in their division",
+      "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
+    },
+    {
+      "id": "ae1fb0065511",
+      "teamId": "saints",
+      "headline": "Center Erik McCoy hurt his arm on Sunday",
+      "summary": "McCoy hurt his biceps against Cleveland and did not come back for the end of the game. Coach Kellen Moore said the team would know more once the tests came back.",
+      "date": "2026-11-08",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "2824befc202b",
+      "teamId": "tulane",
+      "headline": "Tulane's athletic director calls the loss unacceptable",
+      "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
+      "date": "2026-11-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
+    },
+    {
+      "id": "388e74385eb1",
+      "teamId": "iup",
+      "headline": "IUP finishes first in its half of the conference",
+      "summary": "IUP won 12 of its 14 conference matches, one more than Gannon, and finished on top. That earns the Crimson Hawks a home playoff match on Wednesday night.",
+      "date": "2026-11-07",
+      "source": "PSAC",
+      "url": "https://psacsports.org/standings.aspx?path=wvball"
     },
     {
       "id": "121923c7cdf3",
@@ -34,24 +70,6 @@
       "url": "https://sports.yahoo.com/college-football/breaking-news/article/no-7-texas-takes-advantage-of-controversial-arch-manning-fumble-and-scores-21-straight-to-beat-no-18-missouri-34-20-204353800.html"
     },
     {
-      "id": "808191375a02",
-      "teamId": "florida",
-      "headline": "Florida's game at Kentucky is set for Saturday evening",
-      "summary": "Kickoff in Lexington is a quarter past five our time. The game is on ESPN.",
-      "date": "2026-11-08",
-      "source": "Florida Gators",
-      "url": "https://floridagators.com/news/2026/11/8/football-florida-kentucky-game-set-for-6-15-kick-on-espn"
-    },
-    {
-      "id": "58ee2f7b5a80",
-      "teamId": "saints",
-      "headline": "Saints are tied for first in their division",
-      "summary": "The Saints and Carolina both have three wins and five losses, the best records in the NFC South. The two teams play each other in the Superdome on Sunday.",
-      "date": "2026-11-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
-    },
-    {
       "id": "a963378d3787",
       "teamId": "florida",
       "headline": "Oklahoma beats Florida 23-7 in Gainesville",
@@ -68,24 +86,6 @@
       "date": "2026-11-07",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/7/womens-volleyball-iup-volleyball-falls-to-gannon-in-four-sets-to-close-regular-season.aspx"
-    },
-    {
-      "id": "e4ef336c02cd",
-      "teamId": "texas",
-      "headline": "Hollywood Smothers is out for the rest of the season",
-      "summary": "Reports Thursday said the Texas running back tore a ligament in his knee and will not play again this year. He ran for 283 yards and two touchdowns, second most on the team.",
-      "date": "2026-11-05",
-      "source": "CBS Sports",
-      "url": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/"
-    },
-    {
-      "id": "ae1fb0065511",
-      "teamId": "saints",
-      "headline": "Center Erik McCoy hurt his arm on Sunday",
-      "summary": "McCoy hurt his biceps against Cleveland and did not come back for the end of the game. Coach Kellen Moore said the team would know more once the tests came back.",
-      "date": "2026-11-08",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
     },
     {
       "id": "ed96a5bc9c19",
@@ -113,6 +113,24 @@
       "date": "2026-11-06",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-friday"
+    },
+    {
+      "id": "2a9b39e4be3e",
+      "teamId": "yankees",
+      "headline": "Cody Bellinger is up for a Silver Slugger Award",
+      "summary": "Bellinger was named Thursday as one of nine American League outfielders in the running for the award that goes to the best hitter at each position. He was an All-Star this year and hit 17 home runs, and the winners are announced November 17.",
+      "date": "2026-11-05",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/2026-silver-slugger-award-finalists"
+    },
+    {
+      "id": "e4ef336c02cd",
+      "teamId": "texas",
+      "headline": "Hollywood Smothers is out for the rest of the season",
+      "summary": "Reports Thursday said the Texas running back tore a ligament in his knee and will not play again this year. He ran for 283 yards and two touchdowns, second most on the team.",
+      "date": "2026-11-05",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/texas-hollywood-smothers-injury-out-for-season-torn-mcl/"
     },
     {
       "id": "8497429b4b46",
@@ -194,6 +212,15 @@
       "date": "2026-11-04",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
+    },
+    {
+      "id": "9a70482f9582",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler is a finalist for the Cy Young Award",
+      "summary": "Schlittler won 14 games and lost 6, and no pitcher in the American League gave up fewer runs. The award for the league's best pitcher is handed out November 11.",
+      "date": "2026-11-03",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/cam-schlittler-2026-al-cy-young-award-finalist"
     },
     {
       "id": "50b08614156c",

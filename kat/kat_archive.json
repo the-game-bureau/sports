@@ -2,7 +2,7 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -25,24 +25,6 @@
       "url": "https://sports.yahoo.com/articles/saints-tied-first-nfc-south-234400084.html"
     },
     {
-      "id": "a963378d3787",
-      "teamId": "florida",
-      "headline": "Oklahoma beats Florida 23-7 in Gainesville",
-      "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
-      "date": "2026-11-07",
-      "source": "Florida Gators",
-      "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
-    },
-    {
-      "id": "2cb8da626d5c",
-      "teamId": "lsu",
-      "headline": "Princewill Umanmielen is up for a national award",
-      "summary": "LSU's defensive end is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. Four finalists are named November 18 and the winner on December 9.",
-      "date": "2026-11-04",
-      "source": "Crescent City Sports",
-      "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
-    },
-    {
       "id": "ae1fb0065511",
       "teamId": "saints",
       "headline": "Center Erik McCoy hurt his arm on Sunday",
@@ -50,6 +32,24 @@
       "date": "2026-11-08",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "2824befc202b",
+      "teamId": "tulane",
+      "headline": "Tulane's athletic director calls the loss unacceptable",
+      "summary": "David Harris, who runs sports at Tulane, put out a statement Saturday night saying he was embarrassed and that losing by 50 points was unacceptable. He did not announce any changes to the coaching staff.",
+      "date": "2026-11-07",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-athletic-director-david-harris-052431942.html"
+    },
+    {
+      "id": "a963378d3787",
+      "teamId": "florida",
+      "headline": "Oklahoma beats Florida 23-7 in Gainesville",
+      "summary": "Florida scored one touchdown, in the second quarter, and did not score again. The Gators have lost four of their last five games and are five wins and four losses.",
+      "date": "2026-11-07",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/7/football-final-florida-vs-oklahoma-nov-7-2026"
     },
     {
       "id": "ed96a5bc9c19",
@@ -104,6 +104,15 @@
       "date": "2026-11-05",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-thursday"
+    },
+    {
+      "id": "2cb8da626d5c",
+      "teamId": "lsu",
+      "headline": "Princewill Umanmielen is up for a national award",
+      "summary": "LSU's defensive end is one of 12 players still in the running for the Lombardi Award, which goes to the best lineman or linebacker in the country. Four finalists are named November 18 and the winner on December 9.",
+      "date": "2026-11-04",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/lsus-princewill-umanmielen-named-lombardi-award-semifinalist/"
     },
     {
       "id": "22d9491585be",
