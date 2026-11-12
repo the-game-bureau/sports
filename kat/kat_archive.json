@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "85e8ff254c2c",
+      "teamId": "lsu",
+      "headline": "LSU and Texas meet for the first time since 2019",
+      "summary": "Saturday night in Baton Rouge is the first LSU game against Texas since 2019, when LSU won 45-38 and went on to win the national title. Coach Lane Kiffin told his players this week to put the Alabama loss behind them and not listen to the noise.",
+      "date": "2026-11-09",
+      "source": "Fox 8 (WVUE)",
+      "url": "https://www.fox8live.com/2026/11/09/lsu-tigers-texas-longhorns-matchup-first-time-since-2019/"
+    },
+    {
+      "id": "e656267dc6cd",
+      "teamId": "florida",
+      "headline": "Florida has not picked a quarterback for Kentucky",
+      "summary": "Coach Jon Sumrall said Monday that both of his quarterbacks practiced and that one of them will start Saturday, but he did not say which one. He also said Jeramiah McCloud, who was suspended for the Oklahoma game, is back and should play.",
+      "date": "2026-11-09",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
+    },
+    {
       "id": "e8add8947ca4",
       "teamId": "saints",
       "headline": "Erik McCoy will miss time with his arm injury",

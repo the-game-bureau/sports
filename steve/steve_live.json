@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "d025af81720c",
+          "teamId": "florida",
+          "headline": "Aaron Philo will start at quarterback for Florida",
+          "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
+          "date": "2026-11-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
+        },
+        {
           "id": "4d219a3c2875",
           "teamId": "florida",
           "headline": "Ty Jackson earns a starting job at Florida",
@@ -100,15 +109,6 @@
           "date": "2026-11-10",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/jon-sumrall-admits-gators-havent-adjusted-to-major-offensive-loss"
-        },
-        {
-          "id": "e656267dc6cd",
-          "teamId": "florida",
-          "headline": "Florida has not picked a quarterback for Kentucky",
-          "summary": "Coach Jon Sumrall said Monday that both of his quarterbacks practiced and that one of them will start Saturday, but he did not say which one. He also said Jeramiah McCloud, who was suspended for the Oklahoma game, is back and should play.",
-          "date": "2026-11-09",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
         }
       ]
     },
@@ -257,13 +257,13 @@
           "url": "https://iupathletics.com/news/2026/11/11/womens-volleyball-iup-volleyball-sweeps-east-stroudsburg-to-advance-to-psac-semifinals"
         },
         {
-          "id": "94f68d988732",
+          "id": "9d2249221bfe",
           "teamId": "iup",
-          "headline": "Delaney Concannon joins a short list at IUP",
-          "summary": "Concannon is a senior who hits on the outside, and this season she became the third player in IUP history to reach 1,000 kills and 1,000 digs in a career. She is one of the team's main hitters at the net and she also plays defense in the back row.",
-          "date": "2026-11-10",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/10/womens-volleyball-iup-volleyball-prepares-to-host-psac-tournament-quarterfinals"
+          "headline": "IUP's coach and three players win conference honors",
+          "summary": "The conference named IUP coach Avery Moore the best coach in the West on Wednesday, the first time she has won it. Delaney Concannon and Jessica Neiman made the all-conference first team and Charlotte Potvin made the second team.",
+          "date": "2026-11-11",
+          "source": "PSAC",
+          "url": "https://psacsports.org/news/2026/11/11/2026-psac-womens-volleyball-all-conference-mccoy-flohr-named-athletes-of-the-year.aspx"
         },
         {
           "id": "b00ada9e6a6f",

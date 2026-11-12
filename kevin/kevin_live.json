@@ -84,6 +84,15 @@
       },
       "news": [
         {
+          "id": "d025af81720c",
+          "teamId": "florida",
+          "headline": "Aaron Philo will start at quarterback for Florida",
+          "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
+          "date": "2026-11-12",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
+        },
+        {
           "id": "4d219a3c2875",
           "teamId": "florida",
           "headline": "Ty Jackson earns a starting job at Florida",
@@ -100,15 +109,6 @@
           "date": "2026-11-10",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/jon-sumrall-admits-gators-havent-adjusted-to-major-offensive-loss"
-        },
-        {
-          "id": "e656267dc6cd",
-          "teamId": "florida",
-          "headline": "Florida has not picked a quarterback for Kentucky",
-          "summary": "Coach Jon Sumrall said Monday that both of his quarterbacks practiced and that one of them will start Saturday, but he did not say which one. He also said Jeramiah McCloud, who was suspended for the Oklahoma game, is back and should play.",
-          "date": "2026-11-09",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/floridas-jon-sumrall-discusses-week-202159502.html"
         }
       ]
     },
@@ -148,6 +148,15 @@
           "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
         },
         {
+          "id": "3f31ac59926c",
+          "teamId": "lsu",
+          "headline": "Whit Weeks may be able to play Saturday",
+          "summary": "LSU listed the linebacker as questionable for the Texas game on this week's conference injury report. He has not played since ankle surgery in September, and last week he was listed as doubtful and did not play against Alabama.",
+          "date": "2026-11-11",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lsu-gets-encouraging-whit-weeks-update-on-first-injury-report-vs-texas"
+        },
+        {
           "id": "611666112fc4",
           "teamId": "lsu",
           "headline": "LSU drops to 21st in the playoff rankings",
@@ -155,15 +164,6 @@
           "date": "2026-11-10",
           "source": "College Football Playoff",
           "url": "https://collegefootballplayoff.com/news/2026/11/10/rankings"
-        },
-        {
-          "id": "85e8ff254c2c",
-          "teamId": "lsu",
-          "headline": "LSU and Texas meet for the first time since 2019",
-          "summary": "Saturday night in Baton Rouge is the first LSU game against Texas since 2019, when LSU won 45-38 and went on to win the national title. Coach Lane Kiffin told his players this week to put the Alabama loss behind them and not listen to the noise.",
-          "date": "2026-11-09",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/11/09/lsu-tigers-texas-longhorns-matchup-first-time-since-2019/"
         }
       ]
     },
