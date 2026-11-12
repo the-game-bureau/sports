@@ -2,10 +2,46 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-11",
+    "updated": "2026-11-12",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "e8add8947ca4",
+      "teamId": "saints",
+      "headline": "Erik McCoy will miss time with his arm injury",
+      "summary": "Coach Kellen Moore said Monday that his center hurt his biceps against Cleveland and will be out for a while, but that he does not think McCoy needs surgery. Will Sherman took over at center on Sunday and is expected to keep the job.",
+      "date": "2026-11-09",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-09/moore-mccoy-to-miss-time-with-bicep-injury"
+    },
+    {
+      "id": "52ac3f7b3f3d",
+      "teamId": "saints",
+      "headline": "Saints trade Davon Godchaux to Jacksonville",
+      "summary": "The Saints sent defensive tackle Davon Godchaux to the Jacksonville Jaguars on Monday. He had started five of the eight games he played for New Orleans this year.",
+      "date": "2026-11-09",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/davon-godchaux-new-orleans-saints-roster-moves-transactions-2026-trade-deadline-11-9-2026"
+    },
+    {
+      "id": "010cb5fbc5a0",
+      "teamId": "florida",
+      "headline": "Jon Sumrall goes back to the school he played for",
+      "summary": "Florida plays Saturday at Kentucky, where Sumrall played linebacker and later coached. He said he has not answered about 30 texts asking where the team is staying, because this week is about winning and not about visiting old friends.",
+      "date": "2026-11-09",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-football-coach-jon-sumrall-211735695.html"
+    },
+    {
+      "id": "b14ca72f4ac5",
+      "teamId": "lsu",
+      "headline": "Alabama beats LSU 31-13 in Tiger Stadium",
+      "summary": "Sam Leavitt threw for 380 yards, but LSU missed on all four of its fourth-down tries and scored only 13 points. The Tigers are now six wins and three losses.",
+      "date": "2026-11-07",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/11/08/alabama-defeats-lsu-tiger-stadium-31-13/"
+    },
     {
       "id": "47438b273640",
       "teamId": "florida",

@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-11",
+    "updated": "2026-11-12",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "c2ef596887e7",
+      "teamId": "yankees",
+      "headline": "Giancarlo Stanton is staying with the Yankees",
+      "summary": "General manager Brian Cashman said Tuesday at the league's meetings that Stanton is not going anywhere and will be in spring training. Stanton played only 24 games this year because of calf injuries.",
+      "date": "2026-11-10",
+      "source": "Heavy Sports",
+      "url": "https://heavy.com/sports/mlb/new-york-yankees/announce-giancarlo-stanton-news-gm-meetings/"
+    },
+    {
+      "id": "010cb5fbc5a0",
+      "teamId": "florida",
+      "headline": "Jon Sumrall goes back to the school he played for",
+      "summary": "Florida plays Saturday at Kentucky, where Sumrall played linebacker and later coached. He said he has not answered about 30 texts asking where the team is staying, because this week is about winning and not about visiting old friends.",
+      "date": "2026-11-09",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-football-coach-jon-sumrall-211735695.html"
+    },
+    {
+      "id": "4670ed2a9b5e",
+      "teamId": "texas",
+      "headline": "Arch Manning named the SEC top offensive player this week",
+      "summary": "The conference gave Manning the award Monday for the win at Missouri, where he threw for 297 yards and three touchdowns and did not throw an interception. It is the second time he has won it this season.",
+      "date": "2026-11-09",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/9/no-8-8-7-footballs-manning-named-sec-offensive-player-of-the-week-manning-award-star-of-the-week"
+    },
+    {
+      "id": "e8add8947ca4",
+      "teamId": "saints",
+      "headline": "Erik McCoy will miss time with his arm injury",
+      "summary": "Coach Kellen Moore said Monday that his center hurt his biceps against Cleveland and will be out for a while, but that he does not think McCoy needs surgery. Will Sherman took over at center on Sunday and is expected to keep the job.",
+      "date": "2026-11-09",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-09/moore-mccoy-to-miss-time-with-bicep-injury"
+    },
+    {
+      "id": "52ac3f7b3f3d",
+      "teamId": "saints",
+      "headline": "Saints trade Davon Godchaux to Jacksonville",
+      "summary": "The Saints sent defensive tackle Davon Godchaux to the Jacksonville Jaguars on Monday. He had started five of the eight games he played for New Orleans this year.",
+      "date": "2026-11-09",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/davon-godchaux-new-orleans-saints-roster-moves-transactions-2026-trade-deadline-11-9-2026"
+    },
+    {
+      "id": "7277fdb107d7",
+      "teamId": "iup",
+      "headline": "IUP is ranked third in its region",
+      "summary": "The latest Division II rankings for the Atlantic Region put IUP third, behind Gannon and Shepherd. If IUP wins Wednesday it gets to host the rest of the conference tournament at home this weekend.",
+      "date": "2026-11-09",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/9/womens-volleyball-iup-volleyball-ranked-no-3-in-latest-atlantic-region-npi-rankings.aspx"
+    },
     {
       "id": "47438b273640",
       "teamId": "florida",
