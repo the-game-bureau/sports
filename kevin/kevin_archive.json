@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "63ec50f659cb",
+      "teamId": "saints",
+      "headline": "Cesar Ruiz moves to center for the Saints",
+      "summary": "Erik McCoy hurt his biceps on Sunday and did not practice Wednesday, so right guard Cesar Ruiz is sliding over to play center. Rookie Jeremiah Wright takes Ruiz's old spot at right guard against Carolina.",
+      "date": "2026-11-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-right-guard-cesar-ruiz-moving-to-center-to-replace-injured-erik-mccoy"
+    },
+    {
       "id": "a8532a92fd56",
       "teamId": "saints",
       "headline": "Alvin Kamara sat out Wednesday's practice",
@@ -14,6 +23,15 @@
       "date": "2026-11-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
+    },
+    {
+      "id": "a211d31350e3",
+      "teamId": "florida",
+      "headline": "Sumrall says Florida has not replaced its hurt receiver",
+      "summary": "Vernell Brown III leads Florida in catches and has been hurt since late September. Coach Jon Sumrall said this week that his staff has not done a good enough job of finding someone to take Brown's place.",
+      "date": "2026-11-10",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/jon-sumrall-admits-gators-havent-adjusted-to-major-offensive-loss"
     },
     {
       "id": "611666112fc4",
@@ -70,15 +88,6 @@
       "url": "https://sports.yahoo.com/articles/florida-football-coach-jon-sumrall-211735695.html"
     },
     {
-      "id": "b14ca72f4ac5",
-      "teamId": "lsu",
-      "headline": "Alabama beats LSU 31-13 in Tiger Stadium",
-      "summary": "Sam Leavitt threw for 380 yards, but LSU missed on all four of its fourth-down tries and scored only 13 points. The Tigers are now six wins and three losses.",
-      "date": "2026-11-07",
-      "source": "WAFB",
-      "url": "https://www.wafb.com/2026/11/08/alabama-defeats-lsu-tiger-stadium-31-13/"
-    },
-    {
       "id": "47438b273640",
       "teamId": "florida",
       "headline": "Jon Sumrall says he owns Florida's slide",
@@ -86,15 +95,6 @@
       "date": "2026-11-09",
       "source": "WRUF",
       "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
-    },
-    {
-      "id": "43f0a24804d3",
-      "teamId": "lsu",
-      "headline": "Whit Weeks is now expected to miss the Alabama game",
-      "summary": "A CBS Sports reporter said Thursday that LSU does not expect its best linebacker to play Saturday. He broke a bone in his leg in late September, and the team had hoped he would be ready for this one.",
-      "date": "2026-11-05",
-      "source": "ClutchPoints",
-      "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-whit-weeks-miss-alabama-clash-working-back-leg-fracture"
     },
     {
       "id": "3d4942d2c664",
@@ -131,6 +131,15 @@
       "date": "2026-11-08",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "b14ca72f4ac5",
+      "teamId": "lsu",
+      "headline": "Alabama beats LSU 31-13 in Tiger Stadium",
+      "summary": "Sam Leavitt threw for 380 yards, but LSU missed on all four of its fourth-down tries and scored only 13 points. The Tigers are now six wins and three losses.",
+      "date": "2026-11-07",
+      "source": "WAFB",
+      "url": "https://www.wafb.com/2026/11/08/alabama-defeats-lsu-tiger-stadium-31-13/"
     },
     {
       "id": "2824befc202b",
@@ -176,6 +185,15 @@
       "date": "2026-11-06",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-friday"
+    },
+    {
+      "id": "43f0a24804d3",
+      "teamId": "lsu",
+      "headline": "Whit Weeks is now expected to miss the Alabama game",
+      "summary": "A CBS Sports reporter said Thursday that LSU does not expect its best linebacker to play Saturday. He broke a bone in his leg in late September, and the team had hoped he would be ready for this one.",
+      "date": "2026-11-05",
+      "source": "ClutchPoints",
+      "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-whit-weeks-miss-alabama-clash-working-back-leg-fracture"
     },
     {
       "id": "8c7837ec3be5",

@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "877ac6b0966b",
+          "teamId": "saints",
+          "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
+          "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
+          "date": "2026-11-13",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
+        },
+        {
           "id": "a247df3fe28c",
           "teamId": "saints",
           "headline": "Alvin Kamara was back at practice Thursday",
@@ -45,15 +54,6 @@
           "date": "2026-11-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/dr-stephen-choate-saints-2026-nfl-salute-to-service-award-nominee-usaa"
-        },
-        {
-          "id": "63ec50f659cb",
-          "teamId": "saints",
-          "headline": "Cesar Ruiz moves to center for the Saints",
-          "summary": "Erik McCoy hurt his biceps on Sunday and did not practice Wednesday, so right guard Cesar Ruiz is sliding over to play center. Rookie Jeremiah Wright takes Ruiz's old spot at right guard against Carolina.",
-          "date": "2026-11-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-right-guard-cesar-ruiz-moving-to-center-to-replace-injured-erik-mccoy"
         }
       ]
     },
@@ -93,6 +93,15 @@
           "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
         },
         {
+          "id": "f5eec71b8537",
+          "teamId": "florida",
+          "headline": "Florida lands a big offensive lineman for 2027",
+          "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
+          "date": "2026-11-12",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
+        },
+        {
           "id": "4d219a3c2875",
           "teamId": "florida",
           "headline": "Ty Jackson earns a starting job at Florida",
@@ -100,15 +109,6 @@
           "date": "2026-11-11",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/11/football-gators-jacksons-perseverance-is-paying-off-linebacker-ty-jackson-head-coach-jon-sumrall"
-        },
-        {
-          "id": "a211d31350e3",
-          "teamId": "florida",
-          "headline": "Sumrall says Florida has not replaced its hurt receiver",
-          "summary": "Vernell Brown III leads Florida in catches and has been hurt since late September. Coach Jon Sumrall said this week that his staff has not done a good enough job of finding someone to take Brown's place.",
-          "date": "2026-11-10",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/jon-sumrall-admits-gators-havent-adjusted-to-major-offensive-loss"
         }
       ]
     },
