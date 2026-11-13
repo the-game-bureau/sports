@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "teams": {
     "saints": {
       "record": "3-5",
@@ -29,6 +29,15 @@
       },
       "news": [
         {
+          "id": "a247df3fe28c",
+          "teamId": "saints",
+          "headline": "Alvin Kamara was back at practice Thursday",
+          "summary": "Kamara rested his back and sat out Wednesday, then practiced fully on Thursday. Center Erik McCoy, who hurt his biceps on Sunday, has not practiced at all this week, so Cesar Ruiz will play center against Carolina.",
+          "date": "2026-11-12",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+        },
+        {
           "id": "c305eabcc498",
           "teamId": "saints",
           "headline": "Saints pick their team doctor for a military award",
@@ -45,15 +54,6 @@
           "date": "2026-11-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-right-guard-cesar-ruiz-moving-to-center-to-replace-injured-erik-mccoy"
-        },
-        {
-          "id": "a8532a92fd56",
-          "teamId": "saints",
-          "headline": "Alvin Kamara sat out Wednesday's practice",
-          "summary": "The Saints listed Kamara as resting his back and he did not practice Wednesday. Carolina's leading runner, Chuba Hubbard, also took the day off.",
-          "date": "2026-11-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
         }
       ]
     },
@@ -139,6 +139,15 @@
       },
       "news": [
         {
+          "id": "490d43c9f818",
+          "teamId": "lsu",
+          "headline": "LSU gets back a lineman who was supposed to miss the year",
+          "summary": "Gabriel Reliford tore a knee ligament in spring practice and was expected to be out all season. LSU took him off the injury report Thursday and he can play against Texas, and linebacker Whit Weeks is still listed as questionable.",
+          "date": "2026-11-12",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-lb-whit-weeks-still-questionable-for-texas-game-dt-gabriel-reliford-available-for-1st-time-this-season/"
+        },
+        {
           "id": "a9424c151b01",
           "teamId": "lsu",
           "headline": "LSU's coach has kind words for Arch Manning",
@@ -155,15 +164,6 @@
           "date": "2026-11-11",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/lsu/football/lsu-gets-encouraging-whit-weeks-update-on-first-injury-report-vs-texas"
-        },
-        {
-          "id": "611666112fc4",
-          "teamId": "lsu",
-          "headline": "LSU drops to 21st in the playoff rankings",
-          "summary": "The committee moved LSU down seven spots Tuesday night, from 14th to 21st, after the loss to Alabama. Texas, which comes to Baton Rouge on Saturday, is sixth.",
-          "date": "2026-11-10",
-          "source": "College Football Playoff",
-          "url": "https://collegefootballplayoff.com/news/2026/11/10/rankings"
         }
       ]
     },

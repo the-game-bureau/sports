@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "teams": {
     "tulane": {
       "record": "4-5",
@@ -194,6 +194,15 @@
       },
       "news": [
         {
+          "id": "a247df3fe28c",
+          "teamId": "saints",
+          "headline": "Alvin Kamara was back at practice Thursday",
+          "summary": "Kamara rested his back and sat out Wednesday, then practiced fully on Thursday. Center Erik McCoy, who hurt his biceps on Sunday, has not practiced at all this week, so Cesar Ruiz will play center against Carolina.",
+          "date": "2026-11-12",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+        },
+        {
           "id": "c305eabcc498",
           "teamId": "saints",
           "headline": "Saints pick their team doctor for a military award",
@@ -210,15 +219,6 @@
           "date": "2026-11-11",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-right-guard-cesar-ruiz-moving-to-center-to-replace-injured-erik-mccoy"
-        },
-        {
-          "id": "a8532a92fd56",
-          "teamId": "saints",
-          "headline": "Alvin Kamara sat out Wednesday's practice",
-          "summary": "The Saints listed Kamara as resting his back and he did not practice Wednesday. Carolina's leading runner, Chuba Hubbard, also took the day off.",
-          "date": "2026-11-11",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
         }
       ]
     },
@@ -237,7 +237,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics",
           "note": "Free. Every IUP volleyball game is on here. Tap this on game day to watch."
         },
-        "note": "Saturday afternoon semifinal at home. Half past two our time, half past three theirs. Clarion beat Lock Haven in five sets Wednesday night, so Clarion comes to Indiana. The match is across campus at the Kovalchick Complex, not at Memorial Field House. IUP has beaten Clarion twice already this season. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. If IUP wins Saturday it plays for the conference title Sunday at noon our time, also at the Kovalchick Complex."
+        "note": "Saturday afternoon semifinal at home. Half past two our time, half past three theirs. IUP plays Clarion and has already beaten Clarion twice this season, 3-2 in September and 3-1 in October. The match is across campus at the Kovalchick Complex, not at Memorial Field House. Every IUP volleyball game is on the free PSAC Sports Digital Network app. Tap the link above on game day to watch. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. Gannon plays Seton Hill in the other semifinal, and the two winners meet for the conference title here on Sunday. The time for Sunday has not been posted yet."
       },
       "lastGame": {
         "result": "W",
@@ -288,6 +288,15 @@
       },
       "news": [
         {
+          "id": "77766721cb72",
+          "teamId": "yankees",
+          "headline": "The Yankees lose their bench coach to Houston",
+          "summary": "Brad Ausmus sat next to Aaron Boone in the Yankees dugout for the last three seasons, and on Wednesday the Astros hired him to be their manager. He managed the Tigers for four years and the Angels for one before coming to New York.",
+          "date": "2026-11-11",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
+        },
+        {
           "id": "ae614cc2ac56",
           "teamId": "yankees",
           "headline": "Cam Schlittler wins the Cy Young Award",
@@ -295,15 +304,6 @@
           "date": "2026-11-11",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/11/cam-schlittler-wins-al-cy-young-award.html"
-        },
-        {
-          "id": "63124a6cfdbc",
-          "teamId": "yankees",
-          "headline": "Bob Boone, the manager's father, has died at 78",
-          "summary": "Bob Boone was the father of Yankees manager Aaron Boone. He caught in the big leagues for 19 years, won seven Gold Gloves and won the 1980 World Series with the Phillies, and he later managed the Reds and the Royals.",
-          "date": "2026-11-10",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/mlb/article/bob-boone-four-time-mlb-all-star-and-father-to-yankees-manager-aaron-boone-dies-at-78-140707438.html"
         },
         {
           "id": "74d6bad688b5",

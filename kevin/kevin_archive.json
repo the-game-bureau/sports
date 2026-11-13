@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-12",
+    "updated": "2026-11-13",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "a8532a92fd56",
+      "teamId": "saints",
+      "headline": "Alvin Kamara sat out Wednesday's practice",
+      "summary": "The Saints listed Kamara as resting his back and he did not practice Wednesday. Carolina's leading runner, Chuba Hubbard, also took the day off.",
+      "date": "2026-11-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
+    },
+    {
+      "id": "611666112fc4",
+      "teamId": "lsu",
+      "headline": "LSU drops to 21st in the playoff rankings",
+      "summary": "The committee moved LSU down seven spots Tuesday night, from 14th to 21st, after the loss to Alabama. Texas, which comes to Baton Rouge on Saturday, is sixth.",
+      "date": "2026-11-10",
+      "source": "College Football Playoff",
+      "url": "https://collegefootballplayoff.com/news/2026/11/10/rankings"
+    },
     {
       "id": "85e8ff254c2c",
       "teamId": "lsu",
