@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-13",
+    "updated": "2026-11-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "877ac6b0966b",
+      "teamId": "saints",
+      "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
+      "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
+      "date": "2026-11-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
+    },
+    {
+      "id": "a247df3fe28c",
+      "teamId": "saints",
+      "headline": "Alvin Kamara was back at practice Thursday",
+      "summary": "Kamara rested his back and sat out Wednesday, then practiced fully on Thursday. Center Erik McCoy, who hurt his biceps on Sunday, has not practiced at all this week, so Cesar Ruiz will play center against Carolina.",
+      "date": "2026-11-12",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+    },
+    {
+      "id": "a9424c151b01",
+      "teamId": "lsu",
+      "headline": "LSU's coach has kind words for Arch Manning",
+      "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
+      "date": "2026-11-11",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
+    },
+    {
+      "id": "3f31ac59926c",
+      "teamId": "lsu",
+      "headline": "Whit Weeks may be able to play Saturday",
+      "summary": "LSU listed the linebacker as questionable for the Texas game on this week's conference injury report. He has not played since ankle surgery in September, and last week he was listed as doubtful and did not play against Alabama.",
+      "date": "2026-11-11",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-gets-encouraging-whit-weeks-update-on-first-injury-report-vs-texas"
+    },
+    {
+      "id": "4d219a3c2875",
+      "teamId": "florida",
+      "headline": "Ty Jackson earns a starting job at Florida",
+      "summary": "Jackson barely played on defense for a season and a half, then blocked a punt against South Carolina and started getting more snaps. He made his first start against Oklahoma, and Coach Jon Sumrall has pointed to him as a player who keeps fighting.",
+      "date": "2026-11-11",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/11/football-gators-jacksons-perseverance-is-paying-off-linebacker-ty-jackson-head-coach-jon-sumrall"
+    },
+    {
+      "id": "c305eabcc498",
+      "teamId": "saints",
+      "headline": "Saints pick their team doctor for a military award",
+      "summary": "The Saints named head team orthopedist Dr. Stephen Choate as their nominee for the NFL's Salute to Service Award. He spent four years in the Air Force, rose to the rank of major, and has been the team's doctor for nine seasons.",
+      "date": "2026-11-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/dr-stephen-choate-saints-2026-nfl-salute-to-service-award-nominee-usaa"
+    },
     {
       "id": "63ec50f659cb",
       "teamId": "saints",
@@ -131,6 +185,15 @@
       "date": "2026-11-08",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "d7ec9a510187",
+      "teamId": "tulane",
+      "headline": "Tulsa routs Tulane 60-10 at Homecoming",
+      "summary": "Tulsa led 32-0 at halftime and Tulane never got going, losing by 50 points in front of the Homecoming crowd at Yulman Stadium. It is the worst conference loss Tulane has ever had, and the Green Wave are now four wins and five losses.",
+      "date": "2026-11-07",
+      "source": "Fox 8",
+      "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
     },
     {
       "id": "b14ca72f4ac5",
@@ -410,6 +473,15 @@
       "date": "2026-10-31",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/football/jon-sumrall-sends-message-to-gators-fans-after-27-8-loss-to-georgia"
+    },
+    {
+      "id": "c7df566ddaff",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin beats Chalmette 27-21",
+      "summary": "Brother Martin won a district game Friday night in Chalmette. The Crusaders are 6-3 and finish the regular season on the road against Holy Cross next Friday.",
+      "date": "2026-10-30",
+      "source": "WGNO Fox 8 Friday Night Football",
+      "url": "https://wgno.com/sports/fnf-week-9-brother-martin-posts-district-victory-over-chalmette-27-21/"
     },
     {
       "id": "b98215fb8e28",

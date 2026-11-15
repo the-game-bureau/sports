@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-13",
+    "updated": "2026-11-15",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "877ac6b0966b",
+      "teamId": "saints",
+      "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
+      "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
+      "date": "2026-11-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
+    },
+    {
+      "id": "a247df3fe28c",
+      "teamId": "saints",
+      "headline": "Alvin Kamara was back at practice Thursday",
+      "summary": "Kamara rested his back and sat out Wednesday, then practiced fully on Thursday. Center Erik McCoy, who hurt his biceps on Sunday, has not practiced at all this week, so Cesar Ruiz will play center against Carolina.",
+      "date": "2026-11-12",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+    },
+    {
+      "id": "7eb6cd695496",
+      "teamId": "iup",
+      "headline": "IUP sweeps East Stroudsburg to reach the semifinals",
+      "summary": "IUP won in three straight sets at home Wednesday night, 25-12, 25-16 and 26-24. Delaney Concannon had 17 kills, the Crimson Hawks are 22 wins and 5 losses, and they play again Saturday.",
+      "date": "2026-11-11",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/11/womens-volleyball-iup-volleyball-sweeps-east-stroudsburg-to-advance-to-psac-semifinals"
+    },
+    {
+      "id": "9d2249221bfe",
+      "teamId": "iup",
+      "headline": "IUP's coach and three players win conference honors",
+      "summary": "The conference named IUP coach Avery Moore the best coach in the West on Wednesday, the first time she has won it. Delaney Concannon and Jessica Neiman made the all-conference first team and Charlotte Potvin made the second team.",
+      "date": "2026-11-11",
+      "source": "PSAC",
+      "url": "https://psacsports.org/news/2026/11/11/2026-psac-womens-volleyball-all-conference-mccoy-flohr-named-athletes-of-the-year.aspx"
+    },
+    {
+      "id": "c305eabcc498",
+      "teamId": "saints",
+      "headline": "Saints pick their team doctor for a military award",
+      "summary": "The Saints named head team orthopedist Dr. Stephen Choate as their nominee for the NFL's Salute to Service Award. He spent four years in the Air Force, rose to the rank of major, and has been the team's doctor for nine seasons.",
+      "date": "2026-11-11",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/dr-stephen-choate-saints-2026-nfl-salute-to-service-award-nominee-usaa"
+    },
+    {
+      "id": "4d219a3c2875",
+      "teamId": "florida",
+      "headline": "Ty Jackson earns a starting job at Florida",
+      "summary": "Jackson barely played on defense for a season and a half, then blocked a punt against South Carolina and started getting more snaps. He made his first start against Oklahoma, and Coach Jon Sumrall has pointed to him as a player who keeps fighting.",
+      "date": "2026-11-11",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/11/football-gators-jacksons-perseverance-is-paying-off-linebacker-ty-jackson-head-coach-jon-sumrall"
+    },
     {
       "id": "63ec50f659cb",
       "teamId": "saints",
@@ -23,6 +77,24 @@
       "date": "2026-11-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
+    },
+    {
+      "id": "74d6bad688b5",
+      "teamId": "yankees",
+      "headline": "Max Fried had surgery on his pitching elbow",
+      "summary": "General manager Brian Cashman said Tuesday that a small piece of bone was taken out of the left-hander's elbow. The ligament was not touched, and Fried should start throwing again in December and be ready when spring training opens.",
+      "date": "2026-11-10",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/max-fried-undergoes-surgery-to-remove-bone-spur-from-elbow-expected-to-be-ready-for-spring-training.html"
+    },
+    {
+      "id": "0705c590a581",
+      "teamId": "texas",
+      "headline": "Arch Manning is still up for a national award",
+      "summary": "Manning was one of 30 quarterbacks named Tuesday to this year's class for the Davey O'Brien Award, which goes to the best quarterback in the country. The list gets cut down next Tuesday and the winner is announced December 11.",
+      "date": "2026-11-10",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/10/no-8-8-7-footballs-manning-named-to-davey-o-brien-quarterback-class-of-2026"
     },
     {
       "id": "a211d31350e3",
@@ -176,6 +248,15 @@
       "date": "2026-11-08",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/cleveland-browns-vs-new-orleans-saints-2026-nfl-week-9-postgame-quotes"
+    },
+    {
+      "id": "d7ec9a510187",
+      "teamId": "tulane",
+      "headline": "Tulsa routs Tulane 60-10 at Homecoming",
+      "summary": "Tulsa led 32-0 at halftime and Tulane never got going, losing by 50 points in front of the Homecoming crowd at Yulman Stadium. It is the worst conference loss Tulane has ever had, and the Green Wave are now four wins and five losses.",
+      "date": "2026-11-07",
+      "source": "Fox 8",
+      "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
     },
     {
       "id": "1c4e1205e69c",
@@ -626,6 +707,15 @@
       "date": "2026-10-30",
       "source": "Orangebloods",
       "url": "https://www.orangebloods.com/2026/10/30/texas-longhorn-football-colin-simmons-ruled-out/"
+    },
+    {
+      "id": "2ddc5fe47db2",
+      "teamId": "warren-easton",
+      "headline": "John Ehret beats Warren Easton 35-18",
+      "summary": "Warren Easton lost Thursday night in Marrero. It was the Eagles' first district loss and it ended a four-game winning streak, and it drops them from first place in the district to third.",
+      "date": "2026-10-29",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/new-orleans/warren-easton-fighting-eagles/football/schedule/"
     },
     {
       "id": "d49e8729f986",
@@ -4415,51 +4505,6 @@
       "date": "2026-08-17",
       "source": "WRUF",
       "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
-    },
-    {
-      "id": "2b2be0a927cc",
-      "teamId": "florida",
-      "headline": "Florida left out of preseason AP Top 25",
-      "summary": "The Gators didn't crack the AP's preseason poll, though they had the second-most votes among unranked teams. It's a fresh-start season under new coach Jon Sumrall, so this is the low point expectations can only rise from.",
-      "date": "2026-08-17",
-      "source": "WRUF",
-      "url": "https://www.wruf.com/headlines/2026/08/17/florida-football-falls-outside-2026-preseason-ap-top-25-rankings/"
-    },
-    {
-      "id": "78f49bbca788",
-      "teamId": "florida",
-      "headline": "Sumrall gives injury update after scrimmage",
-      "summary": "Receiver Vernell Brown III and defensive back Dijon Johnson, who both sat out the scrimmage as a precaution, were back at full practice Monday. Defensive back Jordy Lowery was the only player actually hurt, with a minor soft-tissue injury.",
-      "date": "2026-08-17",
-      "source": "On3",
-      "url": "https://www.on3.com/teams/florida-gators/news/jon-sumrall-provides-injury-report-after-florida-gators-scrimmage/"
-    },
-    {
-      "id": "484166c834af",
-      "teamId": "tulane",
-      "headline": "Four quarterbacks still fighting for the job",
-      "summary": "Zeon Chriss-Gremillion ran for two touchdowns in the first fall scrimmage and the offense gave the ball away only once. Coach Will Hall names his first depth chart on August 24.",
-      "date": "2026-08-16",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-quarterbacks-check-off-wishlist-014505162.html"
-    },
-    {
-      "id": "26a8f88cedd9",
-      "teamId": "tulane",
-      "headline": "Defense dominates in first fall scrimmage",
-      "summary": "Tulane's defense set the tone early in Saturday's first scrimmage, and coach Will Hall said the offense answered back in the red zone. The four-way quarterback race stays open with the season opener three weeks away.",
-      "date": "2026-08-15",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-defense-roars-first-fall-200034419.html"
-    },
-    {
-      "id": "a15dc27e2cf8",
-      "teamId": "iup",
-      "headline": "IUP volleyball picked second in its division",
-      "summary": "Coaches picked the Crimson Hawks second in the PSAC West, behind Gannon. IUP went 9-5 in the division last season and brings back three all-conference players.",
-      "date": "2026-08-13",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/13/womens-volleyball-iup-volleyball-picked-second-in-psac-west-preseason-poll.aspx"
     }
   ]
 }

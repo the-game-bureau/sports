@@ -1,9 +1,9 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "teams": {
     "saints": {
-      "record": "3-5",
+      "record": "3-6",
       "nextGame": {
         "homeAway": "home",
         "opponent": "Carolina Panthers",
@@ -18,71 +18,76 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday home game in the Superdome against Carolina. Noon our time. The Saints and Carolina both have three wins and five losses, so whoever wins this one is alone in first place in their division."
+        "note": "Today's game, at noon in the Superdome. Carolina won it 20-17 on a field goal on the last play, so Carolina is alone in first place in the division. The Saints play at Chicago next Sunday at noon our time, on Fox 8."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 23,
-        "opponentScore": 22,
-        "opponent": "Cleveland Browns",
-        "date": "2026-11-08"
+        "result": "L",
+        "teamScore": 17,
+        "opponentScore": 20,
+        "opponent": "Carolina Panthers",
+        "date": "2026-11-15",
+        "utc": "2026-11-15T18:00Z"
       },
       "news": [
         {
-          "id": "877ac6b0966b",
+          "id": "110d786bed2c",
           "teamId": "saints",
-          "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
-          "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
-          "date": "2026-11-13",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
+          "headline": "Carolina beats the Saints 20-17 on the last play",
+          "summary": "Charlie Smyth tied the game with a 55-yard field goal with 41 seconds left, and then Carolina kicked a 54-yarder as the clock ran out. Alvin Kamara scored both New Orleans touchdowns, and the Saints are now three wins and six losses.",
+          "date": "2026-11-15",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
         },
         {
-          "id": "a247df3fe28c",
+          "id": "5215ca130ee3",
           "teamId": "saints",
-          "headline": "Alvin Kamara was back at practice Thursday",
-          "summary": "Kamara rested his back and sat out Wednesday, then practiced fully on Thursday. Center Erik McCoy, who hurt his biceps on Sunday, has not practiced at all this week, so Cesar Ruiz will play center against Carolina.",
-          "date": "2026-11-12",
+          "headline": "The Saints played without their center and left tackle",
+          "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
+          "date": "2026-11-15",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
         },
         {
-          "id": "c305eabcc498",
+          "id": "dbce3502ca81",
           "teamId": "saints",
-          "headline": "Saints pick their team doctor for a military award",
-          "summary": "The Saints named head team orthopedist Dr. Stephen Choate as their nominee for the NFL's Salute to Service Award. He spent four years in the Air Force, rose to the rank of major, and has been the team's doctor for nine seasons.",
-          "date": "2026-11-11",
+          "headline": "Travis Etienne comes off injured reserve",
+          "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
+          "date": "2026-11-14",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/dr-stephen-choate-saints-2026-nfl-salute-to-service-award-nominee-usaa"
+          "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
         }
       ]
     },
     "florida": {
-      "record": "5-4",
+      "record": "6-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Kentucky Wildcats",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T23:15Z",
-        "time": "5:15 PM",
-        "venue": "Kroger Field",
-        "city": "Lexington, KY",
-        "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
-          "url": "",
-          "note": "On YouTube TV"
-        },
-        "note": "Saturday evening road game in Lexington, Kentucky. A quarter past five our time. Florida has won five games and lost four and needs one more win to reach a bowl game. Kentucky has won seven games and lost two."
+        "homeAway": "home",
+        "opponent": "Vanderbilt Commodores",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z",
+        "time": "11:00 AM",
+        "venue": "Ben Hill Griffin Stadium",
+        "city": "Gainesville, FL",
+        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time. The channel has not been announced yet. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 7,
-        "opponentScore": 23,
-        "opponent": "Oklahoma Sooners",
-        "date": "2026-11-07"
+        "result": "W",
+        "teamScore": 21,
+        "opponentScore": 14,
+        "opponent": "Kentucky Wildcats",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T23:15Z"
       },
       "news": [
+        {
+          "id": "77527838ab3d",
+          "teamId": "florida",
+          "headline": "Florida beats Kentucky and reaches a bowl game",
+          "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
+          "date": "2026-11-14",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+        },
         {
           "id": "d025af81720c",
           "teamId": "florida",
@@ -100,44 +105,54 @@
           "date": "2026-11-12",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
-        },
-        {
-          "id": "4d219a3c2875",
-          "teamId": "florida",
-          "headline": "Ty Jackson earns a starting job at Florida",
-          "summary": "Jackson barely played on defense for a season and a half, then blocked a punt against South Carolina and started getting more snaps. He made his first start against Oklahoma, and Coach Jon Sumrall has pointed to him as a player who keeps fighting.",
-          "date": "2026-11-11",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/11/football-gators-jacksons-perseverance-is-paying-off-linebacker-ty-jackson-head-coach-jon-sumrall"
         }
       ]
     },
     "lsu": {
-      "record": "6-3",
+      "record": "6-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Texas Longhorns",
-        "date": "2026-11-14",
-        "utc": "2026-11-15T00:30Z",
-        "time": "6:30 PM",
-        "venue": "Tiger Stadium",
-        "city": "Baton Rouge, LA",
+        "homeAway": "away",
+        "opponent": "Tennessee Volunteers",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T20:30Z",
+        "time": "2:30 PM",
+        "venue": "Neyland Stadium",
+        "city": "Knoxville, TN",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday night home game in Baton Rouge. Half past six our time. LSU has won six games and lost three. Texas has won seven and lost two."
+        "note": "Saturday afternoon road game in Knoxville, Tennessee. Half past two our time. LSU has won six games and lost four. Tennessee has won eight games and lost two."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 13,
-        "opponentScore": 31,
-        "opponent": "Alabama Crimson Tide",
-        "date": "2026-11-07"
+        "teamScore": 21,
+        "opponentScore": 22,
+        "opponent": "Texas Longhorns",
+        "date": "2026-11-14",
+        "utc": "2026-11-15T00:30Z"
       },
       "news": [
+        {
+          "id": "5c91a799d6e6",
+          "teamId": "lsu",
+          "headline": "Lane Kiffin says LSU has a ways to go",
+          "summary": "After Saturday's loss, LSU's first-year coach said it was fair to ask questions about a team with six wins and four losses, and that the Tigers are not a dominant team yet. The loss all but ends their chance at the national playoff.",
+          "date": "2026-11-15",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
+        },
+        {
+          "id": "5cbe559deb96",
+          "teamId": "lsu",
+          "headline": "Texas beats LSU 22-21 on a late touchdown",
+          "summary": "LSU led 21-10 in the third quarter and 21-16 in the fourth, then Texas drove the length of the field and scored with three seconds to go. Sam Leavitt threw for 244 yards and two touchdowns but was intercepted three times, all by the same Texas player.",
+          "date": "2026-11-14",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
+        },
         {
           "id": "490d43c9f818",
           "teamId": "lsu",
@@ -146,53 +161,37 @@
           "date": "2026-11-12",
           "source": "Tiger Rag",
           "url": "https://www.tigerrag.com/lsu-lb-whit-weeks-still-questionable-for-texas-game-dt-gabriel-reliford-available-for-1st-time-this-season/"
-        },
-        {
-          "id": "a9424c151b01",
-          "teamId": "lsu",
-          "headline": "LSU's coach has kind words for Arch Manning",
-          "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
-          "date": "2026-11-11",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
-        },
-        {
-          "id": "3f31ac59926c",
-          "teamId": "lsu",
-          "headline": "Whit Weeks may be able to play Saturday",
-          "summary": "LSU listed the linebacker as questionable for the Texas game on this week's conference injury report. He has not played since ankle surgery in September, and last week he was listed as doubtful and did not play against Alabama.",
-          "date": "2026-11-11",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/lsu/football/lsu-gets-encouraging-whit-weeks-update-on-first-injury-report-vs-texas"
         }
       ]
     },
     "tulane": {
-      "record": "4-5",
+      "record": "5-5",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Rice Owls",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T19:00Z",
-        "time": "1:00 PM",
-        "venue": "First Community Stadium",
-        "city": "Houston, TX",
-        "tv": {
-          "name": "ESPN+",
-          "logo": "images/espnplus.webp",
-          "url": "",
-          "note": "On ESPN Unlimited (comes with YouTube TV)"
-        },
-        "note": "Saturday afternoon road game in Houston. One o'clock our time. Tulane has won four games and lost five. Rice has won one game and lost eight. Tulane needs to win two of its last three games to reach a bowl game."
+        "homeAway": "home",
+        "opponent": "North Texas Mean Green",
+        "date": "2026-11-21",
+        "venue": "Yulman Stadium",
+        "city": "New Orleans, LA",
+        "note": "Saturday home game at Yulman Stadium against North Texas. The kickoff time and the channel have not been announced yet. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 10,
-        "opponentScore": 60,
-        "opponent": "Tulsa Golden Hurricane",
-        "date": "2026-11-07"
+        "result": "W",
+        "teamScore": 20,
+        "opponentScore": 17,
+        "opponent": "Rice Owls",
+        "date": "2026-11-14",
+        "utc": "2026-11-14T21:30Z"
       },
       "news": [
+        {
+          "id": "3bebfe0a8b0b",
+          "teamId": "tulane",
+          "headline": "Tulane wins at Rice 20-17 after a bus ride",
+          "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
+          "date": "2026-11-14",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
+        },
         {
           "id": "38b1b0472319",
           "teamId": "tulane",
@@ -210,23 +209,17 @@
           "date": "2026-11-08",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
-        },
-        {
-          "id": "d7ec9a510187",
-          "teamId": "tulane",
-          "headline": "Tulsa routs Tulane 60-10 at Homecoming",
-          "summary": "Tulsa led 32-0 at halftime and Tulane never got going, losing by 50 points in front of the Homecoming crowd at Yulman Stadium. It is the worst conference loss Tulane has ever had, and the Green Wave are now four wins and five losses.",
-          "date": "2026-11-07",
-          "source": "Fox 8",
-          "url": "https://www.fox8live.com/2026/11/07/tulane-suffers-50-point-loss-its-homecoming-game-routed-by-tulsa-60-10/"
         }
       ]
     },
     "brother-martin": {
       "record": "7-3",
       "nextGame": {
-        "label": "Playoff second round, against the winner of Bonnabel and Peabody",
-        "note": "Brother Martin is the 8th seed and does not play this week, because it has a bye in the first round. Its next game is the second round against the winner of Bonnabel and Peabody, on Thursday November 19 or Friday November 20. The place and the time have not been announced yet. Bonnabel hosts Peabody on Friday night. Bonnabel is the team that beat Warren Easton 29-28 last Thursday."
+        "homeAway": "away",
+        "opponent": "Bonnabel",
+        "date": "2026-11-19",
+        "city": "Kenner, LA",
+        "note": "Second round of the state playoffs on Thursday, on the road in Kenner, about half an hour from Brother Martin. MaxPreps lists the game at Bonnabel and the kickoff time has not been announced yet. Bonnabel beat Peabody 60-22 in the first round and has eight wins and three losses."
       },
       "lastGame": {
         "result": "W",
@@ -236,6 +229,15 @@
         "date": "2026-11-06"
       },
       "news": [
+        {
+          "id": "630aff16a378",
+          "teamId": "brother-martin",
+          "headline": "Brother Martin plays at Bonnabel on Thursday",
+          "summary": "Bonnabel beat Peabody 60-22 on Friday night, so that is who Brother Martin gets in the second round of the playoffs. The game is listed for Thursday in Kenner and the kickoff time has not been announced.",
+          "date": "2026-11-13",
+          "source": "MaxPreps",
+          "url": "https://www.maxpreps.com/la/kenner/bonnabel-bruins/football/schedule/"
+        },
         {
           "id": "aa0b2fb5e682",
           "teamId": "brother-martin",
@@ -253,15 +255,6 @@
           "date": "2026-11-06",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/easton-royal-scores-4-touchdowns-to-power-brother-martin-pasts-holy-cross-27-14/"
-        },
-        {
-          "id": "c7df566ddaff",
-          "teamId": "brother-martin",
-          "headline": "Brother Martin beats Chalmette 27-21",
-          "summary": "Brother Martin won a district game Friday night in Chalmette. The Crusaders are 6-3 and finish the regular season on the road against Holy Cross next Friday.",
-          "date": "2026-10-30",
-          "source": "WGNO Fox 8 Friday Night Football",
-          "url": "https://wgno.com/sports/fnf-week-9-brother-martin-posts-district-victory-over-chalmette-27-21/"
         }
       ]
     }
