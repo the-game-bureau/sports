@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "99fb5c45e7db",
+      "teamId": "iup",
+      "headline": "Gannon beats IUP for the conference title",
+      "summary": "Gannon won the championship match in three straight sets Sunday at the Kovalchick Complex. IUP has won 23 matches and lost 6.",
+      "date": "2026-11-15",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/15/womens-volleyball-iup-volleyball-falls-to-gannon-in-psac-championship-match.aspx"
+    },
+    {
+      "id": "dbce3502ca81",
+      "teamId": "saints",
+      "headline": "Travis Etienne comes off injured reserve",
+      "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
+      "date": "2026-11-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
+    },
+    {
+      "id": "62ff9cc1ce8a",
+      "teamId": "iup",
+      "headline": "IUP sweeps Clarion and plays for the conference title",
+      "summary": "IUP won in three straight sets at home Saturday, 25-15, 25-19 and 25-20. Sammy Stephens had 10 kills, the Crimson Hawks are 23 wins and 5 losses, and they play Gannon for the championship on Sunday.",
+      "date": "2026-11-14",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/14/womens-volleyball-iup-volleyball-sweeps-clarion-to-advance-to-psac-championship-match.aspx"
+    },
+    {
+      "id": "f5eec71b8537",
+      "teamId": "florida",
+      "headline": "Florida lands a big offensive lineman for 2027",
+      "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
+      "date": "2026-11-12",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
+    },
+    {
+      "id": "a9424c151b01",
+      "teamId": "texas",
+      "headline": "LSU's coach has kind words for Arch Manning",
+      "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
+      "date": "2026-11-11",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
+    },
+    {
+      "id": "b380baf40370",
+      "teamId": "tulane",
+      "headline": "Tulane's coach takes the blame for the 60-10 loss",
+      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
+    },
     {
       "id": "877ac6b0966b",
       "teamId": "saints",
@@ -4451,60 +4505,6 @@
       "date": "2026-08-18",
       "source": "Fox Sports",
       "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
-    },
-    {
-      "id": "3627ef62f53f",
-      "teamId": "saints",
-      "headline": "Saints, Cowboys scuffle in joint practice",
-      "summary": "Tuesday's joint practice with the Cowboys in Oxnard got chippy, with several scuffles breaking out. Coach Kellen Moore said the team still got the work it needed done.",
-      "date": "2026-08-18",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/morning-break-saints-look-ahead-to-rams-matchup-following-cowboys-joint-practice-new-orleans-news-headlines-8-19-2026"
-    },
-    {
-      "id": "694ea253348b",
-      "teamId": "texas",
-      "headline": "Left tackle Goosby has bone bruise in knee",
-      "summary": "Star left tackle Trevor Goosby was diagnosed with a bone bruise in his left knee after a non-contact injury at Monday's practice. He avoided a torn ligament, but his timeline for returning is still unclear.",
-      "date": "2026-08-18",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/trevor-goosby-receives-mri-diagnosis-following-non-contact-injury/"
-    },
-    {
-      "id": "6cc0cd53406a",
-      "teamId": "yankees",
-      "headline": "Carlos Rodón returns with 4 solid innings",
-      "summary": "Rodón made his first start since early July and pitched four innings against Baltimore. Trent Grisham's home run carried the Yankees to a 3-1 win.",
-      "date": "2026-08-18",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/carlos-rodon-activated-start-vs-orioles"
-    },
-    {
-      "id": "89fd83b6badc",
-      "teamId": "yankees",
-      "headline": "Max Fried back on IL with elbow bone bruise",
-      "summary": "The Yankees placed Max Fried on the injured list Monday with the same left elbow bone bruise that cost him two months earlier this season. There is no timetable yet for his return.",
-      "date": "2026-08-18",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/max-fried-bone-bruise-left-elbow"
-    },
-    {
-      "id": "ddb336f99b8c",
-      "teamId": "yankees",
-      "headline": "Aaron Judge begins hitting progression",
-      "summary": "Judge will start hitting this week as he works back from the rib fracture that has kept him out since early June. The Yankees are hopeful he can return to the lineup in September.",
-      "date": "2026-08-18",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-08-18/aaron-judge-rib-to-start-hitting-progression"
-    },
-    {
-      "id": "7bbc018fb7d6",
-      "teamId": "florida",
-      "headline": "QB battle still even after first scrimmage",
-      "summary": "Neither Aaron Philo nor Tramell Jones Jr. has separated himself in fall camp, coach Jon Sumrall said after Florida's first scrimmage. The competition is expected to continue right up until the season opener.",
-      "date": "2026-08-17",
-      "source": "WRUF",
-      "url": "https://www.wruf.com/headlines/2026/08/17/jon-sumrall-floridas-quarterback-battle-still-even-after-first-scrimmage/"
     }
   ]
 }

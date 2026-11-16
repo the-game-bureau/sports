@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "teams": {
     "tulane": {
       "record": "5-5",
@@ -8,9 +8,17 @@
         "homeAway": "home",
         "opponent": "North Texas Mean Green",
         "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z",
+        "time": "11:00 AM",
         "venue": "Yulman Stadium",
         "city": "New Orleans, LA",
-        "note": "Saturday home game at Yulman Stadium against North Texas. The kickoff time and the channel have not been announced yet. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
+        "tv": {
+          "name": "ESPNU",
+          "logo": "images/espnu.webp",
+          "url": "",
+          "note": "On YouTube TV"
+        },
+        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
       },
       "lastGame": {
         "result": "W",
@@ -21,6 +29,15 @@
         "utc": "2026-11-14T21:30Z"
       },
       "news": [
+        {
+          "id": "434141e73e08",
+          "teamId": "tulane",
+          "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
+          "summary": "Tulane plays North Texas at Yulman Stadium at 11 o'clock Saturday morning, on ESPNU. A win sends the Green Wave to a bowl game.",
+          "date": "2026-11-15",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
+        },
         {
           "id": "3bebfe0a8b0b",
           "teamId": "tulane",
@@ -38,15 +55,6 @@
           "date": "2026-11-10",
           "source": "Tulane Green Wave On SI",
           "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
-        },
-        {
-          "id": "b380baf40370",
-          "teamId": "tulane",
-          "headline": "Tulane's coach takes the blame for the 60-10 loss",
-          "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
-          "date": "2026-11-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
         }
       ]
     },
@@ -60,7 +68,13 @@
         "time": "11:00 AM",
         "venue": "Ben Hill Griffin Stadium",
         "city": "Gainesville, FL",
-        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time. The channel has not been announced yet. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
+        "tv": {
+          "name": "SEC Network",
+          "logo": "",
+          "url": "",
+          "note": "On YouTube TV"
+        },
+        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
       },
       "lastGame": {
         "result": "W",
@@ -71,6 +85,15 @@
         "utc": "2026-11-14T23:15Z"
       },
       "news": [
+        {
+          "id": "b73253fb3205",
+          "teamId": "florida",
+          "headline": "Florida is back in the top 25 after beating Kentucky",
+          "summary": "The coaches put Florida 25th in their new poll. Florida got no votes at all the week before.",
+          "date": "2026-11-15",
+          "source": "Gators Wire",
+          "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+        },
         {
           "id": "77527838ab3d",
           "teamId": "florida",
@@ -88,15 +111,6 @@
           "date": "2026-11-12",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
-        },
-        {
-          "id": "f5eec71b8537",
-          "teamId": "florida",
-          "headline": "Florida lands a big offensive lineman for 2027",
-          "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
-          "date": "2026-11-12",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
         }
       ]
     },
@@ -128,6 +142,15 @@
       },
       "news": [
         {
+          "id": "dd8ea22a19c4",
+          "teamId": "texas",
+          "headline": "Arch Manning talks about his three interceptions",
+          "summary": "Manning threw three interceptions at LSU and Texas won anyway, 22-21. He said people will forget them because of the last drive, when he threw the winning touchdown with two seconds left.",
+          "date": "2026-11-15",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/arch-manning-reveals-texas-talk-151600442.html"
+        },
+        {
           "id": "fa42dcd2bbbe",
           "teamId": "texas",
           "headline": "Arch Manning beats LSU with three seconds left",
@@ -144,35 +167,26 @@
           "date": "2026-11-12",
           "source": "Hook'em Headlines",
           "url": "https://hookemheadlines.com/texas-initial-injury-report-provided-sweet-relief-ahead-of-longhorns-trip-to-lsu"
-        },
-        {
-          "id": "a9424c151b01",
-          "teamId": "texas",
-          "headline": "LSU's coach has kind words for Arch Manning",
-          "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
-          "date": "2026-11-11",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
         }
       ]
     },
     "saints": {
       "record": "3-6",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Carolina Panthers",
-        "date": "2026-11-15",
-        "utc": "2026-11-15T18:00Z",
+        "homeAway": "away",
+        "opponent": "Chicago Bears",
+        "date": "2026-11-22",
+        "utc": "2026-11-22T18:00Z",
         "time": "12:00 PM",
-        "venue": "Caesars Superdome",
-        "city": "New Orleans, LA",
+        "venue": "Soldier Field",
+        "city": "Chicago, IL",
         "tv": {
           "name": "Fox 8 (WVUE)",
           "logo": "images/fox8.png",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Today's game, at noon in the Superdome. Carolina won it 20-17 on a field goal on the last play, so Carolina is alone in first place in the division. The Saints play at Chicago next Sunday at noon our time, on Fox 8."
+        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
       },
       "lastGame": {
         "result": "L",
@@ -202,50 +216,50 @@
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
         },
         {
-          "id": "dbce3502ca81",
+          "id": "3390c1527bde",
           "teamId": "saints",
-          "headline": "Travis Etienne comes off injured reserve",
-          "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
-          "date": "2026-11-14",
+          "headline": "Pete Werner hurt his hamstring against Carolina",
+          "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
+          "date": "2026-11-15",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
+          "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
         }
       ]
     },
     "iup": {
-      "record": "23-5",
+      "record": "23-6",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Gannon",
-        "date": "2026-11-15",
-        "utc": "2026-11-15T18:00Z",
-        "time": "12:00 PM",
-        "venue": "Kovalchick Complex",
-        "city": "Indiana, PA",
+        "homeAway": "away",
+        "opponent": "Lock Haven",
+        "date": "2026-11-20",
+        "utc": "2026-11-20T18:30Z",
+        "time": "12:30 PM",
+        "venue": "Hosted by Gannon University",
+        "city": "Erie, PA",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/?B=4809933",
-          "note": "Free. Every IUP volleyball game is on here. Tap this on game day to watch."
+          "note": "Free. This is where IUP's volleyball games are shown. Tap it on game day."
         },
-        "note": "Today's conference championship match at home against Gannon. Noon our time, one o'clock theirs. The winner gets the conference's automatic place in the national tournament. The match is across campus at the Kovalchick Complex, not at Memorial Field House. Every IUP volleyball game is on the free PSAC Sports Digital Network app, and it costs nothing to watch. Tap the link above on game day and the match comes right up. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. IUP's schedule also lists the national tournament the week after, November 19 to 21."
+        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. The games are in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. IUP got in anyway as the second seed in its region. Every IUP volleyball game is on the free PSAC Sports Digital Network app, and it costs nothing to watch, so tap the link above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The tournament runs Friday through Sunday."
       },
       "lastGame": {
-        "result": "W",
-        "teamScore": 3,
-        "opponentScore": 0,
-        "opponent": "Clarion",
-        "date": "2026-11-14"
+        "result": "L",
+        "teamScore": 0,
+        "opponentScore": 3,
+        "opponent": "Gannon",
+        "date": "2026-11-15"
       },
       "news": [
         {
-          "id": "62ff9cc1ce8a",
+          "id": "b75893dbfbde",
           "teamId": "iup",
-          "headline": "IUP sweeps Clarion and plays for the conference title",
-          "summary": "IUP won in three straight sets at home Saturday, 25-15, 25-19 and 25-20. Sammy Stephens had 10 kills, the Crimson Hawks are 23 wins and 5 losses, and they play Gannon for the championship on Sunday.",
-          "date": "2026-11-14",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/14/womens-volleyball-iup-volleyball-sweeps-clarion-to-advance-to-psac-championship-match.aspx"
+          "headline": "IUP makes the national tournament and plays Friday",
+          "summary": "IUP is the second seed in the Atlantic Region and plays Lock Haven on Friday in Erie, Pennsylvania. The match starts at half past twelve our time.",
+          "date": "2026-11-16",
+          "source": "NCAA",
+          "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-15/2026-ncaa-division-ii-womens-volleyball-championship-selections"
         },
         {
           "id": "b00ada9e6a6f",

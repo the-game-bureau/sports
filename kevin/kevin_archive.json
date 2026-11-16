@@ -2,10 +2,37 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "dbce3502ca81",
+      "teamId": "saints",
+      "headline": "Travis Etienne comes off injured reserve",
+      "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
+      "date": "2026-11-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
+    },
+    {
+      "id": "f5eec71b8537",
+      "teamId": "florida",
+      "headline": "Florida lands a big offensive lineman for 2027",
+      "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
+      "date": "2026-11-12",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
+    },
+    {
+      "id": "b380baf40370",
+      "teamId": "tulane",
+      "headline": "Tulane's coach takes the blame for the 60-10 loss",
+      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
+    },
     {
       "id": "877ac6b0966b",
       "teamId": "saints",
