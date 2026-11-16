@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "756d110de368",
+          "teamId": "texas",
+          "headline": "Arch Manning will walk with the seniors Saturday",
+          "summary": "Texas honors its seniors before Saturday's home game against Arkansas, and Manning said Monday he will take part. He also said he is not thinking about next year yet, and walking on senior day does not stop him from coming back.",
+          "date": "2026-11-16",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50503997/texas-arch-manning-participate-senior-day"
+        },
+        {
           "id": "dd8ea22a19c4",
           "teamId": "texas",
           "headline": "Arch Manning talks about his three interceptions",
@@ -158,15 +167,6 @@
           "date": "2026-11-14",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
-        },
-        {
-          "id": "a23865218dcb",
-          "teamId": "texas",
-          "headline": "Texas gets two starters back for the LSU game",
-          "summary": "Receiver Cam Coleman and defensive end Colin Simmons were both left off the conference injury report this week, so they can play Saturday night in Baton Rouge. Four Longhorns are out, including running back Hollywood Smothers and left tackle Trevor Goosby.",
-          "date": "2026-11-12",
-          "source": "Hook'em Headlines",
-          "url": "https://hookemheadlines.com/texas-initial-injury-report-provided-sweet-relief-ahead-of-longhorns-trip-to-lsu"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "d60656a26c80",
+          "teamId": "saints",
+          "headline": "Kellen Moore says he will call plays more aggressively",
+          "summary": "The Saints did not score in the first half and lost 20-17, and on Monday the head coach said the play calling has to change. He said he needs to be more aggressive and find ways to get the ball down the field.",
+          "date": "2026-11-16",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
+        },
+        {
           "id": "110d786bed2c",
           "teamId": "saints",
           "headline": "Carolina beats the Saints 20-17 on the last play",
@@ -205,15 +214,6 @@
           "date": "2026-11-15",
           "source": "ESPN",
           "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
-        },
-        {
-          "id": "5215ca130ee3",
-          "teamId": "saints",
-          "headline": "The Saints played without their center and left tackle",
-          "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
-          "date": "2026-11-15",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
         },
         {
           "id": "3390c1527bde",

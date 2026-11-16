@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "a23865218dcb",
+      "teamId": "texas",
+      "headline": "Texas gets two starters back for the LSU game",
+      "summary": "Receiver Cam Coleman and defensive end Colin Simmons were both left off the conference injury report this week, so they can play Saturday night in Baton Rouge. Four Longhorns are out, including running back Hollywood Smothers and left tackle Trevor Goosby.",
+      "date": "2026-11-12",
+      "source": "Hook'em Headlines",
+      "url": "https://hookemheadlines.com/texas-initial-injury-report-provided-sweet-relief-ahead-of-longhorns-trip-to-lsu"
+    },
+    {
+      "id": "5215ca130ee3",
+      "teamId": "saints",
+      "headline": "The Saints played without their center and left tackle",
+      "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
+    },
+    {
       "id": "99fb5c45e7db",
       "teamId": "iup",
       "headline": "Gannon beats IUP for the conference title",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-19",
       "source": "MLB.com",
       "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
-    },
-    {
-      "id": "9c927efa32d5",
-      "teamId": "saints",
-      "headline": "Rookie receiver Jordyn Tyson out 8 weeks",
-      "summary": "First-round pick Jordyn Tyson strained his hamstring and is expected to miss about eight weeks. Coach Kellen Moore says this injury is not related to his past hamstring problems.",
-      "date": "2026-08-18",
-      "source": "Louisiana Radio Network",
-      "url": "https://louisianaradionetwork.com/2026/08/18/47836/"
-    },
-    {
-      "id": "e51e2b0c272e",
-      "teamId": "texas",
-      "headline": "Four Longhorns named to preseason All-America team",
-      "summary": "Trevor Goosby, Cam Coleman, Colin Simmons, and Rasheem Biles all made the AP's preseason All-America team, more than any other program in the country. It's a strong vote of confidence heading into the season.",
-      "date": "2026-08-18",
-      "source": "Fox Sports",
-      "url": "https://www.foxsports.com/articles/cfb/texas-puts-4-players-on-preseason-ap-allamerica-team-14-of-the-27-firstteam-picks-are-from-sec"
     }
   ]
 }

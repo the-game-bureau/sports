@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "630aff16a378",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin plays at Bonnabel on Thursday",
+      "summary": "Bonnabel beat Peabody 60-22 on Friday night, so that is who Brother Martin gets in the second round of the playoffs. The game is listed for Thursday in Kenner and the kickoff time has not been announced.",
+      "date": "2026-11-13",
+      "source": "MaxPreps",
+      "url": "https://www.maxpreps.com/la/kenner/bonnabel-bruins/football/schedule/"
+    },
+    {
+      "id": "5215ca130ee3",
+      "teamId": "saints",
+      "headline": "The Saints played without their center and left tackle",
+      "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
+    },
+    {
       "id": "dbce3502ca81",
       "teamId": "saints",
       "headline": "Travis Etienne comes off injured reserve",
