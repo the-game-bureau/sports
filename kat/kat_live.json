@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "teams": {
     "saints": {
       "record": "3-6",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "1697732dd140",
+          "teamId": "saints",
+          "headline": "Asim Richards will miss a few weeks with a knee injury",
+          "summary": "The right tackle hurt his knee against Carolina on Sunday and will be out a few weeks, Kellen Moore said Monday. Rookie Mason Murphy took his place, and the Saints are already missing their center and their other starting tackle.",
+          "date": "2026-11-16",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-coach-kellen-moore-understands-frustration-that-has-accompanied-3-6-record"
+        },
+        {
           "id": "d60656a26c80",
           "teamId": "saints",
           "headline": "Kellen Moore says he will call plays more aggressively",
@@ -37,15 +46,6 @@
           "date": "2026-11-16",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
-        },
-        {
-          "id": "110d786bed2c",
-          "teamId": "saints",
-          "headline": "Carolina beats the Saints 20-17 on the last play",
-          "summary": "Charlie Smyth tied the game with a 55-yard field goal with 41 seconds left, and then Carolina kicked a 54-yarder as the clock ran out. Alvin Kamara scored both New Orleans touchdowns, and the Saints are now three wins and six losses.",
-          "date": "2026-11-15",
-          "source": "ESPN",
-          "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
         },
         {
           "id": "3390c1527bde",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "d9bc91488e44",
+          "teamId": "florida",
+          "headline": "Aaron Philo wins two awards for his game at Kentucky",
+          "summary": "The Southeastern Conference named Philo its best offensive player of the week, and the Davey O'Brien award put him on its list of the eight best quarterbacks in the country. He threw for 119 yards and ran for 102 at Kentucky, the first Florida quarterback to run for a hundred yards in a game since 2022.",
+          "date": "2026-11-16",
+          "source": "Florida Athletics",
+          "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
+        },
+        {
           "id": "b73253fb3205",
           "teamId": "florida",
           "headline": "Florida is back in the top 25 after beating Kentucky",
@@ -102,15 +111,6 @@
           "date": "2026-11-14",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
-        },
-        {
-          "id": "d025af81720c",
-          "teamId": "florida",
-          "headline": "Aaron Philo will start at quarterback for Florida",
-          "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
-          "date": "2026-11-12",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "38fcec803482",
+          "teamId": "lsu",
+          "headline": "Lane Kiffin goes back to Tennessee, where he once coached",
+          "summary": "LSU plays at Tennessee on Saturday. Kiffin was the head coach there for one season in 2009 before he left for another job, and he said Monday that going back has not been on his mind.",
+          "date": "2026-11-16",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-comments-on-return-to-knoxville-didnt-even-cross-my-mind/"
+        },
+        {
           "id": "5c91a799d6e6",
           "teamId": "lsu",
           "headline": "Lane Kiffin says LSU has a ways to go",
@@ -158,15 +167,6 @@
           "date": "2026-11-14",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
-        },
-        {
-          "id": "490d43c9f818",
-          "teamId": "lsu",
-          "headline": "LSU gets back a lineman who was supposed to miss the year",
-          "summary": "Gabriel Reliford tore a knee ligament in spring practice and was expected to be out all season. LSU took him off the injury report Thursday and he can play against Texas, and linebacker Whit Weeks is still listed as questionable.",
-          "date": "2026-11-12",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-lb-whit-weeks-still-questionable-for-texas-game-dt-gabriel-reliford-available-for-1st-time-this-season/"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "3db1d0f991a7",
+          "teamId": "tulane",
+          "headline": "Tulane's last road game is set for 2:30 Saturday",
+          "summary": "Tulane plays at South Florida on Saturday, November 28, at half past two in the afternoon. The game is on ESPN+, which comes with YouTube TV at no extra charge.",
+          "date": "2026-11-16",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
+        },
+        {
           "id": "434141e73e08",
           "teamId": "tulane",
           "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
@@ -214,15 +223,6 @@
           "date": "2026-11-14",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
-        },
-        {
-          "id": "38b1b0472319",
-          "teamId": "tulane",
-          "headline": "Tulane's coach liked what he saw at Tuesday's practice",
-          "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
-          "date": "2026-11-10",
-          "source": "Tulane Green Wave On SI",
-          "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
         }
       ]
     }

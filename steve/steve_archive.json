@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "38b1b0472319",
+      "teamId": "tulane",
+      "headline": "Tulane's coach liked what he saw at Tuesday's practice",
+      "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
+      "date": "2026-11-10",
+      "source": "Tulane Green Wave On SI",
+      "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
+    },
+    {
+      "id": "d025af81720c",
+      "teamId": "florida",
+      "headline": "Aaron Philo will start at quarterback for Florida",
+      "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
+      "date": "2026-11-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
+    },
+    {
+      "id": "fa42dcd2bbbe",
+      "teamId": "texas",
+      "headline": "Arch Manning beats LSU with three seconds left",
+      "summary": "Manning threw a 4-yard touchdown pass to Raleek Brown with three seconds on the clock Saturday night in Baton Rouge, and Texas won 22-21. He grew up in New Orleans going to games in that stadium, and he said it is a memory he will keep the rest of his life.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
+    },
+    {
+      "id": "110d786bed2c",
+      "teamId": "saints",
+      "headline": "Carolina beats the Saints 20-17 on the last play",
+      "summary": "Charlie Smyth tied the game with a 55-yard field goal with 41 seconds left, and then Carolina kicked a 54-yarder as the clock ran out. Alvin Kamara scored both New Orleans touchdowns, and the Saints are now three wins and six losses.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
+    },
     {
       "id": "a23865218dcb",
       "teamId": "texas",
@@ -4469,42 +4505,6 @@
       "date": "2026-08-19",
       "source": "WAFB",
       "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
-    },
-    {
-      "id": "e7b9978184d8",
-      "teamId": "texas",
-      "headline": "Goosby could return by season opener",
-      "summary": "Doctors say Trevor Goosby's knee bruise should heal in two to three weeks. That could have him back for the September 5 opener, and he should be ready by the Ohio State game on September 12 at the latest.",
-      "date": "2026-08-19",
-      "source": "Burnt Orange Nation",
-      "url": "https://www.burntorangenation.com/texas-longhorns-football/103934/trevor-goosby-bone-bruise-timetable"
-    },
-    {
-      "id": "a6a60cdcf79a",
-      "teamId": "yankees",
-      "headline": "Yankees trade catcher Christian Bethancourt to Pirates",
-      "summary": "New York sent Bethancourt to Pittsburgh for cash after he hit .333 at Triple-A. The Pirates needed catching depth with their starter out with a hip injury.",
-      "date": "2026-08-19",
-      "source": "Heavy.com",
-      "url": "https://heavy.com/sports/mlb/new-york-yankees/trade-yankees-send-8-year-mlb-veteran-to-pirates/"
-    },
-    {
-      "id": "4fe5df5d93c6",
-      "teamId": "yankees",
-      "headline": "Stanton nearing return from calf injury",
-      "summary": "Manager Aaron Boone said Giancarlo Stanton is near the end of his running program and responding well. There is still no firm timeline for his return.",
-      "date": "2026-08-19",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/york-yankees-announce-giancarlo-stanton-000511940.html"
-    },
-    {
-      "id": "1165bca24dc2",
-      "teamId": "yankees",
-      "headline": "Yankees edge Orioles in third straight win",
-      "summary": "New York beat Baltimore 5-3 on Wednesday, helped by a controversial call that went the Yankees' way and a home run from Ben Rice. It was the Yankees' third win over the Orioles in a row.",
-      "date": "2026-08-19",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/yankees/news/yankees-capitalize-on-disputed-foul-call-on-pete-alonso"
     }
   ]
 }
