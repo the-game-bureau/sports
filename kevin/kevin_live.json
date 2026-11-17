@@ -95,22 +95,22 @@
           "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
         },
         {
-          "id": "b73253fb3205",
+          "id": "52d9294f2c93",
           "teamId": "florida",
-          "headline": "Florida is back in the top 25 after beating Kentucky",
-          "summary": "The coaches put Florida 25th in their new poll. Florida got no votes at all the week before.",
-          "date": "2026-11-15",
-          "source": "Gators Wire",
-          "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+          "headline": "Aaron Philo will keep starting for Florida",
+          "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
+          "date": "2026-11-16",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
         },
         {
-          "id": "77527838ab3d",
+          "id": "f7e1739b7a97",
           "teamId": "florida",
-          "headline": "Florida beats Kentucky and reaches a bowl game",
-          "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
-          "date": "2026-11-14",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+          "headline": "Florida tight end Lacota Dippre hurt his ankle",
+          "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
+          "date": "2026-11-16",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
         }
       ]
     },
@@ -151,6 +151,15 @@
           "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-comments-on-return-to-knoxville-didnt-even-cross-my-mind/"
         },
         {
+          "id": "ea11e8281692",
+          "teamId": "lsu",
+          "headline": "Kiffin is not looking at the backup quarterbacks",
+          "summary": "Lane Kiffin was asked if the last two games are a chance to try the backup quarterbacks. He said he does not think that way, and that Sam Leavitt made some really poor decisions in the loss to Texas.",
+          "date": "2026-11-16",
+          "source": "The Advocate",
+          "url": "https://www.theadvocate.com/baton_rouge/sports/lsu/lsu-football-lane-kiffin-sam-leavitt-tennessee-quarterback-change/article_4eefc9f1-9a01-51e5-8fb8-9893439ee1c8.html"
+        },
+        {
           "id": "5c91a799d6e6",
           "teamId": "lsu",
           "headline": "Lane Kiffin says LSU has a ways to go",
@@ -158,15 +167,6 @@
           "date": "2026-11-15",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
-        },
-        {
-          "id": "5cbe559deb96",
-          "teamId": "lsu",
-          "headline": "Texas beats LSU 22-21 on a late touchdown",
-          "summary": "LSU led 21-10 in the third quarter and 21-16 in the fourth, then Texas drove the length of the field and scored with three seconds to go. Sam Leavitt threw for 244 yards and two touchdowns but was intercepted three times, all by the same Texas player.",
-          "date": "2026-11-14",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
         }
       ]
     },

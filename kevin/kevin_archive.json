@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "b73253fb3205",
+      "teamId": "florida",
+      "headline": "Florida is back in the top 25 after beating Kentucky",
+      "summary": "The coaches put Florida 25th in their new poll. Florida got no votes at all the week before.",
+      "date": "2026-11-15",
+      "source": "Gators Wire",
+      "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+    },
+    {
+      "id": "77527838ab3d",
+      "teamId": "florida",
+      "headline": "Florida beats Kentucky and reaches a bowl game",
+      "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+    },
+    {
+      "id": "5cbe559deb96",
+      "teamId": "lsu",
+      "headline": "Texas beats LSU 22-21 on a late touchdown",
+      "summary": "LSU led 21-10 in the third quarter and 21-16 in the fourth, then Texas drove the length of the field and scored with three seconds to go. Sam Leavitt threw for 244 yards and two touchdowns but was intercepted three times, all by the same Texas player.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
+    },
+    {
       "id": "110d786bed2c",
       "teamId": "saints",
       "headline": "Carolina beats the Saints 20-17 on the last play",

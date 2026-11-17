@@ -95,22 +95,22 @@
           "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
         },
         {
-          "id": "b73253fb3205",
+          "id": "52d9294f2c93",
           "teamId": "florida",
-          "headline": "Florida is back in the top 25 after beating Kentucky",
-          "summary": "The coaches put Florida 25th in their new poll. Florida got no votes at all the week before.",
-          "date": "2026-11-15",
-          "source": "Gators Wire",
-          "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+          "headline": "Aaron Philo will keep starting for Florida",
+          "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
+          "date": "2026-11-16",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
         },
         {
-          "id": "77527838ab3d",
+          "id": "f7e1739b7a97",
           "teamId": "florida",
-          "headline": "Florida beats Kentucky and reaches a bowl game",
-          "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
-          "date": "2026-11-14",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+          "headline": "Florida tight end Lacota Dippre hurt his ankle",
+          "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
+          "date": "2026-11-16",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
         }
       ]
     },
@@ -160,13 +160,13 @@
           "url": "https://www.espn.com/college-football/story/_/id/50503997/texas-arch-manning-participate-senior-day"
         },
         {
-          "id": "dd8ea22a19c4",
+          "id": "8093d7aa013c",
           "teamId": "texas",
-          "headline": "Arch Manning talks about his three interceptions",
-          "summary": "Manning threw three interceptions at LSU and Texas won anyway, 22-21. He said people will forget them because of the last drive, when he threw the winning touchdown with two seconds left.",
-          "date": "2026-11-15",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/arch-manning-reveals-texas-talk-151600442.html"
+          "headline": "Hero Kanu had arm surgery and is out for the season",
+          "summary": "Texas defensive tackle Hero Kanu had surgery on his arm Monday. Coach Steve Sarkisian said Kanu is done for the season.",
+          "date": "2026-11-16",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50503942/texas-dl-hero-kanu-undergoes-season-ending-surgery-arm"
         }
       ]
     },
@@ -240,9 +240,9 @@
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Free. Every IUP volleyball game is on this app. Tap it on game day."
+          "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. IUP got in anyway as the second seed in its region, and Lock Haven has won twenty games and lost seven. Every IUP volleyball game is shown on the free PSAC Sports Digital Network app, so tap the link above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. Gannon is hosting this one and has not posted its channel yet, so look under Gannon on the app as well. The tournament runs Friday through Sunday."
+        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. IUP got in anyway as the second seed in its region, and Lock Haven has won twenty games and lost seven. Every IUP volleyball game is shown on the free PSAC Sports Digital Network app, so tap the link above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. Gannon is hosting this one and has not posted its channel yet, so look under Gannon on the app as well. If IUP wins Friday it plays again Saturday at three o'clock our time, and the winner of the region plays Sunday at three."
       },
       "lastGame": {
         "result": "L",
@@ -302,6 +302,15 @@
       },
       "news": [
         {
+          "id": "1a52f62c2e89",
+          "teamId": "yankees",
+          "headline": "Brett Gardner is on the Hall of Fame ballot",
+          "summary": "Brett Gardner played 14 seasons and all of them for the Yankees. He is on the Hall of Fame ballot for the first time.",
+          "date": "2026-11-16",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/brett-gardner-mlb-hall-of-fame-ballot"
+        },
+        {
           "id": "44748e4352d0",
           "teamId": "yankees",
           "headline": "Tim Hill is staying with the Yankees",
@@ -309,15 +318,6 @@
           "date": "2026-11-15",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
-        },
-        {
-          "id": "77766721cb72",
-          "teamId": "yankees",
-          "headline": "The Yankees lose their bench coach to Houston",
-          "summary": "Brad Ausmus sat next to Aaron Boone in the Yankees dugout for the last three seasons, and on Wednesday the Astros hired him to be their manager. He managed the Tigers for four years and the Angels for one before coming to New York.",
-          "date": "2026-11-11",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
         },
         {
           "id": "ae614cc2ac56",

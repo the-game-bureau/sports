@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "b73253fb3205",
+      "teamId": "florida",
+      "headline": "Florida is back in the top 25 after beating Kentucky",
+      "summary": "The coaches put Florida 25th in their new poll. Florida got no votes at all the week before.",
+      "date": "2026-11-15",
+      "source": "Gators Wire",
+      "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+    },
+    {
+      "id": "dd8ea22a19c4",
+      "teamId": "texas",
+      "headline": "Arch Manning talks about his three interceptions",
+      "summary": "Manning threw three interceptions at LSU and Texas won anyway, 22-21. He said people will forget them because of the last drive, when he threw the winning touchdown with two seconds left.",
+      "date": "2026-11-15",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/arch-manning-reveals-texas-talk-151600442.html"
+    },
+    {
+      "id": "77527838ab3d",
+      "teamId": "florida",
+      "headline": "Florida beats Kentucky and reaches a bowl game",
+      "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+    },
+    {
+      "id": "77766721cb72",
+      "teamId": "yankees",
+      "headline": "The Yankees lose their bench coach to Houston",
+      "summary": "Brad Ausmus sat next to Aaron Boone in the Yankees dugout for the last three seasons, and on Wednesday the Astros hired him to be their manager. He managed the Tigers for four years and the Angels for one before coming to New York.",
+      "date": "2026-11-11",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
+    },
+    {
       "id": "38b1b0472319",
       "teamId": "tulane",
       "headline": "Tulane's coach liked what he saw at Tuesday's practice",
@@ -4469,42 +4505,6 @@
       "date": "2026-08-20",
       "source": "Burnt Orange Nation",
       "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
-    },
-    {
-      "id": "7df4ff2c5f54",
-      "teamId": "saints",
-      "headline": "Three Saints leave joint practice early",
-      "summary": "Guard Cesar Ruiz hurt an ankle and did not finish Thursday's practice with the Rams. Lineman John Ridgeway and cornerback Dalys Beanum also left early, and coach Kellen Moore said the team will keep an eye on all three.",
-      "date": "2026-08-20",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/kellen-moore-shares-injury-updates-232755638.html"
-    },
-    {
-      "id": "c90895ee0f6e",
-      "teamId": "yankees",
-      "headline": "Aaron Judge nearing his return",
-      "summary": "Judge started hitting off a tee and doing soft toss this week as he recovers from his rib injury. Most reports point to him coming back sometime in September.",
-      "date": "2026-08-20",
-      "source": "NY Sports Day",
-      "url": "https://www.nysportsday.com/2026/08/20/aaron-judge-injury-update-2/"
-    },
-    {
-      "id": "f12e6e9adb55",
-      "teamId": "yankees",
-      "headline": "Gerrit Cole passes Clemens on Yankees K list",
-      "summary": "Cole struck out eight in New York's 6-1 win over Baltimore, moving past Roger Clemens for 12th on the Yankees' all-time strikeout list. It capped a series sweep and the team's fourth straight win.",
-      "date": "2026-08-20",
-      "source": "Heavy.com",
-      "url": "https://heavy.com/sports/mlb/new-york-yankees/gerrit-cole-roger-clemens-strikeout-list/"
-    },
-    {
-      "id": "669ea07e56d8",
-      "teamId": "saints",
-      "headline": "Alvin Kamara out at least a month with knee sprain",
-      "summary": "Kamara sprained the MCL in his knee during Tuesday's joint practice with the Cowboys and is expected to miss at least a month. It's a tough blow to the Saints' offense heading into the season.",
-      "date": "2026-08-19",
-      "source": "WAFB",
-      "url": "https://www.wafb.com/2026/08/19/saints-kamara-expected-be-sidelined-least-month-with-knee-sprain-report-says/"
     }
   ]
 }
