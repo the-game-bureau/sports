@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "teams": {
     "tulane": {
       "record": "5-5",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "35f539491203",
+          "teamId": "florida",
+          "headline": "Florida makes the playoff rankings for the first time",
+          "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
+          "date": "2026-11-17",
+          "source": "NCAA",
+          "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+        },
+        {
           "id": "d9bc91488e44",
           "teamId": "florida",
           "headline": "Aaron Philo wins two awards for his game at Kentucky",
@@ -99,15 +108,6 @@
           "teamId": "florida",
           "headline": "Aaron Philo will keep starting for Florida",
           "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
-          "date": "2026-11-16",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
-        },
-        {
-          "id": "f7e1739b7a97",
-          "teamId": "florida",
-          "headline": "Florida tight end Lacota Dippre hurt his ankle",
-          "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
           "date": "2026-11-16",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "598eb6a61b1d",
+          "teamId": "texas",
+          "headline": "Texas moves up to fifth in the playoff rankings",
+          "summary": "The committee that picks the playoff teams put Texas fifth on Tuesday, one spot higher than last week. Twelve teams make the playoff, and Texas has won eight games and lost two.",
+          "date": "2026-11-17",
+          "source": "NCAA",
+          "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+        },
+        {
           "id": "1dbef7cd01d9",
           "teamId": "texas",
           "headline": "Jelani McDonald wins two awards after three interceptions",
@@ -158,15 +167,6 @@
           "date": "2026-11-16",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50503997/texas-arch-manning-participate-senior-day"
-        },
-        {
-          "id": "8093d7aa013c",
-          "teamId": "texas",
-          "headline": "Hero Kanu had arm surgery and is out for the season",
-          "summary": "Texas defensive tackle Hero Kanu had surgery on his arm Monday. Coach Steve Sarkisian said Kanu is done for the season.",
-          "date": "2026-11-16",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50503942/texas-dl-hero-kanu-undergoes-season-ending-surgery-arm"
         }
       ]
     },
@@ -302,6 +302,15 @@
       },
       "news": [
         {
+          "id": "9303c78cf0b6",
+          "teamId": "yankees",
+          "headline": "David Bednar takes the Yankees' one-year offer",
+          "summary": "The Yankees' closer accepted a one-year contract worth 23.15 million dollars on Tuesday instead of looking for a longer deal somewhere else. He saved 35 games for New York this season and gave up 2.47 runs every nine innings.",
+          "date": "2026-11-17",
+          "source": "ABC7 New York",
+          "url": "https://abc7ny.com/post/david-bednar-yankees-reunite-2315m-qualifying-offer/20049348/"
+        },
+        {
           "id": "1a52f62c2e89",
           "teamId": "yankees",
           "headline": "Brett Gardner is on the Hall of Fame ballot",
@@ -318,15 +327,6 @@
           "date": "2026-11-15",
           "source": "ESPN",
           "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
-        },
-        {
-          "id": "ae614cc2ac56",
-          "teamId": "yankees",
-          "headline": "Cam Schlittler wins the Cy Young Award",
-          "summary": "The Yankees right-hander was named the best pitcher in the American League on Wednesday, and all 30 voters put him first. He won 14 games and lost 6, gave up 1.95 runs a game and struck out 239 batters.",
-          "date": "2026-11-11",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/11/cam-schlittler-wins-al-cy-young-award.html"
         }
       ]
     },

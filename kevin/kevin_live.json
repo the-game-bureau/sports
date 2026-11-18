@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "teams": {
     "saints": {
       "record": "3-6",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "35f539491203",
+          "teamId": "florida",
+          "headline": "Florida makes the playoff rankings for the first time",
+          "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
+          "date": "2026-11-17",
+          "source": "NCAA",
+          "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+        },
+        {
           "id": "d9bc91488e44",
           "teamId": "florida",
           "headline": "Aaron Philo wins two awards for his game at Kentucky",
@@ -99,15 +108,6 @@
           "teamId": "florida",
           "headline": "Aaron Philo will keep starting for Florida",
           "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
-          "date": "2026-11-16",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
-        },
-        {
-          "id": "f7e1739b7a97",
-          "teamId": "florida",
-          "headline": "Florida tight end Lacota Dippre hurt his ankle",
-          "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
           "date": "2026-11-16",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"

@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "8093d7aa013c",
+      "teamId": "texas",
+      "headline": "Hero Kanu had arm surgery and is out for the season",
+      "summary": "Texas defensive tackle Hero Kanu had surgery on his arm Monday. Coach Steve Sarkisian said Kanu is done for the season.",
+      "date": "2026-11-16",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50503942/texas-dl-hero-kanu-undergoes-season-ending-surgery-arm"
+    },
+    {
+      "id": "f7e1739b7a97",
+      "teamId": "florida",
+      "headline": "Florida tight end Lacota Dippre hurt his ankle",
+      "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
+      "date": "2026-11-16",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
+    },
     {
       "id": "b73253fb3205",
       "teamId": "florida",
@@ -41,6 +59,15 @@
       "date": "2026-11-11",
       "source": "MLB Trade Rumors",
       "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
+    },
+    {
+      "id": "ae614cc2ac56",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler wins the Cy Young Award",
+      "summary": "The Yankees right-hander was named the best pitcher in the American League on Wednesday, and all 30 voters put him first. He won 14 games and lost 6, gave up 1.95 runs a game and struck out 239 batters.",
+      "date": "2026-11-11",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/cam-schlittler-wins-al-cy-young-award.html"
     },
     {
       "id": "38b1b0472319",
@@ -4478,33 +4505,6 @@
       "date": "2026-08-20",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/five-florida-football-players-named-161554829.html"
-    },
-    {
-      "id": "5e7920fd5089",
-      "teamId": "tulane",
-      "headline": "Tulane linebacker makes national comeback list",
-      "summary": "Dickson Agu hurt his knee in September and missed the rest of last season. He is now one of 94 players named to the watch list for college football's Comeback Player of the Year award.",
-      "date": "2026-08-20",
-      "source": "Tulane Athletics",
-      "url": "https://tulanegreenwave.com/news/2026/8/20/footballs-dickson-agu-named-to-college-football-comeback-player-of-the-year-preseason-watch-list"
-    },
-    {
-      "id": "3a6331fb4bf4",
-      "teamId": "florida",
-      "headline": "LJ McCray up for national comeback award",
-      "summary": "McCray broke his foot early last year and played only four snaps all season. He is back healthy and on the watch list for college football's Comeback Player of the Year award.",
-      "date": "2026-08-20",
-      "source": "Florida Gators",
-      "url": "https://floridagators.com/news/2026/8/20/mccray-named-to-2026-college-football-comeback-player-of-the-year-watch-list"
-    },
-    {
-      "id": "a4049b4099f0",
-      "teamId": "texas",
-      "headline": "Arch Manning named to Golden Arm Award watch list",
-      "summary": "For the second year in a row, Texas quarterback Arch Manning made the watch list for the nation's top upperclassman quarterback. It comes as No. 5 Texas looks to bounce back from last year's two early losses and get back into the College Football Playoff.",
-      "date": "2026-08-20",
-      "source": "Burnt Orange Nation",
-      "url": "https://www.burntorangenation.com/texas-longhorns-news/103950/longhorns-daily-news-texas-arch-manning-named-among-those-on-johnny-unitas-golden-arm-award-watch-list"
     }
   ]
 }

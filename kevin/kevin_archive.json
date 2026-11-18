@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f7e1739b7a97",
+      "teamId": "florida",
+      "headline": "Florida tight end Lacota Dippre hurt his ankle",
+      "summary": "Lacota Dippre hurt his ankle in the third quarter at Kentucky and did not go back in. Coach Jon Sumrall called the injury pretty substantial and said Dippre had an MRI.",
+      "date": "2026-11-16",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
+    },
     {
       "id": "b73253fb3205",
       "teamId": "florida",
