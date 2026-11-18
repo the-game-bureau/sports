@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "653f503a4040",
+          "teamId": "saints",
+          "headline": "Kaden Elliss made 15 tackles against Carolina",
+          "summary": "The Saints named linebacker Kaden Elliss their best player in Sunday's loss to Carolina. He made 15 tackles, sacked the quarterback once and knocked down a pass.",
+          "date": "2026-11-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
+        },
+        {
           "id": "1697732dd140",
           "teamId": "saints",
           "headline": "Asim Richards will miss a few weeks with a knee injury",
@@ -46,15 +55,6 @@
           "date": "2026-11-16",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
-        },
-        {
-          "id": "3390c1527bde",
-          "teamId": "saints",
-          "headline": "Pete Werner hurt his hamstring against Carolina",
-          "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
-          "date": "2026-11-15",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
         }
       ]
     },
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "aa71f984984b",
+          "teamId": "florida",
+          "headline": "Jadan Baugh is up for the top running back award",
+          "summary": "Florida running back Jadan Baugh is one of 10 players still in the running for the Doak Walker Award, which goes to the best running back in the country. He has run for 905 yards this year and leads the Southeastern Conference with 15 touchdowns.",
+          "date": "2026-11-17",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
+        },
+        {
           "id": "35f539491203",
           "teamId": "florida",
           "headline": "Florida makes the playoff rankings for the first time",
@@ -102,15 +111,6 @@
           "date": "2026-11-16",
           "source": "Florida Athletics",
           "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
-        },
-        {
-          "id": "52d9294f2c93",
-          "teamId": "florida",
-          "headline": "Aaron Philo will keep starting for Florida",
-          "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
-          "date": "2026-11-16",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "de8b58f7df34",
+          "teamId": "lsu",
+          "headline": "LSU gets a safety who had picked Wake Forest",
+          "summary": "Keland Shelton Jr., a highly rated high school safety from Charlotte, said Tuesday he will play for LSU instead of Wake Forest. He had been committed to Wake Forest since May.",
+          "date": "2026-11-17",
+          "source": "Saturday Down South",
+          "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-flips-4-star-safety-who-previously-committed-to-wake-forest/"
+        },
+        {
           "id": "38fcec803482",
           "teamId": "lsu",
           "headline": "Lane Kiffin goes back to Tennessee, where he once coached",
@@ -158,15 +167,6 @@
           "date": "2026-11-16",
           "source": "The Advocate",
           "url": "https://www.theadvocate.com/baton_rouge/sports/lsu/lsu-football-lane-kiffin-sam-leavitt-tennessee-quarterback-change/article_4eefc9f1-9a01-51e5-8fb8-9893439ee1c8.html"
-        },
-        {
-          "id": "5c91a799d6e6",
-          "teamId": "lsu",
-          "headline": "Lane Kiffin says LSU has a ways to go",
-          "summary": "After Saturday's loss, LSU's first-year coach said it was fair to ask questions about a team with six wins and four losses, and that the Tigers are not a dominant team yet. The loss all but ends their chance at the national playoff.",
-          "date": "2026-11-15",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "6a8b4ba07d83",
+          "teamId": "tulane",
+          "headline": "Cooper Helmke is up for a national kicking award",
+          "summary": "Tulane kicker Cooper Helmke is one of 20 players still in the running for the Lou Groza Award, which goes to the best kicker in the country. He has made 13 of his 15 field goals this year, and his longest was from 58 yards.",
+          "date": "2026-11-17",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
+        },
+        {
           "id": "3db1d0f991a7",
           "teamId": "tulane",
           "headline": "Tulane's last road game is set for 2:30 Saturday",
@@ -214,15 +223,6 @@
           "date": "2026-11-15",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
-        },
-        {
-          "id": "3bebfe0a8b0b",
-          "teamId": "tulane",
-          "headline": "Tulane wins at Rice 20-17 after a bus ride",
-          "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
-          "date": "2026-11-14",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
         }
       ]
     }

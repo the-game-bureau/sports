@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "3390c1527bde",
+      "teamId": "saints",
+      "headline": "Pete Werner hurt his hamstring against Carolina",
+      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
+    },
+    {
+      "id": "52d9294f2c93",
+      "teamId": "florida",
+      "headline": "Aaron Philo will keep starting for Florida",
+      "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
+      "date": "2026-11-16",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
+    },
+    {
+      "id": "5c91a799d6e6",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin says LSU has a ways to go",
+      "summary": "After Saturday's loss, LSU's first-year coach said it was fair to ask questions about a team with six wins and four losses, and that the Tigers are not a dominant team yet. The loss all but ends their chance at the national playoff.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
+    },
+    {
+      "id": "3bebfe0a8b0b",
+      "teamId": "tulane",
+      "headline": "Tulane wins at Rice 20-17 after a bus ride",
+      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
+    },
+    {
       "id": "f7e1739b7a97",
       "teamId": "florida",
       "headline": "Florida tight end Lacota Dippre hurt his ankle",

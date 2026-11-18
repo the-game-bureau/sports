@@ -7,6 +7,51 @@
   },
   "items": [
     {
+      "id": "3bebfe0a8b0b",
+      "teamId": "tulane",
+      "headline": "Tulane wins at Rice 20-17 after a bus ride",
+      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
+    },
+    {
+      "id": "52d9294f2c93",
+      "teamId": "florida",
+      "headline": "Aaron Philo will keep starting for Florida",
+      "summary": "Coach Jon Sumrall said Aaron Philo starts Saturday against Vanderbilt. He said Philo will probably start the rest of the season if he keeps playing the way he did at Kentucky.",
+      "date": "2026-11-16",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
+    },
+    {
+      "id": "1dbef7cd01d9",
+      "teamId": "texas",
+      "headline": "Jelani McDonald wins two awards after three interceptions",
+      "summary": "McDonald took the ball away from LSU three times Saturday and tied for the team lead with 11 tackles. His conference named him the best defensive player of the week, and the Associated Press named him the best in the country.",
+      "date": "2026-11-16",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/16/no-8-8-6-footballs-mcdonald-spetic-garner-sec-weekly-honors"
+    },
+    {
+      "id": "3390c1527bde",
+      "teamId": "saints",
+      "headline": "Pete Werner hurt his hamstring against Carolina",
+      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
+    },
+    {
+      "id": "44748e4352d0",
+      "teamId": "yankees",
+      "headline": "Tim Hill is staying with the Yankees",
+      "summary": "The left-handed relief pitcher agreed to a new one-year deal worth 2.25 million dollars. He will be back in the New York bullpen next season.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
+    },
+    {
       "id": "8093d7aa013c",
       "teamId": "texas",
       "headline": "Hero Kanu had arm surgery and is out for the season",
@@ -4460,51 +4505,6 @@
       "date": "2026-08-21",
       "source": "Orangebloods",
       "url": "https://www.orangebloods.com/2026/08/21/linebacker-tyanthony-smith-leaves-longhorns/"
-    },
-    {
-      "id": "915bc1d10da3",
-      "teamId": "saints",
-      "headline": "NFL fines Saints $500,000 for practice fights",
-      "summary": "The Saints and Cowboys were each fined after multiple fights broke out during their joint practice in Oxnard on Tuesday. It is one of the largest fines the NFL has issued for a joint practice.",
-      "date": "2026-08-21",
-      "source": "NFL.com",
-      "url": "https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice"
-    },
-    {
-      "id": "8903c490d948",
-      "teamId": "yankees",
-      "headline": "Ryan McMahon out with a sprained thumb",
-      "summary": "McMahon sprained his left thumb sliding into second base against Baltimore and went on the 10-day injured list. The Yankees called up Max Schuemann, and McMahon is not expected to be out long.",
-      "date": "2026-08-21",
-      "source": "MLB Trade Rumors",
-      "url": "https://www.mlbtraderumors.com/2026/08/yankees-place-ryan-mcmahon-on-injured-list.html"
-    },
-    {
-      "id": "f01141ba7e97",
-      "teamId": "saints",
-      "headline": "Wilson and Rattler push for backup quarterback job",
-      "summary": "Tyler Shough is the starter, so Zach Wilson and Spencer Rattler are competing to be the backup. Coach Kellen Moore said both are playing good ball, and Saturday's game at the Rams gives each another turn.",
-      "date": "2026-08-21",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/zach-wilson-spencer-rattler-backup-quarterback-spot-new-orleans-saints-preseason"
-    },
-    {
-      "id": "5612a070a5bc",
-      "teamId": "yankees",
-      "headline": "Yankees beat Blue Jays for fifth win in a row",
-      "summary": "Rookie Spencer Jones hit a two-run home run in the second inning and New York won 3-1 on Friday night. The Yankees are now three games behind Tampa Bay in the American League East.",
-      "date": "2026-08-21",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816613"
-    },
-    {
-      "id": "2677558dce81",
-      "teamId": "florida",
-      "headline": "Five Gators make Senior Bowl watch list",
-      "summary": "Kamran James, Eric Singleton Jr., Bryce Thornton, Jadan Baugh and Myles Graham were named to the Senior Bowl's preseason top 300 list. It is an early sign that pro scouts will be watching them this fall.",
-      "date": "2026-08-20",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/five-florida-football-players-named-161554829.html"
     }
   ]
 }
