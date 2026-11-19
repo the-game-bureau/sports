@@ -2,10 +2,46 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-18",
+    "updated": "2026-11-19",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "1697732dd140",
+      "teamId": "saints",
+      "headline": "Asim Richards will miss a few weeks with a knee injury",
+      "summary": "The right tackle hurt his knee against Carolina on Sunday and will be out a few weeks, Kellen Moore said Monday. Rookie Mason Murphy took his place, and the Saints are already missing their center and their other starting tackle.",
+      "date": "2026-11-16",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-coach-kellen-moore-understands-frustration-that-has-accompanied-3-6-record"
+    },
+    {
+      "id": "d60656a26c80",
+      "teamId": "saints",
+      "headline": "Kellen Moore says he will call plays more aggressively",
+      "summary": "The Saints did not score in the first half and lost 20-17, and on Monday the head coach said the play calling has to change. He said he needs to be more aggressive and find ways to get the ball down the field.",
+      "date": "2026-11-16",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
+    },
+    {
+      "id": "d9bc91488e44",
+      "teamId": "florida",
+      "headline": "Aaron Philo wins two awards for his game at Kentucky",
+      "summary": "The Southeastern Conference named Philo its best offensive player of the week, and the Davey O'Brien award put him on its list of the eight best quarterbacks in the country. He threw for 119 yards and ran for 102 at Kentucky, the first Florida quarterback to run for a hundred yards in a game since 2022.",
+      "date": "2026-11-16",
+      "source": "Florida Athletics",
+      "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
+    },
+    {
+      "id": "38fcec803482",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin goes back to Tennessee, where he once coached",
+      "summary": "LSU plays at Tennessee on Saturday. Kiffin was the head coach there for one season in 2009 before he left for another job, and he said Monday that going back has not been on his mind.",
+      "date": "2026-11-16",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-comments-on-return-to-knoxville-didnt-even-cross-my-mind/"
+    },
     {
       "id": "3390c1527bde",
       "teamId": "saints",

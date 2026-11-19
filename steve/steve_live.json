@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "teams": {
     "tulane": {
       "record": "5-5",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "7e47bccf926d",
+          "teamId": "florida",
+          "headline": "Neal Anderson is going into the Florida Sports Hall of Fame",
+          "summary": "Anderson ran for 3,234 yards and 30 touchdowns for the Gators from 1982 to 1985, and only two Florida players have ever run for more. He went on to play eight seasons for the Chicago Bears, and he will be honored in Orlando next May.",
+          "date": "2026-11-18",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
+        },
+        {
           "id": "aa71f984984b",
           "teamId": "florida",
           "headline": "Jadan Baugh is up for the top running back award",
@@ -102,15 +111,6 @@
           "date": "2026-11-17",
           "source": "NCAA",
           "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
-        },
-        {
-          "id": "d9bc91488e44",
-          "teamId": "florida",
-          "headline": "Aaron Philo wins two awards for his game at Kentucky",
-          "summary": "The Southeastern Conference named Philo its best offensive player of the week, and the Davey O'Brien award put him on its list of the eight best quarterbacks in the country. He threw for 119 yards and ran for 102 at Kentucky, the first Florida quarterback to run for a hundred yards in a game since 2022.",
-          "date": "2026-11-16",
-          "source": "Florida Athletics",
-          "url": "https://floridagators.com/news/2026/11/16/football-philo-earns-sec-and-davey-o-brien-weekly-honors-following-performance-at-kentucky"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "43dc91a55a16",
+          "teamId": "saints",
+          "headline": "Seven Saints did not practice on Wednesday",
+          "summary": "Center Erik McCoy, tackles Taliese Fuaga and Asim Richards, linebacker Pete Werner and cornerback Martin Emerson all sat out practice. Alvin Kamara was given the day off to rest and safety Justin Reid was away on a personal matter, so neither one is hurt.",
+          "date": "2026-11-18",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-wednesday"
+        },
+        {
           "id": "653f503a4040",
           "teamId": "saints",
           "headline": "Kaden Elliss made 15 tackles against Carolina",
@@ -207,22 +216,13 @@
           "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
         },
         {
-          "id": "1697732dd140",
+          "id": "03dce68299c4",
           "teamId": "saints",
-          "headline": "Asim Richards will miss a few weeks with a knee injury",
-          "summary": "The right tackle hurt his knee against Carolina on Sunday and will be out a few weeks, Kellen Moore said Monday. Rookie Mason Murphy took his place, and the Saints are already missing their center and their other starting tackle.",
-          "date": "2026-11-16",
+          "headline": "Tyler Shough says he has to keep getting better",
+          "summary": "The Saints quarterback has thrown for 2,173 yards and 15 touchdowns in nine starts this year, with 7 passes picked off. He said he learns something about himself every week, and that the whole offense has to play better.",
+          "date": "2026-11-18",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-coach-kellen-moore-understands-frustration-that-has-accompanied-3-6-record"
-        },
-        {
-          "id": "d60656a26c80",
-          "teamId": "saints",
-          "headline": "Kellen Moore says he will call plays more aggressively",
-          "summary": "The Saints did not score in the first half and lost 20-17, and on Monday the head coach said the play calling has to change. He said he needs to be more aggressive and find ways to get the ball down the field.",
-          "date": "2026-11-16",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
         }
       ]
     },
@@ -242,7 +242,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. Gannon is hosting this one and has not posted its channel yet, so look under Gannon on the app as well. IUP got in anyway as the second seed in its region, and Lock Haven has won twenty games and lost seven. If IUP wins Friday it plays again Saturday at three o'clock our time, and the winner of the region plays Sunday at three."
+        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. Gannon is hosting, so Friday's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP got in anyway as the second seed in its region, and Lock Haven has won twenty games and lost seven. If IUP wins Friday it plays again Saturday at three o'clock our time, and the winner of the region plays Sunday at three."
       },
       "lastGame": {
         "result": "L",
