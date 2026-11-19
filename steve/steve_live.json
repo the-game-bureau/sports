@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "eca639e8eb12",
+          "teamId": "florida",
+          "headline": "Five Florida players are out for Saturday",
+          "summary": "Florida's injury list came out Wednesday night. Tight end Lacota Dippre, receiver Vernell Brown III, lineman Emeka Ugorji, safety DJ Coleman and lineman Jaden Robinson will all miss the Vanderbilt game.",
+          "date": "2026-11-19",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
+        },
+        {
           "id": "7e47bccf926d",
           "teamId": "florida",
           "headline": "Neal Anderson is going into the Florida Sports Hall of Fame",
@@ -102,15 +111,6 @@
           "date": "2026-11-17",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
-        },
-        {
-          "id": "35f539491203",
-          "teamId": "florida",
-          "headline": "Florida makes the playoff rankings for the first time",
-          "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
-          "date": "2026-11-17",
-          "source": "NCAA",
-          "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
         }
       ]
     },
@@ -242,7 +242,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "Friday's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. Gannon is hosting, so Friday's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP got in anyway as the second seed in its region, and Lock Haven has won twenty games and lost seven. If IUP wins Friday it plays again Saturday at three o'clock our time, and the winner of the region plays Sunday at three."
+        "note": "Friday is IUP's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. Gannon is hosting, so Friday's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-three wins and six losses. Lock Haven has won twenty games and lost seven, and this is its first national tournament since 2012. If IUP wins Friday it plays again Saturday at three o'clock our time, against Fairmont State or Clarion, and the region final is Sunday at three."
       },
       "lastGame": {
         "result": "L",
@@ -253,13 +253,13 @@
       },
       "news": [
         {
-          "id": "b75893dbfbde",
+          "id": "a146bca5f343",
           "teamId": "iup",
-          "headline": "IUP makes the national tournament and plays Friday",
-          "summary": "IUP is the second seed in the Atlantic Region and plays Lock Haven on Friday in Erie, Pennsylvania. The match starts at half past twelve our time.",
-          "date": "2026-11-16",
-          "source": "NCAA",
-          "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-15/2026-ncaa-division-ii-womens-volleyball-championship-selections"
+          "headline": "IUP is in the national tournament for a fourth straight year",
+          "summary": "IUP is the second seed in the Atlantic Region and opens Friday against Lock Haven in Erie, Pennsylvania. It is the fourth year in a row the Crimson Hawks have made the national tournament.",
+          "date": "2026-11-19",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/11/19/womens-volleyball-iup-volleyball-earns-no-2-seed-in-ncaa-atlantic-regional-set-to-face-lock-haven.aspx"
         },
         {
           "id": "b00ada9e6a6f",

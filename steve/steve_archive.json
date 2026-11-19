@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "b75893dbfbde",
+      "teamId": "iup",
+      "headline": "IUP makes the national tournament and plays Friday",
+      "summary": "IUP is the second seed in the Atlantic Region and plays Lock Haven on Friday in Erie, Pennsylvania. The match starts at half past twelve our time.",
+      "date": "2026-11-16",
+      "source": "NCAA",
+      "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-15/2026-ncaa-division-ii-womens-volleyball-championship-selections"
+    },
+    {
+      "id": "35f539491203",
+      "teamId": "florida",
+      "headline": "Florida makes the playoff rankings for the first time",
+      "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
+      "date": "2026-11-17",
+      "source": "NCAA",
+      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+    },
+    {
       "id": "d9bc91488e44",
       "teamId": "florida",
       "headline": "Aaron Philo wins two awards for his game at Kentucky",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-22",
       "source": "MLB.com",
       "url": "https://www.mlb.com/news/cody-bellinger-yankees-hamstring-injury-rehab"
-    },
-    {
-      "id": "a9a340b5a57b",
-      "teamId": "yankees",
-      "headline": "Ryan Weathers leaves game with arm pain",
-      "summary": "The Yankees starter walked off in the fourth inning on Saturday with soreness in his left forearm. He has already pitched more innings this year than in any season of his career.",
-      "date": "2026-08-22",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/49693944/new-york-yankees-starter-ryan-weathers-exits-4th-inning"
-    },
-    {
-      "id": "01f68b37cf9f",
-      "teamId": "yankees",
-      "headline": "Blue Jays end Yankees' win streak at five",
-      "summary": "Toronto won 4-3 on Saturday afternoon at Yankee Stadium. Nathan Lukes homered in the eighth inning, and a two-run homer by New York in the bottom of the inning was not enough.",
-      "date": "2026-08-22",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401816628/blue-jays-yankees"
     }
   ]
 }
