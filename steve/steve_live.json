@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
+        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
       },
       "lastGame": {
         "result": "W",
@@ -74,7 +74,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
+        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year, and ten seniors are honored before kickoff. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
       },
       "lastGame": {
         "result": "W",
@@ -85,6 +85,15 @@
         "utc": "2026-11-14T23:15Z"
       },
       "news": [
+        {
+          "id": "db508a61693e",
+          "teamId": "florida",
+          "headline": "Ten Gators play their last home game Saturday",
+          "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
+          "date": "2026-11-20",
+          "source": "The Gainesville Sun",
+          "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+        },
         {
           "id": "4115cf72f33f",
           "teamId": "florida",
@@ -102,15 +111,6 @@
           "date": "2026-11-19",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
-        },
-        {
-          "id": "7e47bccf926d",
-          "teamId": "florida",
-          "headline": "Neal Anderson is going into the Florida Sports Hall of Fame",
-          "summary": "Anderson ran for 3,234 yards and 30 touchdowns for the Gators from 1982 to 1985, and only two Florida players have ever run for more. He went on to play eight seasons for the Chicago Bears, and he will be honored in Orlando next May.",
-          "date": "2026-11-18",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon home game in Austin. Half past two our time. Texas has won eight games and lost two. Arkansas has won four games and lost six."
+        "note": "Saturday afternoon home game in Austin. Half past two our time, on ESPN. It is senior day, so Texas honors its seniors before kickoff. Texas has won eight games and lost two. Arkansas has won four games and lost six."
       },
       "lastGame": {
         "result": "W",
@@ -186,7 +186,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
+        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Five Saints are out, including center Erik McCoy and tackle Taliese Fuaga. Alvin Kamara practiced all week and is expected to play. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
       },
       "lastGame": {
         "result": "L",
@@ -198,13 +198,22 @@
       },
       "news": [
         {
-          "id": "eba40960e0f6",
+          "id": "eebfe7035ff3",
           "teamId": "saints",
-          "headline": "Alvin Kamara was back at practice Thursday",
-          "summary": "He sat out Wednesday to rest and took part fully on Thursday. Six Saints still did not practice, including center Erik McCoy and tackle Taliese Fuaga.",
-          "date": "2026-11-19",
+          "headline": "Five Saints are out for Sunday at Chicago",
+          "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
+          "date": "2026-11-20",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
+        },
+        {
+          "id": "4e967db916f7",
+          "teamId": "saints",
+          "headline": "Jordan Howden takes over at safety",
+          "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
+          "date": "2026-11-20",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
         },
         {
           "id": "c074182a7773",
@@ -214,26 +223,17 @@
           "date": "2026-11-19",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
-        },
-        {
-          "id": "653f503a4040",
-          "teamId": "saints",
-          "headline": "Kaden Elliss made 15 tackles against Carolina",
-          "summary": "The Saints named linebacker Kaden Elliss their best player in Sunday's loss to Carolina. He made 15 tackles, sacked the quarterback once and knocked down a pass.",
-          "date": "2026-11-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
         }
       ]
     },
     "iup": {
-      "record": "23-6",
+      "record": "24-6",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Lock Haven",
-        "date": "2026-11-20",
-        "utc": "2026-11-20T18:30Z",
-        "time": "12:30 PM",
+        "opponent": "Clarion",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T21:00Z",
+        "time": "3:00 PM",
         "venue": "Highmark Events Center",
         "city": "Erie, PA",
         "tv": {
@@ -242,24 +242,24 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "Today is IUP's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title last Sunday. Gannon is hosting, so today's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-three wins and six losses. Lock Haven has won twenty games and lost seven, and this is its first national tournament since 2012. If IUP wins today it plays again Saturday at three o'clock our time, against Fairmont State or Clarion, and the region final is Sunday at three."
+        "note": "IUP won Friday and plays again Saturday, against Clarion. Three o'clock our time, four o'clock theirs, at the Highmark Events Center in Erie, Pennsylvania. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. Gannon is hosting the games, so the match may show up under Gannon instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-four wins and six losses. Clarion is the sixth seed and came into the tournament with twenty wins and nine losses. Whoever wins plays Sunday at three o'clock our time for the region title."
       },
       "lastGame": {
-        "result": "L",
-        "teamScore": 0,
-        "opponentScore": 3,
-        "opponent": "Gannon",
-        "date": "2026-11-15"
+        "result": "W",
+        "teamScore": 3,
+        "opponentScore": 1,
+        "opponent": "Lock Haven",
+        "date": "2026-11-20"
       },
       "news": [
         {
-          "id": "a146bca5f343",
+          "id": "f74fd10fa1fe",
           "teamId": "iup",
-          "headline": "IUP is in the national tournament for a fourth straight year",
-          "summary": "IUP is the second seed in the Atlantic Region and opens Friday against Lock Haven in Erie, Pennsylvania. It is the fourth year in a row the Crimson Hawks have made the national tournament.",
-          "date": "2026-11-19",
+          "headline": "IUP beats Lock Haven to stay in the tournament",
+          "summary": "IUP won its first national tournament match in four sets Friday in Erie, 25-20, 25-18, 23-25, 25-19. Jessica Neiman had 13 kills and Delaney Concannon had 11 kills and 14 digs.",
+          "date": "2026-11-20",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/19/womens-volleyball-iup-volleyball-earns-no-2-seed-in-ncaa-atlantic-regional-set-to-face-lock-haven.aspx"
+          "url": "https://iupathletics.com/boxscore.aspx?id=15132&path=wvball"
         },
         {
           "id": "b00ada9e6a6f",

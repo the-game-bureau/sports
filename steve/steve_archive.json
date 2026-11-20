@@ -7,6 +7,42 @@
   },
   "items": [
     {
+      "id": "eba40960e0f6",
+      "teamId": "saints",
+      "headline": "Alvin Kamara was back at practice Thursday",
+      "summary": "He sat out Wednesday to rest and took part fully on Thursday. Six Saints still did not practice, including center Erik McCoy and tackle Taliese Fuaga.",
+      "date": "2026-11-19",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+    },
+    {
+      "id": "a146bca5f343",
+      "teamId": "iup",
+      "headline": "IUP is in the national tournament for a fourth straight year",
+      "summary": "IUP is the second seed in the Atlantic Region and opens Friday against Lock Haven in Erie, Pennsylvania. It is the fourth year in a row the Crimson Hawks have made the national tournament.",
+      "date": "2026-11-19",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/19/womens-volleyball-iup-volleyball-earns-no-2-seed-in-ncaa-atlantic-regional-set-to-face-lock-haven.aspx"
+    },
+    {
+      "id": "653f503a4040",
+      "teamId": "saints",
+      "headline": "Kaden Elliss made 15 tackles against Carolina",
+      "summary": "The Saints named linebacker Kaden Elliss their best player in Sunday's loss to Carolina. He made 15 tackles, sacked the quarterback once and knocked down a pass.",
+      "date": "2026-11-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
+    },
+    {
+      "id": "7e47bccf926d",
+      "teamId": "florida",
+      "headline": "Neal Anderson is going into the Florida Sports Hall of Fame",
+      "summary": "Anderson ran for 3,234 yards and 30 touchdowns for the Gators from 1982 to 1985, and only two Florida players have ever run for more. He went on to play eight seasons for the Chicago Bears, and he will be honored in Orlando next May.",
+      "date": "2026-11-18",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
+    },
+    {
       "id": "43dc91a55a16",
       "teamId": "saints",
       "headline": "Seven Saints did not practice on Wednesday",
@@ -4469,42 +4505,6 @@
       "date": "2026-08-23",
       "source": "amNewYork",
       "url": "https://www.amny.com/sports/ryan-weathers-injury-yankees-8-23-26/"
-    },
-    {
-      "id": "a67cc0da76af",
-      "teamId": "saints",
-      "headline": "Rookie Christen Miller stands out in loss to Rams",
-      "summary": "The second-round pick made three run stops on only eight run-defense snaps in his first preseason game. He was one of the few bright spots in a 34-0 loss.",
-      "date": "2026-08-23",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/morning-break-takeaways-from-saints-rams-christen-miller-makes-early-impact-new-orleans-news-headlines-8-23-2026"
-    },
-    {
-      "id": "0ed2ee917188",
-      "teamId": "tulane",
-      "headline": "Two quarterbacks lead the way in last scrimmage",
-      "summary": "Kadin Semonza and Zeon Chriss-Gremillion took most of the first-team snaps in Tulane's final scrimmage on Saturday at Yulman Stadium. Coach Will Hall said he will name his starting quarterback on Monday.",
-      "date": "2026-08-22",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/tulane/news/tulane-s-energetic-scrimmage-brings-looming-qb-announcement-01m0n3kr0f67"
-    },
-    {
-      "id": "f1a8b41d2e90",
-      "teamId": "texas",
-      "headline": "Nobody hurt in Texas scrimmage, Goosby improving",
-      "summary": "Coach Steve Sarkisian said Texas ran 120 plays on Saturday without a new injury. Left tackle Trevor Goosby is making good progress on his bruised knee, and lineman Laurence Seymore returns to practice Monday.",
-      "date": "2026-08-22",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/texas/football/injury-updates-after-texas-longhorns-second-scrimmage-fall-camp"
-    },
-    {
-      "id": "4d2b1c3fa6fd",
-      "teamId": "texas",
-      "headline": "Defense forces four turnovers in Texas scrimmage",
-      "summary": "The Texas defense took the ball away four times in Saturday's practice game in Austin. Arch Manning threw touchdown passes to Ryan Wingo and Emmett Mosley V, and coach Steve Sarkisian said the offense has to stop giving the ball away.",
-      "date": "2026-08-22",
-      "source": "The Katy News",
-      "url": "https://thekatynews.com/2026/08/22/texas-longhorns-defense-dominates-second-preseason-scrimmage/"
     }
   ]
 }

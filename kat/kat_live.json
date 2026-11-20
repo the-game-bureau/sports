@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
+        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Five Saints are out, including center Erik McCoy and tackle Taliese Fuaga. Alvin Kamara practiced all week and is expected to play. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
       },
       "lastGame": {
         "result": "L",
@@ -30,13 +30,22 @@
       },
       "news": [
         {
-          "id": "eba40960e0f6",
+          "id": "eebfe7035ff3",
           "teamId": "saints",
-          "headline": "Alvin Kamara was back at practice Thursday",
-          "summary": "He sat out Wednesday to rest and took part fully on Thursday. Six Saints still did not practice, including center Erik McCoy and tackle Taliese Fuaga.",
-          "date": "2026-11-19",
+          "headline": "Five Saints are out for Sunday at Chicago",
+          "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
+          "date": "2026-11-20",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
+        },
+        {
+          "id": "4e967db916f7",
+          "teamId": "saints",
+          "headline": "Jordan Howden takes over at safety",
+          "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
+          "date": "2026-11-20",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
         },
         {
           "id": "c074182a7773",
@@ -46,15 +55,6 @@
           "date": "2026-11-19",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
-        },
-        {
-          "id": "653f503a4040",
-          "teamId": "saints",
-          "headline": "Kaden Elliss made 15 tackles against Carolina",
-          "summary": "The Saints named linebacker Kaden Elliss their best player in Sunday's loss to Carolina. He made 15 tackles, sacked the quarterback once and knocked down a pass.",
-          "date": "2026-11-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
         }
       ]
     },
@@ -74,7 +74,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
+        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year, and ten seniors are honored before kickoff. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
       },
       "lastGame": {
         "result": "W",
@@ -85,6 +85,15 @@
         "utc": "2026-11-14T23:15Z"
       },
       "news": [
+        {
+          "id": "db508a61693e",
+          "teamId": "florida",
+          "headline": "Ten Gators play their last home game Saturday",
+          "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
+          "date": "2026-11-20",
+          "source": "The Gainesville Sun",
+          "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+        },
         {
           "id": "4115cf72f33f",
           "teamId": "florida",
@@ -102,15 +111,6 @@
           "date": "2026-11-19",
           "source": "WRUF",
           "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
-        },
-        {
-          "id": "7e47bccf926d",
-          "teamId": "florida",
-          "headline": "Neal Anderson is going into the Florida Sports Hall of Fame",
-          "summary": "Anderson ran for 3,234 yards and 30 touchdowns for the Gators from 1982 to 1985, and only two Florida players have ever run for more. He went on to play eight seasons for the Chicago Bears, and he will be honored in Orlando next May.",
-          "date": "2026-11-18",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon road game in Knoxville, Tennessee. Half past two our time. LSU has won six games and lost four. Tennessee has won eight games and lost two."
+        "note": "Saturday afternoon road game in Knoxville, Tennessee. Half past two our time, on ABC. LSU's two best receivers, Jackson Harris and Winston Watkins Jr., may not play. LSU has won six games and lost four. Tennessee has won eight games and lost two."
       },
       "lastGame": {
         "result": "L",
@@ -142,6 +142,24 @@
       },
       "news": [
         {
+          "id": "63b97dcc55b0",
+          "teamId": "lsu",
+          "headline": "LSU's two best receivers may not play",
+          "summary": "Jackson Harris and Winston Watkins Jr. are both listed as questionable for Saturday at Tennessee. Between them they have caught 96 passes for 1,381 yards this season.",
+          "date": "2026-11-20",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/lsu-could-be-without-2-important-offensive-weapons-vs-tennessee"
+        },
+        {
+          "id": "1ec5add2b6cb",
+          "teamId": "lsu",
+          "headline": "Aidan Anding may play after a lost season",
+          "summary": "The cornerback tore his Achilles tendon in a spring practice in April and has not played a game all year. LSU listed him as probable for Saturday at Tennessee.",
+          "date": "2026-11-19",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-cb-aidan-anding-suddenly-probable-for-tennessee-saturday-after-missing-all-season-with-achilles-injury/"
+        },
+        {
           "id": "cf6f602c663b",
           "teamId": "lsu",
           "headline": "Whit Weeks is out for Saturday at Tennessee",
@@ -149,24 +167,6 @@
           "date": "2026-11-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/thursday-lsu-vs-tennessee-injury-025517633.html"
-        },
-        {
-          "id": "b2358519c5eb",
-          "teamId": "lsu",
-          "headline": "Kiffin says Tennessee's crowd will not top Ole Miss",
-          "summary": "LSU plays at Tennessee on Saturday, and Lane Kiffin was asked Wednesday about the noise waiting for him at Neyland Stadium. He said he is not challenging Tennessee fans, but he does not think any crowd can top the one he faced at Ole Miss this year.",
-          "date": "2026-11-18",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-doesnt-expect-tennessee-atmosphere-to-be-as-hostile-as-ole-miss/"
-        },
-        {
-          "id": "de8b58f7df34",
-          "teamId": "lsu",
-          "headline": "LSU gets a safety who had picked Wake Forest",
-          "summary": "Keland Shelton Jr., a highly rated high school safety from Charlotte, said Tuesday he will play for LSU instead of Wake Forest. He had been committed to Wake Forest since May.",
-          "date": "2026-11-17",
-          "source": "Saturday Down South",
-          "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-flips-4-star-safety-who-previously-committed-to-wake-forest/"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
+        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
       },
       "lastGame": {
         "result": "W",
