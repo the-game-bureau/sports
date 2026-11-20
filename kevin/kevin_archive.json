@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-19",
+    "updated": "2026-11-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "0b3a49d9a478",
+      "teamId": "lsu",
+      "headline": "Whit Weeks is doubtful for Saturday",
+      "summary": "LSU's linebacker broke a bone in his lower leg in September and has not played since. The team listed him as doubtful for Saturday's game at Tennessee.",
+      "date": "2026-11-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/wednesday-lsu-vs-tennessee-injury-030415439.html"
+    },
+    {
+      "id": "43dc91a55a16",
+      "teamId": "saints",
+      "headline": "Seven Saints did not practice on Wednesday",
+      "summary": "Center Erik McCoy, tackles Taliese Fuaga and Asim Richards, linebacker Pete Werner and cornerback Martin Emerson all sat out practice. Alvin Kamara was given the day off to rest and safety Justin Reid was away on a personal matter, so neither one is hurt.",
+      "date": "2026-11-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-wednesday"
+    },
+    {
+      "id": "03dce68299c4",
+      "teamId": "saints",
+      "headline": "Tyler Shough says he has to keep getting better",
+      "summary": "The Saints quarterback has thrown for 2,173 yards and 15 touchdowns in nine starts this year, with 7 passes picked off. He said he learns something about himself every week, and that the whole offense has to play better.",
+      "date": "2026-11-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
+    },
+    {
+      "id": "aa71f984984b",
+      "teamId": "florida",
+      "headline": "Jadan Baugh is up for the top running back award",
+      "summary": "Florida running back Jadan Baugh is one of 10 players still in the running for the Doak Walker Award, which goes to the best running back in the country. He has run for 905 yards this year and leads the Southeastern Conference with 15 touchdowns.",
+      "date": "2026-11-17",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
+    },
     {
       "id": "ea11e8281692",
       "teamId": "lsu",

@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "teams": {
     "saints": {
       "record": "3-6",
@@ -30,13 +30,22 @@
       },
       "news": [
         {
-          "id": "43dc91a55a16",
+          "id": "eba40960e0f6",
           "teamId": "saints",
-          "headline": "Seven Saints did not practice on Wednesday",
-          "summary": "Center Erik McCoy, tackles Taliese Fuaga and Asim Richards, linebacker Pete Werner and cornerback Martin Emerson all sat out practice. Alvin Kamara was given the day off to rest and safety Justin Reid was away on a personal matter, so neither one is hurt.",
-          "date": "2026-11-18",
+          "headline": "Alvin Kamara was back at practice Thursday",
+          "summary": "He sat out Wednesday to rest and took part fully on Thursday. Six Saints still did not practice, including center Erik McCoy and tackle Taliese Fuaga.",
+          "date": "2026-11-19",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+        },
+        {
+          "id": "c074182a7773",
+          "teamId": "saints",
+          "headline": "The Saints' old head coach now runs the Bears defense",
+          "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
+          "date": "2026-11-19",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
         },
         {
           "id": "653f503a4040",
@@ -46,15 +55,6 @@
           "date": "2026-11-18",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
-        },
-        {
-          "id": "03dce68299c4",
-          "teamId": "saints",
-          "headline": "Tyler Shough says he has to keep getting better",
-          "summary": "The Saints quarterback has thrown for 2,173 yards and 15 touchdowns in nine starts this year, with 7 passes picked off. He said he learns something about himself every week, and that the whole offense has to play better.",
-          "date": "2026-11-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
         }
       ]
     },
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "4115cf72f33f",
+          "teamId": "florida",
+          "headline": "Sumrall did not like Tuesday's practice",
+          "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
+          "date": "2026-11-19",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
+        },
+        {
           "id": "eca639e8eb12",
           "teamId": "florida",
           "headline": "Five Florida players are out for Saturday",
@@ -102,15 +111,6 @@
           "date": "2026-11-18",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
-        },
-        {
-          "id": "aa71f984984b",
-          "teamId": "florida",
-          "headline": "Jadan Baugh is up for the top running back award",
-          "summary": "Florida running back Jadan Baugh is one of 10 players still in the running for the Doak Walker Award, which goes to the best running back in the country. He has run for 905 yards this year and leads the Southeastern Conference with 15 touchdowns.",
-          "date": "2026-11-17",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
         }
       ]
     },
@@ -142,13 +142,13 @@
       },
       "news": [
         {
-          "id": "0b3a49d9a478",
+          "id": "cf6f602c663b",
           "teamId": "lsu",
-          "headline": "Whit Weeks is doubtful for Saturday",
-          "summary": "LSU's linebacker broke a bone in his lower leg in September and has not played since. The team listed him as doubtful for Saturday's game at Tennessee.",
+          "headline": "Whit Weeks is out for Saturday at Tennessee",
+          "summary": "LSU's linebacker was listed as doubtful on Wednesday and is now officially out. Receivers Jackson Harris and Winnie Watkins are questionable.",
           "date": "2026-11-19",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/wednesday-lsu-vs-tennessee-injury-030415439.html"
+          "url": "https://sports.yahoo.com/articles/thursday-lsu-vs-tennessee-injury-025517633.html"
         },
         {
           "id": "b2358519c5eb",
@@ -235,7 +235,7 @@
         "time": "3:30 PM",
         "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Second round of the state playoffs. Friday afternoon at half past three, at Tad Gormley Stadium in City Park. Brother Martin plays its home games there, so this is a home game and a short drive. Brother Martin is the eighth seed with seven wins and three losses. Bonnabel is the ninth seed, has won eight games and lost three, and beat Peabody 60-22 in the first round."
+        "note": "Second round of the state playoffs, today at half past three, at Tad Gormley Stadium in City Park. Brother Martin plays its home games there, so this is a home game and a short drive. Brother Martin is the eighth seed with seven wins and three losses. Bonnabel is the ninth seed, has won eight games and lost three, and beat Peabody 60-22 in the first round."
       },
       "lastGame": {
         "result": "W",

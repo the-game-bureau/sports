@@ -2,10 +2,55 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-19",
+    "updated": "2026-11-20",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "43dc91a55a16",
+      "teamId": "saints",
+      "headline": "Seven Saints did not practice on Wednesday",
+      "summary": "Center Erik McCoy, tackles Taliese Fuaga and Asim Richards, linebacker Pete Werner and cornerback Martin Emerson all sat out practice. Alvin Kamara was given the day off to rest and safety Justin Reid was away on a personal matter, so neither one is hurt.",
+      "date": "2026-11-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-wednesday"
+    },
+    {
+      "id": "03dce68299c4",
+      "teamId": "saints",
+      "headline": "Tyler Shough says he has to keep getting better",
+      "summary": "The Saints quarterback has thrown for 2,173 yards and 15 touchdowns in nine starts this year, with 7 passes picked off. He said he learns something about himself every week, and that the whole offense has to play better.",
+      "date": "2026-11-18",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
+    },
+    {
+      "id": "aa71f984984b",
+      "teamId": "florida",
+      "headline": "Jadan Baugh is up for the top running back award",
+      "summary": "Florida running back Jadan Baugh is one of 10 players still in the running for the Doak Walker Award, which goes to the best running back in the country. He has run for 905 yards this year and leads the Southeastern Conference with 15 touchdowns.",
+      "date": "2026-11-17",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
+    },
+    {
+      "id": "756d110de368",
+      "teamId": "texas",
+      "headline": "Arch Manning will walk with the seniors Saturday",
+      "summary": "Texas honors its seniors before Saturday's home game against Arkansas, and Manning said Monday he will take part. He also said he is not thinking about next year yet, and walking on senior day does not stop him from coming back.",
+      "date": "2026-11-16",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50503997/texas-arch-manning-participate-senior-day"
+    },
+    {
+      "id": "1a52f62c2e89",
+      "teamId": "yankees",
+      "headline": "Brett Gardner is on the Hall of Fame ballot",
+      "summary": "Brett Gardner played 14 seasons and all of them for the Yankees. He is on the Hall of Fame ballot for the first time.",
+      "date": "2026-11-16",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/brett-gardner-mlb-hall-of-fame-ballot"
+    },
     {
       "id": "b75893dbfbde",
       "teamId": "iup",
@@ -4460,51 +4505,6 @@
       "date": "2026-08-22",
       "source": "The Katy News",
       "url": "https://thekatynews.com/2026/08/22/texas-longhorns-defense-dominates-second-preseason-scrimmage/"
-    },
-    {
-      "id": "d2eac5793bea",
-      "teamId": "yankees",
-      "headline": "Stanton hurts calf, may miss rest of season",
-      "summary": "Giancarlo Stanton strained his left calf while running the bases this week, just as he was finishing his comeback from a right calf injury. Manager Aaron Boone said the team is not ruling anything out, but there is not much season left.",
-      "date": "2026-08-22",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/giancarlo-stanton-left-calf-strain-could-end-2026-season"
-    },
-    {
-      "id": "49471f9a619b",
-      "teamId": "texas",
-      "headline": "Two Longhorns on top defender watch list",
-      "summary": "Rasheem Biles and Colin Simmons were named to the watch list for the Chuck Bednarik Award, which goes to the best defensive player in college football. Both made the list last year too.",
-      "date": "2026-08-22",
-      "source": "Burnt Orange Nation",
-      "url": "https://www.burntorangenation.com/texas-longhorns-news/103976/longhorns-daily-news-texas-rasheem-biles-colin-simmons-land-on-chuck-bednarik-award-watch-list-for-second-consecutive-year"
-    },
-    {
-      "id": "ea986e02b664",
-      "teamId": "saints",
-      "headline": "Three Saints hurt in loss to Rams",
-      "summary": "Running back Devin Neal hurt a hamstring and tight end Moliki Matavao hurt a knee in the first half. Lineman Torricelli Simpkins left the game with a concussion.",
-      "date": "2026-08-22",
-      "source": "Louisiana Sports",
-      "url": "https://www.louisianasports.net/2026/08/22/rams-shut-out-saints-in-second-preseason-game/saints-football/"
-    },
-    {
-      "id": "610d46216cdd",
-      "teamId": "saints",
-      "headline": "Rams shut out Saints 34-0",
-      "summary": "The Saints did not score in Saturday's preseason game at Los Angeles. They gave the ball away three times, were called for 12 penalties, and missed their only field goal try.",
-      "date": "2026-08-22",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/2026-nfl-preseason-week-2-los-angeles-rams-vs-new-orleans-saints-game-recap"
-    },
-    {
-      "id": "1d33c7a733b6",
-      "teamId": "yankees",
-      "headline": "Cody Bellinger back in the lineup Sunday",
-      "summary": "Bellinger said he will play Sunday against Toronto, his first game since he hurt his hamstring on July 25. He is batting .259 with 11 home runs this season.",
-      "date": "2026-08-22",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/cody-bellinger-yankees-hamstring-injury-rehab"
     }
   ]
 }

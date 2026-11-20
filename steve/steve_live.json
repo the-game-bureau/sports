@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "teams": {
     "tulane": {
       "record": "5-5",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "4115cf72f33f",
+          "teamId": "florida",
+          "headline": "Sumrall did not like Tuesday's practice",
+          "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
+          "date": "2026-11-19",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
+        },
+        {
           "id": "eca639e8eb12",
           "teamId": "florida",
           "headline": "Five Florida players are out for Saturday",
@@ -102,15 +111,6 @@
           "date": "2026-11-18",
           "source": "Florida Gators",
           "url": "https://floridagators.com/news/2026/11/18/football-neal-anderson-selected-to-2026-27-florida-sports-hall-of-fame-class"
-        },
-        {
-          "id": "aa71f984984b",
-          "teamId": "florida",
-          "headline": "Jadan Baugh is up for the top running back award",
-          "summary": "Florida running back Jadan Baugh is one of 10 players still in the running for the Doak Walker Award, which goes to the best running back in the country. He has run for 905 yards this year and leads the Southeastern Conference with 15 touchdowns.",
-          "date": "2026-11-17",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "968008534ec0",
+          "teamId": "texas",
+          "headline": "Colin Simmons is up for the best defensive player award",
+          "summary": "Simmons is one of the finalists for the Bronko Nagurski Trophy, given to the best defensive player in college football. It is the second national award he has been named a finalist for this week.",
+          "date": "2026-11-19",
+          "source": "Texas Athletics",
+          "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist"
+        },
+        {
           "id": "f91f728a7e0f",
           "teamId": "texas",
           "headline": "Colin Simmons is a finalist for a national award",
@@ -158,15 +167,6 @@
           "date": "2026-11-17",
           "source": "NCAA",
           "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
-        },
-        {
-          "id": "756d110de368",
-          "teamId": "texas",
-          "headline": "Arch Manning will walk with the seniors Saturday",
-          "summary": "Texas honors its seniors before Saturday's home game against Arkansas, and Manning said Monday he will take part. He also said he is not thinking about next year yet, and walking on senior day does not stop him from coming back.",
-          "date": "2026-11-16",
-          "source": "ESPN",
-          "url": "https://www.espn.com/college-football/story/_/id/50503997/texas-arch-manning-participate-senior-day"
         }
       ]
     },
@@ -198,13 +198,22 @@
       },
       "news": [
         {
-          "id": "43dc91a55a16",
+          "id": "eba40960e0f6",
           "teamId": "saints",
-          "headline": "Seven Saints did not practice on Wednesday",
-          "summary": "Center Erik McCoy, tackles Taliese Fuaga and Asim Richards, linebacker Pete Werner and cornerback Martin Emerson all sat out practice. Alvin Kamara was given the day off to rest and safety Justin Reid was away on a personal matter, so neither one is hurt.",
-          "date": "2026-11-18",
+          "headline": "Alvin Kamara was back at practice Thursday",
+          "summary": "He sat out Wednesday to rest and took part fully on Thursday. Six Saints still did not practice, including center Erik McCoy and tackle Taliese Fuaga.",
+          "date": "2026-11-19",
           "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-wednesday"
+          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+        },
+        {
+          "id": "c074182a7773",
+          "teamId": "saints",
+          "headline": "The Saints' old head coach now runs the Bears defense",
+          "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
+          "date": "2026-11-19",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
         },
         {
           "id": "653f503a4040",
@@ -214,15 +223,6 @@
           "date": "2026-11-18",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/morning-break-saints-bears-series-history-kaden-elliss-earns-week-10-recognition-new-orleans-news-headlines-11-18-2026"
-        },
-        {
-          "id": "03dce68299c4",
-          "teamId": "saints",
-          "headline": "Tyler Shough says he has to keep getting better",
-          "summary": "The Saints quarterback has thrown for 2,173 yards and 15 touchdowns in nine starts this year, with 7 passes picked off. He said he learns something about himself every week, and that the whole offense has to play better.",
-          "date": "2026-11-18",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
         }
       ]
     },
@@ -242,7 +242,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "Friday is IUP's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title on Sunday. Gannon is hosting, so Friday's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-three wins and six losses. Lock Haven has won twenty games and lost seven, and this is its first national tournament since 2012. If IUP wins Friday it plays again Saturday at three o'clock our time, against Fairmont State or Clarion, and the region final is Sunday at three."
+        "note": "Today is IUP's first game of the national tournament, against Lock Haven. Half past twelve our time, half past one theirs. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. The games are at the Highmark Events Center in Erie, Pennsylvania, at Gannon, who beat IUP for the conference title last Sunday. Gannon is hosting, so today's match may show up under Gannon on the app instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-three wins and six losses. Lock Haven has won twenty games and lost seven, and this is its first national tournament since 2012. If IUP wins today it plays again Saturday at three o'clock our time, against Fairmont State or Clarion, and the region final is Sunday at three."
       },
       "lastGame": {
         "result": "L",
@@ -302,6 +302,15 @@
       },
       "news": [
         {
+          "id": "cf88cd5da4e2",
+          "teamId": "yankees",
+          "headline": "Brian Cashman slept outside at Yankee Stadium",
+          "summary": "The Yankees' general manager spent Thursday night in the outfield to raise money for homeless young people in New York. It was his fifteenth year doing the Covenant House Sleep Out.",
+          "date": "2026-11-19",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/yankees/news/brian-cashman-on-yankees-offseason-moves-sleep-out-charity-event"
+        },
+        {
           "id": "9303c78cf0b6",
           "teamId": "yankees",
           "headline": "David Bednar takes the Yankees' one-year offer",
@@ -318,15 +327,6 @@
           "date": "2026-11-17",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/yankees-boost-pitching-depth-latest-215958113.html"
-        },
-        {
-          "id": "1a52f62c2e89",
-          "teamId": "yankees",
-          "headline": "Brett Gardner is on the Hall of Fame ballot",
-          "summary": "Brett Gardner played 14 seasons and all of them for the Yankees. He is on the Hall of Fame ballot for the first time.",
-          "date": "2026-11-16",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/yankees/news/brett-gardner-mlb-hall-of-fame-ballot"
         }
       ]
     },
