@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-20",
+    "updated": "2026-11-21",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -23,6 +23,15 @@
       "date": "2026-11-19",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/19/womens-volleyball-iup-volleyball-earns-no-2-seed-in-ncaa-atlantic-regional-set-to-face-lock-haven.aspx"
+    },
+    {
+      "id": "c074182a7773",
+      "teamId": "saints",
+      "headline": "The Saints' old head coach now runs the Bears defense",
+      "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
+      "date": "2026-11-19",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
     },
     {
       "id": "653f503a4040",
@@ -70,6 +79,33 @@
       "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
     },
     {
+      "id": "35f539491203",
+      "teamId": "florida",
+      "headline": "Florida makes the playoff rankings for the first time",
+      "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
+      "date": "2026-11-17",
+      "source": "NCAA",
+      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+    },
+    {
+      "id": "9303c78cf0b6",
+      "teamId": "yankees",
+      "headline": "David Bednar takes the Yankees' one-year offer",
+      "summary": "The Yankees' closer accepted a one-year contract worth 23.15 million dollars on Tuesday instead of looking for a longer deal somewhere else. He saved 35 games for New York this season and gave up 2.47 runs every nine innings.",
+      "date": "2026-11-17",
+      "source": "ABC7 New York",
+      "url": "https://abc7ny.com/post/david-bednar-yankees-reunite-2315m-qualifying-offer/20049348/"
+    },
+    {
+      "id": "e9048a3e5b61",
+      "teamId": "yankees",
+      "headline": "The Yankees bring back pitcher Chase Hampton",
+      "summary": "New York claimed Chase Hampton off waivers from Baltimore on Tuesday. The Yankees drafted him back in 2022, and he has not pitched in the major leagues yet.",
+      "date": "2026-11-17",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/yankees-boost-pitching-depth-latest-215958113.html"
+    },
+    {
       "id": "756d110de368",
       "teamId": "texas",
       "headline": "Arch Manning will walk with the seniors Saturday",
@@ -95,15 +131,6 @@
       "date": "2026-11-16",
       "source": "NCAA",
       "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-15/2026-ncaa-division-ii-womens-volleyball-championship-selections"
-    },
-    {
-      "id": "35f539491203",
-      "teamId": "florida",
-      "headline": "Florida makes the playoff rankings for the first time",
-      "summary": "The playoff committee ranked Florida 24th on Tuesday. It is the first time the Gators have been on that list this season, and it comes after their win at Kentucky.",
-      "date": "2026-11-17",
-      "source": "NCAA",
-      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
     },
     {
       "id": "d9bc91488e44",
@@ -133,15 +160,6 @@
       "url": "https://sports.yahoo.com/articles/saints-kellen-moore-says-aggressive-051302806.html"
     },
     {
-      "id": "3bebfe0a8b0b",
-      "teamId": "tulane",
-      "headline": "Tulane wins at Rice 20-17 after a bus ride",
-      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
-      "date": "2026-11-14",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
-    },
-    {
       "id": "52d9294f2c93",
       "teamId": "florida",
       "headline": "Aaron Philo will keep starting for Florida",
@@ -158,24 +176,6 @@
       "date": "2026-11-16",
       "source": "Texas Athletics",
       "url": "https://texaslonghorns.com/news/2026/11/16/no-8-8-6-footballs-mcdonald-spetic-garner-sec-weekly-honors"
-    },
-    {
-      "id": "3390c1527bde",
-      "teamId": "saints",
-      "headline": "Pete Werner hurt his hamstring against Carolina",
-      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
-      "date": "2026-11-15",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
-    },
-    {
-      "id": "44748e4352d0",
-      "teamId": "yankees",
-      "headline": "Tim Hill is staying with the Yankees",
-      "summary": "The left-handed relief pitcher agreed to a new one-year deal worth 2.25 million dollars. He will be back in the New York bullpen next season.",
-      "date": "2026-11-15",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
     },
     {
       "id": "8093d7aa013c",
@@ -196,6 +196,24 @@
       "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
     },
     {
+      "id": "3390c1527bde",
+      "teamId": "saints",
+      "headline": "Pete Werner hurt his hamstring against Carolina",
+      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
+    },
+    {
+      "id": "44748e4352d0",
+      "teamId": "yankees",
+      "headline": "Tim Hill is staying with the Yankees",
+      "summary": "The left-handed relief pitcher agreed to a new one-year deal worth 2.25 million dollars. He will be back in the New York bullpen next season.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
+    },
+    {
       "id": "b73253fb3205",
       "teamId": "florida",
       "headline": "Florida is back in the top 25 after beating Kentucky",
@@ -214,60 +232,6 @@
       "url": "https://sports.yahoo.com/articles/arch-manning-reveals-texas-talk-151600442.html"
     },
     {
-      "id": "77527838ab3d",
-      "teamId": "florida",
-      "headline": "Florida beats Kentucky and reaches a bowl game",
-      "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
-      "date": "2026-11-14",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
-    },
-    {
-      "id": "77766721cb72",
-      "teamId": "yankees",
-      "headline": "The Yankees lose their bench coach to Houston",
-      "summary": "Brad Ausmus sat next to Aaron Boone in the Yankees dugout for the last three seasons, and on Wednesday the Astros hired him to be their manager. He managed the Tigers for four years and the Angels for one before coming to New York.",
-      "date": "2026-11-11",
-      "source": "MLB Trade Rumors",
-      "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
-    },
-    {
-      "id": "ae614cc2ac56",
-      "teamId": "yankees",
-      "headline": "Cam Schlittler wins the Cy Young Award",
-      "summary": "The Yankees right-hander was named the best pitcher in the American League on Wednesday, and all 30 voters put him first. He won 14 games and lost 6, gave up 1.95 runs a game and struck out 239 batters.",
-      "date": "2026-11-11",
-      "source": "MLB Trade Rumors",
-      "url": "https://www.mlbtraderumors.com/2026/11/cam-schlittler-wins-al-cy-young-award.html"
-    },
-    {
-      "id": "38b1b0472319",
-      "teamId": "tulane",
-      "headline": "Tulane's coach liked what he saw at Tuesday's practice",
-      "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
-      "date": "2026-11-10",
-      "source": "Tulane Green Wave On SI",
-      "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
-    },
-    {
-      "id": "d025af81720c",
-      "teamId": "florida",
-      "headline": "Aaron Philo will start at quarterback for Florida",
-      "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
-      "date": "2026-11-12",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
-    },
-    {
-      "id": "fa42dcd2bbbe",
-      "teamId": "texas",
-      "headline": "Arch Manning beats LSU with three seconds left",
-      "summary": "Manning threw a 4-yard touchdown pass to Raleek Brown with three seconds on the clock Saturday night in Baton Rouge, and Texas won 22-21. He grew up in New Orleans going to games in that stadium, and he said it is a memory he will keep the rest of his life.",
-      "date": "2026-11-14",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
-    },
-    {
       "id": "110d786bed2c",
       "teamId": "saints",
       "headline": "Carolina beats the Saints 20-17 on the last play",
@@ -275,15 +239,6 @@
       "date": "2026-11-15",
       "source": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
-    },
-    {
-      "id": "a23865218dcb",
-      "teamId": "texas",
-      "headline": "Texas gets two starters back for the LSU game",
-      "summary": "Receiver Cam Coleman and defensive end Colin Simmons were both left off the conference injury report this week, so they can play Saturday night in Baton Rouge. Four Longhorns are out, including running back Hollywood Smothers and left tackle Trevor Goosby.",
-      "date": "2026-11-12",
-      "source": "Hook'em Headlines",
-      "url": "https://hookemheadlines.com/texas-initial-injury-report-provided-sweet-relief-ahead-of-longhorns-trip-to-lsu"
     },
     {
       "id": "5215ca130ee3",
@@ -304,6 +259,42 @@
       "url": "https://iupathletics.com/news/2026/11/15/womens-volleyball-iup-volleyball-falls-to-gannon-in-psac-championship-match.aspx"
     },
     {
+      "id": "434141e73e08",
+      "teamId": "tulane",
+      "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
+      "summary": "Tulane plays North Texas at Yulman Stadium at 11 o'clock Saturday morning, on ESPNU. A win sends the Green Wave to a bowl game.",
+      "date": "2026-11-15",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
+    },
+    {
+      "id": "3bebfe0a8b0b",
+      "teamId": "tulane",
+      "headline": "Tulane wins at Rice 20-17 after a bus ride",
+      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
+    },
+    {
+      "id": "77527838ab3d",
+      "teamId": "florida",
+      "headline": "Florida beats Kentucky and reaches a bowl game",
+      "summary": "Aaron Philo threw for 119 yards and ran for 102 in Saturday night's 21-14 win in Lexington, including the touchdown that put Florida ahead with nine minutes left. The Gators have six wins and four losses, which is enough to play in a bowl game.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856884"
+    },
+    {
+      "id": "fa42dcd2bbbe",
+      "teamId": "texas",
+      "headline": "Arch Manning beats LSU with three seconds left",
+      "summary": "Manning threw a 4-yard touchdown pass to Raleek Brown with three seconds on the clock Saturday night in Baton Rouge, and Texas won 22-21. He grew up in New Orleans going to games in that stadium, and he said it is a memory he will keep the rest of his life.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
+    },
+    {
       "id": "dbce3502ca81",
       "teamId": "saints",
       "headline": "Travis Etienne comes off injured reserve",
@@ -322,33 +313,6 @@
       "url": "https://iupathletics.com/news/2026/11/14/womens-volleyball-iup-volleyball-sweeps-clarion-to-advance-to-psac-championship-match.aspx"
     },
     {
-      "id": "f5eec71b8537",
-      "teamId": "florida",
-      "headline": "Florida lands a big offensive lineman for 2027",
-      "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
-      "date": "2026-11-12",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
-    },
-    {
-      "id": "a9424c151b01",
-      "teamId": "texas",
-      "headline": "LSU's coach has kind words for Arch Manning",
-      "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
-      "date": "2026-11-11",
-      "source": "Sports Illustrated",
-      "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
-    },
-    {
-      "id": "b380baf40370",
-      "teamId": "tulane",
-      "headline": "Tulane's coach takes the blame for the 60-10 loss",
-      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
-      "date": "2026-11-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
-    },
-    {
       "id": "877ac6b0966b",
       "teamId": "saints",
       "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
@@ -358,6 +322,33 @@
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
     },
     {
+      "id": "d025af81720c",
+      "teamId": "florida",
+      "headline": "Aaron Philo will start at quarterback for Florida",
+      "summary": "ESPN reported Thursday that Florida is going back to Philo to start Saturday night at Kentucky. Tramell Jones started last week against Oklahoma and threw two interceptions in the 23-7 loss.",
+      "date": "2026-11-12",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50461725/source-florida-returns-aaron-philo-start-vs-kentucky"
+    },
+    {
+      "id": "a23865218dcb",
+      "teamId": "texas",
+      "headline": "Texas gets two starters back for the LSU game",
+      "summary": "Receiver Cam Coleman and defensive end Colin Simmons were both left off the conference injury report this week, so they can play Saturday night in Baton Rouge. Four Longhorns are out, including running back Hollywood Smothers and left tackle Trevor Goosby.",
+      "date": "2026-11-12",
+      "source": "Hook'em Headlines",
+      "url": "https://hookemheadlines.com/texas-initial-injury-report-provided-sweet-relief-ahead-of-longhorns-trip-to-lsu"
+    },
+    {
+      "id": "f5eec71b8537",
+      "teamId": "florida",
+      "headline": "Florida lands a big offensive lineman for 2027",
+      "summary": "Moreno Fisher, a 6-foot-7, 305-pound tackle from Charlotte, North Carolina, said Thursday he is coming to Florida. He had promised to go to Virginia back in June, then changed his mind last month and visited Gainesville the weekend before he picked the Gators.",
+      "date": "2026-11-12",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
+    },
+    {
       "id": "a247df3fe28c",
       "teamId": "saints",
       "headline": "Alvin Kamara was back at practice Thursday",
@@ -365,6 +356,33 @@
       "date": "2026-11-12",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday"
+    },
+    {
+      "id": "77766721cb72",
+      "teamId": "yankees",
+      "headline": "The Yankees lose their bench coach to Houston",
+      "summary": "Brad Ausmus sat next to Aaron Boone in the Yankees dugout for the last three seasons, and on Wednesday the Astros hired him to be their manager. He managed the Tigers for four years and the Angels for one before coming to New York.",
+      "date": "2026-11-11",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/astros-expected-to-name-brad-ausmus-manager.html"
+    },
+    {
+      "id": "ae614cc2ac56",
+      "teamId": "yankees",
+      "headline": "Cam Schlittler wins the Cy Young Award",
+      "summary": "The Yankees right-hander was named the best pitcher in the American League on Wednesday, and all 30 voters put him first. He won 14 games and lost 6, gave up 1.95 runs a game and struck out 239 batters.",
+      "date": "2026-11-11",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/cam-schlittler-wins-al-cy-young-award.html"
+    },
+    {
+      "id": "a9424c151b01",
+      "teamId": "texas",
+      "headline": "LSU's coach has kind words for Arch Manning",
+      "summary": "Lane Kiffin tried to get Manning to come to Ole Miss when Manning was in high school, and lost him to Texas. Talking to reporters this week before Saturday's game, Kiffin called him a great kid and said he hopes he does well, other than on Saturday.",
+      "date": "2026-11-11",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/texas/football/lane-kiffin-reflects-on-his-relationship-with-arch-manning-ahead-of-texas-lsu"
     },
     {
       "id": "7eb6cd695496",
@@ -419,6 +437,15 @@
       "date": "2026-11-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
+    },
+    {
+      "id": "38b1b0472319",
+      "teamId": "tulane",
+      "headline": "Tulane's coach liked what he saw at Tuesday's practice",
+      "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
+      "date": "2026-11-10",
+      "source": "Tulane Green Wave On SI",
+      "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
     },
     {
       "id": "74d6bad688b5",
@@ -554,6 +581,15 @@
       "date": "2026-11-09",
       "source": "Saturday Down South",
       "url": "https://www.saturdaydownsouth.com/news/college-football/arch-manning-shrugs-off-ties-to-louisiana-ahead-of-lsu-matchup-its-not-about-me/"
+    },
+    {
+      "id": "b380baf40370",
+      "teamId": "tulane",
+      "headline": "Tulane's coach takes the blame for the 60-10 loss",
+      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
     },
     {
       "id": "3d4942d2c664",
@@ -4469,42 +4505,6 @@
       "date": "2026-08-24",
       "source": "Allstate Sugar Bowl",
       "url": "https://allstatesugarbowl.org/news/2026/8/24/allstate-sugar-bowl-announces-2026-manning-award-watch-list.aspx"
-    },
-    {
-      "id": "5b5d1c377ca6",
-      "teamId": "saints",
-      "headline": "Saints sign kicker Daniel Carlson",
-      "summary": "New Orleans signed kicker Daniel Carlson on Monday. He has been an All-Pro twice and made 22 of his 27 field goal tries last season.",
-      "date": "2026-08-24",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
-    },
-    {
-      "id": "120f6213a13a",
-      "teamId": "saints",
-      "headline": "Saints trade for running back Zamir White",
-      "summary": "The Saints got running back Zamir White from San Francisco and sent linebacker Deion Jones the other way. They needed help in the backfield with Alvin Kamara and Devin Neal both hurt.",
-      "date": "2026-08-24",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/daniel-carlson-zamir-white-saints-roster-moves-training-camp-august-24-2026"
-    },
-    {
-      "id": "d4b9fdfb0a12",
-      "teamId": "yankees",
-      "headline": "Yankees beat Blue Jays 8-3",
-      "summary": "Ben Rice hit a two-run single in the sixth inning on Sunday to break the game open. Jazz Chisholm Jr. and Trent Grisham each hit a home run late as New York won for the sixth time in seven games.",
-      "date": "2026-08-23",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816643"
-    },
-    {
-      "id": "9cb78aa55487",
-      "teamId": "yankees",
-      "headline": "Ryan Weathers goes on the injured list",
-      "summary": "The Yankees put the left-handed starter on the 15-day injured list Sunday with a strained muscle in his left forearm. Manager Aaron Boone said Weathers will not throw for two to four weeks but should pitch again this season.",
-      "date": "2026-08-23",
-      "source": "amNewYork",
-      "url": "https://www.amny.com/sports/ryan-weathers-injury-yankees-8-23-26/"
     }
   ]
 }

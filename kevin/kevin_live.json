@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "teams": {
     "saints": {
       "record": "3-6",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "89a3990a692e",
+          "teamId": "saints",
+          "headline": "Tyler Shough practices without the glove on his hand",
+          "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
+          "date": "2026-11-20",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
+        },
+        {
           "id": "eebfe7035ff3",
           "teamId": "saints",
           "headline": "Five Saints are out for Sunday at Chicago",
@@ -46,15 +55,6 @@
           "date": "2026-11-20",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
-        },
-        {
-          "id": "c074182a7773",
-          "teamId": "saints",
-          "headline": "The Saints' old head coach now runs the Bears defense",
-          "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
-          "date": "2026-11-19",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
+        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, so a win makes the Green Wave bowl eligible and keeps a chance at the conference championship game alive. North Texas has won seven games and lost three and will start a backup quarterback."
       },
       "lastGame": {
         "result": "W",
@@ -197,6 +197,15 @@
         "utc": "2026-11-14T21:30Z"
       },
       "news": [
+        {
+          "id": "e145b7b3c317",
+          "teamId": "tulane",
+          "headline": "A win Saturday keeps Tulane in the title race",
+          "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
+          "date": "2026-11-20",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+        },
         {
           "id": "6a8b4ba07d83",
           "teamId": "tulane",
@@ -214,63 +223,45 @@
           "date": "2026-11-16",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
-        },
-        {
-          "id": "434141e73e08",
-          "teamId": "tulane",
-          "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
-          "summary": "Tulane plays North Texas at Yulman Stadium at 11 o'clock Saturday morning, on ESPNU. A win sends the Green Wave to a bowl game.",
-          "date": "2026-11-15",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
         }
       ]
     },
     "brother-martin": {
-      "record": "7-3",
+      "record": "8-3",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Bonnabel",
-        "date": "2026-11-20",
-        "time": "3:30 PM",
+        "homeAway": "away",
+        "opponent": "St. Augustine",
+        "date": "2026-11-27",
+        "time": "7:00 PM",
         "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Second round of the state playoffs, today at half past three, at Tad Gormley Stadium in City Park. Brother Martin plays its home games there, so this is a home game and a short drive. Brother Martin is the eighth seed with seven wins and three losses. Bonnabel is the ninth seed, has won eight games and lost three, and beat Peabody 60-22 in the first round."
+        "note": "Quarterfinal of the state playoffs, Friday night at seven, at Tad Gormley Stadium in City Park. It is the same field Brother Martin plays its home games on, so it is a short drive, but St. Augustine is the home team this time. Brother Martin has won eight games and lost three. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 27,
-        "opponentScore": 14,
-        "opponent": "Holy Cross",
-        "date": "2026-11-06"
+        "teamScore": 56,
+        "opponentScore": 9,
+        "opponent": "Bonnabel",
+        "date": "2026-11-20"
       },
       "news": [
         {
-          "id": "9e0ef929af05",
+          "id": "01f491669987",
           "teamId": "brother-martin",
-          "headline": "Brother Martin's playoff game moves to Friday at Tad Gormley",
-          "summary": "Brother Martin plays Bonnabel in the second round on Friday at 3:30 in the afternoon at Tad Gormley Stadium in City Park. Brother Martin is the higher seed, so it is the home team and nobody has to leave New Orleans.",
-          "date": "2026-11-16",
-          "source": "Fox 8 (WVUE)",
-          "url": "https://www.fox8live.com/2026/11/15/st-aug-jesuit-brother-martin-move-game-times-around-all-play-tad-gormley/"
-        },
-        {
-          "id": "aa0b2fb5e682",
-          "teamId": "brother-martin",
-          "headline": "Brother Martin gets the 8th seed and a first-round bye",
-          "summary": "The state playoff brackets came out Sunday. Brother Martin does not have to play in the first round and will wait for the winner of Bonnabel and Peabody.",
-          "date": "2026-11-08",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/heres-where-school-set-2026-201936486.html"
-        },
-        {
-          "id": "1bb760b092d2",
-          "teamId": "brother-martin",
-          "headline": "Easton Royal scores four touchdowns in Brother Martin win",
-          "summary": "Royal ran for 165 yards and three touchdowns and returned a kickoff 75 yards for another in the 27-14 win over Holy Cross. Brother Martin finished the regular season with seven wins and three losses.",
-          "date": "2026-11-06",
+          "headline": "St. Augustine is next, Friday at Tad Gormley",
+          "summary": "Brother Martin plays St. Augustine in the quarterfinals at seven o'clock Friday night, on the same field in City Park. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October.",
+          "date": "2026-11-21",
           "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/easton-royal-scores-4-touchdowns-to-power-brother-martin-pasts-holy-cross-27-14/"
+          "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+        },
+        {
+          "id": "80696463ac52",
+          "teamId": "brother-martin",
+          "headline": "Brother Martin runs past Bonnabel 56-9",
+          "summary": "The Crusaders won Friday night at Tad Gormley Stadium and are into the state quarterfinals. They have now won eight games and lost three.",
+          "date": "2026-11-20",
+          "source": "WGNO",
+          "url": "https://wgno.com/sports/fnf-playoffs-round-2-brother-martin-blasts-bonnabel-56-9/"
         }
       ]
     }

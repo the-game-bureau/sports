@@ -2,7 +2,7 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-20",
+    "updated": "2026-11-21",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,24 @@
       "date": "2026-11-19",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-thursday"
+    },
+    {
+      "id": "0b3a49d9a478",
+      "teamId": "lsu",
+      "headline": "Whit Weeks is doubtful for Saturday",
+      "summary": "LSU's linebacker broke a bone in his lower leg in September and has not played since. The team listed him as doubtful for Saturday's game at Tennessee.",
+      "date": "2026-11-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/wednesday-lsu-vs-tennessee-injury-030415439.html"
+    },
+    {
+      "id": "c074182a7773",
+      "teamId": "saints",
+      "headline": "The Saints' old head coach now runs the Bears defense",
+      "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
+      "date": "2026-11-19",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
     },
     {
       "id": "653f503a4040",
@@ -43,24 +61,6 @@
       "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-doesnt-expect-tennessee-atmosphere-to-be-as-hostile-as-ole-miss/"
     },
     {
-      "id": "de8b58f7df34",
-      "teamId": "lsu",
-      "headline": "LSU gets a safety who had picked Wake Forest",
-      "summary": "Keland Shelton Jr., a highly rated high school safety from Charlotte, said Tuesday he will play for LSU instead of Wake Forest. He had been committed to Wake Forest since May.",
-      "date": "2026-11-17",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-flips-4-star-safety-who-previously-committed-to-wake-forest/"
-    },
-    {
-      "id": "0b3a49d9a478",
-      "teamId": "lsu",
-      "headline": "Whit Weeks is doubtful for Saturday",
-      "summary": "LSU's linebacker broke a bone in his lower leg in September and has not played since. The team listed him as doubtful for Saturday's game at Tennessee.",
-      "date": "2026-11-19",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/wednesday-lsu-vs-tennessee-injury-030415439.html"
-    },
-    {
       "id": "43dc91a55a16",
       "teamId": "saints",
       "headline": "Seven Saints did not practice on Wednesday",
@@ -79,6 +79,15 @@
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
     },
     {
+      "id": "de8b58f7df34",
+      "teamId": "lsu",
+      "headline": "LSU gets a safety who had picked Wake Forest",
+      "summary": "Keland Shelton Jr., a highly rated high school safety from Charlotte, said Tuesday he will play for LSU instead of Wake Forest. He had been committed to Wake Forest since May.",
+      "date": "2026-11-17",
+      "source": "Saturday Down South",
+      "url": "https://www.saturdaydownsouth.com/news/college-football/lsu-flips-4-star-safety-who-previously-committed-to-wake-forest/"
+    },
+    {
       "id": "aa71f984984b",
       "teamId": "florida",
       "headline": "Jadan Baugh is up for the top running back award",
@@ -88,15 +97,6 @@
       "url": "https://floridagators.com/news/2026/11/17/football-baugh-named-doak-walker-award-semifinalist"
     },
     {
-      "id": "ea11e8281692",
-      "teamId": "lsu",
-      "headline": "Kiffin is not looking at the backup quarterbacks",
-      "summary": "Lane Kiffin was asked if the last two games are a chance to try the backup quarterbacks. He said he does not think that way, and that Sam Leavitt made some really poor decisions in the loss to Texas.",
-      "date": "2026-11-16",
-      "source": "The Advocate",
-      "url": "https://www.theadvocate.com/baton_rouge/sports/lsu/lsu-football-lane-kiffin-sam-leavitt-tennessee-quarterback-change/article_4eefc9f1-9a01-51e5-8fb8-9893439ee1c8.html"
-    },
-    {
       "id": "35f539491203",
       "teamId": "florida",
       "headline": "Florida makes the playoff rankings for the first time",
@@ -104,6 +104,15 @@
       "date": "2026-11-17",
       "source": "NCAA",
       "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+    },
+    {
+      "id": "ea11e8281692",
+      "teamId": "lsu",
+      "headline": "Kiffin is not looking at the backup quarterbacks",
+      "summary": "Lane Kiffin was asked if the last two games are a chance to try the backup quarterbacks. He said he does not think that way, and that Sam Leavitt made some really poor decisions in the loss to Texas.",
+      "date": "2026-11-16",
+      "source": "The Advocate",
+      "url": "https://www.theadvocate.com/baton_rouge/sports/lsu/lsu-football-lane-kiffin-sam-leavitt-tennessee-quarterback-change/article_4eefc9f1-9a01-51e5-8fb8-9893439ee1c8.html"
     },
     {
       "id": "1697732dd140",
@@ -142,15 +151,6 @@
       "url": "https://www.saturdaydownsouth.com/news/college-football/lane-kiffin-comments-on-return-to-knoxville-didnt-even-cross-my-mind/"
     },
     {
-      "id": "3390c1527bde",
-      "teamId": "saints",
-      "headline": "Pete Werner hurt his hamstring against Carolina",
-      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
-      "date": "2026-11-15",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
-    },
-    {
       "id": "52d9294f2c93",
       "teamId": "florida",
       "headline": "Aaron Philo will keep starting for Florida",
@@ -158,24 +158,6 @@
       "date": "2026-11-16",
       "source": "WRUF",
       "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
-    },
-    {
-      "id": "5c91a799d6e6",
-      "teamId": "lsu",
-      "headline": "Lane Kiffin says LSU has a ways to go",
-      "summary": "After Saturday's loss, LSU's first-year coach said it was fair to ask questions about a team with six wins and four losses, and that the Tigers are not a dominant team yet. The loss all but ends their chance at the national playoff.",
-      "date": "2026-11-15",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
-    },
-    {
-      "id": "3bebfe0a8b0b",
-      "teamId": "tulane",
-      "headline": "Tulane wins at Rice 20-17 after a bus ride",
-      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
-      "date": "2026-11-14",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
     },
     {
       "id": "f7e1739b7a97",
@@ -187,6 +169,24 @@
       "url": "https://www.wruf.com/headlines/2026/11/16/jon-sumrall-determines-direction-at-qb-as-gators-season-winds-down/"
     },
     {
+      "id": "3390c1527bde",
+      "teamId": "saints",
+      "headline": "Pete Werner hurt his hamstring against Carolina",
+      "summary": "The Saints linebacker left in the first half and did not come back. Coach Kellen Moore said it is his left hamstring and the team is still checking on him.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-postgame-quotes"
+    },
+    {
+      "id": "5c91a799d6e6",
+      "teamId": "lsu",
+      "headline": "Lane Kiffin says LSU has a ways to go",
+      "summary": "After Saturday's loss, LSU's first-year coach said it was fair to ask questions about a team with six wins and four losses, and that the Tigers are not a dominant team yet. The loss all but ends their chance at the national playoff.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/story/_/id/50488081/kiffin-understands-frustration-lsu-playoff-hopes-dashed"
+    },
+    {
       "id": "b73253fb3205",
       "teamId": "florida",
       "headline": "Florida is back in the top 25 after beating Kentucky",
@@ -194,6 +194,42 @@
       "date": "2026-11-15",
       "source": "Gators Wire",
       "url": "https://sports.yahoo.com/articles/upset-win-over-kentucky-puts-180829556.html"
+    },
+    {
+      "id": "110d786bed2c",
+      "teamId": "saints",
+      "headline": "Carolina beats the Saints 20-17 on the last play",
+      "summary": "Charlie Smyth tied the game with a 55-yard field goal with 41 seconds left, and then Carolina kicked a 54-yarder as the clock ran out. Alvin Kamara scored both New Orleans touchdowns, and the Saints are now three wins and six losses.",
+      "date": "2026-11-15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
+    },
+    {
+      "id": "5215ca130ee3",
+      "teamId": "saints",
+      "headline": "The Saints played without their center and left tackle",
+      "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
+      "date": "2026-11-15",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
+    },
+    {
+      "id": "434141e73e08",
+      "teamId": "tulane",
+      "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
+      "summary": "Tulane plays North Texas at Yulman Stadium at 11 o'clock Saturday morning, on ESPNU. A win sends the Green Wave to a bowl game.",
+      "date": "2026-11-15",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
+    },
+    {
+      "id": "3bebfe0a8b0b",
+      "teamId": "tulane",
+      "headline": "Tulane wins at Rice 20-17 after a bus ride",
+      "summary": "Friday's nationwide halt on flights meant Tulane rode a bus to Houston and got in around two in the morning. Bredell Richardson caught a 24-yard pass from Trace Johnson in the fourth quarter for the winning points, and the Green Wave are now five wins and five losses.",
+      "date": "2026-11-14",
+      "source": "ESPN",
+      "url": "https://www.espn.com/college-football/recap/_/gameId/401862828"
     },
     {
       "id": "77527838ab3d",
@@ -214,13 +250,22 @@
       "url": "https://www.espn.com/college-football/recap/_/gameId/401856885"
     },
     {
-      "id": "110d786bed2c",
+      "id": "dbce3502ca81",
       "teamId": "saints",
-      "headline": "Carolina beats the Saints 20-17 on the last play",
-      "summary": "Charlie Smyth tied the game with a 55-yard field goal with 41 seconds left, and then Carolina kicked a 54-yarder as the clock ran out. Alvin Kamara scored both New Orleans touchdowns, and the Saints are now three wins and six losses.",
-      "date": "2026-11-15",
-      "source": "ESPN",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401873055"
+      "headline": "Travis Etienne comes off injured reserve",
+      "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
+      "date": "2026-11-14",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
+    },
+    {
+      "id": "877ac6b0966b",
+      "teamId": "saints",
+      "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
+      "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
+      "date": "2026-11-13",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
     },
     {
       "id": "d025af81720c",
@@ -241,33 +286,6 @@
       "url": "https://www.tigerrag.com/lsu-lb-whit-weeks-still-questionable-for-texas-game-dt-gabriel-reliford-available-for-1st-time-this-season/"
     },
     {
-      "id": "38b1b0472319",
-      "teamId": "tulane",
-      "headline": "Tulane's coach liked what he saw at Tuesday's practice",
-      "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
-      "date": "2026-11-10",
-      "source": "Tulane Green Wave On SI",
-      "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
-    },
-    {
-      "id": "5215ca130ee3",
-      "teamId": "saints",
-      "headline": "The Saints played without their center and left tackle",
-      "summary": "Erik McCoy and Taliese Fuaga were both on the inactive list for Sunday's game against Carolina. That left New Orleans without its starting center and its starting left tackle.",
-      "date": "2026-11-15",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10"
-    },
-    {
-      "id": "dbce3502ca81",
-      "teamId": "saints",
-      "headline": "Travis Etienne comes off injured reserve",
-      "summary": "The Saints activated the running back on Saturday so he could play against Carolina. They also signed tackle Easton Kilty from the practice squad and put defensive lineman Christen Miller on injured reserve.",
-      "date": "2026-11-14",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/saints-roster-moves-week-10-elevations-game-status-panthers-2026"
-    },
-    {
       "id": "f5eec71b8537",
       "teamId": "florida",
       "headline": "Florida lands a big offensive lineman for 2027",
@@ -275,24 +293,6 @@
       "date": "2026-11-12",
       "source": "Sports Illustrated",
       "url": "https://www.si.com/college/florida/recruiting/gators-complete-flip-for-ol-recruit-in-impressive-2027-class-01m7b0ah1v8x"
-    },
-    {
-      "id": "b380baf40370",
-      "teamId": "tulane",
-      "headline": "Tulane's coach takes the blame for the 60-10 loss",
-      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
-      "date": "2026-11-08",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
-    },
-    {
-      "id": "877ac6b0966b",
-      "teamId": "saints",
-      "headline": "Erik McCoy is out Sunday and Kamara is ready to go",
-      "summary": "The Saints ruled center Erik McCoy out of Sunday's game on Friday because of his hurt biceps, so Cesar Ruiz will play center against Carolina. Alvin Kamara practiced fully Thursday and Friday and is good to go, and running back Travis Etienne is a maybe with a sore hamstring.",
-      "date": "2026-11-13",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-friday"
     },
     {
       "id": "a247df3fe28c",
@@ -356,6 +356,15 @@
       "date": "2026-11-11",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-wednesday"
+    },
+    {
+      "id": "38b1b0472319",
+      "teamId": "tulane",
+      "headline": "Tulane's coach liked what he saw at Tuesday's practice",
+      "summary": "Will Hall talked to reporters after a closed practice Tuesday and said the team had a great day and that his players want to prove themselves. He said the Tulsa loss falls on him, and that Rice, up next on Saturday, has two fast quarterbacks who like to run.",
+      "date": "2026-11-10",
+      "source": "Tulane Green Wave On SI",
+      "url": "https://sports.yahoo.com/articles/tulanes-hall-addresses-ad-statement-212923454.html"
     },
     {
       "id": "a211d31350e3",
@@ -428,6 +437,15 @@
       "date": "2026-11-09",
       "source": "WRUF",
       "url": "https://www.wruf.com/headlines/2026/11/09/i-own-it-jon-sumrall-stays-grounded-as-floridas-season-slips/"
+    },
+    {
+      "id": "b380baf40370",
+      "teamId": "tulane",
+      "headline": "Tulane's coach takes the blame for the 60-10 loss",
+      "summary": "Will Hall said the loss to Tulsa starts with him and that Tulane did not do anything well. He also said punter William Hudlow hurt a finger in the game and that he hopes to have him back this week.",
+      "date": "2026-11-08",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/tulane-coach-hall-embarrassing-loss-155926017.html"
     },
     {
       "id": "3d4942d2c664",

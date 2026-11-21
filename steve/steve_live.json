@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "teams": {
     "tulane": {
       "record": "5-5",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, and one more win puts the Green Wave in a bowl game. North Texas has won seven games and lost three."
+        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, so a win makes the Green Wave bowl eligible and keeps a chance at the conference championship game alive. North Texas has won seven games and lost three and will start a backup quarterback."
       },
       "lastGame": {
         "result": "W",
@@ -29,6 +29,15 @@
         "utc": "2026-11-14T21:30Z"
       },
       "news": [
+        {
+          "id": "e145b7b3c317",
+          "teamId": "tulane",
+          "headline": "A win Saturday keeps Tulane in the title race",
+          "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
+          "date": "2026-11-20",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+        },
         {
           "id": "6a8b4ba07d83",
           "teamId": "tulane",
@@ -46,15 +55,6 @@
           "date": "2026-11-16",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
-        },
-        {
-          "id": "434141e73e08",
-          "teamId": "tulane",
-          "headline": "Tulane's Saturday kickoff is set for 11 in the morning",
-          "summary": "Tulane plays North Texas at Yulman Stadium at 11 o'clock Saturday morning, on ESPNU. A win sends the Green Wave to a bowl game.",
-          "date": "2026-11-15",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/15/footballs-start-time-and-network-announced-for-north-texas"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "89a3990a692e",
+          "teamId": "saints",
+          "headline": "Tyler Shough practices without the glove on his hand",
+          "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
+          "date": "2026-11-20",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
+        },
+        {
           "id": "eebfe7035ff3",
           "teamId": "saints",
           "headline": "Five Saints are out for Sunday at Chicago",
@@ -214,15 +223,6 @@
           "date": "2026-11-20",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
-        },
-        {
-          "id": "c074182a7773",
-          "teamId": "saints",
-          "headline": "The Saints' old head coach now runs the Bears defense",
-          "summary": "Dennis Allen was the Saints' head coach from 2022 to 2024. He is Chicago's defensive coordinator now, and his defense gives up about 20 points a game.",
-          "date": "2026-11-19",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
         }
       ]
     },
@@ -302,6 +302,24 @@
       },
       "news": [
         {
+          "id": "0bc6592089d5",
+          "teamId": "yankees",
+          "headline": "The Yankees let go of Luis Gil and Fernando Cruz",
+          "summary": "Both pitchers were cut loose Friday and can now sign with any team. Gil was the best rookie in the American League in 2024, but a sore shoulder cost him more than three months this past season.",
+          "date": "2026-11-20",
+          "source": "MLB.com",
+          "url": "https://www.mlb.com/news/yankees-non-tender-decisions-2026"
+        },
+        {
+          "id": "bb287752b20a",
+          "teamId": "yankees",
+          "headline": "The Yankees bring back pitcher Jonathan Loaisiga",
+          "summary": "Loaisiga agreed to a two-year deal worth $18 million to return to New York, where he pitched from 2018 through 2025. He spent this past season in Arizona and stayed healthy all year.",
+          "date": "2026-11-20",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/mlb/yankees/onsi/how-jonathan-loaisiga-s-signing-impacts-the-rest-of-yankees-offseason-plans-01m7wnqe6t01"
+        },
+        {
           "id": "cf88cd5da4e2",
           "teamId": "yankees",
           "headline": "Brian Cashman slept outside at Yankee Stadium",
@@ -309,24 +327,6 @@
           "date": "2026-11-19",
           "source": "MLB.com",
           "url": "https://www.mlb.com/yankees/news/brian-cashman-on-yankees-offseason-moves-sleep-out-charity-event"
-        },
-        {
-          "id": "9303c78cf0b6",
-          "teamId": "yankees",
-          "headline": "David Bednar takes the Yankees' one-year offer",
-          "summary": "The Yankees' closer accepted a one-year contract worth 23.15 million dollars on Tuesday instead of looking for a longer deal somewhere else. He saved 35 games for New York this season and gave up 2.47 runs every nine innings.",
-          "date": "2026-11-17",
-          "source": "ABC7 New York",
-          "url": "https://abc7ny.com/post/david-bednar-yankees-reunite-2315m-qualifying-offer/20049348/"
-        },
-        {
-          "id": "e9048a3e5b61",
-          "teamId": "yankees",
-          "headline": "The Yankees bring back pitcher Chase Hampton",
-          "summary": "New York claimed Chase Hampton off waivers from Baltimore on Tuesday. The Yankees drafted him back in 2022, and he has not pitched in the major leagues yet.",
-          "date": "2026-11-17",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/yankees-boost-pitching-depth-latest-215958113.html"
         }
       ]
     },
