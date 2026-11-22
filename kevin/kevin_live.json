@@ -1,9 +1,9 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "teams": {
     "saints": {
-      "record": "3-6",
+      "record": "3-7",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Chicago Bears",
@@ -18,17 +18,26 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Five Saints are out, including center Erik McCoy and tackle Taliese Fuaga. Alvin Kamara practiced all week and is expected to play. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
+        "note": "Today's game is over. The Saints lost at Chicago 21-13. Chicago sacked Tyler Shough six times, and Alvin Kamara caught the only New Orleans touchdown. The Saints have now won three games and lost seven. They play at Cincinnati next Sunday at noon our time, on Channel 4."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 17,
-        "opponentScore": 20,
-        "opponent": "Carolina Panthers",
-        "date": "2026-11-15",
-        "utc": "2026-11-15T18:00Z"
+        "teamScore": 13,
+        "opponentScore": 21,
+        "opponent": "Chicago Bears",
+        "date": "2026-11-22",
+        "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "1ece0782e545",
+          "teamId": "saints",
+          "headline": "Chicago beats the Saints 21-13",
+          "summary": "Chicago sacked Tyler Shough six times, once for a safety, and the Saints scored one touchdown, a one-yard catch by Alvin Kamara. New Orleans has now won three games and lost seven.",
+          "date": "2026-11-22",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
+        },
         {
           "id": "89a3990a692e",
           "teamId": "saints",
@@ -37,15 +46,6 @@
           "date": "2026-11-20",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
-        },
-        {
-          "id": "eebfe7035ff3",
-          "teamId": "saints",
-          "headline": "Five Saints are out for Sunday at Chicago",
-          "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
-          "date": "2026-11-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
         },
         {
           "id": "4e967db916f7",
@@ -59,40 +59,49 @@
       ]
     },
     "florida": {
-      "record": "6-4",
+      "record": "7-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Vanderbilt Commodores",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Florida State Seminoles",
+        "date": "2026-11-27",
+        "utc": "2026-11-27T20:30Z",
+        "time": "2:30 PM",
+        "venue": "Doak Campbell Stadium",
+        "city": "Tallahassee, FL",
         "tv": {
-          "name": "SEC Network",
+          "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year, and ten seniors are honored before kickoff. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
+        "note": "Friday afternoon road game in Tallahassee against Florida State. Half past two our time, on Channel 26. It is the last game of the regular season and the oldest rivalry Florida has. Florida has won seven games and lost four after beating Vanderbilt on Saturday. Florida State has won five games and lost six."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 21,
-        "opponentScore": 14,
-        "opponent": "Kentucky Wildcats",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T23:15Z"
+        "teamScore": 34,
+        "opponentScore": 27,
+        "opponent": "Vanderbilt Commodores",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z"
       },
       "news": [
         {
-          "id": "db508a61693e",
+          "id": "82d48b0bed56",
           "teamId": "florida",
-          "headline": "Ten Gators play their last home game Saturday",
-          "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
-          "date": "2026-11-20",
-          "source": "The Gainesville Sun",
-          "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+          "headline": "Florida beats Vanderbilt 34-27 on senior day",
+          "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
+          "date": "2026-11-21",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
+        },
+        {
+          "id": "0140fa6eaede",
+          "teamId": "florida",
+          "headline": "Sumrall says the Gators won in spite of themselves",
+          "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
+          "date": "2026-11-21",
+          "source": "HEAVY",
+          "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
         },
         {
           "id": "4115cf72f33f",
@@ -102,109 +111,91 @@
           "date": "2026-11-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
-        },
-        {
-          "id": "eca639e8eb12",
-          "teamId": "florida",
-          "headline": "Five Florida players are out for Saturday",
-          "summary": "Florida's injury list came out Wednesday night. Tight end Lacota Dippre, receiver Vernell Brown III, lineman Emeka Ugorji, safety DJ Coleman and lineman Jaden Robinson will all miss the Vanderbilt game.",
-          "date": "2026-11-19",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
         }
       ]
     },
     "lsu": {
-      "record": "6-4",
+      "record": "6-5",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Tennessee Volunteers",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T20:30Z",
-        "time": "2:30 PM",
-        "venue": "Neyland Stadium",
-        "city": "Knoxville, TN",
+        "opponent": "Arkansas Razorbacks",
+        "date": "2026-11-28",
+        "utc": "2026-11-28T17:45Z",
+        "time": "11:45 AM",
+        "venue": "Donald W. Reynolds Razorback Stadium",
+        "city": "Fayetteville, AR",
         "tv": {
-          "name": "ABC (WGNO 26)",
+          "name": "SEC Network",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon road game in Knoxville, Tennessee. Half past two our time, on ABC. LSU's two best receivers, Jackson Harris and Winston Watkins Jr., may not play. LSU has won six games and lost four. Tennessee has won eight games and lost two."
+        "note": "Saturday morning road game in Fayetteville, Arkansas. A quarter to twelve our time, on the SEC Network. It is the last game of the regular season. LSU has won six games and lost five after losing at Tennessee, and the Tigers have lost three in a row. Arkansas has won four games and lost seven."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 21,
-        "opponentScore": 22,
-        "opponent": "Texas Longhorns",
-        "date": "2026-11-14",
-        "utc": "2026-11-15T00:30Z"
+        "teamScore": 13,
+        "opponentScore": 27,
+        "opponent": "Tennessee Volunteers",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T20:30Z"
       },
       "news": [
         {
-          "id": "63b97dcc55b0",
+          "id": "aa2f1c67035f",
           "teamId": "lsu",
-          "headline": "LSU's two best receivers may not play",
-          "summary": "Jackson Harris and Winston Watkins Jr. are both listed as questionable for Saturday at Tennessee. Between them they have caught 96 passes for 1,381 yards this season.",
-          "date": "2026-11-20",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/college/lsu/football/lsu-could-be-without-2-important-offensive-weapons-vs-tennessee"
-        },
-        {
-          "id": "1ec5add2b6cb",
-          "teamId": "lsu",
-          "headline": "Aidan Anding may play after a lost season",
-          "summary": "The cornerback tore his Achilles tendon in a spring practice in April and has not played a game all year. LSU listed him as probable for Saturday at Tennessee.",
-          "date": "2026-11-19",
-          "source": "Tiger Rag",
-          "url": "https://www.tigerrag.com/lsu-cb-aidan-anding-suddenly-probable-for-tennessee-saturday-after-missing-all-season-with-achilles-injury/"
-        },
-        {
-          "id": "cf6f602c663b",
-          "teamId": "lsu",
-          "headline": "Whit Weeks is out for Saturday at Tennessee",
-          "summary": "LSU's linebacker was listed as doubtful on Wednesday and is now officially out. Receivers Jackson Harris and Winnie Watkins are questionable.",
-          "date": "2026-11-19",
+          "headline": "LSU drops out of the coaches poll",
+          "summary": "LSU was ranked 23rd last week and is now unranked for the first time this season. The Tigers have won six games and lost five, and all five losses came against ranked teams.",
+          "date": "2026-11-22",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/thursday-lsu-vs-tennessee-injury-025517633.html"
+          "url": "https://sports.yahoo.com/articles/lsu-football-falls-us-lbm-185056860.html"
+        },
+        {
+          "id": "f6a846bf93b6",
+          "teamId": "lsu",
+          "headline": "Tennessee beats LSU 27-13",
+          "summary": "It is LSU's third loss in a row. Tennessee sacked quarterback Sam Leavitt eight times, LSU ran for only 43 yards, and the Tigers were penalized 16 times.",
+          "date": "2026-11-21",
+          "source": "LSU Athletics",
+          "url": "https://lsusports.net/news/2026/11/21/football-struggles-offensively-falls-to-no-9-tennessee-27-13"
         }
       ]
     },
     "tulane": {
-      "record": "5-5",
+      "record": "6-5",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "North Texas Mean Green",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "South Florida Bulls",
+        "date": "2026-11-28",
+        "utc": "2026-11-28T20:30Z",
+        "time": "2:30 PM",
+        "venue": "Raymond James Stadium",
+        "city": "Tampa, FL",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, so a win makes the Green Wave bowl eligible and keeps a chance at the conference championship game alive. North Texas has won seven games and lost three and will start a backup quarterback."
+        "note": "Saturday afternoon road game in Tampa, Florida. Half past two our time. The game is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. It is the last game of the regular season. Tulane beat North Texas on Saturday to reach six wins and five losses, so the Green Wave is going to a bowl game. South Florida has won six games and lost five."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 20,
-        "opponentScore": 17,
-        "opponent": "Rice Owls",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T21:30Z"
+        "teamScore": 28,
+        "opponentScore": 24,
+        "opponent": "North Texas Mean Green",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z"
       },
       "news": [
         {
-          "id": "e145b7b3c317",
+          "id": "8659924f052c",
           "teamId": "tulane",
-          "headline": "A win Saturday keeps Tulane in the title race",
-          "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
-          "date": "2026-11-20",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+          "headline": "Tulane beats North Texas 28-24 and makes a bowl",
+          "summary": "Trace Johnson threw four touchdown passes, and the last one, to Cameron Roberts with 2:13 left, put Tulane ahead for the first time. The Green Wave has won six games and lost five and is going to a bowl game for the fifth year in a row.",
+          "date": "2026-11-21",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/21/fourth-quarter-comeback-leads-football-to-28-24-victory-over-north-texas"
         },
         {
           "id": "6a8b4ba07d83",

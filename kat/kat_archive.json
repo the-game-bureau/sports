@@ -2,10 +2,73 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-21",
+    "updated": "2026-11-22",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "eebfe7035ff3",
+      "teamId": "saints",
+      "headline": "Five Saints are out for Sunday at Chicago",
+      "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
+      "date": "2026-11-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
+    },
+    {
+      "id": "db508a61693e",
+      "teamId": "florida",
+      "headline": "Ten Gators play their last home game Saturday",
+      "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
+      "date": "2026-11-20",
+      "source": "The Gainesville Sun",
+      "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+    },
+    {
+      "id": "63b97dcc55b0",
+      "teamId": "lsu",
+      "headline": "LSU's two best receivers may not play",
+      "summary": "Jackson Harris and Winston Watkins Jr. are both listed as questionable for Saturday at Tennessee. Between them they have caught 96 passes for 1,381 yards this season.",
+      "date": "2026-11-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/college/lsu/football/lsu-could-be-without-2-important-offensive-weapons-vs-tennessee"
+    },
+    {
+      "id": "e145b7b3c317",
+      "teamId": "tulane",
+      "headline": "A win Saturday keeps Tulane in the title race",
+      "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
+      "date": "2026-11-20",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+    },
+    {
+      "id": "eca639e8eb12",
+      "teamId": "florida",
+      "headline": "Five Florida players are out for Saturday",
+      "summary": "Florida's injury list came out Wednesday night. Tight end Lacota Dippre, receiver Vernell Brown III, lineman Emeka Ugorji, safety DJ Coleman and lineman Jaden Robinson will all miss the Vanderbilt game.",
+      "date": "2026-11-19",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
+    },
+    {
+      "id": "1ec5add2b6cb",
+      "teamId": "lsu",
+      "headline": "Aidan Anding may play after a lost season",
+      "summary": "The cornerback tore his Achilles tendon in a spring practice in April and has not played a game all year. LSU listed him as probable for Saturday at Tennessee.",
+      "date": "2026-11-19",
+      "source": "Tiger Rag",
+      "url": "https://www.tigerrag.com/lsu-cb-aidan-anding-suddenly-probable-for-tennessee-saturday-after-missing-all-season-with-achilles-injury/"
+    },
+    {
+      "id": "cf6f602c663b",
+      "teamId": "lsu",
+      "headline": "Whit Weeks is out for Saturday at Tennessee",
+      "summary": "LSU's linebacker was listed as doubtful on Wednesday and is now officially out. Receivers Jackson Harris and Winnie Watkins are questionable.",
+      "date": "2026-11-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/thursday-lsu-vs-tennessee-injury-025517633.html"
+    },
     {
       "id": "eba40960e0f6",
       "teamId": "saints",

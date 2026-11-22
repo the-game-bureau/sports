@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-21",
+    "updated": "2026-11-22",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "e145b7b3c317",
+      "teamId": "tulane",
+      "headline": "A win Saturday keeps Tulane in the title race",
+      "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
+      "date": "2026-11-20",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+    },
+    {
+      "id": "db508a61693e",
+      "teamId": "florida",
+      "headline": "Ten Gators play their last home game Saturday",
+      "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
+      "date": "2026-11-20",
+      "source": "The Gainesville Sun",
+      "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+    },
+    {
+      "id": "eebfe7035ff3",
+      "teamId": "saints",
+      "headline": "Five Saints are out for Sunday at Chicago",
+      "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
+      "date": "2026-11-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
+    },
+    {
+      "id": "f74fd10fa1fe",
+      "teamId": "iup",
+      "headline": "IUP beats Lock Haven to stay in the tournament",
+      "summary": "IUP won its first national tournament match in four sets Friday in Erie, 25-20, 25-18, 23-25, 25-19. Jessica Neiman had 13 kills and Delaney Concannon had 11 kills and 14 digs.",
+      "date": "2026-11-20",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/boxscore.aspx?id=15132&path=wvball"
+    },
+    {
+      "id": "eca639e8eb12",
+      "teamId": "florida",
+      "headline": "Five Florida players are out for Saturday",
+      "summary": "Florida's injury list came out Wednesday night. Tight end Lacota Dippre, receiver Vernell Brown III, lineman Emeka Ugorji, safety DJ Coleman and lineman Jaden Robinson will all miss the Vanderbilt game.",
+      "date": "2026-11-19",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
+    },
+    {
+      "id": "598eb6a61b1d",
+      "teamId": "texas",
+      "headline": "Texas moves up to fifth in the playoff rankings",
+      "summary": "The committee that picks the playoff teams put Texas fifth on Tuesday, one spot higher than last week. Twelve teams make the playoff, and Texas has won eight games and lost two.",
+      "date": "2026-11-17",
+      "source": "NCAA",
+      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+    },
     {
       "id": "eba40960e0f6",
       "teamId": "saints",
@@ -4451,60 +4505,6 @@
       "date": "2026-08-25",
       "source": "WWL Radio",
       "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
-    },
-    {
-      "id": "9483cba6bfca",
-      "teamId": "saints",
-      "headline": "Cornerback Rejzohn Wright out for the season",
-      "summary": "Wright hurt his hip and needs surgery. The Saints put him on the injured list, so he will miss the whole season.",
-      "date": "2026-08-25",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lose-cornerback-and-special-teamer-rejzohn-wright-to-season-ending-hip-injury"
-    },
-    {
-      "id": "80c8bedc821e",
-      "teamId": "saints",
-      "headline": "Two Saints out for the season with knee injuries",
-      "summary": "Running back Ty Chandler and tight end Moliki Matavao were both put on injured reserve Tuesday. Both got hurt in Saturday's game against the Rams, and neither will play again this year.",
-      "date": "2026-08-25",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/two-placed-on-injured-reserve-as-new-orleans-saints-continue-to-work-around-injuries"
-    },
-    {
-      "id": "94eb55d044e6",
-      "teamId": "yankees",
-      "headline": "Astros beat Yankees 9-7",
-      "summary": "Yordan Alvarez hit a go-ahead triple in the eighth inning Tuesday night at Yankee Stadium. Cody Bellinger and Luis Garcia Jr. homered for New York, but the bullpen gave up the lead.",
-      "date": "2026-08-25",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816667"
-    },
-    {
-      "id": "931a769988df",
-      "teamId": "tulane",
-      "headline": "Zeon Chriss-Gremillion will start at quarterback",
-      "summary": "Coach Will Hall picked Chriss-Gremillion to start Tulane's opener at Duke on September 5. He has started 13 college games, first at Louisiana and then at Houston.",
-      "date": "2026-08-24",
-      "source": "Underdog Dynasty",
-      "url": "https://www.underdogdynasty.com/american-conference/45080/report-tulane-names-zeon-chriss-gremillion-starting-quarterback-2026"
-    },
-    {
-      "id": "57eb154ff883",
-      "teamId": "florida",
-      "headline": "Aaron Philo will start at quarterback for Florida",
-      "summary": "Coach Jon Sumrall named Philo his starting quarterback on Monday. Philo transferred in from Georgia Tech and beat out Tramell Jones Jr. for the job.",
-      "date": "2026-08-24",
-      "source": "ESPN",
-      "url": "https://www.espn.com/college-football/story/_/id/49712471/transfer-aaron-philo-start-quarterback-florida"
-    },
-    {
-      "id": "268e6b715a9a",
-      "teamId": "texas",
-      "headline": "Arch Manning named to Manning Award watch list",
-      "summary": "Forty quarterbacks made the preseason list for the award, which goes to the best quarterback in college football. It is named for Arch's grandfather Archie and his uncles Peyton and Eli.",
-      "date": "2026-08-24",
-      "source": "Allstate Sugar Bowl",
-      "url": "https://allstatesugarbowl.org/news/2026/8/24/allstate-sugar-bowl-announces-2026-manning-award-watch-list.aspx"
     }
   ]
 }

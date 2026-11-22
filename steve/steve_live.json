@@ -1,42 +1,42 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "teams": {
     "tulane": {
-      "record": "5-5",
+      "record": "6-5",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "North Texas Mean Green",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Yulman Stadium",
-        "city": "New Orleans, LA",
+        "homeAway": "away",
+        "opponent": "South Florida Bulls",
+        "date": "2026-11-28",
+        "utc": "2026-11-28T20:30Z",
+        "time": "2:30 PM",
+        "venue": "Raymond James Stadium",
+        "city": "Tampa, FL",
         "tv": {
-          "name": "ESPNU",
-          "logo": "images/espnu.webp",
+          "name": "ESPN+",
+          "logo": "images/espnplus.webp",
           "url": "",
-          "note": "On YouTube TV"
+          "note": "On ESPN Unlimited (comes with YouTube TV)"
         },
-        "note": "Saturday home game at Yulman Stadium against North Texas. Eleven o'clock in the morning, on ESPNU. It is Tulane's last home game of the year, and the seniors and their families are honored on the field before kickoff. Tulane has won five games and lost five, so a win makes the Green Wave bowl eligible and keeps a chance at the conference championship game alive. North Texas has won seven games and lost three and will start a backup quarterback."
+        "note": "Saturday afternoon road game in Tampa, Florida. Half past two our time. The game is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. It is the last game of the regular season. Tulane beat North Texas on Saturday to reach six wins and five losses, so the Green Wave is going to a bowl game. South Florida has won six games and lost five."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 20,
-        "opponentScore": 17,
-        "opponent": "Rice Owls",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T21:30Z"
+        "teamScore": 28,
+        "opponentScore": 24,
+        "opponent": "North Texas Mean Green",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z"
       },
       "news": [
         {
-          "id": "e145b7b3c317",
+          "id": "8659924f052c",
           "teamId": "tulane",
-          "headline": "A win Saturday keeps Tulane in the title race",
-          "summary": "Beating North Texas would make Tulane bowl eligible and keep the Green Wave alive for the conference championship game. North Texas has to start a backup quarterback because Tayven Jackson is hurt.",
-          "date": "2026-11-20",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+          "headline": "Tulane beats North Texas 28-24 and makes a bowl",
+          "summary": "Trace Johnson threw four touchdown passes, and the last one, to Cameron Roberts with 2:13 left, put Tulane ahead for the first time. The Green Wave has won six games and lost five and is going to a bowl game for the fifth year in a row.",
+          "date": "2026-11-21",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/21/fourth-quarter-comeback-leads-football-to-28-24-victory-over-north-texas"
         },
         {
           "id": "6a8b4ba07d83",
@@ -59,40 +59,49 @@
       ]
     },
     "florida": {
-      "record": "6-4",
+      "record": "7-4",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Vanderbilt Commodores",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z",
-        "time": "11:00 AM",
-        "venue": "Ben Hill Griffin Stadium",
-        "city": "Gainesville, FL",
+        "homeAway": "away",
+        "opponent": "Florida State Seminoles",
+        "date": "2026-11-27",
+        "utc": "2026-11-27T20:30Z",
+        "time": "2:30 PM",
+        "venue": "Doak Campbell Stadium",
+        "city": "Tallahassee, FL",
         "tv": {
-          "name": "SEC Network",
+          "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning home game in Gainesville. Eleven o'clock our time, on the SEC Network. It is Florida's last home game of the year, and ten seniors are honored before kickoff. Florida has won six games and lost four and is already going to a bowl game. Vanderbilt has won four games and lost six."
+        "note": "Friday afternoon road game in Tallahassee against Florida State. Half past two our time, on Channel 26. It is the last game of the regular season and the oldest rivalry Florida has. Florida has won seven games and lost four after beating Vanderbilt on Saturday. Florida State has won five games and lost six."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 21,
-        "opponentScore": 14,
-        "opponent": "Kentucky Wildcats",
-        "date": "2026-11-14",
-        "utc": "2026-11-14T23:15Z"
+        "teamScore": 34,
+        "opponentScore": 27,
+        "opponent": "Vanderbilt Commodores",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T17:00Z"
       },
       "news": [
         {
-          "id": "db508a61693e",
+          "id": "82d48b0bed56",
           "teamId": "florida",
-          "headline": "Ten Gators play their last home game Saturday",
-          "summary": "Florida will honor ten players who are out of college eligibility before the Vanderbilt game, and six more may walk with them. Receiver Kahleil Jackson, now in his seventh year of college, is the oldest of the group.",
-          "date": "2026-11-20",
-          "source": "The Gainesville Sun",
-          "url": "https://sports.yahoo.com/articles/seniors-recognized-florida-football-vs-164411305.html"
+          "headline": "Florida beats Vanderbilt 34-27 on senior day",
+          "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
+          "date": "2026-11-21",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
+        },
+        {
+          "id": "0140fa6eaede",
+          "teamId": "florida",
+          "headline": "Sumrall says the Gators won in spite of themselves",
+          "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
+          "date": "2026-11-21",
+          "source": "HEAVY",
+          "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
         },
         {
           "id": "4115cf72f33f",
@@ -102,45 +111,45 @@
           "date": "2026-11-19",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
-        },
-        {
-          "id": "eca639e8eb12",
-          "teamId": "florida",
-          "headline": "Five Florida players are out for Saturday",
-          "summary": "Florida's injury list came out Wednesday night. Tight end Lacota Dippre, receiver Vernell Brown III, lineman Emeka Ugorji, safety DJ Coleman and lineman Jaden Robinson will all miss the Vanderbilt game.",
-          "date": "2026-11-19",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
         }
       ]
     },
     "texas": {
-      "record": "8-2",
+      "record": "9-2",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "Arkansas Razorbacks",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T20:30Z",
-        "time": "2:30 PM",
-        "venue": "DKR-Texas Memorial Stadium",
-        "city": "Austin, TX",
+        "homeAway": "away",
+        "opponent": "Texas A&M Aggies",
+        "date": "2026-11-27",
+        "utc": "2026-11-28T00:30Z",
+        "time": "6:30 PM",
+        "venue": "Kyle Field",
+        "city": "College Station, TX",
         "tv": {
-          "name": "ESPN",
-          "logo": "images/espn.webp",
+          "name": "ABC (WGNO 26)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday afternoon home game in Austin. Half past two our time, on ESPN. It is senior day, so Texas honors its seniors before kickoff. Texas has won eight games and lost two. Arkansas has won four games and lost six."
+        "note": "Friday night road game at Texas A&M, the day after Thanksgiving. Half past six our time, on Channel 26. It is the last game of the regular season. Texas has won nine games and lost two after beating Arkansas 45-3 on Saturday. Texas A&M has won four games and lost seven."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 22,
-        "opponentScore": 21,
-        "opponent": "LSU Tigers",
-        "date": "2026-11-14",
-        "utc": "2026-11-15T00:30Z"
+        "teamScore": 45,
+        "opponentScore": 3,
+        "opponent": "Arkansas Razorbacks",
+        "date": "2026-11-21",
+        "utc": "2026-11-21T20:30Z"
       },
       "news": [
+        {
+          "id": "a1b465a45e41",
+          "teamId": "texas",
+          "headline": "Texas runs over Arkansas 45-3",
+          "summary": "Arch Manning threw for 287 yards and two touchdowns and ran for a third, completing 21 of his 25 passes. Texas led 31-3 at halftime and has now won five games in a row.",
+          "date": "2026-11-21",
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/arch-manning-accounts-3-tds-011425000.html"
+        },
         {
           "id": "968008534ec0",
           "teamId": "texas",
@@ -158,20 +167,11 @@
           "date": "2026-11-18",
           "source": "Texas Athletics",
           "url": "https://texaslonghorns.com/news/2026/11/18/no-8-8-5-footballs-simmons-named-lombardi-award-finalist"
-        },
-        {
-          "id": "598eb6a61b1d",
-          "teamId": "texas",
-          "headline": "Texas moves up to fifth in the playoff rankings",
-          "summary": "The committee that picks the playoff teams put Texas fifth on Tuesday, one spot higher than last week. Twelve teams make the playoff, and Texas has won eight games and lost two.",
-          "date": "2026-11-17",
-          "source": "NCAA",
-          "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
         }
       ]
     },
     "saints": {
-      "record": "3-6",
+      "record": "3-7",
       "nextGame": {
         "homeAway": "away",
         "opponent": "Chicago Bears",
@@ -186,17 +186,26 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Chicago. Noon our time, on Fox 8. Five Saints are out, including center Erik McCoy and tackle Taliese Fuaga. Alvin Kamara practiced all week and is expected to play. Chicago has won seven games and lost two. The Saints have won three and lost six, and Carolina leads the division with four wins and five losses."
+        "note": "Today's game is over. The Saints lost at Chicago 21-13. Chicago sacked Tyler Shough six times, and Alvin Kamara caught the only New Orleans touchdown. The Saints have now won three games and lost seven. They play at Cincinnati next Sunday at noon our time, on Channel 4."
       },
       "lastGame": {
         "result": "L",
-        "teamScore": 17,
-        "opponentScore": 20,
-        "opponent": "Carolina Panthers",
-        "date": "2026-11-15",
-        "utc": "2026-11-15T18:00Z"
+        "teamScore": 13,
+        "opponentScore": 21,
+        "opponent": "Chicago Bears",
+        "date": "2026-11-22",
+        "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "1ece0782e545",
+          "teamId": "saints",
+          "headline": "Chicago beats the Saints 21-13",
+          "summary": "Chicago sacked Tyler Shough six times, once for a safety, and the Saints scored one touchdown, a one-yard catch by Alvin Kamara. New Orleans has now won three games and lost seven.",
+          "date": "2026-11-22",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
+        },
         {
           "id": "89a3990a692e",
           "teamId": "saints",
@@ -205,15 +214,6 @@
           "date": "2026-11-20",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
-        },
-        {
-          "id": "eebfe7035ff3",
-          "teamId": "saints",
-          "headline": "Five Saints are out for Sunday at Chicago",
-          "summary": "Cornerback Martin Emerson, tackle Taliese Fuaga, center Erik McCoy, safety Justin Reid and tackle Asim Richards will all miss the game. Linebacker Pete Werner and cornerback Decamerion Richardson might play.",
-          "date": "2026-11-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/injury-report-chicago-bears-vs-new-orleans-saints-2026-nfl-week-11-friday"
         },
         {
           "id": "4e967db916f7",
@@ -227,12 +227,12 @@
       ]
     },
     "iup": {
-      "record": "24-6",
+      "record": "25-6",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Clarion",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T21:00Z",
+        "opponent": "Gannon",
+        "date": "2026-11-22",
+        "utc": "2026-11-22T21:00Z",
         "time": "3:00 PM",
         "venue": "Highmark Events Center",
         "city": "Erie, PA",
@@ -242,24 +242,24 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
         },
-        "note": "IUP won Friday and plays again Saturday, against Clarion. Three o'clock our time, four o'clock theirs, at the Highmark Events Center in Erie, Pennsylvania. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV, or open psacsportsdigitalnetwork.com/iupathletics in a browser. Gannon is hosting the games, so the match may show up under Gannon instead, at psacsportsdigitalnetwork.com/gannonsports. IUP is the second seed with twenty-four wins and six losses. Clarion is the sixth seed and came into the tournament with twenty wins and nine losses. Whoever wins plays Sunday at three o'clock our time for the region title."
+        "note": "IUP plays Gannon today for the Atlantic Region championship. Three o'clock our time, four o'clock theirs, at the Highmark Events Center in Erie, Pennsylvania. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. This one is a national tournament match that Gannon is hosting, and NCAA.com is also carrying it live at ncaa.com/game/6663021. IUP has won twenty-five games and lost six. Gannon is the top seed with twenty-six wins and five losses. The winner goes to the final eight teams in the country."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
         "opponentScore": 1,
-        "opponent": "Lock Haven",
-        "date": "2026-11-20"
+        "opponent": "Clarion",
+        "date": "2026-11-21"
       },
       "news": [
         {
-          "id": "f74fd10fa1fe",
+          "id": "eaefb7f1a763",
           "teamId": "iup",
-          "headline": "IUP beats Lock Haven to stay in the tournament",
-          "summary": "IUP won its first national tournament match in four sets Friday in Erie, 25-20, 25-18, 23-25, 25-19. Jessica Neiman had 13 kills and Delaney Concannon had 11 kills and 14 digs.",
-          "date": "2026-11-20",
+          "headline": "IUP beats Clarion to reach the regional final",
+          "summary": "IUP won in four sets Saturday night in Erie, 25-19, 25-22, 30-32, 27-25. Jessica Neiman had 14 kills, and Delaney Concannon had 11 kills and 21 digs.",
+          "date": "2026-11-21",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/boxscore.aspx?id=15132&path=wvball"
+          "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
         },
         {
           "id": "b00ada9e6a6f",
