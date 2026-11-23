@@ -2,10 +2,19 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "4e967db916f7",
+      "teamId": "saints",
+      "headline": "Jordan Howden takes over at safety",
+      "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
+      "date": "2026-11-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
+    },
     {
       "id": "eebfe7035ff3",
       "teamId": "saints",
@@ -41,6 +50,15 @@
       "date": "2026-11-20",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/tulane-still-carries-conference-title-game-hopes-into-meeting-with-north-texas/"
+    },
+    {
+      "id": "4115cf72f33f",
+      "teamId": "florida",
+      "headline": "Sumrall did not like Tuesday's practice",
+      "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
+      "date": "2026-11-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
     },
     {
       "id": "eca639e8eb12",

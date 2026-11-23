@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-22",
+    "updated": "2026-11-23",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "eaefb7f1a763",
+      "teamId": "iup",
+      "headline": "IUP beats Clarion to reach the regional final",
+      "summary": "IUP won in four sets Saturday night in Erie, 25-19, 25-22, 30-32, 27-25. Jessica Neiman had 14 kills, and Delaney Concannon had 11 kills and 21 digs.",
+      "date": "2026-11-21",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
+    },
+    {
+      "id": "4e967db916f7",
+      "teamId": "saints",
+      "headline": "Jordan Howden takes over at safety",
+      "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
+      "date": "2026-11-20",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
+    },
     {
       "id": "e145b7b3c317",
       "teamId": "tulane",
@@ -43,6 +61,15 @@
       "url": "https://iupathletics.com/boxscore.aspx?id=15132&path=wvball"
     },
     {
+      "id": "4115cf72f33f",
+      "teamId": "florida",
+      "headline": "Sumrall did not like Tuesday's practice",
+      "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
+      "date": "2026-11-19",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
+    },
+    {
       "id": "eca639e8eb12",
       "teamId": "florida",
       "headline": "Five Florida players are out for Saturday",
@@ -50,15 +77,6 @@
       "date": "2026-11-19",
       "source": "WRUF",
       "url": "https://www.wruf.com/headlines/2026/11/19/gators-injury-report-florida-enters-sec-finale-with-longer-list/"
-    },
-    {
-      "id": "598eb6a61b1d",
-      "teamId": "texas",
-      "headline": "Texas moves up to fifth in the playoff rankings",
-      "summary": "The committee that picks the playoff teams put Texas fifth on Tuesday, one spot higher than last week. Twelve teams make the playoff, and Texas has won eight games and lost two.",
-      "date": "2026-11-17",
-      "source": "NCAA",
-      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
     },
     {
       "id": "eba40960e0f6",
@@ -86,6 +104,15 @@
       "date": "2026-11-19",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/former-saints-head-coach-dennis-allen-presents-familiar-challenge-as-bears-defensive-coordinator"
+    },
+    {
+      "id": "f91f728a7e0f",
+      "teamId": "texas",
+      "headline": "Colin Simmons is a finalist for a national award",
+      "summary": "Texas pass rusher Colin Simmons is one of four finalists for the Lombardi Award, which goes to the best lineman or linebacker in the country. The winner is named on December 9 in Houston.",
+      "date": "2026-11-18",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/18/no-8-8-5-footballs-simmons-named-lombardi-award-finalist"
     },
     {
       "id": "653f503a4040",
@@ -122,6 +149,15 @@
       "date": "2026-11-18",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
+    },
+    {
+      "id": "598eb6a61b1d",
+      "teamId": "texas",
+      "headline": "Texas moves up to fifth in the playoff rankings",
+      "summary": "The committee that picks the playoff teams put Texas fifth on Tuesday, one spot higher than last week. Twelve teams make the playoff, and Texas has won eight games and lost two.",
+      "date": "2026-11-17",
+      "source": "NCAA",
+      "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
     },
     {
       "id": "aa71f984984b",
@@ -878,6 +914,15 @@
       "date": "2026-11-04",
       "source": "Crescent City Sports",
       "url": "https://crescentcitysports.com/saints-could-face-shedeur-sanders-as-deshaun-watson-enters-concussion-protocol/"
+    },
+    {
+      "id": "698718c769d3",
+      "teamId": "iup",
+      "headline": "Peyton Belcher is named a Provost Scholar",
+      "summary": "IUP put Peyton on its fall list of Provost Scholars, which the school gives to juniors and seniors with a grade average of 3.5 or better. A student can only get it once, and she is studying psychology.",
+      "date": "2026-11-03",
+      "source": "IUP",
+      "url": "https://www.iup.edu/news-events/news/2026/11/fall-2026-provost-scholars.html"
     },
     {
       "id": "9a70482f9582",
@@ -4460,51 +4505,6 @@
       "date": "2026-08-26",
       "source": "Texas Athletics",
       "url": "https://texaslonghorns.com/news/2026/8/26/no-5-4-football-trio-named-to-shaun-alexander-freshman-of-the-year-watch-list"
-    },
-    {
-      "id": "62d1bab94ea4",
-      "teamId": "saints",
-      "headline": "Saints will rest starters in Friday game at Dallas",
-      "summary": "Coach Kellen Moore said most of the starters will not play in the last preseason game at Dallas on Friday night. They already got their work in during three joint practices with the Cowboys.",
-      "date": "2026-08-26",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-starters-will-sit-out-preseason-finale-against-dallas-2026"
-    },
-    {
-      "id": "4fc3b8048eab",
-      "teamId": "saints",
-      "headline": "Saints add two defensive backs",
-      "summary": "New Orleans signed cornerback Michael Davis and defensive back David Long Jr. on Wednesday. Both are veterans, and the Saints needed help in the secondary after losing cornerback Rejzohn Wright for the season.",
-      "date": "2026-08-26",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/michael-davis-david-long-jr-saints-roster-moves-training-camp-august-26-2026"
-    },
-    {
-      "id": "4c0f1cf61297",
-      "teamId": "yankees",
-      "headline": "Yankees beat Astros 9-3",
-      "summary": "Cody Bellinger hit a bases-loaded double in the seventh inning Wednesday night to put New York ahead. Pitcher Elmer Rodriguez had the best start of his career, and the Yankees evened the series.",
-      "date": "2026-08-26",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816682"
-    },
-    {
-      "id": "bb9905be26b1",
-      "teamId": "yankees",
-      "headline": "Fernando Cruz goes on the injured list",
-      "summary": "The Yankees put the relief pitcher on the 15-day injured list Wednesday with a sore right elbow. They signed pitcher Michael Fulmer and called up Elmer Rodriguez to take the innings.",
-      "date": "2026-08-26",
-      "source": "MLB.com",
-      "url": "https://www.mlb.com/news/yankees-injuries-and-roster-moves"
-    },
-    {
-      "id": "ab5904c57122",
-      "teamId": "saints",
-      "headline": "Chris Olave hurt at practice, coach says it is minor",
-      "summary": "The receiver landed on his back late in Tuesday's practice and had the wind knocked out of him. Coach Kellen Moore said the injury looks minor.",
-      "date": "2026-08-25",
-      "source": "WWL Radio",
-      "url": "https://www.audacy.com/wwl/local-sports/saints/saints-place-2-on-ir"
     }
   ]
 }

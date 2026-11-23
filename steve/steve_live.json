@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "teams": {
     "tulane": {
       "record": "6-5",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "210e255d55e2",
+          "teamId": "florida",
+          "headline": "Florida moves up to 20th in the country",
+          "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
+          "date": "2026-11-22",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+        },
+        {
           "id": "82d48b0bed56",
           "teamId": "florida",
           "headline": "Florida beats Vanderbilt 34-27 on senior day",
@@ -102,15 +111,6 @@
           "date": "2026-11-21",
           "source": "HEAVY",
           "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
-        },
-        {
-          "id": "4115cf72f33f",
-          "teamId": "florida",
-          "headline": "Sumrall did not like Tuesday's practice",
-          "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
-          "date": "2026-11-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "317d01ae9bb5",
+          "teamId": "texas",
+          "headline": "Texas moves up to fifth in the country",
+          "summary": "The new Associated Press poll came out Sunday and Texas is fifth, up from eighth. Three teams ahead of the Longhorns lost on Saturday.",
+          "date": "2026-11-22",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+        },
+        {
           "id": "a1b465a45e41",
           "teamId": "texas",
           "headline": "Texas runs over Arkansas 45-3",
@@ -158,15 +167,6 @@
           "date": "2026-11-19",
           "source": "Texas Athletics",
           "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist"
-        },
-        {
-          "id": "f91f728a7e0f",
-          "teamId": "texas",
-          "headline": "Colin Simmons is a finalist for a national award",
-          "summary": "Texas pass rusher Colin Simmons is one of four finalists for the Lombardi Award, which goes to the best lineman or linebacker in the country. The winner is named on December 9 in Houston.",
-          "date": "2026-11-18",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/11/18/no-8-8-5-footballs-simmons-named-lombardi-award-finalist"
         }
       ]
     },
@@ -174,19 +174,19 @@
       "record": "3-7",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Chicago Bears",
-        "date": "2026-11-22",
-        "utc": "2026-11-22T18:00Z",
+        "opponent": "Cincinnati Bengals",
+        "date": "2026-11-29",
+        "utc": "2026-11-29T18:00Z",
         "time": "12:00 PM",
-        "venue": "Soldier Field",
-        "city": "Chicago, IL",
+        "venue": "Paycor Stadium",
+        "city": "Cincinnati, OH",
         "tv": {
-          "name": "Fox 8 (WVUE)",
-          "logo": "images/fox8.png",
+          "name": "WWL 4 (CBS)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Today's game is over. The Saints lost at Chicago 21-13. Chicago sacked Tyler Shough six times, and Alvin Kamara caught the only New Orleans touchdown. The Saints have now won three games and lost seven. They play at Cincinnati next Sunday at noon our time, on Channel 4."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -197,6 +197,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "bf3b9c6e0d1c",
+          "teamId": "saints",
+          "headline": "Juwan Johnson hurt his hamstring in Chicago",
+          "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
+          "date": "2026-11-22",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
+        },
         {
           "id": "1ece0782e545",
           "teamId": "saints",
@@ -214,52 +223,51 @@
           "date": "2026-11-20",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
-        },
-        {
-          "id": "4e967db916f7",
-          "teamId": "saints",
-          "headline": "Jordan Howden takes over at safety",
-          "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
-          "date": "2026-11-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
         }
       ]
     },
     "iup": {
-      "record": "25-6",
+      "record": "26-6",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Gannon",
-        "date": "2026-11-22",
-        "utc": "2026-11-22T21:00Z",
-        "time": "3:00 PM",
-        "venue": "Highmark Events Center",
-        "city": "Erie, PA",
+        "opponent": "To be announced",
+        "date": "2026-12-03",
+        "time": "",
+        "venue": "Municipal Auditorium",
+        "city": "Kansas City, MO",
         "tv": {
           "name": "PSAC Sports Digital Network app",
           "logo": "",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Free. Every IUP volleyball game is on this app. Tap the link on game day and look for the match."
+          "note": "Free, and every IUP volleyball game is on it. Tap this on game day and look for the match. The December 3 game in Kansas City is on ESPN+, which comes with YouTube TV at no extra charge."
         },
-        "note": "IUP plays Gannon today for the Atlantic Region championship. Three o'clock our time, four o'clock theirs, at the Highmark Events Center in Erie, Pennsylvania. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just above on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. This one is a national tournament match that Gannon is hosting, and NCAA.com is also carrying it live at ncaa.com/game/6663021. IUP has won twenty-five games and lost six. Gannon is the top seed with twenty-six wins and five losses. The winner goes to the final eight teams in the country."
+        "note": "IUP is one of the last eight teams in the country. The Crimson Hawks play Thursday, December 3, at Municipal Auditorium in Kansas City, Missouri. Who they play and what time they play have not been announced yet. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just below on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. The NCAA says this one is on ESPN+, which comes with YouTube TV at no extra charge. IUP has won twenty-six games and lost six."
       },
       "lastGame": {
         "result": "W",
         "teamScore": 3,
-        "opponentScore": 1,
-        "opponent": "Clarion",
-        "date": "2026-11-21"
+        "opponentScore": 2,
+        "opponent": "Gannon",
+        "date": "2026-11-22"
       },
       "news": [
         {
-          "id": "eaefb7f1a763",
+          "id": "4c09b443c3ee",
           "teamId": "iup",
-          "headline": "IUP beats Clarion to reach the regional final",
-          "summary": "IUP won in four sets Saturday night in Erie, 25-19, 25-22, 30-32, 27-25. Jessica Neiman had 14 kills, and Delaney Concannon had 11 kills and 21 digs.",
-          "date": "2026-11-21",
+          "headline": "Peyton Belcher had 8 kills in the regional final",
+          "summary": "Peyton came off the bench Sunday against Gannon and hit 8 kills on 19 swings with one error. IUP was losing two sets to none when she went in, and won the match in five.",
+          "date": "2026-11-22",
+          "source": "Gannon Athletics",
+          "url": "https://gannonsports.com/news/2026/11/22/womens-volleyball-volleyball-falls-in-five-set-heartbreaker-to-iup-in-ncaa-atlantic-regional-championship.aspx"
+        },
+        {
+          "id": "d321b93f4854",
+          "teamId": "iup",
+          "headline": "IUP wins the region and goes to Kansas City",
+          "summary": "IUP lost the first two sets to Gannon on Sunday and then won the next three to take the Atlantic Region title, the first in school history. The Crimson Hawks now play in the final eight teams in the country on Thursday, December 3, in Kansas City.",
+          "date": "2026-11-22",
           "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
+          "url": "https://iupathletics.com/news/2026/11/22/womens-volleyball-iup-volleyball-completes-historic-comeback-to-capture-ncaa-atlantic-regional-championship.aspx"
         },
         {
           "id": "b00ada9e6a6f",
@@ -269,15 +277,6 @@
           "date": "2026-11-07",
           "source": "IUP Athletics",
           "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/gannon/boxscore/15045"
-        },
-        {
-          "id": "698718c769d3",
-          "teamId": "iup",
-          "headline": "Peyton Belcher is named a Provost Scholar",
-          "summary": "IUP put Peyton on its fall list of Provost Scholars, which the school gives to juniors and seniors with a grade average of 3.5 or better. A student can only get it once, and she is studying psychology.",
-          "date": "2026-11-03",
-          "source": "IUP",
-          "url": "https://www.iup.edu/news-events/news/2026/11/fall-2026-provost-scholars.html"
         }
       ]
     },

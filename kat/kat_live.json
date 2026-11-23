@@ -1,24 +1,24 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "teams": {
     "saints": {
       "record": "3-7",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "Chicago Bears",
-        "date": "2026-11-22",
-        "utc": "2026-11-22T18:00Z",
+        "opponent": "Cincinnati Bengals",
+        "date": "2026-11-29",
+        "utc": "2026-11-29T18:00Z",
         "time": "12:00 PM",
-        "venue": "Soldier Field",
-        "city": "Chicago, IL",
+        "venue": "Paycor Stadium",
+        "city": "Cincinnati, OH",
         "tv": {
-          "name": "Fox 8 (WVUE)",
-          "logo": "images/fox8.png",
+          "name": "WWL 4 (CBS)",
+          "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Today's game is over. The Saints lost at Chicago 21-13. Chicago sacked Tyler Shough six times, and Alvin Kamara caught the only New Orleans touchdown. The Saints have now won three games and lost seven. They play at Cincinnati next Sunday at noon our time, on Channel 4."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "bf3b9c6e0d1c",
+          "teamId": "saints",
+          "headline": "Juwan Johnson hurt his hamstring in Chicago",
+          "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
+          "date": "2026-11-22",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
+        },
         {
           "id": "1ece0782e545",
           "teamId": "saints",
@@ -46,15 +55,6 @@
           "date": "2026-11-20",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
-        },
-        {
-          "id": "4e967db916f7",
-          "teamId": "saints",
-          "headline": "Jordan Howden takes over at safety",
-          "summary": "Justin Reid asked the Saints to let him go on Thursday after starting the first nine games. Jordan Howden, who is in his fourth year with the team, starts next to Julian Blackmon on Sunday.",
-          "date": "2026-11-20",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-safety-jordan-howden-promoted-to-starter-in-secondary"
         }
       ]
     },
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "210e255d55e2",
+          "teamId": "florida",
+          "headline": "Florida moves up to 20th in the country",
+          "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
+          "date": "2026-11-22",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+        },
+        {
           "id": "82d48b0bed56",
           "teamId": "florida",
           "headline": "Florida beats Vanderbilt 34-27 on senior day",
@@ -102,15 +111,6 @@
           "date": "2026-11-21",
           "source": "HEAVY",
           "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
-        },
-        {
-          "id": "4115cf72f33f",
-          "teamId": "florida",
-          "headline": "Sumrall did not like Tuesday's practice",
-          "summary": "Florida's coach stopped a slow practice and made the team run six plays of full-contact goal line work. He said the Gators have not handled winning well this year.",
-          "date": "2026-11-19",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/jon-sumrall-demands-urgency-gators-012600682.html"
         }
       ]
     },
