@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "d321b93f4854",
+      "teamId": "iup",
+      "headline": "IUP wins the region and goes to Kansas City",
+      "summary": "IUP lost the first two sets to Gannon on Sunday and then won the next three to take the Atlantic Region title, the first in school history. The Crimson Hawks now play in the final eight teams in the country on Thursday, December 3, in Kansas City.",
+      "date": "2026-11-22",
+      "source": "IUP Athletics",
+      "url": "https://iupathletics.com/news/2026/11/22/womens-volleyball-iup-volleyball-completes-historic-comeback-to-capture-ncaa-atlantic-regional-championship.aspx"
+    },
+    {
+      "id": "0140fa6eaede",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators won in spite of themselves",
+      "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
+      "date": "2026-11-21",
+      "source": "HEAVY",
+      "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
+    },
+    {
       "id": "eaefb7f1a763",
       "teamId": "iup",
       "headline": "IUP beats Clarion to reach the regional final",
@@ -14,6 +32,15 @@
       "date": "2026-11-21",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
+    },
+    {
+      "id": "bb287752b20a",
+      "teamId": "yankees",
+      "headline": "The Yankees bring back pitcher Jonathan Loaisiga",
+      "summary": "Loaisiga agreed to a two-year deal worth $18 million to return to New York, where he pitched from 2018 through 2025. He spent this past season in Arizona and stayed healthy all year.",
+      "date": "2026-11-20",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/mlb/yankees/onsi/how-jonathan-loaisiga-s-signing-impacts-the-rest-of-yankees-offseason-plans-01m7wnqe6t01"
     },
     {
       "id": "4e967db916f7",
@@ -59,6 +86,24 @@
       "date": "2026-11-20",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/boxscore.aspx?id=15132&path=wvball"
+    },
+    {
+      "id": "968008534ec0",
+      "teamId": "texas",
+      "headline": "Colin Simmons is up for the best defensive player award",
+      "summary": "Simmons is one of the finalists for the Bronko Nagurski Trophy, given to the best defensive player in college football. It is the second national award he has been named a finalist for this week.",
+      "date": "2026-11-19",
+      "source": "Texas Athletics",
+      "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist"
+    },
+    {
+      "id": "cf88cd5da4e2",
+      "teamId": "yankees",
+      "headline": "Brian Cashman slept outside at Yankee Stadium",
+      "summary": "The Yankees' general manager spent Thursday night in the outfield to raise money for homeless young people in New York. It was his fifteenth year doing the Covenant House Sleep Out.",
+      "date": "2026-11-19",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/yankees/news/brian-cashman-on-yankees-offseason-moves-sleep-out-charity-event"
     },
     {
       "id": "4115cf72f33f",
@@ -194,6 +239,15 @@
       "date": "2026-11-17",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/yankees-boost-pitching-depth-latest-215958113.html"
+    },
+    {
+      "id": "3db1d0f991a7",
+      "teamId": "tulane",
+      "headline": "Tulane's last road game is set for 2:30 Saturday",
+      "summary": "Tulane plays at South Florida on Saturday, November 28, at half past two in the afternoon. The game is on ESPN+, which comes with YouTube TV at no extra charge.",
+      "date": "2026-11-16",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
     },
     {
       "id": "756d110de368",
@@ -4451,60 +4505,6 @@
       "date": "2026-08-28",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
-    },
-    {
-      "id": "b9682dcfdbdb",
-      "teamId": "saints",
-      "headline": "Three kickers still fighting for the Saints job",
-      "summary": "Tanner Brown made all eight of his field goal tries at Wednesday's practice, while Charlie Smyth and Daniel Carlson each missed one. Coach Kellen Moore says he wants to see them kick in Friday's game at Dallas before he picks one.",
-      "date": "2026-08-27",
-      "source": "New Orleans Saints",
-      "url": "https://www.neworleanssaints.com/news/several-saints-prepare-to-make-a-final-case-for-roster-spots-in-the-preseason-finale"
-    },
-    {
-      "id": "4ad91b5ed94e",
-      "teamId": "iup",
-      "headline": "Findlay beats IUP in the season opener",
-      "summary": "The Crimson Hawks lost in four sets Thursday at Findlay, 27-25, 26-24, 19-25, 25-23. Jessica Neiman led IUP with 12 kills and Delaney Concannon added 9 kills and 12 digs.",
-      "date": "2026-08-27",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/27/womens-volleyball-iup-volleyball-drops-season-opener-in-four-sets-at-findlay.aspx"
-    },
-    {
-      "id": "c553df49206f",
-      "teamId": "yankees",
-      "headline": "Astros beat Yankees 5-1 to take the series",
-      "summary": "Christian Walker had three hits and a two-run home run off Gerrit Cole on Thursday night. Houston won two of the three games in the Bronx.",
-      "date": "2026-08-27",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/game/_/gameId/401816696/astros-yankees"
-    },
-    {
-      "id": "2fc2a21f25b7",
-      "teamId": "yankees",
-      "headline": "Aaron Judge does not want a minor league rehab stint",
-      "summary": "Judge said Thursday he plans to come straight back to the Yankees once doctors clear him. He is still healing a small crack in a rib.",
-      "date": "2026-08-27",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/49746969/yankees-aaron-judge-need-rehab-stint-once-cleared"
-    },
-    {
-      "id": "3c25b17dff05",
-      "teamId": "yankees",
-      "headline": "Fernando Cruz has a partly torn elbow ligament",
-      "summary": "Manager Aaron Boone said Wednesday that a scan found the tear in the relief pitcher's right elbow. Cruz may need surgery, and he could miss the rest of the season either way.",
-      "date": "2026-08-27",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/49738383/yankees-fernando-cruz-partially-torn-ucl-right-elbow-tommy-john-surgery-possibility"
-    },
-    {
-      "id": "02485de1cfcb",
-      "teamId": "texas",
-      "headline": "Three Texas freshmen make a national award list",
-      "summary": "Linebacker Tyler Atkinson, receiver Jermaine Bishop Jr. and pass rusher Richard Wesley were named to the watch list for the Shaun Alexander Freshman of the Year Award. Only Alabama, Michigan and Ohio State had as many players on it.",
-      "date": "2026-08-26",
-      "source": "Texas Athletics",
-      "url": "https://texaslonghorns.com/news/2026/8/26/no-5-4-football-trio-named-to-shaun-alexander-freshman-of-the-year-watch-list"
     }
   ]
 }

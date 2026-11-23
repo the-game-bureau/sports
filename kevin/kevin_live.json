@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "46d1a9fd00b3",
+          "teamId": "florida",
+          "headline": "Myles Graham is a defensive player of the week",
+          "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
+          "date": "2026-11-23",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
+        },
+        {
           "id": "210e255d55e2",
           "teamId": "florida",
           "headline": "Florida moves up to 20th in the country",
@@ -102,15 +111,6 @@
           "date": "2026-11-21",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
-        },
-        {
-          "id": "0140fa6eaede",
-          "teamId": "florida",
-          "headline": "Sumrall says the Gators won in spite of themselves",
-          "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
-          "date": "2026-11-21",
-          "source": "HEAVY",
-          "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "47f0b0592e8f",
+          "teamId": "lsu",
+          "headline": "Kiffin says LSU keeps coming apart in the fourth quarter",
+          "summary": "LSU has not scored a single point in the fourth quarter during its three straight losses. The coach said Monday that the problem starts with him, and that his team is thin because the same players stay on the field almost every snap.",
+          "date": "2026-11-23",
+          "source": "Louisiana Radio Network",
+          "url": "https://louisianaradionetwork.com/2026/11/23/49002/"
+        },
+        {
           "id": "aa2f1c67035f",
           "teamId": "lsu",
           "headline": "LSU drops out of the coaches poll",
@@ -151,13 +160,13 @@
           "url": "https://sports.yahoo.com/articles/lsu-football-falls-us-lbm-185056860.html"
         },
         {
-          "id": "f6a846bf93b6",
+          "id": "09bb50a5b719",
           "teamId": "lsu",
-          "headline": "Tennessee beats LSU 27-13",
-          "summary": "It is LSU's third loss in a row. Tennessee sacked quarterback Sam Leavitt eight times, LSU ran for only 43 yards, and the Tigers were penalized 16 times.",
-          "date": "2026-11-21",
-          "source": "LSU Athletics",
-          "url": "https://lsusports.net/news/2026/11/21/football-struggles-offensively-falls-to-no-9-tennessee-27-13"
+          "headline": "Tennessee fined $250,000 for fans throwing things on the field",
+          "summary": "The Southeastern Conference fined Tennessee on Sunday because its fans threw objects onto the field during the fourth quarter against LSU. The game had to be stopped until the field was clear.",
+          "date": "2026-11-22",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tennessee-penalized-by-sec-for-football-game-interruption-lsu/"
         }
       ]
     },
@@ -189,6 +198,15 @@
       },
       "news": [
         {
+          "id": "c6d19f90c1c6",
+          "teamId": "tulane",
+          "headline": "Trace Johnson honored for his four touchdown passes",
+          "summary": "The American Conference put the freshman quarterback on its weekly honor roll Monday. He completed 17 of his 21 throws for 283 yards and four touchdowns in Saturday's comeback win over North Texas.",
+          "date": "2026-11-23",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/23/footballs-trace-johnson-honored-by-the-american-conference"
+        },
+        {
           "id": "8659924f052c",
           "teamId": "tulane",
           "headline": "Tulane beats North Texas 28-24 and makes a bowl",
@@ -205,15 +223,6 @@
           "date": "2026-11-17",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
-        },
-        {
-          "id": "3db1d0f991a7",
-          "teamId": "tulane",
-          "headline": "Tulane's last road game is set for 2:30 Saturday",
-          "summary": "Tulane plays at South Florida on Saturday, November 28, at half past two in the afternoon. The game is on ESPN+, which comes with YouTube TV at no extra charge.",
-          "date": "2026-11-16",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
         }
       ]
     },

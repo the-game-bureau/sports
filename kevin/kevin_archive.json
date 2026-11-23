@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "0140fa6eaede",
+      "teamId": "florida",
+      "headline": "Sumrall says the Gators won in spite of themselves",
+      "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
+      "date": "2026-11-21",
+      "source": "HEAVY",
+      "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
+    },
+    {
+      "id": "f6a846bf93b6",
+      "teamId": "lsu",
+      "headline": "Tennessee beats LSU 27-13",
+      "summary": "It is LSU's third loss in a row. Tennessee sacked quarterback Sam Leavitt eight times, LSU ran for only 43 yards, and the Tigers were penalized 16 times.",
+      "date": "2026-11-21",
+      "source": "LSU Athletics",
+      "url": "https://lsusports.net/news/2026/11/21/football-struggles-offensively-falls-to-no-9-tennessee-27-13"
+    },
+    {
       "id": "4e967db916f7",
       "teamId": "saints",
       "headline": "Jordan Howden takes over at safety",
@@ -185,6 +203,15 @@
       "date": "2026-11-17",
       "source": "NCAA",
       "url": "https://www.ncaa.com/news/football/article/2026-11-17/georgia-leads-texas-enters-top-five-third-college-football-playoff-rankings-2026"
+    },
+    {
+      "id": "3db1d0f991a7",
+      "teamId": "tulane",
+      "headline": "Tulane's last road game is set for 2:30 Saturday",
+      "summary": "Tulane plays at South Florida on Saturday, November 28, at half past two in the afternoon. The game is on ESPN+, which comes with YouTube TV at no extra charge.",
+      "date": "2026-11-16",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
     },
     {
       "id": "ea11e8281692",

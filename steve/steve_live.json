@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "c6d19f90c1c6",
+          "teamId": "tulane",
+          "headline": "Trace Johnson honored for his four touchdown passes",
+          "summary": "The American Conference put the freshman quarterback on its weekly honor roll Monday. He completed 17 of his 21 throws for 283 yards and four touchdowns in Saturday's comeback win over North Texas.",
+          "date": "2026-11-23",
+          "source": "Tulane Athletics",
+          "url": "https://tulanegreenwave.com/news/2026/11/23/footballs-trace-johnson-honored-by-the-american-conference"
+        },
+        {
           "id": "8659924f052c",
           "teamId": "tulane",
           "headline": "Tulane beats North Texas 28-24 and makes a bowl",
@@ -46,15 +55,6 @@
           "date": "2026-11-17",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
-        },
-        {
-          "id": "3db1d0f991a7",
-          "teamId": "tulane",
-          "headline": "Tulane's last road game is set for 2:30 Saturday",
-          "summary": "Tulane plays at South Florida on Saturday, November 28, at half past two in the afternoon. The game is on ESPN+, which comes with YouTube TV at no extra charge.",
-          "date": "2026-11-16",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/16/footballs-start-time-and-network-announced-for-south-florida"
         }
       ]
     },
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "46d1a9fd00b3",
+          "teamId": "florida",
+          "headline": "Myles Graham is a defensive player of the week",
+          "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
+          "date": "2026-11-23",
+          "source": "Florida Gators",
+          "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
+        },
+        {
           "id": "210e255d55e2",
           "teamId": "florida",
           "headline": "Florida moves up to 20th in the country",
@@ -102,15 +111,6 @@
           "date": "2026-11-21",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
-        },
-        {
-          "id": "0140fa6eaede",
-          "teamId": "florida",
-          "headline": "Sumrall says the Gators won in spite of themselves",
-          "summary": "Jon Sumrall was not pleased after the win and called his team sloppy. He joked that the game aged everyone who watched it ten years.",
-          "date": "2026-11-21",
-          "source": "HEAVY",
-          "url": "https://sports.yahoo.com/articles/gators-head-coach-jon-sumrall-031804273.html"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "8c17b7cb0be3",
+          "teamId": "texas",
+          "headline": "Arch Manning is the Manning Award star of the week",
+          "summary": "The award named for his family picked him Monday for his day against Arkansas. He completed 15 of 17 passes for 230 yards, threw two touchdowns and ran for another one.",
+          "date": "2026-11-23",
+          "source": "Texas Athletics",
+          "url": "https://texassports.com/news/2026/11/23/no-5-6-5-footballs-manning-tabbed-manning-award-star-of-the-week"
+        },
+        {
           "id": "317d01ae9bb5",
           "teamId": "texas",
           "headline": "Texas moves up to fifth in the country",
@@ -158,15 +167,6 @@
           "date": "2026-11-21",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/arch-manning-accounts-3-tds-011425000.html"
-        },
-        {
-          "id": "968008534ec0",
-          "teamId": "texas",
-          "headline": "Colin Simmons is up for the best defensive player award",
-          "summary": "Simmons is one of the finalists for the Bronko Nagurski Trophy, given to the best defensive player in college football. It is the second national award he has been named a finalist for this week.",
-          "date": "2026-11-19",
-          "source": "Texas Athletics",
-          "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist"
         }
       ]
     },
@@ -230,18 +230,18 @@
       "record": "26-6",
       "nextGame": {
         "homeAway": "away",
-        "opponent": "To be announced",
+        "opponent": "Wayne State College (Nebraska)",
         "date": "2026-12-03",
-        "time": "",
+        "time": "1:30 PM",
         "venue": "Municipal Auditorium",
         "city": "Kansas City, MO",
         "tv": {
-          "name": "PSAC Sports Digital Network app",
-          "logo": "",
+          "name": "ESPN+, and the PSAC app for every other IUP match",
+          "logo": "images/espnplus.webp",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "Free, and every IUP volleyball game is on it. Tap this on game day and look for the match. The December 3 game in Kansas City is on ESPN+, which comes with YouTube TV at no extra charge."
+          "note": "ESPN+ comes with YouTube TV at no extra charge, so Thursday's match plays in the ESPN app. Every other IUP volleyball game is free on the PSAC app — tap here to open it."
         },
-        "note": "IUP is one of the last eight teams in the country. The Crimson Hawks play Thursday, December 3, at Municipal Auditorium in Kansas City, Missouri. Who they play and what time they play have not been announced yet. Every IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just below on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. The NCAA says this one is on ESPN+, which comes with YouTube TV at no extra charge. IUP has won twenty-six games and lost six."
+        "note": "Thursday afternoon in Kansas City, Missouri, against Wayne State College of Nebraska. Half past one our time. IUP is one of the last eight teams left in the country after beating Gannon on Sunday to win its region. This match is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. Every other IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just below on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. IUP has won twenty-six games and lost six."
       },
       "lastGame": {
         "result": "W",
@@ -252,6 +252,15 @@
       },
       "news": [
         {
+          "id": "7c61cba91ed4",
+          "teamId": "iup",
+          "headline": "IUP plays Wayne State on Thursday in Kansas City",
+          "summary": "The Crimson Hawks beat Gannon on Sunday to win their region, so they are one of the last eight teams playing for the national title. They play Wayne State College of Nebraska at half past one Thursday afternoon, our time, and the match is on ESPN+.",
+          "date": "2026-11-23",
+          "source": "NCAA.com",
+          "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-21/2026-dii-womens-volleyball-championship-bracket-schedule-scores"
+        },
+        {
           "id": "4c09b443c3ee",
           "teamId": "iup",
           "headline": "Peyton Belcher had 8 kills in the regional final",
@@ -259,15 +268,6 @@
           "date": "2026-11-22",
           "source": "Gannon Athletics",
           "url": "https://gannonsports.com/news/2026/11/22/womens-volleyball-volleyball-falls-in-five-set-heartbreaker-to-iup-in-ncaa-atlantic-regional-championship.aspx"
-        },
-        {
-          "id": "d321b93f4854",
-          "teamId": "iup",
-          "headline": "IUP wins the region and goes to Kansas City",
-          "summary": "IUP lost the first two sets to Gannon on Sunday and then won the next three to take the Atlantic Region title, the first in school history. The Crimson Hawks now play in the final eight teams in the country on Thursday, December 3, in Kansas City.",
-          "date": "2026-11-22",
-          "source": "IUP Athletics",
-          "url": "https://iupathletics.com/news/2026/11/22/womens-volleyball-iup-volleyball-completes-historic-comeback-to-capture-ncaa-atlantic-regional-championship.aspx"
         },
         {
           "id": "b00ada9e6a6f",
@@ -301,6 +301,24 @@
       },
       "news": [
         {
+          "id": "9f8814357324",
+          "teamId": "yankees",
+          "headline": "The Yankees sign left-handed pitcher Brent Suter",
+          "summary": "Suter agreed Monday to a one-year deal worth $4 million, with a club option for another season. He is 37 and had a 3.36 earned run average in 54 games last year for the Angels and the Braves.",
+          "date": "2026-11-23",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/yankees-to-sign-brent-suter.html"
+        },
+        {
+          "id": "c7d7fa88cf58",
+          "teamId": "yankees",
+          "headline": "Paul Goldschmidt leaves the Yankees for the Mets",
+          "summary": "The first baseman agreed Monday to a one-year deal with the Mets worth $8 million. He is 39 and played first base for the Yankees the past two seasons.",
+          "date": "2026-11-23",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html"
+        },
+        {
           "id": "0bc6592089d5",
           "teamId": "yankees",
           "headline": "The Yankees let go of Luis Gil and Fernando Cruz",
@@ -308,24 +326,6 @@
           "date": "2026-11-20",
           "source": "MLB.com",
           "url": "https://www.mlb.com/news/yankees-non-tender-decisions-2026"
-        },
-        {
-          "id": "bb287752b20a",
-          "teamId": "yankees",
-          "headline": "The Yankees bring back pitcher Jonathan Loaisiga",
-          "summary": "Loaisiga agreed to a two-year deal worth $18 million to return to New York, where he pitched from 2018 through 2025. He spent this past season in Arizona and stayed healthy all year.",
-          "date": "2026-11-20",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/mlb/yankees/onsi/how-jonathan-loaisiga-s-signing-impacts-the-rest-of-yankees-offseason-plans-01m7wnqe6t01"
-        },
-        {
-          "id": "cf88cd5da4e2",
-          "teamId": "yankees",
-          "headline": "Brian Cashman slept outside at Yankee Stadium",
-          "summary": "The Yankees' general manager spent Thursday night in the outfield to raise money for homeless young people in New York. It was his fifteenth year doing the Covenant House Sleep Out.",
-          "date": "2026-11-19",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/yankees/news/brian-cashman-on-yankees-offseason-moves-sleep-out-charity-event"
         }
       ]
     },
