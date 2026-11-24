@@ -2,7 +2,7 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
@@ -14,6 +14,15 @@
       "date": "2026-11-22",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/22/womens-volleyball-iup-volleyball-completes-historic-comeback-to-capture-ncaa-atlantic-regional-championship.aspx"
+    },
+    {
+      "id": "82d48b0bed56",
+      "teamId": "florida",
+      "headline": "Florida beats Vanderbilt 34-27 on senior day",
+      "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
+      "date": "2026-11-21",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
     },
     {
       "id": "0140fa6eaede",
@@ -32,6 +41,15 @@
       "date": "2026-11-21",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
+    },
+    {
+      "id": "89a3990a692e",
+      "teamId": "saints",
+      "headline": "Tyler Shough practices without the glove on his hand",
+      "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
+      "date": "2026-11-20",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
     },
     {
       "id": "bb287752b20a",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-28",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/hillsdale-college/boxscore/15315"
-    },
-    {
-      "id": "17906980f6bd",
-      "teamId": "yankees",
-      "headline": "Lombard makes an error in six straight games",
-      "summary": "Rookie shortstop George Lombard Jr. made an error in Thursday night's 5-1 loss to Houston. It was his sixth game in a row with one, something no Yankee had done since 1921.",
-      "date": "2026-08-28",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/story/_/id/49749433/george-lombard-jr-first-yankee-error-6-straight-games-1921"
-    },
-    {
-      "id": "d64e78e94363",
-      "teamId": "tulane",
-      "headline": "Tulane practices on grass to get ready for Duke",
-      "summary": "The Green Wave held their last tune-up practice Friday at the Saints facility so they could work on a real grass field. Duke's stadium has grass, and Tulane opens there on September 5.",
-      "date": "2026-08-28",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/tulane-football-ends-mock-week-180057689.html"
     }
   ]
 }

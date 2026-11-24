@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "teams": {
     "saints": {
       "record": "3-7",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "360b5314cdc4",
+          "teamId": "saints",
+          "headline": "Coach Moore says the close losses keep piling up",
+          "summary": "Five of the seven Saints losses this year have been by a touchdown or less, including Sunday's 21-13 loss at Chicago. Coach Kellen Moore said Monday that his team keeps losing games that come down to a few plays.",
+          "date": "2026-11-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
+        },
+        {
           "id": "bf3b9c6e0d1c",
           "teamId": "saints",
           "headline": "Juwan Johnson hurt his hamstring in Chicago",
@@ -46,15 +55,6 @@
           "date": "2026-11-22",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
-        },
-        {
-          "id": "89a3990a692e",
-          "teamId": "saints",
-          "headline": "Tyler Shough practices without the glove on his hand",
-          "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
-          "date": "2026-11-20",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
         }
       ]
     },
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "02e2f102b264",
+          "teamId": "florida",
+          "headline": "Vernell Brown will miss the Florida State game",
+          "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
+          "date": "2026-11-23",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+        },
+        {
           "id": "46d1a9fd00b3",
           "teamId": "florida",
           "headline": "Myles Graham is a defensive player of the week",
@@ -102,15 +111,6 @@
           "date": "2026-11-22",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
-        },
-        {
-          "id": "82d48b0bed56",
-          "teamId": "florida",
-          "headline": "Florida beats Vanderbilt 34-27 on senior day",
-          "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
-          "date": "2026-11-21",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
         }
       ]
     },
@@ -229,13 +229,13 @@
     "brother-martin": {
       "record": "8-3",
       "nextGame": {
-        "homeAway": "away",
+        "homeAway": "home",
         "opponent": "St. Augustine",
         "date": "2026-11-27",
         "time": "7:00 PM",
         "venue": "Tad Gormley Stadium",
         "city": "New Orleans, LA",
-        "note": "Quarterfinal of the state playoffs, Friday night at seven, at Tad Gormley Stadium in City Park. It is the same field Brother Martin plays its home games on, so it is a short drive, but St. Augustine is the home team this time. Brother Martin has won eight games and lost three. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October."
+        "note": "Quarterfinal of the state playoffs, Friday night at seven, at Tad Gormley Stadium in City Park. It is the field Brother Martin plays its home games on, so it is a short drive. Brother Martin has won eight games and lost three. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October."
       },
       "lastGame": {
         "result": "W",
@@ -250,6 +250,15 @@
           "teamId": "brother-martin",
           "headline": "St. Augustine is next, Friday at Tad Gormley",
           "summary": "Brother Martin plays St. Augustine in the quarterfinals at seven o'clock Friday night, on the same field in City Park. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October.",
+          "date": "2026-11-21",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+        },
+        {
+          "id": "f192884abe40",
+          "teamId": "brother-martin",
+          "headline": "St. Augustine beat Holy Cross 47-7 to reach Friday",
+          "summary": "Brother Martin's opponent on Friday has won eleven games and lost none. St. Augustine won its last game 47-7 at the same stadium the two schools will play in.",
           "date": "2026-11-21",
           "source": "Crescent City Sports",
           "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"

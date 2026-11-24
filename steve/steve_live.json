@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "teams": {
     "tulane": {
       "record": "6-5",
@@ -86,6 +86,15 @@
       },
       "news": [
         {
+          "id": "02e2f102b264",
+          "teamId": "florida",
+          "headline": "Vernell Brown will miss the Florida State game",
+          "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
+          "date": "2026-11-23",
+          "source": "WRUF",
+          "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+        },
+        {
           "id": "46d1a9fd00b3",
           "teamId": "florida",
           "headline": "Myles Graham is a defensive player of the week",
@@ -102,15 +111,6 @@
           "date": "2026-11-22",
           "source": "CBS Sports",
           "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
-        },
-        {
-          "id": "82d48b0bed56",
-          "teamId": "florida",
-          "headline": "Florida beats Vanderbilt 34-27 on senior day",
-          "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
-          "date": "2026-11-21",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "360b5314cdc4",
+          "teamId": "saints",
+          "headline": "Coach Moore says the close losses keep piling up",
+          "summary": "Five of the seven Saints losses this year have been by a touchdown or less, including Sunday's 21-13 loss at Chicago. Coach Kellen Moore said Monday that his team keeps losing games that come down to a few plays.",
+          "date": "2026-11-23",
+          "source": "New Orleans Saints",
+          "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
+        },
+        {
           "id": "bf3b9c6e0d1c",
           "teamId": "saints",
           "headline": "Juwan Johnson hurt his hamstring in Chicago",
@@ -214,15 +223,6 @@
           "date": "2026-11-22",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
-        },
-        {
-          "id": "89a3990a692e",
-          "teamId": "saints",
-          "headline": "Tyler Shough practices without the glove on his hand",
-          "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
-          "date": "2026-11-20",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
         }
       ]
     },
@@ -239,9 +239,9 @@
           "name": "ESPN+, and the PSAC app for every other IUP match",
           "logo": "images/espnplus.webp",
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
-          "note": "ESPN+ comes with YouTube TV at no extra charge, so Thursday's match plays in the ESPN app. Every other IUP volleyball game is free on the PSAC app — tap here to open it."
+          "note": "ESPN+ comes with YouTube TV at no extra charge, so Thursday's match plays in the ESPN app. Every other IUP volleyball game is free on the PSAC Sports Digital Network app — on game day, tap here to open it and look for the match."
         },
-        "note": "Thursday afternoon in Kansas City, Missouri, against Wayne State College of Nebraska. Half past one our time. IUP is one of the last eight teams left in the country after beating Gannon on Sunday to win its region. This match is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. Every other IUP volleyball game is shown free on the PSAC Sports Digital Network app, so tap the link just below on game day and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. IUP has won twenty-six games and lost six."
+        "note": "Thursday afternoon in Kansas City, Missouri, against Wayne State College of Nebraska. Half past one our time. IUP is one of the last eight teams left in the country after beating Gannon on Sunday to win its region. This match is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. Every other IUP volleyball game is shown free on the PSAC Sports Digital Network app. On game day, tap the link just below and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. IUP has won twenty-six games and lost six."
       },
       "lastGame": {
         "result": "W",

@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "82d48b0bed56",
+      "teamId": "florida",
+      "headline": "Florida beats Vanderbilt 34-27 on senior day",
+      "summary": "Florida trailed 24-17 at halftime and came back to win its last home game. Jadan Baugh scored the go-ahead touchdown with 2:19 left, and Eric Singleton caught passes for 117 yards, the most of his career.",
+      "date": "2026-11-21",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/florida-grinds-34-27-victory-212718699.html"
+    },
     {
       "id": "0140fa6eaede",
       "teamId": "florida",
@@ -23,6 +32,15 @@
       "date": "2026-11-21",
       "source": "LSU Athletics",
       "url": "https://lsusports.net/news/2026/11/21/football-struggles-offensively-falls-to-no-9-tennessee-27-13"
+    },
+    {
+      "id": "89a3990a692e",
+      "teamId": "saints",
+      "headline": "Tyler Shough practices without the glove on his hand",
+      "summary": "The Saints quarterback has been playing with two broken bones in his left hand, and this week he practiced without the glove he had been wearing over it. The team has not said the hand is healed.",
+      "date": "2026-11-20",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/saints-qb-tyler-shough-gets-030321481.html"
     },
     {
       "id": "4e967db916f7",
