@@ -7,6 +7,15 @@
   },
   "items": [
     {
+      "id": "1ece0782e545",
+      "teamId": "saints",
+      "headline": "Chicago beats the Saints 21-13",
+      "summary": "Chicago sacked Tyler Shough six times, once for a safety, and the Saints scored one touchdown, a one-yard catch by Alvin Kamara. New Orleans has now won three games and lost seven.",
+      "date": "2026-11-22",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
+    },
+    {
       "id": "d321b93f4854",
       "teamId": "iup",
       "headline": "IUP wins the region and goes to Kansas City",
@@ -41,6 +50,15 @@
       "date": "2026-11-21",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/11/21/womens-volleyball-iup-volleyball-advances-to-ncaa-atlantic-regional-championship-with-four-set-victory-over-clarion.aspx"
+    },
+    {
+      "id": "0bc6592089d5",
+      "teamId": "yankees",
+      "headline": "The Yankees let go of Luis Gil and Fernando Cruz",
+      "summary": "Both pitchers were cut loose Friday and can now sign with any team. Gil was the best rookie in the American League in 2024, but a sore shoulder cost him more than three months this past season.",
+      "date": "2026-11-20",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/yankees-non-tender-decisions-2026"
     },
     {
       "id": "89a3990a692e",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-28",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401816702"
-    },
-    {
-      "id": "fb400908df43",
-      "teamId": "yankees",
-      "headline": "Max Fried comes off the injured list to pitch Saturday",
-      "summary": "The left-hander will start one game of Saturday's doubleheader against Boston. He has been out since the middle of August with a bruised left elbow.",
-      "date": "2026-08-28",
-      "source": "Associated Press",
-      "url": "https://www.aol.com/articles/max-fried-come-off-injured-205808000.html"
-    },
-    {
-      "id": "af52cf2cb0ea",
-      "teamId": "iup",
-      "headline": "Hillsdale beats IUP in four sets",
-      "summary": "The Crimson Hawks won the first set Friday in Detroit and then lost the next three. Delaney Concannon and Jessica Neiman each had 12 kills, and Elliott Rauch handed out 21 assists.",
-      "date": "2026-08-28",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/hillsdale-college/boxscore/15315"
     }
   ]
 }

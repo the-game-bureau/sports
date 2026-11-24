@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "f38d142eee56",
+          "teamId": "saints",
+          "headline": "Jahri Evans moves closer to the Hall of Fame",
+          "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
+          "date": "2026-11-24",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
+        },
+        {
           "id": "360b5314cdc4",
           "teamId": "saints",
           "headline": "Coach Moore says the close losses keep piling up",
@@ -46,15 +55,6 @@
           "date": "2026-11-22",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
-        },
-        {
-          "id": "1ece0782e545",
-          "teamId": "saints",
-          "headline": "Chicago beats the Saints 21-13",
-          "summary": "Chicago sacked Tyler Shough six times, once for a safety, and the Saints scored one touchdown, a one-yard catch by Alvin Kamara. New Orleans has now won three games and lost seven.",
-          "date": "2026-11-22",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
         }
       ]
     },

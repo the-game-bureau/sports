@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "f38d142eee56",
+          "teamId": "saints",
+          "headline": "Jahri Evans moves closer to the Hall of Fame",
+          "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
+          "date": "2026-11-24",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
+        },
+        {
           "id": "360b5314cdc4",
           "teamId": "saints",
           "headline": "Coach Moore says the close losses keep piling up",
@@ -214,15 +223,6 @@
           "date": "2026-11-22",
           "source": "Sports Illustrated",
           "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
-        },
-        {
-          "id": "1ece0782e545",
-          "teamId": "saints",
-          "headline": "Chicago beats the Saints 21-13",
-          "summary": "Chicago sacked Tyler Shough six times, once for a safety, and the Saints scored one touchdown, a one-yard catch by Alvin Kamara. New Orleans has now won three games and lost seven.",
-          "date": "2026-11-22",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap"
         }
       ]
     },
@@ -301,6 +301,15 @@
       },
       "news": [
         {
+          "id": "6c23d809094f",
+          "teamId": "yankees",
+          "headline": "The Yankees bring back pitcher Tim Hill",
+          "summary": "The Yankees announced Tuesday that Hill is signed for next season for $2.25 million. The left-hander turns 37 in the spring and had a 4.60 earned run average over 58 and two-thirds innings for New York last season.",
+          "date": "2026-11-24",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/yankees-re-sign-tim-hill-to-one-year-deal.html"
+        },
+        {
           "id": "9f8814357324",
           "teamId": "yankees",
           "headline": "The Yankees sign left-handed pitcher Brent Suter",
@@ -317,15 +326,6 @@
           "date": "2026-11-23",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html"
-        },
-        {
-          "id": "0bc6592089d5",
-          "teamId": "yankees",
-          "headline": "The Yankees let go of Luis Gil and Fernando Cruz",
-          "summary": "Both pitchers were cut loose Friday and can now sign with any team. Gil was the best rookie in the American League in 2024, but a sore shoulder cost him more than three months this past season.",
-          "date": "2026-11-20",
-          "source": "MLB.com",
-          "url": "https://www.mlb.com/news/yankees-non-tender-decisions-2026"
         }
       ]
     },
