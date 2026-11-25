@@ -2,10 +2,28 @@
   "meta": {
     "title": "Older Stories",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "note": "Stories that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "02e2f102b264",
+      "teamId": "florida",
+      "headline": "Vernell Brown will miss the Florida State game",
+      "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
+      "date": "2026-11-23",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+    },
+    {
+      "id": "09bb50a5b719",
+      "teamId": "lsu",
+      "headline": "Tennessee fined $250,000 for fans throwing things on the field",
+      "summary": "The Southeastern Conference fined Tennessee on Sunday because its fans threw objects onto the field during the fourth quarter against LSU. The game had to be stopped until the field was clear.",
+      "date": "2026-11-22",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/tennessee-penalized-by-sec-for-football-game-interruption-lsu/"
+    },
     {
       "id": "1ece0782e545",
       "teamId": "saints",
@@ -203,6 +221,15 @@
       "date": "2026-11-18",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
+    },
+    {
+      "id": "6a8b4ba07d83",
+      "teamId": "tulane",
+      "headline": "Cooper Helmke is up for a national kicking award",
+      "summary": "Tulane kicker Cooper Helmke is one of 20 players still in the running for the Lou Groza Award, which goes to the best kicker in the country. He has made 13 of his 15 field goals this year, and his longest was from 58 yards.",
+      "date": "2026-11-17",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
     },
     {
       "id": "de8b58f7df34",

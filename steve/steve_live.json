@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "teams": {
     "tulane": {
       "record": "6-5",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "171030328180",
+          "teamId": "tulane",
+          "headline": "Tulane coach Chris Forestier up for a national award",
+          "summary": "Forestier runs Tulane's kicking and punting teams, and he is one of 60 assistant coaches in the country nominated for the Broyles Award. Tulane has blocked four kicks this season, more than any other team in its league.",
+          "date": "2026-11-24",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-chris-forestier-nominated-broyles-award/"
+        },
+        {
           "id": "c6d19f90c1c6",
           "teamId": "tulane",
           "headline": "Trace Johnson honored for his four touchdown passes",
@@ -46,15 +55,6 @@
           "date": "2026-11-21",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/21/fourth-quarter-comeback-leads-football-to-28-24-victory-over-north-texas"
-        },
-        {
-          "id": "6a8b4ba07d83",
-          "teamId": "tulane",
-          "headline": "Cooper Helmke is up for a national kicking award",
-          "summary": "Tulane kicker Cooper Helmke is one of 20 players still in the running for the Lou Groza Award, which goes to the best kicker in the country. He has made 13 of his 15 field goals this year, and his longest was from 58 yards.",
-          "date": "2026-11-17",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
         }
       ]
     },
@@ -86,13 +86,13 @@
       },
       "news": [
         {
-          "id": "02e2f102b264",
+          "id": "1c60b646ad2b",
           "teamId": "florida",
-          "headline": "Vernell Brown will miss the Florida State game",
-          "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
-          "date": "2026-11-23",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+          "headline": "Vernell Brown is done for the season",
+          "summary": "Florida said Tuesday that receiver Vernell Brown will have surgery on his right knee and will not play again this year. He hurt the knee against Ole Miss in late September and has missed the last seven games.",
+          "date": "2026-11-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50586755/no-20-florida-shuts-wr-vernell-brown-season-ending-knee-surgery"
         },
         {
           "id": "46d1a9fd00b3",
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "2ab742a6c548",
+          "teamId": "texas",
+          "headline": "Texas is now third in the playoff rankings",
+          "summary": "The playoff committee moved Texas up from fifth to third on Tuesday night. Georgia is first, Utah is second, and a win at Texas A&M on Friday would put Texas in the playoff.",
+          "date": "2026-11-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50588082/indiana-top-12-cfp-rankings-texas-tennessee-leap-alabama"
+        },
+        {
           "id": "8c17b7cb0be3",
           "teamId": "texas",
           "headline": "Arch Manning is the Manning Award star of the week",
@@ -149,15 +158,6 @@
           "date": "2026-11-23",
           "source": "Texas Athletics",
           "url": "https://texassports.com/news/2026/11/23/no-5-6-5-footballs-manning-tabbed-manning-award-star-of-the-week"
-        },
-        {
-          "id": "317d01ae9bb5",
-          "teamId": "texas",
-          "headline": "Texas moves up to fifth in the country",
-          "summary": "The new Associated Press poll came out Sunday and Texas is fifth, up from eighth. Three teams ahead of the Longhorns lost on Saturday.",
-          "date": "2026-11-22",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
         },
         {
           "id": "a1b465a45e41",
@@ -241,7 +241,7 @@
           "url": "https://psacsportsdigitalnetwork.com/iupathletics/",
           "note": "ESPN+ comes with YouTube TV at no extra charge, so Thursday's match plays in the ESPN app. Every other IUP volleyball game is free on the PSAC Sports Digital Network app — on game day, tap here to open it and look for the match."
         },
-        "note": "Thursday afternoon in Kansas City, Missouri, against Wayne State College of Nebraska. Half past one our time. IUP is one of the last eight teams left in the country after beating Gannon on Sunday to win its region. This match is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. Every other IUP volleyball game is shown free on the PSAC Sports Digital Network app. On game day, tap the link just below and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. IUP has won twenty-six games and lost six."
+        "note": "Thursday afternoon in Kansas City, Missouri, against Wayne State College of Nebraska. Half past one our time. IUP is one of the last eight teams left in the country after beating Gannon on Sunday to win its region. Wayne State is the number two seed and has won thirty-two games and lost three, and it has not lost a single set in this tournament. This match is on ESPN+, which comes with YouTube TV at no extra charge, so it plays in the ESPN app instead of the channel list. Every other IUP volleyball game is shown free on the PSAC Sports Digital Network app. On game day, tap the link just below and look for the match. You can also search PSAC on a phone, an Apple TV or a Fire TV. IUP has won twenty-six games and lost six."
       },
       "lastGame": {
         "result": "W",

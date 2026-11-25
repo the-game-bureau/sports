@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "02e2f102b264",
+      "teamId": "florida",
+      "headline": "Vernell Brown will miss the Florida State game",
+      "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
+      "date": "2026-11-23",
+      "source": "WRUF",
+      "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+    },
+    {
+      "id": "317d01ae9bb5",
+      "teamId": "texas",
+      "headline": "Texas moves up to fifth in the country",
+      "summary": "The new Associated Press poll came out Sunday and Texas is fifth, up from eighth. Three teams ahead of the Longhorns lost on Saturday.",
+      "date": "2026-11-22",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+    },
     {
       "id": "1ece0782e545",
       "teamId": "saints",
@@ -230,6 +248,15 @@
       "date": "2026-11-18",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-quarterback-tyler-shough-remains-work-in-progress-continues-to-hone-craft"
+    },
+    {
+      "id": "6a8b4ba07d83",
+      "teamId": "tulane",
+      "headline": "Cooper Helmke is up for a national kicking award",
+      "summary": "Tulane kicker Cooper Helmke is one of 20 players still in the running for the Lou Groza Award, which goes to the best kicker in the country. He has made 13 of his 15 field goals this year, and his longest was from 58 yards.",
+      "date": "2026-11-17",
+      "source": "Tulane Athletics",
+      "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
     },
     {
       "id": "598eb6a61b1d",
@@ -4478,33 +4505,6 @@
       "date": "2026-08-28",
       "source": "IUP Athletics",
       "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
-    },
-    {
-      "id": "b74a17b5ff0c",
-      "teamId": "florida",
-      "headline": "Sumrall says Florida will not add former pro players",
-      "summary": "Coach Jon Sumrall said Friday that his roster is full and he is not signing anyone who has played pro football. He said that once a player goes pro, that ship has sailed.",
-      "date": "2026-08-28",
-      "source": "Saturday Down South",
-      "url": "https://www.saturdaydownsouth.com/news/college-football/jon-sumrall-says-florida-not-looking-to-add-any-ex-pros-to-2026-roster/"
-    },
-    {
-      "id": "0358e97f18e2",
-      "teamId": "saints",
-      "headline": "Saints beat Cowboys 27-24 on a last-minute kick",
-      "summary": "Daniel Carlson made a 53-yard field goal with under a minute left Friday night in Arlington. All three kickers competing for the job kicked in the game, which closed out the preseason.",
-      "date": "2026-08-28",
-      "source": "ESPN",
-      "url": "https://www.espn.com/nfl/recap?gameId=401874048"
-    },
-    {
-      "id": "52d22b734e96",
-      "teamId": "yankees",
-      "headline": "Yankees beat Red Sox 1-0",
-      "summary": "Paul Goldschmidt hit a home run in the third inning Friday night for the game's only run. Cody Bellinger threw a Boston runner out at home plate to end the seventh inning.",
-      "date": "2026-08-28",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816702"
     }
   ]
 }

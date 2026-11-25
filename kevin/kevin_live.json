@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "teams": {
     "saints": {
       "record": "3-7",
@@ -86,13 +86,13 @@
       },
       "news": [
         {
-          "id": "02e2f102b264",
+          "id": "1c60b646ad2b",
           "teamId": "florida",
-          "headline": "Vernell Brown will miss the Florida State game",
-          "summary": "Coach Jon Sumrall said Monday night that the receiver's hurt knee will keep him out on Friday. It will be the eighth game Brown has missed this season.",
-          "date": "2026-11-23",
-          "source": "WRUF",
-          "url": "https://www.wruf.com/headlines/2026/11/23/jon-sumrall-vernell-brown-iii-ruled-out-vs-florida-state/"
+          "headline": "Vernell Brown is done for the season",
+          "summary": "Florida said Tuesday that receiver Vernell Brown will have surgery on his right knee and will not play again this year. He hurt the knee against Ole Miss in late September and has missed the last seven games.",
+          "date": "2026-11-24",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/story/_/id/50586755/no-20-florida-shuts-wr-vernell-brown-season-ending-knee-surgery"
         },
         {
           "id": "46d1a9fd00b3",
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "2ba3fc56b75a",
+          "teamId": "lsu",
+          "headline": "The SEC will vote next week on removing LSU",
+          "summary": "The conference has sued LSU over players it tried to put on its rosters after those players had signed professional contracts, and its schools will meet December 3 to vote on whether LSU can stay in the SEC. LSU asked a judge Tuesday to throw the lawsuit out.",
+          "date": "2026-11-25",
+          "source": "Fox 8 (WVUE)",
+          "url": "https://www.fox8live.com/2026/11/25/lsu-files-motion-dismiss-sec-lawsuit/"
+        },
+        {
           "id": "47f0b0592e8f",
           "teamId": "lsu",
           "headline": "Kiffin says LSU keeps coming apart in the fourth quarter",
@@ -158,15 +167,6 @@
           "date": "2026-11-22",
           "source": "Yahoo Sports",
           "url": "https://sports.yahoo.com/articles/lsu-football-falls-us-lbm-185056860.html"
-        },
-        {
-          "id": "09bb50a5b719",
-          "teamId": "lsu",
-          "headline": "Tennessee fined $250,000 for fans throwing things on the field",
-          "summary": "The Southeastern Conference fined Tennessee on Sunday because its fans threw objects onto the field during the fourth quarter against LSU. The game had to be stopped until the field was clear.",
-          "date": "2026-11-22",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/tennessee-penalized-by-sec-for-football-game-interruption-lsu/"
         }
       ]
     },
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "171030328180",
+          "teamId": "tulane",
+          "headline": "Tulane coach Chris Forestier up for a national award",
+          "summary": "Forestier runs Tulane's kicking and punting teams, and he is one of 60 assistant coaches in the country nominated for the Broyles Award. Tulane has blocked four kicks this season, more than any other team in its league.",
+          "date": "2026-11-24",
+          "source": "Crescent City Sports",
+          "url": "https://crescentcitysports.com/tulanes-chris-forestier-nominated-broyles-award/"
+        },
+        {
           "id": "c6d19f90c1c6",
           "teamId": "tulane",
           "headline": "Trace Johnson honored for his four touchdown passes",
@@ -214,15 +223,6 @@
           "date": "2026-11-21",
           "source": "Tulane Athletics",
           "url": "https://tulanegreenwave.com/news/2026/11/21/fourth-quarter-comeback-leads-football-to-28-24-victory-over-north-texas"
-        },
-        {
-          "id": "6a8b4ba07d83",
-          "teamId": "tulane",
-          "headline": "Cooper Helmke is up for a national kicking award",
-          "summary": "Tulane kicker Cooper Helmke is one of 20 players still in the running for the Lou Groza Award, which goes to the best kicker in the country. He has made 13 of his 15 field goals this year, and his longest was from 58 yards.",
-          "date": "2026-11-17",
-          "source": "Tulane Athletics",
-          "url": "https://tulanegreenwave.com/news/2026/11/17/footballs-cooper-helmke-named-a-semifinalist-for-the-2026-lou-groza-award"
         }
       ]
     },
