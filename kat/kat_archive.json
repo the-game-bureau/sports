@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "aa2f1c67035f",
+      "teamId": "lsu",
+      "headline": "LSU drops out of the coaches poll",
+      "summary": "LSU was ranked 23rd last week and is now unranked for the first time this season. The Tigers have won six games and lost five, and all five losses came against ranked teams.",
+      "date": "2026-11-22",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lsu-football-falls-us-lbm-185056860.html"
+    },
+    {
+      "id": "bf3b9c6e0d1c",
+      "teamId": "saints",
+      "headline": "Juwan Johnson hurt his hamstring in Chicago",
+      "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
+      "date": "2026-11-22",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
+    },
+    {
       "id": "02e2f102b264",
       "teamId": "florida",
       "headline": "Vernell Brown will miss the Florida State game",

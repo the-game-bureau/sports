@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "9f8814357324",
+      "teamId": "yankees",
+      "headline": "The Yankees sign left-handed pitcher Brent Suter",
+      "summary": "Suter agreed Monday to a one-year deal worth $4 million, with a club option for another season. He is 37 and had a 3.36 earned run average in 54 games last year for the Angels and the Braves.",
+      "date": "2026-11-23",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/yankees-to-sign-brent-suter.html"
+    },
+    {
+      "id": "7c61cba91ed4",
+      "teamId": "iup",
+      "headline": "IUP plays Wayne State on Thursday in Kansas City",
+      "summary": "The Crimson Hawks beat Gannon on Sunday to win their region, so they are one of the last eight teams playing for the national title. They play Wayne State College of Nebraska at half past one Thursday afternoon, our time, and the match is on ESPN+.",
+      "date": "2026-11-23",
+      "source": "NCAA.com",
+      "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-21/2026-dii-womens-volleyball-championship-bracket-schedule-scores"
+    },
+    {
+      "id": "bf3b9c6e0d1c",
+      "teamId": "saints",
+      "headline": "Juwan Johnson hurt his hamstring in Chicago",
+      "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
+      "date": "2026-11-22",
+      "source": "Sports Illustrated",
+      "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
+    },
+    {
       "id": "02e2f102b264",
       "teamId": "florida",
       "headline": "Vernell Brown will miss the Florida State game",
@@ -4478,33 +4505,6 @@
       "date": "2026-08-29",
       "source": "ESPN",
       "url": "https://www.espn.com/mlb/recap?gameId=401874913"
-    },
-    {
-      "id": "56119d52ac6b",
-      "teamId": "saints",
-      "headline": "Saints let go of 10 players before Sunday's deadline",
-      "summary": "The Saints released 10 players late Saturday, including receivers Bub Means and Ronnie Bell. The team has to be down to 53 players by 5 p.m. Sunday, so more cuts are still coming.",
-      "date": "2026-08-29",
-      "source": "Fox 8 New Orleans",
-      "url": "https://www.fox8live.com/2026/08/30/saints-waive-10-players-ahead-roster-cutdown-deadline/"
-    },
-    {
-      "id": "baba55cdd36a",
-      "teamId": "yankees",
-      "headline": "Yankees beat Red Sox 9-2 in the nightcap",
-      "summary": "New York had 13 hits Saturday night and every one of them was a single. Max Fried pitched into the fourth inning in his first game back from the injured list.",
-      "date": "2026-08-29",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816717"
-    },
-    {
-      "id": "6f0a0aa31bd8",
-      "teamId": "iup",
-      "headline": "IUP wins a five-set thriller over Northwood",
-      "summary": "The Crimson Hawks won 25-15, 18-25, 22-25, 25-23, 19-17 on Friday in Detroit for their first win of the season. Their 73 kills were the most the team has had under coach Avery Moore.",
-      "date": "2026-08-28",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/28/womens-volleyball-volleyball-splits-day-one-of-warrior-invitational.aspx"
     }
   ]
 }

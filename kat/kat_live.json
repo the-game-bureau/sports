@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "0cff5d522113",
+          "teamId": "saints",
+          "headline": "Juwan Johnson did not practice on Wednesday",
+          "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
+          "date": "2026-11-25",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
+        },
+        {
           "id": "f38d142eee56",
           "teamId": "saints",
           "headline": "Jahri Evans moves closer to the Hall of Fame",
@@ -46,15 +55,6 @@
           "date": "2026-11-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
-        },
-        {
-          "id": "bf3b9c6e0d1c",
-          "teamId": "saints",
-          "headline": "Juwan Johnson hurt his hamstring in Chicago",
-          "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
-          "date": "2026-11-22",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
         }
       ]
     },
@@ -142,6 +142,15 @@
       },
       "news": [
         {
+          "id": "342ad19201ef",
+          "teamId": "lsu",
+          "headline": "A judge turns down the SEC in its fight with LSU",
+          "summary": "A federal judge said no to the league's request for an emergency order against LSU. The SEC's school presidents still plan to meet on December 3 and vote on whether to put LSU out of the conference.",
+          "date": "2026-11-25",
+          "source": "Sports Illustrated",
+          "url": "https://www.si.com/college/lsu/football/the-sec-s-path-to-remove-lsu-just-got-trickier"
+        },
+        {
           "id": "2ba3fc56b75a",
           "teamId": "lsu",
           "headline": "The SEC will vote next week on removing LSU",
@@ -158,15 +167,6 @@
           "date": "2026-11-23",
           "source": "Louisiana Radio Network",
           "url": "https://louisianaradionetwork.com/2026/11/23/49002/"
-        },
-        {
-          "id": "aa2f1c67035f",
-          "teamId": "lsu",
-          "headline": "LSU drops out of the coaches poll",
-          "summary": "LSU was ranked 23rd last week and is now unranked for the first time this season. The Tigers have won six games and lost five, and all five losses came against ranked teams.",
-          "date": "2026-11-22",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/lsu-football-falls-us-lbm-185056860.html"
         }
       ]
     },

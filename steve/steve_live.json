@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "0cff5d522113",
+          "teamId": "saints",
+          "headline": "Juwan Johnson did not practice on Wednesday",
+          "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
+          "date": "2026-11-25",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
+        },
+        {
           "id": "f38d142eee56",
           "teamId": "saints",
           "headline": "Jahri Evans moves closer to the Hall of Fame",
@@ -214,15 +223,6 @@
           "date": "2026-11-23",
           "source": "New Orleans Saints",
           "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
-        },
-        {
-          "id": "bf3b9c6e0d1c",
-          "teamId": "saints",
-          "headline": "Juwan Johnson hurt his hamstring in Chicago",
-          "summary": "Coach Kellen Moore said the tight end hurt his hamstring Sunday and did not finish the game. Moore said everyone else came out of the game all right.",
-          "date": "2026-11-22",
-          "source": "Sports Illustrated",
-          "url": "https://www.si.com/nfl/saints/onsi/kellen-moore-addresses-saints-offensive-struggles-after-bears-loss-01m82r83b541"
         }
       ]
     },
@@ -252,13 +252,13 @@
       },
       "news": [
         {
-          "id": "7c61cba91ed4",
+          "id": "1a52cd196dfb",
           "teamId": "iup",
-          "headline": "IUP plays Wayne State on Thursday in Kansas City",
-          "summary": "The Crimson Hawks beat Gannon on Sunday to win their region, so they are one of the last eight teams playing for the national title. They play Wayne State College of Nebraska at half past one Thursday afternoon, our time, and the match is on ESPN+.",
-          "date": "2026-11-23",
-          "source": "NCAA.com",
-          "url": "https://www.ncaa.com/news/volleyball-women/article/2026-11-21/2026-dii-womens-volleyball-championship-bracket-schedule-scores"
+          "headline": "IUP's coach is named the best in the region",
+          "summary": "Avery Moore was picked as the top coach in the Atlantic Region by the college volleyball coaches. Three of her players, Delaney Concannon, Jessica Neiman and Charlotte Potvin, were named to the all-region first team.",
+          "date": "2026-11-25",
+          "source": "IUP Athletics",
+          "url": "https://iupathletics.com/news/2026/11/25/womens-volleyball-moore-named-avca-atlantic-region-coach-of-the-year-three-crimson-hawks-earn-first-team-honors.aspx"
         },
         {
           "id": "4c09b443c3ee",
@@ -301,6 +301,15 @@
       },
       "news": [
         {
+          "id": "f6e18b0f6b13",
+          "teamId": "yankees",
+          "headline": "The Yankees sign pitcher Jonathan Loaisiga",
+          "summary": "The deal is for two years and is now official. Loaisiga pitched for the Yankees for seven years, spent last season in Arizona, and now comes back to work out of the bullpen.",
+          "date": "2026-11-25",
+          "source": "NBC Sports",
+          "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-25/yankees-officially-sign-jonathan-loaisiga"
+        },
+        {
           "id": "6c23d809094f",
           "teamId": "yankees",
           "headline": "The Yankees bring back pitcher Tim Hill",
@@ -308,15 +317,6 @@
           "date": "2026-11-24",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/11/yankees-re-sign-tim-hill-to-one-year-deal.html"
-        },
-        {
-          "id": "9f8814357324",
-          "teamId": "yankees",
-          "headline": "The Yankees sign left-handed pitcher Brent Suter",
-          "summary": "Suter agreed Monday to a one-year deal worth $4 million, with a club option for another season. He is 37 and had a 3.36 earned run average in 54 games last year for the Angels and the Braves.",
-          "date": "2026-11-23",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/11/yankees-to-sign-brent-suter.html"
         },
         {
           "id": "c7d7fa88cf58",
