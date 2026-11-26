@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "teams": {
     "saints": {
       "record": "3-7",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "11162d790539",
+          "teamId": "saints",
+          "headline": "Erik McCoy and Taliese Fuaga are back at practice",
+          "summary": "The center and the right tackle both practiced Wednesday on light duty. They were hurt in the win over Cleveland on November 8 and have missed the last two games, and coach Kellen Moore said the team will see how the week goes before deciding whether they play Sunday.",
+          "date": "2026-11-25",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
+        },
+        {
           "id": "0cff5d522113",
           "teamId": "saints",
           "headline": "Juwan Johnson did not practice on Wednesday",
@@ -46,15 +55,6 @@
           "date": "2026-11-24",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
-        },
-        {
-          "id": "360b5314cdc4",
-          "teamId": "saints",
-          "headline": "Coach Moore says the close losses keep piling up",
-          "summary": "Five of the seven Saints losses this year have been by a touchdown or less, including Sunday's 21-13 loss at Chicago. Coach Kellen Moore said Monday that his team keeps losing games that come down to a few plays.",
-          "date": "2026-11-23",
-          "source": "New Orleans Saints",
-          "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
         }
       ]
     },

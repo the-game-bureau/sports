@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "360b5314cdc4",
+      "teamId": "saints",
+      "headline": "Coach Moore says the close losses keep piling up",
+      "summary": "Five of the seven Saints losses this year have been by a touchdown or less, including Sunday's 21-13 loss at Chicago. Coach Kellen Moore said Monday that his team keeps losing games that come down to a few plays.",
+      "date": "2026-11-23",
+      "source": "New Orleans Saints",
+      "url": "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins"
+    },
     {
       "id": "aa2f1c67035f",
       "teamId": "lsu",
