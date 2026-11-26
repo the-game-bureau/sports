@@ -7,6 +7,33 @@
   },
   "items": [
     {
+      "id": "0cff5d522113",
+      "teamId": "saints",
+      "headline": "Juwan Johnson did not practice on Wednesday",
+      "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
+      "date": "2026-11-25",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
+    },
+    {
+      "id": "f38d142eee56",
+      "teamId": "saints",
+      "headline": "Jahri Evans moves closer to the Hall of Fame",
+      "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
+      "date": "2026-11-24",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
+    },
+    {
+      "id": "80696463ac52",
+      "teamId": "brother-martin",
+      "headline": "Brother Martin runs past Bonnabel 56-9",
+      "summary": "The Crusaders won Friday night at Tad Gormley Stadium and are into the state quarterfinals. They have now won eight games and lost three.",
+      "date": "2026-11-20",
+      "source": "WGNO",
+      "url": "https://wgno.com/sports/fnf-playoffs-round-2-brother-martin-blasts-bonnabel-56-9/"
+    },
+    {
       "id": "360b5314cdc4",
       "teamId": "saints",
       "headline": "Coach Moore says the close losses keep piling up",
