@@ -186,7 +186,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Cincinnati has the best passing offense in the league."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Tight end Juwan Johnson will not play. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -197,6 +197,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "06e785ef7ad0",
+          "teamId": "saints",
+          "headline": "Juwan Johnson is out for Sunday's game",
+          "summary": "The Saints ruled the tight end out on Friday. He has a hurt hamstring and a hurt wrist and has not practiced all week. Center Erik McCoy is cleared to play.",
+          "date": "2026-11-27",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-friday"
+        },
         {
           "id": "cc904aa0a419",
           "teamId": "saints",
@@ -214,15 +223,6 @@
           "date": "2026-11-25",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
-        },
-        {
-          "id": "f38d142eee56",
-          "teamId": "saints",
-          "headline": "Jahri Evans moves closer to the Hall of Fame",
-          "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
-          "date": "2026-11-24",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
         }
       ]
     },
@@ -301,6 +301,15 @@
       },
       "news": [
         {
+          "id": "8d29cc817759",
+          "teamId": "yankees",
+          "headline": "Jazz Chisholm leaves the Yankees for Toronto",
+          "summary": "The second baseman agreed on Friday to sign with the Toronto Blue Jays, a team in the Yankees' own division. He batted .231 for New York this season and stole 41 bases, the most of his career.",
+          "date": "2026-11-27",
+          "source": "MLB Trade Rumors",
+          "url": "https://www.mlbtraderumors.com/2026/11/blue-jays-nearing-deal-with-jazz-chisholm-jr.html"
+        },
+        {
           "id": "7d638f97e06e",
           "teamId": "yankees",
           "headline": "Baseball could shut down on December 1",
@@ -317,15 +326,6 @@
           "date": "2026-11-25",
           "source": "MLB Trade Rumors",
           "url": "https://www.mlbtraderumors.com/2026/11/yankees-hire-brandon-hyde-bench-coach-former-orioles-manager.html"
-        },
-        {
-          "id": "f6e18b0f6b13",
-          "teamId": "yankees",
-          "headline": "The Yankees sign pitcher Jonathan Loaisiga",
-          "summary": "The deal is for two years and is now official. Loaisiga pitched for the Yankees for seven years, spent last season in Arizona, and now comes back to work out of the bullpen.",
-          "date": "2026-11-25",
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-25/yankees-officially-sign-jonathan-loaisiga"
         }
       ]
     },

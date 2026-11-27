@@ -7,6 +7,24 @@
   },
   "items": [
     {
+      "id": "f38d142eee56",
+      "teamId": "saints",
+      "headline": "Jahri Evans moves closer to the Hall of Fame",
+      "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
+      "date": "2026-11-24",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
+    },
+    {
+      "id": "f6e18b0f6b13",
+      "teamId": "yankees",
+      "headline": "The Yankees sign pitcher Jonathan Loaisiga",
+      "summary": "The deal is for two years and is now official. Loaisiga pitched for the Yankees for seven years, spent last season in Arizona, and now comes back to work out of the bullpen.",
+      "date": "2026-11-25",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-25/yankees-officially-sign-jonathan-loaisiga"
+    },
+    {
       "id": "0cff5d522113",
       "teamId": "saints",
       "headline": "Juwan Johnson did not practice on Wednesday",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-30",
       "source": "NBC Sports",
       "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
-    },
-    {
-      "id": "52836b2d9774",
-      "teamId": "yankees",
-      "headline": "Lombard's knee scan comes back clean",
-      "summary": "The scan on George Lombard Jr.'s right knee showed no damage, only some soreness and swelling. Manager Aaron Boone said the rookie shortstop is day to day and should not need the injured list.",
-      "date": "2026-08-30",
-      "source": "amNewYork",
-      "url": "https://www.amny.com/sports/george-lombard-jr-injury-yankees-8-30-26/"
-    },
-    {
-      "id": "3af8a107f371",
-      "teamId": "yankees",
-      "headline": "Yankees bring Luis Gil back to pitch in relief",
-      "summary": "New York called the right-hander up from Triple-A on Sunday and sent Yerry de los Santos down. Gil has been out since April with a sore shoulder and will now work out of the bullpen.",
-      "date": "2026-08-30",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/yankees-recall-luis-gil-option-170253911.html"
     }
   ]
 }

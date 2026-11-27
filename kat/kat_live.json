@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Cincinnati has the best passing offense in the league."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Tight end Juwan Johnson will not play. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "06e785ef7ad0",
+          "teamId": "saints",
+          "headline": "Juwan Johnson is out for Sunday's game",
+          "summary": "The Saints ruled the tight end out on Friday. He has a hurt hamstring and a hurt wrist and has not practiced all week. Center Erik McCoy is cleared to play.",
+          "date": "2026-11-27",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-friday"
+        },
         {
           "id": "cc904aa0a419",
           "teamId": "saints",
@@ -46,15 +55,6 @@
           "date": "2026-11-25",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
-        },
-        {
-          "id": "f38d142eee56",
-          "teamId": "saints",
-          "headline": "Jahri Evans moves closer to the Hall of Fame",
-          "summary": "Evans played right guard for the Saints from 2006 to 2016 and went to the Pro Bowl six times. On Tuesday he was one of 52 players still in the running for the Hall of Fame, and that list gets cut to 25 in about two weeks.",
-          "date": "2026-11-24",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/jahri-evans-pro-football-hall-of-fame-fourth-bid-former-new-orleans-saints-guard"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning road game in Fayetteville, Arkansas. A quarter to twelve our time, on the SEC Network. It is the last game of the regular season. LSU has won six games and lost five after losing at Tennessee, and the Tigers have lost three in a row. Arkansas has won four games and lost seven."
+        "note": "Saturday morning road game in Fayetteville, Arkansas. A quarter to twelve our time, on the SEC Network. It is the last game of the regular season, and the winner keeps the Golden Boot, the trophy these two teams play for every year. LSU has won six games and lost five after losing at Tennessee, and the Tigers have lost three in a row. Arkansas has won four games and lost seven."
       },
       "lastGame": {
         "result": "L",
