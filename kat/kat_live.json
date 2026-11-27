@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in kat.json and are never touched.",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "teams": {
     "saints": {
       "record": "3-7",
@@ -30,6 +30,15 @@
       },
       "news": [
         {
+          "id": "cc904aa0a419",
+          "teamId": "saints",
+          "headline": "Erik McCoy practices full, Juwan Johnson still out",
+          "summary": "The Saints center took a full practice on Thursday, his first since he hurt his biceps against Cleveland on November 8. Tight end Juwan Johnson missed practice again with a hurt hamstring and a hurt wrist, three days before the game at Cincinnati.",
+          "date": "2026-11-26",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-thursday"
+        },
+        {
           "id": "11162d790539",
           "teamId": "saints",
           "headline": "Erik McCoy and Taliese Fuaga are back at practice",
@@ -37,15 +46,6 @@
           "date": "2026-11-25",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
-        },
-        {
-          "id": "0cff5d522113",
-          "teamId": "saints",
-          "headline": "Juwan Johnson did not practice on Wednesday",
-          "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
-          "date": "2026-11-25",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
         },
         {
           "id": "f38d142eee56",

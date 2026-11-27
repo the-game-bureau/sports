@@ -2,10 +2,19 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "0cff5d522113",
+      "teamId": "saints",
+      "headline": "Juwan Johnson did not practice on Wednesday",
+      "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
+      "date": "2026-11-25",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
+    },
     {
       "id": "360b5314cdc4",
       "teamId": "saints",

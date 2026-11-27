@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "teams": {
     "tulane": {
       "record": "6-5",
@@ -198,6 +198,15 @@
       },
       "news": [
         {
+          "id": "cc904aa0a419",
+          "teamId": "saints",
+          "headline": "Erik McCoy practices full, Juwan Johnson still out",
+          "summary": "The Saints center took a full practice on Thursday, his first since he hurt his biceps against Cleveland on November 8. Tight end Juwan Johnson missed practice again with a hurt hamstring and a hurt wrist, three days before the game at Cincinnati.",
+          "date": "2026-11-26",
+          "source": "NewOrleansSaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-thursday"
+        },
+        {
           "id": "11162d790539",
           "teamId": "saints",
           "headline": "Erik McCoy and Taliese Fuaga are back at practice",
@@ -205,15 +214,6 @@
           "date": "2026-11-25",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
-        },
-        {
-          "id": "0cff5d522113",
-          "teamId": "saints",
-          "headline": "Juwan Johnson did not practice on Wednesday",
-          "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
-          "date": "2026-11-25",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
         },
         {
           "id": "f38d142eee56",
@@ -301,6 +301,15 @@
       },
       "news": [
         {
+          "id": "7d638f97e06e",
+          "teamId": "yankees",
+          "headline": "Baseball could shut down on December 1",
+          "summary": "The contract between the team owners and the players ends Tuesday night, and on Wednesday the owners asked a court to rule that shutting the players out would be legal. While a shutdown lasts no team can sign or trade anyone, so the Yankees would have to stop making moves.",
+          "date": "2026-11-25",
+          "source": "Associated Press",
+          "url": "https://www.tsn.ca/mlb/article/major-league-baseball-sues-players-union-asking-court-to-declare-lockout-is-legal/"
+        },
+        {
           "id": "e6b95016903a",
           "teamId": "yankees",
           "headline": "The Yankees hire Brandon Hyde as bench coach",
@@ -317,15 +326,6 @@
           "date": "2026-11-25",
           "source": "NBC Sports",
           "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-25/yankees-officially-sign-jonathan-loaisiga"
-        },
-        {
-          "id": "6c23d809094f",
-          "teamId": "yankees",
-          "headline": "The Yankees bring back pitcher Tim Hill",
-          "summary": "The Yankees announced Tuesday that Hill is signed for next season for $2.25 million. The left-hander turns 37 in the spring and had a 4.60 earned run average over 58 and two-thirds innings for New York last season.",
-          "date": "2026-11-24",
-          "source": "MLB Trade Rumors",
-          "url": "https://www.mlbtraderumors.com/2026/11/yankees-re-sign-tim-hill-to-one-year-deal.html"
         }
       ]
     },

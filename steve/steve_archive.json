@@ -2,10 +2,28 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "0cff5d522113",
+      "teamId": "saints",
+      "headline": "Juwan Johnson did not practice on Wednesday",
+      "summary": "The tight end sat out practice with a hurt hamstring and a hurt wrist, three days before the Saints play at Cincinnati. Six other Saints practiced, but on light duty, including center Erik McCoy and linebacker Pete Werner.",
+      "date": "2026-11-25",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-wednesday"
+    },
+    {
+      "id": "6c23d809094f",
+      "teamId": "yankees",
+      "headline": "The Yankees bring back pitcher Tim Hill",
+      "summary": "The Yankees announced Tuesday that Hill is signed for next season for $2.25 million. The left-hander turns 37 in the spring and had a 4.60 earned run average over 58 and two-thirds innings for New York last season.",
+      "date": "2026-11-24",
+      "source": "MLB Trade Rumors",
+      "url": "https://www.mlbtraderumors.com/2026/11/yankees-re-sign-tim-hill-to-one-year-deal.html"
+    },
     {
       "id": "360b5314cdc4",
       "teamId": "saints",
@@ -4487,24 +4505,6 @@
       "date": "2026-08-30",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/yankees-recall-luis-gil-option-170253911.html"
-    },
-    {
-      "id": "294bb5714c6c",
-      "teamId": "iup",
-      "headline": "IUP beats Wayne State to close the tournament",
-      "summary": "The Crimson Hawks won 24-26, 25-22, 25-22, 25-20 on Saturday in Detroit. Sammy Stephens had a career-best 14 kills and Charlotte Potvin served five aces.",
-      "date": "2026-08-29",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/news/2026/8/29/womens-volleyball-volleyball-splits-final-day-of-warrior-invitational.aspx"
-    },
-    {
-      "id": "dca88cff0a0d",
-      "teamId": "iup",
-      "headline": "Quincy beats IUP in four sets",
-      "summary": "The Crimson Hawks won the first set 25-17 on Saturday morning in Detroit and then lost the next three. Delaney Concannon led IUP with 13 kills and Brooke Kessler had 12 digs.",
-      "date": "2026-08-29",
-      "source": "IUP Athletics",
-      "url": "https://iupathletics.com/sports/womens-volleyball/stats/2026/quincy-university/boxscore/15317"
     }
   ]
 }
