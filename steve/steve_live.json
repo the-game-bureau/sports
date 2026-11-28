@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links, photos and hand-entered events live in steve.json and are never touched.",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "teams": {
     "tulane": {
       "record": "6-5",
@@ -59,32 +59,38 @@
       ]
     },
     "florida": {
-      "record": "7-4",
+      "record": "8-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Florida State Seminoles",
-        "date": "2026-11-27",
-        "utc": "2026-11-27T20:30Z",
-        "time": "2:30 PM",
-        "venue": "Doak Campbell Stadium",
-        "city": "Tallahassee, FL",
-        "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV"
-        },
-        "note": "Friday afternoon road game in Tallahassee against Florida State. Half past two our time, on Channel 26. It is the last game of the regular season and the oldest rivalry Florida has. Florida has won seven games and lost four after beating Vanderbilt on Saturday. Florida State has won five games and lost six."
+        "label": "Bowl game — not picked yet",
+        "note": "Florida finished the season with eight wins and four losses, so the Gators are going to a bowl game. Which bowl it is, and who they play, is announced on Sunday, December 6."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 34,
-        "opponentScore": 27,
-        "opponent": "Vanderbilt Commodores",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z"
+        "teamScore": 26,
+        "opponentScore": 10,
+        "opponent": "Florida State Seminoles",
+        "date": "2026-11-27",
+        "utc": "2026-11-27T20:30Z"
       },
       "news": [
+        {
+          "id": "347cfdb4c671",
+          "teamId": "florida",
+          "headline": "Florida beats Florida State 26-10",
+          "summary": "The Gators won Friday in Tallahassee to finish the regular season with eight wins and four losses. It is three wins in a row, and the third year in a row Florida has beaten Florida State.",
+          "date": "2026-11-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap?gameId=401856759"
+        },
+        {
+          "id": "84ea5c142ae2",
+          "teamId": "florida",
+          "headline": "Jadan Baugh runs for 1,000 yards again",
+          "summary": "Baugh ran for 77 yards and a touchdown against Florida State and finished the season with 1,057. He is the first Florida running back ever to run for 1,000 yards two years in a row.",
+          "date": "2026-11-27",
+          "source": "WPBF",
+          "url": "https://www.wpbf.com/article/jadan-baugh-helps-florida-beat-florida-state-26-10/74553104"
+        },
         {
           "id": "1c60b646ad2b",
           "teamId": "florida",
@@ -93,54 +99,45 @@
           "date": "2026-11-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50586755/no-20-florida-shuts-wr-vernell-brown-season-ending-knee-surgery"
-        },
-        {
-          "id": "46d1a9fd00b3",
-          "teamId": "florida",
-          "headline": "Myles Graham is a defensive player of the week",
-          "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
-          "date": "2026-11-23",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
-        },
-        {
-          "id": "210e255d55e2",
-          "teamId": "florida",
-          "headline": "Florida moves up to 20th in the country",
-          "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
-          "date": "2026-11-22",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
         }
       ]
     },
     "texas": {
-      "record": "9-2",
+      "record": "10-2",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Texas A&M Aggies",
-        "date": "2026-11-27",
-        "utc": "2026-11-28T00:30Z",
-        "time": "6:30 PM",
-        "venue": "Kyle Field",
-        "city": "College Station, TX",
+        "homeAway": "neutral",
+        "opponent": "Georgia Bulldogs",
+        "date": "2026-12-05",
+        "utc": "2026-12-05T21:00Z",
+        "time": "3:00 PM",
+        "venue": "Mercedes-Benz Stadium",
+        "city": "Atlanta, GA",
         "tv": {
           "name": "ABC (WGNO 26)",
           "logo": "",
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Friday night road game at Texas A&M, the day after Thanksgiving. Half past six our time, on Channel 26. It is the last game of the regular season. Texas has won nine games and lost two after beating Arkansas 45-3 on Saturday. Texas A&M has won four games and lost seven."
+        "note": "The Southeastern Conference championship game, Saturday afternoon in Atlanta. Three o'clock our time, on Channel 26. Texas earned its place by beating Texas A&M 16-6 on Friday night. Georgia is the top team in the conference."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 45,
-        "opponentScore": 3,
-        "opponent": "Arkansas Razorbacks",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T20:30Z"
+        "teamScore": 16,
+        "opponentScore": 6,
+        "opponent": "Texas A&M Aggies",
+        "date": "2026-11-27",
+        "utc": "2026-11-28T00:30Z"
       },
       "news": [
+        {
+          "id": "fe334f3400a2",
+          "teamId": "texas",
+          "headline": "Texas wins at Texas A&M and plays for the SEC title",
+          "summary": "Texas beat Texas A&M 16-6 on Friday night in College Station. The win sends the Longhorns to the Southeastern Conference championship game against Georgia next Saturday.",
+          "date": "2026-11-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap?gameId=401856756"
+        },
         {
           "id": "d34d98f65d90",
           "teamId": "texas",
@@ -158,15 +155,6 @@
           "date": "2026-11-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50588082/indiana-top-12-cfp-rankings-texas-tennessee-leap-alabama"
-        },
-        {
-          "id": "8c17b7cb0be3",
-          "teamId": "texas",
-          "headline": "Arch Manning is the Manning Award star of the week",
-          "summary": "The award named for his family picked him Monday for his day against Arkansas. He completed 15 of 17 passes for 230 yards, threw two touchdowns and ran for another one.",
-          "date": "2026-11-23",
-          "source": "Texas Athletics",
-          "url": "https://texassports.com/news/2026/11/23/no-5-6-5-footballs-manning-tabbed-manning-award-star-of-the-week"
         }
       ]
     },
@@ -186,7 +174,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Tight end Juwan Johnson will not play. Cincinnati has the best passing offense in the league."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13. Tight end Juwan Johnson will not play, and three more players may not either. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -197,6 +185,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "844d596c70a5",
+          "teamId": "saints",
+          "headline": "Three more Saints may miss Sunday's game",
+          "summary": "Tight end Noah Fant, Taliese Fuaga and Asim Richards are all listed as a question mark for the game at Cincinnati. Juwan Johnson is already ruled out, so the Saints could be thin at tight end.",
+          "date": "2026-11-27",
+          "source": "Canal Street Chronicles",
+          "url": "https://www.canalstreetchronicles.com/new-orleans-saints-injuries/118633/fridays-final-saints-vs-bengals-injury-report-3-players-questionable-one-ruled-out"
+        },
         {
           "id": "06e785ef7ad0",
           "teamId": "saints",
@@ -214,15 +211,6 @@
           "date": "2026-11-26",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-thursday"
-        },
-        {
-          "id": "11162d790539",
-          "teamId": "saints",
-          "headline": "Erik McCoy and Taliese Fuaga are back at practice",
-          "summary": "The center and the right tackle both practiced Wednesday on light duty. They were hurt in the win over Cleveland on November 8 and have missed the last two games, and coach Kellen Moore said the team will see how the week goes before deciding whether they play Sunday.",
-          "date": "2026-11-25",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
         }
       ]
     },

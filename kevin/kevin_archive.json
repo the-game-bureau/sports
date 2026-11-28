@@ -2,10 +2,64 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "The Game Bureau",
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "f192884abe40",
+      "teamId": "brother-martin",
+      "headline": "St. Augustine beat Holy Cross 47-7 to reach Friday",
+      "summary": "Brother Martin's opponent on Friday has won eleven games and lost none. St. Augustine won its last game 47-7 at the same stadium the two schools will play in.",
+      "date": "2026-11-21",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+    },
+    {
+      "id": "01f491669987",
+      "teamId": "brother-martin",
+      "headline": "St. Augustine is next, Friday at Tad Gormley",
+      "summary": "Brother Martin plays St. Augustine in the quarterfinals at seven o'clock Friday night, on the same field in City Park. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October.",
+      "date": "2026-11-21",
+      "source": "Crescent City Sports",
+      "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+    },
+    {
+      "id": "47f0b0592e8f",
+      "teamId": "lsu",
+      "headline": "Kiffin says LSU keeps coming apart in the fourth quarter",
+      "summary": "LSU has not scored a single point in the fourth quarter during its three straight losses. The coach said Monday that the problem starts with him, and that his team is thin because the same players stay on the field almost every snap.",
+      "date": "2026-11-23",
+      "source": "Louisiana Radio Network",
+      "url": "https://louisianaradionetwork.com/2026/11/23/49002/"
+    },
+    {
+      "id": "210e255d55e2",
+      "teamId": "florida",
+      "headline": "Florida moves up to 20th in the country",
+      "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
+      "date": "2026-11-22",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+    },
+    {
+      "id": "46d1a9fd00b3",
+      "teamId": "florida",
+      "headline": "Myles Graham is a defensive player of the week",
+      "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
+      "date": "2026-11-23",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
+    },
+    {
+      "id": "11162d790539",
+      "teamId": "saints",
+      "headline": "Erik McCoy and Taliese Fuaga are back at practice",
+      "summary": "The center and the right tackle both practiced Wednesday on light duty. They were hurt in the win over Cleveland on November 8 and have missed the last two games, and coach Kellen Moore said the team will see how the week goes before deciding whether they play Sunday.",
+      "date": "2026-11-25",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
+    },
     {
       "id": "f38d142eee56",
       "teamId": "saints",

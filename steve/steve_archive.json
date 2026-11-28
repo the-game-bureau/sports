@@ -2,10 +2,46 @@
   "meta": {
     "title": "Archived Posts",
     "byline": "by Kevin Kolb",
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "note": "Posts that have rolled off the front of the report. Newest first."
   },
   "items": [
+    {
+      "id": "11162d790539",
+      "teamId": "saints",
+      "headline": "Erik McCoy and Taliese Fuaga are back at practice",
+      "summary": "The center and the right tackle both practiced Wednesday on light duty. They were hurt in the win over Cleveland on November 8 and have missed the last two games, and coach Kellen Moore said the team will see how the week goes before deciding whether they play Sunday.",
+      "date": "2026-11-25",
+      "source": "NewOrleansSaints.com",
+      "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
+    },
+    {
+      "id": "8c17b7cb0be3",
+      "teamId": "texas",
+      "headline": "Arch Manning is the Manning Award star of the week",
+      "summary": "The award named for his family picked him Monday for his day against Arkansas. He completed 15 of 17 passes for 230 yards, threw two touchdowns and ran for another one.",
+      "date": "2026-11-23",
+      "source": "Texas Athletics",
+      "url": "https://texassports.com/news/2026/11/23/no-5-6-5-footballs-manning-tabbed-manning-award-star-of-the-week"
+    },
+    {
+      "id": "210e255d55e2",
+      "teamId": "florida",
+      "headline": "Florida moves up to 20th in the country",
+      "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
+      "date": "2026-11-22",
+      "source": "CBS Sports",
+      "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
+    },
+    {
+      "id": "46d1a9fd00b3",
+      "teamId": "florida",
+      "headline": "Myles Graham is a defensive player of the week",
+      "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
+      "date": "2026-11-23",
+      "source": "Florida Gators",
+      "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
+    },
     {
       "id": "f38d142eee56",
       "teamId": "saints",
@@ -4469,42 +4505,6 @@
       "date": "2026-08-30",
       "source": "New Orleans Saints",
       "url": "https://www.neworleanssaints.com/news/new-orleans-saints-53-man-roster-cut-transactions-august-30-2026-nfl-season"
-    },
-    {
-      "id": "b38317b854a2",
-      "teamId": "saints",
-      "headline": "Devin Neal is out for the season with a hamstring injury",
-      "summary": "The Saints put the running back on injured reserve Sunday, so he will miss the whole season. He hurt the hamstring in August and made it worse in the preseason game at the Rams.",
-      "date": "2026-08-30",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/saints-lose-promising-running-back-233939970.html"
-    },
-    {
-      "id": "5586c6045443",
-      "teamId": "yankees",
-      "headline": "Yankees beat Red Sox 16-1 to take the season series",
-      "summary": "Austin Wells hit two home runs in a nine-run eighth inning Sunday at Yankee Stadium. The win gave New York the season series over Boston and a four-game lead for the top wild card spot.",
-      "date": "2026-08-30",
-      "source": "ESPN",
-      "url": "https://www.espn.com/mlb/recap?gameId=401816732"
-    },
-    {
-      "id": "96714452ca06",
-      "teamId": "saints",
-      "headline": "Saints let go of kicker Charlie Smyth",
-      "summary": "The Saints waived Smyth on Sunday as they cut the roster down to 53 players. Daniel Carlson, who made the winning kick in the last preseason game, has the job now.",
-      "date": "2026-08-30",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/news/kicker-smyth-waived-orleans-saints-193159274.html"
-    },
-    {
-      "id": "57431be724bc",
-      "teamId": "saints",
-      "headline": "Saints release running back Zamir White",
-      "summary": "New Orleans traded for White earlier this month and let him go Sunday before the roster deadline. He ran the ball four times for 23 yards and a touchdown in his one preseason game.",
-      "date": "2026-08-30",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-release-zamir-white"
     }
   ]
 }

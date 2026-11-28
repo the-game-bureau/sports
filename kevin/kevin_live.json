@@ -1,6 +1,6 @@
 {
   "note": "Written by Personal Sports Page Bot. Everything here is replaced on every run. Team identity, colors, links and leagues live in kevin.json and are never touched.",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "teams": {
     "saints": {
       "record": "3-7",
@@ -18,7 +18,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13 on Sunday. Tight end Juwan Johnson will not play. Cincinnati has the best passing offense in the league."
+        "note": "Sunday road game at Cincinnati. Noon our time, on Channel 4. The Saints have won three games and lost seven after losing at Chicago 21-13. Tight end Juwan Johnson will not play, and three more players may not either. Cincinnati has the best passing offense in the league."
       },
       "lastGame": {
         "result": "L",
@@ -29,6 +29,15 @@
         "utc": "2026-11-22T18:00Z"
       },
       "news": [
+        {
+          "id": "844d596c70a5",
+          "teamId": "saints",
+          "headline": "Three more Saints may miss Sunday's game",
+          "summary": "Tight end Noah Fant, Taliese Fuaga and Asim Richards are all listed as a question mark for the game at Cincinnati. Juwan Johnson is already ruled out, so the Saints could be thin at tight end.",
+          "date": "2026-11-27",
+          "source": "Canal Street Chronicles",
+          "url": "https://www.canalstreetchronicles.com/new-orleans-saints-injuries/118633/fridays-final-saints-vs-bengals-injury-report-3-players-questionable-one-ruled-out"
+        },
         {
           "id": "06e785ef7ad0",
           "teamId": "saints",
@@ -46,45 +55,42 @@
           "date": "2026-11-26",
           "source": "NewOrleansSaints.com",
           "url": "https://www.neworleanssaints.com/news/injury-report-cincinnati-bengals-vs-new-orleans-saints-2026-nfl-week-12-thursday"
-        },
-        {
-          "id": "11162d790539",
-          "teamId": "saints",
-          "headline": "Erik McCoy and Taliese Fuaga are back at practice",
-          "summary": "The center and the right tackle both practiced Wednesday on light duty. They were hurt in the win over Cleveland on November 8 and have missed the last two games, and coach Kellen Moore said the team will see how the week goes before deciding whether they play Sunday.",
-          "date": "2026-11-25",
-          "source": "NewOrleansSaints.com",
-          "url": "https://www.neworleanssaints.com/news/new-orleans-saints-center-erik-mccoy-right-tackle-taliese-fuaga-return-to-practice-on-limited-basis-after-missing-last-two-games"
         }
       ]
     },
     "florida": {
-      "record": "7-4",
+      "record": "8-4",
       "nextGame": {
-        "homeAway": "away",
-        "opponent": "Florida State Seminoles",
-        "date": "2026-11-27",
-        "utc": "2026-11-27T20:30Z",
-        "time": "2:30 PM",
-        "venue": "Doak Campbell Stadium",
-        "city": "Tallahassee, FL",
-        "tv": {
-          "name": "ABC (WGNO 26)",
-          "logo": "",
-          "url": "",
-          "note": "On YouTube TV"
-        },
-        "note": "Friday afternoon road game in Tallahassee against Florida State. Half past two our time, on Channel 26. It is the last game of the regular season and the oldest rivalry Florida has. Florida has won seven games and lost four after beating Vanderbilt on Saturday. Florida State has won five games and lost six."
+        "label": "Bowl game — not picked yet",
+        "note": "Florida finished the season with eight wins and four losses, so the Gators are going to a bowl game. Which bowl it is, and who they play, is announced on Sunday, December 6."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 34,
-        "opponentScore": 27,
-        "opponent": "Vanderbilt Commodores",
-        "date": "2026-11-21",
-        "utc": "2026-11-21T17:00Z"
+        "teamScore": 26,
+        "opponentScore": 10,
+        "opponent": "Florida State Seminoles",
+        "date": "2026-11-27",
+        "utc": "2026-11-27T20:30Z"
       },
       "news": [
+        {
+          "id": "347cfdb4c671",
+          "teamId": "florida",
+          "headline": "Florida beats Florida State 26-10",
+          "summary": "The Gators won Friday in Tallahassee to finish the regular season with eight wins and four losses. It is three wins in a row, and the third year in a row Florida has beaten Florida State.",
+          "date": "2026-11-27",
+          "source": "ESPN",
+          "url": "https://www.espn.com/college-football/recap?gameId=401856759"
+        },
+        {
+          "id": "84ea5c142ae2",
+          "teamId": "florida",
+          "headline": "Jadan Baugh runs for 1,000 yards again",
+          "summary": "Baugh ran for 77 yards and a touchdown against Florida State and finished the season with 1,057. He is the first Florida running back ever to run for 1,000 yards two years in a row.",
+          "date": "2026-11-27",
+          "source": "WPBF",
+          "url": "https://www.wpbf.com/article/jadan-baugh-helps-florida-beat-florida-state-26-10/74553104"
+        },
         {
           "id": "1c60b646ad2b",
           "teamId": "florida",
@@ -93,24 +99,6 @@
           "date": "2026-11-24",
           "source": "ESPN",
           "url": "https://www.espn.com/college-football/story/_/id/50586755/no-20-florida-shuts-wr-vernell-brown-season-ending-knee-surgery"
-        },
-        {
-          "id": "46d1a9fd00b3",
-          "teamId": "florida",
-          "headline": "Myles Graham is a defensive player of the week",
-          "summary": "The Southeastern Conference picked the Florida linebacker as one of its two best defenders of the week on Monday. He led the Gators with 10 tackles against Vanderbilt and ran a fumble back 57 yards for a touchdown.",
-          "date": "2026-11-23",
-          "source": "Florida Gators",
-          "url": "https://floridagators.com/news/2026/11/23/football-graham-tabbed-sec-co-defensive-player-of-the-week"
-        },
-        {
-          "id": "210e255d55e2",
-          "teamId": "florida",
-          "headline": "Florida moves up to 20th in the country",
-          "summary": "The new Associated Press poll came out Sunday and Florida is 20th, up from 23rd. The win over Vanderbilt moved the Gators up three spots.",
-          "date": "2026-11-22",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/college-football/news/college-football-rankings-ap-top-25-poll-week-13-ucla-indiana-texas/"
         }
       ]
     },
@@ -130,7 +118,7 @@
           "url": "",
           "note": "On YouTube TV"
         },
-        "note": "Saturday morning road game in Fayetteville, Arkansas. A quarter to twelve our time, on the SEC Network. It is the last game of the regular season, and the winner keeps the Golden Boot, the trophy these two teams play for every year. LSU has won six games and lost five after losing at Tennessee, and the Tigers have lost three in a row. Arkansas has won four games and lost seven."
+        "note": "Saturday morning road game in Fayetteville, Arkansas. A quarter to twelve our time, on the SEC Network. It is the last game of the regular season, and the winner keeps the Golden Boot, the trophy these two teams play for every year. LSU has won six games and lost five, and the Tigers have lost three in a row. Receiver Winston Watkins will not play. Arkansas has won four games and lost seven."
       },
       "lastGame": {
         "result": "L",
@@ -141,6 +129,15 @@
         "utc": "2026-11-21T20:30Z"
       },
       "news": [
+        {
+          "id": "71fe5acb0c5b",
+          "teamId": "lsu",
+          "headline": "Winston Watkins will not play at Arkansas",
+          "summary": "LSU's second-leading receiver was ruled out Friday night for Saturday's game. He has 41 catches this season, and the Tigers had trouble throwing the ball without him last week at Tennessee.",
+          "date": "2026-11-27",
+          "source": "Tiger Rag",
+          "url": "https://www.tigerrag.com/lsu-wide-receiver-winston-watkins-jr-ruled-out-vs-arkansas/"
+        },
         {
           "id": "342ad19201ef",
           "teamId": "lsu",
@@ -158,15 +155,6 @@
           "date": "2026-11-25",
           "source": "Fox 8 (WVUE)",
           "url": "https://www.fox8live.com/2026/11/25/lsu-files-motion-dismiss-sec-lawsuit/"
-        },
-        {
-          "id": "47f0b0592e8f",
-          "teamId": "lsu",
-          "headline": "Kiffin says LSU keeps coming apart in the fourth quarter",
-          "summary": "LSU has not scored a single point in the fourth quarter during its three straight losses. The coach said Monday that the problem starts with him, and that his team is thin because the same players stay on the field almost every snap.",
-          "date": "2026-11-23",
-          "source": "Louisiana Radio Network",
-          "url": "https://louisianaradionetwork.com/2026/11/23/49002/"
         }
       ]
     },
@@ -227,41 +215,40 @@
       ]
     },
     "brother-martin": {
-      "record": "8-3",
+      "record": "9-3",
       "nextGame": {
-        "homeAway": "home",
-        "opponent": "St. Augustine",
-        "date": "2026-11-27",
-        "time": "7:00 PM",
-        "venue": "Tad Gormley Stadium",
-        "city": "New Orleans, LA",
-        "note": "Quarterfinal of the state playoffs, Friday night at seven, at Tad Gormley Stadium in City Park. It is the field Brother Martin plays its home games on, so it is a short drive. Brother Martin has won eight games and lost three. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October."
+        "homeAway": "away",
+        "opponent": "Alexandria",
+        "date": "2026-12-04",
+        "venue": "Butch Stoker Stadium",
+        "city": "Alexandria, LA",
+        "note": "Semifinal of the state playoffs, Friday in Alexandria. The kickoff time has not been announced yet. It is a long drive — Alexandria is in the middle of the state, about three and a half hours from New Orleans. Brother Martin has won nine games and lost three after upsetting St. Augustine 28-27. Alexandria has won eleven games and lost one. The winner plays for the state title at the Superdome on Saturday, December 12, at noon."
       },
       "lastGame": {
         "result": "W",
-        "teamScore": 56,
-        "opponentScore": 9,
-        "opponent": "Bonnabel",
-        "date": "2026-11-20"
+        "teamScore": 28,
+        "opponentScore": 27,
+        "opponent": "St. Augustine",
+        "date": "2026-11-27"
       },
       "news": [
         {
-          "id": "01f491669987",
+          "id": "34a8727018d5",
           "teamId": "brother-martin",
-          "headline": "St. Augustine is next, Friday at Tad Gormley",
-          "summary": "Brother Martin plays St. Augustine in the quarterfinals at seven o'clock Friday night, on the same field in City Park. St. Augustine has won eleven games and lost none, and beat Brother Martin 49-35 in October.",
-          "date": "2026-11-21",
+          "headline": "Brother Martin upsets St. Augustine 28-27",
+          "summary": "The Crusaders beat the top-seeded Purple Knights on Friday night at Tad Gormley Stadium. St. Augustine scored late and went for two points to win instead of kicking the tie, and Brother Martin knocked the pass down.",
+          "date": "2026-11-27",
           "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+          "url": "https://crescentcitysports.com/royal-leads-brother-martin-to-upset-win-over-top-ranked-st-augustine/"
         },
         {
-          "id": "f192884abe40",
+          "id": "b0b2d7d1a14b",
           "teamId": "brother-martin",
-          "headline": "St. Augustine beat Holy Cross 47-7 to reach Friday",
-          "summary": "Brother Martin's opponent on Friday has won eleven games and lost none. St. Augustine won its last game 47-7 at the same stadium the two schools will play in.",
-          "date": "2026-11-21",
-          "source": "Crescent City Sports",
-          "url": "https://crescentcitysports.com/st-augustine-handles-holy-cross-to-reach-state-quarterfinals/"
+          "headline": "Easton Royal runs for 221 yards and three scores",
+          "summary": "Royal carried the ball 23 times against St. Augustine, including a 77-yard run that put Brother Martin ahead. The Crusaders are one win from playing for the state title.",
+          "date": "2026-11-27",
+          "source": "WGNO",
+          "url": "https://wgno.com/sports/fnf-quarterfinals-easton-royals-three-tds-lift-brother-martin-to-upset-st-aug-28-27/"
         },
         {
           "id": "80696463ac52",
